@@ -1,0 +1,27 @@
+# Python 与本机环境
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.venv-*/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+.idea/
+.vscode/
+.env
+.env.*
+!.env.example
+
+# 原始数据、派生数据、权重、运行结果和此前分析文件
+tmp/
+data/raw/*
+!data/raw/README.md
+data/processed/*
+!data/processed/README.md
+models/artifacts/*
+!models/artifacts/README.md
+outputs/*
+!outputs/README.md
