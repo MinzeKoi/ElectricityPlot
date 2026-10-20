@@ -1,6 +1,6 @@
-# 数据与结果契约草案 v0.1
+# 数据与结果契约 v2：M1/M2 工程接口
 
-状态：初始化设计，M1 数据审计后冻结。当前仅配置校验已实现，数据导入和预测接口尚未实现。时间字段统一为带时区时间，计算时转 UTC；界面显示时说明时区。
+状态：M1 数据接口及 M2 基线训练、预测和评价接口已实现；正式多户实验与适配算法尚未冻结。时间字段持久化为 UTC ISO 8601（以 Z 结尾），区间均为左闭右开 `[start,end)`。
 
 ## 1. 规范化总表
 
@@ -10,8 +10,13 @@
 | timestamp | datetime | 带时区时间戳 |
 | aggregate_power_w | number / null | 总有功功率 W；缺失保留 null，不填 0 冒充关闭 |
 | quality_flags | string[] | 缺失、重复、异常、插值或不支持输入等标记 |
+| coverage | number | 当前 8 秒区间内有效观测所覆盖的时间比例，范围 0–1 |
 
 不得把累计 kWh 读数直接当 W。重采样使用明确时间区间、均值/能量口径及覆盖率；不能简单抽取每 N 点替代区间平均。缺口不假定整段功率不变并生成未经说明的电量。
+
+当前实现：以 Unix 时间的 8 秒整数倍为区间边界；一次观测最多沿用到下一观测或 8 秒后，取较早者。不外推最后一个点，不插值。完整覆盖区间输出时间加权均值；部分覆盖区间功率留空，并保留 coverage。负数和非有限功率变为缺失并标记；非数字、时间倒序/重复、无时区用户时间或字段损坏直接失败。CSV 内 quality_flags 是 JSON 字符串数组，空数值单元格表示 null。仅积分完整有效区间，报告名称为 observed_energy_kwh，不推算整日耗电。
+
+REFIT 时间使用 Unix 列，避免对本地 Time 列的夏令时再做猜测。清洗版原有补值和清零无法撤销，所有记录保留 upstream_cleaned_missingness_unknown 提示。Issues=1 由分表和总表关系生成，因此只影响分表标签有效性，**不得用于筛选或标记模型可见的总表**。测试验证了修改分表答案及 Issues 不会改变导出的总表字节。
 
 首版只接受无光伏、无储能的适用家庭。大量负功率、时间倒序、单位不明或严重缺失均需拒绝或显式降级。
 
@@ -20,6 +25,21 @@
 分表标签包含 `household_id`、`timestamp`、`appliance_id`、`appliance_type`、`power_w` 和质量标记。标签与总表按数据源元数据对齐，通道不存在和通道缺失不能视为设备关闭。
 
 分表有独立访问边界：来源训练标签提供给训练模块；目标测试标签仅提供给评价模块。划分清单记录来源文件、哈希、通道映射、家庭、区间、间隔、隔离带和生成版本。
+
+`prepare-refit` 输出 `aggregate/house_<id>.csv`、`labels/house_<id>/<type>.csv`、`manifest.json`、`catalog.json` 和 `quality.html`。分表字段为 household_id、timestamp、appliance_id、appliance_type、power_w、coverage、quality_flags；设备标识同时包含原始通道。House 4 的两台洗衣机为明确标记的类型级合计，不当作单台设备。不存在的通道不生成全零标签。
+
+`freeze-protocol` 把输入放在 inputs/，来源标签放在 source_labels/，适配池分表放在 oracle_labels/，测试答案放在 evaluation_labels/。协议记录配置快照、包源码指纹、上游审计/计划/文件哈希、预算和随机种子。分区按完整区间复制，适配池与测试之间的隔离带至少为模型上下文和确认窗口的最大值。已有输出拒绝覆盖，失败时临时派生产物不发布为成功目录。
+
+调用 `virtual_submeter.data.protocol.read_partition(manifest_path, partition_id, consumer, include_labels=False)`：
+
+| consumer | 可访问分区 | 可读取分表 |
+|---|---|---|
+| training | source_train / source_validation | 是 |
+| selection / adaptation | target_adaptation | 否 |
+| inference | source_validation / frozen_test | 否 |
+| evaluation | source_validation / frozen_test | 是 |
+
+每次读取校验实际文件哈希。此接口防止合作模块误用答案，不是抵抗拥有本地文件权限者的操作系统安全隔离。M3 才实现离线标注代理；此阶段没有开放整池 oracle 读取接口。协议中 purpose=engineering_pilot_only 的样本仅用于工程验证；前缀或来源未校验的输入不能冻结为 final_evaluation。
 
 ## 3. 用户确认记录
 
@@ -32,6 +52,8 @@
 - 离线代理按冻结的训练协议从已查询片段生成弱标签，其余分表数据不向模型开放。
 - 选择策略只能使用当时可见的总表、预测、已确认标签及训练/验证阶段冻结的信息。
 
+`validate_confirmation` / `validate_confirmation_history` 校验上述固定字段、设备、窗口边界、适配池归属、标签来源、响应枚举及逐户连续预算。窗口必须恰为配置的 query_window_seconds，边界须与网格对齐；不确定和跳过同样占用一次预算。历史中 query_id 不得重复。当前只验证记录结构和预算，不生成用户回答、不推导功率、不实施模型适配。
+
 ## 4. 预测结果
 
 单次运行包含 `run_id`、数据/配置/代码/模型版本、输入区间与运行状态。逐时间输出每个目标设备的估计功率、状态或状态分数、未解释功率、质量标记和可选可信信息。
@@ -40,8 +62,27 @@
 
 电量使用功率与有效时间长度积分，单位 kWh；覆盖不足时报告覆盖率或不可用，不跨缺口补造完整日用电量。
 
+`models.prediction.predict(model_dir, output, manifest_path=None, partition_id=None, input_path=None)` 接受协议分区或规范化单户总表 CSV，二者互斥。预测仅调用 aggregate-only 访问；适配池用 selection 消费者，验证/测试用 inference 消费者。模型不存在、状态非 trained、权重哈希错误、协议不匹配或没有完整模型窗口时失败，不发布成功目录。
+
+M2 `predictions.json` 为 schema_version=1 的运行对象，包含模型/代码/协议/输入指纹、sample_interval_seconds、appliances 和 rows。每个 row 包含 household_id、timestamp、aggregate_power_w、appliances、unexplained_power_w、raw_excess_w、correction_method、quality_flags。每个设备子对象字段为：
+
+| 字段 | 语义 |
+|---|---|
+| raw_power_w / power_w | 非负原始估计 / 一致性修正估计，单位 W |
+| raw_state / state | 相应功率是否达到训练前配置的设备状态阈值 |
+| correction_w | 修正后减原始功率，M2 不向上摊满电量 |
+| confidence | 当前恒为 null；未实现校准或区间评价 |
+
+当整个中心窗口的总表无法完整取得时，该时点各设备功率与状态、剩余项均为 null，并标记 context_missing_or_boundary；不能标为 off。当前窗口 31 点 / 248 秒，使用未来上下文，只适用于离线分析。窗口不能跨分区、缺失或时间跳变，归一化和功率缩放统计只在来源训练窗口上计算。
+
+设备总和仅在超出总表时按比例缩小，记录原始超限和 correction_method=scale_down_only；不足时保留剩余项。数值一致性允许浮点舍入误差。M2 的这一处理是可追溯工程约束，不等于 M4 可信输出实验或未知电器识别已完成。另有宽表 predictions.csv、元数据 run.json 和独立离线 report.html。
+
+`models.training.train` 固定来源训练/验证家庭，验证归一化 MAE 选择 checkpoint；不会读取适配池或测试标签。模型导出包含 model.json、weights.pt（CNN）、配置/环境/训练历史/零查询记录，加载权重显式使用 weights_only=True 并核验 SHA-256。常量对照使用来源训练中心标签均值；零预测保留为单独对照。所有基线评价使用相同完整输入窗口，以便比较。
+
+`evaluation.runner.evaluate(prediction_dir, manifest_path, output)` 独立读取 source_validation 或 frozen_test 分表，拒绝适配池答案和删减过的预测时间轴。逐设备同时输出 raw / corrected 的 MAE、运行片段 MAE、Precision/Recall/F1、支持样本数、共同有效区间 kWh 误差及按 UTC 日归并的积分和覆盖率。无有效支持或无定义的指标为 null，不默认为满分。不存在除以零真值的电量百分比。评价覆盖率的分母是整个预测时间轴，设备关闭样本不代替运行片段指标。
+
 ## 5. 运行状态
 
 初始化、数据检查、训练、预测和实验评价为不同状态。模型或输入无效时返回具体原因，不能展示成功结论。模拟数据、真实数据、模拟确认和真实确认在运行记录与界面均要可区分。
 
-核心接口随 M1/M2 实现冻结。本文件当前不声称存在已可调用的模型服务。
+状态入口只报告能力与配置，不推断本机是否已有成功运行。训练/预测/评价产物分别标记 trained、complete、evaluated；Streamlit 在输入或模型失效、切换数据或分析失败后清除旧结果。模型和数据均不提交 Git；正式实验、M3 适配与 M4 校准仍需独立实现与验证。

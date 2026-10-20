@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "dataset": "REFIT_CLEANED",
+  "license": "CC-BY-4.0",
+  "record_url": "https://zenodo.org/records/5063428",
+  "channel_source": "https://pure.strath.ac.uk/ws/portalfiles/portal/62090183/CLEAN_READ_ME_081116.txt",
+  "citation": "Murray, Stankovic and Stankovic (2017), Scientific Data 4, 160122. doi:10.1038/sdata.2016.122",
+  "upstream_limitations": ["Upstream gaps were forward-filled or zeroed; original missingness is not recoverable.", "IAM spikes above 4000 W were replaced with zero upstream.", "Issues=1 means the sum of IAM channels exceeds aggregate power.", "Appliance identities describe monitored channels, not every appliance owned by a household."],
+  "households": {
+    "1": {"washing_machine": ["Appliance5"]},
+    "2": {"kettle": ["Appliance8"], "microwave": ["Appliance5"], "washing_machine": ["Appliance2"]},
+    "3": {"kettle": ["Appliance9"], "microwave": ["Appliance8"], "washing_machine": ["Appliance6"]},
+    "4": {"kettle": ["Appliance9"], "microwave": ["Appliance8"], "washing_machine": ["Appliance4", "Appliance5"]},
+    "5": {"kettle": ["Appliance8"], "microwave": ["Appliance7"], "washing_machine": ["Appliance3"]},
+    "11": {"kettle": ["Appliance7"], "microwave": ["Appliance6"], "washing_machine": ["Appliance3"]}
+  }
+}

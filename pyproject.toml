@@ -3,14 +3,18 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "virtual-submeter"
-version = "0.1.0"
-description = "Low-interaction, trustworthy virtual submetering research prototype"
+name = "ElectricityPlot"
+version = "0.3.0"
+description = "ElectricityPlot: low-interaction, trustworthy virtual submetering"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = []
 
+[project.optional-dependencies]
+m2 = ["numpy==2.3.4", "torch==2.9.0", "streamlit==1.50.0"]
+
 [project.scripts]
+electricityplot = "virtual_submeter.cli:main"
 virtual-submeter = "virtual_submeter.cli:main"
 
 [tool.setuptools.packages.find]

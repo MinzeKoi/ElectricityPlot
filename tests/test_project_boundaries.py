@@ -32,9 +32,10 @@ class ProjectBoundariesTest(unittest.TestCase):
             code = main(["status", "--config", str(ROOT / "configs/default.toml"), "--json"])
         result = json.loads(output.getvalue())
         self.assertEqual(code, 0)
-        self.assertEqual(result["stage"], "scaffold")
+        self.assertEqual(result["stage"], "m2_baseline")
+        self.assertEqual(result["project"], "ElectricityPlot")
         self.assertEqual(result["data_validation"], "not_run")
-        self.assertEqual(result["training"], "not_implemented")
+        self.assertEqual(result["training"], "available_not_run_by_status")
         self.assertEqual(result["experiments"], "not_run")
 
     def test_generation_storage_and_different_measurements_are_rejected(self):

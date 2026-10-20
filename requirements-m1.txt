@@ -1,0 +1,3 @@
+# ElectricityPlot M1: Python standard library only; no third-party runtime packages.
+# Verified on CPython 3.13.5 / Windows AMD64. Supported declaration: Python >=3.11.
+# M2 training dependencies are intentionally not frozen before both machines are audited.

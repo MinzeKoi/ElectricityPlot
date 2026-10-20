@@ -11,6 +11,7 @@
 ## 数据和基线
 
 - [REFIT 清洗数据](https://zenodo.org/records/5063428)：20 户，约 8 秒间隔，获取后审计实际通道、缺失和许可。
+- M1 核验（2026-10-20）：上述 Zenodo 记录实际仅列 6 户文件；[大学发布页](https://pureportal.strath.ac.uk/en/datasets/refit-electrical-load-measurements-cleaned/)和[清洗版通道说明](https://pure.strath.ac.uk/ws/portalfiles/portal/62090183/CLEAN_READ_ME_081116.txt)用于核对 CC BY 4.0、实际通道和补值限制。实际获取范围见 [M1 交接](M1_HANDOFF.md)，不把数据集总体规模当作本项目已下载规模。
 - [REFIT 数据论文](https://pmc.ncbi.nlm.nih.gov/articles/PMC5315495/)。
 - [UK-DALE 数据说明](https://www.nature.com/articles/sdata20157)。
 - [Seq2Point，AAAI 2018](https://ojs.aaai.org/index.php/aaai/article/view/11873)。

@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "protocol_id": "refit-prefix-m1-v1",
+  "purpose": "engineering_pilot_only",
+  "source_train": ["2"],
+  "source_validation": ["5"],
+  "target_households": ["3"],
+  "adaptation_fraction": 0.5,
+  "max_model_context_seconds": 3600,
+  "minimum_aggregate_coverage": 0.5,
+  "minimum_label_coverage": 0.5
+}

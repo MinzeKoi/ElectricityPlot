@@ -1,3 +1,3 @@
-"""Low-interaction virtual submetering project scaffold."""
+"""ElectricityPlot: low-interaction, trustworthy virtual submetering."""
 
-__version__ = "0.1.0"
+__version__ = "0.3.0"

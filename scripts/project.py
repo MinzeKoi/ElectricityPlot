@@ -1,4 +1,4 @@
-"""Run scaffold commands from a source checkout without installing packages."""
+"""Run ElectricityPlot commands from a source checkout without installation."""
 
 from pathlib import Path
 import sys
