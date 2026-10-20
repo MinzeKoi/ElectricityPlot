@@ -19,7 +19,7 @@ def _required(value, name):
 
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description="ElectricityPlot：数据、质量审计与实验协议")
-    parser.add_argument("command", choices=("status", "validate-config", "env-report", "download-refit", "prepare-refit", "prepare-aggregate", "audit-data", "freeze-protocol", "validate-confirmations", "train-baseline", "predict", "evaluate"), nargs="?", default="status")
+    parser.add_argument("command", choices=("status", "validate-config", "env-report", "download-refit", "prepare-refit", "prepare-aggregate", "audit-data", "freeze-protocol", "validate-confirmations", "train-baseline", "predict", "evaluate", "start-session", "next-query", "confirm-query", "simulate-confirmation", "adapt-model", "calibrate-output", "stress-test"), nargs="?", default="status")
     parser.add_argument("--config", type=Path, default=Path("configs/default.toml"))
     parser.add_argument("--json", action="store_true", help="输出结构化状态")
     parser.add_argument("--input", type=Path)
@@ -39,6 +39,15 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--model", type=Path)
     parser.add_argument("--partition")
     parser.add_argument("--prediction", type=Path)
+    parser.add_argument("--calibration", type=Path)
+    parser.add_argument("--trust-config", type=Path, default=Path("configs/m4_trust.json"))
+    parser.add_argument("--session", type=Path)
+    parser.add_argument("--adaptation-config", type=Path, default=Path("configs/m3_adaptation.json"))
+    parser.add_argument("--strategy", choices=("random", "uncertainty", "proposed"), default="proposed")
+    parser.add_argument("--budget", type=int, default=5)
+    parser.add_argument("--seed", type=int, default=42)
+    parser.add_argument("--query-id")
+    parser.add_argument("--response", choices=("used", "not_used", "unsure", "skipped"))
     args = parser.parse_args(argv)
     try:
         config = load_config(args.config)
@@ -51,12 +60,35 @@ def main(argv: list[str] | None = None) -> int:
 
     if args.command not in ("status", "validate-config"):
         try:
-            if args.command == "train-baseline":
+            if args.command == "calibrate-output":
+                from .trust.calibration import calibrate
+                result = calibrate(_required(args.model, "--model"), _required(args.manifest, "--manifest"), args.trust_config, _required(args.output, "--output"))
+            elif args.command == "stress-test":
+                from .evaluation.stress import stress_test
+                result = stress_test(_required(args.model, "--model"), _required(args.manifest, "--manifest"), _required(args.partition, "--partition"), args.trust_config, _required(args.output, "--output"), args.calibration)
+            elif args.command in ("start-session", "next-query", "confirm-query", "simulate-confirmation", "adapt-model"):
+                from .adaptation.session import create_session, select_next, confirm
+                if args.command == "start-session":
+                    result = create_session(_required(args.model, "--model"), _required(args.manifest, "--manifest"),
+                                            _required(args.partition, "--partition"), _required(args.output, "--output"),
+                                            args.adaptation_config, args.budget, args.strategy, args.seed)
+                elif args.command == "next-query":
+                    result = {"query": select_next(_required(args.session, "--session"))}
+                elif args.command == "confirm-query":
+                    result = confirm(_required(args.session, "--session"), _required(args.query_id, "--query-id"), _required(args.response, "--response"))
+                elif args.command == "simulate-confirmation":
+                    from .data.oracle import answer_pending
+                    directory = _required(args.session, "--session")
+                    result = confirm(directory, **answer_pending(directory))
+                else:
+                    from .adaptation.training import adapt
+                    result = adapt(_required(args.session, "--session"), _required(args.output, "--output"))
+            elif args.command == "train-baseline":
                 from .models.training import train
                 result = train(_required(args.manifest, "--manifest"), args.training_config, _required(args.output, "--output"), args.model_kind, args.appliances)
             elif args.command == "predict":
                 from .models.prediction import predict
-                result = predict(_required(args.model, "--model"), _required(args.output, "--output"), args.manifest, args.partition, args.input)
+                result = predict(_required(args.model, "--model"), _required(args.output, "--output"), args.manifest, args.partition, args.input, args.calibration)
             elif args.command == "evaluate":
                 from .evaluation.runner import evaluate
                 result = evaluate(_required(args.prediction, "--prediction"), _required(args.manifest, "--manifest"), _required(args.output, "--output"))
@@ -117,14 +149,14 @@ def main(argv: list[str] | None = None) -> int:
         "status": "configuration_valid",
         "project": config.name,
         "version": __version__,
-        "stage": "m2_baseline",
+        "stage": "m4_trustworthy_output",
         "dataset_candidate": config.dataset,
         "target_appliances": list(config.target_appliances),
         "query_budgets": list(config.query_budgets),
         "data_validation": "not_run",
         "training": "available_not_run_by_status",
         "experiments": "not_run",
-        "notice": "本状态命令仅检查配置，不读取运行成绩。M2 可使用 train-baseline、predict、evaluate；状态不代表已有模型或有效预测。",
+        "notice": "本状态命令仅检查配置，不读取运行成绩。M4 可使用 calibrate-output、predict --calibration、stress-test；状态不代表已有模型或实验结果。",
     }
     if args.json:
         print(json.dumps(payload, ensure_ascii=False, indent=2))
@@ -132,7 +164,7 @@ def main(argv: list[str] | None = None) -> int:
         print("配置结构检查通过。" + payload["notice"])
     else:
         print(config.name)
-        print(f"阶段：M2 基线闭环 {__version__}")
+        print(f"阶段：M4 可信输出 {__version__}")
         print(f"候选数据：{config.dataset}；暂定设备：{', '.join(config.target_appliances)}")
         print(payload["notice"])
     return 0

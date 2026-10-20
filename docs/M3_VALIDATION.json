@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "project": "ElectricityPlot",
+  "milestone": "M3",
+  "date": "2026-10-20",
+  "engineering_status": "implemented_and_synthetic_verified",
+  "real_refit_validation": "not_run_missing_data_weights_dependencies_network_restricted",
+  "cnn_runtime_validation": "not_run_missing_pytorch",
+  "streamlit_runtime_validation": "not_run_missing_streamlit",
+  "tests": {
+    "tests_run": 68,
+    "passed": 54,
+    "skipped": 14,
+    "failures": 0,
+    "errors": 0,
+    "successful": true,
+    "source_sha256": "dcca0744406b189aaa2a100b4ff64da7a3523cdd75672dd8de42180e5a57d97f",
+    "python": "3.14.3",
+    "numpy": "2.5.2",
+    "torch_available": false,
+    "streamlit_available": false,
+    "skip_reasons": [
+      "Install M2 CPU dependencies to run training tests"
+    ]
+  },
+  "synthetic_comparison": {
+    "data_kind": "synthetic_contract_fixture",
+    "real_refit": false,
+    "real_user_study": false,
+    "cases": 36,
+    "query_answers_across_cases": 315,
+    "status": "m3_artifacts_verified",
+    "purpose": "engineering_pilot_only",
+    "power_output_frozen": true,
+    "test_labels_reopened": false,
+    "budgets": [
+      0,
+      5,
+      10,
+      20
+    ],
+    "seeds": [
+      42,
+      1019,
+      2026
+    ],
+    "strategies": [
+      "random",
+      "uncertainty",
+      "proposed"
+    ],
+    "all_models_frozen_before_test_evaluation": true,
+    "state_only_adaptation": true
+  },
+  "evidence": {
+    "run": "outputs/m3-20261020-synthetic-verified/comparison/run.json",
+    "run_sha256": "08752d2df2dec90b05f54d3131d0f4814419e6c874727290c6a64158474edcfe",
+    "verification": "outputs/m3-20261020-synthetic-verified/verification.json",
+    "tests": "outputs/m3-validation-verified/tests.json",
+    "tests_log": "outputs/m3-validation-verified/tests.log",
+    "settings": "configs/m3_adaptation.json",
+    "settings_sha256": "c217115e4ab331587dd8dca065c87c2f6d23fe6c12b3e3c42b1a0711732b31eb"
+  },
+  "notice": "Synthetic contract results only. No real REFIT performance or real-user usability claim. Failed attempts remain recorded under their own output directories."
+}

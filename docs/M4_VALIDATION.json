@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "milestone": "M4",
+  "date": "2026-10-20",
+  "engineering_status": "implemented_real_prefix_cnn_and_streamlit_verified",
+  "tests": {
+    "tests_run": 85,
+    "passed": 85,
+    "skipped": 0,
+    "failures": 0,
+    "errors": 0,
+    "m4_tests": 17,
+    "m4_passed": 17,
+    "successful": true,
+    "elapsed_seconds": 54.988,
+    "source_sha256": "1a60a07a53fb19193d7d32e189e61ee23e9aa49dedf1fb42d10768c60b6fbaba"
+  },
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.4",
+    "torch": "2.9.0+cpu",
+    "streamlit": "1.50.0",
+    "lock": "requirements-m4-cpu.lock",
+    "lock_sha256": "23c38a69ab45a932a660b0492e7415ac5d36d40f3f72fb1547d360798e661be4",
+    "independent_machine": "not_run"
+  },
+  "real_refit_validation": "single_target_prefix_baseline_and_5_confirmation_state_model_complete",
+  "cnn_runtime_validation": "complete",
+  "streamlit_runtime_validation": "complete_AppTest_and_live_browser",
+  "html_visual_validation": "exported_file_not_opened_browser_file_protocol_blocked",
+  "live_ui_visual_validation": "complete_real_CNN_curves_UTC_axis_residual_quality_flags",
+  "runs": {
+    "unadapted": {
+      "run": "outputs/m4-20261020-real-verified/run.json",
+      "run_sha256": "b9d1b8e3bb34c74e7a4af15802fe9e5f6c59b875792b7a6ee858e1b6074238b5",
+      "verification": {
+        "status": "m4_artifacts_verified",
+        "files_checked": 18,
+        "partition_id": "frozen_test_house_3",
+        "source_code_matches_current": true,
+        "test_labels_reopened": false,
+        "notice": "Synthetic additional background only; not a collected unknown appliance or real fault. Target submeter labels are unchanged. Unexplained power is not unknown-device ground truth."
+      },
+      "purpose": "engineering_pilot_only",
+      "data_kind": "dataset_measurements"
+    },
+    "adapted_5_simulated_confirmations": {
+      "run": "outputs/m4-20261020-real-adapted-verified/run.json",
+      "run_sha256": "b9d1b8e3bb34c74e7a4af15802fe9e5f6c59b875792b7a6ee858e1b6074238b5",
+      "verification": {
+        "status": "m4_artifacts_verified",
+        "files_checked": 18,
+        "partition_id": "frozen_test_house_3",
+        "source_code_matches_current": true,
+        "test_labels_reopened": false,
+        "notice": "Synthetic additional background only; not a collected unknown appliance or real fault. Target submeter labels are unchanged. Unexplained power is not unknown-device ground truth."
+      },
+      "purpose": "engineering_pilot_only",
+      "data_kind": "dataset_measurements"
+    }
+  },
+  "previous_synthetic_validation": "outputs/m4-validation-20261020-real/previous-synthetic-validation.json",
+  "evidence": {
+    "tests": "outputs/m4-validation-20261020-real/tests.json",
+    "tests_sha256": "d7cc3ba1303a9df967a51f96908283e2e4e3d62e663e8ca5ec4fc0167e843a82",
+    "tests_log": "outputs/m4-validation-20261020-real/tests.log",
+    "tests_log_sha256": "29527917ab35cefd76cae738a5c8ff82214ad38a6888bf8b32ca350df8d34eb4",
+    "results": "docs/M4_RESULTS.json",
+    "results_sha256": "af26bad6878cdefce489f385c5cbaf9ce7056455e1a05f1de38ec86fc5053eb9",
+    "ui_screenshot": "outputs/m4-validation-20261020-real/ui-utc.jpg",
+    "ui_screenshot_sha256": "3a5a748b8637074c22dcf0c2b77d77438a0747c5c82bf16ad9f8aa96c9bc9af6"
+  },
+  "formal_multi_house_validation": "not_run",
+  "independent_member_reproduction": "not_run",
+  "trust_effectiveness": "not_demonstrated_background_misattribution_and_undercoverage",
+  "notice": "Single target household, one seed, real prefixes and simulated confirmations only. Preserve negative results: substantial background misattribution and target coverage below the nominal source interval level. Not a final multi-house benchmark or real user study."
+}

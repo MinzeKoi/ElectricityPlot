@@ -1,0 +1,88 @@
+{
+  "date": "2026-10-20",
+  "milestone": "M5",
+  "engineering_implemented": true,
+  "formal_acceptance": false,
+  "code_sha256": "77c91d0a0939a841fe806fcaa6ba23a52f23983c357d1fddbefe1764ed3e9369",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.4",
+    "torch": "2.9.0+cpu",
+    "streamlit": "1.50.0",
+    "lock": "requirements-m4-cpu.lock",
+    "second_machine": "not_measured"
+  },
+  "tests": {
+    "tests": 91,
+    "seconds": 134.011,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "runs": {
+    "real": {
+      "path": "outputs/m5-20261020-real",
+      "verification": {
+        "status": "m5_artifacts_verified",
+        "phase": "evaluated",
+        "cases": 42,
+        "source_code_matches_current": true,
+        "test_labels_reopened": false,
+        "independent_member_reproduction": "not_attested"
+      },
+      "freeze_sha256": "939473a4723289be6faa6d77f927939f7ab7a4bdf99ccc562cb1e9d28b24a7fd",
+      "evidence_sha256": "158037c41a2b13697fc3a84b8c1e5bbc718ecb2a267dbece90ee5e6e2e27456d",
+      "summary_sha256": "b6950bbfa280df45f076ad67e4511c739db984084ecfdfeb3525ddc740f36a90",
+      "freeze_seconds": 734.2813568999991,
+      "evaluation_seconds": 225.4512582999996
+    },
+    "synthetic": {
+      "path": "outputs/m5-20261020-synthetic/run",
+      "verification": {
+        "status": "m5_artifacts_verified",
+        "phase": "evaluated",
+        "cases": 126,
+        "source_code_matches_current": true,
+        "test_labels_reopened": false,
+        "independent_member_reproduction": "not_attested"
+      },
+      "freeze_sha256": "c58c4595f1412233b2be9983c637f71983e1f099fbebf84d2dc57c3c528b0a9f",
+      "evidence_sha256": "affb0baf63402e6e5a2df16d33b58e8bbf80337039babf57d9f5f51ee4b829d3",
+      "summary_sha256": "5c5106337044524e5add667fafdd1da7dd4978db0f790fead22ab8bc0712c705",
+      "freeze_seconds": 240.485932399999,
+      "evaluation_seconds": 41.32144269999844
+    },
+    "real_key_rerun": {
+      "path": "outputs/m5-20261020-real-repeat",
+      "verification": {
+        "status": "m5_artifacts_verified",
+        "phase": "evaluated",
+        "cases": 8,
+        "source_code_matches_current": true,
+        "test_labels_reopened": false,
+        "independent_member_reproduction": "not_attested"
+      },
+      "freeze_sha256": "2bebbdfd5bdea592b825a38a4498104f40927eefb2d82338d231b99c3dc499fe",
+      "evidence_sha256": "2446568546ed27fc7640c338dc972aaea0f2179d8ad8ee868f9bd585518c0560",
+      "summary_sha256": "c8cf8bfe8041c221f9b3c1ce2d8562bd38247ea602c14e04870fece32d11ac87",
+      "freeze_seconds": 81.11245380000037,
+      "evaluation_seconds": 45.53466560000015
+    }
+  },
+  "key_reproduction": {
+    "status": "matched",
+    "scope": "Real same-machine seed 42, budgets 0 and 5; all eight physical cases rerun from source training.",
+    "cases": 8,
+    "differences": [],
+    "tolerance": 1e-09,
+    "same_machine": true,
+    "independent_member": false
+  },
+  "limitations": [
+    "Real run has one target household and previously inspected prefix tests; not final blind evaluation.",
+    "Synthetic run has three target homes; not real REFIT or real-user evidence.",
+    "No independent member or second-machine reproduction attestation.",
+    "No automatic algorithm-superiority or cross-house interval-coverage claim.",
+    "Validation jobs overlapped on this machine; timings are observed costs, not a controlled performance benchmark."
+  ]
+}

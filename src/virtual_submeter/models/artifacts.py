@@ -13,6 +13,12 @@ def load_model(directory: Path):
     appliances = metadata.get("appliances", [])
     if not appliances or len(set(appliances)) != len(appliances):
         raise DataError("Invalid model appliance list")
+    if metadata.get("state_adapter"):
+        from ..adaptation.state import validate_head
+        validate_head(metadata["state_adapter"], appliances)
+    if metadata.get("adaptation") == "weak_window_state_only":
+        if sha256(directory / "queries.json") != metadata["queries_sha256"]:
+            raise DataError("Adaptation query history hash mismatch")
     if metadata["kind"] in ("constant_mean", "zero"):
         values = np.asarray(metadata["constant_power_w"], dtype=np.float32)
         if values.shape != (len(appliances),) or not np.isfinite(values).all() or (values < 0).any():

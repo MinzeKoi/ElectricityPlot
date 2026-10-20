@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "interval_level": 0.9,
+  "minimum_samples": 20,
+  "stress": {
+    "power_w": 1500,
+    "period_samples": 40,
+    "duration_samples": 10,
+    "offset_samples": 10
+  }
+}

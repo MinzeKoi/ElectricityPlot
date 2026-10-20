@@ -109,7 +109,8 @@ def freeze(prepared: Path, plan_path: Path, output: Path, config: ProjectConfig)
         write_json(staging / "protocol.json", result)
         # Keep the exact source bytes: the stored fingerprint includes whitespace.
         (staging / "plan.json").write_bytes(plan_path.read_bytes())
-        staging.rename(output)
+        from .common import publish_directory
+        publish_directory(staging, output)
     return {"status": "protocol_frozen", "purpose": plan["purpose"], "manifest": str(output / "protocol.json"), "partitions": len(assignments)}
 
 
@@ -122,6 +123,7 @@ def read_partition(manifest_path: Path, partition_id: str, consumer: str, includ
     partition = partitions[0]
     allowed = {
         "training": {"source_train", "source_validation"},
+        "calibration": {"source_validation"},
         "selection": {"target_adaptation"},
         "adaptation": {"target_adaptation"},
         "inference": {"source_validation", "frozen_test"},
@@ -129,7 +131,7 @@ def read_partition(manifest_path: Path, partition_id: str, consumer: str, includ
     }
     if partition["role"] not in allowed.get(consumer, set()):
         raise DataError(f"{consumer} cannot access {partition['role']}")
-    if include_labels and consumer not in ("training", "evaluation"):
+    if include_labels and consumer not in ("training", "calibration", "evaluation"):
         raise DataError("Selection, adaptation and inference cannot request submeter labels")
     result = {}
     for channel, artifact in partition["artifacts"].items():

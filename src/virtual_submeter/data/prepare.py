@@ -225,5 +225,6 @@ def prepare(inputs: dict[str, Path], output: Path, catalog: Path, interval: int 
             write_json(staging / "catalog.json", mapping)
         from .quality import render_quality
         render_quality(manifest, staging / "quality.html")
-        staging.rename(output)
+        from .common import publish_directory
+        publish_directory(staging, output)
     return {"status": "data_prepared", "manifest": str(output / "manifest.json"), "households": list(inputs)}

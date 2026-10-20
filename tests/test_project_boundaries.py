@@ -32,7 +32,7 @@ class ProjectBoundariesTest(unittest.TestCase):
             code = main(["status", "--config", str(ROOT / "configs/default.toml"), "--json"])
         result = json.loads(output.getvalue())
         self.assertEqual(code, 0)
-        self.assertEqual(result["stage"], "m2_baseline")
+        self.assertEqual(result["stage"], "m4_trustworthy_output")
         self.assertEqual(result["project"], "ElectricityPlot")
         self.assertEqual(result["data_validation"], "not_run")
         self.assertEqual(result["training"], "available_not_run_by_status")

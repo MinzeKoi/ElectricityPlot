@@ -3,6 +3,8 @@
 from datetime import datetime, timezone
 import hashlib
 import json
+import sys
+import time
 from pathlib import Path
 
 
@@ -61,3 +63,23 @@ def safe_child(root: Path, relative: str) -> Path:
     if not target.is_relative_to(root.resolve()):
         raise DataError("Artifact path escapes its manifest directory")
     return target
+
+
+def publish_directory(staging: Path, output: Path) -> None:
+    """Publish a sibling staging tree; retry transient Windows sharing errors.
+
+    Never fall back to a partial copy or overwrite an existing run. A permanent
+    permission failure is still raised and handled as a failed operation.
+    """
+    if not staging.resolve().is_relative_to(output.parent.resolve()):
+        raise DataError("Staging tree must be inside the declared destination parent")
+    for attempt in range(6):
+        if output.exists():
+            raise DataError("Destination already exists; previous artifacts are immutable")
+        try:
+            staging.rename(output)
+            return
+        except PermissionError:
+            if sys.platform != "win32" or attempt == 5:
+                raise
+            time.sleep(0.05 * (attempt + 1))

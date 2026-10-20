@@ -13,9 +13,13 @@ from ..data.common import DataError, iso, read_json, sha256, source_fingerprint,
 from ..data.protocol import read_partition
 from .arrays import aggregate_arrays, windows
 from .artifacts import load_model
+from ..trust.calibration import apply_intervals, load_calibration, METHOD
+from ..trust.output import reconcile, validate_output, quality_summary
 
 
-def predict_rows(metadata: dict, model, rows: list[dict]) -> list[dict]:
+def predict_rows(metadata: dict, model, rows: list[dict], calibration: dict | None = None) -> list[dict]:
+    if metadata.get("adaptation_household_id") and any(row["household_id"] != metadata["adaptation_household_id"] for row in rows):
+        raise DataError("Adapted state head belongs to a different household")
     interval = metadata["sample_interval_seconds"]
     stamps, aggregate = aggregate_arrays(rows, interval)
     settings = metadata["settings"]
@@ -44,8 +48,8 @@ def predict_rows(metadata: dict, model, rows: list[dict]) -> list[dict]:
             flags.add("context_missing_or_boundary")
         if total is None:
             flags.add("aggregate_missing")
-        raw_sum = float(powers[index].sum()) if valid else None
-        factor = min(1.0, total / raw_sum) if valid and raw_sum > 0 else 1.0
+        raw_sum = sum(powers[index].astype(float).tolist()) if valid else None
+        _, factor = reconcile(total, powers[index].astype(float).tolist()) if valid else ([], 1.0)
         if factor < 1:
             flags.add("sum_exceeded_aggregate_scaled_down")
         item = {
@@ -68,13 +72,19 @@ def predict_rows(metadata: dict, model, rows: list[dict]) -> list[dict]:
                 "confidence": None,
             }
         result.append(item)
+    if metadata.get("state_adapter"):
+        from ..adaptation.state import apply_head
+        apply_head(result, metadata)
+    apply_intervals(result, calibration)
     return result
 
 
 def write_prediction_csv(path: Path, payload: dict) -> None:
     fields = ["household_id", "timestamp", "aggregate_power_w"]
     for appliance in payload["appliances"]:
-        fields.extend(f"{appliance}_{key}" for key in ("raw_power_w", "power_w", "raw_state", "state", "correction_w", "confidence"))
+        fields.extend(f"{appliance}_{key}" for key in ("raw_power_w", "power_w", "raw_state", "state", "correction_w", "confidence", "raw_lower_w", "raw_upper_w", "lower_w", "upper_w"))
+        if payload.get("adaptation") == "weak_window_state_only":
+            fields.append(f"{appliance}_state_score")
     fields.extend(["unexplained_power_w", "raw_excess_w", "correction_method", "quality_flags"])
     with path.open("w", encoding="utf-8", newline="") as stream:
         writer = csv.DictWriter(stream, fieldnames=fields)
@@ -87,13 +97,14 @@ def write_prediction_csv(path: Path, payload: dict) -> None:
             writer.writerow(flat)
 
 
-def predict(model_dir: Path, output: Path, manifest_path: Path | None = None, partition_id: str | None = None, input_path: Path | None = None) -> dict:
+def predict(model_dir: Path, output: Path, manifest_path: Path | None = None, partition_id: str | None = None, input_path: Path | None = None, calibration_dir: Path | None = None) -> dict:
     started = time.perf_counter()
     if output.exists():
         raise DataError("Prediction destination exists; choose a new run directory")
     if (input_path is not None) == (manifest_path is not None):
         raise DataError("Choose a normalized input CSV or a protocol partition, exclusively")
     metadata, model = load_model(model_dir)
+    calibration = load_calibration(calibration_dir, metadata) if calibration_dir is not None else None
     protocol = None
     if manifest_path is not None:
         protocol = read_json(manifest_path)
@@ -109,7 +120,7 @@ def predict(model_dir: Path, output: Path, manifest_path: Path | None = None, pa
         with input_path.open(encoding="utf-8-sig", newline="") as stream:
             rows = list(csv.DictReader(stream))
         input_hash = sha256(input_path)
-    predictions = predict_rows(metadata, model, rows)
+    predictions = predict_rows(metadata, model, rows, calibration)
     payload = {
         "schema_version": 1, "status": "complete", "run_id": output.name, "project": "ElectricityPlot",
         "created_at": datetime.now(timezone.utc).isoformat(), "model_id": metadata["model_id"],
@@ -118,19 +129,34 @@ def predict(model_dir: Path, output: Path, manifest_path: Path | None = None, pa
         "protocol_sha256": sha256(manifest_path) if manifest_path else None,
         "partition_id": partition_id if manifest_path else None,
         "purpose": protocol["purpose"] if protocol else "user_import_no_ground_truth",
+        "data_kind": protocol.get("data_kind", "dataset_measurements") if protocol else "user_import",
+        "model_data_kind": metadata.get("data_kind", "dataset_measurements"),
         "input_sha256": input_hash, "sample_interval_seconds": metadata["sample_interval_seconds"],
         "appliances": metadata["appliances"], "upstream_limitations": metadata["upstream_limitations"],
-        "inference_seconds": time.perf_counter() - started, "confidence_method": None,
+        "inference_seconds": time.perf_counter() - started, "confidence_method": METHOD if calibration else None,
+        "calibration": {"sha256": sha256(calibration_dir / "calibration.json"),
+                        "interval_level": calibration["interval_level"], "notice": calibration["notice"],
+                        "validation_partitions": calibration["validation_partitions"],
+                        "coverage_guarantee": False} if calibration else None,
+        "adaptation": metadata.get("adaptation", "none"), "state_definition": metadata["state_definition"],
+        "query_summary": metadata.get("query_summary", {"budget_used": 0}),
+        "base_model_id": metadata.get("base_model_id"),
         "rows": predictions,
     }
+    validate_output(payload)
+    payload["quality_summary"] = quality_summary(payload)
     output.parent.mkdir(parents=True, exist_ok=True)
     with tempfile.TemporaryDirectory(prefix=".predict-", dir=output.parent) as temporary:
         staging = Path(temporary) / "run"
         staging.mkdir()
         write_json(staging / "predictions.json", payload)
+        if calibration_dir is not None:
+            (staging / "calibration.json").write_bytes((calibration_dir / "calibration.json").read_bytes())
         write_prediction_csv(staging / "predictions.csv", payload)
-        write_json(staging / "run.json", {key: value for key, value in payload.items() if key != "rows"})
         from ..reporting.html import render_report
         render_report(payload, staging / "report.html")
-        staging.rename(output)
+        from ..app.results import write_result_manifest
+        write_result_manifest(staging, payload)
+        from ..data.common import publish_directory
+        publish_directory(staging, output)
     return {"status": "prediction_complete", "run_id": output.name, "rows": len(predictions), "model_id": metadata["model_id"], "report": str(output / "report.html")}

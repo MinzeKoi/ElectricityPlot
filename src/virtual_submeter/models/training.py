@@ -71,6 +71,7 @@ def train(manifest_path: Path, settings_path: Path, output: Path, kind="small_se
         "created_at": datetime.now(timezone.utc).isoformat(), "appliances": appliances,
         "settings": settings, "sample_interval_seconds": interval,
         "protocol_sha256": sha256(manifest_path), "protocol_id": protocol["protocol_id"], "purpose": protocol["purpose"],
+        "data_kind": protocol.get("data_kind", "dataset_measurements"),
         "code_sha256": source_fingerprint(), "settings_sha256": sha256(settings_path),
         "input_log_mean": mean, "input_log_std": std, "power_scales_w": scales.tolist(),
         "source_train_windows": train_counts, "source_validation_windows": valid_counts,
@@ -147,6 +148,7 @@ def train(manifest_path: Path, settings_path: Path, output: Path, kind="small_se
         write_json(staging / "environment.json", environment)
         (staging / "protocol.json").write_bytes(manifest_path.read_bytes())
         write_json(staging / "queries.json", {"records": [], "budget_used": 0})
-        staging.rename(output)
+        from ..data.common import publish_directory
+        publish_directory(staging, output)
     return {"status": "baseline_trained", "model_id": metadata["model_id"], "model_dir": str(output),
             "purpose": protocol["purpose"], "validation_normalized_mae": metadata["validation_normalized_mae"]}

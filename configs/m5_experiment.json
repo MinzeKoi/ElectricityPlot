@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "mode": "pilot",
+  "backbone": "small_seq2point",
+  "budgets": [0, 5, 10, 20],
+  "seeds": [42, 1019, 2026],
+  "background_stress": true,
+  "test_history": "previously_evaluated",
+  "test_history_note": "House 3 prefix test results were inspected in M2 and M4. This run is engineering validation, not a fresh final evaluation."
+}

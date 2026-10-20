@@ -2,9 +2,11 @@
 
 低交互可信虚拟分表系统
 
+本机启动、报告查看和 M5 复跑命令见 [运行方式](运行方式.md)。
+
 从家庭总功率曲线估计目标电器的功率与电量，通过少量用户确认适配新家庭，并保留无法可靠解释的耗电。
 
-当前处于 **M2 基线闭环阶段**：已完成单设备到三设备的轻量时序模型训练、常量/零预测对照、未见家庭上的真实预测与评价，以及 Streamlit 导入、回放和报告下载。当前结果来自真实 REFIT 前缀、单目标家庭和单个种子的工程试运行；正式三目标家庭协议与双机环境仍待完成。初始时序模型的全时段 MAE 尚未优于简单对照，不能宣称算法优势。
+当前已完成 **M5 冻结实验工程与本机验证**：B0–P2、三种子/四预算、冻结后评价、报告导出及复跑核对已实现。真实 REFIT 前缀的单目标家庭 42 个案例、合成三目标家庭 126 个案例均通过复核，完整环境 91 项测试通过。当前结果未证明拟议策略稳定优于基线，背景误归因与区间覆盖不足仍然存在。正式实测多户盲测和独立成员/双机复跑仍待完成，证据见 [M5 交接](docs/M5_HANDOFF.md)。
 
 ## 第一版范围
 
@@ -86,6 +88,79 @@ python -m venv .venv-m2
 `train-baseline --appliances kettle` 可跑单设备；`--model-kind constant_mean` / `zero` 可跑简单对照。`predict --input <规范化总表.csv>` 支持无分表答案的新家庭；原始用户 CSV 先通过 `prepare-aggregate` 导入。配置固定在 `configs/m2_baseline.json`，训练和早停选择均不读取目标家庭答案。
 
 交接与实际指标见 [M2_HANDOFF.md](docs/M2_HANDOFF.md) 和 [M2_RESULTS.json](docs/M2_RESULTS.json)。缺失区间不补零，可信度返回缺失；电量指标仅在共同有效区间积分。初始模型误报较多，状态 F1、全时段 MAE、运行片段 MAE 和覆盖率需一并阅读。
+
+## M3 确认与适配
+
+先准备 M1 协议和 M2 基线模型；M3 沿用 M2 环境，不新增训练依赖。窗口回答仅训练独立状态头，功率、电量和未解释负荷保持基线输出。默认预算为 0/5/10/20，比较随机、仅不确定性、组合选片三个策略及三个冻结种子。
+
+批量模拟确认会明确记录 `simulated_from_submeter`，且先冻结全部模型再读取测试答案：
+
+```powershell
+python scripts/run_m3.py --model outputs/my-m2/seq2point --output outputs/my-m3
+python scripts/verify_m3.py --run outputs/my-m3
+```
+
+人工确认支持断点续答：
+
+```powershell
+python scripts/project.py start-session --model outputs/my-m2/seq2point --manifest data/processed/refit_m1_protocol/protocol.json --partition target_adaptation_house_3 --budget 5 --strategy proposed --seed 42 --output outputs/my-session
+python scripts/project.py next-query --session outputs/my-session
+python scripts/project.py confirm-query --session outputs/my-session --query-id QUERY_ID --response used
+python scripts/project.py adapt-model --session outputs/my-session --output outputs/my-adapted-model
+```
+
+将 `QUERY_ID` 替换为实际返回值。回答可以是 `used/not_used/unsure/skipped`，每个回答都消耗一次预算。没有待回答问题时可生成新模型版本，已有模型不覆盖。界面选择目标适配历史区间后可新建/加载会话、回答问题、生成适配模型并比较前后结果。完整说明与未验证项见 [M3_HANDOFF.md](docs/M3_HANDOFF.md)。
+
+## M4 可信输出与背景压力测试
+
+本次独立 CPU 验收环境为 CPython 3.12.14、NumPy 2.3.4、PyTorch 2.9.0+cpu、Streamlit 1.50.0，完整版本见 `requirements-m4-cpu.lock`。在 Python 3.12 的新虚拟环境安装该锁文件可复跑；它与 M2 的 Python 3.13 环境分别记录，不宣称第二台机器已验证。
+
+M4 分别保留设备原始功率、向下修正功率、修正幅度和未解释部分；不会摊满总表。可选区间使用来源验证残差的经验分位数，原始和修正输出分别估计。来源验证也参与过模型选择，因此区间没有跨家庭覆盖保证，`confidence` 仍为 null。设置见 `configs/m4_trust.json`。
+
+已有真实协议和基线后，一次运行来源校准、固定背景注入、成对预测、评价和产物复核：
+
+```powershell
+python scripts/run_m4.py --model outputs/my-m2/seq2point --manifest data/processed/refit_m1_protocol/protocol.json --partition frozen_test_house_3 --output outputs/my-m4
+python scripts/verify_m4.py --run outputs/my-m4
+```
+
+可加 `--prediction-model outputs/my-adapted-model`，仅允许与基线功率主干相同的 M3 状态适配模型复用区间。报告在 `outputs/my-m4/stress/report.html`，包含有/无背景事件的误差、错误激活、原始超限率、修正幅度、归因比例和“全部留作未解释”对照。注入是明确标记的合成敏感性实验，不是现场未知设备识别；两个预测保存后才打开测试分表。
+
+只需标准库和 NumPy 的独立合成演示（不下载 REFIT，不依赖 PyTorch/Streamlit）：
+
+```powershell
+python scripts/run_m4_synthetic.py --output outputs/my-m4-demo
+python scripts/verify_m4.py --run outputs/my-m4-demo
+```
+
+逐阶段命令如下；在 Streamlit 的高级设置中填写校准目录，也可显示和下载相同区间：
+
+```powershell
+python scripts/project.py calibrate-output --model outputs/my-model --manifest data/processed/refit_m1_protocol/protocol.json --output outputs/my-calibration
+python scripts/project.py predict --model outputs/my-model --manifest data/processed/refit_m1_protocol/protocol.json --partition frozen_test_house_3 --calibration outputs/my-calibration --output outputs/my-trust-prediction
+python scripts/project.py evaluate --prediction outputs/my-trust-prediction --manifest data/processed/refit_m1_protocol/protocol.json --output outputs/my-trust-evaluation
+```
+
+所有输出目录都必须为新目录。失败不发布成功结果；切换或损坏模型、输入、校准与导出文件时清除/拒绝旧曲线。详细验收证据和待完成项见 [M4_HANDOFF.md](docs/M4_HANDOFF.md)。
+
+本次真实工程报告位于 `outputs/m4-20261020-real-verified/stress/report.html`，带 5 次模拟确认的模型报告位于 `outputs/m4-20261020-real-adapted-verified/stress/report.html`。真实总表上的背景脉冲仍是人工注入，不冒充现场未知设备。可提交的指标摘要见 [M4_RESULTS.json](docs/M4_RESULTS.json)。界面时间轴与提示均使用 UTC，缺失功率线段断开。
+
+## M5 冻结实验与复跑
+
+M5 实现了 B0/B1/B2/B3/P1/P2、每个种子独立来源训练、相同预算弱标签适配、全矩阵冻结后评价、来源区间与背景压力对照，以及可复核 JSON/CSV/HTML 汇总。详细组定义、冻结边界、复跑方式和正式验收缺项见 [M5_HANDOFF.md](docs/M5_HANDOFF.md)。
+
+```powershell
+python scripts/run_m5.py run --manifest data/processed/refit_m4_protocol/protocol.json --output outputs/my-m5
+python scripts/run_m5.py verify --run outputs/my-m5
+```
+
+可用 `freeze` 和 `evaluate` 分两步运行，或用 `compare --left ... --right ...` 检查两次独立运行的数值差异。完整三目标家庭合成流程：
+
+```powershell
+python scripts/run_m5_synthetic.py --output outputs/my-m5-synthetic
+```
+
+默认配置为 **pilot**：现有 House 3 前缀测试结果已在 M2/M4 查看过，不能作为新的最终盲测；合成数据也不能作为真实多户成绩。正式模式需要完整实测协议、至少三目标家庭和三个种子、全部预算及未查看测试声明。独立成员复跑仍需另外提供证据。
 
 ## 工作入口
 

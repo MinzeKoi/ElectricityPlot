@@ -292,6 +292,36 @@ class BaselineTest(unittest.TestCase):
         self.assertEqual(len(app.metric), 0)
         self.assertGreater(len(app.error), 0)
 
+    def test_dashboard_m3_confirm_budget_adapt_compare_and_invalidate(self):
+        try:
+            from streamlit.testing.v1 import AppTest
+        except ImportError:
+            self.skipTest("Install Streamlit to exercise M3 confirmations")
+        self.model = self.root / "outputs/m2-20261020/seq2point"
+        self.train("constant_mean")
+        (self.root / "configs").mkdir()
+        (self.root / "configs/m3_adaptation.json").write_bytes((ROOT / "configs/m3_adaptation.json").read_bytes())
+        script = "from pathlib import Path\nfrom virtual_submeter.app.dashboard import main\nmain(Path(" + repr(str(self.root)) + "))"
+        app = AppTest.from_string(script, default_timeout=30).run()
+        next(box for box in app.selectbox if box.label == "分析区间").select("target_adaptation_house_3").run()
+        next(button for button in app.button if button.label == "新建确认会话").click().run()
+        self.assertEqual(len(app.exception), 0)
+        for _ in range(5):
+            next(radio for radio in app.radio if radio.label == "你的回答").set_value("skipped")
+            next(button for button in app.button if button.label == "提交回答").click().run()
+            self.assertEqual(len(app.exception), 0)
+        self.assertEqual(next(metric for metric in app.metric if metric.label == "确认次数").value, "5 / 5")
+        next(button for button in app.button if button.label == "生成适配模型").click().run()
+        self.assertEqual(len(app.exception), 0)
+        self.assertGreater(len(app.success), 0)
+        next(button for button in app.button if button.label == "比较冻结测试区间的适配前后结果").click().run()
+        self.assertEqual(len(app.exception), 0)
+        self.assertIn("m3_comparison", app.session_state)
+        next(box for box in app.selectbox if box.label == "确认预算").select(10).run()
+        self.assertEqual(len(app.exception), 0)
+        self.assertNotIn("m3_comparison", app.session_state)
+        self.assertNotIn("m3_model_directory", app.session_state)
+
 
 if __name__ == "__main__":
     unittest.main()
