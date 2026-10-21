@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-21",
+  "full_unittest": {
+    "passed": 103,
+    "failed": 0,
+    "seconds": 59.829
+  },
+  "real_run_verification": {
+    "status": "a1_artifacts_verified",
+    "acceptance": true,
+    "selected_candidate": "active50",
+    "training_seeds": 3,
+    "source_code_matches_current": true,
+    "labels_reopened": false,
+    "formal_evaluation": false
+  },
+  "independent_source_training_seeds": [
+    42,
+    1019,
+    2026
+  ],
+  "trained_models": 8,
+  "historical_reference_models": 1,
+  "primary_minimum_detection_gate_passed": true,
+  "extension_quality_passed": false,
+  "accuracy_superiority_established": false,
+  "candidate_plan_sha256": "4b3b3e999df5d31d0fd9a57403659d0c692ef9223ce42b694dc644535b142bd7",
+  "protocol_sha256": "6fc077b96a79d809478286cdad40c89060fa0b0fa78c06441df834ea8d38b22e",
+  "baseline_freeze_sha256": "548be88cb4bbaa7f93fd2493ba5f8b1ee8c34c3ebdbf5927d9a9e9a0afc37133",
+  "evidence_sha256": "273673399343d2beb9d81d14d099d7e39c21dd2d465692fb2c20ce00b297f9ee",
+  "selected_config_sha256": "f8e288848d9a38ee4f76da9f7887a2cc6d217a199e5ccc0d96f47a7a4c77d955",
+  "selected_config_matches_preselected_settings": true,
+  "source_code_sha256": "d95924213d57fbb1d0c8092e78f9bdf60999e4832a8a2adee6cc7e6b5d7cb2a5",
+  "summary_evidence_sha256": "a591df98a8d2e840c95823e7a900bf638ef21c53e04128f41dafcd2064e64df7",
+  "pretraining_failed_preparations": [
+    "outputs/accuracy/a1-20261021",
+    "outputs/accuracy/a1-20261021-v2"
+  ],
+  "source_window_samples": {
+    "42": {
+      "training": {
+        "source_train_house_2": 127412
+      },
+      "validation": {
+        "source_validation_house_5": 47280
+      },
+      "selected_epoch": 9,
+      "settings_seed": 42
+    },
+    "1019": {
+      "training": {
+        "source_train_house_2": 127412
+      },
+      "validation": {
+        "source_validation_house_5": 47280
+      },
+      "selected_epoch": 9,
+      "settings_seed": 1019
+    },
+    "2026": {
+      "training": {
+        "source_train_house_2": 127412
+      },
+      "validation": {
+        "source_validation_house_5": 47280
+      },
+      "selected_epoch": 11,
+      "settings_seed": 2026
+    }
+  },
+  "final_evaluation": false,
+  "second_machine": "not_measured"
+}

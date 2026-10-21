@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-21",
+  "full_unittest": {
+    "passed": 98,
+    "failed": 0,
+    "seconds": 54.054
+  },
+  "real_run_verification": {
+    "status": "a0_artifacts_verified",
+    "cases": 24,
+    "source_code_matches_current": true,
+    "labels_reopened": false
+  },
+  "probe_verification": {
+    "status": "a0_probe_artifacts_verified",
+    "metric_rows": 450,
+    "labels_reopened": false
+  },
+  "minimal_regression_loop": {
+    "command": "python scripts/probe_a0.py --run outputs/accuracy/a0-20261021 --check-single-negative",
+    "exit_code": 1,
+    "status": "collapse_reproduced",
+    "weak_answers": 1,
+    "training_samples": 150,
+    "future_valid_samples": 10713,
+    "future_actual_on": 574,
+    "future_predicted_on": 0,
+    "runtime_seconds": 4.034
+  },
+  "report_visual_check": "Browser checked table, report links and six SVG curves, including washer truth vs baseline vs all-off adapted state.",
+  "model_or_selection_algorithm_changed": false,
+  "final_multi_household_evaluation": false
+}

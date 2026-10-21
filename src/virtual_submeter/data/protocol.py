@@ -121,6 +121,10 @@ def read_partition(manifest_path: Path, partition_id: str, consumer: str, includ
     if len(partitions) != 1:
         raise DataError("Unknown partition")
     partition = partitions[0]
+    if consumer == "development_diagnosis" and (
+            manifest.get("purpose") != "engineering_pilot_only"
+            or manifest.get("accuracy_usage") != "development_only"):
+        raise DataError("Diagnosis labels require an explicitly marked development protocol")
     allowed = {
         "training": {"source_train", "source_validation"},
         "calibration": {"source_validation"},
@@ -128,10 +132,11 @@ def read_partition(manifest_path: Path, partition_id: str, consumer: str, includ
         "adaptation": {"target_adaptation"},
         "inference": {"source_validation", "frozen_test"},
         "evaluation": {"source_validation", "frozen_test"},
+        "development_diagnosis": set(ROLES),
     }
     if partition["role"] not in allowed.get(consumer, set()):
         raise DataError(f"{consumer} cannot access {partition['role']}")
-    if include_labels and consumer not in ("training", "calibration", "evaluation"):
+    if include_labels and consumer not in ("training", "calibration", "evaluation", "development_diagnosis"):
         raise DataError("Selection, adaptation and inference cannot request submeter labels")
     result = {}
     for channel, artifact in partition["artifacts"].items():

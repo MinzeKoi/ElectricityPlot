@@ -13,7 +13,10 @@ from .common import DataError, read_json, safe_child, sha256, utc
 
 def answer_pending(session_dir: Path) -> dict:
     # Import lazily so the ordinary data import does not require NumPy.
-    from ..adaptation.session import read_session
+    if read_json(session_dir / "session.json").get("schema_version") == 2:
+        from ..accuracy.dynamic_session import read_session
+    else:
+        from ..adaptation.session import read_session
     session = read_session(session_dir)
     query = session["pending"]
     if query is None or len(session["records"]) >= session["budget"]:

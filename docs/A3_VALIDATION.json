@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-21",
+  "tests": {
+    "command": ".venv-m2/Scripts/python.exe -m unittest discover -s tests -v",
+    "total": 114,
+    "new_a3_tests": 3,
+    "passed": true,
+    "seconds": 74.115,
+    "log": "outputs/accuracy/a3-tests.log",
+    "log_sha256": "18d1015d68337ca4d273033ea45eb500d0aad8744153e55301eaa5a807160436"
+  },
+  "real_boundary_checks": {
+    "status": "a3_verified",
+    "cases": 252,
+    "metric_rows": 756,
+    "development_exit_passed": true,
+    "internal_gain_target_met": false,
+    "current_source_matches_execution": true,
+    "formal_evaluation": false,
+    "report": "outputs\\accuracy\\a3-20261021-v3\\report.html",
+    "zero_baselines_match_a2": 63,
+    "exported_model_roundtrips": [
+      {
+        "source_seed": 42,
+        "query_seed": 42,
+        "household_id": "3",
+        "variant": "uncertainty",
+        "budget": 10
+      },
+      {
+        "source_seed": 42,
+        "query_seed": 42,
+        "household_id": "3",
+        "variant": "proposed",
+        "budget": 10
+      },
+      {
+        "source_seed": 1019,
+        "query_seed": 42,
+        "household_id": "3",
+        "variant": "uncertainty",
+        "budget": 10
+      },
+      {
+        "source_seed": 1019,
+        "query_seed": 42,
+        "household_id": "3",
+        "variant": "proposed",
+        "budget": 10
+      },
+      {
+        "source_seed": 2026,
+        "query_seed": 42,
+        "household_id": "3",
+        "variant": "uncertainty",
+        "budget": 10
+      },
+      {
+        "source_seed": 2026,
+        "query_seed": 42,
+        "household_id": "3",
+        "variant": "proposed",
+        "budget": 10
+      }
+    ],
+    "power_weight_checkpoints_unchanged": 315,
+    "no_answer_exact_source_devices": 366,
+    "single_class_bias_only_devices": 520,
+    "scoring_rounds_reproduced": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "target_labels_parsed_during_verification": false
+  },
+  "boundary_artifact": "outputs/accuracy/a3-boundary-check.json",
+  "boundary_sha256": "95acf032f4acf62dd78b3dbe25405e5b365fed06413e876f8a9967fc3c2bb206",
+  "ordinary_prediction_smoke": {
+    "status": "prediction_complete",
+    "run_id": "a3-model-prediction",
+    "rows": 21150,
+    "model_id": "a3-state-20ba06f64670b76a",
+    "report": "outputs\\accuracy\\a3-model-prediction\\report.html",
+    "target_labels_parsed": false,
+    "source_seed": 42,
+    "query_seed": 42,
+    "budget": 10
+  },
+  "artifact_inventory_files": 2409,
+  "result_summary_sha256": "9db1bea28ce8fb10290bd481ffbf85e205d69eb4e5ac4efb40eed0f52de0b967",
+  "formal_evaluation": false,
+  "independent_person_or_second_machine": false,
+  "local_access_note": "A2 and final A3 verified with normal local file access. Restricted filesystem visibility of historical published artifacts is not evidence of physical deletion."
+}

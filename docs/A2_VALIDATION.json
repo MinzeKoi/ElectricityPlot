@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-21",
+  "tests": {
+    "command": ".venv-m2/Scripts/python.exe -m unittest discover -s tests -v",
+    "total": 111,
+    "new_a2_tests": 8,
+    "passed": true,
+    "seconds": 65.863,
+    "log": "outputs/accuracy/a2-tests.log",
+    "log_sha256": "798391ee4d201daf5da6feeb181633674f3bfb108d4cdaa7cddfc537347b1be1"
+  },
+  "real_boundary_checks": {
+    "status": "passed",
+    "cases": 252,
+    "power_weights_unchanged": 252,
+    "no_answer_exact_source_devices": 252,
+    "bounded_devices": 360,
+    "single_class_slope_preserved_devices": 270,
+    "real_model_reload_score_parity": true,
+    "inference_rows": 21150,
+    "score_absolute_tolerance": 1e-12,
+    "future_pointwise_labels_read": false,
+    "artifact": "outputs/accuracy/a2-boundary-check.json",
+    "artifact_sha256": "0fe8d87fda6a2035d444f0f8b9f72a5185a92ddcdc144bc2298a5e3b3418d236"
+  },
+  "formal_evaluation": false,
+  "independent_person_or_second_machine": false,
+  "artifact_verification": {
+    "status": "a2_verified",
+    "cases": 252,
+    "metric_rows": 756,
+    "development_exit_passed": true,
+    "internal_gain_target_met": false,
+    "selected_development_learner": "L2_max",
+    "current_source_matches_execution": true,
+    "formal_evaluation": false,
+    "report": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\a2-20261021\\report.html"
+  },
+  "artifact_inventory_files": 1668,
+  "local_access_note": "Run and independent verification used the same approved file access. The restricted sandbox cannot enumerate 42 published files and reports an incomplete inventory; with matching access all 1668 frozen artifacts verify without changes.",
+  "result_summary_sha256": "7d972b3f88c69893f7a6fa09d7dcec78ba78564aeae139b593e8dc97b59b07f6"
+}

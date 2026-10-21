@@ -1,0 +1,2664 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-21",
+  "accuracy_usage": "development_only",
+  "formal_evaluation": false,
+  "run": "outputs/accuracy/a2-20261021",
+  "source_training_seeds": [
+    42,
+    1019,
+    2026
+  ],
+  "query_seeds": [
+    42,
+    1019,
+    2026
+  ],
+  "development_households": [
+    "3"
+  ],
+  "cases": 252,
+  "metric_rows": 756,
+  "main_budget": 10,
+  "label_source": "simulated_from_submeter",
+  "power_output_frozen": true,
+  "groups": [
+    {
+      "variant": "L0",
+      "budget": 0,
+      "f1": 0.146200651052007,
+      "f1_delta": 0.0,
+      "households": [
+        {
+          "household_id": "3",
+          "devices": [
+            {
+              "appliance": "kettle",
+              "f1": 0.24652424554631688,
+              "f1_delta": 0.0,
+              "precision": 0.1862413453541708,
+              "recall": 0.6060606060606061
+            },
+            {
+              "appliance": "microwave",
+              "f1": 0.0458770565576971,
+              "f1_delta": 0.0,
+              "precision": 0.023830051969164757,
+              "recall": 0.7183908045977012
+            }
+          ],
+          "f1": 0.146200651052007,
+          "f1_delta": 0.0
+        }
+      ],
+      "missing_f1": 0,
+      "adaptation_degenerate_cases": 0,
+      "device_drops_over_tolerance": 0
+    },
+    {
+      "variant": "L0",
+      "budget": 5,
+      "f1": 0.14904254429090238,
+      "f1_delta": 0.002841893238895397,
+      "households": [
+        {
+          "household_id": "3",
+          "devices": [
+            {
+              "appliance": "kettle",
+              "f1": 0.24479411147896718,
+              "f1_delta": -0.0017301340673496974,
+              "precision": 0.18560414089350324,
+              "recall": 0.5972222222222222
+            },
+            {
+              "appliance": "microwave",
+              "f1": 0.05329097710283759,
+              "f1_delta": 0.007413920545140491,
+              "precision": 0.029094555752482307,
+              "recall": 0.6187739463601533
+            }
+          ],
+          "f1": 0.14904254429090238,
+          "f1_delta": 0.002841893238895397
+        }
+      ],
+      "missing_f1": 0,
+      "adaptation_degenerate_cases": 0,
+      "device_drops_over_tolerance": 0
+    },
+    {
+      "variant": "L0",
+      "budget": 10,
+      "f1": 0.1401068416824604,
+      "f1_delta": -0.006093809369546578,
+      "households": [
+        {
+          "household_id": "3",
+          "devices": [
+            {
+              "appliance": "kettle",
+              "f1": 0.23997338978553573,
+              "f1_delta": -0.006550855760781125,
+              "precision": 0.18352918396308793,
+              "recall": 0.577020202020202
+            },
+            {
+              "appliance": "microwave",
+              "f1": 0.04024029357938507,
+              "f1_delta": -0.00563676297831203,
+              "precision": null,
+              "recall": 0.4329501915708812
+            }
+          ],
+          "f1": 0.1401068416824604,
+          "f1_delta": -0.006093809369546578
+        }
+      ],
+      "missing_f1": 0,
+      "adaptation_degenerate_cases": 3,
+      "device_drops_over_tolerance": 0
+    },
+    {
+      "variant": "L0",
+      "budget": 20,
+      "f1": 0.056225482219629294,
+      "f1_delta": -0.08997516883237769,
+      "households": [
+        {
+          "household_id": "3",
+          "devices": [
+            {
+              "appliance": "kettle",
+              "f1": 0.11245096443925859,
+              "f1_delta": -0.13407328110705827,
+              "precision": null,
+              "recall": 0.22979797979797978
+            },
+            {
+              "appliance": "microwave",
+              "f1": 0.0,
+              "f1_delta": -0.0458770565576971,
+              "precision": null,
+              "recall": 0.0
+            }
+          ],
+          "f1": 0.056225482219629294,
+          "f1_delta": -0.08997516883237769
+        }
+      ],
+      "missing_f1": 0,
+      "adaptation_degenerate_cases": 13,
+      "device_drops_over_tolerance": 2
+    },
+    {
+      "variant": "L1",
+      "budget": 0,
+      "f1": 0.146200651052007,
+      "f1_delta": 0.0,
+      "households": [
+        {
+          "household_id": "3",
+          "devices": [
+            {
+              "appliance": "kettle",
+              "f1": 0.24652424554631688,
+              "f1_delta": 0.0,
+              "precision": 0.1862413453541708,
+              "recall": 0.6060606060606061
+            },
+            {
+              "appliance": "microwave",
+              "f1": 0.0458770565576971,
+              "f1_delta": 0.0,
+              "precision": 0.023830051969164757,
+              "recall": 0.7183908045977012
+            }
+          ],
+          "f1": 0.146200651052007,
+          "f1_delta": 0.0
+        }
+      ],
+      "missing_f1": 0,
+      "adaptation_degenerate_cases": 0,
+      "device_drops_over_tolerance": 0
+    },
+    {
+      "variant": "L1",
+      "budget": 5,
+      "f1": 0.1508361434625291,
+      "f1_delta": 0.004635492410522128,
+      "households": [
+        {
+          "household_id": "3",
+          "devices": [
+            {
+              "appliance": "kettle",
+              "f1": 0.2432322854914033,
+              "f1_delta": -0.0032919600549135794,
+              "precision": 0.1847404612434751,
+              "recall": 0.5883838383838385
+            },
+            {
+              "appliance": "microwave",
+              "f1": 0.05844000143365494,
+              "f1_delta": 0.012562944875957835,
+              "precision": 0.030818716382040503,
+              "recall": 0.6762452107279694
+            }
+          ],
+          "f1": 0.1508361434625291,
+          "f1_delta": 0.004635492410522128
+        }
+      ],
+      "missing_f1": 0,
+      "adaptation_degenerate_cases": 0,
+      "device_drops_over_tolerance": 0
+    },
+    {
+      "variant": "L1",
+      "budget": 10,
+      "f1": 0.1486314061904655,
+      "f1_delta": 0.0024307551384585456,
+      "households": [
+        {
+          "household_id": "3",
+          "devices": [
+            {
+              "appliance": "kettle",
+              "f1": 0.2371169666012423,
+              "f1_delta": -0.009407278945074548,
+              "precision": 0.18202225376953338,
+              "recall": 0.5568181818181819
+            },
+            {
+              "appliance": "microwave",
+              "f1": 0.060145845779688734,
+              "f1_delta": 0.014268789221991639,
+              "precision": 0.03176492653489701,
+              "recall": 0.6590038314176245
+            }
+          ],
+          "f1": 0.1486314061904655,
+          "f1_delta": 0.0024307551384585456
+        }
+      ],
+      "missing_f1": 0,
+      "adaptation_degenerate_cases": 0,
+      "device_drops_over_tolerance": 0
+    },
+    {
+      "variant": "L1",
+      "budget": 20,
+      "f1": 0.13778309022800347,
+      "f1_delta": -0.008417560824003502,
+      "households": [
+        {
+          "household_id": "3",
+          "devices": [
+            {
+              "appliance": "kettle",
+              "f1": 0.21542033467631821,
+              "f1_delta": -0.03110391086999864,
+              "precision": 0.3256613341314928,
+              "recall": 0.27146464646464646
+            },
+            {
+              "appliance": "microwave",
+              "f1": 0.060145845779688734,
+              "f1_delta": 0.014268789221991639,
+              "precision": 0.03176492653489701,
+              "recall": 0.6590038314176245
+            }
+          ],
+          "f1": 0.13778309022800347,
+          "f1_delta": -0.008417560824003502
+        }
+      ],
+      "missing_f1": 0,
+      "adaptation_degenerate_cases": 0,
+      "device_drops_over_tolerance": 1
+    },
+    {
+      "variant": "L2_max_unprotected",
+      "budget": 0,
+      "f1": 0.1756713202805062,
+      "f1_delta": 0.0,
+      "households": [
+        {
+          "household_id": "3",
+          "devices": [
+            {
+              "appliance": "kettle",
+              "f1": 0.2556370466098044,
+              "f1_delta": 0.0,
+              "precision": 0.15269124094063946,
+              "recall": 0.8143939393939394
+            },
+            {
+              "appliance": "microwave",
+              "f1": 0.09570559395120798,
+              "f1_delta": 0.0,
+              "precision": 0.05985870995653532,
+              "recall": 0.27011494252873564
+            }
+          ],
+          "f1": 0.1756713202805062,
+          "f1_delta": 0.0
+        }
+      ],
+      "missing_f1": 0,
+      "adaptation_degenerate_cases": 0,
+      "device_drops_over_tolerance": 0
+    },
+    {
+      "variant": "L2_max_unprotected",
+      "budget": 5,
+      "f1": 0.1680698926401773,
+      "f1_delta": -0.007601427640328892,
+      "households": [
+        {
+          "household_id": "3",
+          "devices": [
+            {
+              "appliance": "kettle",
+              "f1": 0.2556438977080355,
+              "f1_delta": 6.851098231045831e-06,
+              "precision": 0.15279803687682192,
+              "recall": 0.8106060606060607
+            },
+            {
+              "appliance": "microwave",
+              "f1": 0.08049588757231915,
+              "f1_delta": -0.01520970637888883,
+              "precision": null,
+              "recall": 0.1954022988505747
+            }
+          ],
+          "f1": 0.1680698926401773,
+          "f1_delta": -0.007601427640328892
+        }
+      ],
+      "missing_f1": 0,
+      "adaptation_degenerate_cases": 1,
+      "device_drops_over_tolerance": 0
+    },
+    {
+      "variant": "L2_max_unprotected",
+      "budget": 10,
+      "f1": 0.17018851504592505,
+      "f1_delta": -0.0054828052345811664,
+      "households": [
+        {
+          "household_id": "3",
+          "devices": [
+            {
+              "appliance": "kettle",
+              "f1": 0.2556530600954991,
+              "f1_delta": 1.6013485694638734e-05,
+              "precision": 0.15293840530595057,
+              "recall": 0.8055555555555556
+            },
+            {
+              "appliance": "microwave",
+              "f1": 0.08472396999635101,
+              "f1_delta": -0.010981623954856972,
+              "precision": null,
+              "recall": 0.13793103448275862
+            }
+          ],
+          "f1": 0.17018851504592505,
+          "f1_delta": -0.0054828052345811664
+        }
+      ],
+      "missing_f1": 0,
+      "adaptation_degenerate_cases": 2,
+      "device_drops_over_tolerance": 0
+    },
+    {
+      "variant": "L2_max_unprotected",
+      "budget": 20,
+      "f1": 0.1046873005006634,
+      "f1_delta": -0.07098401977984281,
+      "households": [
+        {
+          "household_id": "3",
+          "devices": [
+            {
+              "appliance": "kettle",
+              "f1": 0.15556941219885095,
+              "f1_delta": -0.10006763441095348,
+              "precision": null,
+              "recall": 0.3055555555555556
+            },
+            {
+              "appliance": "microwave",
+              "f1": 0.05380518880247583,
+              "f1_delta": -0.041900405148732146,
+              "precision": null,
+              "recall": 0.047892720306513405
+            }
+          ],
+          "f1": 0.1046873005006634,
+          "f1_delta": -0.07098401977984281
+        }
+      ],
+      "missing_f1": 0,
+      "adaptation_degenerate_cases": 10,
+      "device_drops_over_tolerance": 2
+    },
+    {
+      "variant": "L2_max_bound",
+      "budget": 0,
+      "f1": 0.1756713202805062,
+      "f1_delta": 0.0,
+      "households": [
+        {
+          "household_id": "3",
+          "devices": [
+            {
+              "appliance": "kettle",
+              "f1": 0.2556370466098044,
+              "f1_delta": 0.0,
+              "precision": 0.15269124094063946,
+              "recall": 0.8143939393939394
+            },
+            {
+              "appliance": "microwave",
+              "f1": 0.09570559395120798,
+              "f1_delta": 0.0,
+              "precision": 0.05985870995653532,
+              "recall": 0.27011494252873564
+            }
+          ],
+          "f1": 0.1756713202805062,
+          "f1_delta": 0.0
+        }
+      ],
+      "missing_f1": 0,
+      "adaptation_degenerate_cases": 0,
+      "device_drops_over_tolerance": 0
+    },
+    {
+      "variant": "L2_max_bound",
+      "budget": 5,
+      "f1": 0.18185907580904806,
+      "f1_delta": 0.00618775552854187,
+      "households": [
+        {
+          "household_id": "3",
+          "devices": [
+            {
+              "appliance": "kettle",
+              "f1": 0.25581396104513776,
+              "f1_delta": 0.00017691443533335294,
+              "precision": 0.1528105100594792,
+              "recall": 0.8143939393939394
+            },
+            {
+              "appliance": "microwave",
+              "f1": 0.10790419057295837,
+              "f1_delta": 0.012198596621750386,
+              "precision": 0.07321876453073331,
+              "recall": 0.23563218390804597
+            }
+          ],
+          "f1": 0.18185907580904806,
+          "f1_delta": 0.00618775552854187
+        }
+      ],
+      "missing_f1": 0,
+      "adaptation_degenerate_cases": 0,
+      "device_drops_over_tolerance": 0
+    },
+    {
+      "variant": "L2_max_bound",
+      "budget": 10,
+      "f1": 0.18055439918154842,
+      "f1_delta": 0.0048830789010422095,
+      "households": [
+        {
+          "household_id": "3",
+          "devices": [
+            {
+              "appliance": "kettle",
+              "f1": 0.25607891346961803,
+              "f1_delta": 0.00044186685981362835,
+              "precision": 0.15298908547410903,
+              "recall": 0.8143939393939394
+            },
+            {
+              "appliance": "microwave",
+              "f1": 0.10502988489347878,
+              "f1_delta": 0.00932429094227079,
+              "precision": 0.0904270192880372,
+              "recall": 0.18582375478927202
+            }
+          ],
+          "f1": 0.18055439918154842,
+          "f1_delta": 0.0048830789010422095
+        }
+      ],
+      "missing_f1": 0,
+      "adaptation_degenerate_cases": 0,
+      "device_drops_over_tolerance": 0
+    },
+    {
+      "variant": "L2_max_bound",
+      "budget": 20,
+      "f1": 0.18205879181493578,
+      "f1_delta": 0.006387471534429578,
+      "households": [
+        {
+          "household_id": "3",
+          "devices": [
+            {
+              "appliance": "kettle",
+              "f1": 0.25751529140447915,
+              "f1_delta": 0.0018782447946747254,
+              "precision": 0.15494923093259497,
+              "recall": 0.7891414141414141
+            },
+            {
+              "appliance": "microwave",
+              "f1": 0.10660229222539241,
+              "f1_delta": 0.010896698274184432,
+              "precision": 0.09166782494437758,
+              "recall": 0.18582375478927202
+            }
+          ],
+          "f1": 0.18205879181493578,
+          "f1_delta": 0.006387471534429578
+        }
+      ],
+      "missing_f1": 0,
+      "adaptation_degenerate_cases": 0,
+      "device_drops_over_tolerance": 0
+    },
+    {
+      "variant": "L2_max_replay",
+      "budget": 0,
+      "f1": 0.1756713202805062,
+      "f1_delta": 0.0,
+      "households": [
+        {
+          "household_id": "3",
+          "devices": [
+            {
+              "appliance": "kettle",
+              "f1": 0.2556370466098044,
+              "f1_delta": 0.0,
+              "precision": 0.15269124094063946,
+              "recall": 0.8143939393939394
+            },
+            {
+              "appliance": "microwave",
+              "f1": 0.09570559395120798,
+              "f1_delta": 0.0,
+              "precision": 0.05985870995653532,
+              "recall": 0.27011494252873564
+            }
+          ],
+          "f1": 0.1756713202805062,
+          "f1_delta": 0.0
+        }
+      ],
+      "missing_f1": 0,
+      "adaptation_degenerate_cases": 0,
+      "device_drops_over_tolerance": 0
+    },
+    {
+      "variant": "L2_max_replay",
+      "budget": 5,
+      "f1": 0.1803255592803415,
+      "f1_delta": 0.004654238999835299,
+      "households": [
+        {
+          "household_id": "3",
+          "devices": [
+            {
+              "appliance": "kettle",
+              "f1": 0.2558597959504139,
+              "f1_delta": 0.00022274934060952564,
+              "precision": 0.15261297469089607,
+              "recall": 0.8207070707070707
+            },
+            {
+              "appliance": "microwave",
+              "f1": 0.10479132261026906,
+              "f1_delta": 0.009085728659061073,
+              "precision": 0.06722308434652718,
+              "recall": 0.2624521072796935
+            }
+          ],
+          "f1": 0.1803255592803415,
+          "f1_delta": 0.004654238999835299
+        }
+      ],
+      "missing_f1": 0,
+      "adaptation_degenerate_cases": 0,
+      "device_drops_over_tolerance": 0
+    },
+    {
+      "variant": "L2_max_replay",
+      "budget": 10,
+      "f1": 0.1817174949829325,
+      "f1_delta": 0.006046174702426291,
+      "households": [
+        {
+          "household_id": "3",
+          "devices": [
+            {
+              "appliance": "kettle",
+              "f1": 0.2562188953228275,
+              "f1_delta": 0.000581848713023044,
+              "precision": 0.15239852825152395,
+              "recall": 0.8333333333333334
+            },
+            {
+              "appliance": "microwave",
+              "f1": 0.10721609464303752,
+              "f1_delta": 0.011510500691829538,
+              "precision": 0.08243723397514359,
+              "recall": 0.2279693486590038
+            }
+          ],
+          "f1": 0.1817174949829325,
+          "f1_delta": 0.006046174702426291
+        }
+      ],
+      "missing_f1": 0,
+      "adaptation_degenerate_cases": 0,
+      "device_drops_over_tolerance": 0
+    },
+    {
+      "variant": "L2_max_replay",
+      "budget": 20,
+      "f1": 0.18525090807414626,
+      "f1_delta": 0.009579587793640052,
+      "households": [
+        {
+          "household_id": "3",
+          "devices": [
+            {
+              "appliance": "kettle",
+              "f1": 0.25826148746853794,
+              "f1_delta": 0.0026244408587335097,
+              "precision": 0.1550471603313063,
+              "recall": 0.8005050505050506
+            },
+            {
+              "appliance": "microwave",
+              "f1": 0.11224032867975457,
+              "f1_delta": 0.016534734728546593,
+              "precision": 0.08938994657042906,
+              "recall": 0.19731800766283525
+            }
+          ],
+          "f1": 0.18525090807414626,
+          "f1_delta": 0.009579587793640052
+        }
+      ],
+      "missing_f1": 0,
+      "adaptation_degenerate_cases": 0,
+      "device_drops_over_tolerance": 0
+    },
+    {
+      "variant": "L2_max",
+      "budget": 0,
+      "f1": 0.1756713202805062,
+      "f1_delta": 0.0,
+      "households": [
+        {
+          "household_id": "3",
+          "devices": [
+            {
+              "appliance": "kettle",
+              "f1": 0.2556370466098044,
+              "f1_delta": 0.0,
+              "precision": 0.15269124094063946,
+              "recall": 0.8143939393939394
+            },
+            {
+              "appliance": "microwave",
+              "f1": 0.09570559395120798,
+              "f1_delta": 0.0,
+              "precision": 0.05985870995653532,
+              "recall": 0.27011494252873564
+            }
+          ],
+          "f1": 0.1756713202805062,
+          "f1_delta": 0.0
+        }
+      ],
+      "missing_f1": 0,
+      "adaptation_degenerate_cases": 0,
+      "device_drops_over_tolerance": 0
+    },
+    {
+      "variant": "L2_max",
+      "budget": 5,
+      "f1": 0.1802633298040436,
+      "f1_delta": 0.004592009523537392,
+      "households": [
+        {
+          "household_id": "3",
+          "devices": [
+            {
+              "appliance": "kettle",
+              "f1": 0.2557928761751304,
+              "f1_delta": 0.00015582956532595818,
+              "precision": 0.15265382292646928,
+              "recall": 0.8181818181818181
+            },
+            {
+              "appliance": "microwave",
+              "f1": 0.1047337834329568,
+              "f1_delta": 0.009028189481748826,
+              "precision": 0.06718513886280472,
+              "recall": 0.2624521072796935
+            }
+          ],
+          "f1": 0.1802633298040436,
+          "f1_delta": 0.004592009523537392
+        }
+      ],
+      "missing_f1": 0,
+      "adaptation_degenerate_cases": 0,
+      "device_drops_over_tolerance": 0
+    },
+    {
+      "variant": "L2_max",
+      "budget": 10,
+      "f1": 0.18378009009254437,
+      "f1_delta": 0.008108769812038156,
+      "households": [
+        {
+          "household_id": "3",
+          "devices": [
+            {
+              "appliance": "kettle",
+              "f1": 0.25601759810342145,
+              "f1_delta": 0.0003805514936170398,
+              "precision": 0.15252065518512095,
+              "recall": 0.8257575757575757
+            },
+            {
+              "appliance": "microwave",
+              "f1": 0.11154258208166727,
+              "f1_delta": 0.01583698813045927,
+              "precision": 0.0859843662534222,
+              "recall": 0.23180076628352492
+            }
+          ],
+          "f1": 0.18378009009254437,
+          "f1_delta": 0.008108769812038156
+        }
+      ],
+      "missing_f1": 0,
+      "adaptation_degenerate_cases": 0,
+      "device_drops_over_tolerance": 0
+    },
+    {
+      "variant": "L2_max",
+      "budget": 20,
+      "f1": 0.187196593982677,
+      "f1_delta": 0.011525273702170793,
+      "households": [
+        {
+          "household_id": "3",
+          "devices": [
+            {
+              "appliance": "kettle",
+              "f1": 0.25736761185329315,
+              "f1_delta": 0.001730565243488731,
+              "precision": 0.15456259338806375,
+              "recall": 0.7967171717171717
+            },
+            {
+              "appliance": "microwave",
+              "f1": 0.11702557611206083,
+              "f1_delta": 0.021319982160852853,
+              "precision": 0.09320159063708224,
+              "recall": 0.20306513409961685
+            }
+          ],
+          "f1": 0.187196593982677,
+          "f1_delta": 0.011525273702170793
+        }
+      ],
+      "missing_f1": 0,
+      "adaptation_degenerate_cases": 0,
+      "device_drops_over_tolerance": 0
+    },
+    {
+      "variant": "L2_smooth",
+      "budget": 0,
+      "f1": 0.1756713202805062,
+      "f1_delta": 0.0,
+      "households": [
+        {
+          "household_id": "3",
+          "devices": [
+            {
+              "appliance": "kettle",
+              "f1": 0.2556370466098044,
+              "f1_delta": 0.0,
+              "precision": 0.15269124094063946,
+              "recall": 0.8143939393939394
+            },
+            {
+              "appliance": "microwave",
+              "f1": 0.09570559395120798,
+              "f1_delta": 0.0,
+              "precision": 0.05985870995653532,
+              "recall": 0.27011494252873564
+            }
+          ],
+          "f1": 0.1756713202805062,
+          "f1_delta": 0.0
+        }
+      ],
+      "missing_f1": 0,
+      "adaptation_degenerate_cases": 0,
+      "device_drops_over_tolerance": 0
+    },
+    {
+      "variant": "L2_smooth",
+      "budget": 5,
+      "f1": 0.1757789920790952,
+      "f1_delta": 0.0001076717985889779,
+      "households": [
+        {
+          "household_id": "3",
+          "devices": [
+            {
+              "appliance": "kettle",
+              "f1": 0.2557928761751304,
+              "f1_delta": 0.00015582956532595818,
+              "precision": 0.15265382292646928,
+              "recall": 0.8181818181818181
+            },
+            {
+              "appliance": "microwave",
+              "f1": 0.09576510798305998,
+              "f1_delta": 5.95140318519976e-05,
+              "precision": 0.05954049408065987,
+              "recall": 0.2662835249042146
+            }
+          ],
+          "f1": 0.1757789920790952,
+          "f1_delta": 0.0001076717985889779
+        }
+      ],
+      "missing_f1": 0,
+      "adaptation_degenerate_cases": 0,
+      "device_drops_over_tolerance": 0
+    },
+    {
+      "variant": "L2_smooth",
+      "budget": 10,
+      "f1": 0.18210151022568097,
+      "f1_delta": 0.006430189945174779,
+      "households": [
+        {
+          "household_id": "3",
+          "devices": [
+            {
+              "appliance": "kettle",
+              "f1": 0.25601759810342145,
+              "f1_delta": 0.0003805514936170398,
+              "precision": 0.15252065518512095,
+              "recall": 0.8257575757575757
+            },
+            {
+              "appliance": "microwave",
+              "f1": 0.1081854223479405,
+              "f1_delta": 0.012479828396732518,
+              "precision": 0.07579536984505728,
+              "recall": 0.2413793103448276
+            }
+          ],
+          "f1": 0.18210151022568097,
+          "f1_delta": 0.006430189945174779
+        }
+      ],
+      "missing_f1": 0,
+      "adaptation_degenerate_cases": 0,
+      "device_drops_over_tolerance": 0
+    },
+    {
+      "variant": "L2_smooth",
+      "budget": 20,
+      "f1": 0.18551801411581362,
+      "f1_delta": 0.009846693835307414,
+      "households": [
+        {
+          "household_id": "3",
+          "devices": [
+            {
+              "appliance": "kettle",
+              "f1": 0.25736761185329315,
+              "f1_delta": 0.001730565243488731,
+              "precision": 0.15456259338806375,
+              "recall": 0.7967171717171717
+            },
+            {
+              "appliance": "microwave",
+              "f1": 0.11366841637833408,
+              "f1_delta": 0.017962822427126095,
+              "precision": 0.08301259422871732,
+              "recall": 0.21264367816091953
+            }
+          ],
+          "f1": 0.18551801411581362,
+          "f1_delta": 0.009846693835307414
+        }
+      ],
+      "missing_f1": 0,
+      "adaptation_degenerate_cases": 0,
+      "device_drops_over_tolerance": 0
+    }
+  ],
+  "per_device": [
+    {
+      "variant": "L0",
+      "budget": 0,
+      "appliance": "kettle",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.24652424554631688,
+      "f1_delta": 0.0,
+      "baseline_f1": 0.24652424554631688,
+      "precision": 0.1862413453541708,
+      "recall": 0.6060606060606061,
+      "predicted_on_fraction": 0.030142836411882996,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L0",
+      "budget": 0,
+      "appliance": "microwave",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.0458770565576971,
+      "f1_delta": 0.0,
+      "baseline_f1": 0.0458770565576971,
+      "precision": 0.023830051969164757,
+      "recall": 0.7183908045977012,
+      "predicted_on_fraction": 0.10724132927006241,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L0",
+      "budget": 0,
+      "appliance": "washing_machine",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.10181034366185035,
+      "f1_delta": 0.0,
+      "baseline_f1": 0.10181034366185035,
+      "precision": 0.05364340550398101,
+      "recall": 0.997277323998444,
+      "predicted_on_fraction": 0.9908991023488194,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L0",
+      "budget": 5,
+      "appliance": "kettle",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.24479411147896718,
+      "f1_delta": -0.0017301340673496974,
+      "baseline_f1": 0.24652424554631688,
+      "precision": 0.18560414089350324,
+      "recall": 0.5972222222222222,
+      "predicted_on_fraction": 0.029942436995114403,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L0",
+      "budget": 5,
+      "appliance": "microwave",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.05329097710283759,
+      "f1_delta": 0.007413920545140491,
+      "baseline_f1": 0.0458770565576971,
+      "precision": 0.029094555752482307,
+      "recall": 0.6187739463601533,
+      "predicted_on_fraction": 0.17016674613540092,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L0",
+      "budget": 5,
+      "appliance": "washing_machine",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.045260669216063185,
+      "f1_delta": -0.056549674445787165,
+      "baseline_f1": 0.10181034366185035,
+      "precision": null,
+      "recall": 0.1052768053934915,
+      "predicted_on_fraction": 0.06553060928333022,
+      "adaptation_caused_degeneracy": 6
+    },
+    {
+      "variant": "L0",
+      "budget": 10,
+      "appliance": "kettle",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.23997338978553573,
+      "f1_delta": -0.006550855760781125,
+      "baseline_f1": 0.24652424554631688,
+      "precision": 0.18352918396308793,
+      "recall": 0.577020202020202,
+      "predicted_on_fraction": 0.029541638161577215,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L0",
+      "budget": 10,
+      "appliance": "microwave",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.04024029357938507,
+      "f1_delta": -0.00563676297831203,
+      "baseline_f1": 0.0458770565576971,
+      "precision": null,
+      "recall": 0.4329501915708812,
+      "predicted_on_fraction": 0.048662506651187536,
+      "adaptation_caused_degeneracy": 3
+    },
+    {
+      "variant": "L0",
+      "budget": 10,
+      "appliance": "washing_machine",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.04704369242739334,
+      "f1_delta": -0.05476665123445701,
+      "baseline_f1": 0.10181034366185035,
+      "precision": null,
+      "recall": 0.09788668481784,
+      "predicted_on_fraction": 0.05671994527022825,
+      "adaptation_caused_degeneracy": 6
+    },
+    {
+      "variant": "L0",
+      "budget": 20,
+      "appliance": "kettle",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.11245096443925859,
+      "f1_delta": -0.13407328110705827,
+      "baseline_f1": 0.24652424554631688,
+      "precision": null,
+      "recall": 0.22979797979797978,
+      "predicted_on_fraction": 0.013869021705329934,
+      "adaptation_caused_degeneracy": 4
+    },
+    {
+      "variant": "L0",
+      "budget": 20,
+      "appliance": "microwave",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.0,
+      "f1_delta": -0.0458770565576971,
+      "baseline_f1": 0.0458770565576971,
+      "precision": null,
+      "recall": 0.0,
+      "predicted_on_fraction": 0.0,
+      "adaptation_caused_degeneracy": 9
+    },
+    {
+      "variant": "L0",
+      "budget": 20,
+      "appliance": "washing_machine",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.04764886684791533,
+      "f1_delta": -0.05416147681393502,
+      "baseline_f1": 0.10181034366185035,
+      "precision": null,
+      "recall": 0.07843899909244133,
+      "predicted_on_fraction": 0.04077091582533463,
+      "adaptation_caused_degeneracy": 6
+    },
+    {
+      "variant": "L1",
+      "budget": 0,
+      "appliance": "kettle",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.24652424554631688,
+      "f1_delta": 0.0,
+      "baseline_f1": 0.24652424554631688,
+      "precision": 0.1862413453541708,
+      "recall": 0.6060606060606061,
+      "predicted_on_fraction": 0.030142836411882996,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L1",
+      "budget": 0,
+      "appliance": "microwave",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.0458770565576971,
+      "f1_delta": 0.0,
+      "baseline_f1": 0.0458770565576971,
+      "precision": 0.023830051969164757,
+      "recall": 0.7183908045977012,
+      "predicted_on_fraction": 0.10724132927006241,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L1",
+      "budget": 0,
+      "appliance": "washing_machine",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.10181034366185035,
+      "f1_delta": 0.0,
+      "baseline_f1": 0.10181034366185035,
+      "precision": 0.05364340550398101,
+      "recall": 0.997277323998444,
+      "predicted_on_fraction": 0.9908991023488194,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L1",
+      "budget": 5,
+      "appliance": "kettle",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.2432322854914033,
+      "f1_delta": -0.0032919600549135794,
+      "baseline_f1": 0.24652424554631688,
+      "precision": 0.1847404612434751,
+      "recall": 0.5883838383838385,
+      "predicted_on_fraction": 0.029755858227778122,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L1",
+      "budget": 5,
+      "appliance": "microwave",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.05844000143365494,
+      "f1_delta": 0.012562944875957835,
+      "baseline_f1": 0.0458770565576971,
+      "precision": 0.030818716382040503,
+      "recall": 0.6762452107279694,
+      "predicted_on_fraction": 0.08381532848228539,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L1",
+      "budget": 5,
+      "appliance": "washing_machine",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.10370981271483193,
+      "f1_delta": 0.0018994690529815829,
+      "baseline_f1": 0.10181034366185035,
+      "precision": 0.05471296880320212,
+      "recall": 0.9929988331388565,
+      "predicted_on_fraction": 0.9675905770812171,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L1",
+      "budget": 10,
+      "appliance": "kettle",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.2371169666012423,
+      "f1_delta": -0.009407278945074548,
+      "baseline_f1": 0.24652424554631688,
+      "precision": 0.18202225376953338,
+      "recall": 0.5568181818181819,
+      "predicted_on_fraction": 0.02913392900332387,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L1",
+      "budget": 10,
+      "appliance": "microwave",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.060145845779688734,
+      "f1_delta": 0.014268789221991639,
+      "baseline_f1": 0.0458770565576971,
+      "precision": 0.03176492653489701,
+      "recall": 0.6590038314176245,
+      "predicted_on_fraction": 0.07790700084996995,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L1",
+      "budget": 10,
+      "appliance": "washing_machine",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.10370981271483193,
+      "f1_delta": 0.0018994690529815829,
+      "baseline_f1": 0.10181034366185035,
+      "precision": 0.05471296880320212,
+      "recall": 0.9929988331388565,
+      "predicted_on_fraction": 0.9675905770812171,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L1",
+      "budget": 20,
+      "appliance": "kettle",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.21542033467631821,
+      "f1_delta": -0.03110391086999864,
+      "baseline_f1": 0.24652424554631688,
+      "precision": 0.3256613341314928,
+      "recall": 0.27146464646464646,
+      "predicted_on_fraction": 0.009785019798080311,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L1",
+      "budget": 20,
+      "appliance": "microwave",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.060145845779688734,
+      "f1_delta": 0.014268789221991639,
+      "baseline_f1": 0.0458770565576971,
+      "precision": 0.03176492653489701,
+      "recall": 0.6590038314176245,
+      "predicted_on_fraction": 0.07790700084996995,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L1",
+      "budget": 20,
+      "appliance": "washing_machine",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.10370981271483193,
+      "f1_delta": 0.0018994690529815829,
+      "baseline_f1": 0.10181034366185035,
+      "precision": 0.05471296880320212,
+      "recall": 0.9929988331388565,
+      "predicted_on_fraction": 0.9675905770812171,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L2_max_unprotected",
+      "budget": 0,
+      "appliance": "kettle",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.2556370466098044,
+      "f1_delta": 0.0,
+      "baseline_f1": 0.2556370466098044,
+      "precision": 0.15269124094063946,
+      "recall": 0.8143939393939394,
+      "predicted_on_fraction": 0.029748947903061967,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L2_max_unprotected",
+      "budget": 0,
+      "appliance": "microwave",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.09570559395120798,
+      "f1_delta": 0.0,
+      "baseline_f1": 0.09570559395120798,
+      "precision": 0.05985870995653532,
+      "recall": 0.27011494252873564,
+      "predicted_on_fraction": 0.017870099715985653,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L2_max_unprotected",
+      "budget": 0,
+      "appliance": "washing_machine",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.11240791550661422,
+      "f1_delta": 0.0,
+      "baseline_f1": 0.11240791550661422,
+      "precision": 0.0595992434301971,
+      "recall": 0.9910540645663166,
+      "predicted_on_fraction": 0.8902502228579721,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L2_max_unprotected",
+      "budget": 5,
+      "appliance": "kettle",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.2556438977080355,
+      "f1_delta": 6.851098231045831e-06,
+      "baseline_f1": 0.2556370466098044,
+      "precision": 0.15279803687682192,
+      "recall": 0.8106060606060607,
+      "predicted_on_fraction": 0.029583100109874163,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L2_max_unprotected",
+      "budget": 5,
+      "appliance": "microwave",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.08049588757231915,
+      "f1_delta": -0.01520970637888883,
+      "baseline_f1": 0.09570559395120798,
+      "precision": null,
+      "recall": 0.1954022988505747,
+      "predicted_on_fraction": 0.013177989233714093,
+      "adaptation_caused_degeneracy": 1
+    },
+    {
+      "variant": "L2_max_unprotected",
+      "budget": 5,
+      "appliance": "washing_machine",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.07623367064603732,
+      "f1_delta": -0.0361742448605769,
+      "baseline_f1": 0.11240791550661422,
+      "precision": null,
+      "recall": 0.21703617269544923,
+      "predicted_on_fraction": 0.14396970513644436,
+      "adaptation_caused_degeneracy": 1
+    },
+    {
+      "variant": "L2_max_unprotected",
+      "budget": 10,
+      "appliance": "kettle",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.2556530600954991,
+      "f1_delta": 1.6013485694638734e-05,
+      "baseline_f1": 0.2556370466098044,
+      "precision": 0.15293840530595057,
+      "recall": 0.8055555555555556,
+      "predicted_on_fraction": 0.02936196971895709,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L2_max_unprotected",
+      "budget": 10,
+      "appliance": "microwave",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.08472396999635101,
+      "f1_delta": -0.010981623954856972,
+      "baseline_f1": 0.09570559395120798,
+      "precision": null,
+      "recall": 0.13793103448275862,
+      "predicted_on_fraction": 0.008969601481573618,
+      "adaptation_caused_degeneracy": 2
+    },
+    {
+      "variant": "L2_max_unprotected",
+      "budget": 10,
+      "appliance": "washing_machine",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.07432173334756671,
+      "f1_delta": -0.0380861821590475,
+      "baseline_f1": 0.11240791550661422,
+      "precision": null,
+      "recall": 0.19927395306625179,
+      "predicted_on_fraction": 0.12889137660578673,
+      "adaptation_caused_degeneracy": 1
+    },
+    {
+      "variant": "L2_max_unprotected",
+      "budget": 20,
+      "appliance": "kettle",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.15556941219885095,
+      "f1_delta": -0.10006763441095348,
+      "baseline_f1": 0.2556370466098044,
+      "precision": null,
+      "recall": 0.3055555555555556,
+      "predicted_on_fraction": 0.00943950356227239,
+      "adaptation_caused_degeneracy": 4
+    },
+    {
+      "variant": "L2_max_unprotected",
+      "budget": 20,
+      "appliance": "microwave",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.05380518880247583,
+      "f1_delta": -0.041900405148732146,
+      "baseline_f1": 0.09570559395120798,
+      "precision": null,
+      "recall": 0.047892720306513405,
+      "predicted_on_fraction": 0.0009121628625329103,
+      "adaptation_caused_degeneracy": 6
+    },
+    {
+      "variant": "L2_max_unprotected",
+      "budget": 20,
+      "appliance": "washing_machine",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.045379262466020406,
+      "f1_delta": -0.06702865304059381,
+      "baseline_f1": 0.11240791550661422,
+      "precision": null,
+      "recall": 0.13289251912355762,
+      "predicted_on_fraction": 0.08684205070796276,
+      "adaptation_caused_degeneracy": 2
+    },
+    {
+      "variant": "L2_max_bound",
+      "budget": 0,
+      "appliance": "kettle",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.2556370466098044,
+      "f1_delta": 0.0,
+      "baseline_f1": 0.2556370466098044,
+      "precision": 0.15269124094063946,
+      "recall": 0.8143939393939394,
+      "predicted_on_fraction": 0.029748947903061967,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L2_max_bound",
+      "budget": 0,
+      "appliance": "microwave",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.09570559395120798,
+      "f1_delta": 0.0,
+      "baseline_f1": 0.09570559395120798,
+      "precision": 0.05985870995653532,
+      "recall": 0.27011494252873564,
+      "predicted_on_fraction": 0.017870099715985653,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L2_max_bound",
+      "budget": 0,
+      "appliance": "washing_machine",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.11240791550661422,
+      "f1_delta": 0.0,
+      "baseline_f1": 0.11240791550661422,
+      "precision": 0.0595992434301971,
+      "recall": 0.9910540645663166,
+      "predicted_on_fraction": 0.8902502228579721,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L2_max_bound",
+      "budget": 5,
+      "appliance": "kettle",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.25581396104513776,
+      "f1_delta": 0.00017691443533335294,
+      "baseline_f1": 0.2556370466098044,
+      "precision": 0.1528105100594792,
+      "recall": 0.8143939393939394,
+      "predicted_on_fraction": 0.02972130660419733,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L2_max_bound",
+      "budget": 5,
+      "appliance": "microwave",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.10790419057295837,
+      "f1_delta": 0.012198596621750386,
+      "baseline_f1": 0.09570559395120798,
+      "precision": 0.07321876453073331,
+      "recall": 0.23563218390804597,
+      "predicted_on_fraction": 0.012742638776596113,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L2_max_bound",
+      "budget": 5,
+      "appliance": "washing_machine",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.14706289880725512,
+      "f1_delta": 0.03465498330064089,
+      "baseline_f1": 0.11240791550661422,
+      "precision": 0.08189312861203413,
+      "recall": 0.8415661869570854,
+      "predicted_on_fraction": 0.5705302292154708,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L2_max_bound",
+      "budget": 10,
+      "appliance": "kettle",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.25607891346961803,
+      "f1_delta": 0.00044186685981362835,
+      "baseline_f1": 0.2556370466098044,
+      "precision": 0.15298908547410903,
+      "recall": 0.8143939393939394,
+      "predicted_on_fraction": 0.029679844655900383,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L2_max_bound",
+      "budget": 10,
+      "appliance": "microwave",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.10502988489347878,
+      "f1_delta": 0.00932429094227079,
+      "baseline_f1": 0.09570559395120798,
+      "precision": 0.0904270192880372,
+      "recall": 0.18582375478927202,
+      "predicted_on_fraction": 0.00905252537816752,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L2_max_bound",
+      "budget": 10,
+      "appliance": "washing_machine",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.14608006185737887,
+      "f1_delta": 0.03367214635076466,
+      "baseline_f1": 0.11240791550661422,
+      "precision": 0.08151533522756721,
+      "recall": 0.8319719953325555,
+      "predicted_on_fraction": 0.5662872898397496,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L2_max_bound",
+      "budget": 20,
+      "appliance": "kettle",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.25751529140447915,
+      "f1_delta": 0.0018782447946747254,
+      "baseline_f1": 0.2556370466098044,
+      "precision": 0.15494923093259497,
+      "recall": 0.7891414141414141,
+      "predicted_on_fraction": 0.02837379328454644,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L2_max_bound",
+      "budget": 20,
+      "appliance": "microwave",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.10660229222539241,
+      "f1_delta": 0.010896698274184432,
+      "baseline_f1": 0.09570559395120798,
+      "precision": 0.09166782494437758,
+      "recall": 0.18582375478927202,
+      "predicted_on_fraction": 0.008817574337818134,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L2_max_bound",
+      "budget": 20,
+      "appliance": "washing_machine",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.14432904007529698,
+      "f1_delta": 0.03192112456868276,
+      "baseline_f1": 0.11240791550661422,
+      "precision": 0.08062482277021926,
+      "recall": 0.8219888499935174,
+      "predicted_on_fraction": 0.5635784425510155,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L2_max_replay",
+      "budget": 0,
+      "appliance": "kettle",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.2556370466098044,
+      "f1_delta": 0.0,
+      "baseline_f1": 0.2556370466098044,
+      "precision": 0.15269124094063946,
+      "recall": 0.8143939393939394,
+      "predicted_on_fraction": 0.029748947903061967,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L2_max_replay",
+      "budget": 0,
+      "appliance": "microwave",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.09570559395120798,
+      "f1_delta": 0.0,
+      "baseline_f1": 0.09570559395120798,
+      "precision": 0.05985870995653532,
+      "recall": 0.27011494252873564,
+      "predicted_on_fraction": 0.017870099715985653,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L2_max_replay",
+      "budget": 0,
+      "appliance": "washing_machine",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.11240791550661422,
+      "f1_delta": 0.0,
+      "baseline_f1": 0.11240791550661422,
+      "precision": 0.0595992434301971,
+      "recall": 0.9910540645663166,
+      "predicted_on_fraction": 0.8902502228579721,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L2_max_replay",
+      "budget": 5,
+      "appliance": "kettle",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.2558597959504139,
+      "f1_delta": 0.00022274934060952564,
+      "baseline_f1": 0.2556370466098044,
+      "precision": 0.15261297469089607,
+      "recall": 0.8207070707070707,
+      "predicted_on_fraction": 0.029997719592843666,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L2_max_replay",
+      "budget": 5,
+      "appliance": "microwave",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.10479132261026906,
+      "f1_delta": 0.009085728659061073,
+      "baseline_f1": 0.09570559395120798,
+      "precision": 0.06722308434652718,
+      "recall": 0.2624521072796935,
+      "predicted_on_fraction": 0.015562051260788745,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L2_max_replay",
+      "budget": 5,
+      "appliance": "washing_machine",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.14771651570479338,
+      "f1_delta": 0.035308600198179156,
+      "baseline_f1": 0.11240791550661422,
+      "precision": 0.08203250437942654,
+      "recall": 0.8527161934396473,
+      "predicted_on_fraction": 0.5765767633421094,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L2_max_replay",
+      "budget": 10,
+      "appliance": "kettle",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.2562188953228275,
+      "f1_delta": 0.000581848713023044,
+      "baseline_f1": 0.2556370466098044,
+      "precision": 0.15239852825152395,
+      "recall": 0.8333333333333334,
+      "predicted_on_fraction": 0.03050908362183939,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L2_max_replay",
+      "budget": 10,
+      "appliance": "microwave",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.10721609464303752,
+      "f1_delta": 0.011510500691829538,
+      "baseline_f1": 0.09570559395120798,
+      "precision": 0.08243723397514359,
+      "recall": 0.2279693486590038,
+      "predicted_on_fraction": 0.013571877742535121,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L2_max_replay",
+      "budget": 10,
+      "appliance": "washing_machine",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.14654574547913107,
+      "f1_delta": 0.03413782997251684,
+      "baseline_f1": 0.11240791550661422,
+      "precision": 0.08150190491287612,
+      "recall": 0.8442888629586413,
+      "predicted_on_fraction": 0.5732598074783534,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L2_max_replay",
+      "budget": 20,
+      "appliance": "kettle",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.25826148746853794,
+      "f1_delta": 0.0026244408587335097,
+      "baseline_f1": 0.2556370466098044,
+      "precision": 0.1550471603313063,
+      "recall": 0.8005050505050506,
+      "predicted_on_fraction": 0.02876077146865131,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L2_max_replay",
+      "budget": 20,
+      "appliance": "microwave",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.11224032867975457,
+      "f1_delta": 0.016534734728546593,
+      "baseline_f1": 0.09570559395120798,
+      "precision": 0.08938994657042906,
+      "recall": 0.19731800766283525,
+      "predicted_on_fraction": 0.009176911223058372,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L2_max_replay",
+      "budget": 20,
+      "appliance": "washing_machine",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.14684800829245415,
+      "f1_delta": 0.03444009278583992,
+      "baseline_f1": 0.11240791550661422,
+      "precision": 0.08185610616664361,
+      "recall": 0.8387138597173602,
+      "predicted_on_fraction": 0.5687611860881342,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L2_max",
+      "budget": 0,
+      "appliance": "kettle",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.2556370466098044,
+      "f1_delta": 0.0,
+      "baseline_f1": 0.2556370466098044,
+      "precision": 0.15269124094063946,
+      "recall": 0.8143939393939394,
+      "predicted_on_fraction": 0.029748947903061967,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L2_max",
+      "budget": 0,
+      "appliance": "microwave",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.09570559395120798,
+      "f1_delta": 0.0,
+      "baseline_f1": 0.09570559395120798,
+      "precision": 0.05985870995653532,
+      "recall": 0.27011494252873564,
+      "predicted_on_fraction": 0.017870099715985653,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L2_max",
+      "budget": 0,
+      "appliance": "washing_machine",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.11240791550661422,
+      "f1_delta": 0.0,
+      "baseline_f1": 0.11240791550661422,
+      "precision": 0.0595992434301971,
+      "recall": 0.9910540645663166,
+      "predicted_on_fraction": 0.8902502228579721,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L2_max",
+      "budget": 5,
+      "appliance": "kettle",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.2557928761751304,
+      "f1_delta": 0.00015582956532595818,
+      "baseline_f1": 0.2556370466098044,
+      "precision": 0.15265382292646928,
+      "recall": 0.8181818181818181,
+      "predicted_on_fraction": 0.029887154397385134,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L2_max",
+      "budget": 5,
+      "appliance": "microwave",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.1047337834329568,
+      "f1_delta": 0.009028189481748826,
+      "baseline_f1": 0.09570559395120798,
+      "precision": 0.06718513886280472,
+      "recall": 0.2624521072796935,
+      "predicted_on_fraction": 0.015582782234937219,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L2_max",
+      "budget": 5,
+      "appliance": "washing_machine",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.14771949180930016,
+      "f1_delta": 0.03531157630268594,
+      "baseline_f1": 0.11240791550661422,
+      "precision": 0.08203458973428908,
+      "recall": 0.8527161934396473,
+      "predicted_on_fraction": 0.5765698530173933,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L2_max",
+      "budget": 10,
+      "appliance": "kettle",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.25601759810342145,
+      "f1_delta": 0.0003805514936170398,
+      "baseline_f1": 0.2556370466098044,
+      "precision": 0.15252065518512095,
+      "recall": 0.8257575757575757,
+      "predicted_on_fraction": 0.030177388035463788,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L2_max",
+      "budget": 10,
+      "appliance": "microwave",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.11154258208166727,
+      "f1_delta": 0.01583698813045927,
+      "baseline_f1": 0.09570559395120798,
+      "precision": 0.0859843662534222,
+      "recall": 0.23180076628352492,
+      "predicted_on_fraction": 0.013488953845941221,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L2_max",
+      "budget": 10,
+      "appliance": "washing_machine",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.14650711276786146,
+      "f1_delta": 0.034099197261247244,
+      "baseline_f1": 0.11240791550661422,
+      "precision": 0.08147923504779798,
+      "recall": 0.8441592117204719,
+      "predicted_on_fraction": 0.5732528971536373,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L2_max",
+      "budget": 20,
+      "appliance": "kettle",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.25736761185329315,
+      "f1_delta": 0.001730565243488731,
+      "baseline_f1": 0.2556370466098044,
+      "precision": 0.15456259338806375,
+      "recall": 0.7967171717171717,
+      "predicted_on_fraction": 0.028705488870922044,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L2_max",
+      "budget": 20,
+      "appliance": "microwave",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.11702557611206083,
+      "f1_delta": 0.021319982160852853,
+      "baseline_f1": 0.09570559395120798,
+      "precision": 0.09320159063708224,
+      "recall": 0.20306513409961685,
+      "predicted_on_fraction": 0.009225283496071482,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L2_max",
+      "budget": 20,
+      "appliance": "washing_machine",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.1468376210580663,
+      "f1_delta": 0.034429705551452076,
+      "baseline_f1": 0.11240791550661422,
+      "precision": 0.0818335714795665,
+      "recall": 0.8391028134318683,
+      "predicted_on_fraction": 0.5690790610250775,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L2_smooth",
+      "budget": 0,
+      "appliance": "kettle",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.2556370466098044,
+      "f1_delta": 0.0,
+      "baseline_f1": 0.2556370466098044,
+      "precision": 0.15269124094063946,
+      "recall": 0.8143939393939394,
+      "predicted_on_fraction": 0.029748947903061967,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L2_smooth",
+      "budget": 0,
+      "appliance": "microwave",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.09570559395120798,
+      "f1_delta": 0.0,
+      "baseline_f1": 0.09570559395120798,
+      "precision": 0.05985870995653532,
+      "recall": 0.27011494252873564,
+      "predicted_on_fraction": 0.017870099715985653,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L2_smooth",
+      "budget": 0,
+      "appliance": "washing_machine",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.11240791550661422,
+      "f1_delta": 0.0,
+      "baseline_f1": 0.11240791550661422,
+      "precision": 0.0595992434301971,
+      "recall": 0.9910540645663166,
+      "predicted_on_fraction": 0.8902502228579721,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L2_smooth",
+      "budget": 5,
+      "appliance": "kettle",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.2557928761751304,
+      "f1_delta": 0.00015582956532595818,
+      "baseline_f1": 0.2556370466098044,
+      "precision": 0.15265382292646928,
+      "recall": 0.8181818181818181,
+      "predicted_on_fraction": 0.029887154397385134,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L2_smooth",
+      "budget": 5,
+      "appliance": "microwave",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.09576510798305998,
+      "f1_delta": 5.95140318519976e-05,
+      "baseline_f1": 0.09570559395120798,
+      "precision": 0.05954049408065987,
+      "recall": 0.2662835249042146,
+      "predicted_on_fraction": 0.01719979821851829,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L2_smooth",
+      "budget": 5,
+      "appliance": "washing_machine",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.15009749300899905,
+      "f1_delta": 0.03768957750238483,
+      "baseline_f1": 0.11240791550661422,
+      "precision": 0.08318171671496528,
+      "recall": 0.8699598081161675,
+      "predicted_on_fraction": 0.5825403735721542,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L2_smooth",
+      "budget": 10,
+      "appliance": "kettle",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.25601759810342145,
+      "f1_delta": 0.0003805514936170398,
+      "baseline_f1": 0.2556370466098044,
+      "precision": 0.15252065518512095,
+      "recall": 0.8257575757575757,
+      "predicted_on_fraction": 0.030177388035463788,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L2_smooth",
+      "budget": 10,
+      "appliance": "microwave",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.1081854223479405,
+      "f1_delta": 0.012479828396732518,
+      "baseline_f1": 0.09570559395120798,
+      "precision": 0.07579536984505728,
+      "recall": 0.2413793103448276,
+      "predicted_on_fraction": 0.01436656508489334,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L2_smooth",
+      "budget": 10,
+      "appliance": "washing_machine",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.14852819889048033,
+      "f1_delta": 0.03612028338386611,
+      "baseline_f1": 0.11240791550661422,
+      "precision": 0.08244785700047086,
+      "recall": 0.8582911966809283,
+      "predicted_on_fraction": 0.5783043445211491,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L2_smooth",
+      "budget": 20,
+      "appliance": "kettle",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.25736761185329315,
+      "f1_delta": 0.001730565243488731,
+      "baseline_f1": 0.2556370466098044,
+      "precision": 0.15456259338806375,
+      "recall": 0.7967171717171717,
+      "predicted_on_fraction": 0.028705488870922044,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L2_smooth",
+      "budget": 20,
+      "appliance": "microwave",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.11366841637833408,
+      "f1_delta": 0.017962822427126095,
+      "baseline_f1": 0.09570559395120798,
+      "precision": 0.08301259422871732,
+      "recall": 0.21264367816091953,
+      "predicted_on_fraction": 0.010102894735023599,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "L2_smooth",
+      "budget": 20,
+      "appliance": "washing_machine",
+      "expected_pairs": 9,
+      "observed_pairs": 9,
+      "f1": 0.14687264764640906,
+      "f1_delta": 0.03446473213979484,
+      "baseline_f1": 0.11240791550661422,
+      "precision": 0.0816669547938387,
+      "recall": 0.8464929340075198,
+      "predicted_on_fraction": 0.5740406741712794,
+      "adaptation_caused_degeneracy": 0
+    }
+  ],
+  "main_budget_positive_source_query_pairs": 6,
+  "main_budget_total_source_query_pairs": 9,
+  "development_exit_passed": true,
+  "internal_gain_target_met": false,
+  "selected_development_learner": "L2_max",
+  "query_distribution": [
+    {
+      "household_id": "3",
+      "query_seed": 42,
+      "budget": 0,
+      "appliance": "kettle",
+      "queries": 0,
+      "budget_fraction": null,
+      "used": 0,
+      "not_used": 0,
+      "unsure": 0,
+      "skipped": 0,
+      "usable": 0,
+      "positive_fraction": null,
+      "single_class": false
+    },
+    {
+      "household_id": "3",
+      "query_seed": 42,
+      "budget": 0,
+      "appliance": "microwave",
+      "queries": 0,
+      "budget_fraction": null,
+      "used": 0,
+      "not_used": 0,
+      "unsure": 0,
+      "skipped": 0,
+      "usable": 0,
+      "positive_fraction": null,
+      "single_class": false
+    },
+    {
+      "household_id": "3",
+      "query_seed": 42,
+      "budget": 0,
+      "appliance": "washing_machine",
+      "queries": 0,
+      "budget_fraction": null,
+      "used": 0,
+      "not_used": 0,
+      "unsure": 0,
+      "skipped": 0,
+      "usable": 0,
+      "positive_fraction": null,
+      "single_class": false
+    },
+    {
+      "household_id": "3",
+      "query_seed": 42,
+      "budget": 5,
+      "appliance": "kettle",
+      "queries": 1,
+      "budget_fraction": 0.2,
+      "used": 0,
+      "not_used": 1,
+      "unsure": 0,
+      "skipped": 0,
+      "usable": 1,
+      "positive_fraction": 0.0,
+      "single_class": true
+    },
+    {
+      "household_id": "3",
+      "query_seed": 42,
+      "budget": 5,
+      "appliance": "microwave",
+      "queries": 1,
+      "budget_fraction": 0.2,
+      "used": 0,
+      "not_used": 1,
+      "unsure": 0,
+      "skipped": 0,
+      "usable": 1,
+      "positive_fraction": 0.0,
+      "single_class": true
+    },
+    {
+      "household_id": "3",
+      "query_seed": 42,
+      "budget": 5,
+      "appliance": "washing_machine",
+      "queries": 3,
+      "budget_fraction": 0.6,
+      "used": 0,
+      "not_used": 2,
+      "unsure": 1,
+      "skipped": 0,
+      "usable": 2,
+      "positive_fraction": 0.0,
+      "single_class": true
+    },
+    {
+      "household_id": "3",
+      "query_seed": 42,
+      "budget": 10,
+      "appliance": "kettle",
+      "queries": 2,
+      "budget_fraction": 0.2,
+      "used": 0,
+      "not_used": 1,
+      "unsure": 1,
+      "skipped": 0,
+      "usable": 1,
+      "positive_fraction": 0.0,
+      "single_class": true
+    },
+    {
+      "household_id": "3",
+      "query_seed": 42,
+      "budget": 10,
+      "appliance": "microwave",
+      "queries": 3,
+      "budget_fraction": 0.3,
+      "used": 0,
+      "not_used": 1,
+      "unsure": 2,
+      "skipped": 0,
+      "usable": 1,
+      "positive_fraction": 0.0,
+      "single_class": true
+    },
+    {
+      "household_id": "3",
+      "query_seed": 42,
+      "budget": 10,
+      "appliance": "washing_machine",
+      "queries": 5,
+      "budget_fraction": 0.5,
+      "used": 0,
+      "not_used": 4,
+      "unsure": 1,
+      "skipped": 0,
+      "usable": 4,
+      "positive_fraction": 0.0,
+      "single_class": true
+    },
+    {
+      "household_id": "3",
+      "query_seed": 42,
+      "budget": 20,
+      "appliance": "kettle",
+      "queries": 8,
+      "budget_fraction": 0.4,
+      "used": 0,
+      "not_used": 5,
+      "unsure": 3,
+      "skipped": 0,
+      "usable": 5,
+      "positive_fraction": 0.0,
+      "single_class": true
+    },
+    {
+      "household_id": "3",
+      "query_seed": 42,
+      "budget": 20,
+      "appliance": "microwave",
+      "queries": 5,
+      "budget_fraction": 0.25,
+      "used": 0,
+      "not_used": 3,
+      "unsure": 2,
+      "skipped": 0,
+      "usable": 3,
+      "positive_fraction": 0.0,
+      "single_class": true
+    },
+    {
+      "household_id": "3",
+      "query_seed": 42,
+      "budget": 20,
+      "appliance": "washing_machine",
+      "queries": 7,
+      "budget_fraction": 0.35,
+      "used": 0,
+      "not_used": 5,
+      "unsure": 2,
+      "skipped": 0,
+      "usable": 5,
+      "positive_fraction": 0.0,
+      "single_class": true
+    },
+    {
+      "household_id": "3",
+      "query_seed": 1019,
+      "budget": 0,
+      "appliance": "kettle",
+      "queries": 0,
+      "budget_fraction": null,
+      "used": 0,
+      "not_used": 0,
+      "unsure": 0,
+      "skipped": 0,
+      "usable": 0,
+      "positive_fraction": null,
+      "single_class": false
+    },
+    {
+      "household_id": "3",
+      "query_seed": 1019,
+      "budget": 0,
+      "appliance": "microwave",
+      "queries": 0,
+      "budget_fraction": null,
+      "used": 0,
+      "not_used": 0,
+      "unsure": 0,
+      "skipped": 0,
+      "usable": 0,
+      "positive_fraction": null,
+      "single_class": false
+    },
+    {
+      "household_id": "3",
+      "query_seed": 1019,
+      "budget": 0,
+      "appliance": "washing_machine",
+      "queries": 0,
+      "budget_fraction": null,
+      "used": 0,
+      "not_used": 0,
+      "unsure": 0,
+      "skipped": 0,
+      "usable": 0,
+      "positive_fraction": null,
+      "single_class": false
+    },
+    {
+      "household_id": "3",
+      "query_seed": 1019,
+      "budget": 5,
+      "appliance": "kettle",
+      "queries": 1,
+      "budget_fraction": 0.2,
+      "used": 0,
+      "not_used": 0,
+      "unsure": 1,
+      "skipped": 0,
+      "usable": 0,
+      "positive_fraction": null,
+      "single_class": false
+    },
+    {
+      "household_id": "3",
+      "query_seed": 1019,
+      "budget": 5,
+      "appliance": "microwave",
+      "queries": 2,
+      "budget_fraction": 0.4,
+      "used": 0,
+      "not_used": 0,
+      "unsure": 2,
+      "skipped": 0,
+      "usable": 0,
+      "positive_fraction": null,
+      "single_class": false
+    },
+    {
+      "household_id": "3",
+      "query_seed": 1019,
+      "budget": 5,
+      "appliance": "washing_machine",
+      "queries": 2,
+      "budget_fraction": 0.4,
+      "used": 0,
+      "not_used": 1,
+      "unsure": 1,
+      "skipped": 0,
+      "usable": 1,
+      "positive_fraction": 0.0,
+      "single_class": true
+    },
+    {
+      "household_id": "3",
+      "query_seed": 1019,
+      "budget": 10,
+      "appliance": "kettle",
+      "queries": 2,
+      "budget_fraction": 0.2,
+      "used": 0,
+      "not_used": 1,
+      "unsure": 1,
+      "skipped": 0,
+      "usable": 1,
+      "positive_fraction": 0.0,
+      "single_class": true
+    },
+    {
+      "household_id": "3",
+      "query_seed": 1019,
+      "budget": 10,
+      "appliance": "microwave",
+      "queries": 4,
+      "budget_fraction": 0.4,
+      "used": 0,
+      "not_used": 2,
+      "unsure": 2,
+      "skipped": 0,
+      "usable": 2,
+      "positive_fraction": 0.0,
+      "single_class": true
+    },
+    {
+      "household_id": "3",
+      "query_seed": 1019,
+      "budget": 10,
+      "appliance": "washing_machine",
+      "queries": 4,
+      "budget_fraction": 0.4,
+      "used": 0,
+      "not_used": 3,
+      "unsure": 1,
+      "skipped": 0,
+      "usable": 3,
+      "positive_fraction": 0.0,
+      "single_class": true
+    },
+    {
+      "household_id": "3",
+      "query_seed": 1019,
+      "budget": 20,
+      "appliance": "kettle",
+      "queries": 7,
+      "budget_fraction": 0.35,
+      "used": 0,
+      "not_used": 4,
+      "unsure": 3,
+      "skipped": 0,
+      "usable": 4,
+      "positive_fraction": 0.0,
+      "single_class": true
+    },
+    {
+      "household_id": "3",
+      "query_seed": 1019,
+      "budget": 20,
+      "appliance": "microwave",
+      "queries": 8,
+      "budget_fraction": 0.4,
+      "used": 0,
+      "not_used": 5,
+      "unsure": 3,
+      "skipped": 0,
+      "usable": 5,
+      "positive_fraction": 0.0,
+      "single_class": true
+    },
+    {
+      "household_id": "3",
+      "query_seed": 1019,
+      "budget": 20,
+      "appliance": "washing_machine",
+      "queries": 5,
+      "budget_fraction": 0.25,
+      "used": 0,
+      "not_used": 4,
+      "unsure": 1,
+      "skipped": 0,
+      "usable": 4,
+      "positive_fraction": 0.0,
+      "single_class": true
+    },
+    {
+      "household_id": "3",
+      "query_seed": 2026,
+      "budget": 0,
+      "appliance": "kettle",
+      "queries": 0,
+      "budget_fraction": null,
+      "used": 0,
+      "not_used": 0,
+      "unsure": 0,
+      "skipped": 0,
+      "usable": 0,
+      "positive_fraction": null,
+      "single_class": false
+    },
+    {
+      "household_id": "3",
+      "query_seed": 2026,
+      "budget": 0,
+      "appliance": "microwave",
+      "queries": 0,
+      "budget_fraction": null,
+      "used": 0,
+      "not_used": 0,
+      "unsure": 0,
+      "skipped": 0,
+      "usable": 0,
+      "positive_fraction": null,
+      "single_class": false
+    },
+    {
+      "household_id": "3",
+      "query_seed": 2026,
+      "budget": 0,
+      "appliance": "washing_machine",
+      "queries": 0,
+      "budget_fraction": null,
+      "used": 0,
+      "not_used": 0,
+      "unsure": 0,
+      "skipped": 0,
+      "usable": 0,
+      "positive_fraction": null,
+      "single_class": false
+    },
+    {
+      "household_id": "3",
+      "query_seed": 2026,
+      "budget": 5,
+      "appliance": "kettle",
+      "queries": 0,
+      "budget_fraction": 0.0,
+      "used": 0,
+      "not_used": 0,
+      "unsure": 0,
+      "skipped": 0,
+      "usable": 0,
+      "positive_fraction": null,
+      "single_class": false
+    },
+    {
+      "household_id": "3",
+      "query_seed": 2026,
+      "budget": 5,
+      "appliance": "microwave",
+      "queries": 2,
+      "budget_fraction": 0.4,
+      "used": 1,
+      "not_used": 1,
+      "unsure": 0,
+      "skipped": 0,
+      "usable": 2,
+      "positive_fraction": 0.5,
+      "single_class": false
+    },
+    {
+      "household_id": "3",
+      "query_seed": 2026,
+      "budget": 5,
+      "appliance": "washing_machine",
+      "queries": 3,
+      "budget_fraction": 0.6,
+      "used": 1,
+      "not_used": 2,
+      "unsure": 0,
+      "skipped": 0,
+      "usable": 3,
+      "positive_fraction": 0.3333333333333333,
+      "single_class": false
+    },
+    {
+      "household_id": "3",
+      "query_seed": 2026,
+      "budget": 10,
+      "appliance": "kettle",
+      "queries": 1,
+      "budget_fraction": 0.1,
+      "used": 0,
+      "not_used": 1,
+      "unsure": 0,
+      "skipped": 0,
+      "usable": 1,
+      "positive_fraction": 0.0,
+      "single_class": true
+    },
+    {
+      "household_id": "3",
+      "query_seed": 2026,
+      "budget": 10,
+      "appliance": "microwave",
+      "queries": 4,
+      "budget_fraction": 0.4,
+      "used": 1,
+      "not_used": 2,
+      "unsure": 1,
+      "skipped": 0,
+      "usable": 3,
+      "positive_fraction": 0.3333333333333333,
+      "single_class": false
+    },
+    {
+      "household_id": "3",
+      "query_seed": 2026,
+      "budget": 10,
+      "appliance": "washing_machine",
+      "queries": 5,
+      "budget_fraction": 0.5,
+      "used": 1,
+      "not_used": 3,
+      "unsure": 1,
+      "skipped": 0,
+      "usable": 4,
+      "positive_fraction": 0.25,
+      "single_class": false
+    },
+    {
+      "household_id": "3",
+      "query_seed": 2026,
+      "budget": 20,
+      "appliance": "kettle",
+      "queries": 7,
+      "budget_fraction": 0.35,
+      "used": 0,
+      "not_used": 6,
+      "unsure": 1,
+      "skipped": 0,
+      "usable": 6,
+      "positive_fraction": 0.0,
+      "single_class": true
+    },
+    {
+      "household_id": "3",
+      "query_seed": 2026,
+      "budget": 20,
+      "appliance": "microwave",
+      "queries": 4,
+      "budget_fraction": 0.2,
+      "used": 1,
+      "not_used": 2,
+      "unsure": 1,
+      "skipped": 0,
+      "usable": 3,
+      "positive_fraction": 0.3333333333333333,
+      "single_class": false
+    },
+    {
+      "household_id": "3",
+      "query_seed": 2026,
+      "budget": 20,
+      "appliance": "washing_machine",
+      "queries": 9,
+      "budget_fraction": 0.45,
+      "used": 1,
+      "not_used": 6,
+      "unsure": 2,
+      "skipped": 0,
+      "usable": 7,
+      "positive_fraction": 0.14285714285714285,
+      "single_class": false
+    }
+  ],
+  "limitations": [
+    "One previously inspected development household; seeds are not independent households.",
+    "No kettle positive answer in any of the fixed random trajectories.",
+    "Some queried windows return unsure due to missing submeter support; all count toward budget.",
+    "L2 source-state baseline improvement is not confirmation gain.",
+    "The +0.05 internal gain goal and final multi-household H1/H2/H3 are not met.",
+    "No power/energy improvement; no A3 comparison or independent-person/second-machine replication."
+  ],
+  "bindings": {
+    "run.json": "939bffc05f5cda382c93a138bf9e1f868718de4113ea679237f6ff27a4fdcc44",
+    "freeze.json": "58022088384b86ff0610c0dabe18dd9556f2286d0a512a7044e4e476c2571de6",
+    "evidence.json": "d8a6bf14d471a43ab0fbc1d671c291d119363a72c4b61347e9da1375b08eee8c",
+    "summary.json": "6e29058b8f07483e405b22a9053e79f68b2715c12fddbad8415fdebe57c58bcb",
+    "metrics.json": "a9126308b95ba9c30c5b8c39ba20965b99e5f456762db27674276cbc053c0de7",
+    "report.html": "3c7e8235311566585989408635af402afb87586edd35e451c7acb8fa5ce42af5"
+  }
+}

@@ -13,9 +13,18 @@ def load_model(directory: Path):
     appliances = metadata.get("appliances", [])
     if not appliances or len(set(appliances)) != len(appliances):
         raise DataError("Invalid model appliance list")
+    if metadata.get("state_threshold_view", "power_w") not in ("power_w", "raw_power_w"):
+        raise DataError("Unknown state threshold view")
     if metadata.get("state_adapter"):
         from ..adaptation.state import validate_head
         validate_head(metadata["state_adapter"], appliances)
+    if metadata.get("accuracy_state_head"):
+        from ..accuracy.learners import validate_adapter
+        validate_adapter(metadata["accuracy_state_head"], metadata)
+        if metadata.get("state_adapter"):
+            raise DataError("A2 and historical state adapters cannot be combined")
+        if sha256(directory / "queries.json") != metadata["queries_sha256"]:
+            raise DataError("A2 query history hash mismatch")
     if metadata.get("adaptation") == "weak_window_state_only":
         if sha256(directory / "queries.json") != metadata["queries_sha256"]:
             raise DataError("Adaptation query history hash mismatch")
