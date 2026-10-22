@@ -4,6 +4,7 @@ import contextlib
 import copy
 import io
 from pathlib import Path
+import shutil
 import sys
 import tempfile
 import unittest
@@ -32,6 +33,23 @@ class FinalTest(unittest.TestCase):
         with contextlib.redirect_stderr(io.StringIO()):
             cls.result = final_demo.run(cls.root, ROOT)
         cls.output = cls.root / "experiment"
+
+    def test_date_selected_preparation_has_distinct_protocol_identity(self):
+        from virtual_submeter.data.final_protocol import prepare
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            targets = root / "targets"
+            shutil.copytree(self.root / "targets", targets)
+            audit = read_json(targets / "manifest.json")
+            audit["date_selection"] = {"protocol_id": "synthetic-date-selection-test"}
+            audit["date_selection_sha256"] = "0" * 64
+            write_json(targets / "manifest.json", audit)
+            prepare(self.root / "source_learning/frozen/protocol/protocol.json", targets,
+                    read_json(self.root / "plan.json"), root / "protocol")
+            protocol = read_json(root / "protocol/protocol.json")
+            self.assertEqual(protocol["protocol_id"], "a5-engineering-date-selected-v1")
+            self.assertEqual(protocol["a5_date_selection"], audit["date_selection"])
+            self.assertEqual(protocol["a5_date_selection_sha256"], audit["date_selection_sha256"])
 
     def test_three_household_engineering_roundtrip_is_never_final(self):
         from virtual_submeter.accuracy import final_evaluation as final

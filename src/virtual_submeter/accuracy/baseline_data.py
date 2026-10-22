@@ -34,6 +34,8 @@ def load_plan(path):
         raise DataError("A1 maximum duration must be positive whole days")
     if type(plan.get("development_duration_days")) is not int or not 0 < plan["development_duration_days"] <= plan["maximum_days_per_household"]:
         raise DataError("A1 development duration must fit within the household maximum")
+    if "source_duration_days" in plan and (type(plan["source_duration_days"]) is not int or not 0 < plan["source_duration_days"] <= plan["maximum_days_per_household"]):
+        raise DataError("Source duration must fit within the household maximum")
     if not 0 < plan["minimum_coverage"] <= 1 or plan["minimum_source_observed_days"] <= 0 or type(plan["minimum_complete_events"]) is not int or plan["minimum_complete_events"] < 1:
         raise DataError("Invalid A1 source-quality thresholds")
     targets = plan["primary_appliances"] + plan["extension_appliances"]
@@ -113,7 +115,7 @@ def build_protocol(sources, development, output, plan, settings):
                 continue
             raise DataError(f"A1 required house {house} unavailable")
         start = utc(info["start"])
-        days = plan["development_duration_days"] if role == "target_adaptation" else plan["maximum_days_per_household"]
+        days = plan["development_duration_days"] if role == "target_adaptation" else plan.get("source_duration_days", plan["maximum_days_per_household"])
         end = min(utc(info["end"]), start + days * 86400)
         spans = [(role, start, end)]
         if role == "target_adaptation":

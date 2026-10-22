@@ -138,6 +138,48 @@ class DataProtocolTest(unittest.TestCase):
             with self.subTest(days=days), self.assertRaises(DataError):
                 prepare(self.inputs, self.prepared, self.catalog, maximum_days=days)
 
+    def date_selection(self, start=16, end=64):
+        from virtual_submeter.data.common import sha256
+        selection = self.directory / "selection.json"
+        write_json(selection, {"schema_version": 1, "protocol_id": "r0-selected-dates-test",
+                               "catalog_sha256": sha256(self.catalog), "households": {
+                                   "2": {"start": iso(start), "end": iso(end), "source_sha256": sha256(self.inputs["2"])}}})
+        return selection
+
+    def test_selected_dates_keep_hashes_and_hide_activity_quality(self):
+        selection = self.date_selection()
+        prepare({"2": self.inputs["2"]}, self.prepared, self.catalog, selection=selection, support_only=True)
+        audit = read_json(self.prepared / "manifest.json")
+        house = audit["households"]["2"]
+        self.assertEqual((house["start"], house["end"], house["bins"]), (iso(16), iso(64), 6))
+        self.assertEqual(house["preparation_selection"]["kind"], "predeclared_continuous_dates")
+        for summary in house["channels"].values():
+            self.assertIsNone(summary["nonzero_bins"])
+            self.assertIsNone(summary["observed_energy_kwh"])
+        self.assertIn("未计算", (self.prepared / "quality.html").read_text(encoding="utf-8"))
+
+    def test_date_selection_rejects_wrong_hash_boundaries_or_incomplete_source(self):
+        from virtual_submeter.data.common import sha256
+        for first, last in ((17, 64), (16, 16), (16, 1024)):
+            with self.subTest(first=first, last=last), self.assertRaises(DataError):
+                prepare({"2": self.inputs["2"]}, self.prepared, self.catalog, selection=self.date_selection(first, last))
+        selected = self.date_selection()
+        item = read_json(selected)
+        item["households"]["2"]["source_sha256"] = "0" * 64
+        write_json(selected, item)
+        with self.assertRaises(DataError):
+            prepare({"2": self.inputs["2"]}, self.prepared, self.catalog, selection=selected)
+        with self.assertRaises(DataError):
+            prepare({"2": self.inputs["2"]}, self.prepared, self.catalog, selection=self.date_selection(), maximum_days=1)
+
+    def test_selection_preserves_original_hold_age_across_start_boundary(self):
+        from virtual_submeter.data.prepare import selected_samples
+        points = [Sample(t, {"aggregate": 100.0}, {"aggregate": set()}) for t in (0, 10, 16, 24, 32)]
+        actual = list(resample(selected_samples(iter(points), 8, 24), 8, {"raw_intervals_seconds": Counter()}))
+        inside = {t: channels["aggregate"]["power_w"] for t, channels in actual if 8 <= t < 24}
+        self.assertIsNone(inside[8])
+        self.assertEqual(inside[16], 100.0)
+
     def test_test_answers_and_oracle_labels_are_denied_to_model_consumers(self):
         self.freeze()
         for partition, consumer, labels in (

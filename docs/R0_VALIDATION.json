@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-22",
+  "scope": "R0 full-record support audit and date selection, no training or final evaluation",
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.4",
+    "pandas": "2.3.3"
+  },
+  "git_head": "4761abdf31de7433731f4a774b3b5083817bb1f8",
+  "git_working_tree": "Uncommitted R0 implementation bound by individual hashes",
+  "validation": {
+    "full_suite": {
+      "tests": 131,
+      "seconds": 118.773,
+      "passed": true
+    },
+    "a5_subset_after_additional_identity_case": {
+      "tests": 7,
+      "seconds": 39.103,
+      "passed": true
+    },
+    "data_protocol_subset": {
+      "tests": 25,
+      "passed": true
+    },
+    "r0_audit_subset": {
+      "tests": 3,
+      "passed": true
+    },
+    "synthetic_trials_against_production_resampler": 30,
+    "final_production_preparation_households": [
+      "8",
+      "9",
+      "20"
+    ],
+    "production_coverage_check_passed": [
+      "8",
+      "9",
+      "20"
+    ],
+    "independent_person_or_machine_rerun": false,
+    "formal_final_admission": []
+  },
+  "files": {
+    "README.md": "4486ab805c1df08625234a73ff9dde5205f4faf3ca10e07a1561f03fbb54c75c",
+    "PLAN.md": "a95ef8b548b666028de461c950935e5ef31c23e243a4034f1f5c8210a3a00616",
+    "docs/NEXT_PHASE_PLAN_20261022.md": "b8a3d9afff06f1ee5ebd2969a4ad569e1f35c561a5a77ee7659f24577f3926d7",
+    "docs/R0_HANDOFF.md": "c43d593a622a38b05426b026d109342eff907876f096596f112a3e6970403638",
+    "docs/R0_RESULTS.json": "b9de52aa694ab3dfb9af5bc4fa3096cd51ed67e6cae21b38ff42eb9141c8f228",
+    "configs/r0_audit_20261022.json": "c5db2b8aaf47e6f55c26eb6be172790a31f746cd686f6067297fd01efdfdcd59",
+    "configs/r0_roles_20261022_v2.json": "5c7ce442c1d5d7eb0a892f9513c47b11341e51865444a01bfe6af09096222187",
+    "configs/r0_dates_final_20261022.json": "1e779d86f29b2579c477f4866b29d821bfb4e46c1d888d8045df9537c77c315a",
+    "configs/r0_dates_development_20261022.json": "84c5f3d03779f63326e57ccbb6f44fd6ccb171f23694137a1675e879301ff636",
+    "configs/r0_dates_sources_20261022.json": "f7f506f99db1a9f68a4630e74fffce1d7086a21cbf9d47c693c0165f28c2af5c",
+    "configs/refit_channels_complete_20261022.json": "18b44c7ce7ea065799017cc5cdff43d4623971f2e14a6e2e3c5ad506ebf33dab",
+    "scripts/audit_refit_r0.py": "67e31f537d9b2b619e15daaf1412ffd3522db9733299db9bdfec39466d44cb19",
+    "scripts/audit_refit_expansion.py": "03a0c356103489a8896f2894f94bfd57dbe52a5cf60ffd415e269f732b5cb698",
+    "scripts/verify_r0.py": "e3bfb7dc9d3615bdd4ec40d88a6851a2273810a7032d8e9912b36700a9d91149",
+    "src/virtual_submeter/data/prepare.py": "9d0befa61e1d40c5cd1f444f0ee1b90a5a6919ebd2c3fd8f4a66ae8b8cbd9ae0",
+    "src/virtual_submeter/data/quality.py": "617ebd5a465a479306232a664b259c19b30cffc53655055d8882a7f94663681c",
+    "src/virtual_submeter/data/final_protocol.py": "7110be0b823a14a83dccc64b1bb647aa5fdea1a5027e86e2943ae3042e0ef0ee",
+    "src/virtual_submeter/cli.py": "6b579eba02e4f418bddce5ac56163e24abf85f1b3757ea5c10768445fd4faabd",
+    "tests/test_data_protocol.py": "1b7aa1b27303f41c574aa475d3bbd736bd451f438f445dd329340ddb8c659ddc",
+    "tests/test_r0_audit.py": "d40c6aa3bbea7affdd0e66d2915e30d393da50f6a2d0546f1fc07da6dcd3418a",
+    "tests/test_a5_final.py": "6ab5e493611f61fe07e48b215c2cfe1b44c0b1ac49aa3f7a797df6f6b567a278",
+    "outputs/r0-20261022-final-date-coverage.json": "e9dc0f10ba4d19ff418e07c9531b6dc83e6f8d8c738997bd0bd3f6fe94009b7d",
+    "data/processed/refit_r0_final_dates_20261022/manifest.json": "7a33e977b270cc51816971714950f15391e0864554cf831dac4971911d329e42",
+    "data/processed/refit_r0_final_dates_20261022/quality.html": "8df4036fd27536cd4414c02a9df2c91a8ba1bacf54ef3b3740f12fc883a954d8",
+    "tmp/r0_tests_20261022.log": "fab17f0190f239467f7cf66523d06e9f5d356800b5467636ff63c27a1f632dfa",
+    "tmp/r0_a5_tests_20261022.log": "aab7ed1bb362e137c7493f57cdce55aba5f945021675ec8d4067138b55552156",
+    "data/raw/refit_complete_20261022/CLEAN_READ_ME_081116.txt": "c5f5236fd5a7b29771913480fcef6e9be8a85d07511939c5a35160b7afc97bfb",
+    "data/raw/refit_complete_20261022/REFIT_Readme.txt": "d861ab58920eb8bf1d3d8f70f593b6b4b66af629b7932394f11b8599de582d90",
+    "outputs/r0-20261022-strict-v1/house_1.json": "e12d11843efd3b0068d1bc1b06a8047d69ec097f9c9a1a0e7e88bb1bff258652",
+    "outputs/r0-20261022-strict-v1/house_10.json": "dbe2ca847733dadd638acd01eba1391236f4d69cb2204d7ad3eaeb032b127201",
+    "outputs/r0-20261022-strict-v1/house_11.json": "d2702329b780727461c10e5a59ddb8ebd350765f3f0167e6879267f423714a37",
+    "outputs/r0-20261022-strict-v1/house_12.json": "594c5c9ff3b70596e859fd8d10b18215418f44d23971d252ba73982e6b6d7dc1",
+    "outputs/r0-20261022-strict-v1/house_13.json": "4673043528a23aadee5dd35906c9fded8a0b97eeb81ff9c35088fb1c939c02f3",
+    "outputs/r0-20261022-strict-v1/house_15.json": "db31289d7bbbebe35d87643a2567e053faafc9b195aaee02bf05db942ed0dc90",
+    "outputs/r0-20261022-strict-v1/house_16.json": "26a40d8311bcd4c2d0c27ba18b6c733351851f65ab873989347f175627f1408b",
+    "outputs/r0-20261022-strict-v1/house_17.json": "c1cc4ec11effef13460ea180697fc50db59fce36c9e7ff1096cc0de3b7ee3ecd",
+    "outputs/r0-20261022-strict-v1/house_18.json": "29934f3fa5729f491d456b72425cb66cfc5a64d04ea5307e9c1445e039f26ba9",
+    "outputs/r0-20261022-strict-v1/house_19.json": "dc579cfb733474e20bf7bd8330314b87a6acab13c53feadd7196ec6d8c5a2de1",
+    "outputs/r0-20261022-strict-v1/house_2.json": "b755cb3f7a5ccb054e8b37912b170ec6c9cddaddba15685c5bef9a9abbfde888",
+    "outputs/r0-20261022-strict-v1/house_20.json": "3ae09fd5673cd05c787f2b52ae4329d83d76731f150bddf19ca62f1f9ebf54ed",
+    "outputs/r0-20261022-strict-v1/house_21.json": "b9ad725fafeabde4f09936467785c4829e026665a5ed9ac99dcfb37138e641e3",
+    "outputs/r0-20261022-strict-v1/house_3.json": "ad4a4699e754451b210a3dea092d41e5b7b11aeeabd7950b48a6976cd6bd3d7b",
+    "outputs/r0-20261022-strict-v1/house_4.json": "a98df4a0f3a209887e612c8a08052a6aaab0a42dcaf4468d0c321304119a7fd8",
+    "outputs/r0-20261022-strict-v1/house_5.json": "1a9cdf1faca33e9d9fea70822f07edb95958d93e3bae7a3b7933dfd090606da5",
+    "outputs/r0-20261022-strict-v1/house_6.json": "5b69564cf275e0aceb2fda8ad894ed5c920a684c32588418e3c3b616b52de438",
+    "outputs/r0-20261022-strict-v1/house_7.json": "43948970161bea3ebb0dc73aea399b71df7206df61a63c97b12bc493273d71f5",
+    "outputs/r0-20261022-strict-v1/house_8.json": "da73348c6d0c05b58cf2aef95f45a134d6cb3a700c3f7340d0868717b456940e",
+    "outputs/r0-20261022-strict-v1/house_9.json": "09166994b55f3b9c5338fc5ddea73f03c1cb7f561aa091950c1d3e79528d2336",
+    "outputs/r0-20261022-strict-v1/plan.json": "6f08a58be09bdb854847b4418819d126bfb1afb0503eff96c17958428244b665",
+    "outputs/r0-20261022-strict-v1/start.json": "5c1c7fbc6f512bfa77a3c81d780b5fc87309c590d7545ebdf5cfd1a6cb6888a4",
+    "outputs/r0-20261022-strict-v1/summary.json": "60bdb5c8dd2bd531f4028b7159e01171cf9a33139ede0b43aca9254789d76a5b"
+  }
+}

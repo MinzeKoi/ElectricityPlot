@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "protocol_id": "r0-date-selected-strict8-v1",
+  "supersedes_role_reservations_in": "configs/r0_audit_20261022.json",
+  "revision_basis": "Metadata-only revision after primary REFIT paper identified PV at house 6; no appliance activity, energy, curves or model scores inspected. Preserve final count of three; allocate remaining candidates to one new development and one new source household.",
+  "source_train_existing": ["2"],
+  "source_validation_existing": ["5"],
+  "new_source_reserved": ["19"],
+  "new_development_reserved": ["17"],
+  "final_reserved": ["8", "9", "20"],
+  "historical_development_only": ["3"],
+  "quarantine_history_not_established": ["4"],
+  "excluded_pv_installed_rewired": ["1", "6", "7"],
+  "excluded_pv_aggregate_affected": ["3", "11", "21"],
+  "excluded_pv_literature_conflict": ["13"],
+  "missing_required_monitored_channel": ["1", "7", "10", "12", "15", "16", "18", "21"],
+  "pv_evidence": {
+    "primary_paper": "https://www.nature.com/articles/sdata2016122.pdf",
+    "section": "Methods / Household aggregate, page 4",
+    "finding": "Six homes had solar panels: 1/6/7 rewired to remove generation effects; 3/11/21 measured with solar interference.",
+    "other_households": "Not in the primary paper's exhaustive list of six PV homes; inference of no recorded PV during this study, not an independent household certificate.",
+    "conflicting_research": "https://www.hslu.ch/-/media/campus/common/files/dokumente/ta/ta-forschung/ihomelab/publikationen/2020/2020-energies-effect-of-sampling-rate-on-photovoltaic-self-consumption.pdf?sc_lang=de-ch",
+    "conflict": "The 2020 paper lists 3/13/21 instead of primary 3/11/21. House 13 remains excluded conservatively."
+  },
+  "storage_evidence": "No explicit household-level storage absence evidence established from retrieved documents; pending, never convert silence into confirmed absence.",
+  "formal_final_admitted": [],
+  "admission_remaining": ["Document generation/storage scene eligibility", "Actual named and dated unseen-future-label declaration", "New date-selected A5 protocol and complete frozen experiment"],
+  "date_rule": "For each household use the chronological first complete 28-day window on the 8-second grid passing 90% coverage and 7 valid days per adaptation/future partition in every required channel; 3600-second gap. Keep original earliest-28-day failures. Never choose diagnostic best-support windows.",
+  "unchanged_semantics": {"interval_seconds": 8, "hold_cap_seconds": 8, "minimum_coverage": 0.9, "minimum_valid_days_per_partition": 7, "window_days": 28, "gap_seconds": 3600},
+  "protocol_v2_resampling_required": false,
+  "training_rule": "R0 does no training. Extended or new source data requires a new training identity, model and calibration. Existing A5 sources/weights remain frozen."
+}

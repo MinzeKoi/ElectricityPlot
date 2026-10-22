@@ -51,6 +51,10 @@ def prepare(parent_protocol, prepared, plan, output, declaration=None):
                     a5_parent_protocol_sha256=sha256(parent_protocol), a5_plan=plan,
                     a5_admission=admission, a5_unseen_declaration=statement,
                     a5_target_audit_sha256=sha256(prepared / "manifest.json"), partitions=[])
+    if "date_selection" in audit:
+        protocol["protocol_id"] = "a5-final-date-selected-v1" if plan["mode"] == "final" else "a5-engineering-date-selected-v1"
+        protocol["a5_date_selection"] = copy.deepcopy(audit["date_selection"])
+        protocol["a5_date_selection_sha256"] = audit["date_selection_sha256"]
     try:
         for partition in original["partitions"]:
             if partition["role"] not in ("source_train", "source_validation"):

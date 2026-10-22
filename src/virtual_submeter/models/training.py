@@ -39,12 +39,15 @@ def dataset(manifest_path, partitions, appliances, settings, interval):
     return x, y, counts
 
 
-def train(manifest_path: Path, settings_path: Path, output: Path, kind="small_seq2point", appliances=None) -> dict:
+def train(manifest_path: Path, settings_path: Path, output: Path, kind="small_seq2point", appliances=None,
+          checkpoint_metric="normalized_mae") -> dict:
     started = time.perf_counter()
     if output.exists():
         raise DataError("Training destination exists; choose a new run directory")
     if kind not in ("small_seq2point", "constant_mean", "zero"):
         raise DataError("Unsupported baseline kind")
+    if checkpoint_metric not in ("normalized_mae", "primary_f1"):
+        raise DataError("Unsupported source checkpoint metric")
     settings = load_settings(settings_path)
     protocol = read_json(manifest_path)
     appliances = list(protocol["target_appliances"] if appliances is None else appliances)
@@ -105,7 +108,7 @@ def train(manifest_path: Path, settings_path: Path, output: Path, kind="small_se
             weights = torch.from_numpy(np.where(y >= thresholds, settings["active_loss_weight"], 1).astype(np.float32))
             val_x = torch.from_numpy((np.log1p(vx) - mean) / std)
             generator = torch.Generator().manual_seed(settings["seed"])
-            best = float("inf")
+            best = None
             best_state = None
             for epoch in range(1, settings["epochs"] + 1):
                 model.train()
@@ -125,15 +128,30 @@ def train(manifest_path: Path, settings_path: Path, output: Path, kind="small_se
                 score = float(np.nanmean(np.abs(val_prediction - vy) / scales))
                 if not np.isfinite(score):
                     raise DataError("Training produced a non-finite validation metric")
-                history.append({"epoch": epoch, "training_weighted_mse": running_loss / len(tx), "validation_normalized_mae": score})
+                primary = [i for i, a in enumerate(appliances) if a in ("kettle", "microwave")]
+                state_f1 = []
+                for i in primary:
+                    observed = np.isfinite(vy[:, i])
+                    truth = vy[observed, i] >= thresholds[i]
+                    predicted = val_prediction[observed, i] >= thresholds[i]
+                    denominator = int(truth.sum() + predicted.sum())
+                    state_f1.append(2 * int((truth & predicted).sum()) / denominator if denominator else 0.0)
+                primary_f1 = float(np.mean(state_f1)) if state_f1 else None
+                if checkpoint_metric == "primary_f1" and primary_f1 is None:
+                    raise DataError("Primary F1 checkpoint requires a primary appliance")
+                rank = (score,) if checkpoint_metric == "normalized_mae" else (-primary_f1, score)
+                history.append({"epoch": epoch, "training_weighted_mse": running_loss / len(tx), "validation_normalized_mae": score,
+                                "source_primary_f1": primary_f1})
                 print(f"epoch {epoch}/{settings['epochs']}: source validation normalized MAE={score:.6f}", file=sys.stderr, flush=True)
-                if score < best:
-                    best = score
+                if best is None or rank < best:
+                    best = rank
+                    selected_mae = score
                     best_state = {key: value.detach().clone() for key, value in model.state_dict().items()}
                     metadata["selected_epoch"] = epoch
             torch.save(best_state, staging / "weights.pt")
             metadata["weights"] = {"path": "weights.pt", "sha256": sha256(staging / "weights.pt")}
-            metadata["validation_normalized_mae"] = best
+            metadata["validation_normalized_mae"] = selected_mae
+            metadata["checkpoint_metric"] = checkpoint_metric
             metadata["torch_version"] = torch.__version__
             metadata["parameter_count"] = sum(p.numel() for p in model.parameters())
         metadata["timing_seconds"] = {"fit": time.perf_counter() - fit_started, "total": time.perf_counter() - started}

@@ -404,9 +404,11 @@ def render_report(output, summary, distributions):
         return f"{value:.4f}" if value is not None else "—"
     rows = "".join(f"<tr><td>{escape(g['variant'])}</td><td>{g['budget']}</td><td>{number(g['f1'])}</td><td>{number(g['f1_delta'])}</td><td>{g['adaptation_degenerate_cases']}</td></tr>" for g in summary["groups"])
     queries = "".join(f"<tr><td>{d['query_seed']}</td><td>{d['budget']}</td><td>{escape(d['appliance'])}</td><td>{d['used']}</td><td>{d['not_used']}</td><td>{d['unsure']}</td></tr>" for d in distributions)
+    houses = sorted({h["household_id"] for g in summary["groups"] for h in g["households"]})
+    house_description = "、".join("House " + str(h) for h in houses)
     html = f"""<!doctype html><html lang="zh"><meta charset="utf-8"><title>A2 固定确认学习器比较</title>
 <style>body{{font:16px system-ui;max-width:1100px;margin:40px auto;padding:0 20px;color:#152a38}}table{{border-collapse:collapse;width:100%;margin:20px 0}}td,th{{padding:8px;border-bottom:1px solid #ddd;text-align:left}}.notice{{background:#fff1d1;padding:18px}}a{{color:#005b8c}}</style>
-<h1>A2 · 固定确认学习器比较</h1><p class="notice">仅 House 3 已查看开发数据，理想模拟确认；三训练种子 × 三查询种子不代表九户。功率、电量保持不变，未验证 A3 选片收益及最终多户效果。</p>
+<h1>固定确认学习器比较</h1><p class="notice">{escape(house_description)} 已查看开发数据，理想模拟确认；来源/查询种子组合不代表独立家庭。功率、电量保持不变，未验证选片收益及最终多户效果。</p>
 <p>主预算：{summary['main_budget']} 次／户；开发出口：{summary['development_exit_passed']}；内部 +0.05 目标：{summary['internal_gain_target_met']}；开发候选：{escape(str(summary['selected_development_learner']))}。</p>
 <p>下表按主设备等权，比较各结构自身零确认基线。L2 零确认的来源状态训练收益单列，不能算成确认贡献。全关／全开统计只计由确认新引起的案例，已有退化仍保留在完整数据中。</p>
 <table><tr><th>学习器／消融</th><th>预算</th><th>主设备 F1</th><th>相对自身零确认 ΔF1</th><th>确认导致全关／全开</th></tr>{rows}</table>

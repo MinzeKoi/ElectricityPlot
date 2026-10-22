@@ -10,7 +10,9 @@ def render_quality(manifest: dict, path: Path) -> None:
     for house, stats in manifest["households"].items():
         for channel, item in stats["channels"].items():
             rows.append("<tr>" + "".join(f"<td>{escape(str(value))}</td>" for value in (
-                house, channel, stats["bins"], item["valid_bins"], f"{item['coverage']:.1%}", item["nonzero_bins"], f"{item['observed_energy_kwh']:.4f}"
+                house, channel, stats["bins"], item["valid_bins"], f"{item['coverage']:.1%}",
+                item["nonzero_bins"] if item["nonzero_bins"] is not None else "未计算",
+                f"{item['observed_energy_kwh']:.4f}" if item["observed_energy_kwh"] is not None else "未计算"
             )) + "</tr>")
             details.append(f"<li>House {escape(house)} / {escape(channel)}: {escape(str(dict(item['flags'])))}</li>")
     notices = "".join(f"<li>{escape(item)}</li>" for item in manifest["upstream_limitations"])

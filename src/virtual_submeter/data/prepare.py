@@ -152,7 +152,25 @@ def _bin(start, interval, names, covered, weighted, flags):
     return start, result
 
 
-def prepare(inputs: dict[str, Path], output: Path, catalog: Path, interval: int = 8, kind: str = "refit", maximum_days: int | None = None) -> dict:
+def selected_samples(samples, first, last):
+    """Retain the predecessor and first closing sample; never reset hold age."""
+    previous = None
+    started = False
+    for sample in samples:
+        if sample.timestamp < first:
+            previous = sample
+            continue
+        if not started:
+            if previous is not None:
+                yield previous
+            started = True
+        yield sample
+        if sample.timestamp >= last:
+            return
+
+
+def prepare(inputs: dict[str, Path], output: Path, catalog: Path, interval: int = 8, kind: str = "refit", maximum_days: int | None = None,
+            selection: Path | None = None, support_only: bool = False) -> dict:
     if type(interval) is not int or interval != 8:
         raise DataError("M1 freezes the native 8-second grid; downsampling is a separate experiment")
     if kind not in ("refit", "aggregate"):
@@ -164,6 +182,16 @@ def prepare(inputs: dict[str, Path], output: Path, catalog: Path, interval: int 
     if output.exists():
         raise DataError("Output already exists; choose a new versioned directory")
     mapping = read_json(catalog)
+    selected = read_json(selection) if selection else None
+    if selected is not None:
+        if (selected.get("schema_version") != 1 or not selected.get("protocol_id")
+                or selected.get("catalog_sha256") != sha256(catalog)
+                or set(selected.get("households", {})) != set(inputs) or maximum_days is not None):
+            raise DataError("Date selection requires matching catalog/households and cannot combine with maximum_days")
+        for item in selected["households"].values():
+            first, last = utc(item["start"]), utc(item["end"])
+            if first % interval or last % interval or last <= first or not item.get("source_sha256"):
+                raise DataError("Selection requires aligned increasing dates and full source hashes")
     for house in inputs:
         if kind == "refit" and house not in mapping["households"]:
             raise DataError(f"No verified channel mapping for house {house}")
@@ -176,17 +204,31 @@ def prepare(inputs: dict[str, Path], output: Path, catalog: Path, interval: int 
                     "citation": mapping["citation"] if kind == "refit" else None,
                     "sample_interval_seconds": interval, "catalog_sha256": sha256(catalog),
                     "upstream_limitations": mapping["upstream_limitations"] if kind == "refit" else [], "households": {}}
+        if selected:
+            manifest["date_selection"] = selected
+            manifest["date_selection_sha256"] = sha256(selection)
+        if support_only:
+            manifest["quality_scope"] = "support_only_no_activity_or_energy_statistics"
         for house, source in inputs.items():
             channels = mapping["households"][house] if kind == "refit" else {}
             keys = ["aggregate", *channels]
             receipt_path = source.with_suffix(".receipt.json")
             receipt = read_json(receipt_path) if receipt_path.exists() else None
             fingerprint = sha256(source)
+            chosen = selected["households"][house] if selected else None
+            if chosen and fingerprint != chosen["source_sha256"]:
+                raise DataError("Selected source fingerprint differs from audited source")
             if receipt and receipt.get("sha256") != fingerprint:
                 raise DataError(f"{source.name}: download receipt hash mismatch")
             stats = {"source_file": source.name, "source_sha256": fingerprint, "provenance": receipt,
                      "channel_mapping": channels, "raw_intervals_seconds": Counter(),
                      "bins": 0, "channels": {key: {"valid_bins": 0, "nonzero_bins": 0, "observed_energy_kwh": 0.0, "flags": Counter()} for key in keys}, "artifacts": {}}
+            if support_only:
+                for item in stats["channels"].values():
+                    item["nonzero_bins"] = item["observed_energy_kwh"] = None
+            if chosen:
+                stats["preparation_selection"] = {"kind": "predeclared_continuous_dates", **chosen,
+                                                  "selection_sha256": sha256(selection), "protocol_id": selected["protocol_id"]}
             if maximum_days is not None:
                 stats["preparation_selection"] = {
                     "kind": "earliest_time_range", "maximum_days": maximum_days,
@@ -205,7 +247,14 @@ def prepare(inputs: dict[str, Path], output: Path, catalog: Path, interval: int 
                     writer.writerow(["household_id", "timestamp", *([] if key == "aggregate" else ["appliance_id", "appliance_type"]), "aggregate_power_w" if key == "aggregate" else "power_w", "coverage", "quality_flags"])
                     writers[key] = writer
                     stats["artifacts"][key] = {"path": relative}
-                for stamp, values in resample(read_samples(source, house, channels, kind), interval, stats):
+                samples = read_samples(source, house, channels, kind)
+                if chosen:
+                    samples = selected_samples(samples, utc(chosen["start"]), utc(chosen["end"]))
+                for stamp, values in resample(samples, interval, stats):
+                    if chosen and stamp < utc(chosen["start"]):
+                        continue
+                    if chosen and stamp >= utc(chosen["end"]):
+                        break
                     if maximum_days is not None and stats["bins"] >= maximum_days * 86400 // interval:
                         break
                     if stats["bins"] == 0:
@@ -220,13 +269,16 @@ def prepare(inputs: dict[str, Path], output: Path, catalog: Path, interval: int 
                         summary["flags"].update(item["quality_flags"])
                         if value is not None:
                             summary["valid_bins"] += 1
-                            summary["nonzero_bins"] += int(value > 0)
-                            summary["observed_energy_kwh"] += value * interval / 3600000
+                            if not support_only:
+                                summary["nonzero_bins"] += int(value > 0)
+                                summary["observed_energy_kwh"] += value * interval / 3600000
             finally:
                 for handle in handles:
                     handle.close()
             if not stats["bins"] or not stats["channels"]["aggregate"]["valid_bins"]:
                 raise DataError(f"House {house}: no fully covered valid aggregate bins")
+            if chosen and (utc(stats["start"]) != utc(chosen["start"]) or utc(stats["end"]) != utc(chosen["end"])):
+                raise DataError("Selected date range is not fully represented in source timestamps")
             if sha256(source) != fingerprint:
                 raise DataError(f"House {house}: source changed during preparation")
             for key in keys:

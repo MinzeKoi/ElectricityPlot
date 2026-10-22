@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "protocol_id": "r0-date-selected-strict8-v1",
+  "audit_summary_sha256": "60bdb5c8dd2bd531f4028b7159e01171cf9a33139ede0b43aca9254789d76a5b",
+  "role_plan_sha256": "5c7ce442c1d5d7eb0a892f9513c47b11341e51865444a01bfe6af09096222187",
+  "catalog_sha256": "18b44c7ce7ea065799017cc5cdff43d4623971f2e14a6e2e3c5ad506ebf33dab",
+  "households": {
+    "17": {
+      "start": "2014-09-30T08:13:12Z",
+      "end": "2014-10-28T08:13:12Z",
+      "source_sha256": "5f794deb64d864ceaf711b12e699e9bcc4a3ad3977b32e105e1ee762b3073cbe",
+      "audit_house_sha256": "c1cc4ec11effef13460ea180697fc50db59fce36c9e7ff1096cc0de3b7ee3ecd"
+    }
+  }
+}

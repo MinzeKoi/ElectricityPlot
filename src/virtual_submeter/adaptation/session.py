@@ -1,7 +1,10 @@
 """Persistent confirmation budget with a single committed pending question."""
 
 from contextlib import contextmanager
+import copy
 from datetime import datetime, timezone
+from functools import lru_cache
+import json
 from pathlib import Path
 import tempfile
 
@@ -10,6 +13,26 @@ from ..data.protocol import validate_confirmation_history
 from ..models.artifacts import load_model
 from ..models.prediction import predict
 from .selection import STRATEGIES, candidates, choose, load_settings
+
+
+@lru_cache(maxsize=8)
+def _candidate_cache(prediction_path, prediction_digest, partition_json, protocol_json, settings_json):
+    path = Path(prediction_path)
+    if sha256(path) != prediction_digest:
+        raise DataError("Session predictions changed")
+    return candidates(read_json(path), json.loads(partition_json), json.loads(protocol_json), json.loads(settings_json))
+
+
+def session_candidates(directory, session, protocol):
+    """Reuse only immutable visible candidates; recheck bytes on every access."""
+    path = directory / "prediction/predictions.json"
+    if sha256(path) != session["prediction_sha256"]:
+        raise DataError("Session predictions changed")
+    partition = next(p for p in protocol["partitions"] if p["partition_id"] == session["partition_id"])
+    visible_partition = {k: partition[k] for k in ("role", "partition_id", "household_id", "start", "end")}
+    visible_protocol = {k: protocol[k] for k in ("sample_interval_seconds", "query_window_seconds")}
+    encoded = [json.dumps(v, sort_keys=True) for v in (visible_partition, visible_protocol, session["settings"])]
+    return copy.deepcopy(_candidate_cache(str(path.resolve()), session["prediction_sha256"], *encoded))
 
 
 @contextmanager
@@ -49,9 +72,7 @@ def read_session(directory):
             or any(r["household_id"] != session["household_id"] or r["model_version"] != session["model_id"]
                    or r["selection_strategy"] != session["strategy"] for r in session["records"])):
         raise DataError("Session budget or confirmation identity is invalid")
-    payload = read_json(directory / "prediction/predictions.json")
-    partition = next(p for p in protocol["partitions"] if p["partition_id"] == session["partition_id"])
-    eligible = candidates(payload, partition, protocol, session["settings"])
+    eligible = session_candidates(directory, session, protocol)
     indexed = {item["query_id"]: item for item in eligible}
     for index, record in enumerate(session["records"]):
         expected = indexed.get(record["query_id"])
@@ -109,9 +130,7 @@ def select_next(directory: Path):
         if len(session["records"]) >= session["budget"]:
             return None
         protocol = read_json(Path(session["manifest_path"]))
-        partition = next(p for p in protocol["partitions"] if p["partition_id"] == session["partition_id"])
-        payload = read_json(directory / "prediction/predictions.json")
-        session["pending"] = choose(candidates(payload, partition, protocol, session["settings"]), session["records"], session["strategy"], session["seed"])
+        session["pending"] = choose(session_candidates(directory, session, protocol), session["records"], session["strategy"], session["seed"])
         save(directory, session)
         return session["pending"]
 

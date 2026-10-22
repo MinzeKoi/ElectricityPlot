@@ -1,0 +1,87 @@
+{
+  "status": "passed",
+  "task": "R1",
+  "formal_evaluation": false,
+  "baseline": {
+    "status": "r1_verified",
+    "acceptance": true,
+    "source_code_matches_current": false,
+    "formal_evaluation": false,
+    "labels_reopened": false
+  },
+  "fixed_comparison": {
+    "status": "a2_verified",
+    "cases": 72,
+    "metric_rows": 216,
+    "development_exit_passed": true,
+    "internal_gain_target_met": true,
+    "selected_development_learner": "L2_max",
+    "current_source_matches_execution": true,
+    "formal_evaluation": false,
+    "report": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\r1-fixed-20261022-v2\\report.html"
+  },
+  "boundary_checks": {
+    "cases": 72,
+    "power_weights_unchanged": 72,
+    "no_answer_exact_source_devices": 66,
+    "bounded_devices": 150,
+    "single_class_slope_preserved_devices": 132,
+    "status": "passed",
+    "real_model_reload_score_parity": true,
+    "future_pointwise_labels_read": false,
+    "inference_rows": 150750,
+    "code_sha256": "35da57b97d7e7dad4a88c42730b83fb07cb5e5d859da2134b6c21248ff7325bc"
+  },
+  "regression": {
+    "tests": 138,
+    "seconds": 107.098,
+    "log_sha256": "e5a2307097a08f86c4f224325da4636ca20b90a5b73e74b0955519b28a35fdbb"
+  },
+  "households_used": [
+    "17",
+    "19",
+    "2",
+    "5"
+  ],
+  "final_households_excluded": [
+    "8",
+    "9",
+    "20"
+  ],
+  "split_gap_seconds": 3600,
+  "r0_date_bindings": {
+    "sources": {
+      "manifest_sha256": "2cc2382d9c2b53242af3b2b4445960ee2013e88a74ada43b4e6701c1784afa9b",
+      "r0_selection_sha256": "f7f506f99db1a9f68a4630e74fffce1d7086a21cbf9d47c693c0165f28c2af5c"
+    },
+    "development": {
+      "manifest_sha256": "c2824060d9f1144ff29eb7571de8714977c56dfe564dfb1ff6cc148f7d53b7c2",
+      "r0_selection_sha256": "84c5f3d03779f63326e57ccbb6f44fd6ccb171f23694137a1675e879301ff636"
+    }
+  },
+  "changed_modules_after_baseline_freeze": [
+    "accuracy/fixed_queries.py",
+    "adaptation/session.py"
+  ],
+  "source_training_modules_unchanged_after_freeze": true,
+  "current_code_sha256": "35da57b97d7e7dad4a88c42730b83fb07cb5e5d859da2134b6c21248ff7325bc",
+  "restart_prefix_check": {
+    "status": "passed",
+    "compared_records": 8,
+    "same_ids_responses_and_budget_records": true,
+    "seeds_reselected": false,
+    "future_labels_opened_for_check": false
+  },
+  "handoff_results_sha256": "1de6b176d77a6a068f5f64da0f336fd53a19a5af1de3f2add08e18b6f4de9bbb",
+  "baseline_evidence_sha256": "c5607af51820c3f60ed8cb568fbedaad0c3d61a3cbd46aa66c4b0a10a7e9cb3b",
+  "fixed_freeze_sha256": "49cc9b0c13277e079fc4f61598f982decaf58cd288e18d752c903a7f701c2d30",
+  "script_sha256": {
+    "run_r1.py": "780147a6e5b87497f321504ab18e1cea6c78adbc175f22c835fee36637fa2464",
+    "summarize_r1.py": "752c52515177e08921612e807916ebb331258f58ae2c59e9008393be29d62a70",
+    "verify_r1_boundaries.py": "386ffbb492f975f95e76154f61f72a9c02e3383cab090188281ea83f45c7c450",
+    "verify_r1.py": "66603b46b160e0490c4857179cf6d754b6390fbbd027a9959ad463376a32a1f3"
+  },
+  "independent_member_reproduction": false,
+  "second_machine_reproduction": false,
+  "future_labels_reopened": false
+}

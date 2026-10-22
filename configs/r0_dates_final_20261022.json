@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "protocol_id": "r0-date-selected-strict8-v1",
+  "audit_summary_sha256": "60bdb5c8dd2bd531f4028b7159e01171cf9a33139ede0b43aca9254789d76a5b",
+  "role_plan_sha256": "5c7ce442c1d5d7eb0a892f9513c47b11341e51865444a01bfe6af09096222187",
+  "catalog_sha256": "18b44c7ce7ea065799017cc5cdff43d4623971f2e14a6e2e3c5ad506ebf33dab",
+  "households": {
+    "8": {
+      "start": "2014-10-10T08:25:44Z",
+      "end": "2014-11-07T08:25:44Z",
+      "source_sha256": "ed45a97919ae0a3c437c02d0f69aa56165c6bc854bd207dc68703e30d69a4706",
+      "audit_house_sha256": "da73348c6d0c05b58cf2aef95f45a134d6cb3a700c3f7340d0868717b456940e"
+    },
+    "9": {
+      "start": "2014-09-30T12:46:16Z",
+      "end": "2014-10-28T12:46:16Z",
+      "source_sha256": "892d9709b81c93d39912f43e182ede564c9c753091e1155e9eb20f6bfb1b07d6",
+      "audit_house_sha256": "09166994b55f3b9c5338fc5ddea73f03c1cb7f561aa091950c1d3e79528d2336"
+    },
+    "20": {
+      "start": "2014-09-29T15:00:16Z",
+      "end": "2014-10-27T15:00:16Z",
+      "source_sha256": "eb0c8c1c107da5db6b5fb56da4d03a875f73050ec89833fdc39ce36bd58d4533",
+      "audit_house_sha256": "3ae09fd5673cd05c787f2b52ae4329d83d76731f150bddf19ca62f1f9ebf54ed"
+    }
+  }
+}

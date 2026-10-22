@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "protocol_id": "r0-strict-support-audit-v1",
+  "scope": "support_only_no_events_energy_curves_or_model_scores",
+  "catalog": "configs/refit_channels_complete_20261022.json",
+  "raw_directory": "data/raw/refit_complete_20261022/households",
+  "required_channels": ["aggregate", "kettle", "microwave", "washing_machine"],
+  "interval_seconds": 8,
+  "window_days": 28,
+  "split_gap_seconds": 3600,
+  "minimum_coverage": 0.9,
+  "minimum_valid_days_per_partition": 7,
+  "date_rule": "Keep original earliest 28 days result; separately search every 8-second-aligned complete 28-day window, choose chronological first passing all channels in both partitions. No scores or activity used. Any selected later window requires a new dated protocol and preparation selection before use.",
+  "roles": {
+    "2": "existing_source_train",
+    "5": "existing_source_validation",
+    "3": "existing_inspected_development_pv_pending",
+    "4": "quarantine_historical_access_not_established",
+    "11": "excluded_known_pv_and_previous_audit",
+    "13": "excluded_pv_conflict_pending",
+    "21": "excluded_known_pv",
+    "6": "reserved_final_candidate",
+    "8": "reserved_final_candidate",
+    "9": "reserved_final_candidate",
+    "17": "new_development_reserved",
+    "19": "new_development_reserved",
+    "20": "new_source_reserved"
+  },
+  "unlisted_role": "excluded_missing_required_monitored_channel",
+  "role_rule": "No transfers from final reserve to development or sources within R0. Reservation is not formal A5 admission. No unseen-label declaration is generated.",
+  "pv_storage_rule": "11/21 explicitly solar in local original README; 3/13 unresolved; all other households unknown, absence of a note is not confirmed absence. Formal admission remains pending documented qualification.",
+  "query_support_rule": "Count complete disjoint 1200-second slots in aggregate only, plus slots with complete 31-bin model context. This is an upper bound before actual model availability; label masks never enter selection."
+}

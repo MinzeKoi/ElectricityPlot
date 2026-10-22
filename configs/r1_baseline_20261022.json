@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "purpose": "development_only",
+  "source_train_required": ["2", "19"],
+  "source_train_optional": [],
+  "source_validation": ["5"],
+  "development_households": ["17"],
+  "maximum_days_per_household": 28,
+  "source_duration_days": 14,
+  "development_duration_days": 28,
+  "minimum_source_observed_days": 7,
+  "minimum_coverage": 0.9,
+  "minimum_complete_events": 2,
+  "primary_appliances": ["kettle", "microwave"],
+  "extension_appliances": ["washing_machine"],
+  "seeds": [42, 1019, 2026],
+  "candidates": [
+    {"id": "multi_mae", "epochs": 12, "active_loss_weight": 50.0},
+    {"id": "single_mae", "epochs": 12, "active_loss_weight": 50.0},
+    {"id": "multi_f1", "epochs": 12, "active_loss_weight": 50.0}
+  ],
+  "state_threshold_view": "raw_power_w",
+  "selection_rule_id": "primary_f1_active_mae_energy_v1",
+  "selection_rule": "At seed 42 only, require each primary device to have true positives, non-degenerate states and detected complete threshold events on source validation and development future. Rank by equal device/partition mean primary F1, then threshold-normalized active MAE, then relative absolute energy error. Freeze once before seeds 1019/2026; never reselect by seeds. single_mae comprises independent networks for all three devices packed exactly into a block diagonal CNN. multi_f1 selects checkpoints by mean source-validation kettle/microwave F1, then normalized MAE; all other checkpoints use original source-validation normalized MAE. Three candidates total, identical dates and input support. No final households or target confirmations for source training.",
+  "notice": "Frozen before R1 support/score inspection. Sources use first 14 days of R0 selected dates; development uses full 28 days, split into 14-day adaptation and future minus 1-hour gap. Historical House 3 remains separate due PV qualification. House 17 is the sole new development target; final H1 cannot be accepted here. No shorter confirmation-window exploration unless separate evidence justifies it."
+}
