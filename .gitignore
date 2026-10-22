@@ -15,13 +15,12 @@ dist/
 .env.*
 !.env.example
 
-# 原始数据、派生数据、权重、运行结果和此前分析文件
-tmp/
+# 模型、实验输出及复现辅助文件纳入版本管理。
+# 按用户选择，原始数据和处理后数据不上传。
 data/raw/*
 !data/raw/README.md
 data/processed/*
 !data/processed/README.md
-models/artifacts/*
-!models/artifacts/README.md
-outputs/*
-!outputs/README.md
+# 临时安装的第三方工具和下载缓存可由依赖文件重建。
+tmp/*_wheels/
+tmp/refit_archive_tools/

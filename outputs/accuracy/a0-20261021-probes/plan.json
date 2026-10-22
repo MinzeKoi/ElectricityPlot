@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "status": "plan_frozen_before_probes",
+  "hypotheses": [
+    {
+      "id": "H1",
+      "prediction": "Negative-only queried windows can drive global suppression. One negative window may reproduce all-off; one update or a stronger fixed prior may reduce collapse."
+    },
+    {
+      "id": "H2",
+      "prediction": "An appliance with no usable queries retains its original state and coefficients. Concentrated query budgets leave other devices unadapted."
+    },
+    {
+      "id": "H3",
+      "prediction": "Window max-pool loss can fall while future pointwise F1 falls. Sparse positive-window activity would show the weak/pointwise supervision mismatch; it alone cannot establish causality."
+    },
+    {
+      "id": "H4",
+      "prediction": "Activating INITIAL coefficients alone switches active appliances from corrected-power thresholds to raw-power thresholds. Its F1 difference isolates this convention change from learned updates."
+    }
+  ],
+  "parent_diagnosis_sha256": "c6933c3e06280f29e5efacbe611c36555158d60333ad994753e1dcf1279d4ad0",
+  "parent_evidence_sha256": "bac461a3af5c5134c156b95fe3fd595d99d644e848ece8f392030de3a23a6760",
+  "code_sha256": "3685eaa0a6dd9947d940d628dc738d8867c7bc52f6e2f9fd1302e3f33cfcdbea",
+  "variant_scope": "Development mechanism probes only, not learner selection or confirmatory performance.",
+  "fitting_labels": "Same saved budgeted weak answers only; no pointwise labels in fit_head."
+}

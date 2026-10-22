@@ -1,0 +1,66 @@
+{
+  "status": "a3_verified",
+  "cases": 252,
+  "metric_rows": 756,
+  "development_exit_passed": true,
+  "internal_gain_target_met": false,
+  "current_source_matches_execution": true,
+  "formal_evaluation": false,
+  "report": "outputs\\accuracy\\a3-20261021-v3\\report.html",
+  "zero_baselines_match_a2": 63,
+  "exported_model_roundtrips": [
+    {
+      "source_seed": 42,
+      "query_seed": 42,
+      "household_id": "3",
+      "variant": "uncertainty",
+      "budget": 10
+    },
+    {
+      "source_seed": 42,
+      "query_seed": 42,
+      "household_id": "3",
+      "variant": "proposed",
+      "budget": 10
+    },
+    {
+      "source_seed": 1019,
+      "query_seed": 42,
+      "household_id": "3",
+      "variant": "uncertainty",
+      "budget": 10
+    },
+    {
+      "source_seed": 1019,
+      "query_seed": 42,
+      "household_id": "3",
+      "variant": "proposed",
+      "budget": 10
+    },
+    {
+      "source_seed": 2026,
+      "query_seed": 42,
+      "household_id": "3",
+      "variant": "uncertainty",
+      "budget": 10
+    },
+    {
+      "source_seed": 2026,
+      "query_seed": 42,
+      "household_id": "3",
+      "variant": "proposed",
+      "budget": 10
+    }
+  ],
+  "power_weight_checkpoints_unchanged": 315,
+  "no_answer_exact_source_devices": 366,
+  "single_class_bias_only_devices": 520,
+  "scoring_rounds_reproduced": [
+    0,
+    5,
+    10,
+    15,
+    20
+  ],
+  "target_labels_parsed_during_verification": false
+}

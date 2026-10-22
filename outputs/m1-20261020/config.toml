@@ -1,0 +1,24 @@
+schema_version = 1
+
+[project]
+name = "ElectricityPlot"
+
+[scope]
+input_kind = "aggregate_active_power"
+target_appliances = ["kettle", "microwave", "washing_machine"]
+supports_pv = false
+supports_storage = false
+
+[data]
+dataset = "REFIT"
+sample_interval_seconds = 8
+raw_dir = "data/raw"
+processed_dir = "data/processed"
+
+[protocol]
+# 拟定预算，不是已经完成的查询或实验。
+query_budgets = [0, 5, 10, 20]
+random_seeds = [42, 1019, 2026]
+query_window_seconds = 1200
+# M1 需核对实际模型上下文，不足时只可在冻结前增大并记录。
+split_gap_seconds = 3600

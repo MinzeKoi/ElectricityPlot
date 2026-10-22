@@ -1,0 +1,14 @@
+{
+  "artifacts_sha256": {
+    "comparison.csv": "581ce4af651b840599fc9ef82486e7794c26388f9f3158fa720b4452fa490dd8",
+    "evaluation/cases/seed_42/house_3/query_42/L2_max/budget_0/metrics.json": "ed4cec4d21b69b594703c1e0b1899b60010bf81d57c6db58fe050b068ce4d9b1",
+    "evaluation/cases/seed_42/house_3/query_42/L2_max/budget_10/metrics.json": "9b854756d01dc1d6ea2bb638b895ec56d4f80d02954f33fd6699a3437c7a8c21",
+    "evaluation/cases/seed_42/house_3/query_42/L2_max/budget_20/metrics.json": "dcfed09efecbd533e5d2b359834b8716c8f7e171a2f33593f291332feb6699a3",
+    "evaluation/cases/seed_42/house_3/query_42/L2_max/budget_5/metrics.json": "5cb7054a3db06cae4b8ba70a6f9ed80a3c8e7364e990561505eb332ce2d9d553",
+    "freeze.json": "e7fcc7a920c4d7a0624adb7dcac6d551bb7638f47596a9fae1a285ceb096a31c",
+    "metrics.json": "b6cd13ff26903dc83295524b8d3d3b14b75529419520bf2c77f2db85c85173a4",
+    "query_distribution.json": "6e66de8ce8dc1a936d8482d661cb1c15b2787d85d29f9b13788fbc76dc941c8a",
+    "report.html": "73dc8e922cdba8ab21edff42109107214635d57aa6c862c7be5b4bf178ab9ea6",
+    "summary.json": "cc7d3a92a46e4bb8cd01e592c674f014626813357da0271a811629655a0e9e81"
+  }
+}

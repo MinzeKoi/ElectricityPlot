@@ -1,0 +1,545 @@
+{
+  "date": "2026-10-21",
+  "status": "completed",
+  "primary_minimum_exit_passed": true,
+  "accuracy_superiority_established": false,
+  "extension_exit_passed": false,
+  "selected_candidate": "active50",
+  "training_seeds": [
+    42,
+    1019,
+    2026
+  ],
+  "trained_models": 8,
+  "historical_references": 1,
+  "source_run": "outputs/accuracy/a1-20261021-v3",
+  "verification": {
+    "status": "a1_artifacts_verified",
+    "acceptance": true,
+    "selected_candidate": "active50",
+    "training_seeds": 3,
+    "source_code_matches_current": true,
+    "labels_reopened": false,
+    "formal_evaluation": false
+  },
+  "baseline_freeze": {
+    "status": "source_baseline_weights_frozen",
+    "candidate": "active50",
+    "selection_sha256": "f2fc8d1f519b45c3f02a65b97892be02131665f1bbec44448ce0204f955c1838",
+    "protocol_sha256": "6fc077b96a79d809478286cdad40c89060fa0b0fa78c06441df834ea8d38b22e",
+    "models": {
+      "42": {
+        "path": "selected/seed_42",
+        "model_manifest_sha256": "6ad1a68af7e456a1de667a2ed0ea1ecf27ec3bdad7908a8dc3ccb3def4549ebc",
+        "weights_sha256": "d3f0bb066759ac62c75efa93c4b17fa4bf0123d1dcf67ce93e5a8c745c72d11f"
+      },
+      "1019": {
+        "path": "selected/seed_1019",
+        "model_manifest_sha256": "32a3f8bd7ba78e75599dd4a69293e82e274d28b5396ccff4a24869bd2718f375",
+        "weights_sha256": "e3cd0d73f055e5e7704593d13d587ea0addf04f59f4b110dcae5b8163caa82a1"
+      },
+      "2026": {
+        "path": "selected/seed_2026",
+        "model_manifest_sha256": "e229f51fe6d4dac64661a0db40b19d2483622501790433eda79c5b2ee6fdc5c3",
+        "weights_sha256": "81a91f4d6715f4f016d262299f8c2f8240f296df7fa3638a0373b24956ced2d4"
+      }
+    },
+    "primary_exit_passed": true,
+    "extension_requires_separate_review": true,
+    "all_confirmation_strategies_must_reuse_these_exact_weights": true,
+    "code_sha256": "d95924213d57fbb1d0c8092e78f9bdf60999e4832a8a2adee6cc7e6b5d7cb2a5",
+    "formal_evaluation": false
+  },
+  "comparison": [
+    {
+      "appliance": "kettle",
+      "primary": true,
+      "selected_mean": {
+        "precision": 0.1862413453541708,
+        "recall": 0.6060606060606061,
+        "f1": 0.24652424554631688,
+        "active_mae_w": 465.120462475401,
+        "energy_absolute_error_kwh": 5.762549362975252,
+        "on_fraction": 0.030142836411882996
+      },
+      "historical_raw_f1": 0.43609022556390975,
+      "historical_default_f1": 0.3220338983050847,
+      "historical_active_mae_w": 1028.0583209991455,
+      "historical_energy_absolute_error_kwh": 3.247992282844484,
+      "f1_delta_vs_historical_raw": -0.18956598001759287
+    },
+    {
+      "appliance": "microwave",
+      "primary": true,
+      "selected_mean": {
+        "precision": 0.023830051969164757,
+        "recall": 0.7183908045977011,
+        "f1": 0.0458770565576971,
+        "active_mae_w": 635.2253121123916,
+        "energy_absolute_error_kwh": 2.552444496223005,
+        "on_fraction": 0.1072413292700624
+      },
+      "historical_raw_f1": 0.09386281588447654,
+      "historical_default_f1": 0.09523809523809523,
+      "historical_active_mae_w": 919.6318358717293,
+      "historical_energy_absolute_error_kwh": 1.5112255056448447,
+      "f1_delta_vs_historical_raw": -0.04798575932677943
+    },
+    {
+      "appliance": "washing_machine",
+      "primary": false,
+      "selected_mean": {
+        "precision": 0.05364340550398101,
+        "recall": 0.9972773239984442,
+        "f1": 0.10181034366185034,
+        "active_mae_w": 212.9918113741509,
+        "energy_absolute_error_kwh": 9.287149901731985,
+        "on_fraction": 0.9908991023488194
+      },
+      "historical_raw_f1": 0.16134384072998756,
+      "historical_default_f1": 0.16134384072998756,
+      "historical_active_mae_w": 315.96045753001613,
+      "historical_energy_absolute_error_kwh": 5.410820591656897,
+      "f1_delta_vs_historical_raw": -0.05953349706813722
+    }
+  ],
+  "per_seed_development": [
+    {
+      "seed": 42,
+      "appliance": "kettle",
+      "precision": 0.3137254901960784,
+      "recall": 0.36363636363636365,
+      "f1": 0.3368421052631579,
+      "active_mae_w": 568.1444442055442,
+      "valid_samples": 16079,
+      "energy_absolute_error_kwh": 3.393058270497886,
+      "on_fraction": 0.006343678089433423,
+      "complete_detected": 2,
+      "complete_events": 8
+    },
+    {
+      "seed": 1019,
+      "appliance": "kettle",
+      "precision": 0.1746031746031746,
+      "recall": 0.625,
+      "f1": 0.2729528535980149,
+      "active_mae_w": 368.96956010298294,
+      "valid_samples": 16079,
+      "energy_absolute_error_kwh": 6.313136279276014,
+      "on_fraction": 0.0195907705703091,
+      "complete_detected": 4,
+      "complete_events": 8
+    },
+    {
+      "seed": 2026,
+      "appliance": "kettle",
+      "precision": 0.0703953712632594,
+      "recall": 0.8295454545454546,
+      "f1": 0.12977777777777777,
+      "active_mae_w": 458.2473831176758,
+      "valid_samples": 16079,
+      "energy_absolute_error_kwh": 7.5814535391518545,
+      "on_fraction": 0.06449406057590647,
+      "complete_detected": 6,
+      "complete_events": 8
+    },
+    {
+      "seed": 42,
+      "appliance": "microwave",
+      "precision": 0.02244668911335578,
+      "recall": 0.3448275862068966,
+      "f1": 0.04214963119072708,
+      "active_mae_w": 721.9623018462082,
+      "valid_samples": 16079,
+      "energy_absolute_error_kwh": 2.016081886388669,
+      "on_fraction": 0.05541389389887431,
+      "complete_detected": 1,
+      "complete_events": 6
+    },
+    {
+      "seed": 1019,
+      "appliance": "microwave",
+      "precision": 0.024516129032258065,
+      "recall": 0.9827586206896551,
+      "f1": 0.047838858581619806,
+      "active_mae_w": 608.8587237390979,
+      "valid_samples": 16079,
+      "energy_absolute_error_kwh": 2.8216731306287977,
+      "on_fraction": 0.14459854468561478,
+      "complete_detected": 6,
+      "complete_events": 6
+    },
+    {
+      "seed": 2026,
+      "appliance": "microwave",
+      "precision": 0.02452733776188043,
+      "recall": 0.8275862068965517,
+      "f1": 0.04764267990074442,
+      "active_mae_w": 574.8549107518689,
+      "valid_samples": 16079,
+      "energy_absolute_error_kwh": 2.819578471651547,
+      "on_fraction": 0.12171154922569812,
+      "complete_detected": 5,
+      "complete_events": 6
+    },
+    {
+      "seed": 42,
+      "appliance": "washing_machine",
+      "precision": 0.053798664482802065,
+      "recall": 0.9964994165694282,
+      "f1": 0.10208594823979439,
+      "active_mae_w": 209.2438186386224,
+      "valid_samples": 16079,
+      "energy_absolute_error_kwh": 8.649272253625657,
+      "on_fraction": 0.9872504508986877,
+      "complete_detected": 65,
+      "complete_events": 70
+    },
+    {
+      "seed": 1019,
+      "appliance": "washing_machine",
+      "precision": 0.053327512006486624,
+      "recall": 0.9976662777129521,
+      "f1": 0.10124333925399645,
+      "active_mae_w": 222.8069638260048,
+      "valid_samples": 16079,
+      "energy_absolute_error_kwh": 8.398400295556385,
+      "on_fraction": 0.9971391255675104,
+      "complete_detected": 65,
+      "complete_events": 70
+    },
+    {
+      "seed": 2026,
+      "appliance": "washing_machine",
+      "precision": 0.053804040022654334,
+      "recall": 0.9976662777129521,
+      "f1": 0.10210174349176021,
+      "active_mae_w": 206.9246516578256,
+      "valid_samples": 16079,
+      "energy_absolute_error_kwh": 10.813777156013913,
+      "on_fraction": 0.98830773058026,
+      "complete_detected": 65,
+      "complete_events": 70
+    }
+  ],
+  "admission": {
+    "households": [
+      {
+        "household_id": "2",
+        "role": "source_train",
+        "optional": false,
+        "included": true,
+        "start": "2013-09-17T22:08:08Z",
+        "end": "2013-10-01T22:08:08Z",
+        "kind": "real_prefix",
+        "reasons": []
+      },
+      {
+        "household_id": "11",
+        "role": "source_train",
+        "optional": true,
+        "included": false,
+        "start": "2014-06-03T11:36:16Z",
+        "end": "2014-06-17T11:36:16Z",
+        "kind": "real_prefix",
+        "reasons": [
+          "source_train_kettle_insufficient_complete_events",
+          "source_train_microwave_insufficient_complete_events"
+        ]
+      },
+      {
+        "household_id": "5",
+        "role": "source_validation",
+        "optional": false,
+        "included": true,
+        "start": "2013-09-26T09:56:08Z",
+        "end": "2013-10-10T09:56:08Z",
+        "kind": "real_prefix",
+        "reasons": []
+      },
+      {
+        "household_id": "3",
+        "role": "target_adaptation",
+        "optional": false,
+        "included": true,
+        "start": "2013-09-25T19:21:04Z",
+        "end": "2013-09-29T19:21:04Z",
+        "kind": "real_prefix",
+        "reasons": []
+      }
+    ],
+    "partition_support": [
+      {
+        "household_id": "2",
+        "role": "source_train",
+        "partition_id": "source_train_house_2",
+        "channels": {
+          "aggregate": {
+            "bins": 151200,
+            "valid_bins": 145708,
+            "coverage": 0.9636772486772487,
+            "observed_days": 13.49148148148148
+          },
+          "kettle": {
+            "bins": 151200,
+            "valid_bins": 143264,
+            "coverage": 0.9475132275132275,
+            "observed_days": 13.265185185185185,
+            "valid_samples": 143264,
+            "missing_fraction": 0.05248677248677247,
+            "active_samples": 1125,
+            "complete_threshold_events": 24,
+            "censored_threshold_events": 85,
+            "off_samples": 142139,
+            "off_fraction": 0.9921473643064552
+          },
+          "microwave": {
+            "bins": 151200,
+            "valid_bins": 143264,
+            "coverage": 0.9475132275132275,
+            "observed_days": 13.265185185185185,
+            "valid_samples": 143264,
+            "missing_fraction": 0.05248677248677247,
+            "active_samples": 363,
+            "complete_threshold_events": 39,
+            "censored_threshold_events": 83,
+            "off_samples": 142901,
+            "off_fraction": 0.9974662162162162
+          },
+          "washing_machine": {
+            "bins": 151200,
+            "valid_bins": 143264,
+            "coverage": 0.9475132275132275,
+            "observed_days": 13.265185185185185,
+            "valid_samples": 143264,
+            "missing_fraction": 0.05248677248677247,
+            "active_samples": 5522,
+            "complete_threshold_events": 339,
+            "censored_threshold_events": 434,
+            "off_samples": 137742,
+            "off_fraction": 0.961455773955774
+          }
+        }
+      },
+      {
+        "household_id": "11",
+        "role": "source_train",
+        "partition_id": "source_train_house_11",
+        "channels": {
+          "aggregate": {
+            "bins": 151200,
+            "valid_bins": 79528,
+            "coverage": 0.525978835978836,
+            "observed_days": 7.363703703703703
+          },
+          "kettle": {
+            "bins": 151200,
+            "valid_bins": 78462,
+            "coverage": 0.5189285714285714,
+            "observed_days": 7.265,
+            "valid_samples": 78462,
+            "missing_fraction": 0.4810714285714286,
+            "active_samples": 363,
+            "complete_threshold_events": 0,
+            "censored_threshold_events": 196,
+            "off_samples": 78099,
+            "off_fraction": 0.9953735566261375
+          },
+          "microwave": {
+            "bins": 151200,
+            "valid_bins": 78462,
+            "coverage": 0.5189285714285714,
+            "observed_days": 7.265,
+            "valid_samples": 78462,
+            "missing_fraction": 0.4810714285714286,
+            "active_samples": 57,
+            "complete_threshold_events": 0,
+            "censored_threshold_events": 31,
+            "off_samples": 78405,
+            "off_fraction": 0.999273533685096
+          },
+          "washing_machine": {
+            "bins": 151200,
+            "valid_bins": 78462,
+            "coverage": 0.5189285714285714,
+            "observed_days": 7.265,
+            "valid_samples": 78462,
+            "missing_fraction": 0.4810714285714286,
+            "active_samples": 394,
+            "complete_threshold_events": 1,
+            "censored_threshold_events": 388,
+            "off_samples": 78068,
+            "off_fraction": 0.9949784609110143
+          }
+        }
+      },
+      {
+        "household_id": "5",
+        "role": "source_validation",
+        "partition_id": "source_validation_house_5",
+        "channels": {
+          "aggregate": {
+            "bins": 151200,
+            "valid_bins": 85145,
+            "coverage": 0.5631283068783068,
+            "observed_days": 7.883796296296296
+          },
+          "kettle": {
+            "bins": 151200,
+            "valid_bins": 82164,
+            "coverage": 0.5434126984126985,
+            "observed_days": 7.607777777777778,
+            "valid_samples": 82164,
+            "missing_fraction": 0.45658730158730154,
+            "active_samples": 349,
+            "complete_threshold_events": 3,
+            "censored_threshold_events": 120,
+            "off_samples": 81815,
+            "off_fraction": 0.9957523976437369
+          },
+          "microwave": {
+            "bins": 151200,
+            "valid_bins": 82164,
+            "coverage": 0.5434126984126985,
+            "observed_days": 7.607777777777778,
+            "valid_samples": 82164,
+            "missing_fraction": 0.45658730158730154,
+            "active_samples": 1242,
+            "complete_threshold_events": 16,
+            "censored_threshold_events": 353,
+            "off_samples": 80922,
+            "off_fraction": 0.9848838907550752
+          },
+          "washing_machine": {
+            "bins": 151200,
+            "valid_bins": 82164,
+            "coverage": 0.5434126984126985,
+            "observed_days": 7.607777777777778,
+            "valid_samples": 82164,
+            "missing_fraction": 0.45658730158730154,
+            "active_samples": 3003,
+            "complete_threshold_events": 102,
+            "censored_threshold_events": 1130,
+            "off_samples": 79161,
+            "off_fraction": 0.9634511464875127
+          }
+        }
+      },
+      {
+        "household_id": "3",
+        "role": "target_adaptation",
+        "partition_id": "target_adaptation_house_3",
+        "channels": {
+          "aggregate": {
+            "bins": 21600,
+            "valid_bins": 21469,
+            "coverage": 0.9939351851851852,
+            "observed_days": 1.9878703703703704
+          },
+          "kettle": {
+            "bins": 21600,
+            "valid_bins": 19297,
+            "coverage": 0.8933796296296296,
+            "observed_days": 1.7867592592592592,
+            "valid_samples": 19297,
+            "missing_fraction": 0.10662037037037042,
+            "active_samples": 92,
+            "complete_threshold_events": 2,
+            "censored_threshold_events": 6,
+            "off_samples": 19205,
+            "off_fraction": 0.9952324195470799
+          },
+          "microwave": {
+            "bins": 21600,
+            "valid_bins": 19297,
+            "coverage": 0.8933796296296296,
+            "observed_days": 1.7867592592592592,
+            "valid_samples": 19297,
+            "missing_fraction": 0.10662037037037042,
+            "active_samples": 47,
+            "complete_threshold_events": 10,
+            "censored_threshold_events": 5,
+            "off_samples": 19250,
+            "off_fraction": 0.9975643882468778
+          },
+          "washing_machine": {
+            "bins": 21600,
+            "valid_bins": 19297,
+            "coverage": 0.8933796296296296,
+            "observed_days": 1.7867592592592592,
+            "valid_samples": 19297,
+            "missing_fraction": 0.10662037037037042,
+            "active_samples": 490,
+            "complete_threshold_events": 30,
+            "censored_threshold_events": 56,
+            "off_samples": 18807,
+            "off_fraction": 0.974607451935534
+          }
+        }
+      },
+      {
+        "household_id": "3",
+        "role": "frozen_test",
+        "partition_id": "frozen_test_house_3",
+        "channels": {
+          "aggregate": {
+            "bins": 21150,
+            "valid_bins": 19722,
+            "coverage": 0.9324822695035461,
+            "observed_days": 1.826111111111111
+          },
+          "kettle": {
+            "bins": 21150,
+            "valid_bins": 17612,
+            "coverage": 0.8327186761229315,
+            "observed_days": 1.6307407407407408,
+            "valid_samples": 17612,
+            "missing_fraction": 0.1672813238770685,
+            "active_samples": 103,
+            "complete_threshold_events": 8,
+            "censored_threshold_events": 10,
+            "off_samples": 17509,
+            "off_fraction": 0.99415171473995
+          },
+          "microwave": {
+            "bins": 21150,
+            "valid_bins": 17612,
+            "coverage": 0.8327186761229315,
+            "observed_days": 1.6307407407407408,
+            "valid_samples": 17612,
+            "missing_fraction": 0.1672813238770685,
+            "active_samples": 58,
+            "complete_threshold_events": 6,
+            "censored_threshold_events": 13,
+            "off_samples": 17554,
+            "off_fraction": 0.9967067908244379
+          },
+          "washing_machine": {
+            "bins": 21150,
+            "valid_bins": 17612,
+            "coverage": 0.8327186761229315,
+            "observed_days": 1.6307407407407408,
+            "valid_samples": 17612,
+            "missing_fraction": 0.1672813238770685,
+            "active_samples": 959,
+            "complete_threshold_events": 70,
+            "censored_threshold_events": 73,
+            "off_samples": 16653,
+            "off_fraction": 0.9455484896661367
+          }
+        }
+      }
+    ]
+  },
+  "limitations": [
+    "Only inspected House 3 development evaluation; no final multi-household evidence.",
+    "Primary-device event detection passed, but pointwise F1 is below historical raw-power reference.",
+    "Microwave precision is about 2-3 percent; many false positives remain.",
+    "Washing machine is an extension and is almost always on; one source-validation seed is entirely on.",
+    "Energy error remains large; state-only improvement is not demonstrated here either.",
+    "Source validation has about 54 percent valid label coverage; development duration is four calendar days.",
+    "A1 source expansion and candidate selection are not confirmation benefits."
+  ],
+  "source_evidence_sha256": "273673399343d2beb9d81d14d099d7e39c21dd2d465692fb2c20ce00b297f9ee",
+  "source_summary_sha256": "2d37937a449abaf1c6ef9c254007ccc18beddddbe13421b55beca8bd126c8ded"
+}

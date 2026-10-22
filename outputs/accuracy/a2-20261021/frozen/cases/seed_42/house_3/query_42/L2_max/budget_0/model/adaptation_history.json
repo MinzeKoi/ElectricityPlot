@@ -1,0 +1,17 @@
+{
+  "kettle": {
+    "usable_windows": 0,
+    "update_rule": "exact_source_identity",
+    "loss": []
+  },
+  "microwave": {
+    "usable_windows": 0,
+    "update_rule": "exact_source_identity",
+    "loss": []
+  },
+  "washing_machine": {
+    "usable_windows": 0,
+    "update_rule": "exact_source_identity",
+    "loss": []
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "status": "diagnosed",
+  "created_at": "2026-10-21T03:12:59.812475+00:00",
+  "source_protocol_sha256": "016733e3ed90ff8b682f9658d814af6e00e24f30bcaf59f60f08bd983419791d",
+  "source_model_sha256": "f00988c64fd2754f1b72770030b31b04067b88657ded06abfc911f83b3a40ed5",
+  "code_sha256": "3685eaa0a6dd9947d940d628dc738d8867c7bc52f6e2f9fd1302e3f33cfcdbea",
+  "development_labels_opened": true,
+  "freeze_sha256": "f335314c786488a5ff6d3e622ce871033e5039077a35e684613b8661065bd783",
+  "evidence_sha256": "bac461a3af5c5134c156b95fe3fd595d99d644e848ece8f392030de3a23a6760",
+  "regression_reproduced": true
+}

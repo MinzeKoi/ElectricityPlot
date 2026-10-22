@@ -1,0 +1,97 @@
+{
+  "project": "ElectricityPlot",
+  "version": "0.3.0",
+  "status": "pilot_baselines_evaluated",
+  "created_at": "2026-10-20T00:05:16.667941+00:00",
+  "code_sha256": "62e7172e9224cc54646d59aeb4b706d1c02dc3cb58b8f51045df6d306fb27c32",
+  "query_budget_used": 0,
+  "adaptation": "none",
+  "training": {
+    "single_kettle": {
+      "status": "baseline_trained",
+      "model_id": "small_seq2point-51053e009c73f0e2",
+      "model_dir": "outputs\\m2-20261020-reproduction\\single_kettle",
+      "purpose": "engineering_pilot_only",
+      "validation_normalized_mae": 0.009829687885940075
+    },
+    "seq2point": {
+      "status": "baseline_trained",
+      "model_id": "small_seq2point-40940548a4b04f7f",
+      "model_dir": "outputs\\m2-20261020-reproduction\\seq2point",
+      "purpose": "engineering_pilot_only",
+      "validation_normalized_mae": 0.03094537928700447
+    },
+    "constant_mean": {
+      "status": "baseline_trained",
+      "model_id": "constant_mean-121da4e428656924",
+      "model_dir": "outputs\\m2-20261020-reproduction\\constant_mean",
+      "purpose": "engineering_pilot_only",
+      "validation_normalized_mae": 0.013218809850513935
+    },
+    "zero": {
+      "status": "baseline_trained",
+      "model_id": "zero-e9d2ee5e0c0e0e85",
+      "model_dir": "outputs\\m2-20261020-reproduction\\zero",
+      "purpose": "engineering_pilot_only",
+      "validation_normalized_mae": 0.00885788258165121
+    }
+  },
+  "predictions": {
+    "single_kettle": {
+      "status": "prediction_complete",
+      "run_id": "predictions_single_kettle",
+      "rows": 13506,
+      "model_id": "small_seq2point-51053e009c73f0e2",
+      "report": "outputs\\m2-20261020-reproduction\\predictions_single_kettle\\report.html"
+    },
+    "seq2point": {
+      "status": "prediction_complete",
+      "run_id": "predictions_seq2point",
+      "rows": 13506,
+      "model_id": "small_seq2point-40940548a4b04f7f",
+      "report": "outputs\\m2-20261020-reproduction\\predictions_seq2point\\report.html"
+    },
+    "constant_mean": {
+      "status": "prediction_complete",
+      "run_id": "predictions_constant_mean",
+      "rows": 13506,
+      "model_id": "constant_mean-121da4e428656924",
+      "report": "outputs\\m2-20261020-reproduction\\predictions_constant_mean\\report.html"
+    },
+    "zero": {
+      "status": "prediction_complete",
+      "run_id": "predictions_zero",
+      "rows": 13506,
+      "model_id": "zero-e9d2ee5e0c0e0e85",
+      "report": "outputs\\m2-20261020-reproduction\\predictions_zero\\report.html"
+    }
+  },
+  "evaluations": {
+    "single_kettle": {
+      "status": "evaluation_complete",
+      "model_id": "small_seq2point-51053e009c73f0e2",
+      "metrics": "outputs\\m2-20261020-reproduction\\evaluation_single_kettle\\metrics.json",
+      "report": "outputs\\m2-20261020-reproduction\\evaluation_single_kettle\\report.html"
+    },
+    "seq2point": {
+      "status": "evaluation_complete",
+      "model_id": "small_seq2point-40940548a4b04f7f",
+      "metrics": "outputs\\m2-20261020-reproduction\\evaluation_seq2point\\metrics.json",
+      "report": "outputs\\m2-20261020-reproduction\\evaluation_seq2point\\report.html"
+    },
+    "constant_mean": {
+      "status": "evaluation_complete",
+      "model_id": "constant_mean-121da4e428656924",
+      "metrics": "outputs\\m2-20261020-reproduction\\evaluation_constant_mean\\metrics.json",
+      "report": "outputs\\m2-20261020-reproduction\\evaluation_constant_mean\\report.html"
+    },
+    "zero": {
+      "status": "evaluation_complete",
+      "model_id": "zero-e9d2ee5e0c0e0e85",
+      "metrics": "outputs\\m2-20261020-reproduction\\evaluation_zero\\metrics.json",
+      "report": "outputs\\m2-20261020-reproduction\\evaluation_zero\\report.html"
+    }
+  },
+  "protocol_sha256": "016733e3ed90ff8b682f9658d814af6e00e24f30bcaf59f60f08bd983419791d",
+  "settings_sha256": "3910f1ca4dcaeb2a4b4625807bd9e219bbcf438bc63cf7ca88a204c4affd6e3f"
+}

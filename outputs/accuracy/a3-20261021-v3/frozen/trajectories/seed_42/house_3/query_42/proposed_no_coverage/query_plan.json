@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "learner": "L2_max",
+  "update_every": 5,
+  "strategies": [
+    "random",
+    "uncertainty",
+    "proposed",
+    "uncertainty_static",
+    "proposed_static",
+    "proposed_no_diversity",
+    "proposed_no_coverage"
+  ],
+  "uncertainty_weight": 0.5,
+  "diversity_weight": 0.3,
+  "coverage_weight": 0.2,
+  "exploration_fraction": 0.1,
+  "minimum_random_f1_gain": 0.02
+}

@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "status": "trained",
+  "project": "ElectricityPlot",
+  "kind": "small_seq2point",
+  "created_at": "2026-10-21T03:13:03.789042+00:00",
+  "appliances": [
+    "kettle",
+    "microwave",
+    "washing_machine"
+  ],
+  "settings": {
+    "schema_version": 1,
+    "window_samples": 31,
+    "channels": 8,
+    "hidden_units": 32,
+    "epochs": 8,
+    "batch_size": 256,
+    "learning_rate": 0.001,
+    "active_loss_weight": 5.0,
+    "seed": 42,
+    "cpu_threads": 4,
+    "on_thresholds_w": {
+      "kettle": 2000.0,
+      "microwave": 200.0,
+      "washing_machine": 20.0
+    }
+  },
+  "sample_interval_seconds": 8,
+  "protocol_sha256": "650cd1795a8eef3865c4ec750593b777c6180cc86c9fc11eb15eab5ee44d0ea8",
+  "protocol_id": "refit-prefix-m1-v1-accuracy-a0-dev-v1",
+  "purpose": "engineering_pilot_only",
+  "code_sha256": "3685eaa0a6dd9947d940d628dc738d8867c7bc52f6e2f9fd1302e3f33cfcdbea",
+  "settings_sha256": "3910f1ca4dcaeb2a4b4625807bd9e219bbcf438bc63cf7ca88a204c4affd6e3f",
+  "input_log_mean": 4.946436405181885,
+  "input_log_std": 0.8860740661621094,
+  "power_scales_w": [
+    2802.5,
+    1218.5,
+    2178.875
+  ],
+  "source_train_windows": {
+    "source_train_house_2": 23334
+  },
+  "source_validation_windows": {
+    "source_validation_house_5": 18527
+  },
+  "training_households": [
+    "2"
+  ],
+  "validation_households": [
+    "5"
+  ],
+  "target_labels_read": false,
+  "adaptation": "weak_window_state_only",
+  "confidence": null,
+  "upstream_limitations": [
+    "Upstream gaps were forward-filled or zeroed; original missingness is not recoverable.",
+    "IAM spikes above 4000 W were replaced with zero upstream.",
+    "Issues=1 means the sum of IAM channels exceeds aggregate power.",
+    "Appliance identities describe monitored channels, not every appliance owned by a household."
+  ],
+  "state_definition": "predicted_power_w >= fixed on_thresholds_w; thresholds chosen before test evaluation",
+  "selected_epoch": 8,
+  "weights": {
+    "path": "weights.pt",
+    "sha256": "81b854b4087d4ad34af22a495b0e72e0f124d968375ec781e46c174125c72f1c"
+  },
+  "validation_normalized_mae": 0.03094537928700447,
+  "torch_version": "2.9.0+cpu",
+  "parameter_count": 8315,
+  "timing_seconds": {
+    "fit": 4.153067299999748,
+    "total": 5.31182359999957
+  },
+  "model_id": "weak-state-68c443fa274ae141",
+  "parent_model_manifest_sha256": "f00988c64fd2754f1b72770030b31b04067b88657ded06abfc911f83b3a40ed5",
+  "accuracy_usage": "development_only",
+  "weights_changed_for_development": false,
+  "base_model_id": "small_seq2point-2e234c34c9a51bfe",
+  "base_model_manifest_sha256": "9d907157be710b96a8da48a216c537df64dfcaf5a7a30fe6ca235e386115bc1e",
+  "adaptation_household_id": "3",
+  "adaptation_settings": {
+    "schema_version": 1,
+    "epochs": 200,
+    "learning_rate": 0.05,
+    "l2": 0.01,
+    "uncertainty_weight": 0.5,
+    "impact_weight": 0.3,
+    "answerability_weight": 0.2,
+    "event_threshold_w": 100.0
+  },
+  "query_summary": {
+    "budget_limit": 0,
+    "budget_used": 0,
+    "responses": {},
+    "label_sources": {},
+    "strategy": "random",
+    "seed": 42,
+    "usable_windows": {
+      "kettle": 0,
+      "microwave": 0,
+      "washing_machine": 0
+    }
+  },
+  "target_pointwise_labels_read": false,
+  "target_weak_labels_read": false,
+  "power_output_frozen": true,
+  "queries_sha256": "c4b97d0ef994a2c7d5ffc267dcf04f1d199093b70216b55ab4d5ffcb04687f40",
+  "adaptation_seconds": 0.577817800000048
+}

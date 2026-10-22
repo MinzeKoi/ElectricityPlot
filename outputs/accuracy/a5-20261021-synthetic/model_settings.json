@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "window_samples": 7,
+  "channels": 2,
+  "hidden_units": 4,
+  "epochs": 2,
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "active_loss_weight": 5.0,
+  "seed": 42,
+  "cpu_threads": 1,
+  "on_thresholds_w": {
+    "kettle": 2000.0,
+    "microwave": 200.0,
+    "washing_machine": 20.0
+  }
+}

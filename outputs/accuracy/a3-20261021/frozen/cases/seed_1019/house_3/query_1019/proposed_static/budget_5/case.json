@@ -1,0 +1,15 @@
+{
+  "path": "cases/seed_1019/house_3/query_1019/proposed_static/budget_5",
+  "source_seed": 1019,
+  "query_seed": 1019,
+  "household_id": "3",
+  "variant": "proposed_static",
+  "budget": 5,
+  "future_partition": "frozen_test_house_3",
+  "trajectory": "trajectories/seed_1019/house_3/query_1019/proposed_static",
+  "model_path": "trajectories/seed_1019/house_3/query_1019/proposed_static/models/budget_5",
+  "base_prediction": "inputs/cache/seed_1019/house_3/frozen_test_house_3/predictions.json",
+  "query_prefix_sha256": "581774eeb031c959b7eeb92a33b87641d75524dfd81eae05adb3306e7d7990c5",
+  "model_id": "a3-state-c06dd80ebd28ec77",
+  "adaptation_seconds": 0.37577580000015587
+}

@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "run_id": "a3-model-prediction",
+  "project": "ElectricityPlot",
+  "created_at": "2026-10-21T04:41:00.770696+00:00",
+  "model_id": "a3-state-20ba06f64670b76a",
+  "model_manifest_sha256": "b1b7e194437eb5203dc1fe321bbba609e81e4366f16e3b1ebc704cda596d92aa",
+  "model_kind": "small_seq2point",
+  "model_settings": {
+    "schema_version": 1,
+    "window_samples": 31,
+    "channels": 8,
+    "hidden_units": 32,
+    "epochs": 12,
+    "batch_size": 256,
+    "learning_rate": 0.001,
+    "active_loss_weight": 50.0,
+    "seed": 42,
+    "cpu_threads": 4,
+    "on_thresholds_w": {
+      "kettle": 2000.0,
+      "microwave": 200.0,
+      "washing_machine": 20.0
+    }
+  },
+  "code_sha256": "aaf6f3176bf739379d7adeee6bcf3f7a741b4ea3eead56cd400f457bcb5e667a",
+  "protocol_sha256": "6fc077b96a79d809478286cdad40c89060fa0b0fa78c06441df834ea8d38b22e",
+  "partition_id": "frozen_test_house_3",
+  "purpose": "engineering_pilot_only",
+  "data_kind": "real_REFIT_prefix",
+  "model_data_kind": "real_REFIT_prefix",
+  "input_sha256": "0acdcb8d296f75c0ec43aebfe391029bc866b919e3a3338bc6bd2a7739ef359c",
+  "sample_interval_seconds": 8,
+  "appliances": [
+    "kettle",
+    "microwave",
+    "washing_machine"
+  ],
+  "upstream_limitations": [
+    "Upstream gaps were forward-filled or zeroed; original missingness is not recoverable.",
+    "IAM spikes above 4000 W were replaced with zero upstream.",
+    "Issues=1 means the sum of IAM channels exceeds aggregate power.",
+    "Appliance identities describe monitored channels, not every appliance owned by a household."
+  ],
+  "inference_seconds": 2.756174600000122,
+  "confidence_method": null,
+  "calibration": null,
+  "adaptation": "a3_dynamic_query_state_only",
+  "state_definition": "A3 independent state score >= 0.5; frozen raw and corrected power",
+  "query_summary": {
+    "budget_used": 10,
+    "responses": {
+      "kettle": {
+        "queries": 2,
+        "budget_fraction": 0.2,
+        "used": 0,
+        "not_used": 0,
+        "unsure": 2,
+        "skipped": 0,
+        "usable": 0,
+        "positive_fraction": null,
+        "single_class": false
+      },
+      "microwave": {
+        "queries": 4,
+        "budget_fraction": 0.4,
+        "used": 0,
+        "not_used": 2,
+        "unsure": 2,
+        "skipped": 0,
+        "usable": 2,
+        "positive_fraction": 0.0,
+        "single_class": true
+      },
+      "washing_machine": {
+        "queries": 4,
+        "budget_fraction": 0.4,
+        "used": 0,
+        "not_used": 2,
+        "unsure": 2,
+        "skipped": 0,
+        "usable": 2,
+        "positive_fraction": 0.0,
+        "single_class": true
+      }
+    },
+    "strategy": "proposed"
+  },
+  "base_model_id": "small_seq2point-ff9f3c7c4da7f24a-a1-raw-state",
+  "quality_summary": {
+    "quality_flag_samples": {
+      "aggregate_missing": 1428,
+      "context_missing_or_boundary": 3208,
+      "incomplete_coverage": 1428,
+      "observation_gap": 1428,
+      "power_uncalibrated": 21150,
+      "sum_exceeded_aggregate_scaled_down": 576,
+      "unexplained_load_present": 17370,
+      "upstream_cleaned_missingness_unknown": 21150
+    },
+    "confidence_method": null,
+    "calibration": null,
+    "valid_samples": 17942,
+    "prediction_coverage": 0.848321513002364,
+    "raw_exceedance_rate": 0.032103444432058856,
+    "mean_raw_excess_w": 12.522557412006028,
+    "mean_removed_power_w": 12.522557412006028,
+    "corrected_exceedance_rate": 0.0,
+    "mean_absolute_balance_w": 5.322536154618073e-16,
+    "aggregate_energy_kwh": 33.11625166666666,
+    "attributed_energy_kwh": 17.807677256878215,
+    "unexplained_energy_kwh": 15.308574409788452,
+    "attributed_energy_fraction": 0.5377322722427135,
+    "notice": "Unexplained load includes modeling and measurement error, not identified unknown devices."
+  },
+  "artifacts_sha256": {
+    "predictions.json": "f2a78288fbdddf9028453a66253550b18e366d9d5f9e001b9a6fa3a6f593dfe3",
+    "predictions.csv": "62314797964a91f0a6991b0675da437e783ee94bebd5139d69279402997cb5f6",
+    "report.html": "74dbaadc3c69051026644fa373fef056ff0da8670ce283f667cda6f31ece2d59"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "epochs": [
+    {
+      "epoch": 1,
+      "training_weighted_mse": 0.5412038012123926,
+      "validation_normalized_mae": 0.2540331780910492
+    },
+    {
+      "epoch": 2,
+      "training_weighted_mse": 0.5285513752775642,
+      "validation_normalized_mae": 0.2542930841445923
+    }
+  ]
+}

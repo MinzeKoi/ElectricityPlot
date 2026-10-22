@@ -1,0 +1,15 @@
+{
+  "path": "cases/seed_42/house_3/query_1019/proposed_no_coverage/budget_5",
+  "source_seed": 42,
+  "query_seed": 1019,
+  "household_id": "3",
+  "variant": "proposed_no_coverage",
+  "budget": 5,
+  "future_partition": "frozen_test_house_3",
+  "trajectory": "trajectories/seed_42/house_3/query_1019/proposed_no_coverage",
+  "model_path": "trajectories/seed_42/house_3/query_1019/proposed_no_coverage/models/budget_5",
+  "base_prediction": "inputs/cache/seed_42/house_3/frozen_test_house_3/predictions.json",
+  "query_prefix_sha256": "65efbfa381edd76d39d24adae858c9a1b36e2b0cf56f4c9a682acaa2212b37b5",
+  "model_id": "a3-state-0929f8a45a0aefc8",
+  "adaptation_seconds": 0.302989400000115
+}

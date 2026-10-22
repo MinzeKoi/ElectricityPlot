@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "purpose": "development_only",
+  "main_budget": 10,
+  "source_seeds": [42, 1019, 2026],
+  "query_seeds": [42, 1019, 2026],
+  "minimum_positive_seed_pairs_per_household": 6,
+  "require_no_confirmation_caused_primary_degeneracy": true,
+  "maximum_primary_device_mean_f1_drop": 0.02,
+  "minimum_primary_f1_gain_internal": 0.05,
+  "notice": "Saved before R1 fixed-query simulation/evaluation. Repeatability requires positive primary-device mean own-baseline gain in at least 6 of the 9 fixed source/query seed pairs in every development household. This is a development gate, not independent-household evidence or statistical significance. Final H1 still requires at least 3 final households, mean gain 0.05 and at least two thirds of final households positive."
+}

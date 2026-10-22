@@ -1,0 +1,8 @@
+{
+  "verification": {
+    "status": "a2_full_evidence_verified",
+    "unavailable_derived_artifacts": []
+  },
+  "a2_freeze_sha256": "e7fcc7a920c4d7a0624adb7dcac6d551bb7638f47596a9fae1a285ceb096a31c",
+  "a2_evidence_sha256": "1b9e6f2103febe3cccf9ae2ba1826a7e5ad18b8d7b315cd6e57f104e345e64dd"
+}

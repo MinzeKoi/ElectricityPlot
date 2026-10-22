@@ -1,0 +1,33 @@
+{
+  "run_id": "m2-20261020",
+  "project": "ElectricityPlot",
+  "version": "0.3.0",
+  "status": "pilot_baselines_evaluated",
+  "code_sha256_at_handoff": "4f89d9d6873dec19775e21f7dfac7553eaaea7b2ac17274c8ec9068b350f152e",
+  "protocol_sha256": "016733e3ed90ff8b682f9658d814af6e00e24f30bcaf59f60f08bd983419791d",
+  "settings_sha256": "3910f1ca4dcaeb2a4b4625807bd9e219bbcf438bc63cf7ca88a204c4affd6e3f",
+  "environment_lock_sha256": "3bfa0b056d6b2bc03ddee572e35fc174a0a6a1fe4b4766602c7c94f68a077c59",
+  "summary_sha256": "c24fd67cf78dd60843de51f1a222cb750514514b298c48e17e81d96d34cb79ab",
+  "seed": 42,
+  "query_budget_used": 0,
+  "adaptation": "none",
+  "confidence": null,
+  "trained_model_dirs": [
+    "single_kettle",
+    "seq2point",
+    "constant_mean",
+    "zero"
+  ],
+  "notice": "Engineering pilot, not final multi-house evaluation. Original M1 constraints remain pending.",
+  "validation": {
+    "unit_tests_passed": 46,
+    "m2_artifacts": "verified",
+    "same_configuration_reproduction": "predictions_and_metrics_exact_match",
+    "syntax_check": "passed",
+    "dependency_check": "passed",
+    "wheel_build": "passed",
+    "wheel_sha256": "aeb1732d350b590cdfef900feaa5b20c3dbf2447b8e204d04415e19ccf7b46c2",
+    "local_ui_url": "http://127.0.0.1:8501",
+    "local_ui_health": "ok"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "status": "m2_artifacts_verified",
+  "purpose": "engineering_pilot_only",
+  "baselines": {
+    "single_kettle": {
+      "model_id": "small_seq2point-05f268fcb40e9624",
+      "rows": 13506,
+      "valid_prediction_rows": 12068,
+      "appliances": {
+        "kettle": {
+          "mae_w": 34.79933769066639,
+          "active_mae_w": 1986.3943869703908,
+          "f1": 0.0,
+          "evaluation_coverage": 0.793203020879609
+        }
+      }
+    },
+    "seq2point": {
+      "model_id": "small_seq2point-2e234c34c9a51bfe",
+      "rows": 13506,
+      "valid_prediction_rows": 12068,
+      "appliances": {
+        "kettle": {
+          "mae_w": 85.73350254418405,
+          "active_mae_w": 1042.4726696313662,
+          "f1": 0.21621621621621623,
+          "evaluation_coverage": 0.793203020879609
+        },
+        "microwave": {
+          "mae_w": 43.26157800626392,
+          "active_mae_w": 804.5150436561581,
+          "f1": 0.23622047244094488,
+          "evaluation_coverage": 0.793203020879609
+        },
+        "washing_machine": {
+          "mae_w": 138.59013475680956,
+          "active_mae_w": 204.5717470616829,
+          "f1": 0.189117199391172,
+          "evaluation_coverage": 0.793203020879609
+        }
+      }
+    },
+    "constant_mean": {
+      "model_id": "constant_mean-5e98411e86ac8b23",
+      "rows": 13506,
+      "valid_prediction_rows": 12068,
+      "appliances": {
+        "kettle": {
+          "mae_w": 32.21612922535283,
+          "active_mae_w": 2088.3808453446727,
+          "f1": 0.0,
+          "evaluation_coverage": 0.793203020879609
+        },
+        "microwave": {
+          "mae_w": 5.28230979508694,
+          "active_mae_w": 1033.3230160985675,
+          "f1": 0.0,
+          "evaluation_coverage": 0.793203020879609
+        },
+        "washing_machine": {
+          "mae_w": 26.0671879721992,
+          "active_mae_w": 270.94843792666126,
+          "f1": 0.0,
+          "evaluation_coverage": 0.793203020879609
+        }
+      }
+    },
+    "zero": {
+      "model_id": "zero-4cc17d5ea7807f98",
+      "rows": 13506,
+      "valid_prediction_rows": 12068,
+      "appliances": {
+        "kettle": {
+          "mae_w": 11.93835760291235,
+          "active_mae_w": 2108.9745762711864,
+          "f1": 0.0,
+          "evaluation_coverage": 0.793203020879609
+        },
+        "microwave": {
+          "mae_w": 2.891650331373098,
+          "active_mae_w": 1035.763392857143,
+          "f1": 0.0,
+          "evaluation_coverage": 0.793203020879609
+        },
+        "washing_machine": {
+          "mae_w": 15.295423784187436,
+          "active_mae_w": 283.22952961672473,
+          "f1": 0.0,
+          "evaluation_coverage": 0.793203020879609
+        }
+      }
+    }
+  },
+  "notice": "Real prefix pilot only. This verification does not train, tune or read new test labels."
+}

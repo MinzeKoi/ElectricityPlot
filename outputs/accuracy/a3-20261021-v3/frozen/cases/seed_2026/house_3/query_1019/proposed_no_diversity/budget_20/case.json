@@ -1,0 +1,15 @@
+{
+  "path": "cases/seed_2026/house_3/query_1019/proposed_no_diversity/budget_20",
+  "source_seed": 2026,
+  "query_seed": 1019,
+  "household_id": "3",
+  "variant": "proposed_no_diversity",
+  "budget": 20,
+  "future_partition": "frozen_test_house_3",
+  "trajectory": "trajectories/seed_2026/house_3/query_1019/proposed_no_diversity",
+  "model_path": "trajectories/seed_2026/house_3/query_1019/proposed_no_diversity/models/budget_20",
+  "base_prediction": "inputs/cache/seed_2026/house_3/frozen_test_house_3/predictions.json",
+  "query_prefix_sha256": "14731504daa7ce8058a285d6424bdf3a13a04e11e379fe7daa3f99b4768bfcd0",
+  "model_id": "a3-state-eb31233889ca15b2",
+  "adaptation_seconds": 0.3071172999998453
+}

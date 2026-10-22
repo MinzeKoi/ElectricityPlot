@@ -1,0 +1,404 @@
+{
+  "schema_version": 1,
+  "groups": [
+    {
+      "variant": "random",
+      "mode": "state_only",
+      "budget": 0,
+      "households": [
+        "3"
+      ],
+      "active_mae_w": 615.0034163496628,
+      "energy_absolute_error_kwh": 3.607634871376587,
+      "active_mae_reduction": 0.0,
+      "energy_error_reduction": 0.0,
+      "f1": 0.1756713202805062,
+      "off_state_attributed_kwh": 3.723557770580054,
+      "missing_primary_metrics": 0,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "random",
+      "mode": "state_only",
+      "budget": 5,
+      "households": [
+        "3"
+      ],
+      "active_mae_w": 615.0034163496628,
+      "energy_absolute_error_kwh": 3.607634871376587,
+      "active_mae_reduction": 0.0,
+      "energy_error_reduction": 0.0,
+      "f1": 0.1757918406805718,
+      "off_state_attributed_kwh": 3.723557770580054,
+      "missing_primary_metrics": 0,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "random",
+      "mode": "state_only",
+      "budget": 10,
+      "households": [
+        "3"
+      ],
+      "active_mae_w": 615.0034163496628,
+      "energy_absolute_error_kwh": 3.607634871376587,
+      "active_mae_reduction": 0.0,
+      "energy_error_reduction": 0.0,
+      "f1": 0.17775497756972133,
+      "off_state_attributed_kwh": 3.723557770580054,
+      "missing_primary_metrics": 0,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "random",
+      "mode": "state_only",
+      "budget": 20,
+      "households": [
+        "3"
+      ],
+      "active_mae_w": 615.0034163496628,
+      "energy_absolute_error_kwh": 3.607634871376587,
+      "active_mae_reduction": 0.0,
+      "energy_error_reduction": 0.0,
+      "f1": 0.17765743038450962,
+      "off_state_attributed_kwh": 3.723557770580054,
+      "missing_primary_metrics": 0,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "random",
+      "mode": "coupled",
+      "budget": 0,
+      "households": [
+        "3"
+      ],
+      "active_mae_w": 661.2678059948082,
+      "energy_absolute_error_kwh": 2.019589687016059,
+      "active_mae_reduction": 0.0,
+      "energy_error_reduction": 0.0,
+      "f1": 0.1756713202805062,
+      "off_state_attributed_kwh": 2.148615056681884,
+      "missing_primary_metrics": 0,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "random",
+      "mode": "coupled",
+      "budget": 5,
+      "households": [
+        "3"
+      ],
+      "active_mae_w": 661.5622450526084,
+      "energy_absolute_error_kwh": 1.9981035444079116,
+      "active_mae_reduction": -0.00036597884359869273,
+      "energy_error_reduction": 0.008362938203411406,
+      "f1": 0.1757918406805718,
+      "off_state_attributed_kwh": 2.127458472296542,
+      "missing_primary_metrics": 0,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "random",
+      "mode": "coupled",
+      "budget": 10,
+      "households": [
+        "3"
+      ],
+      "active_mae_w": 663.1262356565144,
+      "energy_absolute_error_kwh": 1.9760799399212314,
+      "active_mae_reduction": -0.002200150975934661,
+      "energy_error_reduction": 0.024660964715820157,
+      "f1": 0.17775497756972133,
+      "off_state_attributed_kwh": 2.1056137378035933,
+      "missing_primary_metrics": 0,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "random",
+      "mode": "coupled",
+      "budget": 20,
+      "households": [
+        "3"
+      ],
+      "active_mae_w": 676.4447316295041,
+      "energy_absolute_error_kwh": 1.8719568471817478,
+      "active_mae_reduction": -0.024432226515700598,
+      "energy_error_reduction": 0.07147238404035809,
+      "f1": 0.17765743038450962,
+      "off_state_attributed_kwh": 2.0048174750430983,
+      "missing_primary_metrics": 0,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "uncertainty",
+      "mode": "state_only",
+      "budget": 0,
+      "households": [
+        "3"
+      ],
+      "active_mae_w": 615.0034163496628,
+      "energy_absolute_error_kwh": 3.607634871376587,
+      "active_mae_reduction": 0.0,
+      "energy_error_reduction": 0.0,
+      "f1": 0.1756713202805062,
+      "off_state_attributed_kwh": 3.723557770580054,
+      "missing_primary_metrics": 0,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "uncertainty",
+      "mode": "state_only",
+      "budget": 5,
+      "households": [
+        "3"
+      ],
+      "active_mae_w": 615.0034163496628,
+      "energy_absolute_error_kwh": 3.607634871376587,
+      "active_mae_reduction": 0.0,
+      "energy_error_reduction": 0.0,
+      "f1": 0.18286571260435736,
+      "off_state_attributed_kwh": 3.723557770580054,
+      "missing_primary_metrics": 0,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "uncertainty",
+      "mode": "state_only",
+      "budget": 10,
+      "households": [
+        "3"
+      ],
+      "active_mae_w": 615.0034163496628,
+      "energy_absolute_error_kwh": 3.607634871376587,
+      "active_mae_reduction": 0.0,
+      "energy_error_reduction": 0.0,
+      "f1": 0.18537953864759515,
+      "off_state_attributed_kwh": 3.723557770580054,
+      "missing_primary_metrics": 0,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "uncertainty",
+      "mode": "state_only",
+      "budget": 20,
+      "households": [
+        "3"
+      ],
+      "active_mae_w": 615.0034163496628,
+      "energy_absolute_error_kwh": 3.607634871376587,
+      "active_mae_reduction": 0.0,
+      "energy_error_reduction": 0.0,
+      "f1": 0.18537953864759515,
+      "off_state_attributed_kwh": 3.723557770580054,
+      "missing_primary_metrics": 0,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "uncertainty",
+      "mode": "coupled",
+      "budget": 0,
+      "households": [
+        "3"
+      ],
+      "active_mae_w": 661.2678059948082,
+      "energy_absolute_error_kwh": 2.019589687016059,
+      "active_mae_reduction": 0.0,
+      "energy_error_reduction": 0.0,
+      "f1": 0.1756713202805062,
+      "off_state_attributed_kwh": 2.148615056681884,
+      "missing_primary_metrics": 0,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "uncertainty",
+      "mode": "coupled",
+      "budget": 5,
+      "households": [
+        "3"
+      ],
+      "active_mae_w": 680.5657987092034,
+      "energy_absolute_error_kwh": 1.8198918143821918,
+      "active_mae_reduction": -0.027282471897352653,
+      "energy_error_reduction": 0.13188545662002027,
+      "f1": 0.18286571260435736,
+      "off_state_attributed_kwh": 1.9529881653664312,
+      "missing_primary_metrics": 0,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "uncertainty",
+      "mode": "coupled",
+      "budget": 10,
+      "households": [
+        "3"
+      ],
+      "active_mae_w": 688.8984431578272,
+      "energy_absolute_error_kwh": 1.7701469708365174,
+      "active_mae_reduction": -0.036374193468415514,
+      "energy_error_reduction": 0.166726900012828,
+      "f1": 0.18537953864759515,
+      "off_state_attributed_kwh": 1.9033558739631933,
+      "missing_primary_metrics": 0,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "uncertainty",
+      "mode": "coupled",
+      "budget": 20,
+      "households": [
+        "3"
+      ],
+      "active_mae_w": 687.9150909076395,
+      "energy_absolute_error_kwh": 1.773066737980634,
+      "active_mae_reduction": -0.034211538387413976,
+      "energy_error_reduction": 0.16582352755198668,
+      "f1": 0.18537953864759515,
+      "off_state_attributed_kwh": 1.90602873065962,
+      "missing_primary_metrics": 0,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "proposed",
+      "mode": "state_only",
+      "budget": 0,
+      "households": [
+        "3"
+      ],
+      "active_mae_w": 615.0034163496628,
+      "energy_absolute_error_kwh": 3.607634871376587,
+      "active_mae_reduction": 0.0,
+      "energy_error_reduction": 0.0,
+      "f1": 0.1756713202805062,
+      "off_state_attributed_kwh": 3.723557770580054,
+      "missing_primary_metrics": 0,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "proposed",
+      "mode": "state_only",
+      "budget": 5,
+      "households": [
+        "3"
+      ],
+      "active_mae_w": 615.0034163496628,
+      "energy_absolute_error_kwh": 3.607634871376587,
+      "active_mae_reduction": 0.0,
+      "energy_error_reduction": 0.0,
+      "f1": 0.18725153243354767,
+      "off_state_attributed_kwh": 3.723557770580054,
+      "missing_primary_metrics": 0,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "proposed",
+      "mode": "state_only",
+      "budget": 10,
+      "households": [
+        "3"
+      ],
+      "active_mae_w": 615.0034163496628,
+      "energy_absolute_error_kwh": 3.607634871376587,
+      "active_mae_reduction": 0.0,
+      "energy_error_reduction": 0.0,
+      "f1": 0.1809829074867618,
+      "off_state_attributed_kwh": 3.723557770580054,
+      "missing_primary_metrics": 0,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "proposed",
+      "mode": "state_only",
+      "budget": 20,
+      "households": [
+        "3"
+      ],
+      "active_mae_w": 615.0034163496628,
+      "energy_absolute_error_kwh": 3.607634871376587,
+      "active_mae_reduction": 0.0,
+      "energy_error_reduction": 0.0,
+      "f1": 0.17769069021671202,
+      "off_state_attributed_kwh": 3.723557770580054,
+      "missing_primary_metrics": 0,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "proposed",
+      "mode": "coupled",
+      "budget": 0,
+      "households": [
+        "3"
+      ],
+      "active_mae_w": 661.2678059948082,
+      "energy_absolute_error_kwh": 2.019589687016059,
+      "active_mae_reduction": 0.0,
+      "energy_error_reduction": 0.0,
+      "f1": 0.1756713202805062,
+      "off_state_attributed_kwh": 2.148615056681884,
+      "missing_primary_metrics": 0,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "proposed",
+      "mode": "coupled",
+      "budget": 5,
+      "households": [
+        "3"
+      ],
+      "active_mae_w": 666.1948703309954,
+      "energy_absolute_error_kwh": 1.9221763209212352,
+      "active_mae_reduction": -0.006786475447101891,
+      "energy_error_reduction": 0.059840275903646906,
+      "f1": 0.18725153243354767,
+      "off_state_attributed_kwh": 2.0524602540144956,
+      "missing_primary_metrics": 0,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "proposed",
+      "mode": "coupled",
+      "budget": 10,
+      "households": [
+        "3"
+      ],
+      "active_mae_w": 671.1912232718457,
+      "energy_absolute_error_kwh": 1.8786657885752118,
+      "active_mae_reduction": -0.012465180252643055,
+      "energy_error_reduction": 0.0886168928617923,
+      "f1": 0.1809829074867618,
+      "off_state_attributed_kwh": 2.009322178940495,
+      "missing_primary_metrics": 0,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "proposed",
+      "mode": "coupled",
+      "budget": 20,
+      "households": [
+        "3"
+      ],
+      "active_mae_w": 685.4684397070107,
+      "energy_absolute_error_kwh": 1.777864134213498,
+      "active_mae_reduction": -0.029846216398791366,
+      "energy_error_reduction": 0.1651633831865047,
+      "f1": 0.17769069021671202,
+      "off_state_attributed_kwh": 1.9100220132820898,
+      "missing_primary_metrics": 0,
+      "adaptation_caused_degeneracy": 0
+    }
+  ],
+  "main_strategy": "proposed",
+  "main_budget": 10,
+  "h3_development_target_met": false,
+  "primary_comparison_complete": true,
+  "household_pairs": [
+    {
+      "household_id": "3",
+      "active_mae_reduction": -0.012465180252643055,
+      "energy_error_reduction": 0.0886168928617923
+    }
+  ],
+  "formal_evaluation": false,
+  "notice": "Inspected House 3 development data and ideal simulated confirmations; A3 state gains remain weak. Seeds are not independent households. Exploratory H3 only, no final cross-household or real-user claim.",
+  "normalization": "paired reduction (zero - adapted) / max(zero, frozen near-zero floor), seeds then devices then households equally weighted",
+  "background_semantics": "Off-state attributed energy is false device attribution while that device is off; no specific unknown appliance identity."
+}

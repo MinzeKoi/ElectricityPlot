@@ -1,0 +1,205 @@
+{
+  "schema_version": 1,
+  "protocol_id": "r0-strict-support-audit-v1",
+  "plan_sha256": "c5db2b8aaf47e6f55c26eb6be172790a31f746cd686f6067297fd01efdfdcd59",
+  "catalog_sha256": "18b44c7ce7ea065799017cc5cdff43d4623971f2e14a6e2e3c5ad506ebf33dab",
+  "scope": "support_only_no_events_energy_curves_or_model_scores",
+  "households": [
+    {
+      "household_id": "1",
+      "reserved_role": "excluded_missing_required_monitored_channel",
+      "missing_required_channels": [
+        "kettle",
+        "microwave"
+      ],
+      "strict_time_support_pass": false,
+      "formal_admission": false
+    },
+    {
+      "household_id": "2",
+      "reserved_role": "existing_source_train",
+      "missing_required_channels": [],
+      "strict_time_support_pass": true,
+      "formal_admission": false
+    },
+    {
+      "household_id": "3",
+      "reserved_role": "existing_inspected_development_pv_pending",
+      "missing_required_channels": [],
+      "strict_time_support_pass": true,
+      "formal_admission": false
+    },
+    {
+      "household_id": "4",
+      "reserved_role": "quarantine_historical_access_not_established",
+      "missing_required_channels": [],
+      "strict_time_support_pass": true,
+      "formal_admission": false
+    },
+    {
+      "household_id": "5",
+      "reserved_role": "existing_source_validation",
+      "missing_required_channels": [],
+      "strict_time_support_pass": true,
+      "formal_admission": false
+    },
+    {
+      "household_id": "6",
+      "reserved_role": "reserved_final_candidate",
+      "missing_required_channels": [],
+      "strict_time_support_pass": true,
+      "formal_admission": false
+    },
+    {
+      "household_id": "7",
+      "reserved_role": "excluded_missing_required_monitored_channel",
+      "missing_required_channels": [
+        "microwave"
+      ],
+      "strict_time_support_pass": false,
+      "formal_admission": false
+    },
+    {
+      "household_id": "8",
+      "reserved_role": "reserved_final_candidate",
+      "missing_required_channels": [],
+      "strict_time_support_pass": true,
+      "formal_admission": false
+    },
+    {
+      "household_id": "9",
+      "reserved_role": "reserved_final_candidate",
+      "missing_required_channels": [],
+      "strict_time_support_pass": true,
+      "formal_admission": false
+    },
+    {
+      "household_id": "10",
+      "reserved_role": "excluded_missing_required_monitored_channel",
+      "missing_required_channels": [
+        "kettle"
+      ],
+      "strict_time_support_pass": false,
+      "formal_admission": false
+    },
+    {
+      "household_id": "11",
+      "reserved_role": "excluded_known_pv_and_previous_audit",
+      "missing_required_channels": [],
+      "strict_time_support_pass": true,
+      "formal_admission": false
+    },
+    {
+      "household_id": "12",
+      "reserved_role": "excluded_missing_required_monitored_channel",
+      "missing_required_channels": [
+        "washing_machine"
+      ],
+      "strict_time_support_pass": false,
+      "formal_admission": false
+    },
+    {
+      "household_id": "13",
+      "reserved_role": "excluded_pv_conflict_pending",
+      "missing_required_channels": [],
+      "strict_time_support_pass": true,
+      "formal_admission": false
+    },
+    {
+      "household_id": "15",
+      "reserved_role": "excluded_missing_required_monitored_channel",
+      "missing_required_channels": [
+        "kettle"
+      ],
+      "strict_time_support_pass": false,
+      "formal_admission": false
+    },
+    {
+      "household_id": "16",
+      "reserved_role": "excluded_missing_required_monitored_channel",
+      "missing_required_channels": [
+        "kettle",
+        "microwave"
+      ],
+      "strict_time_support_pass": false,
+      "formal_admission": false
+    },
+    {
+      "household_id": "17",
+      "reserved_role": "new_development_reserved",
+      "missing_required_channels": [],
+      "strict_time_support_pass": true,
+      "formal_admission": false
+    },
+    {
+      "household_id": "18",
+      "reserved_role": "excluded_missing_required_monitored_channel",
+      "missing_required_channels": [
+        "kettle"
+      ],
+      "strict_time_support_pass": false,
+      "formal_admission": false
+    },
+    {
+      "household_id": "19",
+      "reserved_role": "new_development_reserved",
+      "missing_required_channels": [],
+      "strict_time_support_pass": true,
+      "formal_admission": false
+    },
+    {
+      "household_id": "20",
+      "reserved_role": "new_source_reserved",
+      "missing_required_channels": [],
+      "strict_time_support_pass": true,
+      "formal_admission": false
+    },
+    {
+      "household_id": "21",
+      "reserved_role": "excluded_known_pv",
+      "missing_required_channels": [
+        "microwave"
+      ],
+      "strict_time_support_pass": false,
+      "formal_admission": false
+    }
+  ],
+  "strict_support_passing_households": [
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "8",
+    "9",
+    "11",
+    "13",
+    "17",
+    "19",
+    "20"
+  ],
+  "files": {
+    "house_1.json": "e12d11843efd3b0068d1bc1b06a8047d69ec097f9c9a1a0e7e88bb1bff258652",
+    "house_10.json": "dbe2ca847733dadd638acd01eba1391236f4d69cb2204d7ad3eaeb032b127201",
+    "house_11.json": "d2702329b780727461c10e5a59ddb8ebd350765f3f0167e6879267f423714a37",
+    "house_12.json": "594c5c9ff3b70596e859fd8d10b18215418f44d23971d252ba73982e6b6d7dc1",
+    "house_13.json": "4673043528a23aadee5dd35906c9fded8a0b97eeb81ff9c35088fb1c939c02f3",
+    "house_15.json": "db31289d7bbbebe35d87643a2567e053faafc9b195aaee02bf05db942ed0dc90",
+    "house_16.json": "26a40d8311bcd4c2d0c27ba18b6c733351851f65ab873989347f175627f1408b",
+    "house_17.json": "c1cc4ec11effef13460ea180697fc50db59fce36c9e7ff1096cc0de3b7ee3ecd",
+    "house_18.json": "29934f3fa5729f491d456b72425cb66cfc5a64d04ea5307e9c1445e039f26ba9",
+    "house_19.json": "dc579cfb733474e20bf7bd8330314b87a6acab13c53feadd7196ec6d8c5a2de1",
+    "house_2.json": "b755cb3f7a5ccb054e8b37912b170ec6c9cddaddba15685c5bef9a9abbfde888",
+    "house_20.json": "3ae09fd5673cd05c787f2b52ae4329d83d76731f150bddf19ca62f1f9ebf54ed",
+    "house_21.json": "b9ad725fafeabde4f09936467785c4829e026665a5ed9ac99dcfb37138e641e3",
+    "house_3.json": "ad4a4699e754451b210a3dea092d41e5b7b11aeeabd7950b48a6976cd6bd3d7b",
+    "house_4.json": "a98df4a0f3a209887e612c8a08052a6aaab0a42dcaf4468d0c321304119a7fd8",
+    "house_5.json": "1a9cdf1faca33e9d9fea70822f07edb95958d93e3bae7a3b7933dfd090606da5",
+    "house_6.json": "5b69564cf275e0aceb2fda8ad894ed5c920a684c32588418e3c3b616b52de438",
+    "house_7.json": "43948970161bea3ebb0dc73aea399b71df7206df61a63c97b12bc493273d71f5",
+    "house_8.json": "da73348c6d0c05b58cf2aef95f45a134d6cb3a700c3f7340d0868717b456940e",
+    "house_9.json": "09166994b55f3b9c5338fc5ddea73f03c1cb7f561aa091950c1d3e79528d2336",
+    "plan.json": "6f08a58be09bdb854847b4418819d126bfb1afb0503eff96c17958428244b665",
+    "start.json": "5c1c7fbc6f512bfa77a3c81d780b5fc87309c590d7545ebdf5cfd1a6cb6888a4"
+  }
+}

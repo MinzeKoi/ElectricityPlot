@@ -1,0 +1,12 @@
+{
+  "cases": 252,
+  "power_weights_unchanged": 252,
+  "no_answer_exact_source_devices": 252,
+  "bounded_devices": 360,
+  "single_class_slope_preserved_devices": 270,
+  "status": "passed",
+  "real_model_reload_score_parity": true,
+  "future_pointwise_labels_read": false,
+  "inference_rows": 21150,
+  "code_sha256": "1589f3c43f1e94fc5fd19430c649eed59700abea68afb5459ef47dd13f72ae90"
+}

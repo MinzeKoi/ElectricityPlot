@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "run_id": "predictions_single_kettle",
+  "project": "ElectricityPlot",
+  "created_at": "2026-10-20T00:05:26.702191+00:00",
+  "model_id": "small_seq2point-51053e009c73f0e2",
+  "model_manifest_sha256": "0691fdf4ffcb8b348328d660ed633da4a7e0f20074569899ee2224a008cc6593",
+  "model_kind": "small_seq2point",
+  "model_settings": {
+    "schema_version": 1,
+    "window_samples": 31,
+    "channels": 8,
+    "hidden_units": 32,
+    "epochs": 8,
+    "batch_size": 256,
+    "learning_rate": 0.001,
+    "active_loss_weight": 5.0,
+    "seed": 42,
+    "cpu_threads": 4,
+    "on_thresholds_w": {
+      "kettle": 2000.0,
+      "microwave": 200.0,
+      "washing_machine": 20.0
+    }
+  },
+  "code_sha256": "62e7172e9224cc54646d59aeb4b706d1c02dc3cb58b8f51045df6d306fb27c32",
+  "protocol_sha256": "016733e3ed90ff8b682f9658d814af6e00e24f30bcaf59f60f08bd983419791d",
+  "partition_id": "frozen_test_house_3",
+  "purpose": "engineering_pilot_only",
+  "input_sha256": "bac586d0750a6a505abd8aa75b5d7f86b268b1063c8f6cba45c3e86cfd8c5e96",
+  "sample_interval_seconds": 8,
+  "appliances": [
+    "kettle"
+  ],
+  "upstream_limitations": [
+    "Upstream gaps were forward-filled or zeroed; original missingness is not recoverable.",
+    "IAM spikes above 4000 W were replaced with zero upstream.",
+    "Issues=1 means the sum of IAM channels exceeds aggregate power.",
+    "Appliance identities describe monitored channels, not every appliance owned by a household."
+  ],
+  "inference_seconds": 0.3415207000002738,
+  "confidence_method": null
+}

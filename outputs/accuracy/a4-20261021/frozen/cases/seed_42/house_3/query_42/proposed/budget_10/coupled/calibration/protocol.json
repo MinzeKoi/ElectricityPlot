@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "project": "ElectricityPlot",
+  "protocol_id": "refit-a1-development-v1",
+  "purpose": "engineering_pilot_only",
+  "accuracy_usage": "development_only",
+  "data_kind": "real_REFIT_prefix",
+  "sample_interval_seconds": 8,
+  "target_appliances": [
+    "kettle",
+    "microwave",
+    "washing_machine"
+  ],
+  "split_gap_seconds": 3600,
+  "max_model_context_seconds": 3600,
+  "query_window_seconds": 1200,
+  "query_budgets": [
+    0,
+    5,
+    10,
+    20
+  ],
+  "random_seeds": [
+    42,
+    1019,
+    2026
+  ],
+  "upstream_limitations": [
+    "Upstream gaps were forward-filled or zeroed; original missingness is not recoverable.",
+    "IAM spikes above 4000 W were replaced with zero upstream.",
+    "Issues=1 means the sum of IAM channels exceeds aggregate power.",
+    "Appliance identities describe monitored channels, not every appliance owned by a household."
+  ],
+  "code_sha256": "d95924213d57fbb1d0c8092e78f9bdf60999e4832a8a2adee6cc7e6b5d7cb2a5",
+  "source_audit_sha256": "b08cab84b1bfb760fc7fdb9d45468d1183062b15059a2c5a8336a01e33bec91b",
+  "development_audit_sha256": "90d3cbf273e132dbad143b074bd9b85dcfa00011d9bbb9564ef0d087a5101c68",
+  "notice": "Inspected development household; no final evaluation or confirmation labels used in source training.",
+  "partitions": [
+    {
+      "partition_id": "source_train_house_2",
+      "household_id": "2",
+      "role": "source_train",
+      "start": "2013-09-17T22:08:08Z",
+      "end": "2013-10-01T22:08:08Z",
+      "artifacts": {
+        "aggregate": {
+          "path": "inputs/source_train_house_2/aggregate.csv",
+          "sha256": "81d2fb0caf712c5a1529388e35597b34f38661fa66b6b43de9dfef4b3dc45907",
+          "rows": 151200,
+          "valid_rows": 145708
+        },
+        "kettle": {
+          "path": "source_labels/source_train_house_2/kettle.csv",
+          "sha256": "56b91807ae0846ab55ece09599e33a0afab7142dd52cc6c054c523fb2180eeda",
+          "rows": 151200,
+          "valid_rows": 143264
+        },
+        "microwave": {
+          "path": "source_labels/source_train_house_2/microwave.csv",
+          "sha256": "8f85d730c50cc7d0338d2c758c8d34a96d83e80dcd0e12ff6ae8a37857ac5179",
+          "rows": 151200,
+          "valid_rows": 143264
+        },
+        "washing_machine": {
+          "path": "source_labels/source_train_house_2/washing_machine.csv",
+          "sha256": "e7e9ce94d3dac718d9c6cf97ac5f85977b08fe822aea134ecc2f40dd3b4210f9",
+          "rows": 151200,
+          "valid_rows": 143264
+        }
+      }
+    },
+    {
+      "partition_id": "source_validation_house_5",
+      "household_id": "5",
+      "role": "source_validation",
+      "start": "2013-09-26T09:56:08Z",
+      "end": "2013-10-10T09:56:08Z",
+      "artifacts": {
+        "aggregate": {
+          "path": "inputs/source_validation_house_5/aggregate.csv",
+          "sha256": "e3e11aff92429af397cf24919c7b106da13212b51caf517e2d96a6433239deec",
+          "rows": 151200,
+          "valid_rows": 85145
+        },
+        "kettle": {
+          "path": "source_labels/source_validation_house_5/kettle.csv",
+          "sha256": "ac7f9fb500b4c75a6809b30b2fc73308cb7b4ccaea20e411b3177c05bc1c7afd",
+          "rows": 151200,
+          "valid_rows": 82164
+        },
+        "microwave": {
+          "path": "source_labels/source_validation_house_5/microwave.csv",
+          "sha256": "5134e454aa987849f6ab7d8585a810aead2608bbc690fedfd1dd81ec7e24621b",
+          "rows": 151200,
+          "valid_rows": 82164
+        },
+        "washing_machine": {
+          "path": "source_labels/source_validation_house_5/washing_machine.csv",
+          "sha256": "287b0fa7386b67dc913a37a4755eb5427e2cbebd8c80f05b1f658b70d326deab",
+          "rows": 151200,
+          "valid_rows": 82164
+        }
+      }
+    },
+    {
+      "partition_id": "target_adaptation_house_3",
+      "household_id": "3",
+      "role": "target_adaptation",
+      "start": "2013-09-25T19:21:04Z",
+      "end": "2013-09-27T19:21:04Z",
+      "artifacts": {
+        "aggregate": {
+          "path": "inputs/target_adaptation_house_3/aggregate.csv",
+          "sha256": "72fbabf9eaa1db389ca4ed34de0e3eb3d4854e9738bcbce67adcfa6446550656",
+          "rows": 21600,
+          "valid_rows": 21469
+        },
+        "kettle": {
+          "path": "oracle_labels/target_adaptation_house_3/kettle.csv",
+          "sha256": "f2ad412e0ee7bde96393c0a170e62f241e652e4dcac989ddeefb8d3183b0e1bd",
+          "rows": 21600,
+          "valid_rows": 19297
+        },
+        "microwave": {
+          "path": "oracle_labels/target_adaptation_house_3/microwave.csv",
+          "sha256": "643f575925a631c8bf6ffa185e0132090c9a91321d1505db2c1d6fae98b9e6e0",
+          "rows": 21600,
+          "valid_rows": 19297
+        },
+        "washing_machine": {
+          "path": "oracle_labels/target_adaptation_house_3/washing_machine.csv",
+          "sha256": "96ce8be749680bb2227425f37fa3c046202297a4f89aa4e8dbc70098e790d4b6",
+          "rows": 21600,
+          "valid_rows": 19297
+        }
+      }
+    },
+    {
+      "partition_id": "frozen_test_house_3",
+      "household_id": "3",
+      "role": "frozen_test",
+      "start": "2013-09-27T20:21:04Z",
+      "end": "2013-09-29T19:21:04Z",
+      "artifacts": {
+        "aggregate": {
+          "path": "inputs/frozen_test_house_3/aggregate.csv",
+          "sha256": "0acdcb8d296f75c0ec43aebfe391029bc866b919e3a3338bc6bd2a7739ef359c",
+          "rows": 21150,
+          "valid_rows": 19722
+        },
+        "kettle": {
+          "path": "evaluation_labels/frozen_test_house_3/kettle.csv",
+          "sha256": "5a133ecb162f25a8abef9f9cfde7f50cd0cf87ffbc4177054a8f36a60c85af94",
+          "rows": 21150,
+          "valid_rows": 17612
+        },
+        "microwave": {
+          "path": "evaluation_labels/frozen_test_house_3/microwave.csv",
+          "sha256": "72303afefeefa024b72472b9aed9886a2e16db61cc4ce5d7585d1c05aaf9b0fe",
+          "rows": 21150,
+          "valid_rows": 17612
+        },
+        "washing_machine": {
+          "path": "evaluation_labels/frozen_test_house_3/washing_machine.csv",
+          "sha256": "0e30ff0c8b86b9ba4ea1c388e4e9edda8ac2c47075ca79b7c31b7234a11331e8",
+          "rows": 21150,
+          "valid_rows": 17612
+        }
+      }
+    }
+  ]
+}

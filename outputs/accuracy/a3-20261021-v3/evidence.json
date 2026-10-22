@@ -1,0 +1,10 @@
+{
+  "artifacts_sha256": {
+    "comparison.csv": "bd2a884eb6ba9906c047e244d6aaf4f45a1c7aa5a375d79097cd86849b03f0db",
+    "freeze.json": "de17537474af0fc564a6315005a005be643d27f73b711714784337bc8204a04f",
+    "metrics.json": "227e26c942d0a6e747d6ee860438932d0ddd4a3fb27dc548bbb7eeab3a9ea751",
+    "query_distribution.json": "a3bcac485a6dd467c081e21b4cf506088a2ad0cb5a97d562dbc59d4b966cd828",
+    "report.html": "cdf709ebaf1c0750c20b6010ca6c3167525ec2f27a688e7756c9ff6e1f40703e",
+    "summary.json": "8b30dc3398c6b90f64bd65dc0303586ea9a5aa0e2d405fed10e2f63f73a03c98"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "records": [
+    {
+      "query_id": "d317ecd4d93dacb5ab41a90a",
+      "household_id": "3",
+      "appliance_type": "microwave",
+      "window_start": "2013-09-27T14:01:04Z",
+      "window_end": "2013-09-27T14:21:04Z",
+      "response": "not_used",
+      "label_source": "simulated_from_submeter",
+      "selection_strategy": "proposed_no_diversity",
+      "model_version": "a3-state-4641472b2539b668",
+      "budget_before": 0,
+      "budget_after": 1
+    },
+    {
+      "query_id": "7851e53b7e7a8e550afe8c52",
+      "household_id": "3",
+      "appliance_type": "washing_machine",
+      "window_start": "2013-09-27T02:21:04Z",
+      "window_end": "2013-09-27T02:41:04Z",
+      "response": "unsure",
+      "label_source": "simulated_from_submeter",
+      "selection_strategy": "proposed_no_diversity",
+      "model_version": "a3-state-4641472b2539b668",
+      "budget_before": 1,
+      "budget_after": 2
+    },
+    {
+      "query_id": "7115ef4d9840c829fc47266a",
+      "household_id": "3",
+      "appliance_type": "kettle",
+      "window_start": "2013-09-27T11:21:04Z",
+      "window_end": "2013-09-27T11:41:04Z",
+      "response": "not_used",
+      "label_source": "simulated_from_submeter",
+      "selection_strategy": "proposed_no_diversity",
+      "model_version": "a3-state-4641472b2539b668",
+      "budget_before": 2,
+      "budget_after": 3
+    },
+    {
+      "query_id": "3d8f8d3ae15d813885fbb994",
+      "household_id": "3",
+      "appliance_type": "washing_machine",
+      "window_start": "2013-09-26T04:41:04Z",
+      "window_end": "2013-09-26T05:01:04Z",
+      "response": "not_used",
+      "label_source": "simulated_from_submeter",
+      "selection_strategy": "proposed_no_diversity",
+      "model_version": "a3-state-4641472b2539b668",
+      "budget_before": 3,
+      "budget_after": 4
+    },
+    {
+      "query_id": "04a1d8a459d6dc0f318f083b",
+      "household_id": "3",
+      "appliance_type": "kettle",
+      "window_start": "2013-09-27T03:01:04Z",
+      "window_end": "2013-09-27T03:21:04Z",
+      "response": "not_used",
+      "label_source": "simulated_from_submeter",
+      "selection_strategy": "proposed_no_diversity",
+      "model_version": "a3-state-4641472b2539b668",
+      "budget_before": 4,
+      "budget_after": 5
+    }
+  ],
+  "budget_used": 5
+}

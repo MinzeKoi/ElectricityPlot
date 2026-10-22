@@ -1,0 +1,150 @@
+{
+  "records": [
+    {
+      "query_id": "cdbd801006c06ce8a403e950",
+      "household_id": "3",
+      "window_start": "2013-09-26T20:21:04Z",
+      "window_end": "2013-09-26T20:41:04Z",
+      "appliance_type": "kettle",
+      "response": "not_used",
+      "label_source": "simulated_from_submeter",
+      "selection_strategy": "random",
+      "model_version": "small_seq2point-2e234c34c9a51bfe",
+      "budget_before": 0,
+      "budget_after": 1
+    },
+    {
+      "query_id": "29c0439867a7e325ddb3154f",
+      "household_id": "3",
+      "window_start": "2013-09-25T21:01:04Z",
+      "window_end": "2013-09-25T21:21:04Z",
+      "appliance_type": "washing_machine",
+      "response": "not_used",
+      "label_source": "simulated_from_submeter",
+      "selection_strategy": "random",
+      "model_version": "small_seq2point-2e234c34c9a51bfe",
+      "budget_before": 1,
+      "budget_after": 2
+    },
+    {
+      "query_id": "2c5a3ec11d7dced485089d1a",
+      "household_id": "3",
+      "window_start": "2013-09-26T17:01:04Z",
+      "window_end": "2013-09-26T17:21:04Z",
+      "appliance_type": "kettle",
+      "response": "used",
+      "label_source": "simulated_from_submeter",
+      "selection_strategy": "random",
+      "model_version": "small_seq2point-2e234c34c9a51bfe",
+      "budget_before": 2,
+      "budget_after": 3
+    },
+    {
+      "query_id": "23bb9ef9381c05e17837e930",
+      "household_id": "3",
+      "window_start": "2013-09-26T14:01:04Z",
+      "window_end": "2013-09-26T14:21:04Z",
+      "appliance_type": "washing_machine",
+      "response": "not_used",
+      "label_source": "simulated_from_submeter",
+      "selection_strategy": "random",
+      "model_version": "small_seq2point-2e234c34c9a51bfe",
+      "budget_before": 3,
+      "budget_after": 4
+    },
+    {
+      "query_id": "243d1f7956da687f7c0b0465",
+      "household_id": "3",
+      "window_start": "2013-09-26T19:01:04Z",
+      "window_end": "2013-09-26T19:21:04Z",
+      "appliance_type": "washing_machine",
+      "response": "not_used",
+      "label_source": "simulated_from_submeter",
+      "selection_strategy": "random",
+      "model_version": "small_seq2point-2e234c34c9a51bfe",
+      "budget_before": 4,
+      "budget_after": 5
+    },
+    {
+      "query_id": "247939cd4d64dbf60ebae81b",
+      "household_id": "3",
+      "window_start": "2013-09-25T23:21:04Z",
+      "window_end": "2013-09-25T23:41:04Z",
+      "appliance_type": "kettle",
+      "response": "not_used",
+      "label_source": "simulated_from_submeter",
+      "selection_strategy": "random",
+      "model_version": "small_seq2point-2e234c34c9a51bfe",
+      "budget_before": 5,
+      "budget_after": 6
+    },
+    {
+      "query_id": "239d319b1e7767b5856ab3bf",
+      "household_id": "3",
+      "window_start": "2013-09-25T20:41:04Z",
+      "window_end": "2013-09-25T21:01:04Z",
+      "appliance_type": "kettle",
+      "response": "not_used",
+      "label_source": "simulated_from_submeter",
+      "selection_strategy": "random",
+      "model_version": "small_seq2point-2e234c34c9a51bfe",
+      "budget_before": 6,
+      "budget_after": 7
+    },
+    {
+      "query_id": "26f2f9b3d2e52fa68535f106",
+      "household_id": "3",
+      "window_start": "2013-09-26T16:41:04Z",
+      "window_end": "2013-09-26T17:01:04Z",
+      "appliance_type": "washing_machine",
+      "response": "not_used",
+      "label_source": "simulated_from_submeter",
+      "selection_strategy": "random",
+      "model_version": "small_seq2point-2e234c34c9a51bfe",
+      "budget_before": 7,
+      "budget_after": 8
+    },
+    {
+      "query_id": "27f5f350a58d4dd95b4e0805",
+      "household_id": "3",
+      "window_start": "2013-09-25T22:01:04Z",
+      "window_end": "2013-09-25T22:21:04Z",
+      "appliance_type": "kettle",
+      "response": "not_used",
+      "label_source": "simulated_from_submeter",
+      "selection_strategy": "random",
+      "model_version": "small_seq2point-2e234c34c9a51bfe",
+      "budget_before": 8,
+      "budget_after": 9
+    },
+    {
+      "query_id": "3800deabcd655ed4ffe26d57",
+      "household_id": "3",
+      "window_start": "2013-09-26T10:21:04Z",
+      "window_end": "2013-09-26T10:41:04Z",
+      "appliance_type": "kettle",
+      "response": "not_used",
+      "label_source": "simulated_from_submeter",
+      "selection_strategy": "random",
+      "model_version": "small_seq2point-2e234c34c9a51bfe",
+      "budget_before": 9,
+      "budget_after": 10
+    }
+  ],
+  "budget_limit": 10,
+  "budget_used": 10,
+  "responses": {
+    "not_used": 9,
+    "used": 1
+  },
+  "label_sources": {
+    "simulated_from_submeter": 10
+  },
+  "strategy": "random",
+  "seed": 42,
+  "usable_windows": {
+    "kettle": 6,
+    "microwave": 0,
+    "washing_machine": 4
+  }
+}

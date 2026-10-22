@@ -1,0 +1,55 @@
+{
+  "status": "configuration_frozen_before_additional_seeds",
+  "candidate": "active50",
+  "reference_seed": 42,
+  "selection_rule_id": "primary_f1_active_mae_energy_v1",
+  "ranking": [
+    {
+      "candidate": "expanded_original",
+      "selection": {
+        "eligible": false,
+        "rank": null,
+        "reason": "primary_device_activity_or_complete_event_detection_gate_failed"
+      }
+    },
+    {
+      "candidate": "active20",
+      "selection": {
+        "eligible": true,
+        "rank": [
+          -0.33541029071158707,
+          2.4208497194975607,
+          4.140505275816981
+        ],
+        "mean_primary_f1": 0.33541029071158707,
+        "mean_normalized_active_mae": 2.4208497194975607,
+        "mean_normalized_energy_error": 4.140505275816981
+      }
+    },
+    {
+      "candidate": "active50",
+      "selection": {
+        "eligible": true,
+        "rank": [
+          -0.40864207141186387,
+          2.2605110068399568,
+          5.7459201132046545
+        ],
+        "mean_primary_f1": 0.40864207141186387,
+        "mean_normalized_active_mae": 2.2605110068399568,
+        "mean_normalized_energy_error": 5.7459201132046545
+      }
+    }
+  ],
+  "settings_sha256": "f8e288848d9a38ee4f76da9f7887a2cc6d217a199e5ccc0d96f47a7a4c77d955",
+  "protocol_sha256": "6fc077b96a79d809478286cdad40c89060fa0b0fa78c06441df834ea8d38b22e",
+  "code_sha256": "d95924213d57fbb1d0c8092e78f9bdf60999e4832a8a2adee6cc7e6b5d7cb2a5",
+  "primary_appliances": [
+    "kettle",
+    "microwave"
+  ],
+  "extension_appliances": [
+    "washing_machine"
+  ],
+  "no_final_data_or_confirmation_queries": true
+}

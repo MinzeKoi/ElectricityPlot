@@ -1,0 +1,12 @@
+{
+  "cases": 72,
+  "power_weights_unchanged": 72,
+  "no_answer_exact_source_devices": 66,
+  "bounded_devices": 150,
+  "single_class_slope_preserved_devices": 132,
+  "status": "passed",
+  "real_model_reload_score_parity": true,
+  "future_pointwise_labels_read": false,
+  "inference_rows": 150750,
+  "code_sha256": "35da57b97d7e7dad4a88c42730b83fb07cb5e5d859da2134b6c21248ff7325bc"
+}

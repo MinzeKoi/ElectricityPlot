@@ -1,6 +1,3 @@
-household_id,timestamp,aggregate_power_w,quality_flags
-demo_home,2026-01-01T00:00:00Z,100,"[""synthetic_fixture""]"
-demo_home,2026-01-01T00:00:08Z,300,"[""synthetic_fixture""]"
-demo_home,2026-01-01T00:00:16Z,,"[""synthetic_fixture""]"
-demo_home,2026-01-01T00:00:24Z,100,"[""synthetic_fixture""]"
-demo_home,2026-01-01T00:00:32Z,100,"[""synthetic_fixture""]"
+version https://git-lfs.github.com/spec/v1
+oid sha256:d9cb944c50a1aff45113b9db993a50ecc674bfc55b10a6c3a6e0379184670906
+size 357

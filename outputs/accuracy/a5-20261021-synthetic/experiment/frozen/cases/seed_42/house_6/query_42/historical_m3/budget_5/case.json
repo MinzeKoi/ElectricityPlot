@@ -1,0 +1,14 @@
+{
+  "path": "cases/seed_42/house_6/query_42/historical_m3/budget_5",
+  "source_seed": 42,
+  "query_seed": 42,
+  "household_id": "6",
+  "variant": "historical_m3",
+  "budget": 5,
+  "future_partition": "frozen_test_house_6",
+  "trajectory": "trajectories/seed_42/house_6/query_42/random",
+  "model_path": "trajectories/seed_42/house_6/query_42/random/historical_models/budget_5",
+  "model_id": "a5-state-53ed5dda080d1fe2",
+  "base_prediction": "cache/seed_42/frozen_test_house_6/predictions.json",
+  "adaptation_seconds": null
+}

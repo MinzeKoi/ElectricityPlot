@@ -1,0 +1,306 @@
+{
+  "households": [
+    {
+      "household_id": "2",
+      "role": "source_train",
+      "optional": false,
+      "included": true,
+      "start": "2014-09-29T06:28:48Z",
+      "end": "2014-10-13T06:28:48Z",
+      "kind": "real_complete",
+      "reasons": []
+    },
+    {
+      "household_id": "19",
+      "role": "source_train",
+      "optional": false,
+      "included": true,
+      "start": "2014-10-04T20:22:40Z",
+      "end": "2014-10-18T20:22:40Z",
+      "kind": "real_complete",
+      "reasons": []
+    },
+    {
+      "household_id": "5",
+      "role": "source_validation",
+      "optional": false,
+      "included": true,
+      "start": "2014-11-14T20:53:44Z",
+      "end": "2014-11-28T20:53:44Z",
+      "kind": "real_complete",
+      "reasons": []
+    },
+    {
+      "household_id": "17",
+      "role": "target_adaptation",
+      "optional": false,
+      "included": true,
+      "start": "2014-09-30T08:13:12Z",
+      "end": "2014-10-28T08:13:12Z",
+      "kind": "real_complete",
+      "reasons": []
+    }
+  ],
+  "partition_support": [
+    {
+      "household_id": "2",
+      "role": "source_train",
+      "partition_id": "source_train_house_2",
+      "channels": {
+        "aggregate": {
+          "bins": 151200,
+          "valid_bins": 136984,
+          "coverage": 0.905978835978836,
+          "observed_days": 12.683703703703705
+        },
+        "kettle": {
+          "bins": 151200,
+          "valid_bins": 136080,
+          "coverage": 0.9,
+          "observed_days": 12.6,
+          "valid_samples": 136080,
+          "missing_fraction": 0.09999999999999998,
+          "active_samples": 1576,
+          "complete_threshold_events": 66,
+          "censored_threshold_events": 128,
+          "off_samples": 134504,
+          "off_fraction": 0.9884185773074662
+        },
+        "microwave": {
+          "bins": 151200,
+          "valid_bins": 136080,
+          "coverage": 0.9,
+          "observed_days": 12.6,
+          "valid_samples": 136080,
+          "missing_fraction": 0.09999999999999998,
+          "active_samples": 478,
+          "complete_threshold_events": 30,
+          "censored_threshold_events": 51,
+          "off_samples": 135602,
+          "off_fraction": 0.9964873603762493
+        },
+        "washing_machine": {
+          "bins": 151200,
+          "valid_bins": 136080,
+          "coverage": 0.9,
+          "observed_days": 12.6,
+          "valid_samples": 136080,
+          "missing_fraction": 0.09999999999999998,
+          "active_samples": 5187,
+          "complete_threshold_events": 450,
+          "censored_threshold_events": 277,
+          "off_samples": 130893,
+          "off_fraction": 0.9618827160493827
+        }
+      }
+    },
+    {
+      "household_id": "19",
+      "role": "source_train",
+      "partition_id": "source_train_house_19",
+      "channels": {
+        "aggregate": {
+          "bins": 151200,
+          "valid_bins": 138240,
+          "coverage": 0.9142857142857143,
+          "observed_days": 12.8
+        },
+        "kettle": {
+          "bins": 151200,
+          "valid_bins": 136080,
+          "coverage": 0.9,
+          "observed_days": 12.6,
+          "valid_samples": 136080,
+          "missing_fraction": 0.09999999999999998,
+          "active_samples": 233,
+          "complete_threshold_events": 8,
+          "censored_threshold_events": 59,
+          "off_samples": 135847,
+          "off_fraction": 0.998287771898883
+        },
+        "microwave": {
+          "bins": 151200,
+          "valid_bins": 136080,
+          "coverage": 0.9,
+          "observed_days": 12.6,
+          "valid_samples": 136080,
+          "missing_fraction": 0.09999999999999998,
+          "active_samples": 404,
+          "complete_threshold_events": 27,
+          "censored_threshold_events": 56,
+          "off_samples": 135676,
+          "off_fraction": 0.9970311581422693
+        },
+        "washing_machine": {
+          "bins": 151200,
+          "valid_bins": 136080,
+          "coverage": 0.9,
+          "observed_days": 12.6,
+          "valid_samples": 136080,
+          "missing_fraction": 0.09999999999999998,
+          "active_samples": 3749,
+          "complete_threshold_events": 263,
+          "censored_threshold_events": 465,
+          "off_samples": 132331,
+          "off_fraction": 0.9724500293944739
+        }
+      }
+    },
+    {
+      "household_id": "5",
+      "role": "source_validation",
+      "partition_id": "source_validation_house_5",
+      "channels": {
+        "aggregate": {
+          "bins": 151200,
+          "valid_bins": 149383,
+          "coverage": 0.9879828042328043,
+          "observed_days": 13.83175925925926
+        },
+        "kettle": {
+          "bins": 151200,
+          "valid_bins": 137473,
+          "coverage": 0.909212962962963,
+          "observed_days": 12.728981481481481,
+          "valid_samples": 137473,
+          "missing_fraction": 0.09078703703703705,
+          "active_samples": 936,
+          "complete_threshold_events": 47,
+          "censored_threshold_events": 64,
+          "off_samples": 136537,
+          "off_fraction": 0.9931913903093699
+        },
+        "microwave": {
+          "bins": 151200,
+          "valid_bins": 137473,
+          "coverage": 0.909212962962963,
+          "observed_days": 12.728981481481481,
+          "valid_samples": 137473,
+          "missing_fraction": 0.09078703703703705,
+          "active_samples": 2141,
+          "complete_threshold_events": 78,
+          "censored_threshold_events": 132,
+          "off_samples": 135332,
+          "off_fraction": 0.9844260327482487
+        },
+        "washing_machine": {
+          "bins": 151200,
+          "valid_bins": 137473,
+          "coverage": 0.909212962962963,
+          "observed_days": 12.728981481481481,
+          "valid_samples": 137473,
+          "missing_fraction": 0.09078703703703705,
+          "active_samples": 4417,
+          "complete_threshold_events": 112,
+          "censored_threshold_events": 220,
+          "off_samples": 133056,
+          "off_fraction": 0.9678700544834259
+        }
+      }
+    },
+    {
+      "household_id": "17",
+      "role": "target_adaptation",
+      "partition_id": "target_adaptation_house_17",
+      "channels": {
+        "aggregate": {
+          "bins": 151200,
+          "valid_bins": 138478,
+          "coverage": 0.9158597883597883,
+          "observed_days": 12.822037037037036
+        },
+        "kettle": {
+          "bins": 151200,
+          "valid_bins": 136080,
+          "coverage": 0.9,
+          "observed_days": 12.6,
+          "valid_samples": 136080,
+          "missing_fraction": 0.09999999999999998,
+          "active_samples": 827,
+          "complete_threshold_events": 33,
+          "censored_threshold_events": 137,
+          "off_samples": 135253,
+          "off_fraction": 0.9939226925338036
+        },
+        "microwave": {
+          "bins": 151200,
+          "valid_bins": 136080,
+          "coverage": 0.9,
+          "observed_days": 12.6,
+          "valid_samples": 136080,
+          "missing_fraction": 0.09999999999999998,
+          "active_samples": 509,
+          "complete_threshold_events": 21,
+          "censored_threshold_events": 67,
+          "off_samples": 135571,
+          "off_fraction": 0.9962595532039976
+        },
+        "washing_machine": {
+          "bins": 151200,
+          "valid_bins": 136080,
+          "coverage": 0.9,
+          "observed_days": 12.6,
+          "valid_samples": 136080,
+          "missing_fraction": 0.09999999999999998,
+          "active_samples": 2304,
+          "complete_threshold_events": 98,
+          "censored_threshold_events": 491,
+          "off_samples": 133776,
+          "off_fraction": 0.9830687830687831
+        }
+      }
+    },
+    {
+      "household_id": "17",
+      "role": "frozen_test",
+      "partition_id": "frozen_test_house_17",
+      "channels": {
+        "aggregate": {
+          "bins": 150750,
+          "valid_bins": 142952,
+          "coverage": 0.9482719734660033,
+          "observed_days": 13.236296296296297
+        },
+        "kettle": {
+          "bins": 150750,
+          "valid_bins": 141009,
+          "coverage": 0.9353830845771144,
+          "observed_days": 13.05638888888889,
+          "valid_samples": 141009,
+          "missing_fraction": 0.06461691542288561,
+          "active_samples": 1012,
+          "complete_threshold_events": 56,
+          "censored_threshold_events": 81,
+          "off_samples": 139997,
+          "off_fraction": 0.9928231531320696
+        },
+        "microwave": {
+          "bins": 150750,
+          "valid_bins": 141009,
+          "coverage": 0.9353830845771144,
+          "observed_days": 13.05638888888889,
+          "valid_samples": 141009,
+          "missing_fraction": 0.06461691542288561,
+          "active_samples": 383,
+          "complete_threshold_events": 27,
+          "censored_threshold_events": 25,
+          "off_samples": 140626,
+          "off_fraction": 0.9972838613138169
+        },
+        "washing_machine": {
+          "bins": 150750,
+          "valid_bins": 141009,
+          "coverage": 0.9353830845771144,
+          "observed_days": 13.05638888888889,
+          "valid_samples": 141009,
+          "missing_fraction": 0.06461691542288561,
+          "active_samples": 3159,
+          "complete_threshold_events": 117,
+          "censored_threshold_events": 308,
+          "off_samples": 137850,
+          "off_fraction": 0.9775971746484267
+        }
+      }
+    }
+  ]
+}

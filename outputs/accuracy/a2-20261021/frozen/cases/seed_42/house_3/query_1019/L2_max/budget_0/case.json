@@ -1,0 +1,13 @@
+{
+  "path": "cases/seed_42/house_3/query_1019/L2_max/budget_0",
+  "source_seed": 42,
+  "query_seed": 1019,
+  "household_id": "3",
+  "variant": "L2_max",
+  "budget": 0,
+  "future_partition": "frozen_test_house_3",
+  "base_prediction": "cache/seed_42/house_3/frozen_test_house_3/predictions.json",
+  "query_prefix_sha256": "b1e297d1da52ab358eb54f889eb39ab21d33f41271ff8ed0217b0c65e8028476",
+  "model_id": "a2-state-6489db339936b1ca",
+  "adaptation_seconds": 0.45445660000041244
+}

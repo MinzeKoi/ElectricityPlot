@@ -1,0 +1,50 @@
+{
+  "kettle": {
+    "selected_epoch": 5,
+    "source_validation_f1": 0.0,
+    "sample_count": 233,
+    "positive_weight": 5.6571428571428575,
+    "replay_samples": 233,
+    "history": [
+      {
+        "epoch": 5,
+        "loss": 2.1716321407700505,
+        "source_validation_f1": 0.0
+      }
+    ],
+    "target_labels_read": false,
+    "replay_semantics": "source-only equal-class sample; identical across variants and budgets"
+  },
+  "microwave": {
+    "selected_epoch": 5,
+    "source_validation_f1": 0.0,
+    "sample_count": 233,
+    "positive_weight": 4.4186046511627906,
+    "replay_samples": 233,
+    "history": [
+      {
+        "epoch": 5,
+        "loss": 1.4728340898189218,
+        "source_validation_f1": 0.0
+      }
+    ],
+    "target_labels_read": false,
+    "replay_semantics": "source-only equal-class sample; identical across variants and budgets"
+  },
+  "washing_machine": {
+    "selected_epoch": 5,
+    "source_validation_f1": 0.0,
+    "sample_count": 233,
+    "positive_weight": 1.8072289156626506,
+    "replay_samples": 233,
+    "history": [
+      {
+        "epoch": 5,
+        "loss": 0.9745361069963356,
+        "source_validation_f1": 0.0
+      }
+    ],
+    "target_labels_read": false,
+    "replay_semantics": "source-only equal-class sample; identical across variants and budgets"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "status": "source_baseline_weights_frozen",
+  "candidate": "active50",
+  "selection_sha256": "f2fc8d1f519b45c3f02a65b97892be02131665f1bbec44448ce0204f955c1838",
+  "protocol_sha256": "6fc077b96a79d809478286cdad40c89060fa0b0fa78c06441df834ea8d38b22e",
+  "models": {
+    "42": {
+      "path": "selected/seed_42",
+      "model_manifest_sha256": "6ad1a68af7e456a1de667a2ed0ea1ecf27ec3bdad7908a8dc3ccb3def4549ebc",
+      "weights_sha256": "d3f0bb066759ac62c75efa93c4b17fa4bf0123d1dcf67ce93e5a8c745c72d11f"
+    },
+    "1019": {
+      "path": "selected/seed_1019",
+      "model_manifest_sha256": "32a3f8bd7ba78e75599dd4a69293e82e274d28b5396ccff4a24869bd2718f375",
+      "weights_sha256": "e3cd0d73f055e5e7704593d13d587ea0addf04f59f4b110dcae5b8163caa82a1"
+    },
+    "2026": {
+      "path": "selected/seed_2026",
+      "model_manifest_sha256": "e229f51fe6d4dac64661a0db40b19d2483622501790433eda79c5b2ee6fdc5c3",
+      "weights_sha256": "81a91f4d6715f4f016d262299f8c2f8240f296df7fa3638a0373b24956ced2d4"
+    }
+  },
+  "primary_exit_passed": true,
+  "extension_requires_separate_review": true,
+  "all_confirmation_strategies_must_reuse_these_exact_weights": true,
+  "code_sha256": "d95924213d57fbb1d0c8092e78f9bdf60999e4832a8a2adee6cc7e6b5d7cb2a5",
+  "formal_evaluation": false
+}

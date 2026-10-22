@@ -1,0 +1,12 @@
+{
+  "source_seed": 1019,
+  "query_seed": 1019,
+  "household_id": "3",
+  "variant": "uncertainty",
+  "budget": 20,
+  "future_partition": "frozen_test_house_3",
+  "path": "cases/seed_1019/house_3/query_1019/uncertainty/budget_20/coupled",
+  "mode": "coupled",
+  "model_id": "a4-power-6cc655889a17567f",
+  "base_prediction": "cache/seed_1019/frozen_test_house_3/predictions.json"
+}

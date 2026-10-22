@@ -1,0 +1,63 @@
+{
+  "status": "a4_verified",
+  "cases": 216,
+  "metric_rows": 648,
+  "h3_development_target_met": false,
+  "formal_evaluation": false,
+  "current_source_matches_execution": true,
+  "report": "outputs\\accuracy\\a4-20261021-v2\\report.html",
+  "paired_models_checked": 108,
+  "no_effective_answer_devices_exact": 146,
+  "zero_cases_checked": 27,
+  "generic_roundtrips": [
+    {
+      "source_seed": 42,
+      "variant": "random",
+      "rows": 21150
+    },
+    {
+      "source_seed": 42,
+      "variant": "uncertainty",
+      "rows": 21150
+    },
+    {
+      "source_seed": 42,
+      "variant": "proposed",
+      "rows": 21150
+    },
+    {
+      "source_seed": 1019,
+      "variant": "random",
+      "rows": 21150
+    },
+    {
+      "source_seed": 1019,
+      "variant": "uncertainty",
+      "rows": 21150
+    },
+    {
+      "source_seed": 1019,
+      "variant": "proposed",
+      "rows": 21150
+    },
+    {
+      "source_seed": 2026,
+      "variant": "random",
+      "rows": 21150
+    },
+    {
+      "source_seed": 2026,
+      "variant": "uncertainty",
+      "rows": 21150
+    },
+    {
+      "source_seed": 2026,
+      "variant": "proposed",
+      "rows": 21150
+    }
+  ],
+  "source_calibration_maximum_radius_difference_w": 7.954632224027591e-07,
+  "source_calibration_fingerprint_matches": true,
+  "target_labels_parsed": false,
+  "a4_evidence_sha256": "67fead37b25419d4396064ae3b699990bce62eb0c35b6b52acd8e7e132ffb3c3"
+}

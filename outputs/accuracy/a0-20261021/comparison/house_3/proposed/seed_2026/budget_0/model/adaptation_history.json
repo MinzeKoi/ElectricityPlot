@@ -1,0 +1,8 @@
+{
+  "loss": {
+    "kettle": [],
+    "microwave": [],
+    "washing_machine": []
+  },
+  "supervision": "window maximum; never expanded to per-point labels"
+}

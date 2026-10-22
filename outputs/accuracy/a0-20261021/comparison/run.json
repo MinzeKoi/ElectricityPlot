@@ -1,0 +1,255 @@
+{
+  "schema_version": 1,
+  "status": "all_models_frozen",
+  "created_at": "2026-10-21T03:13:01.622772+00:00",
+  "protocol_sha256": "650cd1795a8eef3865c4ec750593b777c6180cc86c9fc11eb15eab5ee44d0ea8",
+  "base_model_manifest_sha256": "9d907157be710b96a8da48a216c537df64dfcaf5a7a30fe6ca235e386115bc1e",
+  "code_sha256": "3685eaa0a6dd9947d940d628dc738d8867c7bc52f6e2f9fd1302e3f33cfcdbea",
+  "settings": {
+    "schema_version": 1,
+    "epochs": 200,
+    "learning_rate": 0.05,
+    "l2": 0.01,
+    "uncertainty_weight": 0.5,
+    "impact_weight": 0.3,
+    "answerability_weight": 0.2,
+    "event_threshold_w": 100.0
+  },
+  "budgets": [
+    0,
+    5,
+    10,
+    20
+  ],
+  "seeds": [
+    42,
+    1019,
+    2026
+  ],
+  "strategies": [
+    "random",
+    "proposed"
+  ],
+  "purpose": "engineering_pilot_only",
+  "label_source": "simulated_from_submeter",
+  "power_output_frozen": true,
+  "cases": [
+    {
+      "path": "house_3/random/seed_42/budget_0",
+      "household_id": "3",
+      "strategy": "random",
+      "seed": 42,
+      "budget": 0,
+      "model_id": "weak-state-68c443fa274ae141",
+      "test_partition": "frozen_test_house_3"
+    },
+    {
+      "path": "house_3/random/seed_42/budget_5",
+      "household_id": "3",
+      "strategy": "random",
+      "seed": 42,
+      "budget": 5,
+      "model_id": "weak-state-fcc7375311b23c47",
+      "test_partition": "frozen_test_house_3"
+    },
+    {
+      "path": "house_3/random/seed_42/budget_10",
+      "household_id": "3",
+      "strategy": "random",
+      "seed": 42,
+      "budget": 10,
+      "model_id": "weak-state-4c6ac704958091a9",
+      "test_partition": "frozen_test_house_3"
+    },
+    {
+      "path": "house_3/random/seed_42/budget_20",
+      "household_id": "3",
+      "strategy": "random",
+      "seed": 42,
+      "budget": 20,
+      "model_id": "weak-state-b0710910bf2f8025",
+      "test_partition": "frozen_test_house_3"
+    },
+    {
+      "path": "house_3/proposed/seed_42/budget_0",
+      "household_id": "3",
+      "strategy": "proposed",
+      "seed": 42,
+      "budget": 0,
+      "model_id": "weak-state-4e5c93315f3e5411",
+      "test_partition": "frozen_test_house_3"
+    },
+    {
+      "path": "house_3/proposed/seed_42/budget_5",
+      "household_id": "3",
+      "strategy": "proposed",
+      "seed": 42,
+      "budget": 5,
+      "model_id": "weak-state-763c5b20bc452a95",
+      "test_partition": "frozen_test_house_3"
+    },
+    {
+      "path": "house_3/proposed/seed_42/budget_10",
+      "household_id": "3",
+      "strategy": "proposed",
+      "seed": 42,
+      "budget": 10,
+      "model_id": "weak-state-861de5085fc50ab1",
+      "test_partition": "frozen_test_house_3"
+    },
+    {
+      "path": "house_3/proposed/seed_42/budget_20",
+      "household_id": "3",
+      "strategy": "proposed",
+      "seed": 42,
+      "budget": 20,
+      "model_id": "weak-state-2fcce7ef0a442302",
+      "test_partition": "frozen_test_house_3"
+    },
+    {
+      "path": "house_3/random/seed_1019/budget_0",
+      "household_id": "3",
+      "strategy": "random",
+      "seed": 1019,
+      "budget": 0,
+      "model_id": "weak-state-9d15d79b4cc5762a",
+      "test_partition": "frozen_test_house_3"
+    },
+    {
+      "path": "house_3/random/seed_1019/budget_5",
+      "household_id": "3",
+      "strategy": "random",
+      "seed": 1019,
+      "budget": 5,
+      "model_id": "weak-state-a52814bba052e32e",
+      "test_partition": "frozen_test_house_3"
+    },
+    {
+      "path": "house_3/random/seed_1019/budget_10",
+      "household_id": "3",
+      "strategy": "random",
+      "seed": 1019,
+      "budget": 10,
+      "model_id": "weak-state-0c5b62af82d340fa",
+      "test_partition": "frozen_test_house_3"
+    },
+    {
+      "path": "house_3/random/seed_1019/budget_20",
+      "household_id": "3",
+      "strategy": "random",
+      "seed": 1019,
+      "budget": 20,
+      "model_id": "weak-state-958b7c1aadbcc180",
+      "test_partition": "frozen_test_house_3"
+    },
+    {
+      "path": "house_3/proposed/seed_1019/budget_0",
+      "household_id": "3",
+      "strategy": "proposed",
+      "seed": 1019,
+      "budget": 0,
+      "model_id": "weak-state-f7a8fbf4fda33281",
+      "test_partition": "frozen_test_house_3"
+    },
+    {
+      "path": "house_3/proposed/seed_1019/budget_5",
+      "household_id": "3",
+      "strategy": "proposed",
+      "seed": 1019,
+      "budget": 5,
+      "model_id": "weak-state-46847b9f6ed6fe72",
+      "test_partition": "frozen_test_house_3"
+    },
+    {
+      "path": "house_3/proposed/seed_1019/budget_10",
+      "household_id": "3",
+      "strategy": "proposed",
+      "seed": 1019,
+      "budget": 10,
+      "model_id": "weak-state-578534f6b0b4a305",
+      "test_partition": "frozen_test_house_3"
+    },
+    {
+      "path": "house_3/proposed/seed_1019/budget_20",
+      "household_id": "3",
+      "strategy": "proposed",
+      "seed": 1019,
+      "budget": 20,
+      "model_id": "weak-state-a13b6cec5bb3eb73",
+      "test_partition": "frozen_test_house_3"
+    },
+    {
+      "path": "house_3/random/seed_2026/budget_0",
+      "household_id": "3",
+      "strategy": "random",
+      "seed": 2026,
+      "budget": 0,
+      "model_id": "weak-state-ae414c299731f097",
+      "test_partition": "frozen_test_house_3"
+    },
+    {
+      "path": "house_3/random/seed_2026/budget_5",
+      "household_id": "3",
+      "strategy": "random",
+      "seed": 2026,
+      "budget": 5,
+      "model_id": "weak-state-a6cf5bbad451c344",
+      "test_partition": "frozen_test_house_3"
+    },
+    {
+      "path": "house_3/random/seed_2026/budget_10",
+      "household_id": "3",
+      "strategy": "random",
+      "seed": 2026,
+      "budget": 10,
+      "model_id": "weak-state-b27ee1f08b124036",
+      "test_partition": "frozen_test_house_3"
+    },
+    {
+      "path": "house_3/random/seed_2026/budget_20",
+      "household_id": "3",
+      "strategy": "random",
+      "seed": 2026,
+      "budget": 20,
+      "model_id": "weak-state-544c111842000d29",
+      "test_partition": "frozen_test_house_3"
+    },
+    {
+      "path": "house_3/proposed/seed_2026/budget_0",
+      "household_id": "3",
+      "strategy": "proposed",
+      "seed": 2026,
+      "budget": 0,
+      "model_id": "weak-state-69cbd375451d3bb7",
+      "test_partition": "frozen_test_house_3"
+    },
+    {
+      "path": "house_3/proposed/seed_2026/budget_5",
+      "household_id": "3",
+      "strategy": "proposed",
+      "seed": 2026,
+      "budget": 5,
+      "model_id": "weak-state-bf45e80eb322553c",
+      "test_partition": "frozen_test_house_3"
+    },
+    {
+      "path": "house_3/proposed/seed_2026/budget_10",
+      "household_id": "3",
+      "strategy": "proposed",
+      "seed": 2026,
+      "budget": 10,
+      "model_id": "weak-state-41681b8cc4e75b4b",
+      "test_partition": "frozen_test_house_3"
+    },
+    {
+      "path": "house_3/proposed/seed_2026/budget_20",
+      "household_id": "3",
+      "strategy": "proposed",
+      "seed": 2026,
+      "budget": 20,
+      "model_id": "weak-state-6ad9f95dba993dae",
+      "test_partition": "frozen_test_house_3"
+    }
+  ],
+  "test_evaluation_started": false
+}

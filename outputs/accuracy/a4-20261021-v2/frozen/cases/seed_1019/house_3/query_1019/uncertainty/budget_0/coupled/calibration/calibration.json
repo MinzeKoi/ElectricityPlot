@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "status": "calibrated",
+  "method": "source_validation_absolute_residual_quantiles",
+  "model_id": "a4-power-9336f2f1948dff41",
+  "created_at": "2026-10-21T05:35:18.407965+00:00",
+  "power_fingerprint": "a8596ec4bb9a07626b2d491da88ab14e1177ed12d85f383f3cf30f4d2a2fe5be",
+  "model_manifest_sha256": "1256773f53319991072a20d9d9580e943b711145c6685ba35d7f2a8403ad21ec",
+  "protocol_sha256": "6fc077b96a79d809478286cdad40c89060fa0b0fa78c06441df834ea8d38b22e",
+  "settings_sha256": "eabfc89537b6211cf3fe4051005036bf83d66381c9fee65369776b5f13e3ce47",
+  "code_sha256": "502ebbe1b06a787d265101bfd9b51b424389b05d91ef3c156ad8491f4da42511",
+  "interval_level": 0.9,
+  "sample_interval_seconds": 8,
+  "appliances": [
+    "kettle",
+    "microwave",
+    "washing_machine"
+  ],
+  "target_labels_read": false,
+  "coverage_guarantee": false,
+  "validation_reused_for_model_selection": true,
+  "notice": "Source validation reused for model selection; empirical marginal intervals only. No target-household or simultaneous coverage guarantee. State confidence remains unavailable.",
+  "validation_partitions": {
+    "source_validation_house_5": 47280
+  },
+  "source_aggregate_range_w": [
+    151.0,
+    6756.75
+  ],
+  "quantiles": {
+    "kettle": {
+      "raw": {
+        "radius_w": 0.01433805301626413,
+        "samples": 47280,
+        "source_empirical_coverage": 0.9
+      },
+      "corrected": {
+        "radius_w": 0.01433805301626413,
+        "samples": 47280,
+        "source_empirical_coverage": 0.9
+      }
+    },
+    "microwave": {
+      "raw": {
+        "radius_w": 10.636410143693146,
+        "samples": 47280,
+        "source_empirical_coverage": 0.9
+      },
+      "corrected": {
+        "radius_w": 10.642761042961753,
+        "samples": 47280,
+        "source_empirical_coverage": 0.9
+      }
+    },
+    "washing_machine": {
+      "raw": {
+        "radius_w": 106.45862291846642,
+        "samples": 47280,
+        "source_empirical_coverage": 0.9
+      },
+      "corrected": {
+        "radius_w": 106.45862291846642,
+        "samples": 47280,
+        "source_empirical_coverage": 0.9
+      }
+    }
+  },
+  "support": "source validation complete centers with at least one observed appliance label"
+}

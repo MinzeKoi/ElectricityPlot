@@ -1,0 +1,238 @@
+{
+  "case": "house_3/random/seed_1019/budget_10",
+  "variants": {
+    "replay": {
+      "method": "max_pool_mil_logistic_v1",
+      "coefficients": {
+        "kettle": [
+          -0.05539013529367715,
+          1.2470630927146669,
+          -0.00921307673059135
+        ],
+        "microwave": [
+          -0.35104417132887056,
+          1.684008035355991,
+          -0.3112664033902433
+        ],
+        "washing_machine": [
+          -0.4604485544666749,
+          0.4663147177064702,
+          -1.4436692545866128
+        ]
+      },
+      "active_appliances": [
+        "kettle",
+        "microwave",
+        "washing_machine"
+      ],
+      "score_semantics": "uncalibrated state score; not confidence",
+      "power_changed": false
+    },
+    "initial_head_only": {
+      "method": "max_pool_mil_logistic_v1",
+      "coefficients": {
+        "kettle": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "microwave": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "washing_machine": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      "active_appliances": [
+        "kettle",
+        "microwave",
+        "washing_machine"
+      ],
+      "score_semantics": "uncalibrated state score; not confidence",
+      "power_changed": false
+    },
+    "one_epoch": {
+      "method": "max_pool_mil_logistic_v1",
+      "coefficients": {
+        "kettle": [
+          -0.0005584537073553832,
+          1.002493624076275,
+          -9.265850027947948e-05
+        ],
+        "microwave": [
+          -0.0055223891669908525,
+          1.0110524217923098,
+          -0.004815309327519442
+        ],
+        "washing_machine": [
+          -0.024843320675116604,
+          0.9532009991125412,
+          -0.0947389058330195
+        ]
+      },
+      "active_appliances": [
+        "kettle",
+        "microwave",
+        "washing_machine"
+      ],
+      "score_semantics": "uncalibrated state score; not confidence",
+      "power_changed": false
+    },
+    "stronger_prior_l2_1": {
+      "method": "max_pool_mil_logistic_v1",
+      "coefficients": {
+        "kettle": [
+          -0.00922450356527943,
+          1.0411751742210458,
+          -0.0015317505914434642
+        ],
+        "microwave": [
+          -0.07515808258401113,
+          1.1486187260002556,
+          -0.06603585641759184
+        ],
+        "washing_machine": [
+          -0.19063902709892366,
+          0.6845368280035061,
+          -0.598978658927483
+        ]
+      },
+      "active_appliances": [
+        "kettle",
+        "microwave",
+        "washing_machine"
+      ],
+      "score_semantics": "uncalibrated state score; not confidence",
+      "power_changed": false
+    },
+    "negative_only": {
+      "method": "max_pool_mil_logistic_v1",
+      "coefficients": {
+        "kettle": [
+          -0.05539013529367715,
+          1.2470630927146669,
+          -0.00921307673059135
+        ],
+        "microwave": [
+          -0.35104417132887056,
+          1.684008035355991,
+          -0.3112664033902433
+        ],
+        "washing_machine": [
+          -0.4604485544666749,
+          0.4663147177064702,
+          -1.4436692545866128
+        ]
+      },
+      "active_appliances": [
+        "kettle",
+        "microwave",
+        "washing_machine"
+      ],
+      "score_semantics": "uncalibrated state score; not confidence",
+      "power_changed": false
+    },
+    "positive_only": {
+      "method": "max_pool_mil_logistic_v1",
+      "coefficients": {
+        "kettle": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "microwave": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "washing_machine": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      "active_appliances": [],
+      "score_semantics": "uncalibrated state score; not confidence",
+      "power_changed": false
+    },
+    "one_negative_kettle": {
+      "method": "max_pool_mil_logistic_v1",
+      "coefficients": {
+        "kettle": [
+          -0.052776853888039287,
+          1.2397193533269324,
+          -0.008112975714598947
+        ],
+        "microwave": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "washing_machine": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      "active_appliances": [
+        "kettle"
+      ],
+      "score_semantics": "uncalibrated state score; not confidence",
+      "power_changed": false
+    },
+    "one_negative_microwave": {
+      "method": "max_pool_mil_logistic_v1",
+      "coefficients": {
+        "kettle": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "microwave": [
+          -0.22389410538571197,
+          1.5847423275228667,
+          -0.159056666929158
+        ],
+        "washing_machine": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      "active_appliances": [
+        "microwave"
+      ],
+      "score_semantics": "uncalibrated state score; not confidence",
+      "power_changed": false
+    },
+    "one_negative_washing_machine": {
+      "method": "max_pool_mil_logistic_v1",
+      "coefficients": {
+        "kettle": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "microwave": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "washing_machine": [
+          -0.3298722330565051,
+          1.4981144068785999,
+          -0.764485371471614
+        ]
+      },
+      "active_appliances": [
+        "washing_machine"
+      ],
+      "score_semantics": "uncalibrated state score; not confidence",
+      "power_changed": false
+    }
+  }
+}

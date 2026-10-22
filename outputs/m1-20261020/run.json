@@ -1,0 +1,40 @@
+{
+  "run_id": "m1-20261020",
+  "created_at": "2026-10-19T23:45:32.562807+00:00",
+  "project": "ElectricityPlot",
+  "version": "0.2.0",
+  "stage": "M1_engineering_pilot",
+  "code_sha256": "b3c5d7b98fc26a1abd60a62a3a8df60bb48e8f06cecbe7498128074d58dece0d",
+  "config_sha256": "dbf59a4b697993a1d42af55ae0104a64fd4942a089fce30f506deced36953ece",
+  "audit_sha256": "f033458b35ddc551fe80ae69e27a3dbba3dd6c5527f2a95198d3274af668eb9f",
+  "protocol_sha256": "016733e3ed90ff8b682f9658d814af6e00e24f30bcaf59f60f08bd983419791d",
+  "dataset": "REFIT_CLEANED",
+  "data_kind": "real_prefix",
+  "random_seed": null,
+  "configured_future_seeds": [
+    42,
+    1019,
+    2026
+  ],
+  "model": null,
+  "model_version": null,
+  "training": "not_implemented",
+  "predictions": null,
+  "metrics": null,
+  "query_records": [],
+  "verification": {
+    "status": "m1_artifacts_verified",
+    "purpose": "engineering_pilot_only",
+    "audited_households": 5,
+    "partitions": 4,
+    "training": "not_implemented",
+    "metrics": "not_run"
+  },
+  "validation": {
+    "unit_tests_passed": 30,
+    "syntax_check": "passed",
+    "wheel_build": "passed",
+    "wheel_sha256": "842c4d8d5337ab3dc0fc8258b73d5d5e472b3ff848e781a1b9911ac5312bbe72",
+    "wheel_entry_point": "verified"
+  }
+}

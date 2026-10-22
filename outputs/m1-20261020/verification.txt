@@ -1,0 +1,8 @@
+{
+  "status": "m1_artifacts_verified",
+  "purpose": "engineering_pilot_only",
+  "audited_households": 5,
+  "partitions": 4,
+  "training": "not_implemented",
+  "metrics": "not_run"
+}

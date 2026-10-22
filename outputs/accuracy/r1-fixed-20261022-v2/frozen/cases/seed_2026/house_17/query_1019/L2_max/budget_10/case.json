@@ -1,0 +1,13 @@
+{
+  "path": "cases/seed_2026/house_17/query_1019/L2_max/budget_10",
+  "source_seed": 2026,
+  "query_seed": 1019,
+  "household_id": "17",
+  "variant": "L2_max",
+  "budget": 10,
+  "future_partition": "frozen_test_house_17",
+  "base_prediction": "cache/seed_2026/house_17/frozen_test_house_17/predictions.json",
+  "query_prefix_sha256": "2f755d8c84ef2b8207dea17152bd8f7850fe4029d6d7556375c72dcfa2bd97ca",
+  "model_id": "a2-state-94feeb116e0794a3",
+  "adaptation_seconds": 4.0285806000001685
+}

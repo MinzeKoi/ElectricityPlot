@@ -1,0 +1,360 @@
+{
+  "environment": {
+    "schema_version": 1,
+    "project": "ElectricityPlot",
+    "measured_at": "2026-10-21T03:19:30.724924+00:00",
+    "python": "3.13.5",
+    "implementation": "CPython",
+    "system": "Windows",
+    "architecture": "AMD64",
+    "processor": "AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD",
+    "logical_cpus": 12,
+    "memory": {
+      "total_bytes": 34242736128,
+      "available_bytes": 18257018880
+    },
+    "workspace_disk_free_bytes": 46196187136,
+    "m1_runtime_dependencies": [],
+    "m1_execution": "CPU / Python standard library",
+    "training_environment": "not_frozen",
+    "second_developer_machine": "not_measured",
+    "notice": "GPU training compatibility has not been validated. M2 dependencies remain pending the second machine measurement."
+  },
+  "packages": {
+    "numpy": "2.3.4",
+    "torch": "2.9.0+cpu",
+    "streamlit": "1.50.0"
+  },
+  "historical_runs": [
+    {
+      "milestone": "M3",
+      "local_directories": [],
+      "status": "not_found"
+    },
+    {
+      "milestone": "M4",
+      "local_directories": [],
+      "status": "not_found"
+    },
+    {
+      "milestone": "M5",
+      "local_directories": [],
+      "status": "not_found"
+    }
+  ],
+  "prepared_households": {
+    "2": {
+      "start": "2013-09-17T22:08:08Z",
+      "end": "2013-09-20T14:30:56Z",
+      "channel_mapping": {
+        "kettle": [
+          "Appliance8"
+        ],
+        "microwave": [
+          "Appliance5"
+        ],
+        "washing_machine": [
+          "Appliance2"
+        ]
+      },
+      "kind": "real_prefix",
+      "publisher_checksum_verified": false,
+      "artifacts_verified": {
+        "aggregate": true,
+        "kettle": true,
+        "microwave": true,
+        "washing_machine": true
+      },
+      "raw_source_sha256_matches": true,
+      "artifact_counts": {
+        "aggregate": {},
+        "kettle": {},
+        "microwave": {},
+        "washing_machine": {}
+      },
+      "final_eligible": false,
+      "limitation": "Local prefix only; 2-4 weeks and final household eligibility not established."
+    },
+    "3": {
+      "start": "2013-09-25T19:21:04Z",
+      "end": "2013-09-28T09:22:40Z",
+      "channel_mapping": {
+        "kettle": [
+          "Appliance9"
+        ],
+        "microwave": [
+          "Appliance8"
+        ],
+        "washing_machine": [
+          "Appliance6"
+        ]
+      },
+      "kind": "real_prefix",
+      "publisher_checksum_verified": false,
+      "artifacts_verified": {
+        "aggregate": true,
+        "kettle": true,
+        "microwave": true,
+        "washing_machine": true
+      },
+      "raw_source_sha256_matches": true,
+      "artifact_counts": {
+        "aggregate": {},
+        "kettle": {},
+        "microwave": {},
+        "washing_machine": {}
+      },
+      "final_eligible": false,
+      "limitation": "Local prefix only; 2-4 weeks and final household eligibility not established."
+    },
+    "4": {
+      "start": "2013-10-11T10:19:12Z",
+      "end": "2013-10-13T17:28:16Z",
+      "channel_mapping": {
+        "kettle": [
+          "Appliance9"
+        ],
+        "microwave": [
+          "Appliance8"
+        ],
+        "washing_machine": [
+          "Appliance4",
+          "Appliance5"
+        ]
+      },
+      "kind": "real_prefix",
+      "publisher_checksum_verified": false,
+      "artifacts_verified": {
+        "aggregate": true,
+        "kettle": true,
+        "microwave": true,
+        "washing_machine": true
+      },
+      "raw_source_sha256_matches": true,
+      "artifact_counts": {
+        "aggregate": {},
+        "kettle": {},
+        "microwave": {},
+        "washing_machine": {}
+      },
+      "final_eligible": false,
+      "limitation": "Local prefix only; 2-4 weeks and final household eligibility not established."
+    },
+    "5": {
+      "start": "2013-09-26T09:56:08Z",
+      "end": "2013-09-28T23:41:20Z",
+      "channel_mapping": {
+        "kettle": [
+          "Appliance8"
+        ],
+        "microwave": [
+          "Appliance7"
+        ],
+        "washing_machine": [
+          "Appliance3"
+        ]
+      },
+      "kind": "real_prefix",
+      "publisher_checksum_verified": false,
+      "artifacts_verified": {
+        "aggregate": true,
+        "kettle": true,
+        "microwave": true,
+        "washing_machine": true
+      },
+      "raw_source_sha256_matches": true,
+      "artifact_counts": {
+        "aggregate": {},
+        "kettle": {},
+        "microwave": {},
+        "washing_machine": {}
+      },
+      "final_eligible": false,
+      "limitation": "Local prefix only; 2-4 weeks and final household eligibility not established."
+    },
+    "11": {
+      "start": "2014-06-03T11:36:16Z",
+      "end": "2014-06-06T01:10:40Z",
+      "channel_mapping": {
+        "kettle": [
+          "Appliance7"
+        ],
+        "microwave": [
+          "Appliance6"
+        ],
+        "washing_machine": [
+          "Appliance3"
+        ]
+      },
+      "kind": "real_prefix",
+      "publisher_checksum_verified": false,
+      "artifacts_verified": {
+        "aggregate": true,
+        "kettle": true,
+        "microwave": true,
+        "washing_machine": true
+      },
+      "raw_source_sha256_matches": true,
+      "artifact_counts": {
+        "aggregate": {},
+        "kettle": {},
+        "microwave": {},
+        "washing_machine": {}
+      },
+      "final_eligible": false,
+      "limitation": "Local prefix only; 2-4 weeks and final household eligibility not established."
+    }
+  },
+  "partition_support": [
+    {
+      "partition": "source_train_house_2",
+      "role": "source_train",
+      "household_id": "2",
+      "appliance": "kettle",
+      "valid_samples": 27368,
+      "observed_days": 2.534074074074074,
+      "missing_fraction": 0.055331193262227796,
+      "active_samples": 193,
+      "complete_threshold_events": 6,
+      "censored_threshold_events": 11
+    },
+    {
+      "partition": "source_train_house_2",
+      "role": "source_train",
+      "household_id": "2",
+      "appliance": "microwave",
+      "valid_samples": 27368,
+      "observed_days": 2.534074074074074,
+      "missing_fraction": 0.055331193262227796,
+      "active_samples": 61,
+      "complete_threshold_events": 6,
+      "censored_threshold_events": 7
+    },
+    {
+      "partition": "source_train_house_2",
+      "role": "source_train",
+      "household_id": "2",
+      "appliance": "washing_machine",
+      "valid_samples": 27368,
+      "observed_days": 2.534074074074074,
+      "missing_fraction": 0.055331193262227796,
+      "active_samples": 513,
+      "complete_threshold_events": 23,
+      "censored_threshold_events": 49
+    },
+    {
+      "partition": "source_validation_house_5",
+      "role": "source_validation",
+      "household_id": "5",
+      "appliance": "kettle",
+      "valid_samples": 23747,
+      "observed_days": 2.198796296296296,
+      "missing_fraction": 0.1454532368922955,
+      "active_samples": 91,
+      "complete_threshold_events": 1,
+      "censored_threshold_events": 26
+    },
+    {
+      "partition": "source_validation_house_5",
+      "role": "source_validation",
+      "household_id": "5",
+      "appliance": "microwave",
+      "valid_samples": 23747,
+      "observed_days": 2.198796296296296,
+      "missing_fraction": 0.1454532368922955,
+      "active_samples": 480,
+      "complete_threshold_events": 9,
+      "censored_threshold_events": 80
+    },
+    {
+      "partition": "source_validation_house_5",
+      "role": "source_validation",
+      "household_id": "5",
+      "appliance": "washing_machine",
+      "valid_samples": 23747,
+      "observed_days": 2.198796296296296,
+      "missing_fraction": 0.1454532368922955,
+      "active_samples": 1168,
+      "complete_threshold_events": 62,
+      "censored_threshold_events": 285
+    },
+    {
+      "partition": "target_adaptation_house_3",
+      "role": "target_adaptation",
+      "household_id": "3",
+      "appliance": "kettle",
+      "valid_samples": 12869,
+      "observed_days": 1.1915740740740741,
+      "missing_fraction": 0.07788764689022643,
+      "active_samples": 78,
+      "complete_threshold_events": 2,
+      "censored_threshold_events": 4
+    },
+    {
+      "partition": "target_adaptation_house_3",
+      "role": "target_adaptation",
+      "household_id": "3",
+      "appliance": "microwave",
+      "valid_samples": 12869,
+      "observed_days": 1.1915740740740741,
+      "missing_fraction": 0.07788764689022643,
+      "active_samples": 37,
+      "complete_threshold_events": 10,
+      "censored_threshold_events": 2
+    },
+    {
+      "partition": "target_adaptation_house_3",
+      "role": "target_adaptation",
+      "household_id": "3",
+      "appliance": "washing_machine",
+      "valid_samples": 12869,
+      "observed_days": 1.1915740740740741,
+      "missing_fraction": 0.07788764689022643,
+      "active_samples": 185,
+      "complete_threshold_events": 9,
+      "censored_threshold_events": 46
+    },
+    {
+      "partition": "frozen_test_house_3",
+      "role": "frozen_test",
+      "household_id": "3",
+      "appliance": "kettle",
+      "valid_samples": 11395,
+      "observed_days": 1.0550925925925927,
+      "missing_fraction": 0.156300903302236,
+      "active_samples": 75,
+      "complete_threshold_events": 0,
+      "censored_threshold_events": 6
+    },
+    {
+      "partition": "frozen_test_house_3",
+      "role": "frozen_test",
+      "household_id": "3",
+      "appliance": "microwave",
+      "valid_samples": 11395,
+      "observed_days": 1.0550925925925927,
+      "missing_fraction": 0.156300903302236,
+      "active_samples": 28,
+      "complete_threshold_events": 2,
+      "censored_threshold_events": 7
+    },
+    {
+      "partition": "frozen_test_house_3",
+      "role": "frozen_test",
+      "household_id": "3",
+      "appliance": "washing_machine",
+      "valid_samples": 11395,
+      "observed_days": 1.0550925925925927,
+      "missing_fraction": 0.156300903302236,
+      "active_samples": 640,
+      "complete_threshold_events": 43,
+      "censored_threshold_events": 58
+    }
+  ],
+  "final_evaluation": {
+    "required_new_households": 3,
+    "verified_eligible_households": [],
+    "status": "not_available_in_current_inventory"
+  },
+  "prepared_manifest_sha256": "f033458b35ddc551fe80ae69e27a3dbba3dd6c5527f2a95198d3274af668eb9f"
+}

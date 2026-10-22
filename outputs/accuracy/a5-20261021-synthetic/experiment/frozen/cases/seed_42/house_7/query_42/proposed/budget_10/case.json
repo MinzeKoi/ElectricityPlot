@@ -1,0 +1,14 @@
+{
+  "path": "cases/seed_42/house_7/query_42/proposed/budget_10",
+  "source_seed": 42,
+  "query_seed": 42,
+  "household_id": "7",
+  "variant": "proposed",
+  "budget": 10,
+  "future_partition": "frozen_test_house_7",
+  "trajectory": "trajectories/seed_42/house_7/query_42/proposed",
+  "model_path": "trajectories/seed_42/house_7/query_42/proposed/models/budget_10",
+  "model_id": "a5-state-b28929a00a119d16",
+  "base_prediction": "cache/seed_42/frozen_test_house_7/predictions.json",
+  "adaptation_seconds": 0.05749890000151936
+}

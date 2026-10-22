@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "run_id": "ordinary-prediction",
+  "project": "ElectricityPlot",
+  "created_at": "2026-10-21T05:46:41.726547+00:00",
+  "model_id": "a4-power-f8c07f3e0ed6b384",
+  "model_manifest_sha256": "9de45eaad63e6ae53ba555e29a01e159edafa4f68d6bb9c424809288c19e1dc0",
+  "model_kind": "small_seq2point",
+  "model_settings": {
+    "schema_version": 1,
+    "window_samples": 31,
+    "channels": 8,
+    "hidden_units": 32,
+    "epochs": 12,
+    "batch_size": 256,
+    "learning_rate": 0.001,
+    "active_loss_weight": 50.0,
+    "seed": 42,
+    "cpu_threads": 4,
+    "on_thresholds_w": {
+      "kettle": 2000.0,
+      "microwave": 200.0,
+      "washing_machine": 20.0
+    }
+  },
+  "code_sha256": "502ebbe1b06a787d265101bfd9b51b424389b05d91ef3c156ad8491f4da42511",
+  "protocol_sha256": "6fc077b96a79d809478286cdad40c89060fa0b0fa78c06441df834ea8d38b22e",
+  "partition_id": "frozen_test_house_3",
+  "purpose": "engineering_pilot_only",
+  "data_kind": "real_REFIT_prefix",
+  "model_data_kind": "real_REFIT_prefix",
+  "input_sha256": "0acdcb8d296f75c0ec43aebfe391029bc866b919e3a3338bc6bd2a7739ef359c",
+  "sample_interval_seconds": 8,
+  "appliances": [
+    "kettle",
+    "microwave",
+    "washing_machine"
+  ],
+  "upstream_limitations": [
+    "Upstream gaps were forward-filled or zeroed; original missingness is not recoverable.",
+    "IAM spikes above 4000 W were replaced with zero upstream.",
+    "Issues=1 means the sum of IAM channels exceeds aggregate power.",
+    "Appliance identities describe monitored channels, not every appliance owned by a household."
+  ],
+  "inference_seconds": 1.4521748000006482,
+  "confidence_method": "source_validation_absolute_residual_quantiles",
+  "calibration": {
+    "sha256": "9dd9d212884ff1a581b364a85bde20147440785934d7d91851d7510af0a8d979",
+    "interval_level": 0.9,
+    "notice": "Source validation reused for model selection; empirical marginal intervals only. No target-household or simultaneous coverage guarantee. State confidence remains unavailable.",
+    "validation_partitions": {
+      "source_validation_house_5": 47280
+    },
+    "coverage_guarantee": false
+  },
+  "adaptation": "a4_state_power_coupled",
+  "state_definition": "A4 independent state score >= 0.5; raw power = score * source conditional on-power",
+  "query_summary": {
+    "budget_used": 10,
+    "responses": {
+      "kettle": {
+        "queries": 3,
+        "budget_fraction": 0.3,
+        "used": 0,
+        "not_used": 1,
+        "unsure": 2,
+        "skipped": 0,
+        "usable": 1,
+        "positive_fraction": 0.0,
+        "single_class": true
+      },
+      "microwave": {
+        "queries": 4,
+        "budget_fraction": 0.4,
+        "used": 0,
+        "not_used": 3,
+        "unsure": 1,
+        "skipped": 0,
+        "usable": 3,
+        "positive_fraction": 0.0,
+        "single_class": true
+      },
+      "washing_machine": {
+        "queries": 3,
+        "budget_fraction": 0.3,
+        "used": 0,
+        "not_used": 2,
+        "unsure": 1,
+        "skipped": 0,
+        "usable": 2,
+        "positive_fraction": 0.0,
+        "single_class": true
+      }
+    },
+    "strategy": "random"
+  },
+  "base_model_id": "small_seq2point-ff9f3c7c4da7f24a-a1-raw-state",
+  "quality_summary": {
+    "quality_flag_samples": {
+      "aggregate_missing": 1428,
+      "aggregate_outside_calibration_range": 264,
+      "context_missing_or_boundary": 3208,
+      "incomplete_coverage": 1428,
+      "observation_gap": 1428,
+      "source_validation_intervals_no_target_guarantee": 21150,
+      "sum_exceeded_aggregate_scaled_down": 597,
+      "unexplained_load_present": 17404,
+      "upstream_cleaned_missingness_unknown": 21150
+    },
+    "confidence_method": "source_validation_absolute_residual_quantiles",
+    "calibration": {
+      "sha256": "9dd9d212884ff1a581b364a85bde20147440785934d7d91851d7510af0a8d979",
+      "interval_level": 0.9,
+      "notice": "Source validation reused for model selection; empirical marginal intervals only. No target-household or simultaneous coverage guarantee. State confidence remains unavailable.",
+      "validation_partitions": {
+        "source_validation_house_5": 47280
+      },
+      "coverage_guarantee": false
+    },
+    "valid_samples": 17942,
+    "prediction_coverage": 0.848321513002364,
+    "raw_exceedance_rate": 0.033273882510311,
+    "mean_raw_excess_w": 19.579347762201333,
+    "mean_removed_power_w": 19.579347762201333,
+    "corrected_exceedance_rate": 0.0,
+    "mean_absolute_balance_w": 1.2276361326825494e-14,
+    "aggregate_energy_kwh": 33.11625166666666,
+    "attributed_energy_kwh": 16.58728695920448,
+    "unexplained_energy_kwh": 16.528964707462187,
+    "attributed_energy_fraction": 0.5008805684340326,
+    "notice": "Unexplained load includes modeling and measurement error, not identified unknown devices."
+  },
+  "artifacts_sha256": {
+    "predictions.json": "89f91a622806a93fabc80d418e95f477d361e0e85c7860d41b9942c8c6fc49cb",
+    "predictions.csv": "50f5a7fbdf3f4925950922b9e7e7362cd1d4cd8256d450aef46df133f6a7b492",
+    "report.html": "9a6119566aa97a21ee113d5940cb8a9baf5bf5150c898f23a630ddb42d740ae3",
+    "calibration.json": "9dd9d212884ff1a581b364a85bde20147440785934d7d91851d7510af0a8d979"
+  }
+}

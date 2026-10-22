@@ -1,0 +1,44 @@
+{
+  "epochs": [
+    {
+      "epoch": 1,
+      "training_weighted_mse": 0.0124980762231007,
+      "validation_normalized_mae": 0.02217037044465542
+    },
+    {
+      "epoch": 2,
+      "training_weighted_mse": 0.00996232544373213,
+      "validation_normalized_mae": 0.012206154875457287
+    },
+    {
+      "epoch": 3,
+      "training_weighted_mse": 0.008815341842614085,
+      "validation_normalized_mae": 0.019057150930166245
+    },
+    {
+      "epoch": 4,
+      "training_weighted_mse": 0.007743424932005094,
+      "validation_normalized_mae": 0.013565096072852612
+    },
+    {
+      "epoch": 5,
+      "training_weighted_mse": 0.007131846911674957,
+      "validation_normalized_mae": 0.018209069967269897
+    },
+    {
+      "epoch": 6,
+      "training_weighted_mse": 0.0064839459113049,
+      "validation_normalized_mae": 0.015534910373389721
+    },
+    {
+      "epoch": 7,
+      "training_weighted_mse": 0.006086724020960106,
+      "validation_normalized_mae": 0.020888525992631912
+    },
+    {
+      "epoch": 8,
+      "training_weighted_mse": 0.0059465896213816115,
+      "validation_normalized_mae": 0.016443073749542236
+    }
+  ]
+}

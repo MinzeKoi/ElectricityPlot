@@ -1,0 +1,13 @@
+{
+  "status": "source_baseline_weights_frozen",
+  "primary_exit_passed": true,
+  "protocol_sha256": "01481c4614d9f67c1626d28364bcbf182a8b0f35777005033364c20bef83cef4",
+  "notice": "Synthetic engineering fixture, not an A1 real-data quality result",
+  "models": {
+    "42": {
+      "path": "selected/seed_42",
+      "model_manifest_sha256": "7734c0670b53766eff64a87dad93de905644201f8a0ddaac241aeea05c1bc051",
+      "weights_sha256": "fb4e84eed3cefe37af28ec2bf73c740ee42741465ba0854d3827814b93244522"
+    }
+  }
+}

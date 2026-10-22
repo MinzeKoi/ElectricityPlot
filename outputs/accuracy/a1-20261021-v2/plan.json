@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "purpose": "development_only",
+  "source_train_required": ["2"],
+  "source_train_optional": ["11"],
+  "source_validation": ["5"],
+  "development_households": ["3"],
+  "maximum_days_per_household": 14,
+  "development_duration_days": 7,
+  "minimum_source_observed_days": 7,
+  "minimum_coverage": 0.5,
+  "minimum_complete_events": 2,
+  "primary_appliances": ["kettle", "microwave"],
+  "extension_appliances": ["washing_machine"],
+  "seeds": [42, 1019, 2026],
+  "candidates": [
+    {"id": "expanded_original", "epochs": 8, "active_loss_weight": 5.0},
+    {"id": "active20", "epochs": 12, "active_loss_weight": 20.0},
+    {"id": "active50", "epochs": 12, "active_loss_weight": 50.0}
+  ],
+  "state_threshold_view": "raw_power_w",
+  "selection_rule_id": "primary_f1_active_mae_energy_v1",
+  "selection_rule": "Reject primary-device all-off/all-on or zero true-positive candidates on source validation/development. Rank valid candidates by mean primary F1 across source-validation and development, then lower mean active MAE normalized by fixed threshold, then lower energy absolute error normalized by observed true energy plus 0.01 kWh. Use source-validation only for epoch selection. Select once at seed 42; freeze configuration before training remaining seeds. No final data or confirmation queries.",
+  "notice": "Historical M2 weights remain an explicitly separate reference; source-data expansion and training settings are not confirmation benefits. No context-window search is authorised by this plan without diagnostic evidence."
+}

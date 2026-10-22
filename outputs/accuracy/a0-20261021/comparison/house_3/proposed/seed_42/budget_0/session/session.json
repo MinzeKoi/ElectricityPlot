@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "status": "active",
+  "created_at": "2026-10-21T03:13:59.099209+00:00",
+  "manifest_path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\a0-20261021\\development\\protocol.json",
+  "model_path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\a0-20261021\\base_model",
+  "protocol_sha256": "650cd1795a8eef3865c4ec750593b777c6180cc86c9fc11eb15eab5ee44d0ea8",
+  "model_manifest_sha256": "9d907157be710b96a8da48a216c537df64dfcaf5a7a30fe6ca235e386115bc1e",
+  "prediction_sha256": "9f99e9dd48ee66e2b0be716e0c0324a917d88467a8e27c9b7bc7688b7b59cea3",
+  "model_id": "small_seq2point-2e234c34c9a51bfe",
+  "partition_id": "target_adaptation_house_3",
+  "household_id": "3",
+  "purpose": "engineering_pilot_only",
+  "budget": 0,
+  "strategy": "proposed",
+  "seed": 42,
+  "settings": {
+    "schema_version": 1,
+    "epochs": 200,
+    "learning_rate": 0.05,
+    "l2": 0.01,
+    "uncertainty_weight": 0.5,
+    "impact_weight": 0.3,
+    "answerability_weight": 0.2,
+    "event_threshold_w": 100.0
+  },
+  "code_sha256": "3685eaa0a6dd9947d940d628dc738d8867c7bc52f6e2f9fd1302e3f33cfcdbea",
+  "records": [],
+  "pending": null
+}

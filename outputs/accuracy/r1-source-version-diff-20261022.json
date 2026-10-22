@@ -1,0 +1,7 @@
+{
+  "changed_modules_after_baseline_freeze": [
+    "accuracy/fixed_queries.py",
+    "adaptation/session.py"
+  ],
+  "training_modules_unchanged": true
+}

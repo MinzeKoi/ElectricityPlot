@@ -1,0 +1,45 @@
+{
+  "kettle": {
+    "usable_windows": 0,
+    "update_rule": "exact_source_identity",
+    "loss": []
+  },
+  "microwave": {
+    "usable_windows": 2,
+    "class_counts": {
+      "used": 0,
+      "not_used": 2
+    },
+    "update_rule": "bounded_bias_only",
+    "pooling": "max",
+    "source_replay": true,
+    "source_prior_l2": true,
+    "parameter_delta_l2": 0.09264417675949625,
+    "loss": [
+      0.5727484287598626,
+      0.5654294047480878,
+      0.5583761014720472,
+      0.5515778632477275,
+      0.545024490219846
+    ]
+  },
+  "washing_machine": {
+    "usable_windows": 3,
+    "class_counts": {
+      "used": 1,
+      "not_used": 2
+    },
+    "update_rule": "bounded_head",
+    "pooling": "max",
+    "source_replay": true,
+    "source_prior_l2": true,
+    "parameter_delta_l2": 0.05550477899258271,
+    "loss": [
+      0.7821741018661836,
+      0.7764644540802833,
+      0.7732594130354322,
+      0.7714200277875163,
+      0.7703343978820538
+    ]
+  }
+}

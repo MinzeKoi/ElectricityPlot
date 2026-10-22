@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "status": "trained",
+  "project": "ElectricityPlot",
+  "kind": "small_seq2point",
+  "created_at": "2026-10-19T23:58:44.659366+00:00",
+  "appliances": [
+    "kettle",
+    "microwave",
+    "washing_machine"
+  ],
+  "settings": {
+    "schema_version": 1,
+    "window_samples": 31,
+    "channels": 8,
+    "hidden_units": 32,
+    "epochs": 8,
+    "batch_size": 256,
+    "learning_rate": 0.001,
+    "active_loss_weight": 5.0,
+    "seed": 42,
+    "cpu_threads": 4,
+    "on_thresholds_w": {
+      "kettle": 2000.0,
+      "microwave": 200.0,
+      "washing_machine": 20.0
+    }
+  },
+  "sample_interval_seconds": 8,
+  "protocol_sha256": "016733e3ed90ff8b682f9658d814af6e00e24f30bcaf59f60f08bd983419791d",
+  "protocol_id": "refit-prefix-m1-v1",
+  "purpose": "engineering_pilot_only",
+  "code_sha256": "4b3b998f20af495e5f46d6274b92fe1c51be8bd8789c05c0199a20e11df56407",
+  "settings_sha256": "3910f1ca4dcaeb2a4b4625807bd9e219bbcf438bc63cf7ca88a204c4affd6e3f",
+  "input_log_mean": 4.946436405181885,
+  "input_log_std": 0.8860740661621094,
+  "power_scales_w": [
+    2802.5,
+    1218.5,
+    2178.875
+  ],
+  "source_train_windows": {
+    "source_train_house_2": 23334
+  },
+  "source_validation_windows": {
+    "source_validation_house_5": 18527
+  },
+  "training_households": [
+    "2"
+  ],
+  "validation_households": [
+    "5"
+  ],
+  "target_labels_read": false,
+  "adaptation": "none",
+  "confidence": null,
+  "upstream_limitations": [
+    "Upstream gaps were forward-filled or zeroed; original missingness is not recoverable.",
+    "IAM spikes above 4000 W were replaced with zero upstream.",
+    "Issues=1 means the sum of IAM channels exceeds aggregate power.",
+    "Appliance identities describe monitored channels, not every appliance owned by a household."
+  ],
+  "state_definition": "predicted_power_w >= fixed on_thresholds_w; thresholds chosen before test evaluation",
+  "selected_epoch": 8,
+  "weights": {
+    "path": "weights.pt",
+    "sha256": "81b854b4087d4ad34af22a495b0e72e0f124d968375ec781e46c174125c72f1c"
+  },
+  "validation_normalized_mae": 0.03094537928700447,
+  "torch_version": "2.9.0+cpu",
+  "parameter_count": 8315,
+  "timing_seconds": {
+    "fit": 4.153067299999748,
+    "total": 5.31182359999957
+  },
+  "model_id": "small_seq2point-2e234c34c9a51bfe"
+}

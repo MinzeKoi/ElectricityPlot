@@ -1,0 +1,2692 @@
+{
+  "items": [
+    {
+      "query_id": "9b9148d294577df42a95d81b",
+      "household_id": "6",
+      "appliance_type": "kettle",
+      "window_start": "1970-01-01T00:00:32Z",
+      "window_end": "1970-01-01T00:00:48Z",
+      "start": 4,
+      "end": 6,
+      "shape": [
+        -0.36034635040038693,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 0
+    },
+    {
+      "query_id": "0eed14a1e05e0d807af7994c",
+      "household_id": "6",
+      "appliance_type": "kettle",
+      "window_start": "1970-01-01T00:00:48Z",
+      "window_end": "1970-01-01T00:01:04Z",
+      "start": 6,
+      "end": 8,
+      "shape": [
+        -0.36034635040038693,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 0
+    },
+    {
+      "query_id": "00181f5a25c3e9af8465ef59",
+      "household_id": "6",
+      "appliance_type": "kettle",
+      "window_start": "1970-01-01T00:01:04Z",
+      "window_end": "1970-01-01T00:01:20Z",
+      "start": 8,
+      "end": 10,
+      "shape": [
+        -0.36034635040038693,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 0
+    },
+    {
+      "query_id": "02773bafe15281b59ac16d8e",
+      "household_id": "6",
+      "appliance_type": "kettle",
+      "window_start": "1970-01-01T00:01:20Z",
+      "window_end": "1970-01-01T00:01:36Z",
+      "start": 10,
+      "end": 12,
+      "shape": [
+        -0.36034635040038693,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 0
+    },
+    {
+      "query_id": "4846fc701a538f90b95786a7",
+      "household_id": "6",
+      "appliance_type": "kettle",
+      "window_start": "1970-01-01T00:01:36Z",
+      "window_end": "1970-01-01T00:01:52Z",
+      "start": 12,
+      "end": 14,
+      "shape": [
+        -0.36034635040038693,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 0
+    },
+    {
+      "query_id": "b63f1ae3b951c85397188090",
+      "household_id": "6",
+      "appliance_type": "kettle",
+      "window_start": "1970-01-01T00:01:52Z",
+      "window_end": "1970-01-01T00:02:08Z",
+      "start": 14,
+      "end": 16,
+      "shape": [
+        -0.36034635040038693,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 0
+    },
+    {
+      "query_id": "3c256821e888e097de9ab0ce",
+      "household_id": "6",
+      "appliance_type": "kettle",
+      "window_start": "1970-01-01T00:02:08Z",
+      "window_end": "1970-01-01T00:02:24Z",
+      "start": 16,
+      "end": 18,
+      "shape": [
+        -0.5811216281205261,
+        1.7162376851371255,
+        1.795806765167167,
+        1.795806765167167
+      ],
+      "column": 0
+    },
+    {
+      "query_id": "1dcb3184661f1930a352bafd",
+      "household_id": "6",
+      "appliance_type": "kettle",
+      "window_start": "1970-01-01T00:02:24Z",
+      "window_end": "1970-01-01T00:02:40Z",
+      "start": 18,
+      "end": 20,
+      "shape": [
+        -0.8327392505225556,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 0
+    },
+    {
+      "query_id": "c765db479b777528c55b91eb",
+      "household_id": "6",
+      "appliance_type": "kettle",
+      "window_start": "1970-01-01T00:02:40Z",
+      "window_end": "1970-01-01T00:02:56Z",
+      "start": 20,
+      "end": 22,
+      "shape": [
+        -0.8327392505225556,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 0
+    },
+    {
+      "query_id": "ebecef16888d18970dfc97f3",
+      "household_id": "6",
+      "appliance_type": "kettle",
+      "window_start": "1970-01-01T00:02:56Z",
+      "window_end": "1970-01-01T00:03:12Z",
+      "start": 22,
+      "end": 24,
+      "shape": [
+        -0.8327392505225556,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 0
+    },
+    {
+      "query_id": "3a979d87e084f668c061ec1e",
+      "household_id": "6",
+      "appliance_type": "kettle",
+      "window_start": "1970-01-01T00:03:12Z",
+      "window_end": "1970-01-01T00:03:28Z",
+      "start": 24,
+      "end": 26,
+      "shape": [
+        1.2627478629137052,
+        3.0217731077880114,
+        2.9687655945793536,
+        2.9687655945793536
+      ],
+      "column": 0
+    },
+    {
+      "query_id": "016f78d92283517f5471ac25",
+      "household_id": "6",
+      "appliance_type": "kettle",
+      "window_start": "1970-01-01T00:03:28Z",
+      "window_end": "1970-01-01T00:03:44Z",
+      "start": 26,
+      "end": 28,
+      "shape": [
+        2.2060664666294714,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 0
+    },
+    {
+      "query_id": "0eca177a5f274504698a75f0",
+      "household_id": "6",
+      "appliance_type": "kettle",
+      "window_start": "1970-01-01T00:03:44Z",
+      "window_end": "1970-01-01T00:04:00Z",
+      "start": 28,
+      "end": 30,
+      "shape": [
+        2.2060664666294714,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 0
+    },
+    {
+      "query_id": "e784bdabeecdc9c67464aa73",
+      "household_id": "6",
+      "appliance_type": "kettle",
+      "window_start": "1970-01-01T00:04:00Z",
+      "window_end": "1970-01-01T00:04:16Z",
+      "start": 30,
+      "end": 32,
+      "shape": [
+        -0.8327392505225556,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 0
+    },
+    {
+      "query_id": "05a9d148e2551402d8364f72",
+      "household_id": "6",
+      "appliance_type": "kettle",
+      "window_start": "1970-01-01T00:04:16Z",
+      "window_end": "1970-01-01T00:04:32Z",
+      "start": 32,
+      "end": 34,
+      "shape": [
+        -0.8327392505225556,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 0
+    },
+    {
+      "query_id": "ff0ac8356714a91e2ace6cea",
+      "household_id": "6",
+      "appliance_type": "kettle",
+      "window_start": "1970-01-01T00:04:32Z",
+      "window_end": "1970-01-01T00:04:48Z",
+      "start": 34,
+      "end": 36,
+      "shape": [
+        -0.8327392505225556,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 0
+    },
+    {
+      "query_id": "9ea4e1f7efb11a89cc4e6005",
+      "household_id": "6",
+      "appliance_type": "kettle",
+      "window_start": "1970-01-01T00:04:48Z",
+      "window_end": "1970-01-01T00:05:04Z",
+      "start": 36,
+      "end": 38,
+      "shape": [
+        0.12286678960078137,
+        2.463472367543171,
+        2.4678855399768467,
+        2.4678855399768467
+      ],
+      "column": 0
+    },
+    {
+      "query_id": "107f4cbbc1c815639185665a",
+      "household_id": "6",
+      "appliance_type": "kettle",
+      "window_start": "1970-01-01T00:05:04Z",
+      "window_end": "1970-01-01T00:05:20Z",
+      "start": 38,
+      "end": 40,
+      "shape": [
+        0.7442339686116191,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 0
+    },
+    {
+      "query_id": "94e2fd7a12ded0edddd092d0",
+      "household_id": "6",
+      "appliance_type": "kettle",
+      "window_start": "1970-01-01T00:05:20Z",
+      "window_end": "1970-01-01T00:05:36Z",
+      "start": 40,
+      "end": 42,
+      "shape": [
+        0.7442339686116191,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 0
+    },
+    {
+      "query_id": "498f21f42744120d97928169",
+      "household_id": "6",
+      "appliance_type": "kettle",
+      "window_start": "1970-01-01T00:05:36Z",
+      "window_end": "1970-01-01T00:05:52Z",
+      "start": 42,
+      "end": 44,
+      "shape": [
+        0.7442339686116191,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 0
+    },
+    {
+      "query_id": "4c573aa3d4bdf2c4bbac9cfd",
+      "household_id": "6",
+      "appliance_type": "kettle",
+      "window_start": "1970-01-01T00:05:52Z",
+      "window_end": "1970-01-01T00:06:08Z",
+      "start": 44,
+      "end": 46,
+      "shape": [
+        0.12286678960078137,
+        2.463472367543171,
+        2.4678855399768467,
+        2.4678855399768467
+      ],
+      "column": 0
+    },
+    {
+      "query_id": "d459d6f41c97220aace74d50",
+      "household_id": "6",
+      "appliance_type": "kettle",
+      "window_start": "1970-01-01T00:06:08Z",
+      "window_end": "1970-01-01T00:06:24Z",
+      "start": 46,
+      "end": 48,
+      "shape": [
+        -0.5811216281205261,
+        1.7162376851371255,
+        1.795806765167167,
+        1.795806765167167
+      ],
+      "column": 0
+    },
+    {
+      "query_id": "106dddfe3146c1b18711cb58",
+      "household_id": "6",
+      "appliance_type": "kettle",
+      "window_start": "1970-01-01T00:06:24Z",
+      "window_end": "1970-01-01T00:06:40Z",
+      "start": 48,
+      "end": 50,
+      "shape": [
+        -0.36034635040038693,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 0
+    },
+    {
+      "query_id": "d747a936ae2d05579a03dc5f",
+      "household_id": "6",
+      "appliance_type": "kettle",
+      "window_start": "1970-01-01T00:06:40Z",
+      "window_end": "1970-01-01T00:06:56Z",
+      "start": 50,
+      "end": 52,
+      "shape": [
+        -0.36034635040038693,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 0
+    },
+    {
+      "query_id": "134dc0dab83e45279743577f",
+      "household_id": "6",
+      "appliance_type": "kettle",
+      "window_start": "1970-01-01T00:06:56Z",
+      "window_end": "1970-01-01T00:07:12Z",
+      "start": 52,
+      "end": 54,
+      "shape": [
+        -0.36034635040038693,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 0
+    },
+    {
+      "query_id": "6e01f30fbbfc90b9384968e2",
+      "household_id": "6",
+      "appliance_type": "kettle",
+      "window_start": "1970-01-01T00:07:12Z",
+      "window_end": "1970-01-01T00:07:28Z",
+      "start": 54,
+      "end": 56,
+      "shape": [
+        -0.36034635040038693,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 0
+    },
+    {
+      "query_id": "be118d94132d3eafb00b2854",
+      "household_id": "6",
+      "appliance_type": "kettle",
+      "window_start": "1970-01-01T00:07:28Z",
+      "window_end": "1970-01-01T00:07:44Z",
+      "start": 56,
+      "end": 58,
+      "shape": [
+        2.303551847044159,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 0
+    },
+    {
+      "query_id": "7fb05ed55035d85559fc46b4",
+      "household_id": "6",
+      "appliance_type": "kettle",
+      "window_start": "1970-01-01T00:07:44Z",
+      "window_end": "1970-01-01T00:08:00Z",
+      "start": 58,
+      "end": 60,
+      "shape": [
+        2.303551847044159,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 0
+    },
+    {
+      "query_id": "193491d2248618555c7cc95f",
+      "household_id": "6",
+      "appliance_type": "kettle",
+      "window_start": "1970-01-01T00:08:00Z",
+      "window_end": "1970-01-01T00:08:16Z",
+      "start": 60,
+      "end": 62,
+      "shape": [
+        1.424283883829704,
+        3.0217731077880114,
+        2.9687655945793536,
+        2.9687655945793536
+      ],
+      "column": 0
+    },
+    {
+      "query_id": "2bbb7972de4ad55d14586480",
+      "household_id": "6",
+      "appliance_type": "kettle",
+      "window_start": "1970-01-01T00:08:16Z",
+      "window_end": "1970-01-01T00:08:32Z",
+      "start": 62,
+      "end": 64,
+      "shape": [
+        -0.36034635040038693,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 0
+    },
+    {
+      "query_id": "0141436dba8fa34c1eb3d7eb",
+      "household_id": "6",
+      "appliance_type": "kettle",
+      "window_start": "1970-01-01T00:08:32Z",
+      "window_end": "1970-01-01T00:08:48Z",
+      "start": 64,
+      "end": 66,
+      "shape": [
+        -0.8327392505225556,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 0
+    },
+    {
+      "query_id": "beb59da178476754e34419f8",
+      "household_id": "6",
+      "appliance_type": "kettle",
+      "window_start": "1970-01-01T00:08:48Z",
+      "window_end": "1970-01-01T00:09:04Z",
+      "start": 66,
+      "end": 68,
+      "shape": [
+        -0.8327392505225556,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 0
+    },
+    {
+      "query_id": "b9b35420dd9d78ffa894c685",
+      "household_id": "6",
+      "appliance_type": "kettle",
+      "window_start": "1970-01-01T00:09:04Z",
+      "window_end": "1970-01-01T00:09:20Z",
+      "start": 68,
+      "end": 70,
+      "shape": [
+        -0.8327392505225556,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 0
+    },
+    {
+      "query_id": "c052111e3fbcb1ca9d3a4380",
+      "household_id": "6",
+      "appliance_type": "kettle",
+      "window_start": "1970-01-01T00:09:20Z",
+      "window_end": "1970-01-01T00:09:36Z",
+      "start": 70,
+      "end": 72,
+      "shape": [
+        -0.8327392505225556,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 0
+    },
+    {
+      "query_id": "67e08e2de85ba62244b45906",
+      "household_id": "6",
+      "appliance_type": "kettle",
+      "window_start": "1970-01-01T00:09:36Z",
+      "window_end": "1970-01-01T00:09:52Z",
+      "start": 72,
+      "end": 74,
+      "shape": [
+        -0.8327392505225556,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 0
+    },
+    {
+      "query_id": "427233b8e0a8c0201e06a350",
+      "household_id": "6",
+      "appliance_type": "kettle",
+      "window_start": "1970-01-01T00:09:52Z",
+      "window_end": "1970-01-01T00:10:08Z",
+      "start": 74,
+      "end": 76,
+      "shape": [
+        -0.8327392505225556,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 0
+    },
+    {
+      "query_id": "88df412fefa9c968ec438bfe",
+      "household_id": "6",
+      "appliance_type": "kettle",
+      "window_start": "1970-01-01T00:10:08Z",
+      "window_end": "1970-01-01T00:10:24Z",
+      "start": 76,
+      "end": 78,
+      "shape": [
+        -0.8327392505225556,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 0
+    },
+    {
+      "query_id": "8ab8bb996c62ed39eac5b129",
+      "household_id": "6",
+      "appliance_type": "kettle",
+      "window_start": "1970-01-01T00:10:24Z",
+      "window_end": "1970-01-01T00:10:40Z",
+      "start": 78,
+      "end": 80,
+      "shape": [
+        -0.8327392505225556,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 0
+    },
+    {
+      "query_id": "a4fc25c3543665c7666ea555",
+      "household_id": "6",
+      "appliance_type": "kettle",
+      "window_start": "1970-01-01T00:10:40Z",
+      "window_end": "1970-01-01T00:10:56Z",
+      "start": 80,
+      "end": 82,
+      "shape": [
+        0.7442339686116191,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 0
+    },
+    {
+      "query_id": "51f4caea2bab7d28d99cb145",
+      "household_id": "6",
+      "appliance_type": "kettle",
+      "window_start": "1970-01-01T00:10:56Z",
+      "window_end": "1970-01-01T00:11:12Z",
+      "start": 82,
+      "end": 84,
+      "shape": [
+        0.7442339686116191,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 0
+    },
+    {
+      "query_id": "b965a160c2f4b34c9bd6e296",
+      "household_id": "6",
+      "appliance_type": "kettle",
+      "window_start": "1970-01-01T00:11:12Z",
+      "window_end": "1970-01-01T00:11:28Z",
+      "start": 84,
+      "end": 86,
+      "shape": [
+        0.7442339686116191,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 0
+    },
+    {
+      "query_id": "1ddde94bbd913eea0f617651",
+      "household_id": "6",
+      "appliance_type": "kettle",
+      "window_start": "1970-01-01T00:11:28Z",
+      "window_end": "1970-01-01T00:11:44Z",
+      "start": 86,
+      "end": 88,
+      "shape": [
+        1.9169741026317235,
+        3.0217731077880114,
+        2.9687655945793536,
+        2.9687655945793536
+      ],
+      "column": 0
+    },
+    {
+      "query_id": "041060656c2878fdd7c9884d",
+      "household_id": "6",
+      "appliance_type": "kettle",
+      "window_start": "1970-01-01T00:11:44Z",
+      "window_end": "1970-01-01T00:12:00Z",
+      "start": 88,
+      "end": 90,
+      "shape": [
+        2.2060664666294714,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 0
+    },
+    {
+      "query_id": "ada02cd63b9eca8127bfc47b",
+      "household_id": "6",
+      "appliance_type": "kettle",
+      "window_start": "1970-01-01T00:12:00Z",
+      "window_end": "1970-01-01T00:12:16Z",
+      "start": 90,
+      "end": 92,
+      "shape": [
+        2.2060664666294714,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 0
+    },
+    {
+      "query_id": "ac4bf62587e345191aab460d",
+      "household_id": "6",
+      "appliance_type": "kettle",
+      "window_start": "1970-01-01T00:12:16Z",
+      "window_end": "1970-01-01T00:12:32Z",
+      "start": 92,
+      "end": 94,
+      "shape": [
+        -0.8327392505225556,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 0
+    },
+    {
+      "query_id": "a5e0d8661ee603229a788733",
+      "household_id": "6",
+      "appliance_type": "kettle",
+      "window_start": "1970-01-01T00:12:32Z",
+      "window_end": "1970-01-01T00:12:48Z",
+      "start": 94,
+      "end": 96,
+      "shape": [
+        -0.36034635040038693,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 0
+    },
+    {
+      "query_id": "a46680f65ffdff387025321f",
+      "household_id": "6",
+      "appliance_type": "kettle",
+      "window_start": "1970-01-01T00:12:48Z",
+      "window_end": "1970-01-01T00:13:04Z",
+      "start": 96,
+      "end": 98,
+      "shape": [
+        -0.36034635040038693,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 0
+    },
+    {
+      "query_id": "381e47bd7ddf311d2c1bf4dc",
+      "household_id": "6",
+      "appliance_type": "kettle",
+      "window_start": "1970-01-01T00:13:04Z",
+      "window_end": "1970-01-01T00:13:20Z",
+      "start": 98,
+      "end": 100,
+      "shape": [
+        -0.36034635040038693,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 0
+    },
+    {
+      "query_id": "41132544dfcc2e1839b3cee2",
+      "household_id": "6",
+      "appliance_type": "kettle",
+      "window_start": "1970-01-01T00:13:20Z",
+      "window_end": "1970-01-01T00:13:36Z",
+      "start": 100,
+      "end": 102,
+      "shape": [
+        -0.36034635040038693,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 0
+    },
+    {
+      "query_id": "6ae3756cc3366c68ab73cba8",
+      "household_id": "6",
+      "appliance_type": "kettle",
+      "window_start": "1970-01-01T00:13:36Z",
+      "window_end": "1970-01-01T00:13:52Z",
+      "start": 102,
+      "end": 104,
+      "shape": [
+        -0.36034635040038693,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 0
+    },
+    {
+      "query_id": "0ed93c55b6742304a5e1b344",
+      "household_id": "6",
+      "appliance_type": "kettle",
+      "window_start": "1970-01-01T00:13:52Z",
+      "window_end": "1970-01-01T00:14:08Z",
+      "start": 104,
+      "end": 106,
+      "shape": [
+        -0.36034635040038693,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 0
+    },
+    {
+      "query_id": "5a5fbe523abb1db2980e9e3c",
+      "household_id": "6",
+      "appliance_type": "kettle",
+      "window_start": "1970-01-01T00:14:08Z",
+      "window_end": "1970-01-01T00:14:24Z",
+      "start": 106,
+      "end": 108,
+      "shape": [
+        -0.36034635040038693,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 0
+    },
+    {
+      "query_id": "dd9a118b061c3f5225cb4ed1",
+      "household_id": "6",
+      "appliance_type": "kettle",
+      "window_start": "1970-01-01T00:14:24Z",
+      "window_end": "1970-01-01T00:14:40Z",
+      "start": 108,
+      "end": 110,
+      "shape": [
+        -0.36034635040038693,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 0
+    },
+    {
+      "query_id": "4ac3d8bfb359dea5fd3e7314",
+      "household_id": "6",
+      "appliance_type": "kettle",
+      "window_start": "1970-01-01T00:14:40Z",
+      "window_end": "1970-01-01T00:14:56Z",
+      "start": 110,
+      "end": 112,
+      "shape": [
+        -0.5811216281205261,
+        1.7162376851371255,
+        1.795806765167167,
+        1.795806765167167
+      ],
+      "column": 0
+    },
+    {
+      "query_id": "b209fafac657824c863ca360",
+      "household_id": "6",
+      "appliance_type": "kettle",
+      "window_start": "1970-01-01T00:14:56Z",
+      "window_end": "1970-01-01T00:15:12Z",
+      "start": 112,
+      "end": 114,
+      "shape": [
+        -0.8327392505225556,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 0
+    },
+    {
+      "query_id": "fa418a74cf2ab6943afa7988",
+      "household_id": "6",
+      "appliance_type": "kettle",
+      "window_start": "1970-01-01T00:15:12Z",
+      "window_end": "1970-01-01T00:15:28Z",
+      "start": 114,
+      "end": 116,
+      "shape": [
+        -0.8327392505225556,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 0
+    },
+    {
+      "query_id": "ca4dae1cdc885f83a4abb46b",
+      "household_id": "6",
+      "appliance_type": "microwave",
+      "window_start": "1970-01-01T00:00:32Z",
+      "window_end": "1970-01-01T00:00:48Z",
+      "start": 4,
+      "end": 6,
+      "shape": [
+        -0.36034635040038693,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 1
+    },
+    {
+      "query_id": "1f28655b8ac841a0cd025af0",
+      "household_id": "6",
+      "appliance_type": "microwave",
+      "window_start": "1970-01-01T00:00:48Z",
+      "window_end": "1970-01-01T00:01:04Z",
+      "start": 6,
+      "end": 8,
+      "shape": [
+        -0.36034635040038693,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 1
+    },
+    {
+      "query_id": "cedce8f31c02755d57218379",
+      "household_id": "6",
+      "appliance_type": "microwave",
+      "window_start": "1970-01-01T00:01:04Z",
+      "window_end": "1970-01-01T00:01:20Z",
+      "start": 8,
+      "end": 10,
+      "shape": [
+        -0.36034635040038693,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 1
+    },
+    {
+      "query_id": "b2cb141de331c252afb4431b",
+      "household_id": "6",
+      "appliance_type": "microwave",
+      "window_start": "1970-01-01T00:01:20Z",
+      "window_end": "1970-01-01T00:01:36Z",
+      "start": 10,
+      "end": 12,
+      "shape": [
+        -0.36034635040038693,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 1
+    },
+    {
+      "query_id": "10f2fa4498011ccea5bb4a98",
+      "household_id": "6",
+      "appliance_type": "microwave",
+      "window_start": "1970-01-01T00:01:36Z",
+      "window_end": "1970-01-01T00:01:52Z",
+      "start": 12,
+      "end": 14,
+      "shape": [
+        -0.36034635040038693,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 1
+    },
+    {
+      "query_id": "d4d96796e54136a17cee0254",
+      "household_id": "6",
+      "appliance_type": "microwave",
+      "window_start": "1970-01-01T00:01:52Z",
+      "window_end": "1970-01-01T00:02:08Z",
+      "start": 14,
+      "end": 16,
+      "shape": [
+        -0.36034635040038693,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 1
+    },
+    {
+      "query_id": "18df34564a737eb17aa43078",
+      "household_id": "6",
+      "appliance_type": "microwave",
+      "window_start": "1970-01-01T00:02:08Z",
+      "window_end": "1970-01-01T00:02:24Z",
+      "start": 16,
+      "end": 18,
+      "shape": [
+        -0.5811216281205261,
+        1.7162376851371255,
+        1.795806765167167,
+        1.795806765167167
+      ],
+      "column": 1
+    },
+    {
+      "query_id": "4f02c00faae2d68f69fc3dd5",
+      "household_id": "6",
+      "appliance_type": "microwave",
+      "window_start": "1970-01-01T00:02:24Z",
+      "window_end": "1970-01-01T00:02:40Z",
+      "start": 18,
+      "end": 20,
+      "shape": [
+        -0.8327392505225556,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 1
+    },
+    {
+      "query_id": "7df340417c83e741f98507e0",
+      "household_id": "6",
+      "appliance_type": "microwave",
+      "window_start": "1970-01-01T00:02:40Z",
+      "window_end": "1970-01-01T00:02:56Z",
+      "start": 20,
+      "end": 22,
+      "shape": [
+        -0.8327392505225556,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 1
+    },
+    {
+      "query_id": "f479f9de9a8f5775b1b01c4e",
+      "household_id": "6",
+      "appliance_type": "microwave",
+      "window_start": "1970-01-01T00:02:56Z",
+      "window_end": "1970-01-01T00:03:12Z",
+      "start": 22,
+      "end": 24,
+      "shape": [
+        -0.8327392505225556,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 1
+    },
+    {
+      "query_id": "002b38958b0ad8d6fab1cfe0",
+      "household_id": "6",
+      "appliance_type": "microwave",
+      "window_start": "1970-01-01T00:03:12Z",
+      "window_end": "1970-01-01T00:03:28Z",
+      "start": 24,
+      "end": 26,
+      "shape": [
+        1.2627478629137052,
+        3.0217731077880114,
+        2.9687655945793536,
+        2.9687655945793536
+      ],
+      "column": 1
+    },
+    {
+      "query_id": "cf5b8dbee8c350f895648f18",
+      "household_id": "6",
+      "appliance_type": "microwave",
+      "window_start": "1970-01-01T00:03:28Z",
+      "window_end": "1970-01-01T00:03:44Z",
+      "start": 26,
+      "end": 28,
+      "shape": [
+        2.2060664666294714,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 1
+    },
+    {
+      "query_id": "218083c6ae3f6718aa0e25ff",
+      "household_id": "6",
+      "appliance_type": "microwave",
+      "window_start": "1970-01-01T00:03:44Z",
+      "window_end": "1970-01-01T00:04:00Z",
+      "start": 28,
+      "end": 30,
+      "shape": [
+        2.2060664666294714,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 1
+    },
+    {
+      "query_id": "344a3a0b4342712aaa75fe9c",
+      "household_id": "6",
+      "appliance_type": "microwave",
+      "window_start": "1970-01-01T00:04:00Z",
+      "window_end": "1970-01-01T00:04:16Z",
+      "start": 30,
+      "end": 32,
+      "shape": [
+        -0.8327392505225556,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 1
+    },
+    {
+      "query_id": "efeef97bffb86dfc1bb4e5c4",
+      "household_id": "6",
+      "appliance_type": "microwave",
+      "window_start": "1970-01-01T00:04:16Z",
+      "window_end": "1970-01-01T00:04:32Z",
+      "start": 32,
+      "end": 34,
+      "shape": [
+        -0.8327392505225556,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 1
+    },
+    {
+      "query_id": "0cce4acd90f348678646e64b",
+      "household_id": "6",
+      "appliance_type": "microwave",
+      "window_start": "1970-01-01T00:04:32Z",
+      "window_end": "1970-01-01T00:04:48Z",
+      "start": 34,
+      "end": 36,
+      "shape": [
+        -0.8327392505225556,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 1
+    },
+    {
+      "query_id": "1b51d53a6a620e21d4ee7035",
+      "household_id": "6",
+      "appliance_type": "microwave",
+      "window_start": "1970-01-01T00:04:48Z",
+      "window_end": "1970-01-01T00:05:04Z",
+      "start": 36,
+      "end": 38,
+      "shape": [
+        0.12286678960078137,
+        2.463472367543171,
+        2.4678855399768467,
+        2.4678855399768467
+      ],
+      "column": 1
+    },
+    {
+      "query_id": "3e675bec91b858b201133c5e",
+      "household_id": "6",
+      "appliance_type": "microwave",
+      "window_start": "1970-01-01T00:05:04Z",
+      "window_end": "1970-01-01T00:05:20Z",
+      "start": 38,
+      "end": 40,
+      "shape": [
+        0.7442339686116191,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 1
+    },
+    {
+      "query_id": "088bb3c2f7a06543b63360bb",
+      "household_id": "6",
+      "appliance_type": "microwave",
+      "window_start": "1970-01-01T00:05:20Z",
+      "window_end": "1970-01-01T00:05:36Z",
+      "start": 40,
+      "end": 42,
+      "shape": [
+        0.7442339686116191,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 1
+    },
+    {
+      "query_id": "93fc7fe37d150ada47037fef",
+      "household_id": "6",
+      "appliance_type": "microwave",
+      "window_start": "1970-01-01T00:05:36Z",
+      "window_end": "1970-01-01T00:05:52Z",
+      "start": 42,
+      "end": 44,
+      "shape": [
+        0.7442339686116191,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 1
+    },
+    {
+      "query_id": "8ca75f86037baedc09f89f8c",
+      "household_id": "6",
+      "appliance_type": "microwave",
+      "window_start": "1970-01-01T00:05:52Z",
+      "window_end": "1970-01-01T00:06:08Z",
+      "start": 44,
+      "end": 46,
+      "shape": [
+        0.12286678960078137,
+        2.463472367543171,
+        2.4678855399768467,
+        2.4678855399768467
+      ],
+      "column": 1
+    },
+    {
+      "query_id": "023cf73dcec1d85d8464f8df",
+      "household_id": "6",
+      "appliance_type": "microwave",
+      "window_start": "1970-01-01T00:06:08Z",
+      "window_end": "1970-01-01T00:06:24Z",
+      "start": 46,
+      "end": 48,
+      "shape": [
+        -0.5811216281205261,
+        1.7162376851371255,
+        1.795806765167167,
+        1.795806765167167
+      ],
+      "column": 1
+    },
+    {
+      "query_id": "12595ff07ee53f4c8121b74c",
+      "household_id": "6",
+      "appliance_type": "microwave",
+      "window_start": "1970-01-01T00:06:24Z",
+      "window_end": "1970-01-01T00:06:40Z",
+      "start": 48,
+      "end": 50,
+      "shape": [
+        -0.36034635040038693,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 1
+    },
+    {
+      "query_id": "99b00c0cb6dbc9bdd2ca16b5",
+      "household_id": "6",
+      "appliance_type": "microwave",
+      "window_start": "1970-01-01T00:06:40Z",
+      "window_end": "1970-01-01T00:06:56Z",
+      "start": 50,
+      "end": 52,
+      "shape": [
+        -0.36034635040038693,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 1
+    },
+    {
+      "query_id": "0b95049db213cbbd222bfd44",
+      "household_id": "6",
+      "appliance_type": "microwave",
+      "window_start": "1970-01-01T00:06:56Z",
+      "window_end": "1970-01-01T00:07:12Z",
+      "start": 52,
+      "end": 54,
+      "shape": [
+        -0.36034635040038693,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 1
+    },
+    {
+      "query_id": "978bfa441db848155e9fd2e6",
+      "household_id": "6",
+      "appliance_type": "microwave",
+      "window_start": "1970-01-01T00:07:12Z",
+      "window_end": "1970-01-01T00:07:28Z",
+      "start": 54,
+      "end": 56,
+      "shape": [
+        -0.36034635040038693,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 1
+    },
+    {
+      "query_id": "0ee410580372eb82b1695af0",
+      "household_id": "6",
+      "appliance_type": "microwave",
+      "window_start": "1970-01-01T00:07:28Z",
+      "window_end": "1970-01-01T00:07:44Z",
+      "start": 56,
+      "end": 58,
+      "shape": [
+        2.303551847044159,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 1
+    },
+    {
+      "query_id": "ddad3b73921d64239122549a",
+      "household_id": "6",
+      "appliance_type": "microwave",
+      "window_start": "1970-01-01T00:07:44Z",
+      "window_end": "1970-01-01T00:08:00Z",
+      "start": 58,
+      "end": 60,
+      "shape": [
+        2.303551847044159,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 1
+    },
+    {
+      "query_id": "f54581230699a59fa11999de",
+      "household_id": "6",
+      "appliance_type": "microwave",
+      "window_start": "1970-01-01T00:08:00Z",
+      "window_end": "1970-01-01T00:08:16Z",
+      "start": 60,
+      "end": 62,
+      "shape": [
+        1.424283883829704,
+        3.0217731077880114,
+        2.9687655945793536,
+        2.9687655945793536
+      ],
+      "column": 1
+    },
+    {
+      "query_id": "821836d075c167a735a38db6",
+      "household_id": "6",
+      "appliance_type": "microwave",
+      "window_start": "1970-01-01T00:08:16Z",
+      "window_end": "1970-01-01T00:08:32Z",
+      "start": 62,
+      "end": 64,
+      "shape": [
+        -0.36034635040038693,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 1
+    },
+    {
+      "query_id": "b9064ae2ce22cbca73e1ce1b",
+      "household_id": "6",
+      "appliance_type": "microwave",
+      "window_start": "1970-01-01T00:08:32Z",
+      "window_end": "1970-01-01T00:08:48Z",
+      "start": 64,
+      "end": 66,
+      "shape": [
+        -0.8327392505225556,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 1
+    },
+    {
+      "query_id": "b88c1e801bc2a7104cd5ed1f",
+      "household_id": "6",
+      "appliance_type": "microwave",
+      "window_start": "1970-01-01T00:08:48Z",
+      "window_end": "1970-01-01T00:09:04Z",
+      "start": 66,
+      "end": 68,
+      "shape": [
+        -0.8327392505225556,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 1
+    },
+    {
+      "query_id": "89acd3054ef31896fc9f8b56",
+      "household_id": "6",
+      "appliance_type": "microwave",
+      "window_start": "1970-01-01T00:09:04Z",
+      "window_end": "1970-01-01T00:09:20Z",
+      "start": 68,
+      "end": 70,
+      "shape": [
+        -0.8327392505225556,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 1
+    },
+    {
+      "query_id": "a0b7a2973ad521f9b40f811c",
+      "household_id": "6",
+      "appliance_type": "microwave",
+      "window_start": "1970-01-01T00:09:20Z",
+      "window_end": "1970-01-01T00:09:36Z",
+      "start": 70,
+      "end": 72,
+      "shape": [
+        -0.8327392505225556,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 1
+    },
+    {
+      "query_id": "ce8c1521f333cb901312aa2c",
+      "household_id": "6",
+      "appliance_type": "microwave",
+      "window_start": "1970-01-01T00:09:36Z",
+      "window_end": "1970-01-01T00:09:52Z",
+      "start": 72,
+      "end": 74,
+      "shape": [
+        -0.8327392505225556,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 1
+    },
+    {
+      "query_id": "c6bcf9ed1cab2638520cb7cd",
+      "household_id": "6",
+      "appliance_type": "microwave",
+      "window_start": "1970-01-01T00:09:52Z",
+      "window_end": "1970-01-01T00:10:08Z",
+      "start": 74,
+      "end": 76,
+      "shape": [
+        -0.8327392505225556,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 1
+    },
+    {
+      "query_id": "8a39be45d59565a249dbb20e",
+      "household_id": "6",
+      "appliance_type": "microwave",
+      "window_start": "1970-01-01T00:10:08Z",
+      "window_end": "1970-01-01T00:10:24Z",
+      "start": 76,
+      "end": 78,
+      "shape": [
+        -0.8327392505225556,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 1
+    },
+    {
+      "query_id": "24e51e8d9e55ec1151173440",
+      "household_id": "6",
+      "appliance_type": "microwave",
+      "window_start": "1970-01-01T00:10:24Z",
+      "window_end": "1970-01-01T00:10:40Z",
+      "start": 78,
+      "end": 80,
+      "shape": [
+        -0.8327392505225556,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 1
+    },
+    {
+      "query_id": "06705936852765114780c96b",
+      "household_id": "6",
+      "appliance_type": "microwave",
+      "window_start": "1970-01-01T00:10:40Z",
+      "window_end": "1970-01-01T00:10:56Z",
+      "start": 80,
+      "end": 82,
+      "shape": [
+        0.7442339686116191,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 1
+    },
+    {
+      "query_id": "ff85d40827227d02e5e87eb3",
+      "household_id": "6",
+      "appliance_type": "microwave",
+      "window_start": "1970-01-01T00:10:56Z",
+      "window_end": "1970-01-01T00:11:12Z",
+      "start": 82,
+      "end": 84,
+      "shape": [
+        0.7442339686116191,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 1
+    },
+    {
+      "query_id": "50091da65474c994754c4a0e",
+      "household_id": "6",
+      "appliance_type": "microwave",
+      "window_start": "1970-01-01T00:11:12Z",
+      "window_end": "1970-01-01T00:11:28Z",
+      "start": 84,
+      "end": 86,
+      "shape": [
+        0.7442339686116191,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 1
+    },
+    {
+      "query_id": "09d7c3b7c1e306a997866735",
+      "household_id": "6",
+      "appliance_type": "microwave",
+      "window_start": "1970-01-01T00:11:28Z",
+      "window_end": "1970-01-01T00:11:44Z",
+      "start": 86,
+      "end": 88,
+      "shape": [
+        1.9169741026317235,
+        3.0217731077880114,
+        2.9687655945793536,
+        2.9687655945793536
+      ],
+      "column": 1
+    },
+    {
+      "query_id": "ecd5ea6b50c8390c097dbabb",
+      "household_id": "6",
+      "appliance_type": "microwave",
+      "window_start": "1970-01-01T00:11:44Z",
+      "window_end": "1970-01-01T00:12:00Z",
+      "start": 88,
+      "end": 90,
+      "shape": [
+        2.2060664666294714,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 1
+    },
+    {
+      "query_id": "60f69a9bee9996c2f59c9220",
+      "household_id": "6",
+      "appliance_type": "microwave",
+      "window_start": "1970-01-01T00:12:00Z",
+      "window_end": "1970-01-01T00:12:16Z",
+      "start": 90,
+      "end": 92,
+      "shape": [
+        2.2060664666294714,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 1
+    },
+    {
+      "query_id": "42177fc6243f3b0defa60363",
+      "household_id": "6",
+      "appliance_type": "microwave",
+      "window_start": "1970-01-01T00:12:16Z",
+      "window_end": "1970-01-01T00:12:32Z",
+      "start": 92,
+      "end": 94,
+      "shape": [
+        -0.8327392505225556,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 1
+    },
+    {
+      "query_id": "be085eedd2d642a12358389d",
+      "household_id": "6",
+      "appliance_type": "microwave",
+      "window_start": "1970-01-01T00:12:32Z",
+      "window_end": "1970-01-01T00:12:48Z",
+      "start": 94,
+      "end": 96,
+      "shape": [
+        -0.36034635040038693,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 1
+    },
+    {
+      "query_id": "50b56c9b753de7bd4be83ad9",
+      "household_id": "6",
+      "appliance_type": "microwave",
+      "window_start": "1970-01-01T00:12:48Z",
+      "window_end": "1970-01-01T00:13:04Z",
+      "start": 96,
+      "end": 98,
+      "shape": [
+        -0.36034635040038693,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 1
+    },
+    {
+      "query_id": "1944bdd81ba72cb93d574346",
+      "household_id": "6",
+      "appliance_type": "microwave",
+      "window_start": "1970-01-01T00:13:04Z",
+      "window_end": "1970-01-01T00:13:20Z",
+      "start": 98,
+      "end": 100,
+      "shape": [
+        -0.36034635040038693,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 1
+    },
+    {
+      "query_id": "010c9e445f0cf847039049bb",
+      "household_id": "6",
+      "appliance_type": "microwave",
+      "window_start": "1970-01-01T00:13:20Z",
+      "window_end": "1970-01-01T00:13:36Z",
+      "start": 100,
+      "end": 102,
+      "shape": [
+        -0.36034635040038693,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 1
+    },
+    {
+      "query_id": "cc24b08699e1923cff0037d2",
+      "household_id": "6",
+      "appliance_type": "microwave",
+      "window_start": "1970-01-01T00:13:36Z",
+      "window_end": "1970-01-01T00:13:52Z",
+      "start": 102,
+      "end": 104,
+      "shape": [
+        -0.36034635040038693,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 1
+    },
+    {
+      "query_id": "37a66fa67c4fe72c6b7e06da",
+      "household_id": "6",
+      "appliance_type": "microwave",
+      "window_start": "1970-01-01T00:13:52Z",
+      "window_end": "1970-01-01T00:14:08Z",
+      "start": 104,
+      "end": 106,
+      "shape": [
+        -0.36034635040038693,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 1
+    },
+    {
+      "query_id": "a5c45a37793f4b967a9c87ca",
+      "household_id": "6",
+      "appliance_type": "microwave",
+      "window_start": "1970-01-01T00:14:08Z",
+      "window_end": "1970-01-01T00:14:24Z",
+      "start": 106,
+      "end": 108,
+      "shape": [
+        -0.36034635040038693,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 1
+    },
+    {
+      "query_id": "3524a7db84295e47945cad4c",
+      "household_id": "6",
+      "appliance_type": "microwave",
+      "window_start": "1970-01-01T00:14:24Z",
+      "window_end": "1970-01-01T00:14:40Z",
+      "start": 108,
+      "end": 110,
+      "shape": [
+        -0.36034635040038693,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 1
+    },
+    {
+      "query_id": "170931f06150558b7b831023",
+      "household_id": "6",
+      "appliance_type": "microwave",
+      "window_start": "1970-01-01T00:14:40Z",
+      "window_end": "1970-01-01T00:14:56Z",
+      "start": 110,
+      "end": 112,
+      "shape": [
+        -0.5811216281205261,
+        1.7162376851371255,
+        1.795806765167167,
+        1.795806765167167
+      ],
+      "column": 1
+    },
+    {
+      "query_id": "a5d836e7266d61fca2d09b92",
+      "household_id": "6",
+      "appliance_type": "microwave",
+      "window_start": "1970-01-01T00:14:56Z",
+      "window_end": "1970-01-01T00:15:12Z",
+      "start": 112,
+      "end": 114,
+      "shape": [
+        -0.8327392505225556,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 1
+    },
+    {
+      "query_id": "8ea6e26a42374987be277a13",
+      "household_id": "6",
+      "appliance_type": "microwave",
+      "window_start": "1970-01-01T00:15:12Z",
+      "window_end": "1970-01-01T00:15:28Z",
+      "start": 114,
+      "end": 116,
+      "shape": [
+        -0.8327392505225556,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 1
+    },
+    {
+      "query_id": "107e3cc0d8d16e1841f8f57c",
+      "household_id": "6",
+      "appliance_type": "washing_machine",
+      "window_start": "1970-01-01T00:00:32Z",
+      "window_end": "1970-01-01T00:00:48Z",
+      "start": 4,
+      "end": 6,
+      "shape": [
+        -0.36034635040038693,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 2
+    },
+    {
+      "query_id": "5c1b152471670a2221bb33da",
+      "household_id": "6",
+      "appliance_type": "washing_machine",
+      "window_start": "1970-01-01T00:00:48Z",
+      "window_end": "1970-01-01T00:01:04Z",
+      "start": 6,
+      "end": 8,
+      "shape": [
+        -0.36034635040038693,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 2
+    },
+    {
+      "query_id": "f6cba7f3a36290c9b74f7733",
+      "household_id": "6",
+      "appliance_type": "washing_machine",
+      "window_start": "1970-01-01T00:01:04Z",
+      "window_end": "1970-01-01T00:01:20Z",
+      "start": 8,
+      "end": 10,
+      "shape": [
+        -0.36034635040038693,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 2
+    },
+    {
+      "query_id": "601236806d188b99fcdca888",
+      "household_id": "6",
+      "appliance_type": "washing_machine",
+      "window_start": "1970-01-01T00:01:20Z",
+      "window_end": "1970-01-01T00:01:36Z",
+      "start": 10,
+      "end": 12,
+      "shape": [
+        -0.36034635040038693,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 2
+    },
+    {
+      "query_id": "668e4ea5dad5657be36df0b2",
+      "household_id": "6",
+      "appliance_type": "washing_machine",
+      "window_start": "1970-01-01T00:01:36Z",
+      "window_end": "1970-01-01T00:01:52Z",
+      "start": 12,
+      "end": 14,
+      "shape": [
+        -0.36034635040038693,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 2
+    },
+    {
+      "query_id": "af7d4b3f37edbd5931f20891",
+      "household_id": "6",
+      "appliance_type": "washing_machine",
+      "window_start": "1970-01-01T00:01:52Z",
+      "window_end": "1970-01-01T00:02:08Z",
+      "start": 14,
+      "end": 16,
+      "shape": [
+        -0.36034635040038693,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 2
+    },
+    {
+      "query_id": "71494cfdabedbaf372333c98",
+      "household_id": "6",
+      "appliance_type": "washing_machine",
+      "window_start": "1970-01-01T00:02:08Z",
+      "window_end": "1970-01-01T00:02:24Z",
+      "start": 16,
+      "end": 18,
+      "shape": [
+        -0.5811216281205261,
+        1.7162376851371255,
+        1.795806765167167,
+        1.795806765167167
+      ],
+      "column": 2
+    },
+    {
+      "query_id": "dbc8a6d610e37fde0024b159",
+      "household_id": "6",
+      "appliance_type": "washing_machine",
+      "window_start": "1970-01-01T00:02:24Z",
+      "window_end": "1970-01-01T00:02:40Z",
+      "start": 18,
+      "end": 20,
+      "shape": [
+        -0.8327392505225556,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 2
+    },
+    {
+      "query_id": "3a740c12bca0d49a5a8e5d34",
+      "household_id": "6",
+      "appliance_type": "washing_machine",
+      "window_start": "1970-01-01T00:02:40Z",
+      "window_end": "1970-01-01T00:02:56Z",
+      "start": 20,
+      "end": 22,
+      "shape": [
+        -0.8327392505225556,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 2
+    },
+    {
+      "query_id": "471f3823da1352123f37a900",
+      "household_id": "6",
+      "appliance_type": "washing_machine",
+      "window_start": "1970-01-01T00:02:56Z",
+      "window_end": "1970-01-01T00:03:12Z",
+      "start": 22,
+      "end": 24,
+      "shape": [
+        -0.8327392505225556,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 2
+    },
+    {
+      "query_id": "3ed5b6f67ed6917fe6467d46",
+      "household_id": "6",
+      "appliance_type": "washing_machine",
+      "window_start": "1970-01-01T00:03:12Z",
+      "window_end": "1970-01-01T00:03:28Z",
+      "start": 24,
+      "end": 26,
+      "shape": [
+        1.2627478629137052,
+        3.0217731077880114,
+        2.9687655945793536,
+        2.9687655945793536
+      ],
+      "column": 2
+    },
+    {
+      "query_id": "8120b8a706d8b00e44d5397f",
+      "household_id": "6",
+      "appliance_type": "washing_machine",
+      "window_start": "1970-01-01T00:03:28Z",
+      "window_end": "1970-01-01T00:03:44Z",
+      "start": 26,
+      "end": 28,
+      "shape": [
+        2.2060664666294714,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 2
+    },
+    {
+      "query_id": "c75f5a6c01d2536a932caf09",
+      "household_id": "6",
+      "appliance_type": "washing_machine",
+      "window_start": "1970-01-01T00:03:44Z",
+      "window_end": "1970-01-01T00:04:00Z",
+      "start": 28,
+      "end": 30,
+      "shape": [
+        2.2060664666294714,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 2
+    },
+    {
+      "query_id": "df48b77ef399225796161e29",
+      "household_id": "6",
+      "appliance_type": "washing_machine",
+      "window_start": "1970-01-01T00:04:00Z",
+      "window_end": "1970-01-01T00:04:16Z",
+      "start": 30,
+      "end": 32,
+      "shape": [
+        -0.8327392505225556,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 2
+    },
+    {
+      "query_id": "acad470147c5086ee5f40959",
+      "household_id": "6",
+      "appliance_type": "washing_machine",
+      "window_start": "1970-01-01T00:04:16Z",
+      "window_end": "1970-01-01T00:04:32Z",
+      "start": 32,
+      "end": 34,
+      "shape": [
+        -0.8327392505225556,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 2
+    },
+    {
+      "query_id": "023419c2b5534f214e1ee3e6",
+      "household_id": "6",
+      "appliance_type": "washing_machine",
+      "window_start": "1970-01-01T00:04:32Z",
+      "window_end": "1970-01-01T00:04:48Z",
+      "start": 34,
+      "end": 36,
+      "shape": [
+        -0.8327392505225556,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 2
+    },
+    {
+      "query_id": "b8ddf1307613487d4c75507e",
+      "household_id": "6",
+      "appliance_type": "washing_machine",
+      "window_start": "1970-01-01T00:04:48Z",
+      "window_end": "1970-01-01T00:05:04Z",
+      "start": 36,
+      "end": 38,
+      "shape": [
+        0.12286678960078137,
+        2.463472367543171,
+        2.4678855399768467,
+        2.4678855399768467
+      ],
+      "column": 2
+    },
+    {
+      "query_id": "0adf9d90b00375d6cdc7ccd7",
+      "household_id": "6",
+      "appliance_type": "washing_machine",
+      "window_start": "1970-01-01T00:05:04Z",
+      "window_end": "1970-01-01T00:05:20Z",
+      "start": 38,
+      "end": 40,
+      "shape": [
+        0.7442339686116191,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 2
+    },
+    {
+      "query_id": "dfb0a6ec71bfabd0b237ac85",
+      "household_id": "6",
+      "appliance_type": "washing_machine",
+      "window_start": "1970-01-01T00:05:20Z",
+      "window_end": "1970-01-01T00:05:36Z",
+      "start": 40,
+      "end": 42,
+      "shape": [
+        0.7442339686116191,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 2
+    },
+    {
+      "query_id": "23c84b3e046cf356e9901441",
+      "household_id": "6",
+      "appliance_type": "washing_machine",
+      "window_start": "1970-01-01T00:05:36Z",
+      "window_end": "1970-01-01T00:05:52Z",
+      "start": 42,
+      "end": 44,
+      "shape": [
+        0.7442339686116191,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 2
+    },
+    {
+      "query_id": "c99065134c2038339c6e282f",
+      "household_id": "6",
+      "appliance_type": "washing_machine",
+      "window_start": "1970-01-01T00:05:52Z",
+      "window_end": "1970-01-01T00:06:08Z",
+      "start": 44,
+      "end": 46,
+      "shape": [
+        0.12286678960078137,
+        2.463472367543171,
+        2.4678855399768467,
+        2.4678855399768467
+      ],
+      "column": 2
+    },
+    {
+      "query_id": "d549458ef39e0391abcad429",
+      "household_id": "6",
+      "appliance_type": "washing_machine",
+      "window_start": "1970-01-01T00:06:08Z",
+      "window_end": "1970-01-01T00:06:24Z",
+      "start": 46,
+      "end": 48,
+      "shape": [
+        -0.5811216281205261,
+        1.7162376851371255,
+        1.795806765167167,
+        1.795806765167167
+      ],
+      "column": 2
+    },
+    {
+      "query_id": "920118db493cb281aa85715f",
+      "household_id": "6",
+      "appliance_type": "washing_machine",
+      "window_start": "1970-01-01T00:06:24Z",
+      "window_end": "1970-01-01T00:06:40Z",
+      "start": 48,
+      "end": 50,
+      "shape": [
+        -0.36034635040038693,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 2
+    },
+    {
+      "query_id": "3d2a5840f5358bdad70ed230",
+      "household_id": "6",
+      "appliance_type": "washing_machine",
+      "window_start": "1970-01-01T00:06:40Z",
+      "window_end": "1970-01-01T00:06:56Z",
+      "start": 50,
+      "end": 52,
+      "shape": [
+        -0.36034635040038693,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 2
+    },
+    {
+      "query_id": "50ad64bfe515f5978141a23a",
+      "household_id": "6",
+      "appliance_type": "washing_machine",
+      "window_start": "1970-01-01T00:06:56Z",
+      "window_end": "1970-01-01T00:07:12Z",
+      "start": 52,
+      "end": 54,
+      "shape": [
+        -0.36034635040038693,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 2
+    },
+    {
+      "query_id": "1e6c5425509aecddd68ea41d",
+      "household_id": "6",
+      "appliance_type": "washing_machine",
+      "window_start": "1970-01-01T00:07:12Z",
+      "window_end": "1970-01-01T00:07:28Z",
+      "start": 54,
+      "end": 56,
+      "shape": [
+        -0.36034635040038693,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 2
+    },
+    {
+      "query_id": "eed0f245fe5b8171198603cb",
+      "household_id": "6",
+      "appliance_type": "washing_machine",
+      "window_start": "1970-01-01T00:07:28Z",
+      "window_end": "1970-01-01T00:07:44Z",
+      "start": 56,
+      "end": 58,
+      "shape": [
+        2.303551847044159,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 2
+    },
+    {
+      "query_id": "e440048624064de81de85a72",
+      "household_id": "6",
+      "appliance_type": "washing_machine",
+      "window_start": "1970-01-01T00:07:44Z",
+      "window_end": "1970-01-01T00:08:00Z",
+      "start": 58,
+      "end": 60,
+      "shape": [
+        2.303551847044159,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 2
+    },
+    {
+      "query_id": "10e9b5ef65ee945858585235",
+      "household_id": "6",
+      "appliance_type": "washing_machine",
+      "window_start": "1970-01-01T00:08:00Z",
+      "window_end": "1970-01-01T00:08:16Z",
+      "start": 60,
+      "end": 62,
+      "shape": [
+        1.424283883829704,
+        3.0217731077880114,
+        2.9687655945793536,
+        2.9687655945793536
+      ],
+      "column": 2
+    },
+    {
+      "query_id": "3b1b7898dc1204280642954d",
+      "household_id": "6",
+      "appliance_type": "washing_machine",
+      "window_start": "1970-01-01T00:08:16Z",
+      "window_end": "1970-01-01T00:08:32Z",
+      "start": 62,
+      "end": 64,
+      "shape": [
+        -0.36034635040038693,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 2
+    },
+    {
+      "query_id": "623dbc664db89dc9f6a67376",
+      "household_id": "6",
+      "appliance_type": "washing_machine",
+      "window_start": "1970-01-01T00:08:32Z",
+      "window_end": "1970-01-01T00:08:48Z",
+      "start": 64,
+      "end": 66,
+      "shape": [
+        -0.8327392505225556,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 2
+    },
+    {
+      "query_id": "cdeaff3d0671cc2a09ad08c3",
+      "household_id": "6",
+      "appliance_type": "washing_machine",
+      "window_start": "1970-01-01T00:08:48Z",
+      "window_end": "1970-01-01T00:09:04Z",
+      "start": 66,
+      "end": 68,
+      "shape": [
+        -0.8327392505225556,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 2
+    },
+    {
+      "query_id": "a66aa0ae90caf1b07111b229",
+      "household_id": "6",
+      "appliance_type": "washing_machine",
+      "window_start": "1970-01-01T00:09:04Z",
+      "window_end": "1970-01-01T00:09:20Z",
+      "start": 68,
+      "end": 70,
+      "shape": [
+        -0.8327392505225556,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 2
+    },
+    {
+      "query_id": "791d847dcbcbe45bced8e5c3",
+      "household_id": "6",
+      "appliance_type": "washing_machine",
+      "window_start": "1970-01-01T00:09:20Z",
+      "window_end": "1970-01-01T00:09:36Z",
+      "start": 70,
+      "end": 72,
+      "shape": [
+        -0.8327392505225556,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 2
+    },
+    {
+      "query_id": "a567e44097f418652bf02764",
+      "household_id": "6",
+      "appliance_type": "washing_machine",
+      "window_start": "1970-01-01T00:09:36Z",
+      "window_end": "1970-01-01T00:09:52Z",
+      "start": 72,
+      "end": 74,
+      "shape": [
+        -0.8327392505225556,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 2
+    },
+    {
+      "query_id": "4d31eb01ac1e548c20111a70",
+      "household_id": "6",
+      "appliance_type": "washing_machine",
+      "window_start": "1970-01-01T00:09:52Z",
+      "window_end": "1970-01-01T00:10:08Z",
+      "start": 74,
+      "end": 76,
+      "shape": [
+        -0.8327392505225556,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 2
+    },
+    {
+      "query_id": "d24a389b0a21f6b20088be4c",
+      "household_id": "6",
+      "appliance_type": "washing_machine",
+      "window_start": "1970-01-01T00:10:08Z",
+      "window_end": "1970-01-01T00:10:24Z",
+      "start": 76,
+      "end": 78,
+      "shape": [
+        -0.8327392505225556,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 2
+    },
+    {
+      "query_id": "c2a58670c741421c1d1e85e2",
+      "household_id": "6",
+      "appliance_type": "washing_machine",
+      "window_start": "1970-01-01T00:10:24Z",
+      "window_end": "1970-01-01T00:10:40Z",
+      "start": 78,
+      "end": 80,
+      "shape": [
+        -0.8327392505225556,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 2
+    },
+    {
+      "query_id": "049424faec22ec4eb2ad47ce",
+      "household_id": "6",
+      "appliance_type": "washing_machine",
+      "window_start": "1970-01-01T00:10:40Z",
+      "window_end": "1970-01-01T00:10:56Z",
+      "start": 80,
+      "end": 82,
+      "shape": [
+        0.7442339686116191,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 2
+    },
+    {
+      "query_id": "7dd540813e0b7677ca88e803",
+      "household_id": "6",
+      "appliance_type": "washing_machine",
+      "window_start": "1970-01-01T00:10:56Z",
+      "window_end": "1970-01-01T00:11:12Z",
+      "start": 82,
+      "end": 84,
+      "shape": [
+        0.7442339686116191,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 2
+    },
+    {
+      "query_id": "40f839180eca341af351319e",
+      "household_id": "6",
+      "appliance_type": "washing_machine",
+      "window_start": "1970-01-01T00:11:12Z",
+      "window_end": "1970-01-01T00:11:28Z",
+      "start": 84,
+      "end": 86,
+      "shape": [
+        0.7442339686116191,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 2
+    },
+    {
+      "query_id": "0c147c45837e9ced72c8284f",
+      "household_id": "6",
+      "appliance_type": "washing_machine",
+      "window_start": "1970-01-01T00:11:28Z",
+      "window_end": "1970-01-01T00:11:44Z",
+      "start": 86,
+      "end": 88,
+      "shape": [
+        1.9169741026317235,
+        3.0217731077880114,
+        2.9687655945793536,
+        2.9687655945793536
+      ],
+      "column": 2
+    },
+    {
+      "query_id": "7edc9e182be3f4c88b5f35dc",
+      "household_id": "6",
+      "appliance_type": "washing_machine",
+      "window_start": "1970-01-01T00:11:44Z",
+      "window_end": "1970-01-01T00:12:00Z",
+      "start": 88,
+      "end": 90,
+      "shape": [
+        2.2060664666294714,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 2
+    },
+    {
+      "query_id": "8427853b84dc40f400e1f2ad",
+      "household_id": "6",
+      "appliance_type": "washing_machine",
+      "window_start": "1970-01-01T00:12:00Z",
+      "window_end": "1970-01-01T00:12:16Z",
+      "start": 90,
+      "end": 92,
+      "shape": [
+        2.2060664666294714,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 2
+    },
+    {
+      "query_id": "b8c5555a6ce22bbde18e200b",
+      "household_id": "6",
+      "appliance_type": "washing_machine",
+      "window_start": "1970-01-01T00:12:16Z",
+      "window_end": "1970-01-01T00:12:32Z",
+      "start": 92,
+      "end": 94,
+      "shape": [
+        -0.8327392505225556,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 2
+    },
+    {
+      "query_id": "d3f13e8ecf566e6163c55bb2",
+      "household_id": "6",
+      "appliance_type": "washing_machine",
+      "window_start": "1970-01-01T00:12:32Z",
+      "window_end": "1970-01-01T00:12:48Z",
+      "start": 94,
+      "end": 96,
+      "shape": [
+        -0.36034635040038693,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 2
+    },
+    {
+      "query_id": "aeb94496d519dc94fb917b41",
+      "household_id": "6",
+      "appliance_type": "washing_machine",
+      "window_start": "1970-01-01T00:12:48Z",
+      "window_end": "1970-01-01T00:13:04Z",
+      "start": 96,
+      "end": 98,
+      "shape": [
+        -0.36034635040038693,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 2
+    },
+    {
+      "query_id": "fd9b9d9a33f9966a2aa223ce",
+      "household_id": "6",
+      "appliance_type": "washing_machine",
+      "window_start": "1970-01-01T00:13:04Z",
+      "window_end": "1970-01-01T00:13:20Z",
+      "start": 98,
+      "end": 100,
+      "shape": [
+        -0.36034635040038693,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 2
+    },
+    {
+      "query_id": "d00e71495758b5fcad1a3422",
+      "household_id": "6",
+      "appliance_type": "washing_machine",
+      "window_start": "1970-01-01T00:13:20Z",
+      "window_end": "1970-01-01T00:13:36Z",
+      "start": 100,
+      "end": 102,
+      "shape": [
+        -0.36034635040038693,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 2
+    },
+    {
+      "query_id": "e490941e55a2219fc112f982",
+      "household_id": "6",
+      "appliance_type": "washing_machine",
+      "window_start": "1970-01-01T00:13:36Z",
+      "window_end": "1970-01-01T00:13:52Z",
+      "start": 102,
+      "end": 104,
+      "shape": [
+        -0.36034635040038693,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 2
+    },
+    {
+      "query_id": "6105e4ee8edc654616966a8c",
+      "household_id": "6",
+      "appliance_type": "washing_machine",
+      "window_start": "1970-01-01T00:13:52Z",
+      "window_end": "1970-01-01T00:14:08Z",
+      "start": 104,
+      "end": 106,
+      "shape": [
+        -0.36034635040038693,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 2
+    },
+    {
+      "query_id": "51b90c7f6e8e7823863b4d6c",
+      "household_id": "6",
+      "appliance_type": "washing_machine",
+      "window_start": "1970-01-01T00:14:08Z",
+      "window_end": "1970-01-01T00:14:24Z",
+      "start": 106,
+      "end": 108,
+      "shape": [
+        -0.36034635040038693,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 2
+    },
+    {
+      "query_id": "8557d8cad2147cddac0f7165",
+      "household_id": "6",
+      "appliance_type": "washing_machine",
+      "window_start": "1970-01-01T00:14:24Z",
+      "window_end": "1970-01-01T00:14:40Z",
+      "start": 108,
+      "end": 110,
+      "shape": [
+        -0.36034635040038693,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 2
+    },
+    {
+      "query_id": "1674d30186389b347ce5d0d2",
+      "household_id": "6",
+      "appliance_type": "washing_machine",
+      "window_start": "1970-01-01T00:14:40Z",
+      "window_end": "1970-01-01T00:14:56Z",
+      "start": 110,
+      "end": 112,
+      "shape": [
+        -0.5811216281205261,
+        1.7162376851371255,
+        1.795806765167167,
+        1.795806765167167
+      ],
+      "column": 2
+    },
+    {
+      "query_id": "7d96a6ca535dc7519924d08a",
+      "household_id": "6",
+      "appliance_type": "washing_machine",
+      "window_start": "1970-01-01T00:14:56Z",
+      "window_end": "1970-01-01T00:15:12Z",
+      "start": 112,
+      "end": 114,
+      "shape": [
+        -0.8327392505225556,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 2
+    },
+    {
+      "query_id": "b0120779562c872a0120f140",
+      "household_id": "6",
+      "appliance_type": "washing_machine",
+      "window_start": "1970-01-01T00:15:12Z",
+      "window_end": "1970-01-01T00:15:28Z",
+      "start": 114,
+      "end": 116,
+      "shape": [
+        -0.8327392505225556,
+        -0.39877035653878645,
+        -0.4006143366498595,
+        -0.4006143366498595
+      ],
+      "column": 2
+    }
+  ]
+}

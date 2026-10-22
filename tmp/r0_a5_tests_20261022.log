@@ -1,0 +1,12 @@
+test_changed_seal_incomplete_matrix_and_source_drift_refuse_evaluation (test_a5_final.FinalTest.test_changed_seal_incomplete_matrix_and_source_drift_refuse_evaluation) ... ok
+test_date_selected_preparation_has_distinct_protocol_identity (test_a5_final.FinalTest.test_date_selected_preparation_has_distinct_protocol_identity) ... ok
+test_formal_admission_rejects_prefixes_seen_houses_and_missing_declaration (test_a5_final.FinalTest.test_formal_admission_rejects_prefixes_seen_houses_and_missing_declaration) ... ok
+test_future_labels_are_never_parsed_before_complete_matrix (test_a5_final.FinalTest.test_future_labels_are_never_parsed_before_complete_matrix) ... ok
+test_household_macro_average_and_stability_keep_all_budgets (test_a5_final.FinalTest.test_household_macro_average_and_stability_keep_all_budgets) ... ok
+test_missing_duplicate_and_null_metrics_never_improve_summary (test_a5_final.FinalTest.test_missing_duplicate_and_null_metrics_never_improve_summary) ... ok
+test_three_household_engineering_roundtrip_is_never_final (test_a5_final.FinalTest.test_three_household_engineering_roundtrip_is_never_final) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 39.103s
+
+OK

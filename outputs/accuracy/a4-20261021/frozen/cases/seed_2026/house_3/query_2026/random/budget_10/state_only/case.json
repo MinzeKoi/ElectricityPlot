@@ -1,0 +1,12 @@
+{
+  "source_seed": 2026,
+  "query_seed": 2026,
+  "household_id": "3",
+  "variant": "random",
+  "budget": 10,
+  "future_partition": "frozen_test_house_3",
+  "path": "cases/seed_2026/house_3/query_2026/random/budget_10/state_only",
+  "mode": "state_only",
+  "model_id": "a3-state-b37d945b7a9dd55f",
+  "base_prediction": "cache/seed_2026/frozen_test_house_3/predictions.json"
+}

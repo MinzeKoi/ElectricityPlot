@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "status": "trained",
+  "project": "ElectricityPlot",
+  "kind": "small_seq2point",
+  "created_at": "2026-10-22T04:17:35.056821+00:00",
+  "appliances": [
+    "kettle",
+    "microwave",
+    "washing_machine"
+  ],
+  "settings": {
+    "schema_version": 1,
+    "window_samples": 31,
+    "channels": 24,
+    "hidden_units": 96,
+    "epochs": 12,
+    "batch_size": 256,
+    "learning_rate": 0.001,
+    "active_loss_weight": 50.0,
+    "seed": 42,
+    "cpu_threads": 4,
+    "on_thresholds_w": {
+      "kettle": 2000.0,
+      "microwave": 200.0,
+      "washing_machine": 20.0
+    }
+  },
+  "sample_interval_seconds": 8,
+  "protocol_sha256": "e6356bf007fb8c0302008e1f18bd039f8651456172a7a062ac92133909b79084",
+  "protocol_id": "refit-r1-r0-dates-development-v1",
+  "purpose": "engineering_pilot_only",
+  "data_kind": "real_REFIT_complete_date_selected",
+  "code_sha256": "35da57b97d7e7dad4a88c42730b83fb07cb5e5d859da2134b6c21248ff7325bc",
+  "settings_sha256": null,
+  "input_log_mean": 5.370561599731445,
+  "input_log_std": 0.8337093591690063,
+  "power_scales_w": [
+    3019.5,
+    1351.125,
+    2349.0
+  ],
+  "source_train_windows": {
+    "source_train_house_2": 93213,
+    "source_train_house_19": 56856
+  },
+  "source_validation_windows": {
+    "source_validation_house_5": 120281
+  },
+  "training_households": [
+    "19",
+    "2"
+  ],
+  "validation_households": [
+    "5"
+  ],
+  "target_labels_read": false,
+  "adaptation": "a2_fixed_query_state_only",
+  "confidence": null,
+  "upstream_limitations": [
+    "Upstream gaps were forward-filled or zeroed; original missingness is not recoverable.",
+    "IAM spikes above 4000 W were replaced with zero upstream.",
+    "Issues=1 means the sum of IAM channels exceeds aggregate power.",
+    "Appliance identities describe monitored channels, not every appliance owned by a household."
+  ],
+  "state_definition": "A2 independent state score >= 0.5; frozen raw and corrected power",
+  "selected_epoch": null,
+  "weights": {
+    "path": "weights.pt",
+    "sha256": "1077362c8db7486700601719a98ed99bc2744c1da21d94d628e73a47c53595b2"
+  },
+  "validation_normalized_mae": 0.03134282864630222,
+  "checkpoint_metric": "normalized_mae",
+  "torch_version": "2.9.0+cpu",
+  "parameter_count": 73707,
+  "timing_seconds": {
+    "fit": 16.29675479999969,
+    "total": 23.26424810000026
+  },
+  "model_id": "a2-state-43618ac76bdc84ed",
+  "single_device_components": [
+    {
+      "model_sha256": "800dd0cd9ed1683404f65f101ebae63a0717534d4aef854d83faadcba514fc16",
+      "appliance": "kettle",
+      "selected_epoch": 9
+    },
+    {
+      "model_sha256": "373cfadf4a69c8cce6cab6a579b580bfd4c20d8d5f56ed3339fc13d36134ba12",
+      "appliance": "microwave",
+      "selected_epoch": 9
+    },
+    {
+      "model_sha256": "64295c1e726ab175771a0409fb9343cb5e506fcb1661f10bd629b6f3724a49f4",
+      "appliance": "washing_machine",
+      "selected_epoch": 7
+    }
+  ],
+  "packed_independent_networks": true,
+  "state_threshold_view": "raw_power_w",
+  "accuracy_usage": "development_only",
+  "accuracy_state_head": {
+    "schema_version": 1,
+    "variant": "L1",
+    "coefficients": {
+      "kettle": [
+        0.0,
+        1.0
+      ],
+      "microwave": [
+        -0.25,
+        1.0
+      ],
+      "washing_machine": [
+        -0.25,
+        1.0
+      ]
+    },
+    "active_appliances": [
+      "microwave",
+      "washing_machine"
+    ],
+    "normalizer": null
+  },
+  "base_model_id": "r1-single-packed-1077362c8db74867-a1-raw-state",
+  "base_model_manifest_sha256": "2b6b1c3a244fb747d2d6669daae370f00d4d0e5e5365ddc1478e48b2e8b5fd9e",
+  "power_output_frozen": true,
+  "target_pointwise_labels_read": false,
+  "target_weak_labels_read": true,
+  "query_summary": {
+    "budget_used": 10,
+    "responses": {
+      "kettle": {
+        "queries": 2,
+        "budget_fraction": 0.2,
+        "used": 0,
+        "not_used": 0,
+        "unsure": 2,
+        "skipped": 0,
+        "usable": 0,
+        "positive_fraction": null,
+        "single_class": false
+      },
+      "microwave": {
+        "queries": 5,
+        "budget_fraction": 0.5,
+        "used": 0,
+        "not_used": 3,
+        "unsure": 2,
+        "skipped": 0,
+        "usable": 3,
+        "positive_fraction": 0.0,
+        "single_class": true
+      },
+      "washing_machine": {
+        "queries": 3,
+        "budget_fraction": 0.3,
+        "used": 0,
+        "not_used": 3,
+        "unsure": 0,
+        "skipped": 0,
+        "usable": 3,
+        "positive_fraction": 0.0,
+        "single_class": true
+      }
+    },
+    "strategy": "random"
+  },
+  "queries_sha256": "2f755d8c84ef2b8207dea17152bd8f7850fe4029d6d7556375c72dcfa2bd97ca",
+  "accuracy_settings": {
+    "schema_version": 1,
+    "source_seeds": [
+      42,
+      1019,
+      2026
+    ],
+    "query_seeds": [
+      42,
+      1019,
+      2026
+    ],
+    "budgets": [
+      0,
+      5,
+      10,
+      20
+    ],
+    "primary_appliances": [
+      "kettle",
+      "microwave"
+    ],
+    "extension_appliances": [
+      "washing_machine"
+    ],
+    "variants": [
+      "L1",
+      "L2_max"
+    ],
+    "source_epochs": 80,
+    "source_learning_rate": 0.02,
+    "source_max_samples": 20000,
+    "source_positive_weight_cap": 20.0,
+    "target_epochs": 200,
+    "target_learning_rate": 0.05,
+    "bias_bound": 0.6931471805599453,
+    "single_class_bias_bound": 0.25,
+    "parameter_radius": 0.5,
+    "replay_samples": 512,
+    "replay_weight": 0.2,
+    "prior_l2": 0.1,
+    "smooth_temperature": 0.25,
+    "main_budget": 10,
+    "minimum_primary_f1_gain": 0.05,
+    "maximum_device_f1_drop": 0.02
+  },
+  "source_state_head": "a053e9d5cc2cad0b3154f9c1d2c1dc0652bb16be2346b071eef70dbed2680e04",
+  "adaptation_household_id": "17"
+}

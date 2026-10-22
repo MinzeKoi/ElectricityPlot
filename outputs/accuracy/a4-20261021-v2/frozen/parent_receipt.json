@@ -1,0 +1,15 @@
+{
+  "verification": {
+    "status": "a3_verified",
+    "cases": 252,
+    "metric_rows": 756,
+    "development_exit_passed": true,
+    "internal_gain_target_met": false,
+    "current_source_matches_execution": false,
+    "formal_evaluation": false,
+    "report": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\a3-20261021-v3\\report.html"
+  },
+  "a3_freeze_sha256": "de17537474af0fc564a6315005a005be643d27f73b711714784337bc8204a04f",
+  "a3_evidence_sha256": "8fbe717f40301dc806bed2a69528290e13b9d715a00fe65753724a306567a41e",
+  "historical_development_labels_already_viewed": true
+}

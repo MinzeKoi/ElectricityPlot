@@ -1,0 +1,639 @@
+{
+  "source_sha256": "fc5471adf36c69fa65438270b4f95a51d2d7630b5461ca2db74652b41b15e10b",
+  "receipt_sha256": "510b0bafb9128e2d5eac4fe3852605e0b13a5b026828e69d2144332ebc9b7335",
+  "source_kind": "real_complete",
+  "raw_rows": 5383993,
+  "first_observation": "2014-03-07T16:20:20Z",
+  "last_observation": "2015-07-10T11:56:35Z",
+  "grid_start": "2014-03-07T16:20:16Z",
+  "grid_bins": 5290023,
+  "interval_histogram_seconds": {
+    "1": 538277,
+    "2": 214053,
+    "3": 205786,
+    "4": 120133,
+    "5": 74382,
+    "6": 779418,
+    "7": 2140306,
+    "8": 227888,
+    "9": 58489,
+    "10": 74099,
+    "11": 97374,
+    "12": 101677,
+    "13": 134426,
+    "14": 357951,
+    "15": 241811,
+    "16": 4193,
+    "17": 1075,
+    "18": 925,
+    "19": 1095,
+    "20": 1104,
+    "21": 497,
+    "22": 329,
+    "23": 320,
+    "24": 436,
+    "25": 381,
+    "26": 219,
+    "27": 135,
+    "28": 130,
+    "29": 168,
+    "30": 143,
+    "31": 99,
+    "32": 45,
+    "33": 52,
+    "34": 4236,
+    "35": 369,
+    "36": 46,
+    "37": 44,
+    "38": 24,
+    "39": 27,
+    "40": 26,
+    "41": 33,
+    "42": 26,
+    "43": 14,
+    "44": 30,
+    "45": 15,
+    "46": 24,
+    "47": 21,
+    "48": 13,
+    "49": 17,
+    "50": 14,
+    "51": 11,
+    "52": 11,
+    "53": 8,
+    "54": 5,
+    "55": 10,
+    "56": 12,
+    "57": 8,
+    "58": 7,
+    "59": 4,
+    "60": 8,
+    "61": 5,
+    "62": 2,
+    "63": 5,
+    "64": 7,
+    "65": 2,
+    "66": 646,
+    "67": 218,
+    "68": 3,
+    "69": 75,
+    "70": 13,
+    "71": 6,
+    "72": 2,
+    "73": 5,
+    "74": 73,
+    "75": 18,
+    "76": 34,
+    "77": 27,
+    "78": 9,
+    "79": 1,
+    "80": 4,
+    "81": 5,
+    "82": 1,
+    "83": 2,
+    "84": 3,
+    "86": 3,
+    "87": 1,
+    "88": 4,
+    "89": 1,
+    "90": 1,
+    "91": 3,
+    "92": 1,
+    "93": 6,
+    "94": 4,
+    "95": 2,
+    "96": 3,
+    "97": 2,
+    "98": 1,
+    "99": 1,
+    "100": 1,
+    "101": 1,
+    "102": 1,
+    "104": 4,
+    "105": 3,
+    "106": 1,
+    "108": 5,
+    "109": 2,
+    "110": 1,
+    "111": 1,
+    "112": 1,
+    "116": 1,
+    "117": 2,
+    "118": 1,
+    "119": 1,
+    "124": 1,
+    "125": 1,
+    "127": 2,
+    "129": 1,
+    "131": 2,
+    "136": 1,
+    "137": 2,
+    "140": 2,
+    "141": 1,
+    "142": 1,
+    "143": 2,
+    "144": 3,
+    "145": 1,
+    "146": 2,
+    "147": 2,
+    "148": 6,
+    "150": 7,
+    "151": 4,
+    "152": 4,
+    "153": 3,
+    "154": 3,
+    "155": 4,
+    "156": 4,
+    "157": 6,
+    "158": 6,
+    "159": 2,
+    "160": 2,
+    "161": 5,
+    "162": 4,
+    "163": 2,
+    "164": 2,
+    "165": 4,
+    "166": 2,
+    "167": 3,
+    "168": 2,
+    "169": 2,
+    "170": 5,
+    "171": 1,
+    "172": 1,
+    "173": 4,
+    "174": 1,
+    "176": 3,
+    "177": 1,
+    "178": 1,
+    "179": 2,
+    "180": 2,
+    "181": 1,
+    "182": 2,
+    "183": 1,
+    "184": 1,
+    "186": 2,
+    "187": 1,
+    "189": 2,
+    "190": 2,
+    "191": 2,
+    "192": 2,
+    "193": 2,
+    "195": 1,
+    "196": 1,
+    "199": 1,
+    "200": 1,
+    "201": 2,
+    "203": 1,
+    "205": 2,
+    "210": 1,
+    "212": 1,
+    "218": 1,
+    "226": 1,
+    "234": 1,
+    "238": 1,
+    "242": 1,
+    "247": 1,
+    "250": 1,
+    "256": 1,
+    "261": 2,
+    "265": 3,
+    "268": 1,
+    "270": 1,
+    "274": 1,
+    "278": 1,
+    "282": 2,
+    "284": 1,
+    "285": 2,
+    "287": 1,
+    "289": 2,
+    "294": 1,
+    "296": 1,
+    "305": 2,
+    "307": 1,
+    "311": 1,
+    "316": 1,
+    "318": 1,
+    "320": 1,
+    "323": 1,
+    "325": 1,
+    "327": 1,
+    "330": 1,
+    "331": 1,
+    "333": 1,
+    "335": 1,
+    "343": 1,
+    "346": 2,
+    "347": 1,
+    "354": 1,
+    "363": 1,
+    "369": 1,
+    "372": 1,
+    "389": 1,
+    "400": 1,
+    "402": 2,
+    "404": 1,
+    "415": 1,
+    "435": 1,
+    "436": 1,
+    "522": 1,
+    "525": 1,
+    "530": 1,
+    "534": 1,
+    "559": 1,
+    "589": 1,
+    "608": 1,
+    "612": 1,
+    "613": 1,
+    "621": 1,
+    "628": 1,
+    "634": 1,
+    "653": 2,
+    "657": 1,
+    "666": 1,
+    "708": 1,
+    "726": 1,
+    "734": 1,
+    "737": 1,
+    "742": 1,
+    "755": 1,
+    "775": 1,
+    "778": 1,
+    "786": 1,
+    "787": 1,
+    "797": 1,
+    "800": 1,
+    "812": 1,
+    "814": 1,
+    "823": 1,
+    "827": 1,
+    "836": 1,
+    "861": 1,
+    "862": 1,
+    "880": 1,
+    "883": 1,
+    "891": 1,
+    "893": 1,
+    "1037": 1,
+    "1116": 1,
+    "1207": 1,
+    "1239": 1,
+    "1242": 1,
+    "1289": 1,
+    "1320": 1,
+    "1376": 1,
+    "1407": 1,
+    "1601": 1,
+    "1840": 1,
+    "1979": 1,
+    "2192": 1,
+    "2258": 1,
+    "2287": 1,
+    "2355": 1,
+    "2402": 1,
+    "2425": 1,
+    "2984": 1,
+    "3344": 1,
+    "3599": 1,
+    "3602": 1,
+    "3603": 1,
+    "3607": 1,
+    "3609": 1,
+    "3666": 1,
+    "4462": 1,
+    "6303": 1,
+    "14238": 1,
+    "20749": 1,
+    "46719": 1,
+    "71251": 1,
+    "86937": 1,
+    "99205": 1,
+    "128515": 1,
+    "129814": 1,
+    "198422": 1,
+    "376526": 1,
+    "649245": 1,
+    "747252": 1,
+    "1268252": 1
+  },
+  "issues_rows": 206832,
+  "issues_row_fraction": 0.038416097494926166,
+  "timestamp_support_complete_bin_coverage": 0.591488921692779,
+  "channels": {
+    "aggregate": {
+      "raw_invalid_rows": 0,
+      "raw_nonmissing_supported_rows": 5383993,
+      "coverage": 0.591488921692779,
+      "valid_days": 289.7212962962963,
+      "missing_bin_decomposition": {
+        "timestamp_gap_or_partial_boundary": 2161033,
+        "additional_invalid_channel_value": 0,
+        "additional_issues_mask": 0
+      },
+      "run_count": 410016,
+      "longest_seconds": 437168,
+      "top_five": [
+        {
+          "start": "2015-04-07T14:33:20Z",
+          "end": "2015-04-12T15:59:28Z",
+          "seconds": 437168
+        },
+        {
+          "start": "2015-04-16T05:10:00Z",
+          "end": "2015-04-20T16:00:32Z",
+          "seconds": 384632
+        },
+        {
+          "start": "2015-04-24T19:30:16Z",
+          "end": "2015-04-28T12:24:56Z",
+          "seconds": 320080
+        },
+        {
+          "start": "2015-05-01T03:10:24Z",
+          "end": "2015-05-04T07:49:44Z",
+          "seconds": 275960
+        },
+        {
+          "start": "2014-11-21T02:09:28Z",
+          "end": "2014-11-23T18:41:20Z",
+          "seconds": 232312
+        }
+      ]
+    },
+    "kettle": {
+      "raw_invalid_rows": 0,
+      "raw_nonmissing_supported_rows": 5383993,
+      "coverage": 0.5647323272507511,
+      "valid_days": 276.61546296296297,
+      "missing_bin_decomposition": {
+        "timestamp_gap_or_partial_boundary": 2161033,
+        "additional_invalid_channel_value": 0,
+        "additional_issues_mask": 141543
+      },
+      "run_count": 405183,
+      "longest_seconds": 206536,
+      "top_five": [
+        {
+          "start": "2015-06-06T09:25:12Z",
+          "end": "2015-06-08T18:47:28Z",
+          "seconds": 206536
+        },
+        {
+          "start": "2015-06-25T18:16:08Z",
+          "end": "2015-06-27T15:09:44Z",
+          "seconds": 161616
+        },
+        {
+          "start": "2015-06-20T16:11:36Z",
+          "end": "2015-06-22T12:49:44Z",
+          "seconds": 160688
+        },
+        {
+          "start": "2015-06-19T08:42:08Z",
+          "end": "2015-06-20T16:07:12Z",
+          "seconds": 113104
+        },
+        {
+          "start": "2015-07-03T14:03:44Z",
+          "end": "2015-07-04T20:28:32Z",
+          "seconds": 109488
+        }
+      ]
+    },
+    "washing_machine": {
+      "raw_invalid_rows": 0,
+      "raw_nonmissing_supported_rows": 5383993,
+      "coverage": 0.5647323272507511,
+      "valid_days": 276.61546296296297,
+      "missing_bin_decomposition": {
+        "timestamp_gap_or_partial_boundary": 2161033,
+        "additional_invalid_channel_value": 0,
+        "additional_issues_mask": 141543
+      },
+      "run_count": 405183,
+      "longest_seconds": 206536,
+      "top_five": [
+        {
+          "start": "2015-06-06T09:25:12Z",
+          "end": "2015-06-08T18:47:28Z",
+          "seconds": 206536
+        },
+        {
+          "start": "2015-06-25T18:16:08Z",
+          "end": "2015-06-27T15:09:44Z",
+          "seconds": 161616
+        },
+        {
+          "start": "2015-06-20T16:11:36Z",
+          "end": "2015-06-22T12:49:44Z",
+          "seconds": 160688
+        },
+        {
+          "start": "2015-06-19T08:42:08Z",
+          "end": "2015-06-20T16:07:12Z",
+          "seconds": 113104
+        },
+        {
+          "start": "2015-07-03T14:03:44Z",
+          "end": "2015-07-04T20:28:32Z",
+          "seconds": 109488
+        }
+      ]
+    }
+  },
+  "common_support": {
+    "coverage": 0.5647323272507511,
+    "valid_days": 276.61546296296297,
+    "run_count": 405183,
+    "longest_seconds": 206536,
+    "top_five": [
+      {
+        "start": "2015-06-06T09:25:12Z",
+        "end": "2015-06-08T18:47:28Z",
+        "seconds": 206536
+      },
+      {
+        "start": "2015-06-25T18:16:08Z",
+        "end": "2015-06-27T15:09:44Z",
+        "seconds": 161616
+      },
+      {
+        "start": "2015-06-20T16:11:36Z",
+        "end": "2015-06-22T12:49:44Z",
+        "seconds": 160688
+      },
+      {
+        "start": "2015-06-19T08:42:08Z",
+        "end": "2015-06-20T16:07:12Z",
+        "seconds": 113104
+      },
+      {
+        "start": "2015-07-03T14:03:44Z",
+        "end": "2015-07-04T20:28:32Z",
+        "seconds": 109488
+      }
+    ]
+  },
+  "original_earliest_28_days": {
+    "start": "2014-03-07T16:20:16Z",
+    "end": "2014-04-04T16:20:16Z",
+    "channels": {
+      "aggregate": {
+        "adaptation": {
+          "coverage": 0.3568253968253968,
+          "valid_days": 4.995555555555556,
+          "passes": false
+        },
+        "future": {
+          "coverage": 0.3840066334991708,
+          "valid_days": 5.360092592592593,
+          "passes": false
+        }
+      },
+      "kettle": {
+        "adaptation": {
+          "coverage": 0.3493584656084656,
+          "valid_days": 4.891018518518519,
+          "passes": false
+        },
+        "future": {
+          "coverage": 0.3724179104477612,
+          "valid_days": 5.198333333333333,
+          "passes": false
+        }
+      },
+      "washing_machine": {
+        "adaptation": {
+          "coverage": 0.3493584656084656,
+          "valid_days": 4.891018518518519,
+          "passes": false
+        },
+        "future": {
+          "coverage": 0.3724179104477612,
+          "valid_days": 5.198333333333333,
+          "passes": false
+        }
+      }
+    },
+    "all_present_channels_pass": false,
+    "query_input_support": {
+      "complete_aggregate_slots": 0,
+      "complete_slots_with_31_bin_context": 0,
+      "per_appliance_upper_bound": 0,
+      "household_three_appliance_upper_bound": 0,
+      "supports_budget_20_before_model_check": false
+    }
+  },
+  "all_aligned_28_day_windows": {
+    "windows_examined": 4987624,
+    "passing_window_count": 705872,
+    "first_pass": {
+      "start": "2014-11-10T01:18:16Z",
+      "end": "2014-12-08T01:18:16Z",
+      "channels": {
+        "aggregate": {
+          "adaptation": {
+            "coverage": 0.9546494708994709,
+            "valid_days": 13.365092592592593,
+            "passes": true
+          },
+          "future": {
+            "coverage": 0.998971807628524,
+            "valid_days": 13.943981481481481,
+            "passes": true
+          }
+        },
+        "kettle": {
+          "adaptation": {
+            "coverage": 0.9,
+            "valid_days": 12.6,
+            "passes": true
+          },
+          "future": {
+            "coverage": 0.966155887230514,
+            "valid_days": 13.485925925925926,
+            "passes": true
+          }
+        },
+        "washing_machine": {
+          "adaptation": {
+            "coverage": 0.9,
+            "valid_days": 12.6,
+            "passes": true
+          },
+          "future": {
+            "coverage": 0.966155887230514,
+            "valid_days": 13.485925925925926,
+            "passes": true
+          }
+        }
+      },
+      "all_present_channels_pass": true,
+      "query_input_support": {
+        "complete_aggregate_slots": 910,
+        "complete_slots_with_31_bin_context": 903,
+        "per_appliance_upper_bound": 903,
+        "household_three_appliance_upper_bound": 2709,
+        "supports_budget_20_before_model_check": true
+      }
+    },
+    "best_minimum_partition_channel_coverage": 0.9573200663349917,
+    "best_support": {
+      "start": "2014-11-18T13:35:36Z",
+      "end": "2014-12-16T13:35:36Z",
+      "channels": {
+        "aggregate": {
+          "adaptation": {
+            "coverage": 0.9989748677248678,
+            "valid_days": 13.985648148148147,
+            "passes": true
+          },
+          "future": {
+            "coverage": 0.9963383084577114,
+            "valid_days": 13.907222222222222,
+            "passes": true
+          }
+        },
+        "kettle": {
+          "adaptation": {
+            "coverage": 0.9601124338624338,
+            "valid_days": 13.441574074074074,
+            "passes": true
+          },
+          "future": {
+            "coverage": 0.9573200663349917,
+            "valid_days": 13.362592592592593,
+            "passes": true
+          }
+        },
+        "washing_machine": {
+          "adaptation": {
+            "coverage": 0.9601124338624338,
+            "valid_days": 13.441574074074074,
+            "passes": true
+          },
+          "future": {
+            "coverage": 0.9573200663349917,
+            "valid_days": 13.362592592592593,
+            "passes": true
+          }
+        }
+      },
+      "all_present_channels_pass": true,
+      "query_input_support": {
+        "complete_aggregate_slots": 970,
+        "complete_slots_with_31_bin_context": 962,
+        "per_appliance_upper_bound": 962,
+        "household_three_appliance_upper_bound": 2886,
+        "supports_budget_20_before_model_check": true
+      }
+    },
+    "best_support_purpose": "diagnostic only; not date selection"
+  },
+  "household_id": "21",
+  "reserved_role": "excluded_known_pv",
+  "missing_required_channels": [
+    "microwave"
+  ],
+  "strict_time_support_pass": false,
+  "formal_admission": false
+}

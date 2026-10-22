@@ -1,0 +1,28 @@
+{
+  "status": "reproduction_verified",
+  "same_machine": true,
+  "independent_team_member": false,
+  "baselines": {
+    "single_kettle": {
+      "predictions_exact_match": true,
+      "metrics_exact_match": true,
+      "rows": 13506
+    },
+    "seq2point": {
+      "predictions_exact_match": true,
+      "metrics_exact_match": true,
+      "rows": 13506
+    },
+    "constant_mean": {
+      "predictions_exact_match": true,
+      "metrics_exact_match": true,
+      "rows": 13506
+    },
+    "zero": {
+      "predictions_exact_match": true,
+      "metrics_exact_match": true,
+      "rows": 13506
+    }
+  },
+  "local_ui_health": "ok"
+}

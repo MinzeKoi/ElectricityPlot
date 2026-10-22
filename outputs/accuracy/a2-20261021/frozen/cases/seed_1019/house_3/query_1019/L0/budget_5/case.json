@@ -1,0 +1,13 @@
+{
+  "path": "cases/seed_1019/house_3/query_1019/L0/budget_5",
+  "source_seed": 1019,
+  "query_seed": 1019,
+  "household_id": "3",
+  "variant": "L0",
+  "budget": 5,
+  "future_partition": "frozen_test_house_3",
+  "base_prediction": "cache/seed_1019/house_3/frozen_test_house_3/predictions.json",
+  "query_prefix_sha256": "7c8e566f6ceaa55323b6a54b2703f18a2e9434187a41711f503963096d025fe0",
+  "model_id": "a2-state-e04ce75731d63ccf",
+  "adaptation_seconds": 0.3253041000007215
+}

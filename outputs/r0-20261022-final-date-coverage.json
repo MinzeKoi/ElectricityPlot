@@ -1,0 +1,272 @@
+{
+  "schema_version": 1,
+  "prepared_manifest_sha256": "7a33e977b270cc51816971714950f15391e0864554cf831dac4971911d329e42",
+  "prepared_manifest": "data\\processed\\refit_r0_final_dates_20261022\\manifest.json",
+  "scope": "coverage_only_no_events_or_model_scores",
+  "split_gap_seconds": 3600,
+  "minimum_coverage": 0.9,
+  "minimum_valid_days_per_partition": 7,
+  "known_pv_notes_in_original_refit_readme": [
+    "11",
+    "21"
+  ],
+  "other_literature_pv_conflicts_pending_review": [
+    "3",
+    "13"
+  ],
+  "final_households": [],
+  "households": [
+    {
+      "household_id": "8",
+      "start": "2014-10-10T08:25:44Z",
+      "end": "2014-11-07T08:25:44Z",
+      "role": "unassigned_candidate",
+      "source_kind": "real_complete",
+      "coverage_and_duration_candidate_pass": true,
+      "pv_storage_qualification": "No explicit PV note for these households in retrieved README; absence of a note is not confirmation of no generation/storage.",
+      "final_admission": "not_frozen",
+      "channels": {
+        "aggregate": {
+          "adaptation": {
+            "bins": 151200,
+            "valid_bins": 139168,
+            "expected_bins": 151200,
+            "coverage": 0.9204232804232805,
+            "valid_days": 12.885925925925926,
+            "passes_coverage_and_days": true
+          },
+          "future": {
+            "bins": 150750,
+            "valid_bins": 136183,
+            "expected_bins": 150750,
+            "coverage": 0.9033698175787728,
+            "valid_days": 12.609537037037038,
+            "passes_coverage_and_days": true
+          }
+        },
+        "kettle": {
+          "adaptation": {
+            "bins": 151200,
+            "valid_bins": 138369,
+            "expected_bins": 151200,
+            "coverage": 0.9151388888888888,
+            "valid_days": 12.811944444444444,
+            "passes_coverage_and_days": true
+          },
+          "future": {
+            "bins": 150750,
+            "valid_bins": 135675,
+            "expected_bins": 150750,
+            "coverage": 0.9,
+            "valid_days": 12.5625,
+            "passes_coverage_and_days": true
+          }
+        },
+        "microwave": {
+          "adaptation": {
+            "bins": 151200,
+            "valid_bins": 138369,
+            "expected_bins": 151200,
+            "coverage": 0.9151388888888888,
+            "valid_days": 12.811944444444444,
+            "passes_coverage_and_days": true
+          },
+          "future": {
+            "bins": 150750,
+            "valid_bins": 135675,
+            "expected_bins": 150750,
+            "coverage": 0.9,
+            "valid_days": 12.5625,
+            "passes_coverage_and_days": true
+          }
+        },
+        "washing_machine": {
+          "adaptation": {
+            "bins": 151200,
+            "valid_bins": 138369,
+            "expected_bins": 151200,
+            "coverage": 0.9151388888888888,
+            "valid_days": 12.811944444444444,
+            "passes_coverage_and_days": true
+          },
+          "future": {
+            "bins": 150750,
+            "valid_bins": 135675,
+            "expected_bins": 150750,
+            "coverage": 0.9,
+            "valid_days": 12.5625,
+            "passes_coverage_and_days": true
+          }
+        }
+      }
+    },
+    {
+      "household_id": "9",
+      "start": "2014-09-30T12:46:16Z",
+      "end": "2014-10-28T12:46:16Z",
+      "role": "unassigned_candidate",
+      "source_kind": "real_complete",
+      "coverage_and_duration_candidate_pass": true,
+      "pv_storage_qualification": "No explicit PV note for these households in retrieved README; absence of a note is not confirmation of no generation/storage.",
+      "final_admission": "not_frozen",
+      "channels": {
+        "aggregate": {
+          "adaptation": {
+            "bins": 151200,
+            "valid_bins": 136788,
+            "expected_bins": 151200,
+            "coverage": 0.9046825396825396,
+            "valid_days": 12.665555555555555,
+            "passes_coverage_and_days": true
+          },
+          "future": {
+            "bins": 150750,
+            "valid_bins": 136347,
+            "expected_bins": 150750,
+            "coverage": 0.9044577114427861,
+            "valid_days": 12.624722222222223,
+            "passes_coverage_and_days": true
+          }
+        },
+        "kettle": {
+          "adaptation": {
+            "bins": 151200,
+            "valid_bins": 136080,
+            "expected_bins": 151200,
+            "coverage": 0.9,
+            "valid_days": 12.6,
+            "passes_coverage_and_days": true
+          },
+          "future": {
+            "bins": 150750,
+            "valid_bins": 135761,
+            "expected_bins": 150750,
+            "coverage": 0.9005704809286899,
+            "valid_days": 12.570462962962964,
+            "passes_coverage_and_days": true
+          }
+        },
+        "microwave": {
+          "adaptation": {
+            "bins": 151200,
+            "valid_bins": 136080,
+            "expected_bins": 151200,
+            "coverage": 0.9,
+            "valid_days": 12.6,
+            "passes_coverage_and_days": true
+          },
+          "future": {
+            "bins": 150750,
+            "valid_bins": 135761,
+            "expected_bins": 150750,
+            "coverage": 0.9005704809286899,
+            "valid_days": 12.570462962962964,
+            "passes_coverage_and_days": true
+          }
+        },
+        "washing_machine": {
+          "adaptation": {
+            "bins": 151200,
+            "valid_bins": 136080,
+            "expected_bins": 151200,
+            "coverage": 0.9,
+            "valid_days": 12.6,
+            "passes_coverage_and_days": true
+          },
+          "future": {
+            "bins": 150750,
+            "valid_bins": 135761,
+            "expected_bins": 150750,
+            "coverage": 0.9005704809286899,
+            "valid_days": 12.570462962962964,
+            "passes_coverage_and_days": true
+          }
+        }
+      }
+    },
+    {
+      "household_id": "20",
+      "start": "2014-09-29T15:00:16Z",
+      "end": "2014-10-27T15:00:16Z",
+      "role": "unassigned_candidate",
+      "source_kind": "real_complete",
+      "coverage_and_duration_candidate_pass": true,
+      "pv_storage_qualification": "No explicit PV note for these households in retrieved README; absence of a note is not confirmation of no generation/storage.",
+      "final_admission": "not_frozen",
+      "channels": {
+        "aggregate": {
+          "adaptation": {
+            "bins": 151200,
+            "valid_bins": 136541,
+            "expected_bins": 151200,
+            "coverage": 0.9030489417989418,
+            "valid_days": 12.642685185185185,
+            "passes_coverage_and_days": true
+          },
+          "future": {
+            "bins": 150750,
+            "valid_bins": 150327,
+            "expected_bins": 150750,
+            "coverage": 0.9971940298507462,
+            "valid_days": 13.919166666666667,
+            "passes_coverage_and_days": true
+          }
+        },
+        "kettle": {
+          "adaptation": {
+            "bins": 151200,
+            "valid_bins": 136080,
+            "expected_bins": 151200,
+            "coverage": 0.9,
+            "valid_days": 12.6,
+            "passes_coverage_and_days": true
+          },
+          "future": {
+            "bins": 150750,
+            "valid_bins": 149712,
+            "expected_bins": 150750,
+            "coverage": 0.9931144278606965,
+            "valid_days": 13.862222222222222,
+            "passes_coverage_and_days": true
+          }
+        },
+        "microwave": {
+          "adaptation": {
+            "bins": 151200,
+            "valid_bins": 136080,
+            "expected_bins": 151200,
+            "coverage": 0.9,
+            "valid_days": 12.6,
+            "passes_coverage_and_days": true
+          },
+          "future": {
+            "bins": 150750,
+            "valid_bins": 149712,
+            "expected_bins": 150750,
+            "coverage": 0.9931144278606965,
+            "valid_days": 13.862222222222222,
+            "passes_coverage_and_days": true
+          }
+        },
+        "washing_machine": {
+          "adaptation": {
+            "bins": 151200,
+            "valid_bins": 136080,
+            "expected_bins": 151200,
+            "coverage": 0.9,
+            "valid_days": 12.6,
+            "passes_coverage_and_days": true
+          },
+          "future": {
+            "bins": 150750,
+            "valid_bins": 149712,
+            "expected_bins": 150750,
+            "coverage": 0.9931144278606965,
+            "valid_days": 13.862222222222222,
+            "passes_coverage_and_days": true
+          }
+        }
+      }
+    }
+  ]
+}

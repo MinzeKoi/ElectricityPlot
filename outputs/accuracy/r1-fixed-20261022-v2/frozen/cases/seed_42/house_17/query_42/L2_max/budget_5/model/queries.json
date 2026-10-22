@@ -1,0 +1,70 @@
+{
+  "records": [
+    {
+      "query_id": "ee1eb8c688660af0d40c4aa7",
+      "household_id": "17",
+      "window_start": "2014-10-14T07:13:12Z",
+      "window_end": "2014-10-14T07:33:12Z",
+      "appliance_type": "microwave",
+      "response": "not_used",
+      "label_source": "simulated_from_submeter",
+      "selection_strategy": "random",
+      "model_version": "r1-single-packed-1077362c8db74867-a1-raw-state",
+      "budget_before": 0,
+      "budget_after": 1
+    },
+    {
+      "query_id": "ec6cd000c4d928b9dbd2b5c2",
+      "household_id": "17",
+      "window_start": "2014-10-13T11:13:12Z",
+      "window_end": "2014-10-13T11:33:12Z",
+      "appliance_type": "kettle",
+      "response": "not_used",
+      "label_source": "simulated_from_submeter",
+      "selection_strategy": "random",
+      "model_version": "r1-single-packed-1077362c8db74867-a1-raw-state",
+      "budget_before": 1,
+      "budget_after": 2
+    },
+    {
+      "query_id": "ebc409e230da17bfc6b71a93",
+      "household_id": "17",
+      "window_start": "2014-10-14T03:33:12Z",
+      "window_end": "2014-10-14T03:53:12Z",
+      "appliance_type": "washing_machine",
+      "response": "not_used",
+      "label_source": "simulated_from_submeter",
+      "selection_strategy": "random",
+      "model_version": "r1-single-packed-1077362c8db74867-a1-raw-state",
+      "budget_before": 2,
+      "budget_after": 3
+    },
+    {
+      "query_id": "2980e664dc71d18b8b36ffa1",
+      "household_id": "17",
+      "window_start": "2014-10-13T16:13:12Z",
+      "window_end": "2014-10-13T16:33:12Z",
+      "appliance_type": "microwave",
+      "response": "not_used",
+      "label_source": "simulated_from_submeter",
+      "selection_strategy": "random",
+      "model_version": "r1-single-packed-1077362c8db74867-a1-raw-state",
+      "budget_before": 3,
+      "budget_after": 4
+    },
+    {
+      "query_id": "29bb4154d378dd1005efb34d",
+      "household_id": "17",
+      "window_start": "2014-10-13T09:53:12Z",
+      "window_end": "2014-10-13T10:13:12Z",
+      "appliance_type": "microwave",
+      "response": "not_used",
+      "label_source": "simulated_from_submeter",
+      "selection_strategy": "random",
+      "model_version": "r1-single-packed-1077362c8db74867-a1-raw-state",
+      "budget_before": 4,
+      "budget_after": 5
+    }
+  ],
+  "budget_used": 5
+}

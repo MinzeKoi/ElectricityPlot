@@ -1,0 +1,11 @@
+{
+  "status": "prediction_complete",
+  "run_id": "a3-model-prediction",
+  "rows": 21150,
+  "model_id": "a3-state-20ba06f64670b76a",
+  "report": "outputs\\accuracy\\a3-model-prediction\\report.html",
+  "target_labels_parsed": false,
+  "source_seed": 42,
+  "query_seed": 42,
+  "budget": 10
+}

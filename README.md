@@ -24,6 +24,21 @@ R1 已完成新来源/开发训练与固定确认比较：冻结三种子单设�
 - 用户确认是“这段时间是否使用过该电器”的弱标签，不等于获得逐点功率答案。
 - 未解释负荷可能包含未建模设备、测量误差与模型误差，不直接命名为某台未知设备。
 
+## 跨设备同步
+
+请先安装 Git LFS，再克隆仓库并下载模型和实验输出：
+
+```powershell
+git lfs install
+git clone https://github.com/MinzeKoi/ElectricityPlot.git
+cd ElectricityPlot
+git lfs pull
+```
+
+已有检出运行 `git pull` 和 `git lfs pull`。随后按下方依赖文件重建 Python 环境。模型和实验产物体积较大，请预留足够磁盘空间；下载受仓库 Git LFS 配额限制。原始数据和处理后数据按用户选择不上传，需按下方命令重新下载、处理；环境、缓存和第三方工具安装目录不上传。
+
+本次发现部分本机目录存在读取权限错误，其内容尚无法同步；完整路径见 [无法读取的目录清单](docs/SYNC_UNREADABLE_PATHS.json)。历史交接文档中的“不进入 Git”描述记录当时策略，以本节当前同步规则为准。
+
 ## 开始使用
 
 要求 Python 3.11 或更新版本；本机实测为 Python 3.13.5。M1 只使用标准库，无第三方运行依赖。
@@ -50,7 +65,7 @@ python scripts/project.py freeze-protocol --prepared data/processed/refit_m1 --o
 python scripts/verify_m1.py --prepared data/processed/refit_m1 --protocol data/processed/refit_m1_protocol
 ```
 
-打开 `data/processed/refit_m1/quality.html` 查看离线质量视图。真实文件、派生数据和协议均仅保存在本机，不进入 Git。来源、许可、实际通道、覆盖率、局限和下一步见 [M1 交接记录](docs/M1_HANDOFF.md)。当前划分明确标为 `engineering_pilot_only`，不用于正式效果声明。
+打开 `data/processed/refit_m1/quality.html` 查看离线质量视图。真实文件、派生数据和协议不上传，换机器请按上述命令重新获取。来源、许可、实际通道、覆盖率、局限和下一步见 [M1 交接记录](docs/M1_HANDOFF.md)。当前划分明确标为 `engineering_pilot_only`，不用于正式效果声明。
 
 用户总表 CSV 的最小字段为 `household_id,timestamp,aggregate_power_w`，时间必须带时区，空功率表示缺失，必须显式声明单位 W。合成契约样例可这样检查：
 
@@ -75,7 +90,7 @@ python -m venv .venv-m2
 .\.venv-m2\Scripts\python.exe -m streamlit run scripts/app.py
 ```
 
-访问 `http://127.0.0.1:8501`，可选择已有数据分区或上传总表 CSV，查看历史曲线，下载 HTML 报告和预测 CSV。已有模型默认在 `outputs/m2-20261020/seq2point`；换机器需先训练，不能依赖未提交的本机权重。
+访问 `http://127.0.0.1:8501`，可选择已有数据分区或上传总表 CSV，查看历史曲线，下载 HTML 报告和预测 CSV。已有模型默认在 `outputs/m2-20261020/seq2point`；换机器请先运行 `git lfs pull` 下载已同步的模型；如目录仍缺失，则需要重新训练（见下方同步限制）。
 
 一次复跑单水壶、三设备 CNN、来源均值和零预测四个基线；输出目录必须是新目录：
 

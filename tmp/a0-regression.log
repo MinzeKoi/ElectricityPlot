@@ -1,0 +1,179 @@
+{
+  "status": "regression_detected",
+  "regressions": [
+    {
+      "case": "house_3/random/seed_42/budget_5",
+      "appliance": "washing_machine",
+      "f1_delta": -0.189117199391172,
+      "pattern": "all_off"
+    },
+    {
+      "case": "house_3/random/seed_42/budget_10",
+      "appliance": "washing_machine",
+      "f1_delta": -0.189117199391172,
+      "pattern": "all_off"
+    },
+    {
+      "case": "house_3/random/seed_42/budget_20",
+      "appliance": "microwave",
+      "f1_delta": -0.23622047244094488,
+      "pattern": "mixed"
+    },
+    {
+      "case": "house_3/random/seed_42/budget_20",
+      "appliance": "washing_machine",
+      "f1_delta": -0.189117199391172,
+      "pattern": "all_off"
+    },
+    {
+      "case": "house_3/proposed/seed_42/budget_5",
+      "appliance": "washing_machine",
+      "f1_delta": -0.189117199391172,
+      "pattern": "all_off"
+    },
+    {
+      "case": "house_3/proposed/seed_42/budget_10",
+      "appliance": "washing_machine",
+      "f1_delta": -0.189117199391172,
+      "pattern": "all_off"
+    },
+    {
+      "case": "house_3/proposed/seed_42/budget_20",
+      "appliance": "kettle",
+      "f1_delta": -0.21621621621621623,
+      "pattern": "all_off"
+    },
+    {
+      "case": "house_3/proposed/seed_42/budget_20",
+      "appliance": "washing_machine",
+      "f1_delta": -0.189117199391172,
+      "pattern": "all_off"
+    },
+    {
+      "case": "house_3/random/seed_1019/budget_5",
+      "appliance": "microwave",
+      "f1_delta": -0.031092267312739758,
+      "pattern": "mixed"
+    },
+    {
+      "case": "house_3/random/seed_1019/budget_5",
+      "appliance": "washing_machine",
+      "f1_delta": -0.189117199391172,
+      "pattern": "all_off"
+    },
+    {
+      "case": "house_3/random/seed_1019/budget_10",
+      "appliance": "microwave",
+      "f1_delta": -0.0009263547938860583,
+      "pattern": "mixed"
+    },
+    {
+      "case": "house_3/random/seed_1019/budget_10",
+      "appliance": "washing_machine",
+      "f1_delta": -0.189117199391172,
+      "pattern": "all_off"
+    },
+    {
+      "case": "house_3/random/seed_1019/budget_20",
+      "appliance": "microwave",
+      "f1_delta": -0.23622047244094488,
+      "pattern": "all_off"
+    },
+    {
+      "case": "house_3/random/seed_1019/budget_20",
+      "appliance": "washing_machine",
+      "f1_delta": -0.189117199391172,
+      "pattern": "all_off"
+    },
+    {
+      "case": "house_3/proposed/seed_1019/budget_5",
+      "appliance": "washing_machine",
+      "f1_delta": -0.189117199391172,
+      "pattern": "all_off"
+    },
+    {
+      "case": "house_3/proposed/seed_1019/budget_10",
+      "appliance": "washing_machine",
+      "f1_delta": -0.189117199391172,
+      "pattern": "all_off"
+    },
+    {
+      "case": "house_3/proposed/seed_1019/budget_20",
+      "appliance": "kettle",
+      "f1_delta": -0.21621621621621623,
+      "pattern": "all_off"
+    },
+    {
+      "case": "house_3/proposed/seed_1019/budget_20",
+      "appliance": "washing_machine",
+      "f1_delta": -0.189117199391172,
+      "pattern": "all_off"
+    },
+    {
+      "case": "house_3/random/seed_2026/budget_5",
+      "appliance": "microwave",
+      "f1_delta": -0.23622047244094488,
+      "pattern": "all_off"
+    },
+    {
+      "case": "house_3/random/seed_2026/budget_5",
+      "appliance": "washing_machine",
+      "f1_delta": -0.189117199391172,
+      "pattern": "all_off"
+    },
+    {
+      "case": "house_3/random/seed_2026/budget_10",
+      "appliance": "microwave",
+      "f1_delta": -0.23622047244094488,
+      "pattern": "all_off"
+    },
+    {
+      "case": "house_3/random/seed_2026/budget_10",
+      "appliance": "washing_machine",
+      "f1_delta": -0.189117199391172,
+      "pattern": "all_off"
+    },
+    {
+      "case": "house_3/random/seed_2026/budget_20",
+      "appliance": "kettle",
+      "f1_delta": -0.042303172737955363,
+      "pattern": "mixed"
+    },
+    {
+      "case": "house_3/random/seed_2026/budget_20",
+      "appliance": "microwave",
+      "f1_delta": -0.23622047244094488,
+      "pattern": "all_off"
+    },
+    {
+      "case": "house_3/random/seed_2026/budget_20",
+      "appliance": "washing_machine",
+      "f1_delta": -0.189117199391172,
+      "pattern": "all_off"
+    },
+    {
+      "case": "house_3/proposed/seed_2026/budget_5",
+      "appliance": "washing_machine",
+      "f1_delta": -0.189117199391172,
+      "pattern": "all_off"
+    },
+    {
+      "case": "house_3/proposed/seed_2026/budget_10",
+      "appliance": "washing_machine",
+      "f1_delta": -0.189117199391172,
+      "pattern": "all_off"
+    },
+    {
+      "case": "house_3/proposed/seed_2026/budget_20",
+      "appliance": "kettle",
+      "f1_delta": -0.21621621621621623,
+      "pattern": "all_off"
+    },
+    {
+      "case": "house_3/proposed/seed_2026/budget_20",
+      "appliance": "washing_machine",
+      "f1_delta": -0.189117199391172,
+      "pattern": "all_off"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "records": [
+    {
+      "query_id": "ba819ba66ce84ed87542a359",
+      "household_id": "7",
+      "appliance_type": "washing_machine",
+      "window_start": "1970-01-01T00:11:44Z",
+      "window_end": "1970-01-01T00:12:00Z",
+      "response": "not_used",
+      "label_source": "simulated_from_submeter",
+      "selection_strategy": "uncertainty",
+      "model_version": "a5-state-a8621ebdb47a60c9",
+      "budget_before": 0,
+      "budget_after": 1
+    },
+    {
+      "query_id": "4072fbd0439090d5d9e131b3",
+      "household_id": "7",
+      "appliance_type": "washing_machine",
+      "window_start": "1970-01-01T00:03:28Z",
+      "window_end": "1970-01-01T00:03:44Z",
+      "response": "not_used",
+      "label_source": "simulated_from_submeter",
+      "selection_strategy": "uncertainty",
+      "model_version": "a5-state-a8621ebdb47a60c9",
+      "budget_before": 1,
+      "budget_after": 2
+    },
+    {
+      "query_id": "8fe8e499bb434a5cdad7f96d",
+      "household_id": "7",
+      "appliance_type": "washing_machine",
+      "window_start": "1970-01-01T00:07:44Z",
+      "window_end": "1970-01-01T00:08:00Z",
+      "response": "used",
+      "label_source": "simulated_from_submeter",
+      "selection_strategy": "uncertainty",
+      "model_version": "a5-state-a8621ebdb47a60c9",
+      "budget_before": 2,
+      "budget_after": 3
+    },
+    {
+      "query_id": "a4cb63c2f885153bff09b3ee",
+      "household_id": "7",
+      "appliance_type": "microwave",
+      "window_start": "1970-01-01T00:11:44Z",
+      "window_end": "1970-01-01T00:12:00Z",
+      "response": "not_used",
+      "label_source": "simulated_from_submeter",
+      "selection_strategy": "uncertainty",
+      "model_version": "a5-state-a8621ebdb47a60c9",
+      "budget_before": 3,
+      "budget_after": 4
+    },
+    {
+      "query_id": "f5f760d919ea8927daf38159",
+      "household_id": "7",
+      "appliance_type": "microwave",
+      "window_start": "1970-01-01T00:07:44Z",
+      "window_end": "1970-01-01T00:08:00Z",
+      "response": "not_used",
+      "label_source": "simulated_from_submeter",
+      "selection_strategy": "uncertainty",
+      "model_version": "a5-state-a8621ebdb47a60c9",
+      "budget_before": 4,
+      "budget_after": 5
+    }
+  ],
+  "budget_used": 5
+}

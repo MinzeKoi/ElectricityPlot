@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "project": "ElectricityPlot",
+  "dataset": "USER_AGGREGATE",
+  "license": null,
+  "citation": null,
+  "sample_interval_seconds": 8,
+  "catalog_sha256": "12a2d34ee169122c2e94e49e99f55e187da1ae33b135a9481977f0607b6b017a",
+  "upstream_limitations": [],
+  "households": {
+    "uploaded_home": {
+      "source_file": "uploaded.csv",
+      "source_sha256": "3ab72135a9ed48d8ced941bb03eb0e785b306b198b7b414d30b656e5777f0eca",
+      "provenance": null,
+      "channel_mapping": {},
+      "raw_intervals_seconds": {
+        "8": 63
+      },
+      "bins": 63,
+      "channels": {
+        "aggregate": {
+          "valid_bins": 63,
+          "nonzero_bins": 63,
+          "observed_energy_kwh": 0.07266666666666668,
+          "flags": {},
+          "coverage": 1.0
+        }
+      },
+      "artifacts": {
+        "aggregate": {
+          "path": "aggregate/house_uploaded_home.csv",
+          "sha256": "8599c433d6b9b247dcb15d0efb3d20704dfa8eb9ef8f93ae9ef659b7be36a73a"
+        }
+      },
+      "first_observation": "2026-01-01T00:00:00Z",
+      "start": "2026-01-01T00:00:00Z",
+      "end": "2026-01-01T00:08:24Z",
+      "raw_rows": 64,
+      "last_observation": "2026-01-01T00:08:24Z"
+    }
+  }
+}

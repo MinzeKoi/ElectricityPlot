@@ -1,0 +1,108 @@
+{
+  "schema_version": 2,
+  "status": "active",
+  "manifest_path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\a3-20261021-v2\\frozen\\inputs\\protocol\\protocol.json",
+  "model_path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\a3-20261021-v2\\frozen\\inputs\\bases\\seed_42",
+  "protocol_sha256": "6fc077b96a79d809478286cdad40c89060fa0b0fa78c06441df834ea8d38b22e",
+  "model_manifest_sha256": "6ad1a68af7e456a1de667a2ed0ea1ecf27ec3bdad7908a8dc3ccb3def4549ebc",
+  "pool_sha256": "cd75270c9d8c3aa8853c39f3790dbafd8012896e5ea474f5676c03a00918a528",
+  "partition_id": "target_adaptation_house_3",
+  "household_id": "3",
+  "strategy": "random",
+  "seed": 2026,
+  "budget": 20,
+  "plan": {
+    "schema_version": 1,
+    "learner": "L2_max",
+    "update_every": 5,
+    "strategies": [
+      "random",
+      "uncertainty",
+      "proposed",
+      "uncertainty_static",
+      "proposed_static",
+      "proposed_no_diversity",
+      "proposed_no_coverage"
+    ],
+    "uncertainty_weight": 0.5,
+    "diversity_weight": 0.3,
+    "coverage_weight": 0.2,
+    "exploration_fraction": 0.1,
+    "minimum_random_f1_gain": 0.02
+  },
+  "plan_sha256": "05a52c33e5b39f7fe1dd53dcbe9d507a102075bb72cb599ebe6d08506aff6d41",
+  "rounds": [
+    {
+      "path": "rounds/budget_0.json",
+      "sha256": "297b12ed2c50f7dcdd3dae483f446af6824b1eece11818ae85eb76da30083176"
+    }
+  ],
+  "records": [
+    {
+      "query_id": "dc586e24f0d1cae5deb3e79f",
+      "household_id": "3",
+      "appliance_type": "kettle",
+      "window_start": "2013-09-27T18:01:04Z",
+      "window_end": "2013-09-27T18:21:04Z",
+      "response": "not_used",
+      "label_source": "simulated_from_submeter",
+      "selection_strategy": "random",
+      "model_version": "a3-state-b22793e4d04e7973",
+      "budget_before": 0,
+      "budget_after": 1
+    },
+    {
+      "query_id": "1963517fcc3a6cedee33dd80",
+      "household_id": "3",
+      "appliance_type": "kettle",
+      "window_start": "2013-09-27T11:41:04Z",
+      "window_end": "2013-09-27T12:01:04Z",
+      "response": "not_used",
+      "label_source": "simulated_from_submeter",
+      "selection_strategy": "random",
+      "model_version": "a3-state-b22793e4d04e7973",
+      "budget_before": 1,
+      "budget_after": 2
+    },
+    {
+      "query_id": "a9b673d957881e5c8f78cd0e",
+      "household_id": "3",
+      "appliance_type": "washing_machine",
+      "window_start": "2013-09-25T23:41:04Z",
+      "window_end": "2013-09-26T00:01:04Z",
+      "response": "not_used",
+      "label_source": "simulated_from_submeter",
+      "selection_strategy": "random",
+      "model_version": "a3-state-b22793e4d04e7973",
+      "budget_before": 2,
+      "budget_after": 3
+    },
+    {
+      "query_id": "0d9298ae41877b02cb205dcc",
+      "household_id": "3",
+      "appliance_type": "microwave",
+      "window_start": "2013-09-26T20:01:04Z",
+      "window_end": "2013-09-26T20:21:04Z",
+      "response": "not_used",
+      "label_source": "simulated_from_submeter",
+      "selection_strategy": "random",
+      "model_version": "a3-state-b22793e4d04e7973",
+      "budget_before": 3,
+      "budget_after": 4
+    },
+    {
+      "query_id": "04a1d8a459d6dc0f318f083b",
+      "household_id": "3",
+      "appliance_type": "kettle",
+      "window_start": "2013-09-27T03:01:04Z",
+      "window_end": "2013-09-27T03:21:04Z",
+      "response": "not_used",
+      "label_source": "simulated_from_submeter",
+      "selection_strategy": "random",
+      "model_version": "a3-state-b22793e4d04e7973",
+      "budget_before": 4,
+      "budget_after": 5
+    }
+  ],
+  "pending": null
+}

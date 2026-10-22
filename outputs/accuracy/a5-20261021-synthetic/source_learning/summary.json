@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "status": "development_evaluated",
+  "formal_evaluation": false,
+  "label_source": "simulated_from_submeter",
+  "power_output_frozen": true,
+  "groups": [
+    {
+      "variant": "L2_max",
+      "budget": 0,
+      "f1": 0.0,
+      "f1_delta": 0.0,
+      "households": [
+        {
+          "household_id": "3",
+          "devices": [
+            {
+              "appliance": "kettle",
+              "f1": 0.0,
+              "f1_delta": 0.0,
+              "precision": null,
+              "recall": 0.0
+            },
+            {
+              "appliance": "microwave",
+              "f1": 0.0,
+              "f1_delta": 0.0,
+              "precision": null,
+              "recall": 0.0
+            }
+          ],
+          "f1": 0.0,
+          "f1_delta": 0.0
+        }
+      ],
+      "missing_f1": 0,
+      "adaptation_degenerate_cases": 0,
+      "device_drops_over_tolerance": 0
+    },
+    {
+      "variant": "L2_max",
+      "budget": 5,
+      "f1": 0.0,
+      "f1_delta": 0.0,
+      "households": [
+        {
+          "household_id": "3",
+          "devices": [
+            {
+              "appliance": "kettle",
+              "f1": 0.0,
+              "f1_delta": 0.0,
+              "precision": null,
+              "recall": 0.0
+            },
+            {
+              "appliance": "microwave",
+              "f1": 0.0,
+              "f1_delta": 0.0,
+              "precision": null,
+              "recall": 0.0
+            }
+          ],
+          "f1": 0.0,
+          "f1_delta": 0.0
+        }
+      ],
+      "missing_f1": 0,
+      "adaptation_degenerate_cases": 0,
+      "device_drops_over_tolerance": 0
+    },
+    {
+      "variant": "L2_max",
+      "budget": 10,
+      "f1": 0.0,
+      "f1_delta": 0.0,
+      "households": [
+        {
+          "household_id": "3",
+          "devices": [
+            {
+              "appliance": "kettle",
+              "f1": 0.0,
+              "f1_delta": 0.0,
+              "precision": null,
+              "recall": 0.0
+            },
+            {
+              "appliance": "microwave",
+              "f1": 0.0,
+              "f1_delta": 0.0,
+              "precision": null,
+              "recall": 0.0
+            }
+          ],
+          "f1": 0.0,
+          "f1_delta": 0.0
+        }
+      ],
+      "missing_f1": 0,
+      "adaptation_degenerate_cases": 0,
+      "device_drops_over_tolerance": 0
+    },
+    {
+      "variant": "L2_max",
+      "budget": 20,
+      "f1": 0.0,
+      "f1_delta": 0.0,
+      "households": [
+        {
+          "household_id": "3",
+          "devices": [
+            {
+              "appliance": "kettle",
+              "f1": 0.0,
+              "f1_delta": 0.0,
+              "precision": null,
+              "recall": 0.0
+            },
+            {
+              "appliance": "microwave",
+              "f1": 0.0,
+              "f1_delta": 0.0,
+              "precision": null,
+              "recall": 0.0
+            }
+          ],
+          "f1": 0.0,
+          "f1_delta": 0.0
+        }
+      ],
+      "missing_f1": 0,
+      "adaptation_degenerate_cases": 0,
+      "device_drops_over_tolerance": 0
+    }
+  ],
+  "main_budget": 10,
+  "development_exit_passed": false,
+  "internal_gain_target_met": false,
+  "selected_development_learner": null,
+  "selection_rule": "positive own-baseline gain at main budget, no caused all-off/on, no primary device mean loss over tolerance; largest gain among L1/L2_max/L2_smooth",
+  "notice": "Previously inspected development household, ideal simulated answers; seeds are not independent households. No final H1/H2/H3 or power improvement claim."
+}

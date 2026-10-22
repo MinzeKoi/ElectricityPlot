@@ -1,0 +1,150 @@
+{
+  "records": [
+    {
+      "query_id": "f64563cc68ec7f0d25ce2971",
+      "household_id": "3",
+      "window_start": "2013-09-26T19:41:04Z",
+      "window_end": "2013-09-26T20:01:04Z",
+      "appliance_type": "microwave",
+      "response": "unsure",
+      "label_source": "simulated_from_submeter",
+      "selection_strategy": "random",
+      "model_version": "small_seq2point-2e234c34c9a51bfe",
+      "budget_before": 0,
+      "budget_after": 1
+    },
+    {
+      "query_id": "67e82c77b654cd9bfb054ea0",
+      "household_id": "3",
+      "window_start": "2013-09-26T21:01:04Z",
+      "window_end": "2013-09-26T21:21:04Z",
+      "appliance_type": "washing_machine",
+      "response": "not_used",
+      "label_source": "simulated_from_submeter",
+      "selection_strategy": "random",
+      "model_version": "small_seq2point-2e234c34c9a51bfe",
+      "budget_before": 1,
+      "budget_after": 2
+    },
+    {
+      "query_id": "6835849816a188465d053124",
+      "household_id": "3",
+      "window_start": "2013-09-25T19:41:04Z",
+      "window_end": "2013-09-25T20:01:04Z",
+      "appliance_type": "washing_machine",
+      "response": "not_used",
+      "label_source": "simulated_from_submeter",
+      "selection_strategy": "random",
+      "model_version": "small_seq2point-2e234c34c9a51bfe",
+      "budget_before": 2,
+      "budget_after": 3
+    },
+    {
+      "query_id": "6879321ab7009339d91f0997",
+      "household_id": "3",
+      "window_start": "2013-09-26T17:41:04Z",
+      "window_end": "2013-09-26T18:01:04Z",
+      "appliance_type": "microwave",
+      "response": "not_used",
+      "label_source": "simulated_from_submeter",
+      "selection_strategy": "random",
+      "model_version": "small_seq2point-2e234c34c9a51bfe",
+      "budget_before": 3,
+      "budget_after": 4
+    },
+    {
+      "query_id": "c771d0273a28ba03a73d2edf",
+      "household_id": "3",
+      "window_start": "2013-09-26T17:41:04Z",
+      "window_end": "2013-09-26T18:01:04Z",
+      "appliance_type": "washing_machine",
+      "response": "not_used",
+      "label_source": "simulated_from_submeter",
+      "selection_strategy": "random",
+      "model_version": "small_seq2point-2e234c34c9a51bfe",
+      "budget_before": 4,
+      "budget_after": 5
+    },
+    {
+      "query_id": "cddda283fa85e4e40cbe9839",
+      "household_id": "3",
+      "window_start": "2013-09-25T20:01:04Z",
+      "window_end": "2013-09-25T20:21:04Z",
+      "appliance_type": "washing_machine",
+      "response": "not_used",
+      "label_source": "simulated_from_submeter",
+      "selection_strategy": "random",
+      "model_version": "small_seq2point-2e234c34c9a51bfe",
+      "budget_before": 5,
+      "budget_after": 6
+    },
+    {
+      "query_id": "d0bed6071361947af2a26bc7",
+      "household_id": "3",
+      "window_start": "2013-09-26T09:21:04Z",
+      "window_end": "2013-09-26T09:41:04Z",
+      "appliance_type": "washing_machine",
+      "response": "unsure",
+      "label_source": "simulated_from_submeter",
+      "selection_strategy": "random",
+      "model_version": "small_seq2point-2e234c34c9a51bfe",
+      "budget_before": 6,
+      "budget_after": 7
+    },
+    {
+      "query_id": "c254f147b6c7097243a7dec6",
+      "household_id": "3",
+      "window_start": "2013-09-26T21:41:04Z",
+      "window_end": "2013-09-26T22:01:04Z",
+      "appliance_type": "microwave",
+      "response": "not_used",
+      "label_source": "simulated_from_submeter",
+      "selection_strategy": "random",
+      "model_version": "small_seq2point-2e234c34c9a51bfe",
+      "budget_before": 7,
+      "budget_after": 8
+    },
+    {
+      "query_id": "c17f9f324edd879a226f9121",
+      "household_id": "3",
+      "window_start": "2013-09-26T20:21:04Z",
+      "window_end": "2013-09-26T20:41:04Z",
+      "appliance_type": "microwave",
+      "response": "not_used",
+      "label_source": "simulated_from_submeter",
+      "selection_strategy": "random",
+      "model_version": "small_seq2point-2e234c34c9a51bfe",
+      "budget_before": 8,
+      "budget_after": 9
+    },
+    {
+      "query_id": "f58576b0fb32cc2b0ebda890",
+      "household_id": "3",
+      "window_start": "2013-09-26T04:21:04Z",
+      "window_end": "2013-09-26T04:41:04Z",
+      "appliance_type": "kettle",
+      "response": "not_used",
+      "label_source": "simulated_from_submeter",
+      "selection_strategy": "random",
+      "model_version": "small_seq2point-2e234c34c9a51bfe",
+      "budget_before": 9,
+      "budget_after": 10
+    }
+  ],
+  "budget_limit": 10,
+  "budget_used": 10,
+  "responses": {
+    "unsure": 2,
+    "not_used": 8
+  },
+  "label_sources": {
+    "simulated_from_submeter": 10
+  },
+  "strategy": "random",
+  "seed": 2026,
+  "usable_windows": {
+    "kettle": 1,
+    "microwave": 3,
+    "washing_machine": 4
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "records": [],
+  "budget_limit": 0,
+  "budget_used": 0,
+  "responses": {},
+  "label_sources": {},
+  "strategy": "proposed",
+  "seed": 1019,
+  "usable_windows": {
+    "kettle": 0,
+    "microwave": 0,
+    "washing_machine": 0
+  }
+}

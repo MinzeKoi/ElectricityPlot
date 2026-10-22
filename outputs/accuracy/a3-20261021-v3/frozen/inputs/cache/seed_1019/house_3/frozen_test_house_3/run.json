@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "run_id": "frozen_test_house_3",
+  "project": "ElectricityPlot",
+  "created_at": "2026-10-21T04:37:50.177683+00:00",
+  "model_id": "small_seq2point-298c9b10d9bd5958-a1-raw-state",
+  "model_manifest_sha256": "32a3f8bd7ba78e75599dd4a69293e82e274d28b5396ccff4a24869bd2718f375",
+  "model_kind": "small_seq2point",
+  "model_settings": {
+    "schema_version": 1,
+    "window_samples": 31,
+    "channels": 8,
+    "hidden_units": 32,
+    "epochs": 12,
+    "batch_size": 256,
+    "learning_rate": 0.001,
+    "active_loss_weight": 50.0,
+    "seed": 1019,
+    "cpu_threads": 4,
+    "on_thresholds_w": {
+      "kettle": 2000.0,
+      "microwave": 200.0,
+      "washing_machine": 20.0
+    }
+  },
+  "code_sha256": "aaf6f3176bf739379d7adeee6bcf3f7a741b4ea3eead56cd400f457bcb5e667a",
+  "protocol_sha256": "6fc077b96a79d809478286cdad40c89060fa0b0fa78c06441df834ea8d38b22e",
+  "partition_id": "frozen_test_house_3",
+  "purpose": "engineering_pilot_only",
+  "data_kind": "real_REFIT_prefix",
+  "model_data_kind": "real_REFIT_prefix",
+  "input_sha256": "0acdcb8d296f75c0ec43aebfe391029bc866b919e3a3338bc6bd2a7739ef359c",
+  "sample_interval_seconds": 8,
+  "appliances": [
+    "kettle",
+    "microwave",
+    "washing_machine"
+  ],
+  "upstream_limitations": [
+    "Upstream gaps were forward-filled or zeroed; original missingness is not recoverable.",
+    "IAM spikes above 4000 W were replaced with zero upstream.",
+    "Issues=1 means the sum of IAM channels exceeds aggregate power.",
+    "Appliance identities describe monitored channels, not every appliance owned by a household."
+  ],
+  "inference_seconds": 0.560233999999582,
+  "confidence_method": null,
+  "calibration": null,
+  "adaptation": "none",
+  "state_definition": "state and raw_state = raw_power_w >= fixed source threshold; consistency-corrected power is independent",
+  "query_summary": {
+    "budget_used": 0
+  },
+  "base_model_id": null,
+  "quality_summary": {
+    "quality_flag_samples": {
+      "aggregate_missing": 1428,
+      "context_missing_or_boundary": 3208,
+      "incomplete_coverage": 1428,
+      "observation_gap": 1428,
+      "power_uncalibrated": 21150,
+      "sum_exceeded_aggregate_scaled_down": 1854,
+      "unexplained_load_present": 16111,
+      "upstream_cleaned_missingness_unknown": 21150
+    },
+    "confidence_method": null,
+    "calibration": null,
+    "valid_samples": 17942,
+    "prediction_coverage": 0.848321513002364,
+    "raw_exceedance_rate": 0.10333296176568944,
+    "mean_raw_excess_w": 45.400335294202925,
+    "mean_removed_power_w": 45.400335294202925,
+    "corrected_exceedance_rate": 0.0,
+    "mean_absolute_balance_w": 1.9112023424246144e-15,
+    "aggregate_energy_kwh": 33.11625166666666,
+    "attributed_energy_kwh": 20.51298543354864,
+    "unexplained_energy_kwh": 12.603266233118028,
+    "attributed_energy_fraction": 0.6194235277598186,
+    "notice": "Unexplained load includes modeling and measurement error, not identified unknown devices."
+  },
+  "artifacts_sha256": {
+    "predictions.json": "8542190549a602f97d8318bb01aec7effeb367606814a481936348c3ef8fb7c2",
+    "predictions.csv": "8be28c3c839708b19dfefccffb3d5f8dd1598f0c8303808361205a2188653ad1",
+    "report.html": "d2953031e347c0107654ddc63a0b30e3cf3b6bdc535261fe8ece78606f19f76e"
+  }
+}

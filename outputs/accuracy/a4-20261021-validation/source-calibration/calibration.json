@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "status": "calibrated",
+  "method": "source_validation_absolute_residual_quantiles",
+  "created_at": "2026-10-21T05:46:40.013629+00:00",
+  "model_id": "a4-power-f8c07f3e0ed6b384",
+  "power_fingerprint": "cafbc0ac886c263b119c1391bc97dc93063aba1446490a95b304d315988e1ed8",
+  "protocol_sha256": "6fc077b96a79d809478286cdad40c89060fa0b0fa78c06441df834ea8d38b22e",
+  "model_manifest_sha256": "9de45eaad63e6ae53ba555e29a01e159edafa4f68d6bb9c424809288c19e1dc0",
+  "code_sha256": "502ebbe1b06a787d265101bfd9b51b424389b05d91ef3c156ad8491f4da42511",
+  "settings_sha256": "eabfc89537b6211cf3fe4051005036bf83d66381c9fee65369776b5f13e3ce47",
+  "interval_level": 0.9,
+  "sample_interval_seconds": 8,
+  "appliances": [
+    "kettle",
+    "microwave",
+    "washing_machine"
+  ],
+  "data_kind": "real_REFIT_prefix",
+  "validation_partitions": {
+    "source_validation_house_5": {
+      "kettle": 47280,
+      "microwave": 47280,
+      "washing_machine": 47280
+    }
+  },
+  "target_labels_read": false,
+  "source_aggregate_range_w": [
+    151.0,
+    6901.5
+  ],
+  "quantiles": {
+    "kettle": {
+      "raw": {
+        "radius_w": 0.0007745761325066274,
+        "samples": 47280,
+        "source_empirical_coverage": 0.9
+      },
+      "corrected": {
+        "radius_w": 0.0007745761325066274,
+        "samples": 47280,
+        "source_empirical_coverage": 0.9
+      }
+    },
+    "microwave": {
+      "raw": {
+        "radius_w": 10.243789301851233,
+        "samples": 47280,
+        "source_empirical_coverage": 0.9
+      },
+      "corrected": {
+        "radius_w": 10.243789301851233,
+        "samples": 47280,
+        "source_empirical_coverage": 0.9
+      }
+    },
+    "washing_machine": {
+      "raw": {
+        "radius_w": 134.46585862885016,
+        "samples": 47280,
+        "source_empirical_coverage": 0.9
+      },
+      "corrected": {
+        "radius_w": 134.25910525042116,
+        "samples": 47280,
+        "source_empirical_coverage": 0.9
+      }
+    }
+  },
+  "validation_reused_for_model_selection": true,
+  "coverage_guarantee": false,
+  "notice": "Source validation reused for model selection; empirical marginal intervals only. No target-household or simultaneous coverage guarantee. State confidence remains unavailable."
+}

@@ -1,0 +1,12 @@
+{
+  "loss": {
+    "kettle": [],
+    "microwave": [],
+    "washing_machine": []
+  },
+  "usable_windows": {
+    "kettle": 0,
+    "microwave": 0,
+    "washing_machine": 0
+  }
+}

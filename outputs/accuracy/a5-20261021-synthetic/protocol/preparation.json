@@ -1,0 +1,6 @@
+{
+  "status": "prepared",
+  "protocol_sha256": "c5dd446826094401ca327ab906d71fb6b26760d11b44afd62ff9e16d53c339e6",
+  "label_values_used_for_admission": false,
+  "admission_basis": "frozen channels, duration, nonmissing coverage; no model metrics"
+}

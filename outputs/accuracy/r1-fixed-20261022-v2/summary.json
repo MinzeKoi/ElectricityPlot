@@ -1,0 +1,271 @@
+{
+  "schema_version": 1,
+  "status": "development_evaluated",
+  "formal_evaluation": false,
+  "label_source": "simulated_from_submeter",
+  "power_output_frozen": true,
+  "groups": [
+    {
+      "variant": "L1",
+      "budget": 0,
+      "f1": 0.41621077455688305,
+      "f1_delta": 0.0,
+      "households": [
+        {
+          "household_id": "17",
+          "devices": [
+            {
+              "appliance": "kettle",
+              "f1": 0.7555085756780914,
+              "f1_delta": 0.0,
+              "precision": 0.6408068101271236,
+              "recall": 0.9202898550724637
+            },
+            {
+              "appliance": "microwave",
+              "f1": 0.07691297343567473,
+              "f1_delta": 0.0,
+              "precision": 0.040128089998697464,
+              "recall": 0.9242819843342036
+            }
+          ],
+          "f1": 0.41621077455688305,
+          "f1_delta": 0.0
+        }
+      ],
+      "missing_f1": 0,
+      "adaptation_degenerate_cases": 0,
+      "device_drops_over_tolerance": 0
+    },
+    {
+      "variant": "L1",
+      "budget": 5,
+      "f1": 0.42643761034210864,
+      "f1_delta": 0.010226835785225572,
+      "households": [
+        {
+          "household_id": "17",
+          "devices": [
+            {
+              "appliance": "kettle",
+              "f1": 0.7706386586070475,
+              "f1_delta": 0.015130082928956049,
+              "precision": 0.697346563830206,
+              "recall": 0.8782389108476064
+            },
+            {
+              "appliance": "microwave",
+              "f1": 0.08223656207716983,
+              "f1_delta": 0.005323588641495097,
+              "precision": 0.043107625259293035,
+              "recall": 0.8929503916449087
+            }
+          ],
+          "f1": 0.42643761034210864,
+          "f1_delta": 0.010226835785225572
+        }
+      ],
+      "missing_f1": 0,
+      "adaptation_degenerate_cases": 0,
+      "device_drops_over_tolerance": 0
+    },
+    {
+      "variant": "L1",
+      "budget": 10,
+      "f1": 0.42594922056918444,
+      "f1_delta": 0.00973844601230137,
+      "households": [
+        {
+          "household_id": "17",
+          "devices": [
+            {
+              "appliance": "kettle",
+              "f1": 0.7696618790611991,
+              "f1_delta": 0.014153303383107644,
+              "precision": 0.695952429628076,
+              "recall": 0.8784584980237153
+            },
+            {
+              "appliance": "microwave",
+              "f1": 0.08223656207716983,
+              "f1_delta": 0.005323588641495097,
+              "precision": 0.043107625259293035,
+              "recall": 0.8929503916449087
+            }
+          ],
+          "f1": 0.42594922056918444,
+          "f1_delta": 0.00973844601230137
+        }
+      ],
+      "missing_f1": 0,
+      "adaptation_degenerate_cases": 0,
+      "device_drops_over_tolerance": 0
+    },
+    {
+      "variant": "L1",
+      "budget": 20,
+      "f1": 0.42550995598772334,
+      "f1_delta": 0.009299181430840239,
+      "households": [
+        {
+          "household_id": "17",
+          "devices": [
+            {
+              "appliance": "kettle",
+              "f1": 0.7687833498982769,
+              "f1_delta": 0.013274774220185378,
+              "precision": 0.6946846889091208,
+              "recall": 0.8785682916117699
+            },
+            {
+              "appliance": "microwave",
+              "f1": 0.08223656207716983,
+              "f1_delta": 0.005323588641495097,
+              "precision": 0.043107625259293035,
+              "recall": 0.8929503916449087
+            }
+          ],
+          "f1": 0.42550995598772334,
+          "f1_delta": 0.009299181430840239
+        }
+      ],
+      "missing_f1": 0,
+      "adaptation_degenerate_cases": 0,
+      "device_drops_over_tolerance": 0
+    },
+    {
+      "variant": "L2_max",
+      "budget": 0,
+      "f1": 0.2435533528610292,
+      "f1_delta": 0.0,
+      "households": [
+        {
+          "household_id": "17",
+          "devices": [
+            {
+              "appliance": "kettle",
+              "f1": 0.40693770203220286,
+              "f1_delta": 0.0,
+              "precision": 0.25899546142102225,
+              "recall": 0.9538866930171278
+            },
+            {
+              "appliance": "microwave",
+              "f1": 0.08016900368985552,
+              "f1_delta": 0.0,
+              "precision": 0.04237746171534846,
+              "recall": 0.741514360313316
+            }
+          ],
+          "f1": 0.2435533528610292,
+          "f1_delta": 0.0
+        }
+      ],
+      "missing_f1": 0,
+      "adaptation_degenerate_cases": 0,
+      "device_drops_over_tolerance": 0
+    },
+    {
+      "variant": "L2_max",
+      "budget": 5,
+      "f1": 0.24798075029172953,
+      "f1_delta": 0.004427397430700337,
+      "households": [
+        {
+          "household_id": "17",
+          "devices": [
+            {
+              "appliance": "kettle",
+              "f1": 0.4164442563011008,
+              "f1_delta": 0.009506554268897953,
+              "precision": 0.2672561514279342,
+              "recall": 0.952020202020202
+            },
+            {
+              "appliance": "microwave",
+              "f1": 0.07951724428235825,
+              "f1_delta": -0.0006517594074972785,
+              "precision": 0.042194459819806324,
+              "recall": 0.6892950391644909
+            }
+          ],
+          "f1": 0.24798075029172953,
+          "f1_delta": 0.004427397430700337
+        }
+      ],
+      "missing_f1": 0,
+      "adaptation_degenerate_cases": 0,
+      "device_drops_over_tolerance": 0
+    },
+    {
+      "variant": "L2_max",
+      "budget": 10,
+      "f1": 0.2946707184527556,
+      "f1_delta": 0.051117365591726416,
+      "households": [
+        {
+          "household_id": "17",
+          "devices": [
+            {
+              "appliance": "kettle",
+              "f1": 0.5098241926231529,
+              "f1_delta": 0.1028864905909501,
+              "precision": 0.3636266480449111,
+              "recall": 0.9369784804567414
+            },
+            {
+              "appliance": "microwave",
+              "f1": 0.07951724428235825,
+              "f1_delta": -0.0006517594074972785,
+              "precision": 0.042194459819806324,
+              "recall": 0.6892950391644909
+            }
+          ],
+          "f1": 0.2946707184527556,
+          "f1_delta": 0.051117365591726416
+        }
+      ],
+      "missing_f1": 0,
+      "adaptation_degenerate_cases": 0,
+      "device_drops_over_tolerance": 0
+    },
+    {
+      "variant": "L2_max",
+      "budget": 20,
+      "f1": 0.3358694257362671,
+      "f1_delta": 0.09231607287523785,
+      "households": [
+        {
+          "household_id": "17",
+          "devices": [
+            {
+              "appliance": "kettle",
+              "f1": 0.5922216071901759,
+              "f1_delta": 0.185283905157973,
+              "precision": 0.4449496200289614,
+              "recall": 0.9310496267018006
+            },
+            {
+              "appliance": "microwave",
+              "f1": 0.07951724428235825,
+              "f1_delta": -0.0006517594074972785,
+              "precision": 0.042194459819806324,
+              "recall": 0.6892950391644909
+            }
+          ],
+          "f1": 0.3358694257362671,
+          "f1_delta": 0.09231607287523785
+        }
+      ],
+      "missing_f1": 0,
+      "adaptation_degenerate_cases": 0,
+      "device_drops_over_tolerance": 0
+    }
+  ],
+  "main_budget": 10,
+  "development_exit_passed": true,
+  "internal_gain_target_met": true,
+  "selected_development_learner": "L2_max",
+  "selection_rule": "positive own-baseline gain at main budget, no caused all-off/on, no primary device mean loss over tolerance; largest gain among L1/L2_max/L2_smooth",
+  "notice": "Previously inspected development household, ideal simulated answers; seeds are not independent households. No final H1/H2/H3 or power improvement claim."
+}

@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "status": "trained",
+  "project": "ElectricityPlot",
+  "kind": "small_seq2point",
+  "created_at": "2026-10-21T03:41:18.572027+00:00",
+  "appliances": [
+    "kettle"
+  ],
+  "settings": {
+    "schema_version": 1,
+    "window_samples": 31,
+    "channels": 8,
+    "hidden_units": 32,
+    "epochs": 8,
+    "batch_size": 256,
+    "learning_rate": 0.001,
+    "active_loss_weight": 5.0,
+    "seed": 42,
+    "cpu_threads": 4,
+    "on_thresholds_w": {
+      "kettle": 2000.0,
+      "microwave": 200.0,
+      "washing_machine": 20.0
+    }
+  },
+  "sample_interval_seconds": 8,
+  "protocol_sha256": "6fc077b96a79d809478286cdad40c89060fa0b0fa78c06441df834ea8d38b22e",
+  "protocol_id": "refit-a1-development-v1",
+  "purpose": "engineering_pilot_only",
+  "data_kind": "real_REFIT_prefix",
+  "code_sha256": "d95924213d57fbb1d0c8092e78f9bdf60999e4832a8a2adee6cc7e6b5d7cb2a5",
+  "settings_sha256": "4ff8b2f806c56f7755c7406065c5d202b929f68b63cdc1b3b88c9122c3ac67ee",
+  "input_log_mean": 5.104233741760254,
+  "input_log_std": 0.944635272026062,
+  "power_scales_w": [
+    2879.0
+  ],
+  "source_train_windows": {
+    "source_train_house_2": 127412
+  },
+  "source_validation_windows": {
+    "source_validation_house_5": 47280
+  },
+  "training_households": [
+    "2"
+  ],
+  "validation_households": [
+    "5"
+  ],
+  "target_labels_read": false,
+  "adaptation": "none",
+  "confidence": null,
+  "upstream_limitations": [
+    "Upstream gaps were forward-filled or zeroed; original missingness is not recoverable.",
+    "IAM spikes above 4000 W were replaced with zero upstream.",
+    "Issues=1 means the sum of IAM channels exceeds aggregate power.",
+    "Appliance identities describe monitored channels, not every appliance owned by a household."
+  ],
+  "state_definition": "state and raw_state = raw_power_w >= fixed source threshold; consistency-corrected power is independent",
+  "selected_epoch": 8,
+  "weights": {
+    "path": "weights.pt",
+    "sha256": "32deb815a98a6340fb298f2052927259b5ebdfc9de2e451b28759d8ceec84d33"
+  },
+  "validation_normalized_mae": 0.001578774768859148,
+  "torch_version": "2.9.0+cpu",
+  "parameter_count": 8249,
+  "timing_seconds": {
+    "fit": 10.377504899999622,
+    "total": 15.038928999999825
+  },
+  "model_id": "small_seq2point-a8686d12601e976f-a1-raw-state",
+  "state_threshold_view": "raw_power_w",
+  "accuracy_usage": "development_only"
+}
