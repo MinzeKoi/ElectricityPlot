@@ -102,8 +102,12 @@ def resample(samples, interval: int, counters: dict):
     flags = {name: set() for name in names}
     count = 1
     counters["first_observation"] = iso(previous.timestamp)
+    counters["raw_rows"] = count
+    counters["last_observation"] = iso(previous.timestamp)
     for current in iterator:
         count += 1
+        counters["raw_rows"] = count
+        counters["last_observation"] = iso(current.timestamp)
         delta = current.timestamp - previous.timestamp
         counters["raw_intervals_seconds"][str(delta)] += 1
         cursor = previous.timestamp
@@ -148,11 +152,13 @@ def _bin(start, interval, names, covered, weighted, flags):
     return start, result
 
 
-def prepare(inputs: dict[str, Path], output: Path, catalog: Path, interval: int = 8, kind: str = "refit") -> dict:
+def prepare(inputs: dict[str, Path], output: Path, catalog: Path, interval: int = 8, kind: str = "refit", maximum_days: int | None = None) -> dict:
     if type(interval) is not int or interval != 8:
         raise DataError("M1 freezes the native 8-second grid; downsampling is a separate experiment")
     if kind not in ("refit", "aggregate"):
         raise DataError("Unknown input format")
+    if maximum_days is not None and (type(maximum_days) is not int or maximum_days <= 0):
+        raise DataError("maximum_days must be a positive integer or None")
     if not inputs or any(not isinstance(house, str) or re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9_-]{0,63}", house) is None for house in inputs):
         raise DataError("Household identifiers must use 1-64 letters, digits, underscores or hyphens")
     if output.exists():
@@ -181,6 +187,11 @@ def prepare(inputs: dict[str, Path], output: Path, catalog: Path, interval: int 
             stats = {"source_file": source.name, "source_sha256": fingerprint, "provenance": receipt,
                      "channel_mapping": channels, "raw_intervals_seconds": Counter(),
                      "bins": 0, "channels": {key: {"valid_bins": 0, "nonzero_bins": 0, "observed_energy_kwh": 0.0, "flags": Counter()} for key in keys}, "artifacts": {}}
+            if maximum_days is not None:
+                stats["preparation_selection"] = {
+                    "kind": "earliest_time_range", "maximum_days": maximum_days,
+                    "source_identity": "Full source hash and original acquisition receipt retained; only derived time range is bounded.",
+                }
             handles = []
             try:
                 writers = {}
@@ -195,6 +206,8 @@ def prepare(inputs: dict[str, Path], output: Path, catalog: Path, interval: int 
                     writers[key] = writer
                     stats["artifacts"][key] = {"path": relative}
                 for stamp, values in resample(read_samples(source, house, channels, kind), interval, stats):
+                    if maximum_days is not None and stats["bins"] >= maximum_days * 86400 // interval:
+                        break
                     if stats["bins"] == 0:
                         stats["start"] = iso(stamp)
                     stats["end"] = iso(stamp + interval)

@@ -1,0 +1,250 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-22",
+  "refit": {
+    "archive_bytes": 514265481,
+    "archive_sha256": "4dc4dde763da1c843e9d565fc68f1a63752d858980615635994d7f701fdfcc4b",
+    "source_url": "https://pure.strath.ac.uk/ws/portalfiles/portal/62090184/CLEAN_REFIT_081116.7z",
+    "license": "CC-BY-4.0",
+    "raw_csv_bytes": 6943411063,
+    "households": [
+      {
+        "household_id": "1",
+        "bytes": 400840083,
+        "sha256": "15b8c60c0bf32f1fccfafae81a9bb04e1a24937cfb29840d5b955310df25ff30",
+        "first_observation": "2013-10-09T13:06:17Z",
+        "last_observation": "2015-07-10T11:56:32Z",
+        "kind": "real_complete",
+        "archive_member_crc32_verified": true
+      },
+      {
+        "household_id": "10",
+        "bytes": 398756360,
+        "sha256": "fe51a6a561063a6a0782a41586aeaf03152c90d316610cc896a858331464065b",
+        "first_observation": "2013-11-20T11:31:18Z",
+        "last_observation": "2015-06-30T11:07:07Z",
+        "kind": "real_complete",
+        "archive_member_crc32_verified": true
+      },
+      {
+        "household_id": "11",
+        "bytes": 255832544,
+        "sha256": "e06bff467bf771191610670f2b6ae3f71acfad7aad37f1a16e0163305cdda113",
+        "first_observation": "2014-06-03T11:36:21Z",
+        "last_observation": "2015-06-30T15:12:08Z",
+        "kind": "real_complete",
+        "archive_member_crc32_verified": true
+      },
+      {
+        "household_id": "12",
+        "bytes": 335009288,
+        "sha256": "0051cb297e04cc0f958791a2216168bfff2b75e3f3425954ce2a5cdf2f13710d",
+        "first_observation": "2014-03-07T10:52:15Z",
+        "last_observation": "2015-07-08T02:10:54Z",
+        "kind": "real_complete",
+        "archive_member_crc32_verified": true
+      },
+      {
+        "household_id": "13",
+        "bytes": 276518579,
+        "sha256": "e8f8220a3d60b2c304e6d6fb4eb0e1ee53f4172a101940eece814ace5eae4ec6",
+        "first_observation": "2014-01-17T22:26:20Z",
+        "last_observation": "2015-05-31T11:06:07Z",
+        "kind": "real_complete",
+        "archive_member_crc32_verified": true
+      },
+      {
+        "household_id": "15",
+        "bytes": 353152325,
+        "sha256": "a39b2202585c77ab07c23ca36cd3e5f0ac4957e37bd57f63ae8d5e0716a9b3d9",
+        "first_observation": "2013-12-17T17:24:18Z",
+        "last_observation": "2015-07-08T02:10:54Z",
+        "kind": "real_complete",
+        "archive_member_crc32_verified": true
+      },
+      {
+        "household_id": "16",
+        "bytes": 333937465,
+        "sha256": "5fb61cb99d7878412bc258e423480a9b5e82b93e3b42d431a6467456d4bd5f44",
+        "first_observation": "2014-01-10T10:58:19Z",
+        "last_observation": "2015-07-08T02:10:54Z",
+        "kind": "real_complete",
+        "archive_member_crc32_verified": true
+      },
+      {
+        "household_id": "17",
+        "bytes": 317925929,
+        "sha256": "5f794deb64d864ceaf711b12e699e9bcc4a3ad3977b32e105e1ee762b3073cbe",
+        "first_observation": "2014-03-06T16:23:19Z",
+        "last_observation": "2015-06-19T14:52:18Z",
+        "kind": "real_complete",
+        "archive_member_crc32_verified": true
+      },
+      {
+        "household_id": "18",
+        "bytes": 301534016,
+        "sha256": "0fab94dfee9be07b936ed17f22be7b697310008bbb66e8f8ce624872d36b9ccd",
+        "first_observation": "2014-03-07T10:33:18Z",
+        "last_observation": "2015-05-24T11:34:04Z",
+        "kind": "real_complete",
+        "archive_member_crc32_verified": true
+      },
+      {
+        "household_id": "19",
+        "bytes": 320691540,
+        "sha256": "b445ebaec2562b0559dd13e62c399e8403f4a2f28e09042994cab470f6867960",
+        "first_observation": "2014-03-06T16:23:19Z",
+        "last_observation": "2015-06-20T03:32:54Z",
+        "kind": "real_complete",
+        "archive_member_crc32_verified": true
+      },
+      {
+        "household_id": "2",
+        "bytes": 325391201,
+        "sha256": "5e3b8b30734070692bb6ac12504a26f5a1394aabe050199a1f7b7c5f88065561",
+        "first_observation": "2013-09-17T22:08:11Z",
+        "last_observation": "2015-05-28T08:05:43Z",
+        "kind": "real_complete",
+        "archive_member_crc32_verified": true
+      },
+      {
+        "household_id": "20",
+        "bytes": 299757142,
+        "sha256": "eb0c8c1c107da5db6b5fb56da4d03a875f73050ec89833fdc39ce36bd58d4533",
+        "first_observation": "2014-03-20T12:01:19Z",
+        "last_observation": "2015-06-23T19:44:00Z",
+        "kind": "real_complete",
+        "archive_member_crc32_verified": true
+      },
+      {
+        "household_id": "21",
+        "bytes": 316713466,
+        "sha256": "fc5471adf36c69fa65438270b4f95a51d2d7630b5461ca2db74652b41b15e10b",
+        "first_observation": "2014-03-07T16:20:20Z",
+        "last_observation": "2015-07-10T11:56:35Z",
+        "kind": "real_complete",
+        "archive_member_crc32_verified": true
+      },
+      {
+        "household_id": "3",
+        "bytes": 407273065,
+        "sha256": "3694186fd607a779d90dc34f834db908c152a86cfb0fd32e4bf009d86e444e97",
+        "first_observation": "2013-09-25T19:21:09Z",
+        "last_observation": "2015-06-02T10:55:42Z",
+        "kind": "real_complete",
+        "archive_member_crc32_verified": true
+      },
+      {
+        "household_id": "4",
+        "bytes": 395763806,
+        "sha256": "a231e256a0c600a09c9f67103f665a55595b85b3cd54176aa9b503aa98153b41",
+        "first_observation": "2013-10-11T10:19:17Z",
+        "last_observation": "2015-07-07T09:57:38Z",
+        "kind": "real_complete",
+        "archive_member_crc32_verified": true
+      },
+      {
+        "household_id": "5",
+        "bytes": 435272416,
+        "sha256": "897defbaeadb048ced0d7f6b0ba262a7fa701b7a6943b6a7ca8ad515d7fa3c50",
+        "first_observation": "2013-09-26T09:56:09Z",
+        "last_observation": "2015-07-06T17:48:55Z",
+        "kind": "real_complete",
+        "archive_member_crc32_verified": true
+      },
+      {
+        "household_id": "6",
+        "bytes": 366398284,
+        "sha256": "4b07dde43c175a8ff815f674d9a5677bf6547385ff584b7bce0791d0dc04672d",
+        "first_observation": "2013-11-28T12:15:35Z",
+        "last_observation": "2015-06-28T22:14:45Z",
+        "kind": "real_complete",
+        "archive_member_crc32_verified": true
+      },
+      {
+        "household_id": "7",
+        "bytes": 388975788,
+        "sha256": "b6e9d49f04fa994396847042b62ae0a0e70e205f0705d82b5c21d66fa1596e28",
+        "first_observation": "2013-11-01T22:01:18Z",
+        "last_observation": "2015-07-08T02:10:54Z",
+        "kind": "real_complete",
+        "archive_member_crc32_verified": true
+      },
+      {
+        "household_id": "8",
+        "bytes": 355439146,
+        "sha256": "ed45a97919ae0a3c437c02d0f69aa56165c6bc854bd207dc68703e30d69a4706",
+        "first_observation": "2013-11-01T22:13:18Z",
+        "last_observation": "2015-05-10T23:36:10Z",
+        "kind": "real_complete",
+        "archive_member_crc32_verified": true
+      },
+      {
+        "household_id": "9",
+        "bytes": 358228620,
+        "sha256": "892d9709b81c93d39912f43e182ede564c9c753091e1155e9eb20f6bfb1b07d6",
+        "first_observation": "2013-12-17T17:26:20Z",
+        "last_observation": "2015-07-08T18:52:50Z",
+        "kind": "real_complete",
+        "archive_member_crc32_verified": true
+      }
+    ],
+    "independent_publisher_checksum_available": false
+  },
+  "prepared_refit": {
+    "manifest": "data/processed/refit_complete_28d_20261022/manifest.json",
+    "sha256": "7c423c997fc31ecd47d713a05019aa461a13675816323f79fc6da28f11c4baf8",
+    "households": [
+      "2",
+      "5",
+      "6",
+      "8",
+      "9",
+      "17",
+      "19",
+      "20"
+    ],
+    "maximum_days_per_household": 28,
+    "grid_seconds": 8,
+    "total_bins": 2419200,
+    "coverage_duration_pass_households": [],
+    "final_households": []
+  },
+  "plegma": {
+    "archive_bytes": 301557385,
+    "archive_sha256": "6e6726c5a815a6167a118aa86dc4258a7abebc47b2cd1f6a040999cfedf66823",
+    "source_url": "https://pure.strath.ac.uk/ws/portalfiles/portal/180681715/PlegmaDataset_Clean.7z",
+    "license": "CC-BY-4.0",
+    "verified_files": 277,
+    "extracted_bytes": 1927690110,
+    "household_count": 13,
+    "status": "extracted_members_crc_verified_not_normalized",
+    "normalized": false
+  },
+  "ideal": {
+    "source_url": "https://doi.org/10.7488/ds/2836",
+    "license": "CC-BY-4.0",
+    "files": [
+      {
+        "file": "documentation.zip",
+        "bytes": 4607218,
+        "sha256": "9f9b47a47efac77d42aa427ecfc2c578a630305bb72d6d06aee808af19edae3c",
+        "zip_crc_verified": true
+      },
+      {
+        "file": "metadata_and_surveys.zip",
+        "bytes": 369476,
+        "sha256": "a9cd4af2e4ba804f5c55c4940fc5f7fb4f6f5ca6227cd192a65edd6fc0870ef8",
+        "zip_crc_verified": true
+      }
+    ],
+    "power_measurements_downloaded": false
+  },
+  "training_run_started": false,
+  "final_evaluation_run_started": false,
+  "validation": {
+    "data_protocol_tests_passed": 22,
+    "acquisition_tests_passed": 4,
+    "project_boundary_tests_passed": 6
+  }
+}

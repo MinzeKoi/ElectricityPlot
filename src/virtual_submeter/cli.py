@@ -30,6 +30,7 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--unit", help="用户导入必须显式声明 W")
     parser.add_argument("--sample-bytes", type=int, default=2097152, help="每户下载字节数；0 为完整下载并校验出版方哈希")
     parser.add_argument("--catalog", type=Path, default=Path("configs/refit_channels.json"))
+    parser.add_argument("--maximum-days", type=int, help="Prepare only the earliest N days; retain full raw source provenance")
     parser.add_argument("--prepared", type=Path)
     parser.add_argument("--manifest", type=Path)
     parser.add_argument("--plan", type=Path, default=Path("configs/m1_split.json"))
@@ -115,7 +116,7 @@ def main(argv: list[str] | None = None) -> int:
                         raise DataError("Only explicitly declared active power in W is supported")
                     inputs = {_required(args.household_id, "--household-id"): _required(args.input, "--input")}
                     kind = "aggregate"
-                result = prepare(inputs, _required(args.output, "--output"), args.catalog, config.sample_interval_seconds, kind)
+                result = prepare(inputs, _required(args.output, "--output"), args.catalog, config.sample_interval_seconds, kind, maximum_days=args.maximum_days)
             elif args.command == "audit-data":
                 manifest_path = _required(args.manifest, "--manifest")
                 result = read_json(manifest_path)

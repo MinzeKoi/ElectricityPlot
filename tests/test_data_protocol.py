@@ -109,6 +109,35 @@ class DataProtocolTest(unittest.TestCase):
         for row in prediction["aggregate"]:
             self.assertGreaterEqual(utc(row["timestamp"]), utc(test["start"]))
 
+    def test_bounded_preparation_keeps_full_source_identity_and_exact_day_boundary(self):
+        from virtual_submeter.data.common import sha256
+        source = self.inputs["2"]
+        with source.open("w", encoding="utf-8", newline="") as stream:
+            writer = csv.writer(stream)
+            writer.writerow(["Time", "Unix", "Aggregate", *[f"Appliance{i}" for i in range(1, 10)], "Issues"])
+            for timestamp in range(0, 86400 + 24, 8):
+                writer.writerow(["ignored", timestamp, 3000, *([10] * 9), 0])
+        fingerprint = sha256(source)
+        receipt = {"kind": "real_complete", "sha256": fingerprint}
+        write_json(source.with_suffix(".receipt.json"), receipt)
+        prepare({"2": source}, self.prepared, self.catalog, maximum_days=1)
+        info = read_json(self.prepared / "manifest.json")["households"]["2"]
+        self.assertEqual(info["bins"], 10800)
+        self.assertEqual(info["end"], iso(86400))
+        self.assertEqual(info["source_sha256"], fingerprint)
+        self.assertEqual(info["provenance"], receipt)
+        self.assertEqual(info["preparation_selection"]["maximum_days"], 1)
+        self.assertIn("raw_rows", info)
+        with (self.prepared / "aggregate/house_2.csv").open(encoding="utf-8", newline="") as stream:
+            rows = list(csv.DictReader(stream))
+        self.assertEqual(rows[-1]["timestamp"], iso(86392))
+        self.assertEqual(len(rows), 10800)
+
+    def test_bounded_preparation_rejects_nonpositive_and_fractional_days(self):
+        for days in (0, -1, True, 0.5):
+            with self.subTest(days=days), self.assertRaises(DataError):
+                prepare(self.inputs, self.prepared, self.catalog, maximum_days=days)
+
     def test_test_answers_and_oracle_labels_are_denied_to_model_consumers(self):
         self.freeze()
         for partition, consumer, labels in (
