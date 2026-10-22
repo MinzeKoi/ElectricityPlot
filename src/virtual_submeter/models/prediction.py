@@ -80,6 +80,9 @@ def predict_rows(metadata: dict, model, rows: list[dict], calibration: dict | No
         temporal = metadata["accuracy_state_head"]["variant"].startswith("L2")
         hidden = temporal_features(metadata, model, rows) if temporal else None
         apply_adapter(result, metadata, hidden)
+        if metadata.get("accuracy_power_head"):
+            from ..accuracy.power import apply_power
+            apply_power(result, metadata, hidden)
     apply_intervals(result, calibration)
     return result
 
@@ -88,7 +91,7 @@ def write_prediction_csv(path: Path, payload: dict) -> None:
     fields = ["household_id", "timestamp", "aggregate_power_w"]
     for appliance in payload["appliances"]:
         fields.extend(f"{appliance}_{key}" for key in ("raw_power_w", "power_w", "raw_state", "state", "correction_w", "confidence", "raw_lower_w", "raw_upper_w", "lower_w", "upper_w"))
-        if payload.get("adaptation") in ("weak_window_state_only", "a2_fixed_query_state_only", "a3_dynamic_query_state_only"):
+        if payload.get("adaptation") in ("weak_window_state_only", "a2_fixed_query_state_only", "a3_dynamic_query_state_only", "a4_state_power_coupled", "a5_final_state_only"):
             fields.append(f"{appliance}_state_score")
     fields.extend(["unexplained_power_w", "raw_excess_w", "correction_method", "quality_flags"])
     with path.open("w", encoding="utf-8", newline="") as stream:

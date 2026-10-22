@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "milestone": "A5",
+  "status": "synthetic_engineering_only",
+  "formal_evaluation": false,
+  "run": "outputs/accuracy/a5-20261021-synthetic/experiment",
+  "cases": 48,
+  "metric_rows": 144,
+  "households": [
+    "4",
+    "6",
+    "7"
+  ],
+  "h1_final_target_met": null,
+  "h2_final_target_met": null,
+  "h3_final_target_met": null,
+  "validation": "docs/A5_VALIDATION.json",
+  "notice": "Synthetic household identifiers do not represent measured household results; all final targets remain unevaluated."
+}

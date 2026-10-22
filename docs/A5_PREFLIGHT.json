@@ -1,0 +1,118 @@
+{
+  "status": "a5_preflight",
+  "formal_evaluation_completed": false,
+  "frozen_target_roster": [],
+  "available_households": {
+    "2": [
+      {
+        "manifest": "data\\processed\\refit_a1_sources\\manifest.json",
+        "kind": "real_prefix",
+        "channels": [
+          "aggregate",
+          "kettle",
+          "microwave",
+          "washing_machine"
+        ]
+      },
+      {
+        "manifest": "data\\processed\\refit_m1\\manifest.json",
+        "kind": "real_prefix",
+        "channels": [
+          "aggregate",
+          "kettle",
+          "microwave",
+          "washing_machine"
+        ]
+      }
+    ],
+    "3": [
+      {
+        "manifest": "data\\processed\\refit_a1_development\\manifest.json",
+        "kind": "real_prefix",
+        "channels": [
+          "aggregate",
+          "kettle",
+          "microwave",
+          "washing_machine"
+        ]
+      },
+      {
+        "manifest": "data\\processed\\refit_m1\\manifest.json",
+        "kind": "real_prefix",
+        "channels": [
+          "aggregate",
+          "kettle",
+          "microwave",
+          "washing_machine"
+        ]
+      }
+    ],
+    "4": [
+      {
+        "manifest": "data\\processed\\refit_m1\\manifest.json",
+        "kind": "real_prefix",
+        "channels": [
+          "aggregate",
+          "kettle",
+          "microwave",
+          "washing_machine"
+        ]
+      }
+    ],
+    "5": [
+      {
+        "manifest": "data\\processed\\refit_a1_sources\\manifest.json",
+        "kind": "real_prefix",
+        "channels": [
+          "aggregate",
+          "kettle",
+          "microwave",
+          "washing_machine"
+        ]
+      },
+      {
+        "manifest": "data\\processed\\refit_m1\\manifest.json",
+        "kind": "real_prefix",
+        "channels": [
+          "aggregate",
+          "kettle",
+          "microwave",
+          "washing_machine"
+        ]
+      }
+    ],
+    "11": [
+      {
+        "manifest": "data\\processed\\refit_a1_sources\\manifest.json",
+        "kind": "real_prefix",
+        "channels": [
+          "aggregate",
+          "kettle",
+          "microwave",
+          "washing_machine"
+        ]
+      },
+      {
+        "manifest": "data\\processed\\refit_m1\\manifest.json",
+        "kind": "real_prefix",
+        "channels": [
+          "aggregate",
+          "kettle",
+          "microwave",
+          "washing_machine"
+        ]
+      }
+    ]
+  },
+  "unavailable_directories": [],
+  "inventory_complete": true,
+  "eligible_complete_new_households": [],
+  "minimum_households": 3,
+  "data_ready": false,
+  "missing_requirements": [
+    "Fewer than three eligible complete new households verified in accessible inventory; acquire files or resolve unavailable inventory",
+    "Final target roster is still empty",
+    "Named, dated unseen-future-label declaration is required for final protocol preparation",
+    "Independent member rerun is not established by local engineering tests"
+  ]
+}

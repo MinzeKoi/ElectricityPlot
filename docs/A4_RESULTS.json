@@ -1,0 +1,884 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-21",
+  "accuracy_usage": "development_only",
+  "formal_evaluation": false,
+  "run": "outputs/accuracy/a4-20261021-v2",
+  "source_training_seeds": [
+    42,
+    1019,
+    2026
+  ],
+  "query_seeds": [
+    42,
+    1019,
+    2026
+  ],
+  "development_households": [
+    "3"
+  ],
+  "cases": 216,
+  "metric_rows": 648,
+  "primary_appliances": [
+    "kettle",
+    "microwave"
+  ],
+  "extension_appliances": [
+    "washing_machine"
+  ],
+  "main_budget": 10,
+  "plan": {
+    "schema_version": 1,
+    "strategies": [
+      "random",
+      "uncertainty",
+      "proposed"
+    ],
+    "main_strategy": "proposed",
+    "ridge": 10.0,
+    "upper_quantile": 0.995,
+    "minimum_active_samples": 10,
+    "minimum_relative_improvement": 0.1,
+    "maximum_relative_degradation": 0.05,
+    "near_zero_mae_w": 1.0,
+    "near_zero_energy_kwh": 0.01,
+    "interval_level": 0.9,
+    "minimum_calibration_samples": 30
+  },
+  "main": {
+    "variant": "proposed",
+    "mode": "coupled",
+    "budget": 10,
+    "households": [
+      "3"
+    ],
+    "active_mae_w": 671.1912232718457,
+    "energy_absolute_error_kwh": 1.8786657885752118,
+    "active_mae_reduction": -0.012465180252643055,
+    "energy_error_reduction": 0.0886168928617923,
+    "f1": 0.1809829074867618,
+    "off_state_attributed_kwh": 2.009322178940495,
+    "missing_primary_metrics": 0,
+    "adaptation_caused_degeneracy": 0
+  },
+  "h3_development_target_met": false,
+  "groups": [
+    {
+      "variant": "random",
+      "mode": "state_only",
+      "budget": 0,
+      "households": [
+        "3"
+      ],
+      "active_mae_w": 615.0034163496628,
+      "energy_absolute_error_kwh": 3.607634871376587,
+      "active_mae_reduction": 0.0,
+      "energy_error_reduction": 0.0,
+      "f1": 0.1756713202805062,
+      "off_state_attributed_kwh": 3.723557770580054,
+      "missing_primary_metrics": 0,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "random",
+      "mode": "state_only",
+      "budget": 5,
+      "households": [
+        "3"
+      ],
+      "active_mae_w": 615.0034163496628,
+      "energy_absolute_error_kwh": 3.607634871376587,
+      "active_mae_reduction": 0.0,
+      "energy_error_reduction": 0.0,
+      "f1": 0.1757918406805718,
+      "off_state_attributed_kwh": 3.723557770580054,
+      "missing_primary_metrics": 0,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "random",
+      "mode": "state_only",
+      "budget": 10,
+      "households": [
+        "3"
+      ],
+      "active_mae_w": 615.0034163496628,
+      "energy_absolute_error_kwh": 3.607634871376587,
+      "active_mae_reduction": 0.0,
+      "energy_error_reduction": 0.0,
+      "f1": 0.17775497756972133,
+      "off_state_attributed_kwh": 3.723557770580054,
+      "missing_primary_metrics": 0,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "random",
+      "mode": "state_only",
+      "budget": 20,
+      "households": [
+        "3"
+      ],
+      "active_mae_w": 615.0034163496628,
+      "energy_absolute_error_kwh": 3.607634871376587,
+      "active_mae_reduction": 0.0,
+      "energy_error_reduction": 0.0,
+      "f1": 0.17765743038450962,
+      "off_state_attributed_kwh": 3.723557770580054,
+      "missing_primary_metrics": 0,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "random",
+      "mode": "coupled",
+      "budget": 0,
+      "households": [
+        "3"
+      ],
+      "active_mae_w": 661.2678059948082,
+      "energy_absolute_error_kwh": 2.019589687016059,
+      "active_mae_reduction": 0.0,
+      "energy_error_reduction": 0.0,
+      "f1": 0.1756713202805062,
+      "off_state_attributed_kwh": 2.148615056681884,
+      "missing_primary_metrics": 0,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "random",
+      "mode": "coupled",
+      "budget": 5,
+      "households": [
+        "3"
+      ],
+      "active_mae_w": 661.5622450526084,
+      "energy_absolute_error_kwh": 1.9981035444079116,
+      "active_mae_reduction": -0.00036597884359869273,
+      "energy_error_reduction": 0.008362938203411406,
+      "f1": 0.1757918406805718,
+      "off_state_attributed_kwh": 2.127458472296542,
+      "missing_primary_metrics": 0,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "random",
+      "mode": "coupled",
+      "budget": 10,
+      "households": [
+        "3"
+      ],
+      "active_mae_w": 663.1262356565144,
+      "energy_absolute_error_kwh": 1.9760799399212314,
+      "active_mae_reduction": -0.002200150975934661,
+      "energy_error_reduction": 0.024660964715820157,
+      "f1": 0.17775497756972133,
+      "off_state_attributed_kwh": 2.1056137378035933,
+      "missing_primary_metrics": 0,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "random",
+      "mode": "coupled",
+      "budget": 20,
+      "households": [
+        "3"
+      ],
+      "active_mae_w": 676.4447316295041,
+      "energy_absolute_error_kwh": 1.8719568471817478,
+      "active_mae_reduction": -0.024432226515700598,
+      "energy_error_reduction": 0.07147238404035809,
+      "f1": 0.17765743038450962,
+      "off_state_attributed_kwh": 2.0048174750430983,
+      "missing_primary_metrics": 0,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "uncertainty",
+      "mode": "state_only",
+      "budget": 0,
+      "households": [
+        "3"
+      ],
+      "active_mae_w": 615.0034163496628,
+      "energy_absolute_error_kwh": 3.607634871376587,
+      "active_mae_reduction": 0.0,
+      "energy_error_reduction": 0.0,
+      "f1": 0.1756713202805062,
+      "off_state_attributed_kwh": 3.723557770580054,
+      "missing_primary_metrics": 0,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "uncertainty",
+      "mode": "state_only",
+      "budget": 5,
+      "households": [
+        "3"
+      ],
+      "active_mae_w": 615.0034163496628,
+      "energy_absolute_error_kwh": 3.607634871376587,
+      "active_mae_reduction": 0.0,
+      "energy_error_reduction": 0.0,
+      "f1": 0.18286571260435736,
+      "off_state_attributed_kwh": 3.723557770580054,
+      "missing_primary_metrics": 0,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "uncertainty",
+      "mode": "state_only",
+      "budget": 10,
+      "households": [
+        "3"
+      ],
+      "active_mae_w": 615.0034163496628,
+      "energy_absolute_error_kwh": 3.607634871376587,
+      "active_mae_reduction": 0.0,
+      "energy_error_reduction": 0.0,
+      "f1": 0.18537953864759515,
+      "off_state_attributed_kwh": 3.723557770580054,
+      "missing_primary_metrics": 0,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "uncertainty",
+      "mode": "state_only",
+      "budget": 20,
+      "households": [
+        "3"
+      ],
+      "active_mae_w": 615.0034163496628,
+      "energy_absolute_error_kwh": 3.607634871376587,
+      "active_mae_reduction": 0.0,
+      "energy_error_reduction": 0.0,
+      "f1": 0.18537953864759515,
+      "off_state_attributed_kwh": 3.723557770580054,
+      "missing_primary_metrics": 0,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "uncertainty",
+      "mode": "coupled",
+      "budget": 0,
+      "households": [
+        "3"
+      ],
+      "active_mae_w": 661.2678059948082,
+      "energy_absolute_error_kwh": 2.019589687016059,
+      "active_mae_reduction": 0.0,
+      "energy_error_reduction": 0.0,
+      "f1": 0.1756713202805062,
+      "off_state_attributed_kwh": 2.148615056681884,
+      "missing_primary_metrics": 0,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "uncertainty",
+      "mode": "coupled",
+      "budget": 5,
+      "households": [
+        "3"
+      ],
+      "active_mae_w": 680.5657987092034,
+      "energy_absolute_error_kwh": 1.8198918143821918,
+      "active_mae_reduction": -0.027282471897352653,
+      "energy_error_reduction": 0.13188545662002027,
+      "f1": 0.18286571260435736,
+      "off_state_attributed_kwh": 1.9529881653664312,
+      "missing_primary_metrics": 0,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "uncertainty",
+      "mode": "coupled",
+      "budget": 10,
+      "households": [
+        "3"
+      ],
+      "active_mae_w": 688.8984431578272,
+      "energy_absolute_error_kwh": 1.7701469708365174,
+      "active_mae_reduction": -0.036374193468415514,
+      "energy_error_reduction": 0.166726900012828,
+      "f1": 0.18537953864759515,
+      "off_state_attributed_kwh": 1.9033558739631933,
+      "missing_primary_metrics": 0,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "uncertainty",
+      "mode": "coupled",
+      "budget": 20,
+      "households": [
+        "3"
+      ],
+      "active_mae_w": 687.9150909076395,
+      "energy_absolute_error_kwh": 1.773066737980634,
+      "active_mae_reduction": -0.034211538387413976,
+      "energy_error_reduction": 0.16582352755198668,
+      "f1": 0.18537953864759515,
+      "off_state_attributed_kwh": 1.90602873065962,
+      "missing_primary_metrics": 0,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "proposed",
+      "mode": "state_only",
+      "budget": 0,
+      "households": [
+        "3"
+      ],
+      "active_mae_w": 615.0034163496628,
+      "energy_absolute_error_kwh": 3.607634871376587,
+      "active_mae_reduction": 0.0,
+      "energy_error_reduction": 0.0,
+      "f1": 0.1756713202805062,
+      "off_state_attributed_kwh": 3.723557770580054,
+      "missing_primary_metrics": 0,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "proposed",
+      "mode": "state_only",
+      "budget": 5,
+      "households": [
+        "3"
+      ],
+      "active_mae_w": 615.0034163496628,
+      "energy_absolute_error_kwh": 3.607634871376587,
+      "active_mae_reduction": 0.0,
+      "energy_error_reduction": 0.0,
+      "f1": 0.18725153243354767,
+      "off_state_attributed_kwh": 3.723557770580054,
+      "missing_primary_metrics": 0,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "proposed",
+      "mode": "state_only",
+      "budget": 10,
+      "households": [
+        "3"
+      ],
+      "active_mae_w": 615.0034163496628,
+      "energy_absolute_error_kwh": 3.607634871376587,
+      "active_mae_reduction": 0.0,
+      "energy_error_reduction": 0.0,
+      "f1": 0.1809829074867618,
+      "off_state_attributed_kwh": 3.723557770580054,
+      "missing_primary_metrics": 0,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "proposed",
+      "mode": "state_only",
+      "budget": 20,
+      "households": [
+        "3"
+      ],
+      "active_mae_w": 615.0034163496628,
+      "energy_absolute_error_kwh": 3.607634871376587,
+      "active_mae_reduction": 0.0,
+      "energy_error_reduction": 0.0,
+      "f1": 0.17769069021671202,
+      "off_state_attributed_kwh": 3.723557770580054,
+      "missing_primary_metrics": 0,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "proposed",
+      "mode": "coupled",
+      "budget": 0,
+      "households": [
+        "3"
+      ],
+      "active_mae_w": 661.2678059948082,
+      "energy_absolute_error_kwh": 2.019589687016059,
+      "active_mae_reduction": 0.0,
+      "energy_error_reduction": 0.0,
+      "f1": 0.1756713202805062,
+      "off_state_attributed_kwh": 2.148615056681884,
+      "missing_primary_metrics": 0,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "proposed",
+      "mode": "coupled",
+      "budget": 5,
+      "households": [
+        "3"
+      ],
+      "active_mae_w": 666.1948703309954,
+      "energy_absolute_error_kwh": 1.9221763209212352,
+      "active_mae_reduction": -0.006786475447101891,
+      "energy_error_reduction": 0.059840275903646906,
+      "f1": 0.18725153243354767,
+      "off_state_attributed_kwh": 2.0524602540144956,
+      "missing_primary_metrics": 0,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "proposed",
+      "mode": "coupled",
+      "budget": 10,
+      "households": [
+        "3"
+      ],
+      "active_mae_w": 671.1912232718457,
+      "energy_absolute_error_kwh": 1.8786657885752118,
+      "active_mae_reduction": -0.012465180252643055,
+      "energy_error_reduction": 0.0886168928617923,
+      "f1": 0.1809829074867618,
+      "off_state_attributed_kwh": 2.009322178940495,
+      "missing_primary_metrics": 0,
+      "adaptation_caused_degeneracy": 0
+    },
+    {
+      "variant": "proposed",
+      "mode": "coupled",
+      "budget": 20,
+      "households": [
+        "3"
+      ],
+      "active_mae_w": 685.4684397070107,
+      "energy_absolute_error_kwh": 1.777864134213498,
+      "active_mae_reduction": -0.029846216398791366,
+      "energy_error_reduction": 0.1651633831865047,
+      "f1": 0.17769069021671202,
+      "off_state_attributed_kwh": 1.9100220132820898,
+      "missing_primary_metrics": 0,
+      "adaptation_caused_degeneracy": 0
+    }
+  ],
+  "per_device_coupled": [
+    {
+      "strategy": "random",
+      "appliance": "kettle",
+      "budget": 0,
+      "f1": 0.2556370466098044,
+      "active_mae_w": 588.1921733393095,
+      "energy_absolute_error_kwh": 2.606597163670627,
+      "active_mae_reduction": 0.0,
+      "energy_error_reduction": 0.0
+    },
+    {
+      "strategy": "random",
+      "appliance": "kettle",
+      "budget": 5,
+      "f1": 0.2567117758513875,
+      "active_mae_w": 588.4990044733305,
+      "energy_absolute_error_kwh": 2.5644931214132143,
+      "active_mae_reduction": -0.00033986850271321454,
+      "energy_error_reduction": 0.016114594084865805
+    },
+    {
+      "strategy": "random",
+      "appliance": "kettle",
+      "budget": 10,
+      "f1": 0.2567117758513875,
+      "active_mae_w": 585.9598515837723,
+      "energy_absolute_error_kwh": 2.5689802566577984,
+      "active_mae_reduction": 0.0036683488624996274,
+      "energy_error_reduction": 0.014014705621711273
+    },
+    {
+      "strategy": "random",
+      "appliance": "kettle",
+      "budget": 20,
+      "f1": 0.25796118414988534,
+      "active_mae_w": 606.6232479341629,
+      "energy_absolute_error_kwh": 2.40915462957461,
+      "active_mae_reduction": -0.03259395210435614,
+      "energy_error_reduction": 0.07419878825485904
+    },
+    {
+      "strategy": "random",
+      "appliance": "microwave",
+      "budget": 0,
+      "f1": 0.09570559395120798,
+      "active_mae_w": 734.343438650307,
+      "energy_absolute_error_kwh": 1.4325822103614907,
+      "active_mae_reduction": 0.0,
+      "energy_error_reduction": 0.0
+    },
+    {
+      "strategy": "random",
+      "appliance": "microwave",
+      "budget": 5,
+      "f1": 0.09487190550975609,
+      "active_mae_w": 734.6254856318862,
+      "energy_absolute_error_kwh": 1.431713967402609,
+      "active_mae_reduction": -0.000392089184484171,
+      "energy_error_reduction": 0.0006112823219570091
+    },
+    {
+      "strategy": "random",
+      "appliance": "microwave",
+      "budget": 10,
+      "f1": 0.09879817928805518,
+      "active_mae_w": 740.2926197292564,
+      "energy_absolute_error_kwh": 1.3831796231846643,
+      "active_mae_reduction": -0.00806865081436895,
+      "energy_error_reduction": 0.03530722380992904
+    },
+    {
+      "strategy": "random",
+      "appliance": "microwave",
+      "budget": 20,
+      "f1": 0.09735367661913391,
+      "active_mae_w": 746.2662153248452,
+      "energy_absolute_error_kwh": 1.3347590647888856,
+      "active_mae_reduction": -0.01627050092704506,
+      "energy_error_reduction": 0.06874597982585715
+    },
+    {
+      "strategy": "random",
+      "appliance": "washing_machine",
+      "budget": 0,
+      "f1": 0.11240791550661422,
+      "active_mae_w": 218.4458981498259,
+      "energy_absolute_error_kwh": 9.236291283653541,
+      "active_mae_reduction": 0.0,
+      "energy_error_reduction": 0.0
+    },
+    {
+      "strategy": "random",
+      "appliance": "washing_machine",
+      "budget": 5,
+      "f1": 0.13880211005191379,
+      "active_mae_w": 225.69312620968617,
+      "energy_absolute_error_kwh": 8.804793712478464,
+      "active_mae_reduction": -0.033205255647760244,
+      "energy_error_reduction": 0.046978380054657945
+    },
+    {
+      "strategy": "random",
+      "appliance": "washing_machine",
+      "budget": 10,
+      "f1": 0.13880211005191379,
+      "active_mae_w": 225.6899396915474,
+      "energy_absolute_error_kwh": 8.806900850783832,
+      "active_mae_reduction": -0.03319629421531421,
+      "energy_error_reduction": 0.04675889705797087
+    },
+    {
+      "strategy": "random",
+      "appliance": "washing_machine",
+      "budget": 20,
+      "f1": 0.13880211005191379,
+      "active_mae_w": 225.28670795074996,
+      "energy_absolute_error_kwh": 8.824344288074858,
+      "active_mae_reduction": -0.03140793372449796,
+      "energy_error_reduction": 0.044858069698685304
+    },
+    {
+      "strategy": "uncertainty",
+      "appliance": "kettle",
+      "budget": 0,
+      "f1": 0.2556370466098044,
+      "active_mae_w": 588.1921733393095,
+      "energy_absolute_error_kwh": 2.606597163670627,
+      "active_mae_reduction": 0.0,
+      "energy_error_reduction": 0.0
+    },
+    {
+      "strategy": "uncertainty",
+      "appliance": "kettle",
+      "budget": 5,
+      "f1": 0.2556370466098044,
+      "active_mae_w": 576.7573931012712,
+      "energy_absolute_error_kwh": 2.6133293610618837,
+      "active_mae_reduction": 0.014249093188130795,
+      "energy_error_reduction": -0.0071062971360274785
+    },
+    {
+      "strategy": "uncertainty",
+      "appliance": "kettle",
+      "budget": 10,
+      "f1": 0.2556370466098044,
+      "active_mae_w": 570.969542402664,
+      "energy_absolute_error_kwh": 2.6343888916379816,
+      "active_mae_reduction": 0.027034753726661108,
+      "energy_error_reduction": -0.013199137484608424
+    },
+    {
+      "strategy": "uncertainty",
+      "appliance": "kettle",
+      "budget": 20,
+      "f1": 0.2556370466098044,
+      "active_mae_w": 569.0260266848034,
+      "energy_absolute_error_kwh": 2.6398827466222903,
+      "active_mae_reduction": 0.03132808012947318,
+      "energy_error_reduction": -0.01478859272895462
+    },
+    {
+      "strategy": "uncertainty",
+      "appliance": "microwave",
+      "budget": 0,
+      "f1": 0.09570559395120798,
+      "active_mae_w": 734.343438650307,
+      "energy_absolute_error_kwh": 1.4325822103614907,
+      "active_mae_reduction": 0.0,
+      "energy_error_reduction": 0.0
+    },
+    {
+      "strategy": "uncertainty",
+      "appliance": "microwave",
+      "budget": 5,
+      "f1": 0.11009437859891032,
+      "active_mae_w": 784.3742043171354,
+      "energy_absolute_error_kwh": 1.0264542677025,
+      "active_mae_reduction": -0.0688140369828361,
+      "energy_error_reduction": 0.27087721037606804
+    },
+    {
+      "strategy": "uncertainty",
+      "appliance": "microwave",
+      "budget": 10,
+      "f1": 0.11512203068538593,
+      "active_mae_w": 806.8273439129902,
+      "energy_absolute_error_kwh": 0.9059050500350533,
+      "active_mae_reduction": -0.09978314066349213,
+      "energy_error_reduction": 0.34665293751026444
+    },
+    {
+      "strategy": "uncertainty",
+      "appliance": "microwave",
+      "budget": 20,
+      "f1": 0.11512203068538593,
+      "active_mae_w": 806.8041551304757,
+      "energy_absolute_error_kwh": 0.9062507293389778,
+      "active_mae_reduction": -0.09975115690430114,
+      "energy_error_reduction": 0.34643564783292796
+    },
+    {
+      "strategy": "uncertainty",
+      "appliance": "washing_machine",
+      "budget": 0,
+      "f1": 0.11240791550661422,
+      "active_mae_w": 218.4458981498259,
+      "energy_absolute_error_kwh": 9.236291283653541,
+      "active_mae_reduction": 0.0,
+      "energy_error_reduction": 0.0
+    },
+    {
+      "strategy": "uncertainty",
+      "appliance": "washing_machine",
+      "budget": 5,
+      "f1": 0.13025540338718927,
+      "active_mae_w": 222.22442210356257,
+      "energy_absolute_error_kwh": 8.940513018954881,
+      "active_mae_reduction": -0.017101822194512187,
+      "energy_error_reduction": 0.03180939484215886
+    },
+    {
+      "strategy": "uncertainty",
+      "appliance": "washing_machine",
+      "budget": 10,
+      "f1": 0.13025540338718927,
+      "active_mae_w": 222.35504747684615,
+      "energy_absolute_error_kwh": 8.94567843055457,
+      "active_mae_reduction": -0.0177087887830615,
+      "energy_error_reduction": 0.03123125017918808
+    },
+    {
+      "strategy": "uncertainty",
+      "appliance": "washing_machine",
+      "budget": 20,
+      "f1": 0.13880211005191379,
+      "active_mae_w": 225.47597762302914,
+      "energy_absolute_error_kwh": 8.807227243453177,
+      "active_mae_reduction": -0.03221056800337314,
+      "energy_error_reduction": 0.04672755930380147
+    },
+    {
+      "strategy": "proposed",
+      "appliance": "kettle",
+      "budget": 0,
+      "f1": 0.2556370466098044,
+      "active_mae_w": 588.1921733393095,
+      "energy_absolute_error_kwh": 2.606597163670627,
+      "active_mae_reduction": 0.0,
+      "energy_error_reduction": 0.0
+    },
+    {
+      "strategy": "proposed",
+      "appliance": "kettle",
+      "budget": 5,
+      "f1": 0.25847326366609574,
+      "active_mae_w": 581.9813294438067,
+      "energy_absolute_error_kwh": 2.54775222802045,
+      "active_mae_reduction": 0.008365253109826628,
+      "energy_error_reduction": 0.018974362610633615
+    },
+    {
+      "strategy": "proposed",
+      "appliance": "kettle",
+      "budget": 10,
+      "f1": 0.25847326366609574,
+      "active_mae_w": 579.0584843551455,
+      "energy_absolute_error_kwh": 2.5561610576846117,
+      "active_mae_reduction": 0.01482196857405326,
+      "energy_error_reduction": 0.01654156115397172
+    },
+    {
+      "strategy": "proposed",
+      "appliance": "kettle",
+      "budget": 20,
+      "f1": 0.25847326366609574,
+      "active_mae_w": 563.8970777168863,
+      "energy_absolute_error_kwh": 2.594615981274034,
+      "active_mae_reduction": 0.041976504292222654,
+      "energy_error_reduction": 0.0028550704621424605
+    },
+    {
+      "strategy": "proposed",
+      "appliance": "microwave",
+      "budget": 0,
+      "f1": 0.09570559395120798,
+      "active_mae_w": 734.343438650307,
+      "energy_absolute_error_kwh": 1.4325822103614907,
+      "active_mae_reduction": 0.0,
+      "energy_error_reduction": 0.0
+    },
+    {
+      "strategy": "proposed",
+      "appliance": "microwave",
+      "budget": 5,
+      "f1": 0.11602980120099958,
+      "active_mae_w": 750.4084112181843,
+      "energy_absolute_error_kwh": 1.2966004138220204,
+      "active_mae_reduction": -0.02193820400403041,
+      "energy_error_reduction": 0.1007061891966602
+    },
+    {
+      "strategy": "proposed",
+      "appliance": "microwave",
+      "budget": 10,
+      "f1": 0.10349255130742786,
+      "active_mae_w": 763.3239621885459,
+      "energy_absolute_error_kwh": 1.201170519465812,
+      "active_mae_reduction": -0.03975232907933937,
+      "energy_error_reduction": 0.1606922245696129
+    },
+    {
+      "strategy": "proposed",
+      "appliance": "microwave",
+      "budget": 20,
+      "f1": 0.0969081167673283,
+      "active_mae_w": 807.0398016971351,
+      "energy_absolute_error_kwh": 0.9611122871529617,
+      "active_mae_reduction": -0.10166893708980539,
+      "energy_error_reduction": 0.32747169591086694
+    },
+    {
+      "strategy": "proposed",
+      "appliance": "washing_machine",
+      "budget": 0,
+      "f1": 0.11240791550661422,
+      "active_mae_w": 218.4458981498259,
+      "energy_absolute_error_kwh": 9.236291283653541,
+      "active_mae_reduction": 0.0,
+      "energy_error_reduction": 0.0
+    },
+    {
+      "strategy": "proposed",
+      "appliance": "washing_machine",
+      "budget": 5,
+      "f1": 0.13025540338718927,
+      "active_mae_w": 222.08104450501736,
+      "energy_absolute_error_kwh": 8.953868684059522,
+      "active_mae_reduction": -0.016540231117942013,
+      "energy_error_reduction": 0.03028850559272531
+    },
+    {
+      "strategy": "proposed",
+      "appliance": "washing_machine",
+      "budget": 10,
+      "f1": 0.1331043056087641,
+      "active_mae_w": 223.15356453843157,
+      "energy_absolute_error_kwh": 8.909308626409437,
+      "active_mae_reduction": -0.021523825112494083,
+      "energy_error_reduction": 0.03527594154335107
+    },
+    {
+      "strategy": "proposed",
+      "appliance": "washing_machine",
+      "budget": 20,
+      "f1": 0.13880211005191379,
+      "active_mae_w": 224.56824810496948,
+      "energy_absolute_error_kwh": 8.829873600072299,
+      "active_mae_reduction": -0.028287649324365824,
+      "energy_error_reduction": 0.04412456220130494
+    }
+  ],
+  "main_query_seed_pairs": [
+    {
+      "query_seed": 42,
+      "active_mae_reduction": -0.013703002480891298,
+      "energy_error_reduction": 0.08963872595523374
+    },
+    {
+      "query_seed": 1019,
+      "active_mae_reduction": -0.011515559187400541,
+      "energy_error_reduction": 0.08875058788432345
+    },
+    {
+      "query_seed": 2026,
+      "active_mae_reduction": -0.012176979089637332,
+      "energy_error_reduction": 0.08746136474581977
+    }
+  ],
+  "main_simulated_responses": {
+    "kettle": {
+      "used": 0,
+      "not_used": 6,
+      "unsure": 12,
+      "skipped": 0
+    },
+    "microwave": {
+      "used": 0,
+      "not_used": 19,
+      "unsure": 23,
+      "skipped": 0
+    },
+    "washing_machine": {
+      "used": 0,
+      "not_used": 12,
+      "unsure": 18,
+      "skipped": 0
+    }
+  },
+  "power_branch_source_support": {
+    "42": {
+      "kettle": 1053,
+      "microwave": 324,
+      "washing_machine": 4754
+    },
+    "1019": {
+      "kettle": 1053,
+      "microwave": 324,
+      "washing_machine": 4754
+    },
+    "2026": {
+      "kettle": 1053,
+      "microwave": 324,
+      "washing_machine": 4754
+    }
+  },
+  "artifacts": {
+    "freeze.json": "95c33900e536599829d733d30aec217a93c06632a413bec2891d5e8d17a7a941",
+    "evidence.json": "67fead37b25419d4396064ae3b699990bce62eb0c35b6b52acd8e7e132ffb3c3",
+    "metrics.json": "bde405d20be24a85fcf713bb8960cbc69394c83c38b8eb4f9555ee4c1e5d514f",
+    "summary.json": "b942775d0791ba5c758cb886ca93adf2002b938dc52c6dc9bc84cfde3d4799d6",
+    "comparison.csv": "64ef263fadc2e436bde92b0719da10e8ac8ae75d6a974577aa9cc7f0a506099a",
+    "consistency_attribution.json": "3ca7fa41c0e3ed9bdce925e0edac2394fdf8764023ddca5baf9cef07efa2fcbd",
+    "report.html": "abf2e31ebe8e6a0c94fc36ebf6b3325802a9fb4fa9286489dd31c03187deb268"
+  },
+  "source_sha256": "502ebbe1b06a787d265101bfd9b51b424389b05d91ef3c156ad8491f4da42511",
+  "limitations": [
+    "Inspected House 3 development data and ideal simulated confirmations; A3 state gains remain weak. Seeds are not independent households. Exploratory H3 only, no final cross-household or real-user claim.",
+    "Main-strategy paired mean energy error reduction 8.86% and active MAE increase 1.25%; H3 10% gain target not reached.",
+    "Uncertainty-only secondary control has larger energy gains; it was not substituted for the pre-frozen main strategy.",
+    "Off-state attributed energy includes true below-threshold power. Actual overattribution is measured separately against submeter truth.",
+    "No final multi-household, real-user, noise sensitivity, independent-person or second-machine evidence."
+  ]
+}

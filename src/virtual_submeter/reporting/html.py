@@ -53,6 +53,14 @@ function draw(){const count=dur.value==='all'?data.length:Number(dur.value);pos.
         sources = escape(json.dumps(summary["label_sources"], ensure_ascii=False))
         responses = escape(json.dumps(summary["responses"], ensure_ascii=False))
         document = document.replace("<section><h2>评价</h2>", f"<section><h2>适配与预算</h2><p>{escape(payload['state_definition'])}</p><p>标签来源：{sources}；回答计数：{responses}</p></section><section><h2>评价</h2>")
+    if payload.get("adaptation") == "a4_state_power_coupled":
+        document = document.replace("本模型未经目标家庭适配，尚未校准可信度。",
+                                    "A4 功率联动：状态分数与来源训练的开机功率分支共同输出；状态分数未校准为可信概率。")
+        detail = (f"确认预算使用 {payload['query_summary']['budget_used']} 次；"
+                  f"策略 {payload['query_summary']['strategy']}。"
+                  "目标窗口确认仅更新受限状态参数，开机功率幅度分支冻结；用过不等于整个窗口开启，回答不提供真实瓦数。"
+                  "功率与电量收益须单独评价；当前为已查看开发家庭上的探索。尚无可靠置信区间。")
+        document = document.replace("M2 未发起用户确认，当前确认预算使用量为 0。尚无可靠置信区间。", escape(detail))
     if payload.get("calibration"):
         document = document.replace("尚未校准可信度。", "已加载来源验证残差区间，尚无目标家庭覆盖保证。")
         document = document.replace("尚无可靠置信区间。", "已提供来源经验区间；状态分数尚未校准。")

@@ -145,7 +145,8 @@ def export_model(base, metadata, adapter, records, plan, history, destination, s
     shutil.copyfile(base / "weights.pt", destination / "weights.pt")
     write_json(destination / "queries.json", {"records": records, "budget_used": len(records)})
     payload = copy.deepcopy(metadata)
-    payload.update(accuracy_state_head=adapter, adaptation=f"{stage}_fixed_query_state_only" if stage == "a2" else "a3_dynamic_query_state_only",
+    adaptation = {"a2": "a2_fixed_query_state_only", "a3": "a3_dynamic_query_state_only", "a5": "a5_final_state_only"}[stage]
+    payload.update(accuracy_state_head=adapter, adaptation=adaptation,
                    base_model_id=metadata["model_id"], base_model_manifest_sha256=sha256(base / "model.json"),
                    code_sha256=source_fingerprint(), power_output_frozen=True, target_pointwise_labels_read=False,
                    target_weak_labels_read=any(r["response"] in ("used", "not_used") for r in records),

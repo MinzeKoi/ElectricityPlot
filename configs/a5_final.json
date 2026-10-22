@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "mode": "final",
+  "target_households": [],
+  "excluded_households": ["2", "3", "5", "11"],
+  "primary_strategy": "proposed",
+  "minimum_households": 3,
+  "minimum_observed_days": 14,
+  "maximum_days": 28,
+  "minimum_coverage": 0.9,
+  "adaptation_fraction": 0.5,
+  "h1_gain": 0.05,
+  "h2_gain": 0.02,
+  "maximum_device_drop": 0.02
+}

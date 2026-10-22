@@ -24,6 +24,9 @@ def power_fingerprint(metadata: dict) -> str:
     keys = ("kind", "appliances", "settings", "sample_interval_seconds", "protocol_sha256",
             "input_log_mean", "input_log_std", "power_scales_w", "constant_power_w", "weights")
     body = {key: metadata.get(key) for key in keys}
+    if metadata.get("accuracy_power_head"):
+        body["accuracy_power_head"] = metadata["accuracy_power_head"]
+        body["accuracy_state_head"] = metadata["accuracy_state_head"]
     return hashlib.sha256(json.dumps(body, sort_keys=True, allow_nan=False).encode()).hexdigest()
 
 
@@ -56,7 +59,7 @@ def calibrate(model_dir: Path, manifest_path: Path, settings_path: Path, output:
     protocol = read_json(manifest_path)
     if metadata["protocol_sha256"] != sha256(manifest_path):
         raise DataError("Calibration protocol differs from the trained model")
-    if metadata.get("adaptation_household_id"):
+    if metadata.get("adaptation_household_id") and not metadata.get("accuracy_power_head"):
         raise DataError("Calibrate the frozen power backbone before target state adaptation")
     partitions = [p for p in protocol["partitions"] if p["role"] == "source_validation"]
     forbidden = set(metadata["training_households"]) | {p["household_id"] for p in protocol["partitions"] if p["role"] in ("target_adaptation", "frozen_test")}
@@ -66,7 +69,12 @@ def calibrate(model_dir: Path, manifest_path: Path, settings_path: Path, output:
     counts, totals = {}, []
     for partition in partitions:
         data = read_partition(manifest_path, partition["partition_id"], "calibration", include_labels=True)
-        rows = predict_rows(metadata, model, data["aggregate"])
+        # Source residual calibration of the exact A4 output relation, including
+        # its current weakly adapted state parameters; no target power labels.
+        calibration_metadata = dict(metadata)
+        if metadata.get("accuracy_power_head"):
+            calibration_metadata.pop("adaptation_household_id", None)
+        rows = predict_rows(calibration_metadata, model, data["aggregate"])
         counts[partition["partition_id"]] = {}
         totals.extend(row["aggregate_power_w"] for row in rows if row["raw_excess_w"] is not None)
         for appliance in metadata["appliances"]:

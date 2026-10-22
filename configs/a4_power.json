@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "strategies": ["random", "uncertainty", "proposed"],
+  "main_strategy": "proposed",
+  "ridge": 10.0,
+  "upper_quantile": 0.995,
+  "minimum_active_samples": 10,
+  "minimum_relative_improvement": 0.1,
+  "maximum_relative_degradation": 0.05,
+  "near_zero_mae_w": 1.0,
+  "near_zero_energy_kwh": 0.01,
+  "interval_level": 0.9,
+  "minimum_calibration_samples": 30
+}

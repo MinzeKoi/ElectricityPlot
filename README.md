@@ -229,6 +229,32 @@ A3 固定 A2 的 `L2_max` 与来源模型，每 5 次回答从来源重新适配
 
 本机受限沙箱无法访问 A2 的 42 个已发布派生文件；正常本地权限下 A2 已完整核验通过。A3 主运行沿用完整核验权限并保存来源收据，在新目录生成总表预测。若在受限视图运行，收据明确标记仅核验可访问核心证据；缺失核心证据或保留文件哈希变化均拒绝，不把“不可见”当作文件已删除。
 
+## A4 功率与电量联动验证
+
+A4 在冻结 CNN 的时序特征上新增只用来源开机功率监督的幅度分支，以状态分数与幅度相乘得到功率；目标弱确认仍只更新原有受限状态头。保留联动结构自身零确认基线及同确认的纯状态对照，重新记录修正前后功率、未解释部分与来源残差区间。旧 M4 或其他状态参数版本的区间不能直接复用。A3 状态证据尚弱，本轮为按用户指示启动的开发探索，工程完成不代表 H3 达标。
+
+```powershell
+.\.venv-m2\Scripts\python.exe scripts/run_a4.py run --output outputs/accuracy/my-a4
+.\.venv-m2\Scripts\python.exe scripts/run_a4.py verify --run outputs/accuracy/my-a4
+.\.venv-m2\Scripts\python.exe scripts/verify_a4.py --run outputs/accuracy/my-a4 --output outputs/accuracy/my-a4-validation
+```
+
+可分开执行 `freeze --output ...` 与 `evaluate --run ...`。复用 A3 随机、不确定性及拟议策略的原确认前缀；三来源种子 × 三查询种子 × 三策略 × 四预算 × 两种输出，共 216 案例。配置为 `configs/a4_power.json`，主策略 `proposed`、主预算 10 在评价前固定。完整规则、运行证据与效果边界见 [A4_HANDOFF.md](docs/A4_HANDOFF.md)。
+
+2026-10-21 已完成真实开发矩阵、648 行设备指标、117 项测试及独立推理／来源校准核验。主策略相对自身零确认的配对电量误差平均下降 **8.86%**，运行段 MAE 平均恶化 **1.25%**，未达到 H3 的 10% 内部目标；不确定性对照的较好结果保留，不改选主策略。当前仍只有已查看 House 3、理想模拟确认，不能作为最终跨户功率收益。本机报告为 `outputs/accuracy/a4-20261021-v2/report.html`，可提交摘要为 `docs/A4_RESULTS.json` / `docs/A4_VALIDATION.json`。
+
+## A5 冻结方案与最终多户评价
+
+A5 已提供独立数据准备、三策略／四预算多户运行、旧 MIL 学习器参照、全矩阵冻结及逐户配对报告。默认主策略 `proposed`、主预算每户 10 次；功率联动继续单列，状态结果不替代 H3。正式名单暂为空，本机没有三个合格的新家庭完整文件，真实盲测与独立成员复跑尚未完成。范围与完整运行方法见 [A5 交接](docs/A5_HANDOFF.md)。
+
+```powershell
+.\.venv-m2\Scripts\python.exe scripts/run_a5.py preflight
+.\.venv-m2\Scripts\python.exe scripts/run_a5_synthetic.py --output outputs/accuracy/my-a5-synthetic
+.\.venv-m2\Scripts\python.exe scripts/run_a5.py verify --run outputs/accuracy/my-a5-synthetic/experiment
+```
+
+合成演示仅验证三户流程，不构成真实跨户识别成绩。正式模式要求至少三户隔离的 `real_complete` 数据、三来源／查询种子、冻结名单及真实的未查看未来标签声明；所有最终预测完成封存后才打开答案。
+
 ## 工作入口与目录说明
 
 - [PLAN.md](PLAN.md)：开发目标、日程、成员 A/B 分工、实验与完成条件。

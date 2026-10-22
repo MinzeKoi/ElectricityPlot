@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "milestone": "A5",
+  "date": "2026-10-21",
+  "engineering_status": "implemented_and_verified",
+  "formal_evaluation_completed": false,
+  "tests": {
+    "command": ".venv-m2/Scripts/python.exe -m unittest discover -s tests -v",
+    "passed": 123,
+    "seconds": 111.104,
+    "a5_tests": 6
+  },
+  "synthetic": {
+    "status": "a5_verified",
+    "cases": 48,
+    "metric_rows": 144,
+    "formal_evaluation": false,
+    "h1_final_target_met": null,
+    "h2_final_target_met": null,
+    "current_source_matches_execution": true,
+    "report": "outputs\\accuracy\\a5-20261021-synthetic\\experiment\\report.html"
+  },
+  "data_preflight": {
+    "status": "a5_preflight",
+    "formal_evaluation_completed": false,
+    "frozen_target_roster": [],
+    "available_households": {
+      "2": [
+        {
+          "manifest": "data\\processed\\refit_a1_sources\\manifest.json",
+          "kind": "real_prefix",
+          "channels": [
+            "aggregate",
+            "kettle",
+            "microwave",
+            "washing_machine"
+          ]
+        },
+        {
+          "manifest": "data\\processed\\refit_m1\\manifest.json",
+          "kind": "real_prefix",
+          "channels": [
+            "aggregate",
+            "kettle",
+            "microwave",
+            "washing_machine"
+          ]
+        }
+      ],
+      "3": [
+        {
+          "manifest": "data\\processed\\refit_a1_development\\manifest.json",
+          "kind": "real_prefix",
+          "channels": [
+            "aggregate",
+            "kettle",
+            "microwave",
+            "washing_machine"
+          ]
+        },
+        {
+          "manifest": "data\\processed\\refit_m1\\manifest.json",
+          "kind": "real_prefix",
+          "channels": [
+            "aggregate",
+            "kettle",
+            "microwave",
+            "washing_machine"
+          ]
+        }
+      ],
+      "4": [
+        {
+          "manifest": "data\\processed\\refit_m1\\manifest.json",
+          "kind": "real_prefix",
+          "channels": [
+            "aggregate",
+            "kettle",
+            "microwave",
+            "washing_machine"
+          ]
+        }
+      ],
+      "5": [
+        {
+          "manifest": "data\\processed\\refit_a1_sources\\manifest.json",
+          "kind": "real_prefix",
+          "channels": [
+            "aggregate",
+            "kettle",
+            "microwave",
+            "washing_machine"
+          ]
+        },
+        {
+          "manifest": "data\\processed\\refit_m1\\manifest.json",
+          "kind": "real_prefix",
+          "channels": [
+            "aggregate",
+            "kettle",
+            "microwave",
+            "washing_machine"
+          ]
+        }
+      ],
+      "11": [
+        {
+          "manifest": "data\\processed\\refit_a1_sources\\manifest.json",
+          "kind": "real_prefix",
+          "channels": [
+            "aggregate",
+            "kettle",
+            "microwave",
+            "washing_machine"
+          ]
+        },
+        {
+          "manifest": "data\\processed\\refit_m1\\manifest.json",
+          "kind": "real_prefix",
+          "channels": [
+            "aggregate",
+            "kettle",
+            "microwave",
+            "washing_machine"
+          ]
+        }
+      ]
+    },
+    "unavailable_directories": [],
+    "inventory_complete": true,
+    "eligible_complete_new_households": [],
+    "minimum_households": 3,
+    "data_ready": false,
+    "missing_requirements": [
+      "Fewer than three eligible complete new households verified in accessible inventory; acquire files or resolve unavailable inventory",
+      "Final target roster is still empty",
+      "Named, dated unseen-future-label declaration is required for final protocol preparation",
+      "Independent member rerun is not established by local engineering tests"
+    ]
+  },
+  "source_sha256": "029189daf63f93401ce5078f55f3344504d040f5e2c5c88b231cd35bcead3437",
+  "evidence_sha256": "f642f810a938608081c771ce44f81a9b1d91d15b3542b6ef0bb9001b6703d00c",
+  "freeze_sha256": "e05298b43ab32eeb3374678c93016e7c2db9ab74f7d6837a2d17cdd9ef2a5645",
+  "verification_view": "same sandbox filesystem view as execution",
+  "external_view_check": {
+    "status": "rejected_missing_evidence",
+    "unavailable_derived_cache_files": 24,
+    "notice": "External permission view cannot enumerate published cache files visible in execution view. This is not evidence of physical deletion. No seal requirements were weakened."
+  },
+  "independent_member_rerun": false,
+  "notice": "Local synthetic engineering verification only. No real final household results or final H1/H2/H3 claims."
+}

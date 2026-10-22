@@ -25,6 +25,9 @@ def load_model(directory: Path):
             raise DataError("A2 and historical state adapters cannot be combined")
         if sha256(directory / "queries.json") != metadata["queries_sha256"]:
             raise DataError("A2 query history hash mismatch")
+    if metadata.get("accuracy_power_head"):
+        from ..accuracy.power import validate_branch
+        validate_branch(metadata["accuracy_power_head"], metadata)
     if metadata.get("adaptation") == "weak_window_state_only":
         if sha256(directory / "queries.json") != metadata["queries_sha256"]:
             raise DataError("Adaptation query history hash mismatch")
