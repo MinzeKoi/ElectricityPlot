@@ -24,12 +24,16 @@ def main(root: Path):
     st.caption("从家庭总功率查看设备用电估计 · 离线历史分析")
     st.info("设备用电为模型估计。未解释部分含未建模背景及模型误差；来源校准区间没有跨家庭覆盖保证。")
     with st.expander("高级：模型设置"):
-        model_text = st.text_input("模型目录", "outputs/m2-20261020/seq2point")
+        r2_model = "outputs/accuracy/r2-stability-20261023-v1/frozen/inputs/bases/seed_42"
+        default_model = "inputs/model" if (root / "inputs/model/model.json").exists() else r2_model if (root / r2_model / "model.json").exists() else "outputs/m2-20261020/seq2point"
+        model_text = st.text_input("模型目录", default_model)
         calibration_text = st.text_input("区间校准目录（可选）", "")
     calibration_dir = root / calibration_text if calibration_text.strip() else None
     calibration_token = None
     mode = st.radio("数据来源", ["已有家庭记录", "导入总表 CSV"], horizontal=True)
-    manifest_path = root / "data/processed/refit_m1_protocol/protocol.json"
+    r2_manifest = "outputs/accuracy/r2-stability-20261023-v1/frozen/inputs/protocol/protocol.json"
+    modern_context = (root / "inputs/protocol/protocol.json").exists() or (root / r2_manifest).exists()
+    manifest_path = root / ("inputs/protocol/protocol.json" if (root / "inputs/protocol/protocol.json").exists() else r2_manifest if (root / r2_manifest).exists() else "data/processed/refit_m1_protocol/protocol.json")
     partition_id = None
     uploaded = None
     household = "uploaded_home"
@@ -41,10 +45,13 @@ def main(root: Path):
         manifest_path = root / manifest_text
         try:
             protocol = read_json(manifest_path)
-            choices = [p["partition_id"] for p in protocol["partitions"] if p["role"] in ("frozen_test", "source_validation", "target_adaptation")]
+            if protocol.get("accuracy_usage") == "final_evaluation" or protocol.get("purpose") == "final_evaluation":
+                raise DataError("正式最终协议保持隔离，请使用开发或导入记录")
+            choices = [p["partition_id"] for p in protocol["partitions"] if p["role"] in ("frozen_test", "source_validation", "target_adaptation")
+                       and safe_child(manifest_path.parent, p["artifacts"]["aggregate"]["path"]).is_file()]
             if not choices:
                 raise DataError("没有可用的数据分区")
-            default = next((i for i, item in enumerate(choices) if item.startswith("frozen_test")), 0)
+            default = next((i for i, item in enumerate(choices) if item.startswith("target_adaptation" if modern_context else "frozen_test")), 0)
             labels = {p["partition_id"]: "House " + p["household_id"] + " · " + {"frozen_test": "未见家庭测试区间", "source_validation": "来源家庭验证区间", "target_adaptation": "待适配历史区间"}.get(p["role"], p["role"]) for p in protocol["partitions"]}
             partition_id = st.selectbox("分析区间", choices, index=default, format_func=lambda value: labels[value])
             selected = next(p for p in protocol["partitions"] if p["partition_id"] == partition_id)
@@ -68,7 +75,8 @@ def main(root: Path):
         if calibration_dir is not None:
             load_calibration(calibration_dir, metadata)
             calibration_token = sha256(calibration_dir / "calibration.json")
-        stage = "已进行窗口弱标签状态适配，功率主干冻结" if metadata.get("adaptation") == "weak_window_state_only" else "未经目标家庭适配"
+        stage = ("已加载状态适配：" + metadata["accuracy_state_head"]["variant"] if metadata.get("accuracy_state_head")
+                 else "已进行窗口弱标签状态适配，功率主干冻结" if metadata.get("adaptation") == "weak_window_state_only" else "未经目标家庭适配")
         st.caption("当前模型：" + ("轻量时序模型" if metadata["kind"] == "small_seq2point" else "简单对照") + " · " + stage)
     except (DataError, OSError, ValueError, RuntimeError, KeyError, TypeError, ImportError) as error:
         model_token = "invalid"
@@ -78,6 +86,7 @@ def main(root: Path):
     if st.session_state.get("signature") != signature or context_error:
         st.session_state.pop("prediction_directory", None)
         st.session_state.pop("evaluation_directory", None)
+        st.session_state.pop("import_confirmation", None)
         from .confirmations import clear_results
         clear_results()
         st.session_state["signature"] = signature
@@ -92,7 +101,8 @@ def main(root: Path):
         try:
             if context_error:
                 raise DataError(context_error)
-            directory = root / "outputs/ui" / uuid.uuid4().hex
+            workspace = root.parent / (root.name + "-workspace") if (root / "manifest.json").exists() else root / "outputs/ui"
+            directory = workspace / uuid.uuid4().hex
             with st.spinner("正在检查数据并计算设备估计…"):
                 if mode == "导入总表 CSV":
                     if uploaded is None or unit != "W":
@@ -102,6 +112,9 @@ def main(root: Path):
                     source.write_bytes(uploaded.getvalue())
                     prepare({household: source}, directory / "prepared", root / "configs/refit_channels.json", kind="aggregate")
                     predict(root / model_text, directory / "prediction", input_path=directory / "prepared/aggregate" / f"house_{household}.csv", calibration_dir=calibration_dir)
+                    from ..accuracy.live import bind_import
+                    st.session_state["import_confirmation"] = bind_import(root / model_text, manifest_path,
+                        directory / "prepared/aggregate" / f"house_{household}.csv", directory / "confirmation_context")
                 else:
                     predict(root / model_text, directory / "prediction", manifest_path=manifest_path, partition_id=partition_id, calibration_dir=calibration_dir)
             st.session_state["prediction_directory"] = str(directory / "prediction")
@@ -111,6 +124,10 @@ def main(root: Path):
         st.caption("分析成功后将在此显示真实预测曲线和可下载报告。")
         return
     directory = Path(st.session_state["prediction_directory"])
+    imported = st.session_state.get("import_confirmation")
+    if mode == "导入总表 CSV" and imported:
+        from .confirmations import panel
+        panel(root, Path(imported["model"]), Path(imported["manifest"]), imported["partition_id"])
     try:
         payload = load_result(directory)
         prediction_csv = (directory / "predictions.csv").read_bytes()

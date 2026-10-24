@@ -53,6 +53,17 @@ function draw(){const count=dur.value==='all'?data.length:Number(dur.value);pos.
         sources = escape(json.dumps(summary["label_sources"], ensure_ascii=False))
         responses = escape(json.dumps(summary["responses"], ensure_ascii=False))
         document = document.replace("<section><h2>评价</h2>", f"<section><h2>适配与预算</h2><p>{escape(payload['state_definition'])}</p><p>标签来源：{sources}；回答计数：{responses}</p></section><section><h2>评价</h2>")
+    if payload.get("adaptation") in ("a2_fixed_query_state_only", "a3_dynamic_query_state_only", "a5_final_state_only"):
+        summary = payload["query_summary"]
+        document = document.replace("本模型未经目标家庭适配，尚未校准可信度。",
+                                    "本模型使用窗口弱标签状态头；功率与电量冻结，状态分数未校准为可信概率。")
+        detail = (f"确认预算使用 {summary['budget_used']} 次；策略 {summary['strategy']}。"
+                  "每个设备窗口的一次回答计一次，不确定和跳过同样计费。"
+                  "用过不代表窗口内每个时刻开启；只改变状态，不推导真实瓦数或节电收益。尚无可靠置信区间。")
+        document = document.replace("M2 未发起用户确认，当前确认预算使用量为 0。尚无可靠置信区间。", escape(detail))
+        document = document.replace("<section><h2>评价</h2>", "<section><h2>实际状态方法</h2><p>" + escape(str(payload.get("state_learner") or "未记录")) + " · " + escape(payload["state_definition"])
+                                    + "</p><p>回答分布（模拟与真实来源请参见确认记录）：" + escape(json.dumps(summary["responses"], ensure_ascii=False))
+                                    + "</p></section><section><h2>评价</h2>")
     if payload.get("adaptation") == "a4_state_power_coupled":
         document = document.replace("本模型未经目标家庭适配，尚未校准可信度。",
                                     "A4 功率联动：状态分数与来源训练的开机功率分支共同输出；状态分数未校准为可信概率。")

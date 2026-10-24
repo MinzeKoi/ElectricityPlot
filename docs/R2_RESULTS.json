@@ -1,0 +1,1109 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-10-23",
+  "timezone": "Asia/Shanghai",
+  "experiment_id": "r2-l1-limited-v1",
+  "run": "outputs/accuracy/r2-20261023",
+  "formal_evaluation": false,
+  "development_households": [
+    "17"
+  ],
+  "reserved_final_households": [
+    "8",
+    "9",
+    "20"
+  ],
+  "final_households_opened": false,
+  "label_source": "simulated_from_submeter",
+  "source_seeds": [
+    42,
+    1019,
+    2026
+  ],
+  "query_seeds": [
+    42,
+    1019,
+    2026
+  ],
+  "budgets": [
+    0,
+    5,
+    10,
+    20
+  ],
+  "main_budget": 10,
+  "cases": 108,
+  "metric_rows": 324,
+  "code_sha256": "4b14da6a5ae84823c9630796c070037505aa9d859bba7eae58419b9374d9f79b",
+  "current_source_matches_execution": true,
+  "artifacts_sha256": {
+    "freeze.json": "86efb1d75358fba451ae07c36ef3f70b4482912df31170987041942aa76091c6",
+    "evidence.json": "6dddbac9f26b09934f857e0857d4ec5d913e91a9f6c31c50ec95821ad832de01",
+    "summary.json": "4400e716537cfeaa59e255e147d425989cdc4677d88f9b72aeced45186e836d0",
+    "metrics.json": "e300c9f26438566eff0e41ce9297ddee397094e50c4e1d90c8d8f743b545689c",
+    "comparison.csv": "a7dfc31dcbc3fe055cb8e07a6eebbc3f22e6791456dbdc1c7782887409180faa",
+    "query_distribution.json": "65ae870cfcdc692e699d42a78b2669a449d4a2d6e026389fcd4e10c733b0c98c",
+    "report.html": "3f3d8f7a2a43a0b8e6afb62f5ea73287aba66f5e9dfe6ebbf57f2a38b9b4719e"
+  },
+  "query_plan_sha256": "c89385520fb704b0212498c6767836f27b199c6e2a6782ceee291a69d7307167",
+  "protocol_sha256": "e6356bf007fb8c0302008e1f18bd039f8651456172a7a062ac92133909b79084",
+  "selected_development_strategy": "uncertainty_static",
+  "development_exit_passed": false,
+  "strategy_outcomes": [
+    {
+      "strategy": "random",
+      "f1": 0.3911547747006449,
+      "f1_delta": -0.025055999856238183,
+      "f1_vs_random": 0.0,
+      "guard_passed": false,
+      "query_seed_pairs": [
+        {
+          "query_seed": 42,
+          "f1_delta": -0.08128684186372276,
+          "f1_vs_random": 0.0
+        },
+        {
+          "query_seed": 1019,
+          "f1_delta": 0.0030333279982017874,
+          "f1_vs_random": 0.0
+        },
+        {
+          "query_seed": 2026,
+          "f1_delta": 0.0030855142968064194,
+          "f1_vs_random": 0.0
+        }
+      ],
+      "confirmation_development_exit_passed": false,
+      "h1_development_target_met": false,
+      "h2_development_target_met": false
+    },
+    {
+      "strategy": "uncertainty_static",
+      "f1": 0.41511317240125617,
+      "f1_delta": -0.0010976021556269495,
+      "f1_vs_random": 0.023958397700611256,
+      "guard_passed": true,
+      "query_seed_pairs": [
+        {
+          "query_seed": 42,
+          "f1_delta": -0.0010976021556269495,
+          "f1_vs_random": 0.08018923970809581
+        },
+        {
+          "query_seed": 1019,
+          "f1_delta": -0.0010976021556269495,
+          "f1_vs_random": -0.004130930153828737
+        },
+        {
+          "query_seed": 2026,
+          "f1_delta": -0.0010976021556269495,
+          "f1_vs_random": -0.004183116452433369
+        }
+      ],
+      "confirmation_development_exit_passed": false,
+      "h1_development_target_met": false,
+      "h2_development_target_met": false
+    },
+    {
+      "strategy": "proposed",
+      "f1": 0.32360338644802583,
+      "f1_delta": -0.09260738810885728,
+      "f1_vs_random": -0.06755138825261908,
+      "guard_passed": false,
+      "query_seed_pairs": [
+        {
+          "query_seed": 42,
+          "f1_delta": -0.0240261296146836,
+          "f1_vs_random": 0.05726071224903916
+        },
+        {
+          "query_seed": 1019,
+          "f1_delta": -0.11052383488727073,
+          "f1_vs_random": -0.11355716288547252
+        },
+        {
+          "query_seed": 2026,
+          "f1_delta": -0.14327219982461753,
+          "f1_vs_random": -0.14635771412142395
+        }
+      ],
+      "confirmation_development_exit_passed": false,
+      "h1_development_target_met": false,
+      "h2_development_target_met": false
+    }
+  ],
+  "groups": [
+    {
+      "variant": "random",
+      "budget": 0,
+      "f1": 0.41621077455688305,
+      "f1_delta": 0.0,
+      "households": [
+        {
+          "household_id": "17",
+          "devices": [
+            {
+              "appliance": "kettle",
+              "f1": 0.7555085756780914,
+              "f1_delta": 0.0,
+              "precision": 0.6408068101271236,
+              "recall": 0.9202898550724637
+            },
+            {
+              "appliance": "microwave",
+              "f1": 0.07691297343567473,
+              "f1_delta": 0.0,
+              "precision": 0.040128089998697464,
+              "recall": 0.9242819843342036
+            }
+          ],
+          "f1": 0.41621077455688305,
+          "f1_delta": 0.0,
+          "f1_vs_random": 0.0
+        }
+      ],
+      "missing_f1": 0,
+      "adaptation_degenerate_cases": 0,
+      "device_drops_over_tolerance": 0,
+      "f1_vs_random": 0.0
+    },
+    {
+      "variant": "random",
+      "budget": 5,
+      "f1": 0.41864780448499433,
+      "f1_delta": 0.002437029928111234,
+      "households": [
+        {
+          "household_id": "17",
+          "devices": [
+            {
+              "appliance": "kettle",
+              "f1": 0.756251643033,
+              "f1_delta": 0.0007430673549084776,
+              "precision": 0.6420342170249085,
+              "recall": 0.9199604743083003
+            },
+            {
+              "appliance": "microwave",
+              "f1": 0.08104396593698872,
+              "f1_delta": 0.00413099250131399,
+              "precision": 0.042442034167459036,
+              "recall": 0.8978822164200755
+            }
+          ],
+          "f1": 0.41864780448499433,
+          "f1_delta": 0.002437029928111234,
+          "f1_vs_random": 0.0
+        }
+      ],
+      "missing_f1": 0,
+      "adaptation_degenerate_cases": 0,
+      "device_drops_over_tolerance": 0,
+      "f1_vs_random": 0.0
+    },
+    {
+      "variant": "random",
+      "budget": 10,
+      "f1": 0.3911547747006449,
+      "f1_delta": -0.025055999856238183,
+      "households": [
+        {
+          "household_id": "17",
+          "devices": [
+            {
+              "appliance": "kettle",
+              "f1": 0.7008801604989476,
+              "f1_delta": -0.054628415179143824,
+              "precision": 0.5709289715805643,
+              "recall": 0.935441370223979
+            },
+            {
+              "appliance": "microwave",
+              "f1": 0.08142938890234218,
+              "f1_delta": 0.004516415466667457,
+              "precision": 0.042659157271465006,
+              "recall": 0.8949811430229185
+            }
+          ],
+          "f1": 0.3911547747006449,
+          "f1_delta": -0.025055999856238183,
+          "f1_vs_random": 0.0
+        }
+      ],
+      "missing_f1": 0,
+      "adaptation_degenerate_cases": 0,
+      "device_drops_over_tolerance": 1,
+      "f1_vs_random": 0.0
+    },
+    {
+      "variant": "random",
+      "budget": 20,
+      "f1": 0.4431301569371736,
+      "f1_delta": 0.026919382380290548,
+      "households": [
+        {
+          "household_id": "17",
+          "devices": [
+            {
+              "appliance": "kettle",
+              "f1": 0.8045710032961072,
+              "f1_delta": 0.04906242761801576,
+              "precision": 0.7943191538424969,
+              "recall": 0.8196091348265262
+            },
+            {
+              "appliance": "microwave",
+              "f1": 0.08168931057824007,
+              "f1_delta": 0.004776337142565334,
+              "precision": 0.04279823121452509,
+              "recall": 0.8964316797214971
+            }
+          ],
+          "f1": 0.4431301569371736,
+          "f1_delta": 0.026919382380290548,
+          "f1_vs_random": 0.0
+        }
+      ],
+      "missing_f1": 0,
+      "adaptation_degenerate_cases": 0,
+      "device_drops_over_tolerance": 0,
+      "f1_vs_random": 0.0
+    },
+    {
+      "variant": "uncertainty_static",
+      "budget": 0,
+      "f1": 0.41621077455688305,
+      "f1_delta": 0.0,
+      "households": [
+        {
+          "household_id": "17",
+          "devices": [
+            {
+              "appliance": "kettle",
+              "f1": 0.7555085756780914,
+              "f1_delta": 0.0,
+              "precision": 0.6408068101271236,
+              "recall": 0.9202898550724637
+            },
+            {
+              "appliance": "microwave",
+              "f1": 0.07691297343567473,
+              "f1_delta": 0.0,
+              "precision": 0.040128089998697464,
+              "recall": 0.9242819843342036
+            }
+          ],
+          "f1": 0.41621077455688305,
+          "f1_delta": 0.0,
+          "f1_vs_random": 0.0
+        }
+      ],
+      "missing_f1": 0,
+      "adaptation_degenerate_cases": 0,
+      "device_drops_over_tolerance": 0,
+      "f1_vs_random": 0.0
+    },
+    {
+      "variant": "uncertainty_static",
+      "budget": 5,
+      "f1": 0.4280214562821844,
+      "f1_delta": 0.011810681725301309,
+      "households": [
+        {
+          "household_id": "17",
+          "devices": [
+            {
+              "appliance": "kettle",
+              "f1": 0.7791299391286941,
+              "f1_delta": 0.023621363450602617,
+              "precision": 0.7046740273976342,
+              "recall": 0.8863636363636364
+            },
+            {
+              "appliance": "microwave",
+              "f1": 0.07691297343567473,
+              "f1_delta": 0.0,
+              "precision": 0.040128089998697464,
+              "recall": 0.9242819843342036
+            }
+          ],
+          "f1": 0.4280214562821844,
+          "f1_delta": 0.011810681725301309,
+          "f1_vs_random": 0.009373651797190075
+        }
+      ],
+      "missing_f1": 0,
+      "adaptation_degenerate_cases": 0,
+      "device_drops_over_tolerance": 0,
+      "f1_vs_random": 0.009373651797190075
+    },
+    {
+      "variant": "uncertainty_static",
+      "budget": 10,
+      "f1": 0.41511317240125617,
+      "f1_delta": -0.0010976021556269495,
+      "households": [
+        {
+          "household_id": "17",
+          "devices": [
+            {
+              "appliance": "kettle",
+              "f1": 0.7533133713668376,
+              "f1_delta": -0.002195204311253899,
+              "precision": 0.6662195306162145,
+              "recall": 0.8969038208168644
+            },
+            {
+              "appliance": "microwave",
+              "f1": 0.07691297343567473,
+              "f1_delta": 0.0,
+              "precision": 0.040128089998697464,
+              "recall": 0.9242819843342036
+            }
+          ],
+          "f1": 0.41511317240125617,
+          "f1_delta": -0.0010976021556269495,
+          "f1_vs_random": 0.023958397700611256
+        }
+      ],
+      "missing_f1": 0,
+      "adaptation_degenerate_cases": 0,
+      "device_drops_over_tolerance": 0,
+      "f1_vs_random": 0.023958397700611256
+    },
+    {
+      "variant": "uncertainty_static",
+      "budget": 20,
+      "f1": 0.41932463546164195,
+      "f1_delta": 0.0031138609047588217,
+      "households": [
+        {
+          "household_id": "17",
+          "devices": [
+            {
+              "appliance": "kettle",
+              "f1": 0.7615373186240668,
+              "f1_delta": 0.0060287429459753294,
+              "precision": 0.6770101467457854,
+              "recall": 0.8952569169960474
+            },
+            {
+              "appliance": "microwave",
+              "f1": 0.07711195229921704,
+              "f1_delta": 0.00019897886354231417,
+              "precision": 0.04025743505533721,
+              "recall": 0.9138381201044388
+            }
+          ],
+          "f1": 0.41932463546164195,
+          "f1_delta": 0.0031138609047588217,
+          "f1_vs_random": -0.023805521475531666
+        }
+      ],
+      "missing_f1": 0,
+      "adaptation_degenerate_cases": 0,
+      "device_drops_over_tolerance": 0,
+      "f1_vs_random": -0.023805521475531666
+    },
+    {
+      "variant": "proposed",
+      "budget": 0,
+      "f1": 0.41621077455688305,
+      "f1_delta": 0.0,
+      "households": [
+        {
+          "household_id": "17",
+          "devices": [
+            {
+              "appliance": "kettle",
+              "f1": 0.7555085756780914,
+              "f1_delta": 0.0,
+              "precision": 0.6408068101271236,
+              "recall": 0.9202898550724637
+            },
+            {
+              "appliance": "microwave",
+              "f1": 0.07691297343567473,
+              "f1_delta": 0.0,
+              "precision": 0.040128089998697464,
+              "recall": 0.9242819843342036
+            }
+          ],
+          "f1": 0.41621077455688305,
+          "f1_delta": 0.0,
+          "f1_vs_random": 0.0
+        }
+      ],
+      "missing_f1": 0,
+      "adaptation_degenerate_cases": 0,
+      "device_drops_over_tolerance": 0,
+      "f1_vs_random": 0.0
+    },
+    {
+      "variant": "proposed",
+      "budget": 5,
+      "f1": 0.42558887846322613,
+      "f1_delta": 0.009378103906343058,
+      "households": [
+        {
+          "household_id": "17",
+          "devices": [
+            {
+              "appliance": "kettle",
+              "f1": 0.7742647834907775,
+              "f1_delta": 0.018756207812686117,
+              "precision": 0.6971107222239661,
+              "recall": 0.8885595081247255
+            },
+            {
+              "appliance": "microwave",
+              "f1": 0.07691297343567473,
+              "f1_delta": 0.0,
+              "precision": 0.040128089998697464,
+              "recall": 0.9242819843342036
+            }
+          ],
+          "f1": 0.42558887846322613,
+          "f1_delta": 0.009378103906343058,
+          "f1_vs_random": 0.006941073978231793
+        }
+      ],
+      "missing_f1": 0,
+      "adaptation_degenerate_cases": 0,
+      "device_drops_over_tolerance": 0,
+      "f1_vs_random": 0.006941073978231793
+    },
+    {
+      "variant": "proposed",
+      "budget": 10,
+      "f1": 0.32360338644802583,
+      "f1_delta": -0.09260738810885728,
+      "households": [
+        {
+          "household_id": "17",
+          "devices": [
+            {
+              "appliance": "kettle",
+              "f1": 0.5700948205968346,
+              "f1_delta": -0.18541375508125688,
+              "precision": null,
+              "recall": 0.714756258234519
+            },
+            {
+              "appliance": "microwave",
+              "f1": 0.07711195229921704,
+              "f1_delta": 0.00019897886354231417,
+              "precision": 0.04025743505533721,
+              "recall": 0.9138381201044388
+            }
+          ],
+          "f1": 0.32360338644802583,
+          "f1_delta": -0.09260738810885728,
+          "f1_vs_random": -0.06755138825261908
+        }
+      ],
+      "missing_f1": 0,
+      "adaptation_degenerate_cases": 2,
+      "device_drops_over_tolerance": 1,
+      "f1_vs_random": -0.06755138825261908
+    },
+    {
+      "variant": "proposed",
+      "budget": 20,
+      "f1": 0.28924100860719104,
+      "f1_delta": -0.12696976594969206,
+      "households": [
+        {
+          "household_id": "17",
+          "devices": [
+            {
+              "appliance": "kettle",
+              "f1": 0.4992970737263578,
+              "f1_delta": -0.2562115019517337,
+              "precision": null,
+              "recall": 0.6085858585858586
+            },
+            {
+              "appliance": "microwave",
+              "f1": 0.07918494348802434,
+              "f1_delta": 0.002271970052349606,
+              "precision": 0.04140413172373235,
+              "recall": 0.9071656512909776
+            }
+          ],
+          "f1": 0.28924100860719104,
+          "f1_delta": -0.12696976594969206,
+          "f1_vs_random": -0.15388914832998257
+        }
+      ],
+      "missing_f1": 0,
+      "adaptation_degenerate_cases": 3,
+      "device_drops_over_tolerance": 1,
+      "f1_vs_random": -0.15388914832998257
+    }
+  ],
+  "device_main_budget_results": [
+    {
+      "strategy": "random",
+      "appliance": "kettle",
+      "f1": 0.7008801604989476,
+      "baseline_f1": 0.7555085756780915,
+      "f1_delta": -0.054628415179143824,
+      "precision": 0.5709289715805644,
+      "recall": 0.9354413702239789,
+      "new_degenerate_cases": 0,
+      "valid_samples": [
+        137523
+      ]
+    },
+    {
+      "strategy": "random",
+      "appliance": "microwave",
+      "f1": 0.08142938890234218,
+      "baseline_f1": 0.07691297343567473,
+      "f1_delta": 0.004516415466667457,
+      "precision": 0.042659157271465006,
+      "recall": 0.8949811430229185,
+      "new_degenerate_cases": 0,
+      "valid_samples": [
+        137523
+      ]
+    },
+    {
+      "strategy": "random",
+      "appliance": "washing_machine",
+      "f1": 0.127643038454399,
+      "baseline_f1": 0.11176000407332018,
+      "f1_delta": 0.015883034381078825,
+      "precision": 0.07109657608341542,
+      "recall": 0.7950166594234391,
+      "new_degenerate_cases": 0,
+      "valid_samples": [
+        137523
+      ]
+    },
+    {
+      "strategy": "uncertainty_static",
+      "appliance": "kettle",
+      "f1": 0.7533133713668375,
+      "baseline_f1": 0.7555085756780915,
+      "f1_delta": -0.002195204311253899,
+      "precision": 0.6662195306162145,
+      "recall": 0.8969038208168643,
+      "new_degenerate_cases": 0,
+      "valid_samples": [
+        137523
+      ]
+    },
+    {
+      "strategy": "uncertainty_static",
+      "appliance": "microwave",
+      "f1": 0.07691297343567473,
+      "baseline_f1": 0.07691297343567473,
+      "f1_delta": 0.0,
+      "precision": 0.04012808999869747,
+      "recall": 0.9242819843342036,
+      "new_degenerate_cases": 0,
+      "valid_samples": [
+        137523
+      ]
+    },
+    {
+      "strategy": "uncertainty_static",
+      "appliance": "washing_machine",
+      "f1": 0.13558455564493843,
+      "baseline_f1": 0.11176000407332018,
+      "f1_delta": 0.023824551571618238,
+      "precision": 0.07625388695196433,
+      "recall": 0.777922642329422,
+      "new_degenerate_cases": 0,
+      "valid_samples": [
+        137523
+      ]
+    },
+    {
+      "strategy": "proposed",
+      "appliance": "kettle",
+      "f1": 0.5700948205968346,
+      "baseline_f1": 0.7555085756780915,
+      "f1_delta": -0.1854137550812569,
+      "precision": null,
+      "recall": 0.714756258234519,
+      "new_degenerate_cases": 2,
+      "valid_samples": [
+        137523
+      ]
+    },
+    {
+      "strategy": "proposed",
+      "appliance": "microwave",
+      "f1": 0.07711195229921704,
+      "baseline_f1": 0.07691297343567473,
+      "f1_delta": 0.00019897886354231417,
+      "precision": 0.0402574350553372,
+      "recall": 0.9138381201044387,
+      "new_degenerate_cases": 0,
+      "valid_samples": [
+        137523
+      ]
+    },
+    {
+      "strategy": "proposed",
+      "appliance": "washing_machine",
+      "f1": 0.13558455564493843,
+      "baseline_f1": 0.11176000407332018,
+      "f1_delta": 0.023824551571618238,
+      "precision": 0.07625388695196433,
+      "recall": 0.777922642329422,
+      "new_degenerate_cases": 0,
+      "valid_samples": [
+        137523
+      ]
+    }
+  ],
+  "main_budget_answers": [
+    {
+      "strategy": "random",
+      "model_trajectories": 9,
+      "answers_counting_seed_replicates": {
+        "not_used": 51,
+        "unsure": 36,
+        "used": 3
+      },
+      "per_appliance": {
+        "kettle": {
+          "not_used": 24,
+          "unsure": 9,
+          "used": 3
+        },
+        "microwave": {
+          "not_used": 15,
+          "unsure": 9
+        },
+        "washing_machine": {
+          "not_used": 12,
+          "unsure": 18
+        }
+      },
+      "unique_selected_windows": 27,
+      "unique_window_responses": {
+        "not_used": 15,
+        "unsure": 11,
+        "used": 1
+      },
+      "unique_query_paths_per_source_seed": {
+        "1019": 3,
+        "2026": 3,
+        "42": 3
+      }
+    },
+    {
+      "strategy": "uncertainty_static",
+      "model_trajectories": 9,
+      "answers_counting_seed_replicates": {
+        "not_used": 42,
+        "unsure": 42,
+        "used": 6
+      },
+      "per_appliance": {
+        "kettle": {
+          "used": 6,
+          "not_used": 15,
+          "unsure": 15
+        },
+        "microwave": {
+          "unsure": 3
+        },
+        "washing_machine": {
+          "not_used": 27,
+          "unsure": 24
+        }
+      },
+      "unique_selected_windows": 27,
+      "unique_window_responses": {
+        "not_used": 13,
+        "unsure": 12,
+        "used": 2
+      },
+      "unique_query_paths_per_source_seed": {
+        "1019": 1,
+        "2026": 1,
+        "42": 1
+      }
+    },
+    {
+      "strategy": "proposed",
+      "model_trajectories": 9,
+      "answers_counting_seed_replicates": {
+        "not_used": 48,
+        "unsure": 27,
+        "used": 15
+      },
+      "per_appliance": {
+        "kettle": {
+          "unsure": 8,
+          "used": 15,
+          "not_used": 15
+        },
+        "microwave": {
+          "unsure": 9,
+          "not_used": 3
+        },
+        "washing_machine": {
+          "not_used": 30,
+          "unsure": 10
+        }
+      },
+      "unique_selected_windows": 30,
+      "unique_window_responses": {
+        "not_used": 20,
+        "unsure": 7,
+        "used": 3
+      },
+      "unique_query_paths_per_source_seed": {
+        "1019": 3,
+        "2026": 3,
+        "42": 3
+      }
+    }
+  ],
+  "new_degenerate_rows": [
+    {
+      "source_seed": 42,
+      "query_seed": 1019,
+      "variant": "proposed",
+      "budget": 20,
+      "appliance": "kettle",
+      "f1": 0.0,
+      "baseline_f1": 0.7388329979879276,
+      "f1_delta": -0.7388329979879276,
+      "predicted_on_fraction": 0.0,
+      "actual_on_samples": 1012,
+      "valid_samples": 137523,
+      "coefficients": [
+        -0.5290506619117558,
+        1.0
+      ],
+      "answers": {
+        "used": 2,
+        "unsure": 2,
+        "not_used": 3
+      },
+      "source_power_threshold_w": 2000.0,
+      "effective_power_threshold_w": 3395.3377458161713
+    },
+    {
+      "source_seed": 42,
+      "query_seed": 2026,
+      "variant": "proposed",
+      "budget": 10,
+      "appliance": "kettle",
+      "f1": 0.0,
+      "baseline_f1": 0.7388329979879276,
+      "f1_delta": -0.7388329979879276,
+      "predicted_on_fraction": 0.0,
+      "actual_on_samples": 1012,
+      "valid_samples": 137523,
+      "coefficients": [
+        -0.6931471805599453,
+        1.0
+      ],
+      "answers": {
+        "used": 1,
+        "unsure": 1,
+        "not_used": 2
+      },
+      "source_power_threshold_w": 2000.0,
+      "effective_power_threshold_w": 4001.0
+    },
+    {
+      "source_seed": 1019,
+      "query_seed": 1019,
+      "variant": "proposed",
+      "budget": 10,
+      "appliance": "kettle",
+      "f1": 0.0,
+      "baseline_f1": 0.7631792376317924,
+      "f1_delta": -0.7631792376317924,
+      "predicted_on_fraction": 0.0,
+      "actual_on_samples": 1012,
+      "valid_samples": 137523,
+      "coefficients": [
+        -0.48516177513303405,
+        1.0
+      ],
+      "answers": {
+        "used": 1,
+        "unsure": 1,
+        "not_used": 2
+      },
+      "source_power_threshold_w": 2000.0,
+      "effective_power_threshold_w": 3249.5000002348293
+    },
+    {
+      "source_seed": 2026,
+      "query_seed": 42,
+      "variant": "proposed",
+      "budget": 20,
+      "appliance": "kettle",
+      "f1": 0.0,
+      "baseline_f1": 0.7645134914145544,
+      "f1_delta": -0.7645134914145544,
+      "predicted_on_fraction": 0.0,
+      "actual_on_samples": 1012,
+      "valid_samples": 137523,
+      "coefficients": [
+        -0.5392099764801976,
+        1.0
+      ],
+      "answers": {
+        "used": 3,
+        "unsure": 1,
+        "not_used": 8
+      },
+      "source_power_threshold_w": 2000.0,
+      "effective_power_threshold_w": 3430.0180752606184
+    },
+    {
+      "source_seed": 2026,
+      "query_seed": 2026,
+      "variant": "proposed",
+      "budget": 20,
+      "appliance": "kettle",
+      "f1": 0.0,
+      "baseline_f1": 0.7645134914145544,
+      "f1_delta": -0.7645134914145544,
+      "predicted_on_fraction": 0.0,
+      "actual_on_samples": 1012,
+      "valid_samples": 137523,
+      "coefficients": [
+        -0.6931471805599453,
+        1.0
+      ],
+      "answers": {
+        "used": 2,
+        "unsure": 4,
+        "not_used": 6
+      },
+      "source_power_threshold_w": 2000.0,
+      "effective_power_threshold_w": 4001.0
+    }
+  ],
+  "boundaries": {
+    "status": "passed",
+    "cases": 108,
+    "checkpoints": 135,
+    "power_weights_unchanged": 135,
+    "devices_checked": 405,
+    "no_answer_exact_source_devices": 159,
+    "bounded_devices": 246,
+    "single_class_bias_only_devices": 196,
+    "code_sha256": "4b14da6a5ae84823c9630796c070037505aa9d859bba7eae58419b9374d9f79b",
+    "target_pointwise_labels_parsed": false,
+    "future_labels_opened_at_check": false
+  },
+  "normal_inference_readback": {
+    "status": "r2_normal_inference_readback_passed",
+    "source_seed": 1019,
+    "query_seed": 42,
+    "strategy": "proposed",
+    "budget": 10,
+    "future_rows": 150750,
+    "state_decisions_equal_frozen_cache": true,
+    "raw_and_corrected_power_equal_source": true,
+    "target_pointwise_labels_parsed": false,
+    "model_manifest_sha256": "02949eb218fd271bf9956bb888d7fb702688a49008ba4d477ab60fd36f2748e8",
+    "frozen_states_sha256": "59ae7cebc868e00cd2eab8ade39aa3a715803c57f7f5f8649c66aaaadd45c85e",
+    "normal_prediction_sha256": "a48340720a4f6df287608627e837bd99919c9ccd8dc9d7cd9fe15b64e86499c8"
+  },
+  "freeze_timing": {
+    "measurement": "immutable pool.json mtime to last case.json mtime; excludes shared prediction preparation and final evaluation",
+    "trajectories": 27,
+    "median_seconds": 27.36999487876892,
+    "minimum_seconds": 25.819719076156616,
+    "maximum_seconds": 32.10322093963623,
+    "freeze_command_seconds_from_log_timestamps": 874.809011220932,
+    "rows": [
+      {
+        "source_seed": 42,
+        "query_seed": 42,
+        "strategy": "random",
+        "seconds": 28.101165771484375
+      },
+      {
+        "source_seed": 42,
+        "query_seed": 42,
+        "strategy": "uncertainty_static",
+        "seconds": 27.13627529144287
+      },
+      {
+        "source_seed": 42,
+        "query_seed": 42,
+        "strategy": "proposed",
+        "seconds": 28.129013299942017
+      },
+      {
+        "source_seed": 42,
+        "query_seed": 1019,
+        "strategy": "random",
+        "seconds": 27.59244155883789
+      },
+      {
+        "source_seed": 42,
+        "query_seed": 1019,
+        "strategy": "uncertainty_static",
+        "seconds": 27.63099455833435
+      },
+      {
+        "source_seed": 42,
+        "query_seed": 1019,
+        "strategy": "proposed",
+        "seconds": 32.10322093963623
+      },
+      {
+        "source_seed": 42,
+        "query_seed": 2026,
+        "strategy": "random",
+        "seconds": 28.098125219345093
+      },
+      {
+        "source_seed": 42,
+        "query_seed": 2026,
+        "strategy": "uncertainty_static",
+        "seconds": 26.84143900871277
+      },
+      {
+        "source_seed": 42,
+        "query_seed": 2026,
+        "strategy": "proposed",
+        "seconds": 29.78839087486267
+      },
+      {
+        "source_seed": 1019,
+        "query_seed": 42,
+        "strategy": "random",
+        "seconds": 29.205657958984375
+      },
+      {
+        "source_seed": 1019,
+        "query_seed": 42,
+        "strategy": "uncertainty_static",
+        "seconds": 26.780022382736206
+      },
+      {
+        "source_seed": 1019,
+        "query_seed": 42,
+        "strategy": "proposed",
+        "seconds": 29.85242795944214
+      },
+      {
+        "source_seed": 1019,
+        "query_seed": 1019,
+        "strategy": "random",
+        "seconds": 30.24139904975891
+      },
+      {
+        "source_seed": 1019,
+        "query_seed": 1019,
+        "strategy": "uncertainty_static",
+        "seconds": 27.83433723449707
+      },
+      {
+        "source_seed": 1019,
+        "query_seed": 1019,
+        "strategy": "proposed",
+        "seconds": 29.717308521270752
+      },
+      {
+        "source_seed": 1019,
+        "query_seed": 2026,
+        "strategy": "random",
+        "seconds": 29.84623146057129
+      },
+      {
+        "source_seed": 1019,
+        "query_seed": 2026,
+        "strategy": "uncertainty_static",
+        "seconds": 26.89845108985901
+      },
+      {
+        "source_seed": 1019,
+        "query_seed": 2026,
+        "strategy": "proposed",
+        "seconds": 26.331636667251587
+      },
+      {
+        "source_seed": 2026,
+        "query_seed": 42,
+        "strategy": "random",
+        "seconds": 26.815032958984375
+      },
+      {
+        "source_seed": 2026,
+        "query_seed": 42,
+        "strategy": "uncertainty_static",
+        "seconds": 25.819719076156616
+      },
+      {
+        "source_seed": 2026,
+        "query_seed": 42,
+        "strategy": "proposed",
+        "seconds": 25.955026626586914
+      },
+      {
+        "source_seed": 2026,
+        "query_seed": 1019,
+        "strategy": "random",
+        "seconds": 26.701873540878296
+      },
+      {
+        "source_seed": 2026,
+        "query_seed": 1019,
+        "strategy": "uncertainty_static",
+        "seconds": 26.48732304573059
+      },
+      {
+        "source_seed": 2026,
+        "query_seed": 1019,
+        "strategy": "proposed",
+        "seconds": 26.836317539215088
+      },
+      {
+        "source_seed": 2026,
+        "query_seed": 2026,
+        "strategy": "random",
+        "seconds": 27.36999487876892
+      },
+      {
+        "source_seed": 2026,
+        "query_seed": 2026,
+        "strategy": "uncertainty_static",
+        "seconds": 26.82009267807007
+      },
+      {
+        "source_seed": 2026,
+        "query_seed": 2026,
+        "strategy": "proposed",
+        "seconds": 26.29753279685974
+      }
+    ]
+  },
+  "evaluation_seconds_from_log_timestamps": 1073.1722314357758,
+  "final_h1_h2_h3_evaluated": false,
+  "notice": "Static uncertainty is the guarded absolute-F1 ranking candidate, but it loses to its own zero-confirmation baseline and the development exit fails. No strategy is promoted to a confirmed final method; no budget or threshold is changed after results.",
+  "post_evaluation_verification": {
+    "status": "r2_verified",
+    "cases": 108,
+    "metric_rows": 324,
+    "development_exit_passed": false,
+    "internal_gain_target_met": false,
+    "current_source_matches_execution": true,
+    "formal_evaluation": false,
+    "report": "outputs\\accuracy\\r2-20261023\\report.html",
+    "target_pointwise_labels_parsed_during_verification": false
+  },
+  "common_valid_samples": 137523,
+  "missing_f1_rows": 0,
+  "power_and_energy_unchanged_across_all_budgets": true,
+  "new_degenerate_device_rows": 5
+}

@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-10-23",
+  "timezone": "Asia/Shanghai",
+  "python": "3.12.14",
+  "numpy": "2.3.4",
+  "torch": "2.9.0+cpu",
+  "source_sha256": "4b14da6a5ae84823c9630796c070037505aa9d859bba7eae58419b9374d9f79b",
+  "files_sha256": {
+    "configs/r2_queries_20261022.json": "c89385520fb704b0212498c6767836f27b199c6e2a6782ceee291a69d7307167",
+    "scripts/run_r2.py": "2437c28672ae5a41a454a0abf6de738858eec2c0469749b125ec8cab12e62641",
+    "scripts/restore_r2_parent.py": "5df230b308687391e254f850eacb05081d6e394e258b8fad024fbef215d84514",
+    "src/virtual_submeter/accuracy/r2.py": "99fef6818b1b99c64dff6d9d38f12e6da977c38c7c1fa418d7c8bd2572f746d7",
+    "src/virtual_submeter/accuracy/dynamic_queries.py": "92e386cd2f0f285cb99023e5c9847a4f47385aead332d25bf2b0deee51d73576",
+    "src/virtual_submeter/accuracy/dynamic_session.py": "d0921da30205d9fb9a29df12dbe4aa6b11fe9345f350b491f6e896cd5dd9350a",
+    "tests/test_r2.py": "7f76971f6ba147b11a4ae71c83c0b0e99b17d3339bc8339090d163807829b82f",
+    "scripts/fetch_r2_lfs_windows.ps1": "fb08d0559179a409f41753c41f25269e8abb4e11cc0e45170c8450eb9251a2b7",
+    "scripts/verify_r2_boundaries.py": "73bd3c7114d267bf1dbfd63ce7ff92009c138e9703ce969fcda8044ee39955f8"
+  },
+  "full_regression": {
+    "command": ".\\.venv-m4\\Scripts\\python.exe -m unittest discover -s tests -v",
+    "temporary_directory": "E:\\electricityplot\\tmp\\r2-tests",
+    "tests_run": 146,
+    "failures": 0,
+    "errors": 0,
+    "seconds": 314.12,
+    "status": "passed",
+    "log": "outputs/r2-start-20261023/regression.log",
+    "log_sha256": "b037f32b406a8e9a8b4f60a3b54aec7c48a3c6a55c85bbf97c030d7fc9fd777f"
+  },
+  "r2_specific": {
+    "tests_run": 8,
+    "seconds": 20.549,
+    "status": "passed"
+  },
+  "historical_a3_subset": {
+    "tests_run": 3,
+    "seconds": 38.381,
+    "status": "passed"
+  },
+  "scope_notice": "146 regression tests pass and the real 108-case engineering/evidence checks pass. The real R2 confirmation and policy development exits fail; two main-budget proposed kettle cases become all-off. Final households 8/9/20 were not accessed.",
+  "git_diff_check": "passed",
+  "recovery_helpers_after_regression": {
+    "scripts/restore_r2_parent.py": "5df230b308687391e254f850eacb05081d6e394e258b8fad024fbef215d84514",
+    "scripts/fetch_r2_lfs_windows.ps1": "fb08d0559179a409f41753c41f25269e8abb4e11cc0e45170c8450eb9251a2b7",
+    "scripts/verify_r2_boundaries.py": "73bd3c7114d267bf1dbfd63ce7ff92009c138e9703ce969fcda8044ee39955f8"
+  },
+  "recovery_runtime_validation": {
+    "status": "passed",
+    "git_files_restored": 625,
+    "unique_lfs_objects_verified": 75,
+    "bytes_in_restored_tree": 676426510,
+    "parent_core_and_evaluation_verification": "a2_retained_core_and_evaluation_verified",
+    "historical_full_verification_available": false,
+    "optional_derived_artifacts_unavailable": 42,
+    "preflight_status": "r2_ready",
+    "future_pointwise_labels_parsed": false,
+    "notice": "The package implementation is unchanged from the 146-test regression. Recovery helper additions were checked against the real original Git/LFS bytes and experiment seals."
+  },
+  "real_checkpoint_boundaries": {
+    "status": "passed",
+    "cases": 108,
+    "checkpoints": 135,
+    "power_weights_unchanged": 135,
+    "devices_checked": 405,
+    "no_answer_exact_source_devices": 159,
+    "bounded_devices": 246,
+    "single_class_bias_only_devices": 196,
+    "code_sha256": "4b14da6a5ae84823c9630796c070037505aa9d859bba7eae58419b9374d9f79b",
+    "target_pointwise_labels_parsed": false,
+    "future_labels_opened_at_check": false
+  },
+  "real_normal_inference_readback": {
+    "status": "r2_normal_inference_readback_passed",
+    "source_seed": 1019,
+    "query_seed": 42,
+    "strategy": "proposed",
+    "budget": 10,
+    "future_rows": 150750,
+    "state_decisions_equal_frozen_cache": true,
+    "raw_and_corrected_power_equal_source": true,
+    "target_pointwise_labels_parsed": false,
+    "model_manifest_sha256": "02949eb218fd271bf9956bb888d7fb702688a49008ba4d477ab60fd36f2748e8",
+    "frozen_states_sha256": "59ae7cebc868e00cd2eab8ade39aa3a715803c57f7f5f8649c66aaaadd45c85e",
+    "normal_prediction_sha256": "a48340720a4f6df287608627e837bd99919c9ccd8dc9d7cd9fe15b64e86499c8"
+  },
+  "pre_retry_recovery_helper_sha256": {
+    "scripts/restore_r2_parent.py": "2de3dc11552126174c8df267c6e3786473b9cabecffbf09a32fdb4f9b706c3a7"
+  },
+  "post_evaluation_verification": {
+    "status": "r2_verified",
+    "cases": 108,
+    "metric_rows": 324,
+    "development_exit_passed": false,
+    "internal_gain_target_met": false,
+    "current_source_matches_execution": true,
+    "formal_evaluation": false,
+    "report": "outputs\\accuracy\\r2-20261023\\report.html",
+    "target_pointwise_labels_parsed_during_verification": false
+  },
+  "real_matrix": {
+    "status": "evaluated_and_verified",
+    "cases": 108,
+    "metric_rows": 324,
+    "common_valid_samples": 137523,
+    "missing_f1_rows": 0,
+    "power_and_energy_unchanged_across_all_budgets": true,
+    "development_exit_passed": false,
+    "selected_absolute_f1_candidate": "uncertainty_static",
+    "candidate_promoted_to_confirmed_final_method": false,
+    "all_strategy_h1_h2_development_targets_met": false,
+    "new_all_off_device_rows": 5,
+    "new_all_off_main_budget_device_rows": 2,
+    "final_evaluation": false,
+    "results_sha256": "188268d4d6d6509a0591d815e25f843fb417e6e1509a67da0699623721147af0"
+  },
+  "initial_restore_helper_check": {
+    "status": "correctly_refused_incomplete_lfs",
+    "files": 625,
+    "unique_lfs_objects_missing": 75,
+    "parent_directory_published": false,
+    "check_log": "outputs/r2-start-20261023/lfs-check-after-retry.json",
+    "check_log_sha256": "19dfd8735fa84781fea4c52f7a47f489975926c3d1fe98f27369952a77503fd4",
+    "target_labels_parsed": false
+  }
+}

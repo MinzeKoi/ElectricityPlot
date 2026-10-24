@@ -90,9 +90,14 @@ def freeze(a2, plan_path, output, resume=False):
     from ..models.artifacts import load_model
     from ..models.prediction import predict
     plan = sessions.load_plan(plan_path)
+    if plan["schema_version"] in (2, 3):
+        from .r2 import validate_parent as validate_r2_parent
+        selection = validate_r2_parent(a2, plan)
     parent_receipt = validate_parent(a2)
     selected = read_json(a2 / "summary.json")
-    if not selected["development_exit_passed"] or plan["learner"] != selected["selected_development_learner"]:
+    if plan["schema_version"] in (2, 3):
+        parent_receipt["r2_selection"] = selection
+    elif not selected["development_exit_passed"] or plan["learner"] != selected["selected_development_learner"]:
         raise DataError("A3 requires the frozen learner selected by a passing A2 development run")
     learner = fixed.load_plan(a2 / "frozen/plan.json")
     if any(b % plan["update_every"] for b in learner["budgets"]):
@@ -187,7 +192,12 @@ def freeze(a2, plan_path, output, resume=False):
                                                  sha256(source_dir / "source_head.json"), strategy)
                             fit_seconds = time.perf_counter() - started
                             if len(session["rounds"]) <= count // plan["update_every"]:
-                                sessions.commit_round(directory, model_dir, score_adapter(payloads[aid]["rows"], metadata, adapter, hidden[aid]))
+                                if plan["schema_version"] in (2, 3):
+                                    from .r2 import selection_scores
+                                    selection_values = selection_scores(payloads[aid]["rows"], metadata, adapter)
+                                else:
+                                    selection_values = score_adapter(payloads[aid]["rows"], metadata, adapter, hidden[aid])
+                                sessions.commit_round(directory, model_dir, selection_values)
                             if count in learner["budgets"]:
                                 case_path = f"cases/seed_{seed}/house_{house}/query_{query_seed}/{strategy}/budget_{count}"
                                 destination = frozen / case_path
@@ -230,6 +240,9 @@ def verify_frozen(output):
     plan = sessions.load_plan(frozen / "query_plan.json")
     learner = fixed.load_plan(frozen / "inputs/plan.json")
     protocol = read_json(frozen / "inputs/protocol/protocol.json")
+    if plan["schema_version"] in (2, 3):
+        from .r2 import validate_frozen_inputs
+        validate_frozen_inputs(frozen / "inputs", plan)
     houses = {p["household_id"] for p in protocol["partitions"] if p["role"] == "target_adaptation"}
     expected = {(s, q, h, v, b) for s in learner["source_seeds"] for q in learner["query_seeds"] for h in houses
                 for v in plan["strategies"] for b in learner["budgets"]}
@@ -261,6 +274,9 @@ def summarize(metrics, plan, learner):
         for house in group["households"]:
             other = next(h for h in random["households"] if h["household_id"] == house["household_id"])
             house["f1_vs_random"] = house["f1"] - other["f1"] if house["f1"] is not None and other["f1"] is not None else None
+    if plan["schema_version"] in (2, 3):
+        from .r2 import summarize as summarize_r2
+        return summarize_r2(metrics, plan, learner, summary)
     main = next(g for g in groups if g["variant"] == "proposed" and g["budget"] == learner["main_budget"])
     paired = [m for m in metrics if m["variant"] == "proposed" and m["budget"] == learner["main_budget"] and m["appliance"] in learner["primary_appliances"]]
     by_seed = []
@@ -350,6 +366,9 @@ def evaluate(output):
 
 
 def render_report(output, summary):
+    if summary.get("experiment_id") in ("r2-l1-limited-v1", "r2-l1-stable-v1"):
+        from .r2 import render_report as render_r2_report
+        return render_r2_report(output, summary)
     def number(value):
         return "—" if value is None else f"{value:.4f}"
     rows = "".join(f"<tr><td>{escape(g['variant'])}</td><td>{g['budget']}</td><td>{number(g['f1'])}</td><td>{number(g['f1_delta'])}</td><td>{number(g['f1_vs_random'])}</td><td>{g['adaptation_degenerate_cases']}</td></tr>" for g in summary["groups"])

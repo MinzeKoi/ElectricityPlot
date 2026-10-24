@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-23T16:26:03.100839+00:00",
+  "code_sha256": "9ce02fd2bf78f30c0f413792ee0e8b88588e7bfe8a7acdaf7078782bd0b9ec79",
+  "execution_source_matches_current": true,
+  "registration_sha256": "9f3146d8822f3d2eb6e7f9e08aed3924abf077bbd47285af4656332c9a0fcd39",
+  "results_sha256": "c20d33b693d27f53be981c7b0d31b2252005a9832019d9c29b4cbacea9e9ee56",
+  "focused_tests": {
+    "passed": 12,
+    "seconds": 46.253,
+    "log": "outputs\\r2-stability-tests.log",
+    "log_sha256": "fb775d9330c20ff84e2fc16140bb4376e8ed8cc3e98a80fb35d0b5cb6aeb287c"
+  },
+  "full_regression": {
+    "tests": 150,
+    "passed_in_batch": 149,
+    "errors_in_batch": 1,
+    "duration_seconds": 279.877,
+    "error": "Windows PermissionError replacing session.json in an old M5 test; reason for denied access not established",
+    "failed_test": "test_m5_experiments.ExperimentTest.test_failed_evaluation_cannot_publish_success_or_retry_test_selection",
+    "isolated_retry_passed": true,
+    "isolated_retry_seconds": 13.72,
+    "full_log_sha256": "570861b5030b597396bcefe032fc160372d8e8447415bc14e8185da7a7999671",
+    "retry_log_sha256": "0639dcad97f41f022db77592dc88268a2a4bd15be73fff4d911226f2392c1f0f",
+    "single_clean_full_batch": false
+  },
+  "case_count": 108,
+  "metric_rows": 324,
+  "valid_samples_per_row": [
+    137523
+  ],
+  "undefined_f1_rows": 0,
+  "new_degenerate_rows": 0,
+  "baseline_support_power_energy_matches_original_all_rows": true,
+  "boundaries": {
+    "status": "passed",
+    "cases": 108,
+    "checkpoints": 135,
+    "power_weights_unchanged": 135,
+    "devices_checked": 405,
+    "no_answer_exact_source_devices": 158,
+    "bounded_devices": 247,
+    "single_class_bias_only_devices": 197,
+    "code_sha256": "9ce02fd2bf78f30c0f413792ee0e8b88588e7bfe8a7acdaf7078782bd0b9ec79",
+    "target_pointwise_labels_parsed": false,
+    "future_labels_opened_at_check": false
+  },
+  "normal_readback": {
+    "status": "passed",
+    "experiment_id": "r2-l1-stable-v1",
+    "case": {
+      "source_seed": 42,
+      "query_seed": 2026,
+      "variant": "proposed",
+      "budget": 10,
+      "household_id": "17"
+    },
+    "rows": 150750,
+    "state_cache_matches": true,
+    "power_and_unexplained_unchanged": true,
+    "target_pointwise_labels_parsed": false,
+    "code_sha256": "9ce02fd2bf78f30c0f413792ee0e8b88588e7bfe8a7acdaf7078782bd0b9ec79",
+    "model_sha256": "f39acbb0b58c4222ca4bd6213a332ac975a3ea89ad9fdd1dc0629e323af76557",
+    "predictions_sha256": "c0aac3e8982a87a997ef0fb3407ba9b8534d1d122afa75bdac5b7c8591ed074d"
+  },
+  "policy_controls": {
+    "status": "passed",
+    "trajectories": 27,
+    "identical_pools": 27,
+    "identical_first_five": 27,
+    "random_static_identical_full_prefixes": 18,
+    "proposed_full_prefixes_changed": 9,
+    "identical_source_power_weights": 3,
+    "target_pointwise_labels_parsed": false
+  },
+  "post_evaluation_verification": {
+    "status": "a3_verified",
+    "cases": 108,
+    "metric_rows": 324,
+    "development_exit_passed": false,
+    "internal_gain_target_met": false,
+    "current_source_matches_execution": true,
+    "formal_evaluation": false,
+    "report": "E:\\electricityplot\\outputs\\accuracy\\r2-stability-20261023-v1\\report.html",
+    "registration_sha256": "9f3146d8822f3d2eb6e7f9e08aed3924abf077bbd47285af4656332c9a0fcd39",
+    "phase": "verify",
+    "completed_at": "2026-10-23T16:22:19.133582+00:00"
+  },
+  "original_r2_integrity_verified": true,
+  "formal_evaluation": false,
+  "r3_started": false,
+  "reserved_final_households": [
+    "8",
+    "9",
+    "20"
+  ],
+  "execution_environment": {
+    "schema_version": 1,
+    "project": "ElectricityPlot",
+    "measured_at": "2026-10-23T15:48:18.646015+00:00",
+    "python": "3.12.14",
+    "implementation": "CPython",
+    "system": "Windows",
+    "architecture": "AMD64",
+    "processor": "AMD64 Family 25 Model 117 Stepping 2, AuthenticAMD",
+    "logical_cpus": 16,
+    "memory": {
+      "total_bytes": 16438382592,
+      "available_bytes": 6921252864
+    },
+    "workspace_disk_free_bytes": 211151581184,
+    "m1_runtime_dependencies": [],
+    "m1_execution": "CPU / Python standard library",
+    "training_environment": "not_frozen",
+    "second_developer_machine": "not_measured",
+    "notice": "GPU training compatibility has not been validated. M2 dependencies remain pending the second machine measurement."
+  },
+  "files_sha256": {
+    "src/virtual_submeter/accuracy/learners.py": "8aa1b6998f3d5c082a6189d65fb8de63262acbf82e7b54f19eb62bd5501e72e3",
+    "src/virtual_submeter/accuracy/dynamic_session.py": "dcb4e85fd88ab2fc744e75e998fdeb9d0d3021f8cf462b6afef0537ffa2dfa2b",
+    "src/virtual_submeter/accuracy/dynamic_queries.py": "2070c04581b5989ec836e84af77e76c34809ce35e7f16d36317515992a3c30e2",
+    "src/virtual_submeter/accuracy/r2.py": "1b9031e74c81aeed48064abefe731b72ccbfdb880f8d77d9e924590ff6d19b6c",
+    "configs/r2_stability_20261023.json": "13e5a270b0930c77a10e5fae7e3d99321082fe7b1267ad19a67058fb61f97e8b",
+    "scripts/run_r2.py": "2bb688b694f2f872d0327344e8427bd560998b6de72c884ab0b167f4a892e07d",
+    "scripts/run_r2_stability.py": "42455fd0ea47e9ec4df7d0d578dad336352b97e8c67950a9775b58f13991ad7c",
+    "scripts/verify_r2_boundaries.py": "c54d415cc380e36926e5c861bc1faef5d54b29ee6f361666b085af99716efaf3",
+    "scripts/verify_r2_readback.py": "2c022ffa8e547bb3e718a045380577f4e08c31da2c25562e97c9313f57f72d1a",
+    "scripts/summarize_r2_stability.py": "1885d633193f8cac974c410212c8bd82d0ea0549786f2717a4fea852cd308d69",
+    "tests/test_r2.py": "0263659d8fea41313a4f2b62ffbce694fee0b7e638e087d6183d91c47b633b3f",
+    "tests/test_r2_stability.py": "79216ecc8c4f6cb0441f53d146f0149f21ed749168a3ca631b7d6e2f6f5582a0",
+    "docs/R2_STABILITY_PLAN_20261023.md": "c5e713032f6395d848361e8d9cc77f5cb88919baf2d098af57ceb9e300152c9c",
+    "docs/R2_STABILITY_RESULTS.json": "c20d33b693d27f53be981c7b0d31b2252005a9832019d9c29b4cbacea9e9ee56",
+    "docs/R2_STABILITY_HANDOFF.md": "253e8c3621187fa2974c8d7d65de49fe00bddbc0a1315b637dfc963fbc821993",
+    "docs/R2_STABILITY_PROGRESS_20261023.json": "d2a70bff1f3e4f19d0c6a0398e434ad50157f724192cd64226e446c7fb08593c",
+    "README.md": "3ef829b198b592046fae536a5ab130761f68ca5ef06d60c97dfee92c01861232",
+    "PLAN.md": "b37f01c403dd9e62f6b8c5e61bc105ee82fa16fc410e1990153b8f24edf0ef78",
+    "docs/NEXT_PHASE_PLAN_20261022.md": "8cdddc966f0280be65ec6a9230668052b629c115a84525c0a26c8ac62b8610c0"
+  },
+  "execution_evidence_sha256": {
+    "outputs/r2-stability-start-20261023/boundaries.json": "e9a1d583b290f1fc184f487b5be587f142647b32e03658646d7ce7d972e50edd",
+    "outputs/r2-stability-start-20261023/evaluate-receipt.json": "62d252dc505cb86c0e315b499c488df460e24ebc37384e8332615466e5fc71e2",
+    "outputs/r2-stability-start-20261023/evaluate-timing.json": "d45b941ce9103f75dc334176efa232599dc7b824216ff96e00a242c8ed7436e1",
+    "outputs/r2-stability-start-20261023/freeze-receipt.json": "1087dd8c0c38a6d0fb6aa6538a5d2d1b147a1216103f097e6d40596b98a31ed6",
+    "outputs/r2-stability-start-20261023/main-budget-weak-answers.json": "4273c8363c9f06667e7aa018e208e3b94e38bb3bf527d51ae824fc936d640f37",
+    "outputs/r2-stability-start-20261023/original-r2-verified.json": "c8ecc6cd36161685ae63d7e54ba2025cf48bca92500c73f73f1ac1c476203855",
+    "outputs/r2-stability-start-20261023/policy-controls.json": "4b47301a7ad225f27bf5af0dbb1963aeaee8aa526992a3bcebb203628d8d5961",
+    "outputs/r2-stability-start-20261023/readback.json": "301169369293968b610c7ef80b648d99c85242b766b94bf7793b0eea3d60561e",
+    "outputs/r2-stability-start-20261023/registration.json": "9f3146d8822f3d2eb6e7f9e08aed3924abf077bbd47285af4656332c9a0fcd39",
+    "outputs/r2-stability-start-20261023/verify-receipt.json": "d8e1d5aa4f7547b3431e0320346b5861bbe59383ef3653155e0669bdf9677616"
+  }
+}

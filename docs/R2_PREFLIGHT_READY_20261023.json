@@ -1,0 +1,78 @@
+{
+  "status": "r2_ready",
+  "formal_evaluation": false,
+  "learner_selection": {
+    "experiment_id": "r2-l1-limited-v1",
+    "learner": "L1",
+    "selection_rule": "r1_main_budget_absolute_f1_with_guards",
+    "historical_own_gain_selection": "L2_max",
+    "main_budget": 10,
+    "absolute_f1_comparison": [
+      {
+        "variant": "L1",
+        "f1": 0.42594922056918444,
+        "f1_delta": 0.00973844601230137
+      },
+      {
+        "variant": "L2_max",
+        "f1": 0.2946707184527556,
+        "f1_delta": 0.051117365591726416
+      }
+    ],
+    "notice": "New R2 identity. R1 own-gain winner is retained; no repair/retraining or final A5 method inheritance.",
+    "parent_evidence_sha256": "2fb3d3965aa77fcdc68bd4b9ad0c4efa2ceba9238e4758df966d3d631902fe2f",
+    "parent_summary_sha256": "3f6bcc275dc6eafd1e55f092d0276c087e10f5e6de96e7c71adfa7750261b915"
+  },
+  "parent_verification": {
+    "status": "a2_retained_core_and_evaluation_verified",
+    "historical_full_verification_available": false,
+    "unavailable_derived_artifacts": [
+      "cache/seed_1019/house_17/frozen_test_house_17/predictions.csv",
+      "cache/seed_1019/house_17/frozen_test_house_17/predictions.json",
+      "cache/seed_1019/house_17/frozen_test_house_17/report.html",
+      "cache/seed_1019/house_17/frozen_test_house_17/run.json",
+      "cache/seed_1019/house_17/target_adaptation_house_17/predictions.csv",
+      "cache/seed_1019/house_17/target_adaptation_house_17/predictions.json",
+      "cache/seed_1019/house_17/target_adaptation_house_17/report.html",
+      "cache/seed_1019/house_17/target_adaptation_house_17/run.json",
+      "cache/seed_2026/house_17/frozen_test_house_17/predictions.csv",
+      "cache/seed_2026/house_17/frozen_test_house_17/predictions.json",
+      "cache/seed_2026/house_17/frozen_test_house_17/report.html",
+      "cache/seed_2026/house_17/frozen_test_house_17/run.json",
+      "cache/seed_2026/house_17/target_adaptation_house_17/predictions.csv",
+      "cache/seed_2026/house_17/target_adaptation_house_17/predictions.json",
+      "cache/seed_2026/house_17/target_adaptation_house_17/report.html",
+      "cache/seed_2026/house_17/target_adaptation_house_17/run.json",
+      "cache/seed_42/house_17/frozen_test_house_17/predictions.csv",
+      "cache/seed_42/house_17/frozen_test_house_17/predictions.json",
+      "cache/seed_42/house_17/frozen_test_house_17/report.html",
+      "cache/seed_42/house_17/frozen_test_house_17/run.json",
+      "cache/seed_42/house_17/target_adaptation_house_17/predictions.csv",
+      "cache/seed_42/house_17/target_adaptation_house_17/predictions.json",
+      "cache/seed_42/house_17/target_adaptation_house_17/report.html",
+      "cache/seed_42/house_17/target_adaptation_house_17/run.json",
+      "trajectories/house_17/query_1019/prediction/predictions.csv",
+      "trajectories/house_17/query_1019/prediction/predictions.json",
+      "trajectories/house_17/query_1019/prediction/report.html",
+      "trajectories/house_17/query_1019/prediction/run.json",
+      "trajectories/house_17/query_1019/protocol.json",
+      "trajectories/house_17/query_1019/session.json",
+      "trajectories/house_17/query_2026/prediction/predictions.csv",
+      "trajectories/house_17/query_2026/prediction/predictions.json",
+      "trajectories/house_17/query_2026/prediction/report.html",
+      "trajectories/house_17/query_2026/prediction/run.json",
+      "trajectories/house_17/query_2026/protocol.json",
+      "trajectories/house_17/query_2026/session.json",
+      "trajectories/house_17/query_42/prediction/predictions.csv",
+      "trajectories/house_17/query_42/prediction/predictions.json",
+      "trajectories/house_17/query_42/prediction/report.html",
+      "trajectories/house_17/query_42/prediction/run.json",
+      "trajectories/house_17/query_42/protocol.json",
+      "trajectories/house_17/query_42/session.json"
+    ],
+    "notice": "Derived artifacts are unavailable in this filesystem view; this does not establish physical deletion. A3 regenerates aggregate predictions in its own directory. Full historical A2 verification is unavailable in this view."
+  },
+  "cases": 108,
+  "metric_rows": 324,
+  "future_pointwise_labels_parsed": false
+}

@@ -147,6 +147,7 @@ def predict(model_dir: Path, output: Path, manifest_path: Path | None = None, pa
                         "validation_partitions": calibration["validation_partitions"],
                         "coverage_guarantee": False} if calibration else None,
         "adaptation": metadata.get("adaptation", "none"), "state_definition": metadata["state_definition"],
+        "state_learner": (metadata.get("accuracy_state_head") or {}).get("variant"),
         "query_summary": metadata.get("query_summary", {"budget_used": 0}),
         "base_model_id": metadata.get("base_model_id"),
         "rows": predictions,

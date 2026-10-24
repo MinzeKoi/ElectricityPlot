@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-10-23",
+  "timezone": "Asia/Shanghai",
+  "repository": "MinzeKoi/ElectricityPlot",
+  "local_head": "7a95008b43ed6efd170e733ac29cdd2d54726233",
+  "github_head": "f266b762b752b32a31810d916d198ccc06f7ec51",
+  "github_head_url": "https://github.com/MinzeKoi/ElectricityPlot/commit/f266b762b752b32a31810d916d198ccc06f7ec51",
+  "github_head_message": "Sync models and experiment outputs via Git LFS; keep datasets local",
+  "github_issues_found": 0,
+  "github_pull_requests_found": 0,
+  "r1_summary": {
+    "url": "https://github.com/MinzeKoi/ElectricityPlot/blob/f266b762b752b32a31810d916d198ccc06f7ec51/outputs/accuracy/r1-fixed-20261022-v2/summary.json",
+    "blob_sha": "d7909fb092a7eb334f22a187de702ba1e1881cae",
+    "historical_own_gain_selection": "L2_max",
+    "main_budget": 10,
+    "absolute_f1_comparison": [
+      {
+        "learner": "L1",
+        "f1": 0.42594922056918444,
+        "own_delta_f1": 0.00973844601230137,
+        "missing_f1": 0,
+        "adaptation_degenerate_cases": 0,
+        "device_drops_over_tolerance": 0
+      },
+      {
+        "learner": "L2_max",
+        "f1": 0.2946707184527556,
+        "own_delta_f1": 0.051117365591726416,
+        "missing_f1": 0,
+        "adaptation_degenerate_cases": 0,
+        "device_drops_over_tolerance": 0
+      }
+    ],
+    "complete_parent_artifact_integrity_verified_locally": false,
+    "retained_core_and_evaluation_verified_locally": true
+  },
+  "r2": {
+    "status": "development_comparison_completed_exit_failed",
+    "experiment_id": "r2-l1-limited-v1",
+    "learner": "L1",
+    "strategies": [
+      "random",
+      "uncertainty_static",
+      "proposed"
+    ],
+    "cases_planned": 108,
+    "metric_rows_planned": 324,
+    "real_cases_executed": 108,
+    "formal_evaluation": false,
+    "reserved_final_households": [
+      "8",
+      "9",
+      "20"
+    ],
+    "final_household_data_opened": false,
+    "validation": "docs/R2_VALIDATION_20261023.json",
+    "real_matrix_started": true,
+    "run": "outputs/accuracy/r2-20261023",
+    "preflight": "docs/R2_PREFLIGHT_READY_20261023.json",
+    "preflight_sha256": "aa6b9a47c915968996ea93ae1a478edace00b36e64e083f40c79b1c9f404c4ff",
+    "frozen_cases": 108,
+    "all_models_and_future_predictions_frozen_before_evaluation": true,
+    "boundary_verification": "outputs/r2-start-20261023/boundaries.json",
+    "metric_rows_completed": 324,
+    "development_exit_passed": false,
+    "absolute_f1_ranking_candidate": "uncertainty_static",
+    "confirmed_final_method_promoted": false,
+    "results": "docs/R2_RESULTS.json",
+    "results_sha256": "188268d4d6d6509a0591d815e25f843fb417e6e1509a67da0699623721147af0",
+    "post_evaluation_verified": true,
+    "report": "outputs/accuracy/r2-20261023/report.html",
+    "r3_started": false
+  },
+  "recovery_attempts": [
+    {
+      "method": "git fetch origin main",
+      "outcome": "failed",
+      "reason": "Windows schannel TLS handshake failed"
+    },
+    {
+      "method": "git with OpenSSL, certificate verification enabled",
+      "outcome": "failed",
+      "reason": "TLS unexpected EOF"
+    },
+    {
+      "method": "direct GitHub API HEAD",
+      "outcome": "failed",
+      "reason": "HTTP 403 rate limit exceeded"
+    },
+    {
+      "method": "git fetch origin main, repeated at user request",
+      "outcome": "success",
+      "fetched_head": "f266b762b752b32a31810d916d198ccc06f7ec51",
+      "working_tree_changes_preserved": true
+    },
+    {
+      "method": "scoped git lfs fetch for the R1 parent subtree",
+      "outcome": "stopped_after_no_data_transfer",
+      "notice": "No complete R1 parent directory was published."
+    },
+    {
+      "method": "bounded git lfs fetch for seed_42/weights.pt, 298189 bytes",
+      "outcome": "failed",
+      "reason": "POST /MinzeKoi/ElectricityPlot.git/info/lfs/objects/batch: TLS handshake timeout",
+      "retry_limit": 1,
+      "tls_timeout_seconds": 10
+    },
+    {
+      "method": "Windows HTTPS LFS batch download, connection reuse, bounded retries and resume",
+      "outcome": "success",
+      "verified_objects": 75,
+      "total_objects": 75,
+      "download_checks": "original byte size and SHA-256",
+      "temporary_urls_logged": false,
+      "full_batch_verified": 73,
+      "targeted_retry_verified": 2
+    }
+  ],
+  "notice": "GitHub summary was read through the connector. This is a progress receipt, not a substitute for the complete sealed R1 parent run.",
+  "r1_restore": {
+    "ref": "f266b762b752b32a31810d916d198ccc06f7ec51",
+    "files": 625,
+    "lfs_objects": 75,
+    "lfs_bytes_in_tree": 676426510,
+    "target_labels_parsed": false,
+    "status": "restored_retained_core_and_evaluation_verified",
+    "missing_lfs_objects": 0,
+    "parent_directory_published": true,
+    "verified_lfs_objects": 75,
+    "missing_unique_bytes": 0,
+    "missing_remote_core_artifacts": [],
+    "optional_remote_derived_artifacts_missing": 42,
+    "receipt": "outputs/r2-start-20261023/restore-receipt.json",
+    "receipt_sha256": "6cef519fea64049ca7f0bc63aa3f01a44ec9513f713ec62695d7a85f6c75d6e2",
+    "historical_full_verification_available": false
+  }
+}

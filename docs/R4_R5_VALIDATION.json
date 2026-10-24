@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-10-24T04:10:02.475465+00:00",
+  "r3": {
+    "status": "skipped_by_user",
+    "reserved_final_households": [
+      "8",
+      "9",
+      "20"
+    ],
+    "final_evaluation_started": false
+  },
+  "r4": {
+    "status": "engineering_validated",
+    "source_sha256": "17a72b81166d16b90cf45f8b98b182336dcc9048a1bd91fba1b49cee9b6c57df",
+    "shipped_python_files": 65,
+    "tested_source_matches_delivery": true,
+    "live_experiment_parity": {
+      "status": "same_questions_records_adapter_and_model_id",
+      "source": "E:\\electricityplot\\outputs\\accuracy\\r2-stability-20261023-v1",
+      "historical_freeze_sha256": "e0302acadba5d543e118ef66cedf702d638c927b0a31f44f5f32349426e2acb6",
+      "source_seed": 42,
+      "query_seed": 2026,
+      "strategy": "proposed",
+      "budget": 10,
+      "learner": "L1_stable",
+      "model_id": "a3-state-ffd92f82ea64e97d",
+      "formal_method_approved": false,
+      "target_pointwise_labels_read": false,
+      "r3": "skipped_by_user"
+    },
+    "parity_receipt_sha256": "807c8eb6794ae7e82ae7e75df5c89e558cc4aaa1e43b4d9059bbdb696a36eeac"
+  },
+  "r5": {
+    "status": "engineering_delivered_independent_member_pending",
+    "archive": {
+      "status": "archive_and_relocated_inventory_verified",
+      "archive": "E:\\electricityplot\\outputs\\r4-r5-delivery-20261024-v1.zip",
+      "archive_bytes": 37170326,
+      "archive_sha256": "c027e251a703c61b11d15e894be90270587d3434abe5f706f676f3a24eb5d953",
+      "manifest_sha256": "0d8febb039c63e7c1dfb161c62dfe553802501daa193eb351a992662450f884b",
+      "relocated": "E:\\electricityplot\\outputs\\r4-r5-relocated-20261024-v1"
+    },
+    "relocated_replay": {
+      "status": "portable_replay_verified",
+      "bundle_manifest_sha256": "0d8febb039c63e7c1dfb161c62dfe553802501daa193eb351a992662450f884b",
+      "confirmed_answers": 10,
+      "fitted_budget": 10,
+      "predictions": {
+        "before": {
+          "rows_sha256": "7d6f81a4ea6cadbe1794b97176a08734949533434b1ac5c47070171a000c6eaf",
+          "model_id": "a3-state-a191869d3814195c",
+          "report_sha256": "8b33f7b7e36373e6dd69e20ecd35e9e4ea5142c9e320127b791b4254fbbeb100",
+          "csv_sha256": "fa36c19b588cc9a731dea57fad5e9537551aa232f8c0127da64fa385a4e906d5"
+        },
+        "after": {
+          "rows_sha256": "859e24ad4d33d1a91381382d5078951d916ee1175765385554f1e60111fabed3",
+          "model_id": "a3-state-ffd92f82ea64e97d",
+          "report_sha256": "b564ad5d096efceb68881d5330c5810a119652e1a05383d7c11d9ae4cdf7baf7",
+          "csv_sha256": "8d3ee6bf76534ea4666d91366d59f4212dc98a7c66c5c76c99461e1cf3b04560"
+        }
+      },
+      "environment": {
+        "schema_version": 1,
+        "project": "ElectricityPlot",
+        "measured_at": "2026-10-24T04:07:26.414962+00:00",
+        "python": "3.12.14",
+        "implementation": "CPython",
+        "system": "Windows",
+        "architecture": "AMD64",
+        "processor": "AMD64 Family 25 Model 117 Stepping 2, AuthenticAMD",
+        "logical_cpus": 16,
+        "memory": {
+          "total_bytes": 16438382592,
+          "available_bytes": 2965508096
+        },
+        "workspace_disk_free_bytes": 207240409088,
+        "m1_runtime_dependencies": [],
+        "m1_execution": "CPU / Python standard library",
+        "training_environment": "not_frozen",
+        "second_developer_machine": "not_measured",
+        "notice": "GPU training compatibility has not been validated. M2 dependencies remain pending the second machine measurement.",
+        "python_prefix": "E:\\electricityplot\\.venv-m4",
+        "packages": {
+          "numpy": "2.3.4",
+          "torch": "2.9.0+cpu",
+          "streamlit": "1.50.0",
+          "pandas": "2.3.3",
+          "altair": "5.5.0"
+        }
+      },
+      "python_executable": "E:\\electricityplot\\.venv-m4\\Scripts\\python.exe",
+      "verification_kind": "automated_relocated_replay",
+      "independent_member_reproduction": false,
+      "second_machine": false,
+      "full_training_reproduction": false,
+      "target_pointwise_labels_read": false,
+      "formal_evaluation": false
+    },
+    "replay_receipt_sha256": "34dd52960b241dd4e550e83e95d4aa13413bd84f1a5c64f64c881f9aea9c99ee",
+    "independent_member_reproduction": "pending_actual_member",
+    "independent_environment": "not_performed",
+    "second_machine": "not_performed",
+    "full_training_reproduction": "not_performed"
+  },
+  "regression": {
+    "status": "passed",
+    "tests": 155,
+    "failures": 0,
+    "errors": 0,
+    "seconds": 385.802,
+    "log": "outputs/r4-r5-regression-final-20261024.log",
+    "log_sha256": "dd03e8181473028bc926249325876b1c77bda52c84d3317f8d9d67445e598c91"
+  },
+  "first_full_regression": {
+    "tests": 154,
+    "failures": 2,
+    "errors": 5,
+    "log": "outputs/r4-r5-regression-20261024.log",
+    "notice": "Retained failures: old UI defaults/legacy confirmation expectations, concurrent source-fingerprint changes during development, and Streamlit global temp-directory cleanup. Fixed before the final stable-source run."
+  },
+  "claims": {
+    "formal_method_approved": false,
+    "final_cross_household_effects": false,
+    "real_user_confirmation_effects": false,
+    "calibrated_state_probabilities": false,
+    "power_improvement_from_this_change": false
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "status": "r2_inputs_missing",
+  "formal_evaluation": false,
+  "missing": [
+    "E:\\electricityplot\\outputs\\accuracy\\r1-fixed-20261022-v2\\run.json",
+    "E:\\electricityplot\\outputs\\accuracy\\r1-fixed-20261022-v2\\freeze.json",
+    "E:\\electricityplot\\outputs\\accuracy\\r1-fixed-20261022-v2\\evidence.json",
+    "E:\\electricityplot\\outputs\\accuracy\\r1-fixed-20261022-v2\\summary.json",
+    "E:\\electricityplot\\outputs\\accuracy\\r1-fixed-20261022-v2\\frozen\\plan.json",
+    "E:\\electricityplot\\outputs\\accuracy\\r1-fixed-20261022-v2\\frozen\\protocol\\protocol.json"
+  ],
+  "cases": 108,
+  "metric_rows": 324,
+  "future_pointwise_labels_parsed": false,
+  "required_run": "E:\\electricityplot\\outputs\\accuracy\\r1-fixed-20261022-v2",
+  "reserved_final_households": [
+    "8",
+    "9",
+    "20"
+  ],
+  "notice": "Restore the complete R1 fixed run, including weights, source heads/replay, temporal features, protocol data and query evidence. GitHub synchronization may be incomplete; Git LFS pointers alone are insufficient. Preflight has not executed R2."
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 2,
+  "experiment_id": "r2-l1-limited-v1",
+  "learner": "L1",
+  "learner_selection_rule": "r1_main_budget_absolute_f1_with_guards",
+  "strategy_selection_rule": "main_budget_absolute_f1_with_guards_ties_random_static_proposed",
+  "update_every": 5,
+  "strategies": ["random", "uncertainty_static", "proposed"],
+  "uncertainty_weight": 0.5,
+  "diversity_weight": 0.3,
+  "coverage_weight": 0.2,
+  "exploration_fraction": 0.1,
+  "minimum_random_f1_gain": 0.02
+}

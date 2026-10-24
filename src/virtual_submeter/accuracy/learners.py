@@ -13,7 +13,7 @@ from ..adaptation.state import features as legacy_features, fit_head
 from ..data.common import DataError, utc
 from ..models.arrays import aggregate_arrays, windows
 
-VARIANTS = ("L0", "L1", "L2_max_unprotected", "L2_max_bound", "L2_max_replay", "L2_max", "L2_smooth")
+VARIANTS = ("L0", "L1", "L2_max_unprotected", "L2_max_bound", "L2_max_replay", "L2_max", "L2_smooth", "L1_stable")
 
 
 def temporal_features(metadata, model, rows):
@@ -140,7 +140,7 @@ def fit_parameters(prior, bags, replay, settings, variant):
         return weight, {"usable_windows": 0, "update_rule": "exact_source_identity", "loss": []}
     protected = variant != "L2_max_unprotected"
     single_class = len({label for _, label in bags}) == 1
-    bias_only = variant == "L1" or (protected and single_class)
+    bias_only = variant in ("L1", "L1_stable") or (protected and single_class)
     pooling = "smooth" if variant == "L2_smooth" else "max"
     use_replay = variant in ("L2_max_replay", "L2_max", "L2_smooth")
     use_prior = variant in ("L2_max", "L2_smooth")
@@ -169,7 +169,9 @@ def fit_parameters(prior, bags, replay, settings, variant):
         if protected:
             delta = weight - prior
             if bias_only:
-                bound = settings["single_class_bias_bound"] if single_class else settings["bias_bound"]
+                # Reuse the stricter existing bound for every answer mixture
+                # in the R2 repair; preserve historical L1 behavior.
+                bound = settings["single_class_bias_bound"] if single_class or variant == "L1_stable" else settings["bias_bound"]
                 delta[0] = np.clip(delta[0], -bound, bound)
             else:
                 delta *= min(1.0, settings["parameter_radius"] / max(float(np.linalg.norm(delta)), 1e-12))

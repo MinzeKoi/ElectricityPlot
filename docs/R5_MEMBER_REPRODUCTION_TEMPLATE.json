@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "status": "pending_actual_member_run",
+  "operator": null,
+  "performed_at": null,
+  "environment_kind": null,
+  "allowed_environment_kinds": ["same_machine_separate_environment", "second_machine"],
+  "bundle_manifest_sha256": null,
+  "automated_receipt_path": null,
+  "automated_receipt_sha256": null,
+  "source_prediction_match": null,
+  "confirmation_adapter_match": null,
+  "report_rebuild_match": null,
+  "full_training_reproduction": false,
+  "notice": "Fill only after another member actually runs the sealed package. Attach the generated receipt.json and report its real environment; do not use the agent's automated replay as an independent member statement."
+}

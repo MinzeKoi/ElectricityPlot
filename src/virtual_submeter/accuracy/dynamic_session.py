@@ -24,14 +24,17 @@ def digest(value):
 
 def load_plan(path):
     plan = read_json(path)
+    r2 = plan.get("schema_version") in (2, 3)
+    repair = plan.get("schema_version") == 3
+    extra = {"experiment_id", "learner_selection_rule", "strategy_selection_rule"} if r2 else set()
     if (set(plan) != {"schema_version", "learner", "update_every", "strategies", "uncertainty_weight",
-                     "diversity_weight", "coverage_weight", "exploration_fraction", "minimum_random_f1_gain"}
-            or plan["schema_version"] != 1 or plan["learner"] != "L2_max" or type(plan["update_every"]) is not int
+                     "diversity_weight", "coverage_weight", "exploration_fraction", "minimum_random_f1_gain"} | extra
+            or plan["schema_version"] not in (1, 2, 3) or plan["learner"] != ("L1_stable" if repair else "L1" if r2 else "L2_max") or type(plan["update_every"]) is not int
             or plan["update_every"] != 5):
         raise DataError("Invalid A3 plan or unsupported learner/update frequency")
     strategies = plan["strategies"]
     if (not isinstance(strategies, list) or len(strategies) != len(set(strategies))
-            or not {"random", "uncertainty", "proposed"} <= set(strategies) <= set(STRATEGIES)):
+            or not ({"random", "uncertainty_static", "proposed"} if r2 else {"random", "uncertainty", "proposed"}) <= set(strategies) <= set(STRATEGIES)):
         raise DataError("A3 requires random, uncertainty and proposed comparisons")
     for key in ("uncertainty_weight", "diversity_weight", "coverage_weight", "exploration_fraction", "minimum_random_f1_gain"):
         value = plan[key]
@@ -39,6 +42,12 @@ def load_plan(path):
             raise DataError("Invalid A3 weight/fraction")
     if not math.isclose(sum(plan[k] for k in ("uncertainty_weight", "diversity_weight", "coverage_weight")), 1):
         raise DataError("A3 score weights must sum to one")
+    if r2 and (plan["experiment_id"] != ("r2-l1-stable-v1" if repair else "r2-l1-limited-v1")
+               or plan["learner_selection_rule"] != ("r1_l1_source_uniform_existing_single_class_bound" if repair else "r1_main_budget_absolute_f1_with_guards")
+               or plan["strategy_selection_rule"] != "main_budget_absolute_f1_with_guards_ties_random_static_proposed"
+               or strategies != ["random", "uncertainty_static", "proposed"]
+               or [plan[k] for k in ("uncertainty_weight", "diversity_weight", "coverage_weight", "exploration_fraction", "minimum_random_f1_gain")] != [0.5, 0.3, 0.2, 0.1, 0.02]):
+        raise DataError("R2 requires its explicit new identity, L1 selection rule and three unchanged policies")
     return plan
 
 
