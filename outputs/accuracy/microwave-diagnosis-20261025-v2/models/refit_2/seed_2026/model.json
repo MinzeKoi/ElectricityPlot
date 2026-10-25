@@ -1,0 +1,49 @@
+{
+  "household": "refit_2",
+  "seed": 2026,
+  "normalization": {
+    "input_log_mean": 5.225577354431152,
+    "input_log_std": 0.9011713862419128,
+    "cpu_threads": 4,
+    "batch_size": 256
+  },
+  "selected": {
+    "epoch": 12,
+    "threshold": 0.8987475037574768,
+    "selection": {
+      "threshold": 0.8987475037574768,
+      "precision": 0.34394904458598724,
+      "recall": 0.9152542372881356,
+      "f1": 0.5,
+      "tp": 54,
+      "fp": 103,
+      "fn": 5
+    }
+  },
+  "steps": 3528,
+  "seen": 895314,
+  "positive_seen": 6972,
+  "train_support": {
+    "windows": 21317,
+    "positive_windows": 166,
+    "negative_windows": 21151,
+    "prevalence": 0.0077872120842520055,
+    "effective_seconds": 170536,
+    "positive_segments_supported": 19,
+    "first_center": "2014-10-07T06:30:48Z",
+    "last_center": "2014-10-10T05:54:56Z"
+  },
+  "validation_support": {
+    "windows": 7962,
+    "positive_windows": 59,
+    "negative_windows": 7903,
+    "prevalence": 0.007410198442602361,
+    "effective_seconds": 63696,
+    "positive_segments_supported": 7,
+    "first_center": "2014-10-10T07:00:48Z",
+    "last_center": "2014-10-11T05:56:40Z"
+  },
+  "seconds": 9.79504279999992,
+  "parameter_count": 8249,
+  "weights_sha256": "4e4ba67d4ed59731cdbc688d5668fe3c42fa789f44055fb5ac5043418cb86f55"
+}

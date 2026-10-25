@@ -1,0 +1,7 @@
+{
+  "execute": true,
+  "maximum_fits": 6,
+  "registration_sha256": "d3026d8fd4eb22a0b4911fb53ecec81c6347097f0fe5495eb67d05d09ebd0777",
+  "audit_sha256": "b910e31f3b6cae7d307f32e8f365936c1ae08d5af300a61305050f330edf52d5",
+  "coordinator_execution_message": "2026-10-25 coordinator source thread 01a16d7b-478e-7780-a999-88abe71e8c94: task1 complete, strict replay identical, authorize prepare train freeze evaluate verify report for revised six-fit protocol; keep [0,10), [10,11)/[11,12), [12,14); do not access House17 or 8/9/20 labels."
+}

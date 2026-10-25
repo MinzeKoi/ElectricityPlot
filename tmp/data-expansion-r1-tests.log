@@ -1,0 +1,23 @@
+test_candidate_cache_preserves_hash_checks_and_hides_label_metadata (test_r1.R1Test.test_candidate_cache_preserves_hash_checks_and_hides_label_metadata) ... ok
+test_f1_checkpoint_can_choose_higher_mae_to_retain_events (test_r1.R1Test.test_f1_checkpoint_can_choose_higher_mae_to_retain_events) ... epoch 1/2: source validation normalized MAE=0.020040
+epoch 2/2: source validation normalized MAE=0.380000
+epoch 1/2: source validation normalized MAE=0.020040
+epoch 2/2: source validation normalized MAE=0.380000
+ok
+test_fixed_report_uses_actual_development_household (test_r1.R1Test.test_fixed_report_uses_actual_development_household) ... ok
+test_packed_network_retains_each_device_power_and_temporal_features (test_r1.R1Test.test_packed_network_retains_each_device_power_and_temporal_features) ... epoch 1/2: source validation normalized MAE=0.497888
+epoch 2/2: source validation normalized MAE=0.497538
+epoch 1/2: source validation normalized MAE=0.497888
+epoch 2/2: source validation normalized MAE=0.497538
+epoch 1/2: source validation normalized MAE=0.497888
+epoch 2/2: source validation normalized MAE=0.497538
+ok
+test_primary_checkpoint_uses_source_f1_then_mae (test_r1.R1Test.test_primary_checkpoint_uses_source_f1_then_mae) ... epoch 1/2: source validation normalized MAE=0.496989
+epoch 2/2: source validation normalized MAE=0.496849
+ok
+test_r1_rejects_final_house_roles_before_data_access (test_r1.R1Test.test_r1_rejects_final_house_roles_before_data_access) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 5.202s
+
+OK

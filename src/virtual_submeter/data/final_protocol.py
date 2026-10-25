@@ -6,7 +6,6 @@ target power values are returned to selection/training or used for admission.
 
 import copy
 import csv
-from pathlib import Path
 import shutil
 
 from .common import DataError, iso, read_json, safe_child, sha256, utc, write_json

@@ -1,0 +1,11 @@
+{
+  "blocks_meeting_registered_minimum": [
+    "refit_2/validation_0",
+    "refit_2/validation_1",
+    "refit_19/validation_0",
+    "refit_19/validation_1"
+  ],
+  "all_blocks_meet_registered_minimum": true,
+  "limited_evidence": false,
+  "warning": "Minimum threshold-segment support does not imply complete events or independent dates are sufficient"
+}

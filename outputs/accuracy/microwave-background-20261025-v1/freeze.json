@@ -1,0 +1,27 @@
+{
+  "registration_sha256": "31a29d9a559fa9495fede1b61953d0aaccc1ce1049edca73c5e4debae25fc31d",
+  "training_sha256": "1d4ae7a0c8ea243970b3709c3b21900ba10a72e824982f8ac12e5eedd5739083",
+  "source_selection_sha256": "15546de5fd64e82605518fffbc2510437be02e4645a6ea504037ea2f14dbe88b",
+  "predictions": {
+    "event_1019_refit_19.npz": "646540062a7938f61be4fa41a06f139e1b41e1a8442f8bdb64bb442168b405dc",
+    "event_1019_refit_2.npz": "4e5d169ef760bbaa40bcd387aaf4ba1dc9fae9bf5da4a70a9eeb4cfbef4e9be8",
+    "event_2026_refit_19.npz": "2d9e68f3907f5c3bfaa7bdad09c8609d22a992d29b8438976d6286356957dcd0",
+    "event_2026_refit_2.npz": "2038ec79340feb9f77bca13501932c2999fe20acedb7c524b53ac2e7e1b2c081",
+    "event_42_refit_19.npz": "8466294927a2ae7107d07eecc73288f20530991cbda3f63feb03cf8fb15b1d5e",
+    "event_42_refit_2.npz": "f49aac5d6911428e57cec5c570d2ec6b76f36c81b7822dba0801456420ab4981",
+    "event_background_1019_refit_19.npz": "74296416d99e84c826f528e209a97629aaea98175e9b1d146dd8d35dc249cc31",
+    "event_background_1019_refit_2.npz": "e9c281c9a38317c7f567ee7ae5934a156087f58279b5cf6344b90605d21b90d1",
+    "event_background_2026_refit_19.npz": "017e6dfc0f068abb17de1598b81311f8623a8e5e45970889ff28b2f200bcfb07",
+    "event_background_2026_refit_2.npz": "2acdf8ee41c15cdd4f86f7e5a8400bcbe0e7f8ab926ce070ce934017579a54f8",
+    "event_background_42_refit_19.npz": "b752c912075fe2378783a792118b0028ee1df3645cd4d858412905184e36785e",
+    "event_background_42_refit_2.npz": "fcb4f63b75497bce2d6acf0783fdd7b6eaa3a7811de5a1add6c493b2043ee5a3",
+    "natural_1019_refit_19.npz": "8d271a1e09d8c78e2982ce97f36ebb4edba1a5356d5896b08d74e61a703e82dd",
+    "natural_1019_refit_2.npz": "3bfc92e8310164c6b77bc5344bfe5712a5545f5719f7a57b33fa3decc9584f06",
+    "natural_2026_refit_19.npz": "c1dbeb621ce602b105558d1c5c11c386961b3e8666ecdd0d5caf0f2e44b909dc",
+    "natural_2026_refit_2.npz": "5ca485e6dd6b4274f9d339c9b84020aacf043834833e472ebdafa1e753706a18",
+    "natural_42_refit_19.npz": "b96ea902255d0da9fdca1bc52bfa83c15750fdeb7fde6724740c215f00de5bb6",
+    "natural_42_refit_2.npz": "628a4de38c40c410925cc522d084326705e62477802f107e294b6e3d21c63197"
+  },
+  "count": 18,
+  "outer_labels_opened": false
+}

@@ -1,0 +1,132 @@
+{
+  "status": "independently_verified",
+  "models": 9,
+  "training_replays": [
+    {
+      "arm": "natural",
+      "seed": 42,
+      "updates": 3528,
+      "sampler_and_augmentation_exact": true
+    },
+    {
+      "arm": "natural",
+      "seed": 1019,
+      "updates": 3528,
+      "sampler_and_augmentation_exact": true
+    },
+    {
+      "arm": "natural",
+      "seed": 2026,
+      "updates": 3528,
+      "sampler_and_augmentation_exact": true
+    },
+    {
+      "arm": "event",
+      "seed": 42,
+      "updates": 3528,
+      "sampler_and_augmentation_exact": true
+    },
+    {
+      "arm": "event",
+      "seed": 1019,
+      "updates": 3528,
+      "sampler_and_augmentation_exact": true
+    },
+    {
+      "arm": "event",
+      "seed": 2026,
+      "updates": 3528,
+      "sampler_and_augmentation_exact": true
+    },
+    {
+      "arm": "event_background",
+      "seed": 42,
+      "updates": 3528,
+      "sampler_and_augmentation_exact": true
+    },
+    {
+      "arm": "event_background",
+      "seed": 1019,
+      "updates": 3528,
+      "sampler_and_augmentation_exact": true
+    },
+    {
+      "arm": "event_background",
+      "seed": 2026,
+      "updates": 3528,
+      "sampler_and_augmentation_exact": true
+    }
+  ],
+  "ordinary_inference_readbacks": [
+    {
+      "arm": "natural",
+      "seed": 42,
+      "ordinary_inference_reloaded_exact": true
+    },
+    {
+      "arm": "natural",
+      "seed": 1019,
+      "ordinary_inference_reloaded_exact": true
+    },
+    {
+      "arm": "natural",
+      "seed": 2026,
+      "ordinary_inference_reloaded_exact": true
+    },
+    {
+      "arm": "event",
+      "seed": 42,
+      "ordinary_inference_reloaded_exact": true
+    },
+    {
+      "arm": "event",
+      "seed": 1019,
+      "ordinary_inference_reloaded_exact": true
+    },
+    {
+      "arm": "event",
+      "seed": 2026,
+      "ordinary_inference_reloaded_exact": true
+    },
+    {
+      "arm": "event_background",
+      "seed": 42,
+      "ordinary_inference_reloaded_exact": true
+    },
+    {
+      "arm": "event_background",
+      "seed": 1019,
+      "ordinary_inference_reloaded_exact": true
+    },
+    {
+      "arm": "event_background",
+      "seed": 2026,
+      "ordinary_inference_reloaded_exact": true
+    }
+  ],
+  "target_truth_csv_reopened": false,
+  "final_houses_accessed": false,
+  "source_windows_checked": 150069,
+  "template_centers_checked": 265,
+  "background_centers_checked": 137483,
+  "raw_arithmetic_checks": [
+    {
+      "seed": 42,
+      "attempts_checked": 28224,
+      "synthesized_checked": 8793
+    },
+    {
+      "seed": 1019,
+      "attempts_checked": 28224,
+      "synthesized_checked": 8844
+    },
+    {
+      "seed": 2026,
+      "attempts_checked": 28224,
+      "synthesized_checked": 8757
+    }
+  ],
+  "registration_sha256": "fe3dd8e0d46ca0105516c040631544cdadb40fb04f843acec117357f8cfda3c5",
+  "freeze_sha256": "ab23f6277630330533d43789d97181747e88438efd6b3246348cac6d8db7f876",
+  "script_sha256": "e65946a6103faeb5ae900a8f8338290d28a492ef708e2f2b88e4ad56528b6db1"
+}

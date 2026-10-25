@@ -1,0 +1,6 @@
+{
+  "status": "verified",
+  "trained": true,
+  "effect_improvement_established": false,
+  "report": "outputs\\accuracy\\microwave-mask-20261025-v2\\report.md"
+}

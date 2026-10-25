@@ -1,0 +1,269 @@
+{
+  "rows": [
+    {
+      "arm": "A",
+      "seed": 42,
+      "tp": 348,
+      "fp": 8433,
+      "fn": 35,
+      "tn": 128707,
+      "n": 137523,
+      "precision": 0.039631021523744446,
+      "recall": 0.9086161879895561,
+      "f1": 0.0759493670886076,
+      "degenerate": false,
+      "predicted_on": 8781
+    },
+    {
+      "arm": "W50",
+      "seed": 42,
+      "tp": 348,
+      "fp": 8433,
+      "fn": 35,
+      "tn": 128707,
+      "n": 137523,
+      "precision": 0.039631021523744446,
+      "recall": 0.9086161879895561,
+      "f1": 0.0759493670886076,
+      "degenerate": false,
+      "predicted_on": 8781
+    },
+    {
+      "arm": "natural",
+      "seed": 42,
+      "tp": 324,
+      "fp": 9783,
+      "fn": 59,
+      "tn": 127357,
+      "n": 137523,
+      "precision": 0.032056990204808546,
+      "recall": 0.8459530026109661,
+      "f1": 0.06177311725452812,
+      "degenerate": false,
+      "predicted_on": 10107
+    },
+    {
+      "arm": "event",
+      "seed": 42,
+      "tp": 347,
+      "fp": 9751,
+      "fn": 36,
+      "tn": 127389,
+      "n": 137523,
+      "precision": 0.03436324024559319,
+      "recall": 0.9060052219321149,
+      "f1": 0.0662150558152848,
+      "degenerate": false,
+      "predicted_on": 10098
+    },
+    {
+      "arm": "event_background",
+      "seed": 42,
+      "tp": 352,
+      "fp": 10106,
+      "fn": 31,
+      "tn": 127034,
+      "n": 137523,
+      "precision": 0.03365844329699751,
+      "recall": 0.9190600522193212,
+      "f1": 0.06493865879531409,
+      "degenerate": false,
+      "predicted_on": 10458
+    },
+    {
+      "arm": "A",
+      "seed": 1019,
+      "tp": 352,
+      "fp": 8893,
+      "fn": 31,
+      "tn": 128247,
+      "n": 137523,
+      "precision": 0.03807463493780422,
+      "recall": 0.9190600522193212,
+      "f1": 0.07312006647278771,
+      "degenerate": false,
+      "predicted_on": 9245
+    },
+    {
+      "arm": "W50",
+      "seed": 1019,
+      "tp": 352,
+      "fp": 8893,
+      "fn": 31,
+      "tn": 128247,
+      "n": 137523,
+      "precision": 0.03807463493780422,
+      "recall": 0.9190600522193212,
+      "f1": 0.07312006647278771,
+      "degenerate": false,
+      "predicted_on": 9245
+    },
+    {
+      "arm": "natural",
+      "seed": 1019,
+      "tp": 369,
+      "fp": 9300,
+      "fn": 14,
+      "tn": 127840,
+      "n": 137523,
+      "precision": 0.038163201985727584,
+      "recall": 0.9634464751958225,
+      "f1": 0.07341822522881018,
+      "degenerate": false,
+      "predicted_on": 9669
+    },
+    {
+      "arm": "event",
+      "seed": 1019,
+      "tp": 359,
+      "fp": 10509,
+      "fn": 24,
+      "tn": 126631,
+      "n": 137523,
+      "precision": 0.033032756716967246,
+      "recall": 0.9373368146214099,
+      "f1": 0.063816549640032,
+      "degenerate": false,
+      "predicted_on": 10868
+    },
+    {
+      "arm": "event_background",
+      "seed": 1019,
+      "tp": 375,
+      "fp": 11665,
+      "fn": 8,
+      "tn": 125475,
+      "n": 137523,
+      "precision": 0.031146179401993355,
+      "recall": 0.97911227154047,
+      "f1": 0.060371890847621346,
+      "degenerate": false,
+      "predicted_on": 12040
+    },
+    {
+      "arm": "A",
+      "seed": 2026,
+      "tp": 362,
+      "fp": 8120,
+      "fn": 21,
+      "tn": 129020,
+      "n": 137523,
+      "precision": 0.04267861353454374,
+      "recall": 0.9451697127937336,
+      "f1": 0.08166948674562888,
+      "degenerate": false,
+      "predicted_on": 8482
+    },
+    {
+      "arm": "W50",
+      "seed": 2026,
+      "tp": 362,
+      "fp": 8120,
+      "fn": 21,
+      "tn": 129020,
+      "n": 137523,
+      "precision": 0.04267861353454374,
+      "recall": 0.9451697127937336,
+      "f1": 0.08166948674562888,
+      "degenerate": false,
+      "predicted_on": 8482
+    },
+    {
+      "arm": "natural",
+      "seed": 2026,
+      "tp": 292,
+      "fp": 8883,
+      "fn": 91,
+      "tn": 128257,
+      "n": 137523,
+      "precision": 0.03182561307901907,
+      "recall": 0.762402088772846,
+      "f1": 0.06110064867127014,
+      "degenerate": false,
+      "predicted_on": 9175
+    },
+    {
+      "arm": "event",
+      "seed": 2026,
+      "tp": 336,
+      "fp": 9605,
+      "fn": 47,
+      "tn": 127535,
+      "n": 137523,
+      "precision": 0.03379941655769037,
+      "recall": 0.8772845953002611,
+      "f1": 0.06509104998062766,
+      "degenerate": false,
+      "predicted_on": 9941
+    },
+    {
+      "arm": "event_background",
+      "seed": 2026,
+      "tp": 338,
+      "fp": 9951,
+      "fn": 45,
+      "tn": 127189,
+      "n": 137523,
+      "precision": 0.03285061716396151,
+      "recall": 0.8825065274151436,
+      "f1": 0.06334332833583209,
+      "degenerate": false,
+      "predicted_on": 10289
+    }
+  ],
+  "support": {
+    "42": {
+      "n": 137523,
+      "mask_sha256": "d7608bed577515bc4bd98ff1efe4c78a82798a96c9d1d3e5dd03bb90d53598a1",
+      "timestamps_sha256": "342269261b9b59715ac588476545f50d6e875b7a01f6731745098c6c384a2ffe"
+    },
+    "1019": {
+      "n": 137523,
+      "mask_sha256": "d7608bed577515bc4bd98ff1efe4c78a82798a96c9d1d3e5dd03bb90d53598a1",
+      "timestamps_sha256": "342269261b9b59715ac588476545f50d6e875b7a01f6731745098c6c384a2ffe"
+    },
+    "2026": {
+      "n": 137523,
+      "mask_sha256": "d7608bed577515bc4bd98ff1efe4c78a82798a96c9d1d3e5dd03bb90d53598a1",
+      "timestamps_sha256": "342269261b9b59715ac588476545f50d6e875b7a01f6731745098c6c384a2ffe"
+    }
+  },
+  "power_baselines": [
+    {
+      "arm": "A",
+      "seed": 42,
+      "mae_w": 59.017197172641865,
+      "energy_absolute_error_kwh": 16.560283940819666
+    },
+    {
+      "arm": "W50",
+      "seed": 42,
+      "mae_w": 59.01719722408994,
+      "energy_absolute_error_kwh": 16.560283953758276
+    },
+    {
+      "arm": "A",
+      "seed": 1019,
+      "mae_w": 44.15200301773798,
+      "energy_absolute_error_kwh": 11.3703142864986
+    },
+    {
+      "arm": "W50",
+      "seed": 1019,
+      "mae_w": 44.15200297044874,
+      "energy_absolute_error_kwh": 11.370314270249654
+    },
+    {
+      "arm": "A",
+      "seed": 2026,
+      "mae_w": 51.07404094040891,
+      "energy_absolute_error_kwh": 14.039357334339503
+    },
+    {
+      "arm": "W50",
+      "seed": 2026,
+      "mae_w": 51.07404105150117,
+      "energy_absolute_error_kwh": 14.03935735905111
+    }
+  ]
+}

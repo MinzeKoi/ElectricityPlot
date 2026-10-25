@@ -1,0 +1,8 @@
+{
+  "coordinator_execution_message": "2026-10-25 source_thread 01a16d7b-478e-7780-a999-88abe71e8c94: 用户要求刚刚没额度了继续；授权核实后使用封存入口执行strict_mask/partial_mask x seeds42/1019/2026，最多6真实新拟合；允许训练前修正另建版本，保留v1；来源预选与全矩阵冻结并复核后一次House17开发评价；不得读取task4开发成绩设计候选、不得追加搜索、最终8/9/20隔离。",
+  "train": true,
+  "maximum_fits": 6,
+  "registration_sha256": "de724d37c27e029dab61f91c940ea43849d808788917d4a9438e24714f0551a5",
+  "supersedes_preparation_only": "microwave-mask-20261025-v1",
+  "reason_for_v2": "Add freeze-bound evaluation authorization, imported-dependency bindings, full checkpoint/exposure replay and task4 same-support comparison; unchanged fixed data/model/training recipe."
+}

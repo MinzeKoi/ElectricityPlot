@@ -1,0 +1,13 @@
+{
+  "candidate": "W1",
+  "seed": 2026,
+  "partition": "source_validation_refit_5_0",
+  "threshold": 5.070059501122159e-07,
+  "path": "replays/W1_2026_source_validation_refit_5_0.npz",
+  "sha256": "128a2d278a1f3bbd1cc599b8504bb7bc2495fd0233e87fc71de59b6726630b63",
+  "rows": 151200,
+  "maximum_raw_difference_w": 0.0,
+  "state_equal": true,
+  "ordinary_model_path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\precision-20261024-v1\\models\\W1\\seed_2026",
+  "labels_read": false
+}

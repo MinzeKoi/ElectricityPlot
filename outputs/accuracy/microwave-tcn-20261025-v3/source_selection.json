@@ -1,0 +1,26 @@
+{
+  "selected_arm": "TCN127",
+  "arms": [
+    {
+      "arm": "partial_mask",
+      "eligible": true,
+      "mean_precision": 0.2139767740114613,
+      "mean_f1": 0.32684018808516974
+    },
+    {
+      "arm": "TCN31",
+      "eligible": true,
+      "mean_precision": 0.22757574055776772,
+      "mean_f1": 0.3410765792621067
+    },
+    {
+      "arm": "TCN127",
+      "eligible": true,
+      "mean_precision": 0.23716648366320306,
+      "mean_f1": 0.35754417392432986
+    }
+  ],
+  "source_only": true,
+  "improvement_candidate": true,
+  "no_deployable_candidate": false
+}

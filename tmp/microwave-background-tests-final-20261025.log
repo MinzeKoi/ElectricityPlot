@@ -1,0 +1,34 @@
+test_closed_background_subtracts_subthreshold_target_and_rejects_on_context (test_microwave_background.BackgroundTests.test_closed_background_subtracts_subthreshold_target_and_rejects_on_context) ... ok
+test_forbidden_house_and_outer_training_access (test_microwave_background.BackgroundTests.test_forbidden_house_and_outer_training_access) ... ok
+test_frozen_selection_matches_control (test_microwave_background.BackgroundTests.test_frozen_selection_matches_control) ... ok
+test_incomplete_template_falls_back_without_event_replacement (test_microwave_background.BackgroundTests.test_incomplete_template_falls_back_without_event_replacement) ... ok
+test_label_filter_does_not_parse_heldout_power (test_microwave_background.BackgroundTests.test_label_filter_does_not_parse_heldout_power) ... ok
+test_no_cross_house_support_is_explicit_fallback_to_available_house (test_microwave_background.BackgroundTests.test_no_cross_house_support_is_explicit_fallback_to_available_house) ... ok
+test_original_sampling_replays_and_trace_is_deterministic (test_microwave_background.BackgroundTests.test_original_sampling_replays_and_trace_is_deterministic) ... ok
+test_physical_sum_label_identity_and_cross_house (test_microwave_background.BackgroundTests.test_physical_sum_label_identity_and_cross_house) ... ok
+test_pool_missing_negative_and_boundary_rejection (test_microwave_background.BackgroundTests.test_pool_missing_negative_and_boundary_rejection) ... ok
+sampling arm=natural seed=42 checkpoint=1/2 eligible=True
+sampling arm=natural seed=42 checkpoint=2/2 eligible=True
+sampling arm=natural seed=1019 checkpoint=1/2 eligible=True
+sampling arm=natural seed=1019 checkpoint=2/2 eligible=True
+sampling arm=natural seed=2026 checkpoint=1/2 eligible=True
+sampling arm=natural seed=2026 checkpoint=2/2 eligible=True
+sampling arm=event seed=42 checkpoint=1/2 eligible=True
+sampling arm=event seed=42 checkpoint=2/2 eligible=True
+sampling arm=event seed=1019 checkpoint=1/2 eligible=True
+sampling arm=event seed=1019 checkpoint=2/2 eligible=True
+sampling arm=event seed=2026 checkpoint=1/2 eligible=True
+sampling arm=event seed=2026 checkpoint=2/2 eligible=True
+sampling arm=event_background seed=42 checkpoint=1/2 eligible=True
+sampling arm=event_background seed=42 checkpoint=2/2 eligible=True
+sampling arm=event_background seed=1019 checkpoint=1/2 eligible=True
+sampling arm=event_background seed=1019 checkpoint=2/2 eligible=True
+sampling arm=event_background seed=2026 checkpoint=1/2 eligible=True
+sampling arm=event_background seed=2026 checkpoint=2/2 eligible=True
+test_synthetic_lifecycle_and_gates (test_microwave_background.BackgroundTests.test_synthetic_lifecycle_and_gates) ... ok
+test_zero_support_never_opens_controls_or_starts_fit (test_microwave_background.BackgroundTests.test_zero_support_never_opens_controls_or_starts_fit) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 13.699s
+
+OK

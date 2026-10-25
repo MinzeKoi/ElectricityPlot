@@ -1,0 +1,12 @@
+{
+  "q": 0.0625,
+  "p": 0.0032678229140204614,
+  "event_BCE50_mass": 0.7692307692307693,
+  "uniform_BCE50_mass": 0.1408394629189103,
+  "positive_formula": "q/(G*E_g*C_ge)",
+  "negative_formula": "(1-q)/N_negative",
+  "importance_formula": "1/(N*draw_probability_i)",
+  "clipping": false,
+  "normalization": false,
+  "sampling": "Each hierarchy queue is shuffled without replacement; long-run marginal, not conditional independent unbiasedness given the full past. Finite cycle counts differ by at most one at each queue."
+}

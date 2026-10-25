@@ -1,0 +1,10 @@
+test_exact_pr_ap_ties_and_confusion (test_microwave_diagnosis.MicrowaveDiagnosisTest.test_exact_pr_ap_ties_and_confusion) ... ok
+test_label_timestamp_alignment_and_missing_context_real_api (test_microwave_diagnosis.MicrowaveDiagnosisTest.test_label_timestamp_alignment_and_missing_context_real_api) ... ok
+test_missing_labels_break_events_not_off_and_partial_events_not_small (test_microwave_diagnosis.MicrowaveDiagnosisTest.test_missing_labels_break_events_not_off_and_partial_events_not_small) ... ok
+test_weighted_bce_gradient_really_changes_original_network (test_microwave_diagnosis.MicrowaveDiagnosisTest.test_weighted_bce_gradient_really_changes_original_network) ... ok
+test_whole_event_crossing_boundary_excluded_and_context_disjoint (test_microwave_diagnosis.MicrowaveDiagnosisTest.test_whole_event_crossing_boundary_excluded_and_context_disjoint) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 1.298s
+
+OK

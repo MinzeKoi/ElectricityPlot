@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "maximum_weight_difference": 0.0,
+  "historical_model_sha256": "6f4db7483a35c7a589d78a2bd6b4ba6f2f6e3c468b9261172ff482a38565ed5a",
+  "reproduced_model_sha256": "75e8ce039bb7b1746c2b5713148910613e76f83de240b43d7bc950e423f7db3c"
+}

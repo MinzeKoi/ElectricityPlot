@@ -1,0 +1,300 @@
+{
+  "status": "state_delivery_verified",
+  "current_source_verification": {
+    "status": "state_verified",
+    "models": 18,
+    "predictions": 36,
+    "target_labels_reopened": false,
+    "final_households_accessed": false,
+    "execution_source_matches_current": false
+  },
+  "snapshot_verification_with_pr_cache": {
+    "status": "state_verified",
+    "models": 18,
+    "predictions": 36,
+    "target_labels_reopened": false,
+    "final_households_accessed": false,
+    "execution_source_matches_current": true
+  },
+  "historical_precision_verification": {
+    "status": "precision_verified",
+    "models": 12,
+    "cases": 24,
+    "target_labels_reopened": false,
+    "final_households_accessed": false,
+    "execution_source_matches_current": true
+  },
+  "full_regression": {
+    "passed": 183,
+    "failed": 0,
+    "log_sha256": "8cbb524ba0bbc85b85539631e72937864b07f3caa336f1bfb8b93b0c0ae4fcb7"
+  },
+  "focused_tests": {
+    "passed": 9,
+    "log_sha256": "26fadb965addc7609c931254da9671d469edd36277a51fb606de30499e9d0549"
+  },
+  "checkpoints_and_exact_pr_curves_verified": 216,
+  "models": 18,
+  "frozen_predictions": 36,
+  "device_seed_partition_support_metric_rows": 324,
+  "historical_A_native_metrics_exactly_reproduced": 18,
+  "previous_precision_W50_state_metric_rows_exactly_reproduced": 18,
+  "previous_precision_W50_maximum_power_metric_differences": {
+    "mae_w": 1.1109225539485124e-07,
+    "active_mae_w": 9.311427106695191e-06,
+    "energy_absolute_error_kwh": 2.4711606982918966e-08
+  },
+  "engineering_recovery_parameter_checks": [
+    {
+      "candidate": "R_PR",
+      "seed": 42,
+      "parameters_equal": true,
+      "maximum_difference": 0
+    },
+    {
+      "candidate": "R_PR",
+      "seed": 1019,
+      "parameters_equal": true,
+      "maximum_difference": 0
+    },
+    {
+      "candidate": "R_PR",
+      "seed": 2026,
+      "parameters_equal": true,
+      "maximum_difference": 0
+    },
+    {
+      "candidate": "C31",
+      "seed": 42,
+      "parameters_equal": true,
+      "maximum_difference": 0
+    }
+  ],
+  "cumulative_fits_including_failed_run": 22,
+  "independent_power_prediction_checks": 36,
+  "full_source_validation_public_readback": {
+    "checks": [
+      {
+        "candidate": "R_PR",
+        "seed": 42,
+        "rows": 151200,
+        "maximum_score_difference": 0.0,
+        "missing_equal": true,
+        "states_equal": true,
+        "decision_threshold": 345.580810546875,
+        "ordinary_output": "raw_power_w_with_explicit_source_threshold",
+        "model_sha256": "f7517f8aff6a4132c42dc7c16d6bf2a1ab026a2c672ffd63eb4bdd91b067df20"
+      },
+      {
+        "candidate": "R_PR",
+        "seed": 1019,
+        "rows": 151200,
+        "maximum_score_difference": 0.0,
+        "missing_equal": true,
+        "states_equal": true,
+        "decision_threshold": 221.146728515625,
+        "ordinary_output": "raw_power_w_with_explicit_source_threshold",
+        "model_sha256": "7fc02bf361a873abe004ddc8da23bf21cf65c4b80a774c0fc2d845696f7ef64a"
+      },
+      {
+        "candidate": "R_PR",
+        "seed": 2026,
+        "rows": 151200,
+        "maximum_score_difference": 0.0,
+        "missing_equal": true,
+        "states_equal": true,
+        "decision_threshold": 565.1676635742188,
+        "ordinary_output": "raw_power_w_with_explicit_source_threshold",
+        "model_sha256": "7f8808a30f461cffec49af29c20b67250941482f9ea9eebb5ba0da5cd1579301"
+      },
+      {
+        "candidate": "C31",
+        "seed": 42,
+        "rows": 151200,
+        "maximum_score_difference": 0.0,
+        "missing_equal": true,
+        "states_equal": true,
+        "decision_threshold": 0.3736465871334076,
+        "ordinary_output": "probability_on_and_state",
+        "model_sha256": "3e9afcb0750ba83ac1c87d2a80ab742d039e7b192c601049f8bd246066f19906"
+      },
+      {
+        "candidate": "C31",
+        "seed": 1019,
+        "rows": 151200,
+        "maximum_score_difference": 0.0,
+        "missing_equal": true,
+        "states_equal": true,
+        "decision_threshold": 0.3475852310657501,
+        "ordinary_output": "probability_on_and_state",
+        "model_sha256": "0ae926055778cc106377f1d64a90b97632a7e454be0ddf6c7c4c7fefb0280ef8"
+      },
+      {
+        "candidate": "C31",
+        "seed": 2026,
+        "rows": 151200,
+        "maximum_score_difference": 0.0,
+        "missing_equal": true,
+        "states_equal": true,
+        "decision_threshold": 0.40937212109565735,
+        "ordinary_output": "probability_on_and_state",
+        "model_sha256": "c39aef860e3fa7b9880c708c1850716bf914ef1888d348fafa7d71f369fb49e9"
+      },
+      {
+        "candidate": "C_EVENT",
+        "seed": 42,
+        "rows": 151200,
+        "maximum_score_difference": 0.0,
+        "missing_equal": true,
+        "states_equal": true,
+        "decision_threshold": 0.24136556684970856,
+        "ordinary_output": "probability_on_and_state",
+        "model_sha256": "d98db70190b1cae725b8b01b5e9100c35ffae690f2d89ba3aaca9baa66e52033"
+      },
+      {
+        "candidate": "C_EVENT",
+        "seed": 1019,
+        "rows": 151200,
+        "maximum_score_difference": 0.0,
+        "missing_equal": true,
+        "states_equal": true,
+        "decision_threshold": 0.1931295245885849,
+        "ordinary_output": "probability_on_and_state",
+        "model_sha256": "b9409b0620ac2b5df411e55e5df618893e51863841a028b96df7f09eba4c9544"
+      },
+      {
+        "candidate": "C_EVENT",
+        "seed": 2026,
+        "rows": 151200,
+        "maximum_score_difference": 0.0,
+        "missing_equal": true,
+        "states_equal": true,
+        "decision_threshold": 0.5095022320747375,
+        "ordinary_output": "probability_on_and_state",
+        "model_sha256": "bac3270a11e62fe85d56604db14e01a0623ce331edba965ec74f693f6c692751"
+      },
+      {
+        "candidate": "C_HARD",
+        "seed": 42,
+        "rows": 151200,
+        "maximum_score_difference": 0.0,
+        "missing_equal": true,
+        "states_equal": true,
+        "decision_threshold": 0.24017441272735596,
+        "ordinary_output": "probability_on_and_state",
+        "model_sha256": "1c0e362d5a9fb98d92cc12aa0d714441465af1128c78a03407589d91f4542929"
+      },
+      {
+        "candidate": "C_HARD",
+        "seed": 1019,
+        "rows": 151200,
+        "maximum_score_difference": 0.0,
+        "missing_equal": true,
+        "states_equal": true,
+        "decision_threshold": 0.5904199481010437,
+        "ordinary_output": "probability_on_and_state",
+        "model_sha256": "33665d696037fb36e4ec7eb6444b04685f320ded24adec72678523e5e359e4cb"
+      },
+      {
+        "candidate": "C_HARD",
+        "seed": 2026,
+        "rows": 151200,
+        "maximum_score_difference": 0.0,
+        "missing_equal": true,
+        "states_equal": true,
+        "decision_threshold": 0.3604205548763275,
+        "ordinary_output": "probability_on_and_state",
+        "model_sha256": "5c921502ab824e03c5570b54f6bbf32b96c8f6a5aed6a3032d05889aed0351c7"
+      },
+      {
+        "candidate": "C_FEATURES",
+        "seed": 42,
+        "rows": 151200,
+        "maximum_score_difference": 0.0,
+        "missing_equal": true,
+        "states_equal": true,
+        "decision_threshold": 0.19569748640060425,
+        "ordinary_output": "probability_on_and_state",
+        "model_sha256": "80d58bbbb2c93a45cd3569e8172342bac7f4899f4afcb57461f5d267fa6f30e6"
+      },
+      {
+        "candidate": "C_FEATURES",
+        "seed": 1019,
+        "rows": 151200,
+        "maximum_score_difference": 0.0,
+        "missing_equal": true,
+        "states_equal": true,
+        "decision_threshold": 0.3196191191673279,
+        "ordinary_output": "probability_on_and_state",
+        "model_sha256": "fd3c0496a8819cc169dbfd36ef86cb3c1cd463a30d53ad748d9e413a7a9d1b34"
+      },
+      {
+        "candidate": "C_FEATURES",
+        "seed": 2026,
+        "rows": 151200,
+        "maximum_score_difference": 0.0,
+        "missing_equal": true,
+        "states_equal": true,
+        "decision_threshold": 0.32783451676368713,
+        "ordinary_output": "probability_on_and_state",
+        "model_sha256": "33c89fc7e7e242fac2a291d1367ae67607ccada01208eef808308b29f61f283b"
+      },
+      {
+        "candidate": "C61",
+        "seed": 42,
+        "rows": 151200,
+        "maximum_score_difference": 0.0,
+        "missing_equal": true,
+        "states_equal": true,
+        "decision_threshold": 0.3993580937385559,
+        "ordinary_output": "probability_on_and_state",
+        "model_sha256": "010d4e11ba0a01d3f7a2469c2411b50ca43255d2e81f745f2fc935db0e9edbb7"
+      },
+      {
+        "candidate": "C61",
+        "seed": 1019,
+        "rows": 151200,
+        "maximum_score_difference": 0.0,
+        "missing_equal": true,
+        "states_equal": true,
+        "decision_threshold": 0.31680965423583984,
+        "ordinary_output": "probability_on_and_state",
+        "model_sha256": "612e362456533c6e0e4339b9b8bd68372ddbb94a4185afeaa5b663c177cc65fb"
+      },
+      {
+        "candidate": "C61",
+        "seed": 2026,
+        "rows": 151200,
+        "maximum_score_difference": 0.0,
+        "missing_equal": true,
+        "states_equal": true,
+        "decision_threshold": 0.5327664017677307,
+        "ordinary_output": "probability_on_and_state",
+        "model_sha256": "5c5c20860510716ed7f03288349cfd494fdbeba727b7f245e22e9fb1c857937f"
+      }
+    ],
+    "all_passed": true,
+    "freeze_sha256": "3a532fb863118f942814a4ec0dc81be1b204bcc13baeb36e8716179db5a3cb25",
+    "target_labels_reopened": false
+  },
+  "full_readback_evidence_sha256": "ddd24d5845ab34667c621bc073c528dc97ca43afac37714e10aa9c3493c16952",
+  "execution_repair": {
+    "freeze_sha256": "3a532fb863118f942814a4ec0dc81be1b204bcc13baeb36e8716179db5a3cb25",
+    "wrapper_sha256": "b244d459243ed8891e89efa5ef72de193f143b885b141db30e966092e168ff3e",
+    "reason": "Materialize lazy NPZ arrays once before exact PR ranking; no score, threshold, model or selection changes",
+    "snapshot_code_sha256": "4ccfbc60dcff36fff887312a6896bc3ec3df3ff33bccc269fc0b6d35868fd25f",
+    "development_labels_parsed_before_repair": false
+  },
+  "execution_repair_receipt_sha256": "22d92a14cb5afde993fd04d13225d8416db2ff842bf8b431554c406bf5e955b6",
+  "source_pr_charts_verified": 18,
+  "source_pr_report_evidence_sha256": "3af64070d1d39d7c93e32deac477a1e73a53ca2be581e864f464360e03e4438c",
+  "freeze_sha256": "3a532fb863118f942814a4ec0dc81be1b204bcc13baeb36e8716179db5a3cb25",
+  "evaluation_evidence_sha256": "2d91305de3ea9a9a58cc22fff763215e0c7904f7521e759d4bf1bce13b298e74",
+  "handoff_sha256": "dd4111a5ccf36ea083f66b847396b31ad306d64076d3a647d75f6f94cb8a3459",
+  "results_sha256": "a96d4229c8e703ee471d0e225134eaa12e2fda9b8493ff871c3a9d6e33fc0c09",
+  "target_labels_reopened_by_delivery_verification": false,
+  "final_households_accessed": false,
+  "default_model_changed": false,
+  "independent_member_or_second_machine_reproduction": false,
+  "new_development_household_check": "not_completed_no_additional_designated_household"
+}

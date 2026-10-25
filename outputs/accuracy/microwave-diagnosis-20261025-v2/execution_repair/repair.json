@@ -1,0 +1,7 @@
+{
+  "reason": "registered copied entrypoint used parents[1] instead of parent as run root; import failed before any verification/data parsing",
+  "scope": "verification wrapper only; load exact registered source directory",
+  "registered_entrypoint_preserved": true,
+  "weights_predictions_and_source_unchanged": true,
+  "wrapper_sha256": "c612dbf8bdcdb14e6f6821dcd63403c18ddb883cfa1d43324e7b5dfd19a635aa"
+}

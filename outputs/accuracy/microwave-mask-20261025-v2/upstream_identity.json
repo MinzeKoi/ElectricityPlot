@@ -1,0 +1,19 @@
+{
+  "run": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-fullsource-20261025-v1",
+  "registration_sha256": "fe3dd8e0d46ca0105516c040631544cdadb40fb04f843acec117357f8cfda3c5",
+  "artifacts": {
+    "train.npz": "fa46111a42942a087c2d0d708570111522d8fa50b6bff00a9f6abb8855e99a87",
+    "support.json": "5ed35bcacfaf1d225e0260abae9d8ba4f0325acc3fd4868f1d610b482502a762",
+    "matrix.json": "a9d48eb15cf8f7d24753a24c1c788ec591380b04415c4f44c3350361f2f8e050",
+    "normalization.json": "6bded76808e2480ce220ab65784f86b605c1c119a86595c1bc9d60f65c83fb26",
+    "baseline_identity.json": "b148bb299f5ec1307f90f1e88d3d0d9c9c8d57ae4a3b8aa3cd919efbe9dc6a46",
+    "baseline_settings.json": "f8e288848d9a38ee4f76da9f7887a2cc6d217a199e5ccc0d96f47a7a4c77d955",
+    "validation/block_0.npz": "9aeb4bb0e10c1c67473cb1c99e0ab5ee85339eb072fc4b9aa3eb13c509ca0abd",
+    "validation/block_1.npz": "6b31ff5f93c5a19a2b0997d40f749f20ecc1acc723e2954455e81340d5fb1c25",
+    "validation/block_2.npz": "9150ba19102b3b54ed96444b658e2b3aca32548f426936ec0e686a33de3d21a0",
+    "validation/block_3.npz": "0b9b7852c67880119b441da583330f29c5fa275d177eab3c2cab02c731232c7d",
+    "validation/block_4.npz": "2b50a7a4fca7b5f56721bef4b32bc017a42fb14b325623aa22848d3a8c47189f",
+    "validation/block_5.npz": "57242cb1495f1a2fa521f7888a760fd9f37d7e3b7801c3f2014901d10c089a4e"
+  },
+  "task4_results_read": false
+}

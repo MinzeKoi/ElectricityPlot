@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "experiment_id": "microwave-precision-20261024-v1",
+  "parent_run": "outputs/accuracy/data-expansion-20261024-v1",
+  "source_group": "A",
+  "seeds": [42, 1019, 2026],
+  "loss_weights": [50, 10, 1],
+  "hard_negative_factor": 4,
+  "source_recall_drop_limit": 0.05,
+  "minimum_precision": 0.08,
+  "minimum_recall": 0.85,
+  "minimum_f1_gain": 0.02,
+  "maximum_seed_f1_drop": 0.02,
+  "minimum_positive_seeds": 2,
+  "minimum_fp_reduction": 0.30,
+  "maximum_models": 12
+}

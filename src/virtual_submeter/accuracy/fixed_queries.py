@@ -17,7 +17,7 @@ from ..data.common import DataError, read_json, safe_child, sha256, source_finge
 from ..data.protocol import read_partition, validate_confirmation_history
 from ..environment import environment_report
 from .diagnosis import query_summary, write_csv
-from .learners import (VARIANTS, composed_rows, design, fit_adapter, normalization,
+from .learners import (VARIANTS, composed_rows, fit_adapter, normalization,
                        score_adapter, source_fit, temporal_features)
 from .runner import inventory
 

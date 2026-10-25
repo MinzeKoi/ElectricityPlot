@@ -1,0 +1,32 @@
+{
+  "status": "actual_training_math_and_finite_cycles_verified",
+  "fixed_logit_importance_BCE50_expected": 1.866825535572098,
+  "natural_uniform_BCE50": 1.866825535572098,
+  "absolute_difference": 0.0,
+  "positive_probability_mass": 0.0625,
+  "probability_sum": 0.9999999999999996,
+  "finite_cycles": [
+    {
+      "seed": 42,
+      "day_draw_count_spread": 1,
+      "max_event_draw_count_spread_within_day": 1,
+      "max_center_draw_count_spread_within_event_day": 1,
+      "negative_center_draw_count_spread": 1
+    },
+    {
+      "seed": 1019,
+      "day_draw_count_spread": 1,
+      "max_event_draw_count_spread_within_day": 1,
+      "max_center_draw_count_spread_within_event_day": 1,
+      "negative_center_draw_count_spread": 1
+    },
+    {
+      "seed": 2026,
+      "day_draw_count_spread": 1,
+      "max_event_draw_count_spread_within_day": 1,
+      "max_center_draw_count_spread_within_event_day": 1,
+      "negative_center_draw_count_spread": 1
+    }
+  ],
+  "development_truth_reads": 0
+}

@@ -1,0 +1,8 @@
+{
+  "status": "precision_verified",
+  "models": 12,
+  "cases": 24,
+  "target_labels_reopened": false,
+  "final_households_accessed": false,
+  "execution_source_matches_current": true
+}

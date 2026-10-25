@@ -1,0 +1,15 @@
+{
+  "artifacts": {
+    "docs/MICROWAVE_SAMPLING_RESULTS_20261025.json": "cab97190de30b9d6f7b84d469493cce65bcc46ecd73de9d66cfa52c864d198a8",
+    "docs/MICROWAVE_SAMPLING_REPORT_20261025.md": "49ca48ced2d76d11fb1e67af626f8e01674e2bed7e1998cc59b6314cb3ecbf51",
+    "docs/MICROWAVE_SAMPLING_VALIDATION_20261025.json": "a398157138f3580ba3ce6e196436f58f50e1bc13f70672541df83ed14f5a9c14",
+    "docs/MICROWAVE_SAMPLING_PLAN_20261025.md": "209d82d88bb8b6e2cb624689289c74e1d119ada0f6713310ecbd60a78075bc0f",
+    "configs/microwave_sampling_20261025.json": "8e1107773b62acf97def814dd71a6cd4dcb181d05877237ca4071463cc32517a",
+    "scripts/run_microwave_sampling.py": "d119fa87b3701406eb15feb89b4b29e92115dae9041d9dcace44c0fff796f185",
+    "scripts/verify_microwave_sampling.py": "27c6ab9da4a85b87356c03424d160a8556de38a2d6dd4910771cfb3f870c8763",
+    "tests/test_microwave_sampling.py": "0f6d25b13986e4fcd0040236f3b2c8e508c9cbcd5c16f8889375f80fb202f08e",
+    "src/virtual_submeter/accuracy/microwave_sampling.py": "318e7674266c6293ddba554b643cdd5880554d652bb8836d2af9aab6f25ed309",
+    "scripts/summarize_microwave_sampling.py": "a004436ea89a04add61d5a5d267f35bdd9912c8c54bdf498cca3b7bf4523dc81"
+  },
+  "run_delivery_sha256": "04fcbecc9ead6778942354bf5d95a558b63428b5ccb3d157f20de60bfda42f7a"
+}

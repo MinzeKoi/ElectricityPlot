@@ -1,0 +1,15 @@
+Slice exact REFIT house 10 on registered dates
+Slice exact REFIT house 12 on registered dates
+Slice exact REFIT house 15 on registered dates
+Slice exact REFIT house 16 on registered dates
+Slice exact REFIT house 18 on registered dates
+{
+  "status": "additional_sources_prepared",
+  "households": [
+    "10",
+    "12",
+    "15",
+    "16",
+    "18"
+  ]
+}

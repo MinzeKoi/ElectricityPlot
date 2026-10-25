@@ -1,0 +1,18 @@
+Verified ranges 10/428
+Traceback (most recent call last):
+  File "D:\system position\document\�������ĵ�\AIC\scripts\fetch_ukdale.py", line 117, in <module>
+    main()
+    ~~~~^^
+  File "D:\system position\document\�������ĵ�\AIC\scripts\fetch_ukdale.py", line 92, in main
+    task.result()
+    ~~~~~~~~~~~^^
+  File "C:\Users\27622\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\27622\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\27622\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "D:\system position\document\�������ĵ�\AIC\scripts\fetch_ukdale.py", line 53, in fetch
+    raise DataError("Official download acquisition deadline exceeded; verified ranges retained")
+virtual_submeter.data.common.DataError: Official download acquisition deadline exceeded; verified ranges retained

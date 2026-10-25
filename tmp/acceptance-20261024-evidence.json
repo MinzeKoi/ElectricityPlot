@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-24",
+  "head": "70cb76210d699fde57d97194585bc47651545e7a",
+  "scope_base": "f266b76",
+  "artifact_probe": [
+    {
+      "path": "outputs/r4-r5-delivery-20261024-v1.zip",
+      "status": "unavailable",
+      "error": "[Errno 2] No such file or directory: 'outputs\\\\r4-r5-delivery-20261024-v1.zip'"
+    },
+    {
+      "path": "outputs/r4-r5-delivery-20261024-v1/manifest.json",
+      "status": "unavailable",
+      "error": "[Errno 2] No such file or directory: 'outputs\\\\r4-r5-delivery-20261024-v1\\\\manifest.json'"
+    },
+    {
+      "path": "outputs/r4-r5-replay-final-20261024-v1/receipt.json",
+      "status": "unavailable",
+      "error": "[Errno 2] No such file or directory: 'outputs\\\\r4-r5-replay-final-20261024-v1\\\\receipt.json'"
+    },
+    {
+      "path": "outputs/r4-r5-regression-final-20261024.log",
+      "status": "unavailable",
+      "error": "[Errno 2] No such file or directory: 'outputs\\\\r4-r5-regression-final-20261024.log'"
+    },
+    {
+      "path": "outputs/accuracy/r2-stability-20261023-v1/summary.json",
+      "status": "unavailable",
+      "error": "[Errno 2] No such file or directory: 'outputs\\\\accuracy\\\\r2-stability-20261023-v1\\\\summary.json'"
+    }
+  ],
+  "historical_validation_is_not_local_reproduction": true,
+  "real_final_households_accessed": false,
+  "local_regression": {
+    "tests": 155,
+    "failures": 0,
+    "errors": 0,
+    "seconds": 141.001,
+    "status": "passed",
+    "log": "tmp/acceptance-20261024-tests.log",
+    "log_sha256": "dd89059265e7ccea379805192b2c4f50880dd069951875ca83a02693a0472894"
+  },
+  "startup_dependency_check": "passed",
+  "summary_arithmetic_check": "12 group deltas and predeclared overall exit agree"
+}

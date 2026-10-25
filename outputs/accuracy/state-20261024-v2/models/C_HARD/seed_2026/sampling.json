@@ -1,0 +1,28 @@
+{
+  "candidate": "C_HARD",
+  "source_only": true,
+  "positive_windows": 646,
+  "windows": 150069,
+  "households": {
+    "refit_19": {
+      "windows": 56856,
+      "positive": 277,
+      "events": 50,
+      "sampling_mass": 0.37527527316964904
+    },
+    "refit_2": {
+      "windows": 93213,
+      "positive": 369,
+      "events": 53,
+      "sampling_mass": 0.6247247268303511
+    }
+  },
+  "threshold_segments": 103,
+  "hard_positive": 162,
+  "hard_negative": 1495,
+  "positive_score_cutoff": 0.8574424386024475,
+  "negative_score_cutoff": 0.9116108417510986,
+  "positive_sampling_mass": 0.004304686510871666,
+  "source_identity_sha256": "2d01bb060c84c42ed083d3a3beac788ab70cb4520e568025900299cc729e39e2",
+  "mining_scores_sha256": "9552fa30d39d73c9adad3f99cfd4574ff30e9d614af1bbe8b81d3cdb15547d22"
+}

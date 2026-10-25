@@ -1,0 +1,21 @@
+{
+  "artifacts": {
+    "audit.json": "8d8d775ba0f248b9c4f83f14193669becc25c2d9db2cc6d977ab11e52df6d98a",
+    "fixed_recall_fpr.csv": "51bc9e0d67d9feb000928f30c12ce3697fff5ce4277770e7078cdf9997ad4fe8",
+    "proposal.disabled.json": "e552d714381f527511e12ba4887aeb5584f680f4e59645437408202af77dfdc1",
+    "source_power_bins.svg": "7ddae71bf8720116edbd1d2b3be1901ddfa661d0c817565e1b5792847f7257d5",
+    "source_statistics.csv": "da158a95e90fc6ec720e3d9e45371c09201b8228ab6f2cff9c540372f57afd19"
+  },
+  "script_sha256": "42a1828bc1dd89bdf3b1ad88caed24f8f6648f945694b85ce9493857eaf56251",
+  "fits": 0,
+  "allowlisted_input_count": 39,
+  "checks_passed": {
+    "six_frozen_block_time_and_labels_match": true,
+    "original_mask_support_matches": true,
+    "daily_grid_and_on_count_closure": true,
+    "power_bin_closure": true,
+    "timestamp_eight_second_grid": true,
+    "no_non_allowlisted_inputs": true,
+    "no_feature_arrays_or_normalization_or_sampler_created": true
+  }
+}

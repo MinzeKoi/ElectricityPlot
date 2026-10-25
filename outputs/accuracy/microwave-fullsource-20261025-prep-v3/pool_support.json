@@ -1,0 +1,61 @@
+{
+  "all_train_windows": 150069,
+  "template_centers": 265,
+  "background_centers": 137483,
+  "exclusion_counts": {
+    "eligible": 138603,
+    "missing_or_nonfinite_context": 11466
+  },
+  "eligible_template_threshold_segments": 33,
+  "houses": {
+    "refit_2": {
+      "positive_centers": 369,
+      "template_centers": 162,
+      "template_threshold_segments": 16,
+      "background_centers": 86805,
+      "background_dates_utc": [
+        16343,
+        16344,
+        16345,
+        16346,
+        16347,
+        16348,
+        16349,
+        16350,
+        16351,
+        16352,
+        16353,
+        16354,
+        16355,
+        16356
+      ],
+      "positive_exclusions": {
+        "missing_or_nonfinite_context": 207
+      }
+    },
+    "refit_19": {
+      "positive_centers": 277,
+      "template_centers": 103,
+      "template_threshold_segments": 17,
+      "background_centers": 50678,
+      "background_dates_utc": [
+        16349,
+        16350,
+        16351,
+        16352,
+        16353,
+        16354,
+        16355,
+        16356,
+        16357,
+        16358,
+        16359,
+        16360,
+        16361
+      ],
+      "positive_exclusions": {
+        "missing_or_nonfinite_context": 174
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "run": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-background-20261025-v1",
+  "artifacts": {
+    "docs/MICROWAVE_BACKGROUND_RESULTS_20261025.md": "778d6f6c040996078eabe383656dc89a55f20688be13e9eb4b237804fb53db37",
+    "docs/MICROWAVE_BACKGROUND_RESULTS_20261025.json": "bb8f3254df940782e5639a8047fc3f2cd2f976e81795f6f81750ffde46d9fffe",
+    "docs/MICROWAVE_BACKGROUND_VALIDATION_CURVES_20261025.svg": "09f2dfbd9a28139bdff7dba4b77d2975c352bdc58f46d06e39d527a997b2d50d",
+    "docs/MICROWAVE_BACKGROUND_PLAN_20261025.md": "2c69f251fc1f2e0e41e133d127855385054648c4c867648bd78a6201686c723c",
+    "docs/MICROWAVE_BACKGROUND_INTERFACE_20261025.md": "21812a2b7e1a73912a69fa679e46cfacf1ce1ad4c3a76dc3babde3532acac144",
+    "configs/microwave_background_20261025.json": "2f6cad7e96a7b68bf9b0323c93eb582c91076768e70e98c785e464e9fb268b8e",
+    "src/virtual_submeter/accuracy/microwave_background.py": "5e90f9b0254ec7b22f504b5580b44b26a840bc3e9ecd6a31d2d1326c6d07f2fd",
+    "scripts/run_microwave_background.py": "cd7e0503eb7d5268892233227597fa8190920bce4ddc638d55847e134e2dac3e",
+    "scripts/verify_microwave_background.py": "2491efdcb8e99f4d5c8124d970099452647f5bf12eae02c8203cd6751a17828c",
+    "scripts/summarize_microwave_background.py": "4d5f7e056a96b09af9b13e5f9a4a75eb6faef8e72deafded619f35aea0492f55",
+    "tests/test_microwave_background.py": "c3b28f28afb139890465c66d132e4efaa14b3d28cce3f16533dad7658b9a6734"
+  }
+}

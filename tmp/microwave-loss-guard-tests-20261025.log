@@ -1,0 +1,8 @@
+test_changed_freeze_denies_evaluation (test_microwave_loss_correction_guards.GuardTests.test_changed_freeze_denies_evaluation) ... ok
+test_incomplete_evaluation_rejected_before_truth (test_microwave_loss_correction_guards.GuardTests.test_incomplete_evaluation_rejected_before_truth) ... ok
+test_incomplete_fit_matrix_rejected_before_arrays (test_microwave_loss_correction_guards.GuardTests.test_incomplete_fit_matrix_rejected_before_arrays) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.032s
+
+OK

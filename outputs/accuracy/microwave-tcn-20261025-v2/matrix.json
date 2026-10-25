@@ -1,0 +1,21 @@
+{
+  "arms": [
+    "TCN31",
+    "TCN127"
+  ],
+  "seeds": [
+    42,
+    1019,
+    2026
+  ],
+  "fits": 6,
+  "preparation_passed": true,
+  "supported_validation_blocks": [
+    "block_0",
+    "block_1",
+    "block_2",
+    "block_3",
+    "block_4",
+    "block_5"
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "checks": [
+    {
+      "candidate": "W50",
+      "seed": 42,
+      "rows": 2033,
+      "maximum_raw_power_difference_w": 1.9073486328125e-06,
+      "passed": true
+    },
+    {
+      "candidate": "W50",
+      "seed": 1019,
+      "rows": 2033,
+      "maximum_raw_power_difference_w": 5.960464477539062e-07,
+      "passed": true
+    },
+    {
+      "candidate": "W50",
+      "seed": 2026,
+      "rows": 2033,
+      "maximum_raw_power_difference_w": 4.76837158203125e-07,
+      "passed": true
+    },
+    {
+      "candidate": "W10",
+      "seed": 42,
+      "rows": 2033,
+      "maximum_raw_power_difference_w": 4.470348358154297e-07,
+      "passed": true
+    },
+    {
+      "candidate": "W10",
+      "seed": 1019,
+      "rows": 2033,
+      "maximum_raw_power_difference_w": 0.0,
+      "passed": true
+    },
+    {
+      "candidate": "W10",
+      "seed": 2026,
+      "rows": 2033,
+      "maximum_raw_power_difference_w": 5.960464477539063e-08,
+      "passed": true
+    },
+    {
+      "candidate": "W1",
+      "seed": 42,
+      "rows": 2033,
+      "maximum_raw_power_difference_w": 2.0489096641540527e-08,
+      "passed": true
+    },
+    {
+      "candidate": "W1",
+      "seed": 1019,
+      "rows": 2033,
+      "maximum_raw_power_difference_w": 3.725290298461914e-09,
+      "passed": true
+    },
+    {
+      "candidate": "W1",
+      "seed": 2026,
+      "rows": 2033,
+      "maximum_raw_power_difference_w": 3.725290298461914e-09,
+      "passed": true
+    },
+    {
+      "candidate": "W50_HN",
+      "seed": 42,
+      "rows": 2033,
+      "maximum_raw_power_difference_w": 1.1920928955078125e-07,
+      "passed": true
+    },
+    {
+      "candidate": "W50_HN",
+      "seed": 1019,
+      "rows": 2033,
+      "maximum_raw_power_difference_w": 4.76837158203125e-07,
+      "passed": true
+    },
+    {
+      "candidate": "W50_HN",
+      "seed": 2026,
+      "rows": 2033,
+      "maximum_raw_power_difference_w": 1.1920928955078125e-06,
+      "passed": true
+    }
+  ],
+  "all_passed": true
+}

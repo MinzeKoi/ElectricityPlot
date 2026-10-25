@@ -1,0 +1,30 @@
+{
+  "selected": "W50",
+  "families": [
+    {
+      "candidate": "W50",
+      "eligible": true,
+      "mean_precision": 0.11662233287057189,
+      "mean_f1": 0.20723338003315248
+    },
+    {
+      "candidate": "W10",
+      "eligible": false,
+      "mean_precision": 0.09561124350432766,
+      "mean_f1": 0.17393811033761805
+    },
+    {
+      "candidate": "W1",
+      "eligible": false,
+      "mean_precision": 0.013389276458933874,
+      "mean_f1": 0.02640072937284521
+    },
+    {
+      "candidate": "W50_HN",
+      "eligible": false,
+      "mean_precision": 0.1029423907622513,
+      "mean_f1": 0.1862431454129254
+    }
+  ],
+  "selection_data": "House5_six_frozen_UTC_blocks_only"
+}

@@ -1,0 +1,14 @@
+{
+  "freeze_sha256": "47e5602103a444c42c63cb3f185fa42ec821bb497bb450ff6015c65ac5e94027",
+  "truth_original_sha256": "c796f9ac8d8a7bdf8acf29aafea63d1d8f4e46bd319f7c69e499ba61077d6111",
+  "source_selection_sha256": "32afd9555fb45009c60b16127a2888d35b0dd06461a8427069cb3552c0a9eaec",
+  "artifacts": {
+    "authorization.json": "3d15e68ad87a4c281edfc1f6c0af9451dff958ef66abccf0c8fc6f102a01c7ca",
+    "comparison.csv": "ae9347302629bd6b08b97167d39becd6142e564e47a74372d79328e676a6c76e",
+    "metrics.json": "5626a9e89dd7087276401b57e3b3b1ab2ce3a164d19801bab0e6f29a2b2be91b",
+    "started.json": "b0017c2d9e4d0b98800f9736a116e24204495c08791084f320f19e19b5f995a0",
+    "summary.json": "87395ca4cf3a83b3240c2ffad0131d5024293ea27e045928f9fbac42bb91adf9",
+    "truth_once.npz": "ac48eb4afd718c1ea4348db1d54afab7a804c58676661bf7e1b1aa90a5c1e264"
+  },
+  "truth_csv_parses": 1
+}

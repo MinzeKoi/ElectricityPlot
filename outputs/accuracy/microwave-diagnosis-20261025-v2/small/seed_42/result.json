@@ -1,0 +1,63 @@
+{
+  "seed": 42,
+  "updates": 1300,
+  "success": true,
+  "stop_reason": "consecutive_success",
+  "seconds": 2.7815157,
+  "normalization": {
+    "input_log_mean": 5.370561599731445,
+    "input_log_std": 0.8337093591690063,
+    "cpu_threads": 4,
+    "batch_size": 256
+  },
+  "initial": {
+    "tp": 0,
+    "fp": 0,
+    "fn": 66,
+    "tn": 132,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "off_false_positive_rate": 0.0,
+    "ap": 0.2724489114055387,
+    "prevalence": 0.3333333333333333,
+    "n": 198,
+    "threshold": 0.5,
+    "bce": 51.636016845703125,
+    "positive_score_quantiles": [
+      0.04234382510185242,
+      0.04541939124464989,
+      0.047717493027448654
+    ],
+    "negative_score_quantiles": [
+      0.04149846360087395,
+      0.04650520905852318,
+      0.047503214329481125
+    ]
+  },
+  "final": {
+    "tp": 66,
+    "fp": 0,
+    "fn": 0,
+    "tn": 132,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "off_false_positive_rate": 0.0,
+    "ap": 1.0,
+    "prevalence": 0.3333333333333333,
+    "n": 198,
+    "threshold": 0.5,
+    "bce": 0.02442372962832451,
+    "positive_score_quantiles": [
+      0.9886257648468018,
+      0.9999960064888,
+      1.0
+    ],
+    "negative_score_quantiles": [
+      0.0,
+      2.1404313044204315e-10,
+      0.4127379059791565
+    ]
+  }
+}

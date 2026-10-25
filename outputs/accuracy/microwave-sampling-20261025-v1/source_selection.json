@@ -1,0 +1,24 @@
+{
+  "arms": [
+    {
+      "arm": "natural",
+      "eligible": true,
+      "mean_precision": 0.3002949176899228,
+      "mean_f1": 0.443248215531775
+    },
+    {
+      "arm": "event",
+      "eligible": false,
+      "mean_precision": 0.2956731537896158,
+      "mean_f1": 0.43849967191140155,
+      "mean_f1_delta_vs_natural": -0.004748543620373469
+    }
+  ],
+  "selected": {
+    "arm": "natural",
+    "eligible": true,
+    "mean_precision": 0.3002949176899228,
+    "mean_f1": 0.443248215531775
+  },
+  "no_deployable_candidate": false
+}

@@ -1,0 +1,25 @@
+{
+  "arms": [
+    "natural",
+    "event",
+    "event_background"
+  ],
+  "seeds": [
+    42,
+    1019,
+    2026
+  ],
+  "fits": 9,
+  "background_removed_before_training": false,
+  "reason": null,
+  "supported_validation_blocks": [
+    "block_0",
+    "block_1",
+    "block_2",
+    "block_3",
+    "block_4",
+    "block_5"
+  ],
+  "preparation_passed": true,
+  "limited_source_evidence": false
+}

@@ -1,0 +1,2375 @@
+{
+  "refit_2": {
+    "strict": {
+      "windows": 93213,
+      "positive_windows": 369,
+      "negative_windows": 92844,
+      "events": 53,
+      "effective_seconds": 745704,
+      "expected_grid_points": null,
+      "excluded_grid_points": null,
+      "positive_fraction": 0.003958675292072994,
+      "dates_utc": [
+        16343,
+        16344,
+        16345,
+        16346,
+        16347,
+        16348,
+        16349,
+        16350,
+        16351,
+        16352,
+        16353,
+        16354,
+        16355,
+        16356
+      ],
+      "supported_threshold_segments": 53,
+      "complete_observed_segments": 21,
+      "complete_event_ids": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        15,
+        32,
+        36,
+        37,
+        41,
+        42,
+        43,
+        44,
+        53,
+        57,
+        60,
+        71,
+        76,
+        77,
+        79,
+        80
+      ],
+      "supported_event_ids": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        24,
+        25,
+        31,
+        32,
+        33,
+        34,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        71,
+        72,
+        73,
+        75,
+        76,
+        77,
+        79,
+        80
+      ]
+    },
+    "partial": {
+      "windows": 127747,
+      "positive_windows": 466,
+      "negative_windows": 127281,
+      "events": 74,
+      "effective_seconds": 1021976,
+      "expected_grid_points": null,
+      "excluded_grid_points": null,
+      "positive_fraction": 0.0036478351742115275,
+      "dates_utc": [
+        16342,
+        16343,
+        16344,
+        16345,
+        16346,
+        16347,
+        16348,
+        16349,
+        16350,
+        16351,
+        16352,
+        16353,
+        16354,
+        16355,
+        16356
+      ],
+      "supported_threshold_segments": 74,
+      "complete_observed_segments": 29,
+      "complete_event_ids": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        15,
+        18,
+        32,
+        33,
+        36,
+        37,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        53,
+        57,
+        58,
+        60,
+        68,
+        71,
+        73,
+        76,
+        77,
+        78,
+        79,
+        80
+      ],
+      "supported_event_ids": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80
+      ]
+    },
+    "added_windows": 34534,
+    "added_positive_centers": 97,
+    "newly_supported_event_ids": [
+      19,
+      20,
+      22,
+      23,
+      26,
+      27,
+      28,
+      29,
+      30,
+      35,
+      45,
+      46,
+      47,
+      48,
+      49,
+      58,
+      68,
+      69,
+      70,
+      74,
+      78
+    ],
+    "threshold_segments": 81,
+    "label_complete_segments": 30,
+    "rejections_and_acceptances": {
+      "added_partial": 34534,
+      "center_aggregate_missing": 14203,
+      "center_label_missing": 904,
+      "consecutive_missing_grid": 3819,
+      "edge_without_31_points": 30,
+      "fewer_than_24_real_points": 4497,
+      "strict": 93213
+    },
+    "daily": [
+      {
+        "date_utc": "2014-09-29",
+        "reasons": {
+          "added_partial": 46,
+          "center_aggregate_missing": 5544,
+          "center_label_missing": 27,
+          "consecutive_missing_grid": 554,
+          "edge_without_31_points": 15,
+          "fewer_than_24_real_points": 1698
+        },
+        "observed_positive_labels": 7,
+        "strict": {
+          "windows": 0,
+          "positive_windows": 0,
+          "negative_windows": 0,
+          "events": 0,
+          "effective_seconds": 0,
+          "expected_grid_points": null,
+          "excluded_grid_points": null,
+          "positive_fraction": null,
+          "dates_utc": [],
+          "supported_threshold_segments": 0,
+          "complete_observed_segments": 0,
+          "complete_event_ids": [],
+          "supported_event_ids": []
+        },
+        "partial": {
+          "windows": 46,
+          "positive_windows": 0,
+          "negative_windows": 46,
+          "events": 0,
+          "effective_seconds": 368,
+          "expected_grid_points": null,
+          "excluded_grid_points": null,
+          "positive_fraction": 0.0,
+          "dates_utc": [
+            16342
+          ],
+          "supported_threshold_segments": 0,
+          "complete_observed_segments": 0,
+          "complete_event_ids": [],
+          "supported_event_ids": []
+        }
+      },
+      {
+        "date_utc": "2014-09-30",
+        "reasons": {
+          "added_partial": 195,
+          "center_aggregate_missing": 5394,
+          "center_label_missing": 17,
+          "consecutive_missing_grid": 1908,
+          "fewer_than_24_real_points": 2192,
+          "strict": 1094
+        },
+        "observed_positive_labels": 1,
+        "strict": {
+          "windows": 1094,
+          "positive_windows": 0,
+          "negative_windows": 1094,
+          "events": 0,
+          "effective_seconds": 8752,
+          "expected_grid_points": null,
+          "excluded_grid_points": null,
+          "positive_fraction": 0.0,
+          "dates_utc": [
+            16343
+          ],
+          "supported_threshold_segments": 0,
+          "complete_observed_segments": 0,
+          "complete_event_ids": [],
+          "supported_event_ids": []
+        },
+        "partial": {
+          "windows": 1289,
+          "positive_windows": 0,
+          "negative_windows": 1289,
+          "events": 0,
+          "effective_seconds": 10312,
+          "expected_grid_points": null,
+          "excluded_grid_points": null,
+          "positive_fraction": 0.0,
+          "dates_utc": [
+            16343
+          ],
+          "supported_threshold_segments": 0,
+          "complete_observed_segments": 0,
+          "complete_event_ids": [],
+          "supported_event_ids": []
+        }
+      },
+      {
+        "date_utc": "2014-10-01",
+        "reasons": {
+          "added_partial": 1468,
+          "center_aggregate_missing": 219,
+          "center_label_missing": 191,
+          "consecutive_missing_grid": 124,
+          "fewer_than_24_real_points": 108,
+          "strict": 8690
+        },
+        "observed_positive_labels": 51,
+        "strict": {
+          "windows": 8690,
+          "positive_windows": 51,
+          "negative_windows": 8639,
+          "events": 9,
+          "effective_seconds": 69520,
+          "expected_grid_points": null,
+          "excluded_grid_points": null,
+          "positive_fraction": 0.005868814729574223,
+          "dates_utc": [
+            16344
+          ],
+          "supported_threshold_segments": 9,
+          "complete_observed_segments": 5,
+          "complete_event_ids": [
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "supported_event_ids": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        },
+        "partial": {
+          "windows": 10158,
+          "positive_windows": 51,
+          "negative_windows": 10107,
+          "events": 9,
+          "effective_seconds": 81264,
+          "expected_grid_points": null,
+          "excluded_grid_points": null,
+          "positive_fraction": 0.005020673360897815,
+          "dates_utc": [
+            16344
+          ],
+          "supported_threshold_segments": 9,
+          "complete_observed_segments": 5,
+          "complete_event_ids": [
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "supported_event_ids": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        }
+      },
+      {
+        "date_utc": "2014-10-02",
+        "reasons": {
+          "added_partial": 2719,
+          "center_aggregate_missing": 182,
+          "center_label_missing": 55,
+          "consecutive_missing_grid": 70,
+          "fewer_than_24_real_points": 31,
+          "strict": 7743
+        },
+        "observed_positive_labels": 6,
+        "strict": {
+          "windows": 7743,
+          "positive_windows": 6,
+          "negative_windows": 7737,
+          "events": 3,
+          "effective_seconds": 61944,
+          "expected_grid_points": null,
+          "excluded_grid_points": null,
+          "positive_fraction": 0.0007748934521503294,
+          "dates_utc": [
+            16345
+          ],
+          "supported_threshold_segments": 3,
+          "complete_observed_segments": 1,
+          "complete_event_ids": [
+            15
+          ],
+          "supported_event_ids": [
+            15,
+            16,
+            17
+          ]
+        },
+        "partial": {
+          "windows": 10462,
+          "positive_windows": 6,
+          "negative_windows": 10456,
+          "events": 3,
+          "effective_seconds": 83696,
+          "expected_grid_points": null,
+          "excluded_grid_points": null,
+          "positive_fraction": 0.0005735041101127892,
+          "dates_utc": [
+            16345
+          ],
+          "supported_threshold_segments": 3,
+          "complete_observed_segments": 1,
+          "complete_event_ids": [
+            15
+          ],
+          "supported_event_ids": [
+            15,
+            16,
+            17
+          ]
+        }
+      },
+      {
+        "date_utc": "2014-10-03",
+        "reasons": {
+          "added_partial": 2197,
+          "center_aggregate_missing": 127,
+          "center_label_missing": 88,
+          "consecutive_missing_grid": 101,
+          "fewer_than_24_real_points": 16,
+          "strict": 8271
+        },
+        "observed_positive_labels": 26,
+        "strict": {
+          "windows": 8271,
+          "positive_windows": 4,
+          "negative_windows": 8267,
+          "events": 3,
+          "effective_seconds": 66168,
+          "expected_grid_points": null,
+          "excluded_grid_points": null,
+          "positive_fraction": 0.0004836174585902551,
+          "dates_utc": [
+            16346
+          ],
+          "supported_threshold_segments": 3,
+          "complete_observed_segments": 0,
+          "complete_event_ids": [],
+          "supported_event_ids": [
+            18,
+            24,
+            25
+          ]
+        },
+        "partial": {
+          "windows": 10468,
+          "positive_windows": 22,
+          "negative_windows": 10446,
+          "events": 10,
+          "effective_seconds": 83744,
+          "expected_grid_points": null,
+          "excluded_grid_points": null,
+          "positive_fraction": 0.0021016431027894534,
+          "dates_utc": [
+            16346
+          ],
+          "supported_threshold_segments": 10,
+          "complete_observed_segments": 1,
+          "complete_event_ids": [
+            18
+          ],
+          "supported_event_ids": [
+            18,
+            19,
+            20,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28
+          ]
+        }
+      },
+      {
+        "date_utc": "2014-10-04",
+        "reasons": {
+          "added_partial": 5781,
+          "center_aggregate_missing": 928,
+          "center_label_missing": 23,
+          "consecutive_missing_grid": 113,
+          "fewer_than_24_real_points": 140,
+          "strict": 3815
+        },
+        "observed_positive_labels": 3,
+        "strict": {
+          "windows": 3815,
+          "positive_windows": 0,
+          "negative_windows": 3815,
+          "events": 0,
+          "effective_seconds": 30520,
+          "expected_grid_points": null,
+          "excluded_grid_points": null,
+          "positive_fraction": 0.0,
+          "dates_utc": [
+            16347
+          ],
+          "supported_threshold_segments": 0,
+          "complete_observed_segments": 0,
+          "complete_event_ids": [],
+          "supported_event_ids": []
+        },
+        "partial": {
+          "windows": 9596,
+          "positive_windows": 3,
+          "negative_windows": 9593,
+          "events": 2,
+          "effective_seconds": 76768,
+          "expected_grid_points": null,
+          "excluded_grid_points": null,
+          "positive_fraction": 0.0003126302626094206,
+          "dates_utc": [
+            16347
+          ],
+          "supported_threshold_segments": 2,
+          "complete_observed_segments": 0,
+          "complete_event_ids": [],
+          "supported_event_ids": [
+            29,
+            30
+          ]
+        }
+      },
+      {
+        "date_utc": "2014-10-05",
+        "reasons": {
+          "added_partial": 4889,
+          "center_aggregate_missing": 461,
+          "center_label_missing": 15,
+          "consecutive_missing_grid": 81,
+          "fewer_than_24_real_points": 45,
+          "strict": 5309
+        },
+        "observed_positive_labels": 0,
+        "strict": {
+          "windows": 5309,
+          "positive_windows": 0,
+          "negative_windows": 5309,
+          "events": 0,
+          "effective_seconds": 42472,
+          "expected_grid_points": null,
+          "excluded_grid_points": null,
+          "positive_fraction": 0.0,
+          "dates_utc": [
+            16348
+          ],
+          "supported_threshold_segments": 0,
+          "complete_observed_segments": 0,
+          "complete_event_ids": [],
+          "supported_event_ids": []
+        },
+        "partial": {
+          "windows": 10198,
+          "positive_windows": 0,
+          "negative_windows": 10198,
+          "events": 0,
+          "effective_seconds": 81584,
+          "expected_grid_points": null,
+          "excluded_grid_points": null,
+          "positive_fraction": 0.0,
+          "dates_utc": [
+            16348
+          ],
+          "supported_threshold_segments": 0,
+          "complete_observed_segments": 0,
+          "complete_event_ids": [],
+          "supported_event_ids": []
+        }
+      },
+      {
+        "date_utc": "2014-10-06",
+        "reasons": {
+          "added_partial": 1531,
+          "center_aggregate_missing": 83,
+          "center_label_missing": 79,
+          "consecutive_missing_grid": 19,
+          "fewer_than_24_real_points": 9,
+          "strict": 9079
+        },
+        "observed_positive_labels": 18,
+        "strict": {
+          "windows": 9079,
+          "positive_windows": 14,
+          "negative_windows": 9065,
+          "events": 4,
+          "effective_seconds": 72632,
+          "expected_grid_points": null,
+          "excluded_grid_points": null,
+          "positive_fraction": 0.0015420200462606013,
+          "dates_utc": [
+            16349
+          ],
+          "supported_threshold_segments": 4,
+          "complete_observed_segments": 1,
+          "complete_event_ids": [
+            32
+          ],
+          "supported_event_ids": [
+            31,
+            32,
+            33,
+            34
+          ]
+        },
+        "partial": {
+          "windows": 10610,
+          "positive_windows": 18,
+          "negative_windows": 10592,
+          "events": 5,
+          "effective_seconds": 84880,
+          "expected_grid_points": null,
+          "excluded_grid_points": null,
+          "positive_fraction": 0.0016965127238454288,
+          "dates_utc": [
+            16349
+          ],
+          "supported_threshold_segments": 5,
+          "complete_observed_segments": 2,
+          "complete_event_ids": [
+            32,
+            33
+          ],
+          "supported_event_ids": [
+            31,
+            32,
+            33,
+            34,
+            35
+          ]
+        }
+      },
+      {
+        "date_utc": "2014-10-07",
+        "reasons": {
+          "added_partial": 1724,
+          "center_aggregate_missing": 124,
+          "center_label_missing": 152,
+          "consecutive_missing_grid": 111,
+          "fewer_than_24_real_points": 31,
+          "strict": 8658
+        },
+        "observed_positive_labels": 70,
+        "strict": {
+          "windows": 8658,
+          "positive_windows": 70,
+          "negative_windows": 8588,
+          "events": 9,
+          "effective_seconds": 69264,
+          "expected_grid_points": null,
+          "excluded_grid_points": null,
+          "positive_fraction": 0.008085008085008085,
+          "dates_utc": [
+            16350
+          ],
+          "supported_threshold_segments": 9,
+          "complete_observed_segments": 6,
+          "complete_event_ids": [
+            36,
+            37,
+            41,
+            42,
+            43,
+            44
+          ],
+          "supported_event_ids": [
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44
+          ]
+        },
+        "partial": {
+          "windows": 10382,
+          "positive_windows": 70,
+          "negative_windows": 10312,
+          "events": 9,
+          "effective_seconds": 83056,
+          "expected_grid_points": null,
+          "excluded_grid_points": null,
+          "positive_fraction": 0.006742438836447698,
+          "dates_utc": [
+            16350
+          ],
+          "supported_threshold_segments": 9,
+          "complete_observed_segments": 6,
+          "complete_event_ids": [
+            36,
+            37,
+            41,
+            42,
+            43,
+            44
+          ],
+          "supported_event_ids": [
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44
+          ]
+        }
+      },
+      {
+        "date_utc": "2014-10-08",
+        "reasons": {
+          "added_partial": 4403,
+          "center_aggregate_missing": 390,
+          "center_label_missing": 27,
+          "consecutive_missing_grid": 292,
+          "fewer_than_24_real_points": 188,
+          "strict": 5500
+        },
+        "observed_positive_labels": 52,
+        "strict": {
+          "windows": 5500,
+          "positive_windows": 32,
+          "negative_windows": 5468,
+          "events": 4,
+          "effective_seconds": 44000,
+          "expected_grid_points": null,
+          "excluded_grid_points": null,
+          "positive_fraction": 0.005818181818181818,
+          "dates_utc": [
+            16351
+          ],
+          "supported_threshold_segments": 4,
+          "complete_observed_segments": 1,
+          "complete_event_ids": [
+            53
+          ],
+          "supported_event_ids": [
+            50,
+            51,
+            52,
+            53
+          ]
+        },
+        "partial": {
+          "windows": 9903,
+          "positive_windows": 52,
+          "negative_windows": 9851,
+          "events": 9,
+          "effective_seconds": 79224,
+          "expected_grid_points": null,
+          "excluded_grid_points": null,
+          "positive_fraction": 0.005250934060385742,
+          "dates_utc": [
+            16351
+          ],
+          "supported_threshold_segments": 9,
+          "complete_observed_segments": 3,
+          "complete_event_ids": [
+            45,
+            46,
+            53
+          ],
+          "supported_event_ids": [
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53
+          ]
+        }
+      },
+      {
+        "date_utc": "2014-10-09",
+        "reasons": {
+          "added_partial": 2700,
+          "center_aggregate_missing": 323,
+          "center_label_missing": 83,
+          "consecutive_missing_grid": 158,
+          "strict": 7536
+        },
+        "observed_positive_labels": 76,
+        "strict": {
+          "windows": 7536,
+          "positive_windows": 64,
+          "negative_windows": 7472,
+          "events": 6,
+          "effective_seconds": 60288,
+          "expected_grid_points": null,
+          "excluded_grid_points": null,
+          "positive_fraction": 0.008492569002123142,
+          "dates_utc": [
+            16352
+          ],
+          "supported_threshold_segments": 6,
+          "complete_observed_segments": 2,
+          "complete_event_ids": [
+            57,
+            60
+          ],
+          "supported_event_ids": [
+            54,
+            55,
+            56,
+            57,
+            59,
+            60
+          ]
+        },
+        "partial": {
+          "windows": 10236,
+          "positive_windows": 76,
+          "negative_windows": 10160,
+          "events": 7,
+          "effective_seconds": 81888,
+          "expected_grid_points": null,
+          "excluded_grid_points": null,
+          "positive_fraction": 0.007424775302852677,
+          "dates_utc": [
+            16352
+          ],
+          "supported_threshold_segments": 7,
+          "complete_observed_segments": 3,
+          "complete_event_ids": [
+            57,
+            58,
+            60
+          ],
+          "supported_event_ids": [
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60
+          ]
+        }
+      },
+      {
+        "date_utc": "2014-10-10",
+        "reasons": {
+          "added_partial": 2104,
+          "center_aggregate_missing": 101,
+          "center_label_missing": 50,
+          "consecutive_missing_grid": 55,
+          "strict": 8490
+        },
+        "observed_positive_labels": 76,
+        "strict": {
+          "windows": 8490,
+          "positive_windows": 59,
+          "negative_windows": 8431,
+          "events": 7,
+          "effective_seconds": 67920,
+          "expected_grid_points": null,
+          "excluded_grid_points": null,
+          "positive_fraction": 0.006949352179034158,
+          "dates_utc": [
+            16353
+          ],
+          "supported_threshold_segments": 7,
+          "complete_observed_segments": 0,
+          "complete_event_ids": [],
+          "supported_event_ids": [
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67
+          ]
+        },
+        "partial": {
+          "windows": 10594,
+          "positive_windows": 76,
+          "negative_windows": 10518,
+          "events": 10,
+          "effective_seconds": 84752,
+          "expected_grid_points": null,
+          "excluded_grid_points": null,
+          "positive_fraction": 0.007173872003020577,
+          "dates_utc": [
+            16353
+          ],
+          "supported_threshold_segments": 10,
+          "complete_observed_segments": 1,
+          "complete_event_ids": [
+            68
+          ],
+          "supported_event_ids": [
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70
+          ]
+        }
+      },
+      {
+        "date_utc": "2014-10-11",
+        "reasons": {
+          "added_partial": 1522,
+          "center_aggregate_missing": 80,
+          "center_label_missing": 61,
+          "consecutive_missing_grid": 109,
+          "strict": 9028
+        },
+        "observed_positive_labels": 71,
+        "strict": {
+          "windows": 9028,
+          "positive_windows": 50,
+          "negative_windows": 8978,
+          "events": 5,
+          "effective_seconds": 72224,
+          "expected_grid_points": null,
+          "excluded_grid_points": null,
+          "positive_fraction": 0.005538325210456358,
+          "dates_utc": [
+            16354
+          ],
+          "supported_threshold_segments": 5,
+          "complete_observed_segments": 2,
+          "complete_event_ids": [
+            71,
+            76
+          ],
+          "supported_event_ids": [
+            71,
+            72,
+            73,
+            75,
+            76
+          ]
+        },
+        "partial": {
+          "windows": 10550,
+          "positive_windows": 71,
+          "negative_windows": 10479,
+          "events": 6,
+          "effective_seconds": 84400,
+          "expected_grid_points": null,
+          "excluded_grid_points": null,
+          "positive_fraction": 0.006729857819905213,
+          "dates_utc": [
+            16354
+          ],
+          "supported_threshold_segments": 6,
+          "complete_observed_segments": 3,
+          "complete_event_ids": [
+            71,
+            73,
+            76
+          ],
+          "supported_event_ids": [
+            71,
+            72,
+            73,
+            74,
+            75,
+            76
+          ]
+        }
+      },
+      {
+        "date_utc": "2014-10-12",
+        "reasons": {
+          "added_partial": 3039,
+          "center_aggregate_missing": 240,
+          "center_label_missing": 34,
+          "consecutive_missing_grid": 124,
+          "fewer_than_24_real_points": 39,
+          "strict": 7324
+        },
+        "observed_positive_labels": 21,
+        "strict": {
+          "windows": 7324,
+          "positive_windows": 19,
+          "negative_windows": 7305,
+          "events": 3,
+          "effective_seconds": 58592,
+          "expected_grid_points": null,
+          "excluded_grid_points": null,
+          "positive_fraction": 0.002594210813762971,
+          "dates_utc": [
+            16355
+          ],
+          "supported_threshold_segments": 3,
+          "complete_observed_segments": 3,
+          "complete_event_ids": [
+            77,
+            79,
+            80
+          ],
+          "supported_event_ids": [
+            77,
+            79,
+            80
+          ]
+        },
+        "partial": {
+          "windows": 10363,
+          "positive_windows": 21,
+          "negative_windows": 10342,
+          "events": 4,
+          "effective_seconds": 82904,
+          "expected_grid_points": null,
+          "excluded_grid_points": null,
+          "positive_fraction": 0.0020264402200135096,
+          "dates_utc": [
+            16355
+          ],
+          "supported_threshold_segments": 4,
+          "complete_observed_segments": 4,
+          "complete_event_ids": [
+            77,
+            78,
+            79,
+            80
+          ],
+          "supported_event_ids": [
+            77,
+            78,
+            79,
+            80
+          ]
+        }
+      },
+      {
+        "date_utc": "2014-10-13",
+        "reasons": {
+          "added_partial": 216,
+          "center_aggregate_missing": 7,
+          "center_label_missing": 2,
+          "edge_without_31_points": 15,
+          "strict": 2676
+        },
+        "observed_positive_labels": 0,
+        "strict": {
+          "windows": 2676,
+          "positive_windows": 0,
+          "negative_windows": 2676,
+          "events": 0,
+          "effective_seconds": 21408,
+          "expected_grid_points": null,
+          "excluded_grid_points": null,
+          "positive_fraction": 0.0,
+          "dates_utc": [
+            16356
+          ],
+          "supported_threshold_segments": 0,
+          "complete_observed_segments": 0,
+          "complete_event_ids": [],
+          "supported_event_ids": []
+        },
+        "partial": {
+          "windows": 2892,
+          "positive_windows": 0,
+          "negative_windows": 2892,
+          "events": 0,
+          "effective_seconds": 23136,
+          "expected_grid_points": null,
+          "excluded_grid_points": null,
+          "positive_fraction": 0.0,
+          "dates_utc": [
+            16356
+          ],
+          "supported_threshold_segments": 0,
+          "complete_observed_segments": 0,
+          "complete_event_ids": [],
+          "supported_event_ids": []
+        }
+      }
+    ]
+  },
+  "refit_19": {
+    "strict": {
+      "windows": 56856,
+      "positive_windows": 277,
+      "negative_windows": 56579,
+      "events": 50,
+      "effective_seconds": 454848,
+      "expected_grid_points": null,
+      "excluded_grid_points": null,
+      "positive_fraction": 0.00487195722527086,
+      "dates_utc": [
+        16349,
+        16350,
+        16351,
+        16352,
+        16353,
+        16354,
+        16355,
+        16356,
+        16357,
+        16358,
+        16359,
+        16360,
+        16361
+      ],
+      "supported_threshold_segments": 50,
+      "complete_observed_segments": 27,
+      "complete_event_ids": [
+        35,
+        36,
+        37,
+        39,
+        41,
+        44,
+        45,
+        47,
+        48,
+        50,
+        51,
+        52,
+        55,
+        56,
+        60,
+        63,
+        64,
+        68,
+        69,
+        70,
+        71,
+        73,
+        74,
+        76,
+        78,
+        79,
+        80
+      ],
+      "supported_event_ids": [
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82
+      ]
+    },
+    "partial": {
+      "windows": 132059,
+      "positive_windows": 383,
+      "negative_windows": 131676,
+      "events": 80,
+      "effective_seconds": 1056472,
+      "expected_grid_points": null,
+      "excluded_grid_points": null,
+      "positive_fraction": 0.0029002188415783855,
+      "dates_utc": [
+        16347,
+        16348,
+        16349,
+        16350,
+        16351,
+        16352,
+        16353,
+        16354,
+        16355,
+        16356,
+        16357,
+        16358,
+        16359,
+        16360,
+        16361
+      ],
+      "supported_threshold_segments": 80,
+      "complete_observed_segments": 27,
+      "complete_event_ids": [
+        35,
+        36,
+        37,
+        39,
+        41,
+        44,
+        45,
+        47,
+        48,
+        50,
+        51,
+        52,
+        55,
+        56,
+        60,
+        63,
+        64,
+        68,
+        69,
+        70,
+        71,
+        73,
+        74,
+        76,
+        78,
+        79,
+        80
+      ],
+      "supported_event_ids": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82
+      ]
+    },
+    "added_windows": 75203,
+    "added_positive_centers": 106,
+    "newly_supported_event_ids": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      42
+    ],
+    "threshold_segments": 83,
+    "label_complete_segments": 27,
+    "rejections_and_acceptances": {
+      "added_partial": 75203,
+      "center_aggregate_missing": 12950,
+      "center_label_missing": 2160,
+      "consecutive_missing_grid": 1623,
+      "edge_without_31_points": 30,
+      "fewer_than_24_real_points": 2378,
+      "strict": 56856
+    },
+    "daily": [
+      {
+        "date_utc": "2014-10-04",
+        "reasons": {
+          "added_partial": 676,
+          "center_aggregate_missing": 592,
+          "center_label_missing": 12,
+          "edge_without_31_points": 15,
+          "fewer_than_24_real_points": 335
+        },
+        "observed_positive_labels": 2,
+        "strict": {
+          "windows": 0,
+          "positive_windows": 0,
+          "negative_windows": 0,
+          "events": 0,
+          "effective_seconds": 0,
+          "expected_grid_points": null,
+          "excluded_grid_points": null,
+          "positive_fraction": null,
+          "dates_utc": [],
+          "supported_threshold_segments": 0,
+          "complete_observed_segments": 0,
+          "complete_event_ids": [],
+          "supported_event_ids": []
+        },
+        "partial": {
+          "windows": 676,
+          "positive_windows": 0,
+          "negative_windows": 676,
+          "events": 0,
+          "effective_seconds": 5408,
+          "expected_grid_points": null,
+          "excluded_grid_points": null,
+          "positive_fraction": 0.0,
+          "dates_utc": [
+            16347
+          ],
+          "supported_threshold_segments": 0,
+          "complete_observed_segments": 0,
+          "complete_event_ids": [],
+          "supported_event_ids": []
+        }
+      },
+      {
+        "date_utc": "2014-10-05",
+        "reasons": {
+          "added_partial": 8857,
+          "center_aggregate_missing": 1419,
+          "center_label_missing": 142,
+          "consecutive_missing_grid": 228,
+          "fewer_than_24_real_points": 154
+        },
+        "observed_positive_labels": 0,
+        "strict": {
+          "windows": 0,
+          "positive_windows": 0,
+          "negative_windows": 0,
+          "events": 0,
+          "effective_seconds": 0,
+          "expected_grid_points": null,
+          "excluded_grid_points": null,
+          "positive_fraction": null,
+          "dates_utc": [],
+          "supported_threshold_segments": 0,
+          "complete_observed_segments": 0,
+          "complete_event_ids": [],
+          "supported_event_ids": []
+        },
+        "partial": {
+          "windows": 8857,
+          "positive_windows": 0,
+          "negative_windows": 8857,
+          "events": 0,
+          "effective_seconds": 70856,
+          "expected_grid_points": null,
+          "excluded_grid_points": null,
+          "positive_fraction": 0.0,
+          "dates_utc": [
+            16348
+          ],
+          "supported_threshold_segments": 0,
+          "complete_observed_segments": 0,
+          "complete_event_ids": [],
+          "supported_event_ids": []
+        }
+      },
+      {
+        "date_utc": "2014-10-06",
+        "reasons": {
+          "added_partial": 9217,
+          "center_aggregate_missing": 1150,
+          "center_label_missing": 125,
+          "consecutive_missing_grid": 113,
+          "fewer_than_24_real_points": 155,
+          "strict": 40
+        },
+        "observed_positive_labels": 15,
+        "strict": {
+          "windows": 40,
+          "positive_windows": 0,
+          "negative_windows": 40,
+          "events": 0,
+          "effective_seconds": 320,
+          "expected_grid_points": null,
+          "excluded_grid_points": null,
+          "positive_fraction": 0.0,
+          "dates_utc": [
+            16349
+          ],
+          "supported_threshold_segments": 0,
+          "complete_observed_segments": 0,
+          "complete_event_ids": [],
+          "supported_event_ids": []
+        },
+        "partial": {
+          "windows": 9257,
+          "positive_windows": 15,
+          "negative_windows": 9242,
+          "events": 6,
+          "effective_seconds": 74056,
+          "expected_grid_points": null,
+          "excluded_grid_points": null,
+          "positive_fraction": 0.001620395376471859,
+          "dates_utc": [
+            16349
+          ],
+          "supported_threshold_segments": 6,
+          "complete_observed_segments": 0,
+          "complete_event_ids": [],
+          "supported_event_ids": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      },
+      {
+        "date_utc": "2014-10-07",
+        "reasons": {
+          "added_partial": 9293,
+          "center_aggregate_missing": 1176,
+          "center_label_missing": 119,
+          "consecutive_missing_grid": 110,
+          "fewer_than_24_real_points": 86,
+          "strict": 16
+        },
+        "observed_positive_labels": 21,
+        "strict": {
+          "windows": 16,
+          "positive_windows": 0,
+          "negative_windows": 16,
+          "events": 0,
+          "effective_seconds": 128,
+          "expected_grid_points": null,
+          "excluded_grid_points": null,
+          "positive_fraction": 0.0,
+          "dates_utc": [
+            16350
+          ],
+          "supported_threshold_segments": 0,
+          "complete_observed_segments": 0,
+          "complete_event_ids": [],
+          "supported_event_ids": []
+        },
+        "partial": {
+          "windows": 9309,
+          "positive_windows": 21,
+          "negative_windows": 9288,
+          "events": 5,
+          "effective_seconds": 74472,
+          "expected_grid_points": null,
+          "excluded_grid_points": null,
+          "positive_fraction": 0.0022558814050918467,
+          "dates_utc": [
+            16350
+          ],
+          "supported_threshold_segments": 5,
+          "complete_observed_segments": 0,
+          "complete_event_ids": [],
+          "supported_event_ids": [
+            8,
+            9,
+            10,
+            11,
+            12
+          ]
+        }
+      },
+      {
+        "date_utc": "2014-10-08",
+        "reasons": {
+          "added_partial": 8311,
+          "center_aggregate_missing": 1696,
+          "center_label_missing": 158,
+          "consecutive_missing_grid": 122,
+          "fewer_than_24_real_points": 502,
+          "strict": 11
+        },
+        "observed_positive_labels": 45,
+        "strict": {
+          "windows": 11,
+          "positive_windows": 0,
+          "negative_windows": 11,
+          "events": 0,
+          "effective_seconds": 88,
+          "expected_grid_points": null,
+          "excluded_grid_points": null,
+          "positive_fraction": 0.0,
+          "dates_utc": [
+            16351
+          ],
+          "supported_threshold_segments": 0,
+          "complete_observed_segments": 0,
+          "complete_event_ids": [],
+          "supported_event_ids": []
+        },
+        "partial": {
+          "windows": 8322,
+          "positive_windows": 45,
+          "negative_windows": 8277,
+          "events": 10,
+          "effective_seconds": 66576,
+          "expected_grid_points": null,
+          "excluded_grid_points": null,
+          "positive_fraction": 0.005407354001441961,
+          "dates_utc": [
+            16351
+          ],
+          "supported_threshold_segments": 10,
+          "complete_observed_segments": 0,
+          "complete_event_ids": [],
+          "supported_event_ids": [
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22
+          ]
+        }
+      },
+      {
+        "date_utc": "2014-10-09",
+        "reasons": {
+          "added_partial": 7725,
+          "center_aggregate_missing": 2224,
+          "center_label_missing": 107,
+          "consecutive_missing_grid": 157,
+          "fewer_than_24_real_points": 580,
+          "strict": 7
+        },
+        "observed_positive_labels": 0,
+        "strict": {
+          "windows": 7,
+          "positive_windows": 0,
+          "negative_windows": 7,
+          "events": 0,
+          "effective_seconds": 56,
+          "expected_grid_points": null,
+          "excluded_grid_points": null,
+          "positive_fraction": 0.0,
+          "dates_utc": [
+            16352
+          ],
+          "supported_threshold_segments": 0,
+          "complete_observed_segments": 0,
+          "complete_event_ids": [],
+          "supported_event_ids": []
+        },
+        "partial": {
+          "windows": 7732,
+          "positive_windows": 0,
+          "negative_windows": 7732,
+          "events": 0,
+          "effective_seconds": 61856,
+          "expected_grid_points": null,
+          "excluded_grid_points": null,
+          "positive_fraction": 0.0,
+          "dates_utc": [
+            16352
+          ],
+          "supported_threshold_segments": 0,
+          "complete_observed_segments": 0,
+          "complete_event_ids": [],
+          "supported_event_ids": []
+        }
+      },
+      {
+        "date_utc": "2014-10-10",
+        "reasons": {
+          "added_partial": 9371,
+          "center_aggregate_missing": 1074,
+          "center_label_missing": 165,
+          "consecutive_missing_grid": 175,
+          "strict": 15
+        },
+        "observed_positive_labels": 7,
+        "strict": {
+          "windows": 15,
+          "positive_windows": 0,
+          "negative_windows": 15,
+          "events": 0,
+          "effective_seconds": 120,
+          "expected_grid_points": null,
+          "excluded_grid_points": null,
+          "positive_fraction": 0.0,
+          "dates_utc": [
+            16353
+          ],
+          "supported_threshold_segments": 0,
+          "complete_observed_segments": 0,
+          "complete_event_ids": [],
+          "supported_event_ids": []
+        },
+        "partial": {
+          "windows": 9386,
+          "positive_windows": 7,
+          "negative_windows": 9379,
+          "events": 4,
+          "effective_seconds": 75088,
+          "expected_grid_points": null,
+          "excluded_grid_points": null,
+          "positive_fraction": 0.0007457916045173663,
+          "dates_utc": [
+            16353
+          ],
+          "supported_threshold_segments": 4,
+          "complete_observed_segments": 0,
+          "complete_event_ids": [],
+          "supported_event_ids": [
+            23,
+            24,
+            25,
+            26
+          ]
+        }
+      },
+      {
+        "date_utc": "2014-10-11",
+        "reasons": {
+          "added_partial": 9072,
+          "center_aggregate_missing": 1152,
+          "center_label_missing": 162,
+          "consecutive_missing_grid": 242,
+          "fewer_than_24_real_points": 164,
+          "strict": 8
+        },
+        "observed_positive_labels": 14,
+        "strict": {
+          "windows": 8,
+          "positive_windows": 0,
+          "negative_windows": 8,
+          "events": 0,
+          "effective_seconds": 64,
+          "expected_grid_points": null,
+          "excluded_grid_points": null,
+          "positive_fraction": 0.0,
+          "dates_utc": [
+            16354
+          ],
+          "supported_threshold_segments": 0,
+          "complete_observed_segments": 0,
+          "complete_event_ids": [],
+          "supported_event_ids": []
+        },
+        "partial": {
+          "windows": 9080,
+          "positive_windows": 14,
+          "negative_windows": 9066,
+          "events": 2,
+          "effective_seconds": 72640,
+          "expected_grid_points": null,
+          "excluded_grid_points": null,
+          "positive_fraction": 0.0015418502202643172,
+          "dates_utc": [
+            16354
+          ],
+          "supported_threshold_segments": 2,
+          "complete_observed_segments": 0,
+          "complete_event_ids": [],
+          "supported_event_ids": [
+            27,
+            28
+          ]
+        }
+      },
+      {
+        "date_utc": "2014-10-12",
+        "reasons": {
+          "added_partial": 8749,
+          "center_aggregate_missing": 1598,
+          "center_label_missing": 129,
+          "consecutive_missing_grid": 70,
+          "fewer_than_24_real_points": 238,
+          "strict": 16
+        },
+        "observed_positive_labels": 2,
+        "strict": {
+          "windows": 16,
+          "positive_windows": 0,
+          "negative_windows": 16,
+          "events": 0,
+          "effective_seconds": 128,
+          "expected_grid_points": null,
+          "excluded_grid_points": null,
+          "positive_fraction": 0.0,
+          "dates_utc": [
+            16355
+          ],
+          "supported_threshold_segments": 0,
+          "complete_observed_segments": 0,
+          "complete_event_ids": [],
+          "supported_event_ids": []
+        },
+        "partial": {
+          "windows": 8765,
+          "positive_windows": 2,
+          "negative_windows": 8763,
+          "events": 2,
+          "effective_seconds": 70120,
+          "expected_grid_points": null,
+          "excluded_grid_points": null,
+          "positive_fraction": 0.00022818026240730178,
+          "dates_utc": [
+            16355
+          ],
+          "supported_threshold_segments": 2,
+          "complete_observed_segments": 0,
+          "complete_event_ids": [],
+          "supported_event_ids": [
+            29,
+            30
+          ]
+        }
+      },
+      {
+        "date_utc": "2014-10-13",
+        "reasons": {
+          "added_partial": 3604,
+          "center_aggregate_missing": 725,
+          "center_label_missing": 238,
+          "consecutive_missing_grid": 81,
+          "fewer_than_24_real_points": 59,
+          "strict": 6093
+        },
+        "observed_positive_labels": 32,
+        "strict": {
+          "windows": 6093,
+          "positive_windows": 32,
+          "negative_windows": 6061,
+          "events": 7,
+          "effective_seconds": 48744,
+          "expected_grid_points": null,
+          "excluded_grid_points": null,
+          "positive_fraction": 0.005251928442474971,
+          "dates_utc": [
+            16356
+          ],
+          "supported_threshold_segments": 7,
+          "complete_observed_segments": 3,
+          "complete_event_ids": [
+            35,
+            36,
+            37
+          ],
+          "supported_event_ids": [
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37
+          ]
+        },
+        "partial": {
+          "windows": 9697,
+          "positive_windows": 32,
+          "negative_windows": 9665,
+          "events": 7,
+          "effective_seconds": 77576,
+          "expected_grid_points": null,
+          "excluded_grid_points": null,
+          "positive_fraction": 0.0032999896875322266,
+          "dates_utc": [
+            16356
+          ],
+          "supported_threshold_segments": 7,
+          "complete_observed_segments": 3,
+          "complete_event_ids": [
+            35,
+            36,
+            37
+          ],
+          "supported_event_ids": [
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37
+          ]
+        }
+      },
+      {
+        "date_utc": "2014-10-14",
+        "reasons": {
+          "added_partial": 72,
+          "center_aggregate_missing": 18,
+          "center_label_missing": 115,
+          "consecutive_missing_grid": 110,
+          "strict": 10485
+        },
+        "observed_positive_labels": 27,
+        "strict": {
+          "windows": 10485,
+          "positive_windows": 27,
+          "negative_windows": 10458,
+          "events": 3,
+          "effective_seconds": 83880,
+          "expected_grid_points": null,
+          "excluded_grid_points": null,
+          "positive_fraction": 0.002575107296137339,
+          "dates_utc": [
+            16357
+          ],
+          "supported_threshold_segments": 3,
+          "complete_observed_segments": 1,
+          "complete_event_ids": [
+            39
+          ],
+          "supported_event_ids": [
+            38,
+            39,
+            40
+          ]
+        },
+        "partial": {
+          "windows": 10557,
+          "positive_windows": 27,
+          "negative_windows": 10530,
+          "events": 3,
+          "effective_seconds": 84456,
+          "expected_grid_points": null,
+          "excluded_grid_points": null,
+          "positive_fraction": 0.0025575447570332483,
+          "dates_utc": [
+            16357
+          ],
+          "supported_threshold_segments": 3,
+          "complete_observed_segments": 1,
+          "complete_event_ids": [
+            39
+          ],
+          "supported_event_ids": [
+            38,
+            39,
+            40
+          ]
+        }
+      },
+      {
+        "date_utc": "2014-10-15",
+        "reasons": {
+          "added_partial": 38,
+          "center_aggregate_missing": 103,
+          "center_label_missing": 99,
+          "consecutive_missing_grid": 85,
+          "fewer_than_24_real_points": 105,
+          "strict": 10370
+        },
+        "observed_positive_labels": 88,
+        "strict": {
+          "windows": 10370,
+          "positive_windows": 82,
+          "negative_windows": 10288,
+          "events": 15,
+          "effective_seconds": 82960,
+          "expected_grid_points": null,
+          "excluded_grid_points": null,
+          "positive_fraction": 0.007907425265188043,
+          "dates_utc": [
+            16358
+          ],
+          "supported_threshold_segments": 15,
+          "complete_observed_segments": 10,
+          "complete_event_ids": [
+            41,
+            44,
+            45,
+            47,
+            48,
+            50,
+            51,
+            52,
+            55,
+            56
+          ],
+          "supported_event_ids": [
+            41,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56
+          ]
+        },
+        "partial": {
+          "windows": 10408,
+          "positive_windows": 83,
+          "negative_windows": 10325,
+          "events": 16,
+          "effective_seconds": 83264,
+          "expected_grid_points": null,
+          "excluded_grid_points": null,
+          "positive_fraction": 0.007974634896233667,
+          "dates_utc": [
+            16358
+          ],
+          "supported_threshold_segments": 16,
+          "complete_observed_segments": 10,
+          "complete_event_ids": [
+            41,
+            44,
+            45,
+            47,
+            48,
+            50,
+            51,
+            52,
+            55,
+            56
+          ],
+          "supported_event_ids": [
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56
+          ]
+        }
+      },
+      {
+        "date_utc": "2014-10-16",
+        "reasons": {
+          "added_partial": 66,
+          "center_aggregate_missing": 13,
+          "center_label_missing": 255,
+          "consecutive_missing_grid": 82,
+          "strict": 10384
+        },
+        "observed_positive_labels": 109,
+        "strict": {
+          "windows": 10384,
+          "positive_windows": 94,
+          "negative_windows": 10290,
+          "events": 18,
+          "effective_seconds": 83072,
+          "expected_grid_points": null,
+          "excluded_grid_points": null,
+          "positive_fraction": 0.009052388289676425,
+          "dates_utc": [
+            16359
+          ],
+          "supported_threshold_segments": 18,
+          "complete_observed_segments": 9,
+          "complete_event_ids": [
+            60,
+            63,
+            64,
+            68,
+            69,
+            70,
+            71,
+            73,
+            74
+          ],
+          "supported_event_ids": [
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75
+          ]
+        },
+        "partial": {
+          "windows": 10450,
+          "positive_windows": 95,
+          "negative_windows": 10355,
+          "events": 18,
+          "effective_seconds": 83600,
+          "expected_grid_points": null,
+          "excluded_grid_points": null,
+          "positive_fraction": 0.00909090909090909,
+          "dates_utc": [
+            16359
+          ],
+          "supported_threshold_segments": 18,
+          "complete_observed_segments": 9,
+          "complete_event_ids": [
+            60,
+            63,
+            64,
+            68,
+            69,
+            70,
+            71,
+            73,
+            74
+          ],
+          "supported_event_ids": [
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75
+          ]
+        }
+      },
+      {
+        "date_utc": "2014-10-17",
+        "reasons": {
+          "added_partial": 92,
+          "center_aggregate_missing": 6,
+          "center_label_missing": 93,
+          "consecutive_missing_grid": 28,
+          "strict": 10581
+        },
+        "observed_positive_labels": 8,
+        "strict": {
+          "windows": 10581,
+          "positive_windows": 8,
+          "negative_windows": 10573,
+          "events": 1,
+          "effective_seconds": 84648,
+          "expected_grid_points": null,
+          "excluded_grid_points": null,
+          "positive_fraction": 0.0007560722048955675,
+          "dates_utc": [
+            16360
+          ],
+          "supported_threshold_segments": 1,
+          "complete_observed_segments": 1,
+          "complete_event_ids": [
+            76
+          ],
+          "supported_event_ids": [
+            76
+          ]
+        },
+        "partial": {
+          "windows": 10673,
+          "positive_windows": 8,
+          "negative_windows": 10665,
+          "events": 1,
+          "effective_seconds": 85384,
+          "expected_grid_points": null,
+          "excluded_grid_points": null,
+          "positive_fraction": 0.0007495549517474,
+          "dates_utc": [
+            16360
+          ],
+          "supported_threshold_segments": 1,
+          "complete_observed_segments": 1,
+          "complete_event_ids": [
+            76
+          ],
+          "supported_event_ids": [
+            76
+          ]
+        }
+      },
+      {
+        "date_utc": "2014-10-18",
+        "reasons": {
+          "added_partial": 60,
+          "center_aggregate_missing": 4,
+          "center_label_missing": 241,
+          "consecutive_missing_grid": 20,
+          "edge_without_31_points": 15,
+          "strict": 8830
+        },
+        "observed_positive_labels": 34,
+        "strict": {
+          "windows": 8830,
+          "positive_windows": 34,
+          "negative_windows": 8796,
+          "events": 6,
+          "effective_seconds": 70640,
+          "expected_grid_points": null,
+          "excluded_grid_points": null,
+          "positive_fraction": 0.003850509626274066,
+          "dates_utc": [
+            16361
+          ],
+          "supported_threshold_segments": 6,
+          "complete_observed_segments": 3,
+          "complete_event_ids": [
+            78,
+            79,
+            80
+          ],
+          "supported_event_ids": [
+            77,
+            78,
+            79,
+            80,
+            81,
+            82
+          ]
+        },
+        "partial": {
+          "windows": 8890,
+          "positive_windows": 34,
+          "negative_windows": 8856,
+          "events": 6,
+          "effective_seconds": 71120,
+          "expected_grid_points": null,
+          "excluded_grid_points": null,
+          "positive_fraction": 0.0038245219347581554,
+          "dates_utc": [
+            16361
+          ],
+          "supported_threshold_segments": 6,
+          "complete_observed_segments": 3,
+          "complete_event_ids": [
+            78,
+            79,
+            80
+          ],
+          "supported_event_ids": [
+            77,
+            78,
+            79,
+            80,
+            81,
+            82
+          ]
+        }
+      }
+    ]
+  }
+}

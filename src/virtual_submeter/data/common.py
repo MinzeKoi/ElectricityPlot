@@ -17,6 +17,11 @@ def sha256(path: Path) -> str:
         return hashlib.file_digest(stream, "sha256").hexdigest()
 
 
+def inventory(directory: Path) -> dict[str, str]:
+    """Hash every file under a root using sorted, relative POSIX paths."""
+    return {p.relative_to(directory).as_posix(): sha256(p) for p in sorted(directory.rglob("*")) if p.is_file()}
+
+
 def source_fingerprint() -> str:
     root = Path(__file__).resolve().parents[1]
     digest = hashlib.sha256()

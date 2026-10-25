@@ -1,0 +1,13 @@
+{
+  "status": "independently_verified_completed_delivery",
+  "successful_fits": 6,
+  "failed_source_fit_starts": 1,
+  "total_source_fit_starts": 7,
+  "total_source_updates": 21462,
+  "confusions_precision_recall_f1_exact": true,
+  "common_support_per_seed": 137523,
+  "raw_A_all_devices_exact": true,
+  "labels_read_only_after_frozen_guard": true,
+  "freeze_sha256": "47e5602103a444c42c63cb3f185fa42ec821bb497bb450ff6015c65ac5e94027",
+  "evaluation_complete_sha256": "d1d14238de321c92d4312787a5c0f743009b5f3f952c531206c6edeac1f149a2"
+}

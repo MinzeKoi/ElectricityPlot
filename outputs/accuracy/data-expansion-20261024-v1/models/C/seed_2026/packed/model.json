@@ -1,0 +1,258 @@
+{
+  "schema_version": 1,
+  "status": "trained",
+  "project": "ElectricityPlot",
+  "kind": "small_seq2point",
+  "created_at": "2026-10-24T09:52:30.500273+00:00",
+  "appliances": [
+    "kettle",
+    "microwave",
+    "washing_machine"
+  ],
+  "settings": {
+    "schema_version": 1,
+    "window_samples": 31,
+    "channels": 24,
+    "hidden_units": 96,
+    "epochs": 12,
+    "batch_size": 256,
+    "learning_rate": 0.001,
+    "active_loss_weight": 50.0,
+    "seed": 2026,
+    "cpu_threads": 4,
+    "on_thresholds_w": {
+      "kettle": 2000.0,
+      "microwave": 200.0,
+      "washing_machine": 20.0
+    }
+  },
+  "sample_interval_seconds": 8,
+  "protocol_sha256": "dae70de806908899512daa6db78a807e8c11b42e8172d1de414851c2dc91d815",
+  "protocol_id": "data-expansion-20261024-v1-C",
+  "purpose": "engineering_pilot_only",
+  "data_kind": "real_data_expansion",
+  "code_sha256": "076795347ff5998e1bd5651e696c1f1aa792b63c5bc220fb15721cb8f94ec877",
+  "settings_sha256": null,
+  "input_log_mean": 5.693236827850342,
+  "input_log_std": 0.7480357885360718,
+  "power_scales_w": [
+    3028.75,
+    1929.0,
+    2378.5
+  ],
+  "source_train_windows": {
+    "kettle": {
+      "source_train_refit_2_0": 93213,
+      "source_train_refit_2_1": 144141,
+      "source_train_refit_19_0": 56856,
+      "source_train_refit_19_1": 131994,
+      "source_train_refit_10_0": 0,
+      "source_train_refit_10_1": 0,
+      "source_train_refit_12_0": 0,
+      "source_train_refit_12_1": 0,
+      "source_train_refit_15_0": 0,
+      "source_train_refit_15_1": 0,
+      "source_train_refit_16_0": 0,
+      "source_train_refit_16_1": 0,
+      "source_train_refit_18_0": 0,
+      "source_train_refit_18_1": 0
+    },
+    "microwave": {
+      "source_train_refit_2_0": 93213,
+      "source_train_refit_2_1": 144141,
+      "source_train_refit_19_0": 56856,
+      "source_train_refit_19_1": 131994,
+      "source_train_refit_10_0": 78336,
+      "source_train_refit_10_1": 95365,
+      "source_train_refit_12_0": 92792,
+      "source_train_refit_12_1": 130060,
+      "source_train_refit_15_0": 88001,
+      "source_train_refit_15_1": 146310,
+      "source_train_refit_16_0": 0,
+      "source_train_refit_16_1": 0,
+      "source_train_refit_18_0": 134632,
+      "source_train_refit_18_1": 148722
+    },
+    "washing_machine": {
+      "source_train_refit_2_0": 93213,
+      "source_train_refit_2_1": 144141,
+      "source_train_refit_19_0": 56856,
+      "source_train_refit_19_1": 131994,
+      "source_train_refit_10_0": 78336,
+      "source_train_refit_10_1": 95365,
+      "source_train_refit_12_0": 0,
+      "source_train_refit_12_1": 0,
+      "source_train_refit_15_0": 88001,
+      "source_train_refit_15_1": 146310,
+      "source_train_refit_16_0": 95471,
+      "source_train_refit_16_1": 88676,
+      "source_train_refit_18_0": 134632,
+      "source_train_refit_18_1": 148722
+    }
+  },
+  "source_validation_windows": {
+    "source_validation_refit_5_0": 120281
+  },
+  "training_households": [
+    "refit_10",
+    "refit_12",
+    "refit_15",
+    "refit_16",
+    "refit_18",
+    "refit_19",
+    "refit_2"
+  ],
+  "validation_households": [
+    "refit_5"
+  ],
+  "target_labels_read": false,
+  "adaptation": "none",
+  "confidence": null,
+  "upstream_limitations": [
+    "Upstream gaps were forward-filled or zeroed; original missingness is not recoverable.",
+    "IAM spikes above 4000 W were replaced with zero upstream.",
+    "Issues=1 means the sum of IAM channels exceeds aggregate power.",
+    "Appliance identities describe monitored channels, not every appliance owned by a household."
+  ],
+  "state_definition": "state and raw_state = raw_power_w >= fixed source threshold; consistency-corrected power is independent",
+  "expansion_training": {
+    "input_log_mean": 5.693236827850342,
+    "input_log_std": 0.7480357885360718,
+    "normalization_source_windows": {
+      "source_train_refit_2_0": 93213,
+      "source_train_refit_2_1": 144141,
+      "source_train_refit_19_0": 56856,
+      "source_train_refit_19_1": 131994,
+      "source_train_refit_10_0": 78336,
+      "source_train_refit_10_1": 95365,
+      "source_train_refit_12_0": 92792,
+      "source_train_refit_12_1": 130060,
+      "source_train_refit_15_0": 88001,
+      "source_train_refit_15_1": 146310,
+      "source_train_refit_16_0": 95471,
+      "source_train_refit_16_1": 88676,
+      "source_train_refit_18_0": 134632,
+      "source_train_refit_18_1": 148722
+    },
+    "steps_per_checkpoint": 587,
+    "normalization_scope": "source_train_union_only"
+  },
+  "selected_epoch": null,
+  "weights": {
+    "path": "weights.pt",
+    "sha256": "391fc01890d6af7fa75b90990ff6dea52eb7a527cab2f3d0e80ed66744362734"
+  },
+  "validation_normalized_mae": 0.027447427312533062,
+  "checkpoint_metric": "normalized_mae",
+  "torch_version": "2.9.0+cpu",
+  "parameter_count": 73707,
+  "optimizer_steps": 7044,
+  "timing_seconds": {
+    "fit": 97.62271899999541,
+    "total": 204.4611017999996
+  },
+  "model_id": "r1-single-packed-391fc01890d6af7f-a1-raw-state",
+  "single_device_components": [
+    {
+      "model_sha256": "d6d8c9a908f7f29ad3bc8cd97b28615a6ab70305598a8f19ad9e4bf894271b18",
+      "appliance": "kettle",
+      "selected_epoch": 12,
+      "training_households": [
+        "refit_19",
+        "refit_2"
+      ],
+      "source_train_windows": {
+        "source_train_refit_2_0": 93213,
+        "source_train_refit_2_1": 144141,
+        "source_train_refit_19_0": 56856,
+        "source_train_refit_19_1": 131994,
+        "source_train_refit_10_0": 0,
+        "source_train_refit_10_1": 0,
+        "source_train_refit_12_0": 0,
+        "source_train_refit_12_1": 0,
+        "source_train_refit_15_0": 0,
+        "source_train_refit_15_1": 0,
+        "source_train_refit_16_0": 0,
+        "source_train_refit_16_1": 0,
+        "source_train_refit_18_0": 0,
+        "source_train_refit_18_1": 0
+      },
+      "optimizer_steps": 7044,
+      "timing_seconds": {
+        "fit": 21.73081739999907,
+        "total": 47.674417999998695
+      }
+    },
+    {
+      "model_sha256": "580eaeb2d1088e03b2152a4e718431f9c13e1819b8ea3e22c6f8694b056a58bf",
+      "appliance": "microwave",
+      "selected_epoch": 12,
+      "training_households": [
+        "refit_10",
+        "refit_12",
+        "refit_15",
+        "refit_18",
+        "refit_19",
+        "refit_2"
+      ],
+      "source_train_windows": {
+        "source_train_refit_2_0": 93213,
+        "source_train_refit_2_1": 144141,
+        "source_train_refit_19_0": 56856,
+        "source_train_refit_19_1": 131994,
+        "source_train_refit_10_0": 78336,
+        "source_train_refit_10_1": 95365,
+        "source_train_refit_12_0": 92792,
+        "source_train_refit_12_1": 130060,
+        "source_train_refit_15_0": 88001,
+        "source_train_refit_15_1": 146310,
+        "source_train_refit_16_0": 0,
+        "source_train_refit_16_1": 0,
+        "source_train_refit_18_0": 134632,
+        "source_train_refit_18_1": 148722
+      },
+      "optimizer_steps": 7044,
+      "timing_seconds": {
+        "fit": 38.3585525999988,
+        "total": 76.37477829999989
+      }
+    },
+    {
+      "model_sha256": "2042d40b2ddb71627a05e7a94bd28ee44cbed0d1f6860b23caed5ddbdb558ca2",
+      "appliance": "washing_machine",
+      "selected_epoch": 7,
+      "training_households": [
+        "refit_10",
+        "refit_15",
+        "refit_16",
+        "refit_18",
+        "refit_19",
+        "refit_2"
+      ],
+      "source_train_windows": {
+        "source_train_refit_2_0": 93213,
+        "source_train_refit_2_1": 144141,
+        "source_train_refit_19_0": 56856,
+        "source_train_refit_19_1": 131994,
+        "source_train_refit_10_0": 78336,
+        "source_train_refit_10_1": 95365,
+        "source_train_refit_12_0": 0,
+        "source_train_refit_12_1": 0,
+        "source_train_refit_15_0": 88001,
+        "source_train_refit_15_1": 146310,
+        "source_train_refit_16_0": 95471,
+        "source_train_refit_16_1": 88676,
+        "source_train_refit_18_0": 134632,
+        "source_train_refit_18_1": 148722
+      },
+      "optimizer_steps": 7044,
+      "timing_seconds": {
+        "fit": 37.53334899999754,
+        "total": 80.41190550000101
+      }
+    }
+  ],
+  "packed_independent_networks": true,
+  "state_threshold_view": "raw_power_w",
+  "accuracy_usage": "development_only"
+}

@@ -1,0 +1,12 @@
+{
+  "status": "registered_before_admission_and_training",
+  "created_at": "2026-10-24T09:22:00.908267+00:00",
+  "code_sha256": "076795347ff5998e1bd5651e696c1f1aa792b63c5bc220fb15721cb8f94ec877",
+  "r0_results_sha256": "b9de52aa694ab3dfb9af5bc4fa3096cd51ed67e6cae21b38ff42eb9141c8f228",
+  "inputs": {
+    "plan.json": "43508cce36a1396a45b09751e42885c6da6089173239ef6dac3454e297628c46",
+    "settings.json": "f8e288848d9a38ee4f76da9f7887a2cc6d217a199e5ccc0d96f47a7a4c77d955",
+    "dates.json": "81399f40dfa6c0de179d4b9cf8e4b57f9b418e163a3cddd71423cf04c9e5a0f7"
+  },
+  "final_households_accessed": false
+}

@@ -1,6 +1,5 @@
 """A single independently versioned L1 repair and its inference boundary."""
 
-import copy
 from pathlib import Path
 import sys
 import tempfile

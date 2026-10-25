@@ -1,0 +1,132 @@
+{
+  "schema": "microwave_source_split_proposal_v1",
+  "disabled": true,
+  "house5_training_authorized": false,
+  "requires_human_approval": true,
+  "current_roles_unchanged": true,
+  "new_fits_this_audit": 0,
+  "suggested_future_maximum_fits": 3,
+  "experiment_kind_after_separate_approval_only": "same_household_temporal_engineering_experiment",
+  "compatible_with_original_cross_household_protocol": false,
+  "required_human_approved_exceptions": [
+    "House5 validation-only constraint",
+    "source_train/source_validation household disjointness"
+  ],
+  "default_protocol_guard_must_remain_unchanged": true,
+  "existing_freeze_protocol_entrypoint_compatible": false,
+  "seeds": [
+    42,
+    1019,
+    2026
+  ],
+  "original_training_houses": [
+    "refit_2",
+    "refit_19"
+  ],
+  "original_training_bounds": {
+    "refit_2": {
+      "start": "2014-09-29T06:28:48Z",
+      "end": "2014-10-13T06:28:48Z"
+    },
+    "refit_19": {
+      "start": "2014-10-04T20:22:40Z",
+      "end": "2014-10-18T20:22:40Z"
+    }
+  },
+  "house5_nominal_added_dates": {
+    "start": "2014-11-15T00:00:00Z",
+    "end": "2014-11-23T00:00:00Z",
+    "frozen_blocks": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "house5_allowed_training_interval_after_approval_only": {
+    "start": "2014-11-15T00:00:00Z",
+    "end": "2014-11-22T23:30:00Z"
+  },
+  "house5_training_block_intervals_after_approval_only": [
+    {
+      "block": 0,
+      "start": "2014-11-15T00:00:00Z",
+      "end": "2014-11-17T00:00:00Z"
+    },
+    {
+      "block": 1,
+      "start": "2014-11-17T00:00:00Z",
+      "end": "2014-11-19T00:00:00Z"
+    },
+    {
+      "block": 2,
+      "start": "2014-11-19T00:00:00Z",
+      "end": "2014-11-21T00:00:00Z"
+    },
+    {
+      "block": 3,
+      "start": "2014-11-21T00:00:00Z",
+      "end": "2014-11-22T23:30:00Z"
+    }
+  ],
+  "training_tail_safety_gap_seconds": 1800,
+  "retained_validation_blocks": [
+    {
+      "block": 4,
+      "start": "2014-11-23T00:00:00Z",
+      "end": "2014-11-25T00:00:00Z"
+    },
+    {
+      "block": 5,
+      "start": "2014-11-25T00:00:00Z",
+      "end": "2014-11-27T00:00:00Z"
+    }
+  ],
+  "discard_partial_edge_dates_and_unused_day": true,
+  "house5_excluded_intervals": [
+    {
+      "start": "2014-11-14T20:53:44Z",
+      "end": "2014-11-15T00:00:00Z"
+    },
+    {
+      "start": "2014-11-22T23:30:00Z",
+      "end": "2014-11-23T00:00:00Z"
+    },
+    {
+      "start": "2014-11-27T00:00:00Z",
+      "end": "2014-11-28T20:53:44Z"
+    }
+  ],
+  "windows_events_outer_context_must_stay_within_role_and_frozen_block": true,
+  "max_outer_context_radius_seconds": 504,
+  "longer_context_requires_new_review": true,
+  "missing_policy": "No filling; existing strict/partial contract unchanged",
+  "validation_support": "Retain frozen strict C31 centers/labels; masked longer context must stop at each retained block boundary",
+  "recipe": "WAIT_FOR_TASK8_SOURCE_ONLY_PRESELECTION; no development-based choice",
+  "controls": "Reuse frozen old corresponding models and each epoch on identical retained block support; zero control retraining",
+  "comparison_invariants": [
+    "same network",
+    "same updates",
+    "same batch size and positive/negative quotas",
+    "same original House2/19 normalization constants",
+    "same objective and p_ref",
+    "same seed",
+    "same checkpoint/threshold selection rule",
+    "same validation centers"
+  ],
+  "importance_reference_prior": {
+    "numerator": 849,
+    "denominator": 259806,
+    "value": 0.0032678229140204614,
+    "fixed_from_original_training": true
+  },
+  "gates": "Keep original W50 identical-support development gates; all candidate models/selection/predictions sealed before any future House17 scoring",
+  "final_houses_isolated": [
+    8,
+    9,
+    20
+  ],
+  "other_appliances_power_and_defaults_unchanged": true,
+  "validation_is_fresh_independent": false,
+  "date_movement_or_expansion_allowed": false
+}

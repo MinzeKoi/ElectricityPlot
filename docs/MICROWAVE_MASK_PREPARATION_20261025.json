@@ -1,0 +1,24 @@
+{
+  "status": "pretraining_verified",
+  "run": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-mask-20261025-v2",
+  "v1_preserved_and_verified": true,
+  "new_real_fits_before_train": 0,
+  "mask_tests_passed": 16,
+  "existing_state_regression_tests_passed": 9,
+  "normalization_preserved": true,
+  "validation_blocks_copied_byte_identical": 6,
+  "source_support": {
+    "strict_windows": 150069,
+    "strict_positive_centers": 646,
+    "partial_windows": 259806,
+    "partial_positive_centers": 849,
+    "added_windows": 109737,
+    "added_positive_centers": 203,
+    "newly_supported_threshold_segments": 51
+  },
+  "registration_sha256": "de724d37c27e029dab61f91c940ea43849d808788917d4a9438e24714f0551a5",
+  "house17_labels_opened_for_candidate_design": false,
+  "task4_development_scores_read_for_candidate_design": false,
+  "final_houses_accessed": false,
+  "version_reason": "pretraining verification/gate/report completeness; fixed data tolerance and training recipe unchanged"
+}

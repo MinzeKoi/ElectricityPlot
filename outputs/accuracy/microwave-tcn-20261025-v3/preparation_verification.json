@@ -1,0 +1,12 @@
+{
+  "status": "independently_verified_source_only",
+  "actual_fits_at_check": 0,
+  "registration_sha256": "1cd50f61d2702d84b984fe08aff5aa2ff8eb4d5bba28f102626226e958dbf72b",
+  "validation_centers": 109786,
+  "paired_centers_labels_masks_initializations_and_streams": true,
+  "house17_truth_opened": false,
+  "final_house_data_accessed": false,
+  "command": "scripts/verify_microwave_tcn.py --run outputs/accuracy/microwave-tcn-20261025-v3",
+  "observed_exit_code": 0,
+  "evidence": "Successful independent command output before v3 train launch in this chat."
+}

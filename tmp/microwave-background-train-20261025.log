@@ -1,0 +1,39 @@
+sampling arm=event_background seed=42 checkpoint=1/12 eligible=True
+sampling arm=event_background seed=42 checkpoint=2/12 eligible=True
+sampling arm=event_background seed=42 checkpoint=3/12 eligible=True
+sampling arm=event_background seed=42 checkpoint=4/12 eligible=True
+sampling arm=event_background seed=42 checkpoint=5/12 eligible=True
+sampling arm=event_background seed=42 checkpoint=6/12 eligible=True
+sampling arm=event_background seed=42 checkpoint=7/12 eligible=True
+sampling arm=event_background seed=42 checkpoint=8/12 eligible=True
+sampling arm=event_background seed=42 checkpoint=9/12 eligible=True
+sampling arm=event_background seed=42 checkpoint=10/12 eligible=True
+sampling arm=event_background seed=42 checkpoint=11/12 eligible=True
+sampling arm=event_background seed=42 checkpoint=12/12 eligible=True
+sampling arm=event_background seed=1019 checkpoint=1/12 eligible=True
+sampling arm=event_background seed=1019 checkpoint=2/12 eligible=True
+sampling arm=event_background seed=1019 checkpoint=3/12 eligible=True
+sampling arm=event_background seed=1019 checkpoint=4/12 eligible=True
+sampling arm=event_background seed=1019 checkpoint=5/12 eligible=True
+sampling arm=event_background seed=1019 checkpoint=6/12 eligible=True
+sampling arm=event_background seed=1019 checkpoint=7/12 eligible=True
+sampling arm=event_background seed=1019 checkpoint=8/12 eligible=True
+sampling arm=event_background seed=1019 checkpoint=9/12 eligible=True
+sampling arm=event_background seed=1019 checkpoint=10/12 eligible=True
+sampling arm=event_background seed=1019 checkpoint=11/12 eligible=True
+sampling arm=event_background seed=1019 checkpoint=12/12 eligible=True
+sampling arm=event_background seed=2026 checkpoint=1/12 eligible=True
+sampling arm=event_background seed=2026 checkpoint=2/12 eligible=True
+sampling arm=event_background seed=2026 checkpoint=3/12 eligible=True
+sampling arm=event_background seed=2026 checkpoint=4/12 eligible=True
+sampling arm=event_background seed=2026 checkpoint=5/12 eligible=True
+sampling arm=event_background seed=2026 checkpoint=6/12 eligible=True
+sampling arm=event_background seed=2026 checkpoint=7/12 eligible=True
+sampling arm=event_background seed=2026 checkpoint=8/12 eligible=True
+sampling arm=event_background seed=2026 checkpoint=9/12 eligible=True
+sampling arm=event_background seed=2026 checkpoint=10/12 eligible=True
+sampling arm=event_background seed=2026 checkpoint=11/12 eligible=True
+sampling arm=event_background seed=2026 checkpoint=12/12 eligible=True
+{
+  "status": "trained_three_new_fits_not_evaluated"
+}

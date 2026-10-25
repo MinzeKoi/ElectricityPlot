@@ -1,0 +1,25 @@
+{
+  "status": "original_W50_reproduced_exactly",
+  "checks": [
+    {
+      "seed": 42,
+      "valid_samples": 137523,
+      "exact_support_mask_and_metrics_match": true
+    },
+    {
+      "seed": 1019,
+      "valid_samples": 137523,
+      "exact_support_mask_and_metrics_match": true
+    },
+    {
+      "seed": 2026,
+      "valid_samples": 137523,
+      "exact_support_mask_and_metrics_match": true
+    }
+  ],
+  "original_metrics_sha256": "3b74e7033566b4905db2ab1ab6f3836e8cb0a2e51ccac5fa29f8184a764941c8",
+  "original_evidence_sha256": "071876fb9c8626dc39e1305057b43b8bd31edea8e952b4a3592364084ffe1d2e",
+  "evaluation_sha256": "1ac17c21c81a79c9b9f4e91f7f446749a2f73ff2b0d69df70d4d6d9958d73243",
+  "target_labels_reopened": false,
+  "script_sha256": "d9a2c0caef31aaf3bc48ed8d14519855179df940e2fd5769fc2207f9de935b0b"
+}

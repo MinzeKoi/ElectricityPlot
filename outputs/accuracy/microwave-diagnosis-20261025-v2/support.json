@@ -1,0 +1,104 @@
+{
+  "refit_2": {
+    "raw_samples": 151200,
+    "missing_aggregate": 14216,
+    "missing_labels": 15120,
+    "valid_windows_before_label_mask": 93886,
+    "alignment_exact": true,
+    "blocks": {
+      "train": {
+        "windows": 21317,
+        "positive_windows": 166,
+        "negative_windows": 21151,
+        "prevalence": 0.0077872120842520055,
+        "effective_seconds": 170536,
+        "positive_segments_supported": 19,
+        "first_center": "2014-10-07T06:30:48Z",
+        "last_center": "2014-10-10T05:54:56Z",
+        "start": "2014-10-07T06:28:48Z",
+        "end": "2014-10-10T05:58:48Z"
+      },
+      "validation": {
+        "windows": 7962,
+        "positive_windows": 59,
+        "negative_windows": 7903,
+        "prevalence": 0.007410198442602361,
+        "effective_seconds": 63696,
+        "positive_segments_supported": 7,
+        "first_center": "2014-10-10T07:00:48Z",
+        "last_center": "2014-10-11T05:56:40Z",
+        "start": "2014-10-10T06:58:48Z",
+        "end": "2014-10-11T05:58:48Z"
+      },
+      "outer": {
+        "windows": 16325,
+        "positive_windows": 69,
+        "negative_windows": 16256,
+        "prevalence": 0.004226646248085758,
+        "effective_seconds": 130600,
+        "positive_segments_supported": 8,
+        "first_center": "2014-10-11T07:00:48Z",
+        "last_center": "2014-10-13T06:26:40Z",
+        "start": "2014-10-11T06:58:48Z",
+        "end": "2014-10-13T06:28:48Z"
+      }
+    },
+    "small_events": [
+      36,
+      37,
+      41,
+      42
+    ]
+  },
+  "refit_19": {
+    "raw_samples": 151200,
+    "missing_aggregate": 12960,
+    "missing_labels": 15120,
+    "valid_windows_before_label_mask": 57863,
+    "alignment_exact": true,
+    "blocks": {
+      "train": {
+        "windows": 25133,
+        "positive_windows": 141,
+        "negative_windows": 24992,
+        "prevalence": 0.0056101539808220266,
+        "effective_seconds": 201064,
+        "positive_segments_supported": 25,
+        "first_center": "2014-10-13T09:45:52Z",
+        "last_center": "2014-10-15T19:50:32Z",
+        "start": "2014-10-12T20:22:40Z",
+        "end": "2014-10-15T19:52:40Z"
+      },
+      "validation": {
+        "windows": 9869,
+        "positive_windows": 94,
+        "negative_windows": 9775,
+        "prevalence": 0.009524774546559936,
+        "effective_seconds": 78952,
+        "positive_segments_supported": 18,
+        "first_center": "2014-10-15T20:54:40Z",
+        "last_center": "2014-10-16T19:50:32Z",
+        "start": "2014-10-15T20:52:40Z",
+        "end": "2014-10-16T19:52:40Z"
+      },
+      "outer": {
+        "windows": 20787,
+        "positive_windows": 42,
+        "negative_windows": 20745,
+        "prevalence": 0.002020493577716842,
+        "effective_seconds": 166296,
+        "positive_segments_supported": 7,
+        "first_center": "2014-10-16T20:54:40Z",
+        "last_center": "2014-10-18T20:20:32Z",
+        "start": "2014-10-16T20:52:40Z",
+        "end": "2014-10-18T20:22:40Z"
+      }
+    },
+    "small_events": [
+      35,
+      36,
+      37,
+      39
+    ]
+  }
+}

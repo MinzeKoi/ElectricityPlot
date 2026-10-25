@@ -1,0 +1,73 @@
+{
+  "purpose": "read_only_source_training_diagnosis",
+  "rows": [
+    {
+      "candidate": "C31",
+      "seed": 42,
+      "selected_epoch": 3,
+      "selected_source_val_p": 0.1887817465706913,
+      "last_epoch_source_val_p": 0.05363685974896702,
+      "last_epoch_training_p_at_r85": 0.16655003498950316,
+      "last_epoch_training_max_f1": 0.38161411010155,
+      "first_bce": 0.29181636945933714,
+      "last_bce": 0.10834580803999588
+    },
+    {
+      "candidate": "C31",
+      "seed": 1019,
+      "selected_epoch": 12,
+      "selected_source_val_p": 0.12346343651861821,
+      "last_epoch_source_val_p": 0.12346343651861821,
+      "last_epoch_training_p_at_r85": 0.21043324491600354,
+      "last_epoch_training_max_f1": 0.42530120481927713,
+      "first_bce": 0.2807240267696024,
+      "last_bce": 0.09312058570256242
+    },
+    {
+      "candidate": "C31",
+      "seed": 2026,
+      "selected_epoch": 11,
+      "selected_source_val_p": 0.1127067365873336,
+      "last_epoch_source_val_p": 0.08553490395971902,
+      "last_epoch_training_p_at_r85": 0.16459197786998617,
+      "last_epoch_training_max_f1": 0.3281061519903498,
+      "first_bce": 0.3129914473032668,
+      "last_bce": 0.11446117111766825
+    },
+    {
+      "candidate": "C61",
+      "seed": 42,
+      "selected_epoch": 8,
+      "selected_source_val_p": 0.19058260175578612,
+      "last_epoch_source_val_p": 0.14790916987219258,
+      "last_epoch_training_p_at_r85": 0.17597042513863217,
+      "last_epoch_training_max_f1": 0.34589196550158874,
+      "first_bce": 0.2880426071913672,
+      "last_bce": 0.09668927651760327
+    },
+    {
+      "candidate": "C61",
+      "seed": 1019,
+      "selected_epoch": 9,
+      "selected_source_val_p": 0.1931302657161374,
+      "last_epoch_source_val_p": 0.17804331590739358,
+      "last_epoch_training_p_at_r85": 0.2511798636601993,
+      "last_epoch_training_max_f1": 0.40906515580736547,
+      "first_bce": 0.2661454452670553,
+      "last_bce": 0.08096116723898215
+    },
+    {
+      "candidate": "C61",
+      "seed": 2026,
+      "selected_epoch": 8,
+      "selected_source_val_p": 0.1808252427184466,
+      "last_epoch_source_val_p": 0.1056550257046623,
+      "last_epoch_training_p_at_r85": 0.175303197353914,
+      "last_epoch_training_max_f1": 0.32491582491582494,
+      "first_bce": 0.3422851944025479,
+      "last_bce": 0.10006903821513766
+    }
+  ],
+  "new_training_performed": false,
+  "final_households_accessed": false
+}

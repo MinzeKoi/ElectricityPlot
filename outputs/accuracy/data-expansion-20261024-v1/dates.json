@@ -1,0 +1,488 @@
+{
+  "2": {
+    "start": "2014-09-29T06:28:48Z",
+    "end": "2014-10-27T06:28:48Z",
+    "channels": {
+      "aggregate": {
+        "adaptation": {
+          "coverage": 0.905978835978836,
+          "valid_days": 12.683703703703705,
+          "passes": true
+        },
+        "future": {
+          "coverage": 0.9942553897180763,
+          "valid_days": 13.878148148148147,
+          "passes": true
+        }
+      },
+      "kettle": {
+        "adaptation": {
+          "coverage": 0.9,
+          "valid_days": 12.6,
+          "passes": true
+        },
+        "future": {
+          "coverage": 0.9891873963515755,
+          "valid_days": 13.807407407407407,
+          "passes": true
+        }
+      },
+      "microwave": {
+        "adaptation": {
+          "coverage": 0.9,
+          "valid_days": 12.6,
+          "passes": true
+        },
+        "future": {
+          "coverage": 0.9891873963515755,
+          "valid_days": 13.807407407407407,
+          "passes": true
+        }
+      },
+      "washing_machine": {
+        "adaptation": {
+          "coverage": 0.9,
+          "valid_days": 12.6,
+          "passes": true
+        },
+        "future": {
+          "coverage": 0.9891873963515755,
+          "valid_days": 13.807407407407407,
+          "passes": true
+        }
+      }
+    },
+    "all_present_channels_pass": true,
+    "query_input_support": {
+      "complete_aggregate_slots": 350,
+      "complete_slots_with_31_bin_context": 310,
+      "per_appliance_upper_bound": 310,
+      "household_three_appliance_upper_bound": 930,
+      "supports_budget_20_before_model_check": true
+    }
+  },
+  "5": {
+    "start": "2014-11-14T20:53:44Z",
+    "end": "2014-12-12T20:53:44Z",
+    "channels": {
+      "aggregate": {
+        "adaptation": {
+          "coverage": 0.9879828042328043,
+          "valid_days": 13.83175925925926,
+          "passes": true
+        },
+        "future": {
+          "coverage": 0.9655655058043118,
+          "valid_days": 13.477685185185186,
+          "passes": true
+        }
+      },
+      "kettle": {
+        "adaptation": {
+          "coverage": 0.909212962962963,
+          "valid_days": 12.728981481481481,
+          "passes": true
+        },
+        "future": {
+          "coverage": 0.9,
+          "valid_days": 12.5625,
+          "passes": true
+        }
+      },
+      "microwave": {
+        "adaptation": {
+          "coverage": 0.909212962962963,
+          "valid_days": 12.728981481481481,
+          "passes": true
+        },
+        "future": {
+          "coverage": 0.9,
+          "valid_days": 12.5625,
+          "passes": true
+        }
+      },
+      "washing_machine": {
+        "adaptation": {
+          "coverage": 0.909212962962963,
+          "valid_days": 12.728981481481481,
+          "passes": true
+        },
+        "future": {
+          "coverage": 0.9,
+          "valid_days": 12.5625,
+          "passes": true
+        }
+      }
+    },
+    "all_present_channels_pass": true,
+    "query_input_support": {
+      "complete_aggregate_slots": 674,
+      "complete_slots_with_31_bin_context": 646,
+      "per_appliance_upper_bound": 646,
+      "household_three_appliance_upper_bound": 1938,
+      "supports_budget_20_before_model_check": true
+    }
+  },
+  "10": {
+    "start": "2013-12-08T11:48:56Z",
+    "end": "2014-01-05T11:48:56Z",
+    "channels": {
+      "aggregate": {
+        "adaptation": {
+          "coverage": 0.90625,
+          "valid_days": 12.6875,
+          "passes": true
+        },
+        "future": {
+          "coverage": 0.953592039800995,
+          "valid_days": 13.310555555555556,
+          "passes": true
+        }
+      },
+      "microwave": {
+        "adaptation": {
+          "coverage": 0.9,
+          "valid_days": 12.6,
+          "passes": true
+        },
+        "future": {
+          "coverage": 0.942195688225539,
+          "valid_days": 13.15148148148148,
+          "passes": true
+        }
+      },
+      "washing_machine": {
+        "adaptation": {
+          "coverage": 0.9,
+          "valid_days": 12.6,
+          "passes": true
+        },
+        "future": {
+          "coverage": 0.942195688225539,
+          "valid_days": 13.15148148148148,
+          "passes": true
+        }
+      }
+    },
+    "all_present_channels_pass": true,
+    "query_input_support": {
+      "complete_aggregate_slots": 225,
+      "complete_slots_with_31_bin_context": 209,
+      "per_appliance_upper_bound": 209,
+      "household_three_appliance_upper_bound": 627,
+      "supports_budget_20_before_model_check": true
+    }
+  },
+  "12": {
+    "start": "2014-10-08T08:33:12Z",
+    "end": "2014-11-05T08:33:12Z",
+    "channels": {
+      "aggregate": {
+        "adaptation": {
+          "coverage": 0.9021560846560847,
+          "valid_days": 12.630185185185185,
+          "passes": true
+        },
+        "future": {
+          "coverage": 0.9231774461028193,
+          "valid_days": 12.886018518518519,
+          "passes": true
+        }
+      },
+      "kettle": {
+        "adaptation": {
+          "coverage": 0.9,
+          "valid_days": 12.6,
+          "passes": true
+        },
+        "future": {
+          "coverage": 0.9210480928689884,
+          "valid_days": 12.856296296296296,
+          "passes": true
+        }
+      },
+      "microwave": {
+        "adaptation": {
+          "coverage": 0.9,
+          "valid_days": 12.6,
+          "passes": true
+        },
+        "future": {
+          "coverage": 0.9210480928689884,
+          "valid_days": 12.856296296296296,
+          "passes": true
+        }
+      }
+    },
+    "all_present_channels_pass": true,
+    "query_input_support": {
+      "complete_aggregate_slots": 575,
+      "complete_slots_with_31_bin_context": 562,
+      "per_appliance_upper_bound": 562,
+      "household_three_appliance_upper_bound": 1686,
+      "supports_budget_20_before_model_check": true
+    }
+  },
+  "15": {
+    "start": "2014-09-29T05:50:32Z",
+    "end": "2014-10-27T05:50:32Z",
+    "channels": {
+      "aggregate": {
+        "adaptation": {
+          "coverage": 0.9039153439153439,
+          "valid_days": 12.654814814814815,
+          "passes": true
+        },
+        "future": {
+          "coverage": 0.996530679933665,
+          "valid_days": 13.909907407407408,
+          "passes": true
+        }
+      },
+      "microwave": {
+        "adaptation": {
+          "coverage": 0.9,
+          "valid_days": 12.6,
+          "passes": true
+        },
+        "future": {
+          "coverage": 0.9928092868988392,
+          "valid_days": 13.857962962962963,
+          "passes": true
+        }
+      },
+      "washing_machine": {
+        "adaptation": {
+          "coverage": 0.9,
+          "valid_days": 12.6,
+          "passes": true
+        },
+        "future": {
+          "coverage": 0.9928092868988392,
+          "valid_days": 13.857962962962963,
+          "passes": true
+        }
+      }
+    },
+    "all_present_channels_pass": true,
+    "query_input_support": {
+      "complete_aggregate_slots": 254,
+      "complete_slots_with_31_bin_context": 187,
+      "per_appliance_upper_bound": 187,
+      "household_three_appliance_upper_bound": 561,
+      "supports_budget_20_before_model_check": true
+    }
+  },
+  "16": {
+    "start": "2014-08-17T06:52:00Z",
+    "end": "2014-09-14T06:52:00Z",
+    "channels": {
+      "aggregate": {
+        "adaptation": {
+          "coverage": 0.9071560846560847,
+          "valid_days": 12.700185185185186,
+          "passes": true
+        },
+        "future": {
+          "coverage": 0.9020364842454395,
+          "valid_days": 12.590925925925927,
+          "passes": true
+        }
+      },
+      "washing_machine": {
+        "adaptation": {
+          "coverage": 0.9053968253968254,
+          "valid_days": 12.675555555555556,
+          "passes": true
+        },
+        "future": {
+          "coverage": 0.9,
+          "valid_days": 12.5625,
+          "passes": true
+        }
+      }
+    },
+    "all_present_channels_pass": true,
+    "query_input_support": {
+      "complete_aggregate_slots": 290,
+      "complete_slots_with_31_bin_context": 235,
+      "per_appliance_upper_bound": 235,
+      "household_three_appliance_upper_bound": 705,
+      "supports_budget_20_before_model_check": true
+    }
+  },
+  "17": {
+    "start": "2014-09-30T08:13:12Z",
+    "end": "2014-10-28T08:13:12Z",
+    "channels": {
+      "aggregate": {
+        "adaptation": {
+          "coverage": 0.9158597883597883,
+          "valid_days": 12.822037037037036,
+          "passes": true
+        },
+        "future": {
+          "coverage": 0.9482719734660033,
+          "valid_days": 13.236296296296297,
+          "passes": true
+        }
+      },
+      "kettle": {
+        "adaptation": {
+          "coverage": 0.9,
+          "valid_days": 12.6,
+          "passes": true
+        },
+        "future": {
+          "coverage": 0.9353830845771144,
+          "valid_days": 13.05638888888889,
+          "passes": true
+        }
+      },
+      "microwave": {
+        "adaptation": {
+          "coverage": 0.9,
+          "valid_days": 12.6,
+          "passes": true
+        },
+        "future": {
+          "coverage": 0.9353830845771144,
+          "valid_days": 13.05638888888889,
+          "passes": true
+        }
+      },
+      "washing_machine": {
+        "adaptation": {
+          "coverage": 0.9,
+          "valid_days": 12.6,
+          "passes": true
+        },
+        "future": {
+          "coverage": 0.9353830845771144,
+          "valid_days": 13.05638888888889,
+          "passes": true
+        }
+      }
+    },
+    "all_present_channels_pass": true,
+    "query_input_support": {
+      "complete_aggregate_slots": 102,
+      "complete_slots_with_31_bin_context": 86,
+      "per_appliance_upper_bound": 86,
+      "household_three_appliance_upper_bound": 258,
+      "supports_budget_20_before_model_check": true
+    }
+  },
+  "18": {
+    "start": "2014-11-05T01:55:28Z",
+    "end": "2014-12-03T01:55:28Z",
+    "channels": {
+      "aggregate": {
+        "adaptation": {
+          "coverage": 0.9051917989417989,
+          "valid_days": 12.672685185185186,
+          "passes": true
+        },
+        "future": {
+          "coverage": 0.9990116086235489,
+          "valid_days": 13.944537037037037,
+          "passes": true
+        }
+      },
+      "microwave": {
+        "adaptation": {
+          "coverage": 0.9,
+          "valid_days": 12.6,
+          "passes": true
+        },
+        "future": {
+          "coverage": 0.9927694859038143,
+          "valid_days": 13.857407407407408,
+          "passes": true
+        }
+      },
+      "washing_machine": {
+        "adaptation": {
+          "coverage": 0.9,
+          "valid_days": 12.6,
+          "passes": true
+        },
+        "future": {
+          "coverage": 0.9927694859038143,
+          "valid_days": 13.857407407407408,
+          "passes": true
+        }
+      }
+    },
+    "all_present_channels_pass": true,
+    "query_input_support": {
+      "complete_aggregate_slots": 880,
+      "complete_slots_with_31_bin_context": 870,
+      "per_appliance_upper_bound": 870,
+      "household_three_appliance_upper_bound": 2610,
+      "supports_budget_20_before_model_check": true
+    }
+  },
+  "19": {
+    "start": "2014-10-04T20:22:40Z",
+    "end": "2014-11-01T20:22:40Z",
+    "channels": {
+      "aggregate": {
+        "adaptation": {
+          "coverage": 0.9142857142857143,
+          "valid_days": 12.8,
+          "passes": true
+        },
+        "future": {
+          "coverage": 0.9161724709784411,
+          "valid_days": 12.78824074074074,
+          "passes": true
+        }
+      },
+      "kettle": {
+        "adaptation": {
+          "coverage": 0.9,
+          "valid_days": 12.6,
+          "passes": true
+        },
+        "future": {
+          "coverage": 0.9002918739635157,
+          "valid_days": 12.566574074074074,
+          "passes": true
+        }
+      },
+      "microwave": {
+        "adaptation": {
+          "coverage": 0.9,
+          "valid_days": 12.6,
+          "passes": true
+        },
+        "future": {
+          "coverage": 0.9002918739635157,
+          "valid_days": 12.566574074074074,
+          "passes": true
+        }
+      },
+      "washing_machine": {
+        "adaptation": {
+          "coverage": 0.9,
+          "valid_days": 12.6,
+          "passes": true
+        },
+        "future": {
+          "coverage": 0.9002918739635157,
+          "valid_days": 12.566574074074074,
+          "passes": true
+        }
+      }
+    },
+    "all_present_channels_pass": true,
+    "query_input_support": {
+      "complete_aggregate_slots": 365,
+      "complete_slots_with_31_bin_context": 359,
+      "per_appliance_upper_bound": 359,
+      "household_three_appliance_upper_bound": 1077,
+      "supports_budget_20_before_model_check": true
+    }
+  }
+}

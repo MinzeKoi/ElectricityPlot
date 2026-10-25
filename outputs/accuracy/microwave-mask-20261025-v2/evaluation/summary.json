@@ -1,0 +1,93 @@
+{
+  "selected_before_development": "partial_mask",
+  "improvement_candidate": true,
+  "partial_training_supported": true,
+  "task4_source_preselected_comparison": {
+    "selected_arm": "event",
+    "freeze_sha256": "ab23f6277630330533d43789d97181747e88438efd6b3246348cac6d8db7f876",
+    "source_selection_sha256": "72a7a19d48c774636a8f55af137ad452e0698fb5bddb8a99ac893fb1405a6205"
+  },
+  "development_acceptance_passed": false,
+  "declared_improvement": false,
+  "means": {
+    "A": {
+      "precision": 0.04012808999869747,
+      "recall": 0.9242819843342036,
+      "f1": 0.07691297343567473,
+      "fp": 8482.0
+    },
+    "W50": {
+      "precision": 0.04012808999869747,
+      "recall": 0.9242819843342036,
+      "f1": 0.07691297343567473,
+      "fp": 8482.0
+    },
+    "partial_mask": {
+      "precision": 0.034086879568519884,
+      "recall": 0.9190600522193212,
+      "f1": 0.06573388824743838,
+      "fp": 9977.333333333334
+    },
+    "strict_mask": {
+      "precision": 0.03239874854797361,
+      "recall": 0.926892950391645,
+      "f1": 0.06259166483487871,
+      "fp": 10620.333333333334
+    },
+    "task4_selected": {
+      "precision": 0.033731804506750264,
+      "recall": 0.906875543951262,
+      "f1": 0.06504088514531482,
+      "fp": 9955.0
+    }
+  },
+  "selected_deltas": {
+    "A": {
+      "precision": -0.006041210430177586,
+      "recall": -0.005221932114882422,
+      "f1": -0.011179085188236348,
+      "fp": 1495.333333333334
+    },
+    "W50": {
+      "precision": -0.006041210430177586,
+      "recall": -0.005221932114882422,
+      "f1": -0.011179085188236348,
+      "fp": 1495.333333333334
+    },
+    "strict_mask": {
+      "precision": 0.0016881310205462755,
+      "recall": -0.007832898172323799,
+      "f1": 0.0031422234125596665,
+      "fp": -643.0
+    },
+    "task4_selected": {
+      "precision": 0.0003550750617696205,
+      "recall": 0.012184508268059169,
+      "f1": 0.0006930031021235572,
+      "fp": 22.33333333333394
+    }
+  },
+  "common_support": {
+    "42": {
+      "n": 137523,
+      "mask_sha256": "d7608bed577515bc4bd98ff1efe4c78a82798a96c9d1d3e5dd03bb90d53598a1",
+      "timestamps_sha256": "342269261b9b59715ac588476545f50d6e875b7a01f6731745098c6c384a2ffe"
+    },
+    "1019": {
+      "n": 137523,
+      "mask_sha256": "d7608bed577515bc4bd98ff1efe4c78a82798a96c9d1d3e5dd03bb90d53598a1",
+      "timestamps_sha256": "342269261b9b59715ac588476545f50d6e875b7a01f6731745098c6c384a2ffe"
+    },
+    "2026": {
+      "n": 137523,
+      "mask_sha256": "d7608bed577515bc4bd98ff1efe4c78a82798a96c9d1d3e5dd03bb90d53598a1",
+      "timestamps_sha256": "342269261b9b59715ac588476545f50d6e875b7a01f6731745098c6c384a2ffe"
+    }
+  },
+  "power_improvement_claim": false,
+  "raw_power_and_other_devices_unchanged": true,
+  "default_model_changed": false,
+  "development_only_previously_inspected_house17": true,
+  "final_houses_accessed": false,
+  "additional_training_permitted": false
+}

@@ -1,0 +1,14 @@
+{
+  "source_npz_reads": [
+    "d:\\system position\\document\\真正的文档\\aic\\outputs\\accuracy\\microwave-mask-20261025-v2\\partial_mask.npz",
+    "d:\\system position\\document\\真正的文档\\aic\\outputs\\accuracy\\microwave-mask-20261025-v2\\validation\\block_0.npz",
+    "d:\\system position\\document\\真正的文档\\aic\\outputs\\accuracy\\microwave-mask-20261025-v2\\validation\\block_1.npz",
+    "d:\\system position\\document\\真正的文档\\aic\\outputs\\accuracy\\microwave-mask-20261025-v2\\validation\\block_2.npz",
+    "d:\\system position\\document\\真正的文档\\aic\\outputs\\accuracy\\microwave-mask-20261025-v2\\validation\\block_3.npz",
+    "d:\\system position\\document\\真正的文档\\aic\\outputs\\accuracy\\microwave-mask-20261025-v2\\validation\\block_4.npz",
+    "d:\\system position\\document\\真正的文档\\aic\\outputs\\accuracy\\microwave-mask-20261025-v2\\validation\\block_5.npz",
+    "d:\\system position\\document\\真正的文档\\aic\\outputs\\accuracy\\microwave-tcn-20261025-v1\\tcn31.npz"
+  ],
+  "forbidden_reads": [],
+  "guard_active_during_prepare": true
+}

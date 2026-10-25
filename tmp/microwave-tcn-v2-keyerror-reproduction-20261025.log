@@ -1,0 +1,20 @@
+test_synthetic_training_validation_and_saved_load_for_both_lengths (tcn_reproduction.TCNTests.test_synthetic_training_validation_and_saved_load_for_both_lengths) ... ERROR
+
+======================================================================
+ERROR: test_synthetic_training_validation_and_saved_load_for_both_lengths (tcn_reproduction.TCNTests.test_synthetic_training_validation_and_saved_load_for_both_lengths)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\system position\document\真正的文档\AIC\tests\test_microwave_tcn.py", line 245, in test_synthetic_training_validation_and_saved_load_for_both_lengths
+    result = e.train(run,authorization)
+  File "D:\system position\document\真正的文档\AIC\outputs\accuracy\microwave-tcn-20261025-v2\source\virtual_submeter\accuracy\microwave_tcn_execution.py", line 130, in train
+    scores = {k: predict_windows(meta, model, d["x"]) for k, d in blocks.items()}
+                 ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "D:\system position\document\真正的文档\AIC\outputs\accuracy\microwave-tcn-20261025-v2\source\virtual_submeter\models\center_mask_tcn.py", line 79, in predict_windows
+    if x.shape[1] != metadata["window_samples"]:
+                     ~~~~~~~~^^^^^^^^^^^^^^^^^^
+KeyError: 'window_samples'
+
+----------------------------------------------------------------------
+Ran 1 test in 1.396s
+
+FAILED (errors=1)

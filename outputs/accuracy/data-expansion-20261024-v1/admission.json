@@ -1,0 +1,1110 @@
+{
+  "A": [
+    {
+      "partition_id": "source_train_refit_2_0",
+      "household_id": "refit_2",
+      "role": "source_train",
+      "start": "2014-09-29T06:28:48Z",
+      "end": "2014-10-13T06:28:48Z",
+      "devices": {
+        "kettle": {
+          "valid_samples": 136080,
+          "observed_days": 12.6,
+          "missing_fraction": 0.09999999999999998,
+          "active_samples": 1576,
+          "complete_threshold_events": 66,
+          "censored_threshold_events": 128,
+          "coverage": 0.9,
+          "aggregate_coverage": 0.905978835978836,
+          "included": true,
+          "reasons": []
+        },
+        "microwave": {
+          "valid_samples": 136080,
+          "observed_days": 12.6,
+          "missing_fraction": 0.09999999999999998,
+          "active_samples": 478,
+          "complete_threshold_events": 30,
+          "censored_threshold_events": 51,
+          "coverage": 0.9,
+          "aggregate_coverage": 0.905978835978836,
+          "included": true,
+          "reasons": []
+        },
+        "washing_machine": {
+          "valid_samples": 136080,
+          "observed_days": 12.6,
+          "missing_fraction": 0.09999999999999998,
+          "active_samples": 5187,
+          "complete_threshold_events": 450,
+          "censored_threshold_events": 277,
+          "coverage": 0.9,
+          "aggregate_coverage": 0.905978835978836,
+          "included": true,
+          "reasons": []
+        }
+      }
+    },
+    {
+      "partition_id": "source_train_refit_19_0",
+      "household_id": "refit_19",
+      "role": "source_train",
+      "start": "2014-10-04T20:22:40Z",
+      "end": "2014-10-18T20:22:40Z",
+      "devices": {
+        "kettle": {
+          "valid_samples": 136080,
+          "observed_days": 12.6,
+          "missing_fraction": 0.09999999999999998,
+          "active_samples": 233,
+          "complete_threshold_events": 8,
+          "censored_threshold_events": 59,
+          "coverage": 0.9,
+          "aggregate_coverage": 0.9142857142857143,
+          "included": true,
+          "reasons": []
+        },
+        "microwave": {
+          "valid_samples": 136080,
+          "observed_days": 12.6,
+          "missing_fraction": 0.09999999999999998,
+          "active_samples": 404,
+          "complete_threshold_events": 27,
+          "censored_threshold_events": 56,
+          "coverage": 0.9,
+          "aggregate_coverage": 0.9142857142857143,
+          "included": true,
+          "reasons": []
+        },
+        "washing_machine": {
+          "valid_samples": 136080,
+          "observed_days": 12.6,
+          "missing_fraction": 0.09999999999999998,
+          "active_samples": 3749,
+          "complete_threshold_events": 263,
+          "censored_threshold_events": 465,
+          "coverage": 0.9,
+          "aggregate_coverage": 0.9142857142857143,
+          "included": true,
+          "reasons": []
+        }
+      }
+    },
+    {
+      "partition_id": "source_validation_refit_5_0",
+      "household_id": "refit_5",
+      "role": "source_validation",
+      "start": "2014-11-14T20:53:44Z",
+      "end": "2014-11-28T20:53:44Z",
+      "devices": {
+        "kettle": {
+          "valid_samples": 137473,
+          "observed_days": 12.728981481481481,
+          "missing_fraction": 0.09078703703703705,
+          "active_samples": 936,
+          "complete_threshold_events": 47,
+          "censored_threshold_events": 64,
+          "coverage": 0.909212962962963,
+          "aggregate_coverage": 0.9879828042328043,
+          "included": true,
+          "reasons": []
+        },
+        "microwave": {
+          "valid_samples": 137473,
+          "observed_days": 12.728981481481481,
+          "missing_fraction": 0.09078703703703705,
+          "active_samples": 2141,
+          "complete_threshold_events": 78,
+          "censored_threshold_events": 132,
+          "coverage": 0.909212962962963,
+          "aggregate_coverage": 0.9879828042328043,
+          "included": true,
+          "reasons": []
+        },
+        "washing_machine": {
+          "valid_samples": 137473,
+          "observed_days": 12.728981481481481,
+          "missing_fraction": 0.09078703703703705,
+          "active_samples": 4417,
+          "complete_threshold_events": 112,
+          "censored_threshold_events": 220,
+          "coverage": 0.909212962962963,
+          "aggregate_coverage": 0.9879828042328043,
+          "included": true,
+          "reasons": []
+        }
+      }
+    },
+    {
+      "partition_id": "frozen_test_refit_17_0",
+      "household_id": "refit_17",
+      "role": "frozen_test",
+      "start": "2014-10-14T09:13:12Z",
+      "end": "2014-10-28T08:13:12Z",
+      "devices": {
+        "kettle": {
+          "valid_samples": 141009,
+          "observed_days": 13.05638888888889,
+          "missing_fraction": 0.06461691542288561,
+          "active_samples": 1012,
+          "complete_threshold_events": 56,
+          "censored_threshold_events": 81,
+          "coverage": 0.9353830845771144,
+          "aggregate_coverage": 0.9482719734660033,
+          "included": true,
+          "reasons": []
+        },
+        "microwave": {
+          "valid_samples": 141009,
+          "observed_days": 13.05638888888889,
+          "missing_fraction": 0.06461691542288561,
+          "active_samples": 383,
+          "complete_threshold_events": 27,
+          "censored_threshold_events": 25,
+          "coverage": 0.9353830845771144,
+          "aggregate_coverage": 0.9482719734660033,
+          "included": true,
+          "reasons": []
+        },
+        "washing_machine": {
+          "valid_samples": 141009,
+          "observed_days": 13.05638888888889,
+          "missing_fraction": 0.06461691542288561,
+          "active_samples": 3159,
+          "complete_threshold_events": 117,
+          "censored_threshold_events": 308,
+          "coverage": 0.9353830845771144,
+          "aggregate_coverage": 0.9482719734660033,
+          "included": true,
+          "reasons": []
+        }
+      }
+    }
+  ],
+  "B": [
+    {
+      "partition_id": "source_train_refit_2_0",
+      "household_id": "refit_2",
+      "role": "source_train",
+      "start": "2014-09-29T06:28:48Z",
+      "end": "2014-10-13T06:28:48Z",
+      "devices": {
+        "kettle": {
+          "valid_samples": 136080,
+          "observed_days": 12.6,
+          "missing_fraction": 0.09999999999999998,
+          "active_samples": 1576,
+          "complete_threshold_events": 66,
+          "censored_threshold_events": 128,
+          "coverage": 0.9,
+          "aggregate_coverage": 0.905978835978836,
+          "included": true,
+          "reasons": []
+        },
+        "microwave": {
+          "valid_samples": 136080,
+          "observed_days": 12.6,
+          "missing_fraction": 0.09999999999999998,
+          "active_samples": 478,
+          "complete_threshold_events": 30,
+          "censored_threshold_events": 51,
+          "coverage": 0.9,
+          "aggregate_coverage": 0.905978835978836,
+          "included": true,
+          "reasons": []
+        },
+        "washing_machine": {
+          "valid_samples": 136080,
+          "observed_days": 12.6,
+          "missing_fraction": 0.09999999999999998,
+          "active_samples": 5187,
+          "complete_threshold_events": 450,
+          "censored_threshold_events": 277,
+          "coverage": 0.9,
+          "aggregate_coverage": 0.905978835978836,
+          "included": true,
+          "reasons": []
+        }
+      }
+    },
+    {
+      "partition_id": "source_train_refit_2_1",
+      "household_id": "refit_2",
+      "role": "source_train",
+      "start": "2014-10-13T07:28:48Z",
+      "end": "2014-10-27T06:28:48Z",
+      "devices": {
+        "kettle": {
+          "valid_samples": 149120,
+          "observed_days": 13.807407407407407,
+          "missing_fraction": 0.010812603648424512,
+          "active_samples": 1335,
+          "complete_threshold_events": 56,
+          "censored_threshold_events": 65,
+          "coverage": 0.9891873963515755,
+          "aggregate_coverage": 0.9942553897180763,
+          "included": true,
+          "reasons": []
+        },
+        "microwave": {
+          "valid_samples": 149120,
+          "observed_days": 13.807407407407407,
+          "missing_fraction": 0.010812603648424512,
+          "active_samples": 414,
+          "complete_threshold_events": 53,
+          "censored_threshold_events": 57,
+          "coverage": 0.9891873963515755,
+          "aggregate_coverage": 0.9942553897180763,
+          "included": true,
+          "reasons": []
+        },
+        "washing_machine": {
+          "valid_samples": 149120,
+          "observed_days": 13.807407407407407,
+          "missing_fraction": 0.010812603648424512,
+          "active_samples": 5841,
+          "complete_threshold_events": 475,
+          "censored_threshold_events": 223,
+          "coverage": 0.9891873963515755,
+          "aggregate_coverage": 0.9942553897180763,
+          "included": true,
+          "reasons": []
+        }
+      }
+    },
+    {
+      "partition_id": "source_train_refit_19_0",
+      "household_id": "refit_19",
+      "role": "source_train",
+      "start": "2014-10-04T20:22:40Z",
+      "end": "2014-10-18T20:22:40Z",
+      "devices": {
+        "kettle": {
+          "valid_samples": 136080,
+          "observed_days": 12.6,
+          "missing_fraction": 0.09999999999999998,
+          "active_samples": 233,
+          "complete_threshold_events": 8,
+          "censored_threshold_events": 59,
+          "coverage": 0.9,
+          "aggregate_coverage": 0.9142857142857143,
+          "included": true,
+          "reasons": []
+        },
+        "microwave": {
+          "valid_samples": 136080,
+          "observed_days": 12.6,
+          "missing_fraction": 0.09999999999999998,
+          "active_samples": 404,
+          "complete_threshold_events": 27,
+          "censored_threshold_events": 56,
+          "coverage": 0.9,
+          "aggregate_coverage": 0.9142857142857143,
+          "included": true,
+          "reasons": []
+        },
+        "washing_machine": {
+          "valid_samples": 136080,
+          "observed_days": 12.6,
+          "missing_fraction": 0.09999999999999998,
+          "active_samples": 3749,
+          "complete_threshold_events": 263,
+          "censored_threshold_events": 465,
+          "coverage": 0.9,
+          "aggregate_coverage": 0.9142857142857143,
+          "included": true,
+          "reasons": []
+        }
+      }
+    },
+    {
+      "partition_id": "source_train_refit_19_1",
+      "household_id": "refit_19",
+      "role": "source_train",
+      "start": "2014-10-18T21:22:40Z",
+      "end": "2014-11-01T20:22:40Z",
+      "devices": {
+        "kettle": {
+          "valid_samples": 135719,
+          "observed_days": 12.566574074074074,
+          "missing_fraction": 0.09970812603648427,
+          "active_samples": 223,
+          "complete_threshold_events": 11,
+          "censored_threshold_events": 50,
+          "coverage": 0.9002918739635157,
+          "aggregate_coverage": 0.9161724709784411,
+          "included": true,
+          "reasons": []
+        },
+        "microwave": {
+          "valid_samples": 135719,
+          "observed_days": 12.566574074074074,
+          "missing_fraction": 0.09970812603648427,
+          "active_samples": 328,
+          "complete_threshold_events": 18,
+          "censored_threshold_events": 35,
+          "coverage": 0.9002918739635157,
+          "aggregate_coverage": 0.9161724709784411,
+          "included": true,
+          "reasons": []
+        },
+        "washing_machine": {
+          "valid_samples": 135719,
+          "observed_days": 12.566574074074074,
+          "missing_fraction": 0.09970812603648427,
+          "active_samples": 4283,
+          "complete_threshold_events": 297,
+          "censored_threshold_events": 371,
+          "coverage": 0.9002918739635157,
+          "aggregate_coverage": 0.9161724709784411,
+          "included": true,
+          "reasons": []
+        }
+      }
+    },
+    {
+      "partition_id": "source_validation_refit_5_0",
+      "household_id": "refit_5",
+      "role": "source_validation",
+      "start": "2014-11-14T20:53:44Z",
+      "end": "2014-11-28T20:53:44Z",
+      "devices": {
+        "kettle": {
+          "valid_samples": 137473,
+          "observed_days": 12.728981481481481,
+          "missing_fraction": 0.09078703703703705,
+          "active_samples": 936,
+          "complete_threshold_events": 47,
+          "censored_threshold_events": 64,
+          "coverage": 0.909212962962963,
+          "aggregate_coverage": 0.9879828042328043,
+          "included": true,
+          "reasons": []
+        },
+        "microwave": {
+          "valid_samples": 137473,
+          "observed_days": 12.728981481481481,
+          "missing_fraction": 0.09078703703703705,
+          "active_samples": 2141,
+          "complete_threshold_events": 78,
+          "censored_threshold_events": 132,
+          "coverage": 0.909212962962963,
+          "aggregate_coverage": 0.9879828042328043,
+          "included": true,
+          "reasons": []
+        },
+        "washing_machine": {
+          "valid_samples": 137473,
+          "observed_days": 12.728981481481481,
+          "missing_fraction": 0.09078703703703705,
+          "active_samples": 4417,
+          "complete_threshold_events": 112,
+          "censored_threshold_events": 220,
+          "coverage": 0.909212962962963,
+          "aggregate_coverage": 0.9879828042328043,
+          "included": true,
+          "reasons": []
+        }
+      }
+    },
+    {
+      "partition_id": "frozen_test_refit_17_0",
+      "household_id": "refit_17",
+      "role": "frozen_test",
+      "start": "2014-10-14T09:13:12Z",
+      "end": "2014-10-28T08:13:12Z",
+      "devices": {
+        "kettle": {
+          "valid_samples": 141009,
+          "observed_days": 13.05638888888889,
+          "missing_fraction": 0.06461691542288561,
+          "active_samples": 1012,
+          "complete_threshold_events": 56,
+          "censored_threshold_events": 81,
+          "coverage": 0.9353830845771144,
+          "aggregate_coverage": 0.9482719734660033,
+          "included": true,
+          "reasons": []
+        },
+        "microwave": {
+          "valid_samples": 141009,
+          "observed_days": 13.05638888888889,
+          "missing_fraction": 0.06461691542288561,
+          "active_samples": 383,
+          "complete_threshold_events": 27,
+          "censored_threshold_events": 25,
+          "coverage": 0.9353830845771144,
+          "aggregate_coverage": 0.9482719734660033,
+          "included": true,
+          "reasons": []
+        },
+        "washing_machine": {
+          "valid_samples": 141009,
+          "observed_days": 13.05638888888889,
+          "missing_fraction": 0.06461691542288561,
+          "active_samples": 3159,
+          "complete_threshold_events": 117,
+          "censored_threshold_events": 308,
+          "coverage": 0.9353830845771144,
+          "aggregate_coverage": 0.9482719734660033,
+          "included": true,
+          "reasons": []
+        }
+      }
+    }
+  ],
+  "C": [
+    {
+      "partition_id": "source_train_refit_2_0",
+      "household_id": "refit_2",
+      "role": "source_train",
+      "start": "2014-09-29T06:28:48Z",
+      "end": "2014-10-13T06:28:48Z",
+      "devices": {
+        "kettle": {
+          "valid_samples": 136080,
+          "observed_days": 12.6,
+          "missing_fraction": 0.09999999999999998,
+          "active_samples": 1576,
+          "complete_threshold_events": 66,
+          "censored_threshold_events": 128,
+          "coverage": 0.9,
+          "aggregate_coverage": 0.905978835978836,
+          "included": true,
+          "reasons": []
+        },
+        "microwave": {
+          "valid_samples": 136080,
+          "observed_days": 12.6,
+          "missing_fraction": 0.09999999999999998,
+          "active_samples": 478,
+          "complete_threshold_events": 30,
+          "censored_threshold_events": 51,
+          "coverage": 0.9,
+          "aggregate_coverage": 0.905978835978836,
+          "included": true,
+          "reasons": []
+        },
+        "washing_machine": {
+          "valid_samples": 136080,
+          "observed_days": 12.6,
+          "missing_fraction": 0.09999999999999998,
+          "active_samples": 5187,
+          "complete_threshold_events": 450,
+          "censored_threshold_events": 277,
+          "coverage": 0.9,
+          "aggregate_coverage": 0.905978835978836,
+          "included": true,
+          "reasons": []
+        }
+      }
+    },
+    {
+      "partition_id": "source_train_refit_2_1",
+      "household_id": "refit_2",
+      "role": "source_train",
+      "start": "2014-10-13T07:28:48Z",
+      "end": "2014-10-27T06:28:48Z",
+      "devices": {
+        "kettle": {
+          "valid_samples": 149120,
+          "observed_days": 13.807407407407407,
+          "missing_fraction": 0.010812603648424512,
+          "active_samples": 1335,
+          "complete_threshold_events": 56,
+          "censored_threshold_events": 65,
+          "coverage": 0.9891873963515755,
+          "aggregate_coverage": 0.9942553897180763,
+          "included": true,
+          "reasons": []
+        },
+        "microwave": {
+          "valid_samples": 149120,
+          "observed_days": 13.807407407407407,
+          "missing_fraction": 0.010812603648424512,
+          "active_samples": 414,
+          "complete_threshold_events": 53,
+          "censored_threshold_events": 57,
+          "coverage": 0.9891873963515755,
+          "aggregate_coverage": 0.9942553897180763,
+          "included": true,
+          "reasons": []
+        },
+        "washing_machine": {
+          "valid_samples": 149120,
+          "observed_days": 13.807407407407407,
+          "missing_fraction": 0.010812603648424512,
+          "active_samples": 5841,
+          "complete_threshold_events": 475,
+          "censored_threshold_events": 223,
+          "coverage": 0.9891873963515755,
+          "aggregate_coverage": 0.9942553897180763,
+          "included": true,
+          "reasons": []
+        }
+      }
+    },
+    {
+      "partition_id": "source_train_refit_19_0",
+      "household_id": "refit_19",
+      "role": "source_train",
+      "start": "2014-10-04T20:22:40Z",
+      "end": "2014-10-18T20:22:40Z",
+      "devices": {
+        "kettle": {
+          "valid_samples": 136080,
+          "observed_days": 12.6,
+          "missing_fraction": 0.09999999999999998,
+          "active_samples": 233,
+          "complete_threshold_events": 8,
+          "censored_threshold_events": 59,
+          "coverage": 0.9,
+          "aggregate_coverage": 0.9142857142857143,
+          "included": true,
+          "reasons": []
+        },
+        "microwave": {
+          "valid_samples": 136080,
+          "observed_days": 12.6,
+          "missing_fraction": 0.09999999999999998,
+          "active_samples": 404,
+          "complete_threshold_events": 27,
+          "censored_threshold_events": 56,
+          "coverage": 0.9,
+          "aggregate_coverage": 0.9142857142857143,
+          "included": true,
+          "reasons": []
+        },
+        "washing_machine": {
+          "valid_samples": 136080,
+          "observed_days": 12.6,
+          "missing_fraction": 0.09999999999999998,
+          "active_samples": 3749,
+          "complete_threshold_events": 263,
+          "censored_threshold_events": 465,
+          "coverage": 0.9,
+          "aggregate_coverage": 0.9142857142857143,
+          "included": true,
+          "reasons": []
+        }
+      }
+    },
+    {
+      "partition_id": "source_train_refit_19_1",
+      "household_id": "refit_19",
+      "role": "source_train",
+      "start": "2014-10-18T21:22:40Z",
+      "end": "2014-11-01T20:22:40Z",
+      "devices": {
+        "kettle": {
+          "valid_samples": 135719,
+          "observed_days": 12.566574074074074,
+          "missing_fraction": 0.09970812603648427,
+          "active_samples": 223,
+          "complete_threshold_events": 11,
+          "censored_threshold_events": 50,
+          "coverage": 0.9002918739635157,
+          "aggregate_coverage": 0.9161724709784411,
+          "included": true,
+          "reasons": []
+        },
+        "microwave": {
+          "valid_samples": 135719,
+          "observed_days": 12.566574074074074,
+          "missing_fraction": 0.09970812603648427,
+          "active_samples": 328,
+          "complete_threshold_events": 18,
+          "censored_threshold_events": 35,
+          "coverage": 0.9002918739635157,
+          "aggregate_coverage": 0.9161724709784411,
+          "included": true,
+          "reasons": []
+        },
+        "washing_machine": {
+          "valid_samples": 135719,
+          "observed_days": 12.566574074074074,
+          "missing_fraction": 0.09970812603648427,
+          "active_samples": 4283,
+          "complete_threshold_events": 297,
+          "censored_threshold_events": 371,
+          "coverage": 0.9002918739635157,
+          "aggregate_coverage": 0.9161724709784411,
+          "included": true,
+          "reasons": []
+        }
+      }
+    },
+    {
+      "partition_id": "source_train_refit_10_0",
+      "household_id": "refit_10",
+      "role": "source_train",
+      "start": "2013-12-08T11:48:56Z",
+      "end": "2013-12-22T11:48:56Z",
+      "devices": {
+        "kettle": {
+          "included": false,
+          "reasons": [
+            "unmonitored_channel"
+          ]
+        },
+        "microwave": {
+          "valid_samples": 136080,
+          "observed_days": 12.6,
+          "missing_fraction": 0.09999999999999998,
+          "active_samples": 386,
+          "complete_threshold_events": 17,
+          "censored_threshold_events": 63,
+          "coverage": 0.9,
+          "aggregate_coverage": 0.90625,
+          "included": true,
+          "reasons": []
+        },
+        "washing_machine": {
+          "valid_samples": 136080,
+          "observed_days": 12.6,
+          "missing_fraction": 0.09999999999999998,
+          "active_samples": 11835,
+          "complete_threshold_events": 453,
+          "censored_threshold_events": 789,
+          "coverage": 0.9,
+          "aggregate_coverage": 0.90625,
+          "included": true,
+          "reasons": []
+        }
+      }
+    },
+    {
+      "partition_id": "source_train_refit_10_1",
+      "household_id": "refit_10",
+      "role": "source_train",
+      "start": "2013-12-22T12:48:56Z",
+      "end": "2014-01-05T11:48:56Z",
+      "devices": {
+        "kettle": {
+          "included": false,
+          "reasons": [
+            "unmonitored_channel"
+          ]
+        },
+        "microwave": {
+          "valid_samples": 142036,
+          "observed_days": 13.15148148148148,
+          "missing_fraction": 0.05780431177446099,
+          "active_samples": 717,
+          "complete_threshold_events": 26,
+          "censored_threshold_events": 57,
+          "coverage": 0.942195688225539,
+          "aggregate_coverage": 0.953592039800995,
+          "included": true,
+          "reasons": []
+        },
+        "washing_machine": {
+          "valid_samples": 142036,
+          "observed_days": 13.15148148148148,
+          "missing_fraction": 0.05780431177446099,
+          "active_samples": 13649,
+          "complete_threshold_events": 557,
+          "censored_threshold_events": 817,
+          "coverage": 0.942195688225539,
+          "aggregate_coverage": 0.953592039800995,
+          "included": true,
+          "reasons": []
+        }
+      }
+    },
+    {
+      "partition_id": "source_train_refit_12_0",
+      "household_id": "refit_12",
+      "role": "source_train",
+      "start": "2014-10-08T08:33:12Z",
+      "end": "2014-10-22T08:33:12Z",
+      "devices": {
+        "kettle": {
+          "valid_samples": 136080,
+          "observed_days": 12.6,
+          "missing_fraction": 0.09999999999999998,
+          "active_samples": 0,
+          "complete_threshold_events": 0,
+          "censored_threshold_events": 0,
+          "coverage": 0.9,
+          "aggregate_coverage": 0.9021560846560847,
+          "included": false,
+          "reasons": [
+            "insufficient_complete_events"
+          ]
+        },
+        "microwave": {
+          "valid_samples": 136080,
+          "observed_days": 12.6,
+          "missing_fraction": 0.09999999999999998,
+          "active_samples": 175,
+          "complete_threshold_events": 3,
+          "censored_threshold_events": 28,
+          "coverage": 0.9,
+          "aggregate_coverage": 0.9021560846560847,
+          "included": true,
+          "reasons": []
+        },
+        "washing_machine": {
+          "included": false,
+          "reasons": [
+            "unmonitored_channel"
+          ]
+        }
+      }
+    },
+    {
+      "partition_id": "source_train_refit_12_1",
+      "household_id": "refit_12",
+      "role": "source_train",
+      "start": "2014-10-22T09:33:12Z",
+      "end": "2014-11-05T08:33:12Z",
+      "devices": {
+        "kettle": {
+          "valid_samples": 138848,
+          "observed_days": 12.856296296296296,
+          "missing_fraction": 0.07895190713101163,
+          "active_samples": 0,
+          "complete_threshold_events": 0,
+          "censored_threshold_events": 0,
+          "coverage": 0.9210480928689884,
+          "aggregate_coverage": 0.9231774461028193,
+          "included": false,
+          "reasons": [
+            "insufficient_complete_events"
+          ]
+        },
+        "microwave": {
+          "valid_samples": 138848,
+          "observed_days": 12.856296296296296,
+          "missing_fraction": 0.07895190713101163,
+          "active_samples": 153,
+          "complete_threshold_events": 4,
+          "censored_threshold_events": 5,
+          "coverage": 0.9210480928689884,
+          "aggregate_coverage": 0.9231774461028193,
+          "included": true,
+          "reasons": []
+        },
+        "washing_machine": {
+          "included": false,
+          "reasons": [
+            "unmonitored_channel"
+          ]
+        }
+      }
+    },
+    {
+      "partition_id": "source_train_refit_15_0",
+      "household_id": "refit_15",
+      "role": "source_train",
+      "start": "2014-09-29T05:50:32Z",
+      "end": "2014-10-13T05:50:32Z",
+      "devices": {
+        "kettle": {
+          "included": false,
+          "reasons": [
+            "unmonitored_channel"
+          ]
+        },
+        "microwave": {
+          "valid_samples": 136080,
+          "observed_days": 12.6,
+          "missing_fraction": 0.09999999999999998,
+          "active_samples": 209,
+          "complete_threshold_events": 2,
+          "censored_threshold_events": 24,
+          "coverage": 0.9,
+          "aggregate_coverage": 0.9039153439153439,
+          "included": true,
+          "reasons": []
+        },
+        "washing_machine": {
+          "valid_samples": 136080,
+          "observed_days": 12.6,
+          "missing_fraction": 0.09999999999999998,
+          "active_samples": 2977,
+          "complete_threshold_events": 128,
+          "censored_threshold_events": 408,
+          "coverage": 0.9,
+          "aggregate_coverage": 0.9039153439153439,
+          "included": true,
+          "reasons": []
+        }
+      }
+    },
+    {
+      "partition_id": "source_train_refit_15_1",
+      "household_id": "refit_15",
+      "role": "source_train",
+      "start": "2014-10-13T06:50:32Z",
+      "end": "2014-10-27T05:50:32Z",
+      "devices": {
+        "kettle": {
+          "included": false,
+          "reasons": [
+            "unmonitored_channel"
+          ]
+        },
+        "microwave": {
+          "valid_samples": 149666,
+          "observed_days": 13.857962962962963,
+          "missing_fraction": 0.007190713101160817,
+          "active_samples": 345,
+          "complete_threshold_events": 4,
+          "censored_threshold_events": 7,
+          "coverage": 0.9928092868988392,
+          "aggregate_coverage": 0.996530679933665,
+          "included": true,
+          "reasons": []
+        },
+        "washing_machine": {
+          "valid_samples": 149666,
+          "observed_days": 13.857962962962963,
+          "missing_fraction": 0.007190713101160817,
+          "active_samples": 2844,
+          "complete_threshold_events": 96,
+          "censored_threshold_events": 188,
+          "coverage": 0.9928092868988392,
+          "aggregate_coverage": 0.996530679933665,
+          "included": true,
+          "reasons": []
+        }
+      }
+    },
+    {
+      "partition_id": "source_train_refit_16_0",
+      "household_id": "refit_16",
+      "role": "source_train",
+      "start": "2014-08-17T06:52:00Z",
+      "end": "2014-08-31T06:52:00Z",
+      "devices": {
+        "kettle": {
+          "included": false,
+          "reasons": [
+            "unmonitored_channel"
+          ]
+        },
+        "microwave": {
+          "included": false,
+          "reasons": [
+            "unmonitored_channel"
+          ]
+        },
+        "washing_machine": {
+          "valid_samples": 136896,
+          "observed_days": 12.675555555555556,
+          "missing_fraction": 0.09460317460317458,
+          "active_samples": 5122,
+          "complete_threshold_events": 346,
+          "censored_threshold_events": 303,
+          "coverage": 0.9053968253968254,
+          "aggregate_coverage": 0.9071560846560847,
+          "included": true,
+          "reasons": []
+        }
+      }
+    },
+    {
+      "partition_id": "source_train_refit_16_1",
+      "household_id": "refit_16",
+      "role": "source_train",
+      "start": "2014-08-31T07:52:00Z",
+      "end": "2014-09-14T06:52:00Z",
+      "devices": {
+        "kettle": {
+          "included": false,
+          "reasons": [
+            "unmonitored_channel"
+          ]
+        },
+        "microwave": {
+          "included": false,
+          "reasons": [
+            "unmonitored_channel"
+          ]
+        },
+        "washing_machine": {
+          "valid_samples": 135675,
+          "observed_days": 12.5625,
+          "missing_fraction": 0.09999999999999998,
+          "active_samples": 4878,
+          "complete_threshold_events": 388,
+          "censored_threshold_events": 164,
+          "coverage": 0.9,
+          "aggregate_coverage": 0.9020364842454395,
+          "included": true,
+          "reasons": []
+        }
+      }
+    },
+    {
+      "partition_id": "source_train_refit_18_0",
+      "household_id": "refit_18",
+      "role": "source_train",
+      "start": "2014-11-05T01:55:28Z",
+      "end": "2014-11-19T01:55:28Z",
+      "devices": {
+        "kettle": {
+          "included": false,
+          "reasons": [
+            "unmonitored_channel"
+          ]
+        },
+        "microwave": {
+          "valid_samples": 136080,
+          "observed_days": 12.6,
+          "missing_fraction": 0.09999999999999998,
+          "active_samples": 88,
+          "complete_threshold_events": 9,
+          "censored_threshold_events": 4,
+          "coverage": 0.9,
+          "aggregate_coverage": 0.9051917989417989,
+          "included": true,
+          "reasons": []
+        },
+        "washing_machine": {
+          "valid_samples": 136080,
+          "observed_days": 12.6,
+          "missing_fraction": 0.09999999999999998,
+          "active_samples": 1510,
+          "complete_threshold_events": 73,
+          "censored_threshold_events": 57,
+          "coverage": 0.9,
+          "aggregate_coverage": 0.9051917989417989,
+          "included": true,
+          "reasons": []
+        }
+      }
+    },
+    {
+      "partition_id": "source_train_refit_18_1",
+      "household_id": "refit_18",
+      "role": "source_train",
+      "start": "2014-11-19T02:55:28Z",
+      "end": "2014-12-03T01:55:28Z",
+      "devices": {
+        "kettle": {
+          "included": false,
+          "reasons": [
+            "unmonitored_channel"
+          ]
+        },
+        "microwave": {
+          "valid_samples": 149660,
+          "observed_days": 13.857407407407408,
+          "missing_fraction": 0.007230514096185692,
+          "active_samples": 242,
+          "complete_threshold_events": 15,
+          "censored_threshold_events": 34,
+          "coverage": 0.9927694859038143,
+          "aggregate_coverage": 0.9990116086235489,
+          "included": true,
+          "reasons": []
+        },
+        "washing_machine": {
+          "valid_samples": 149660,
+          "observed_days": 13.857407407407408,
+          "missing_fraction": 0.007230514096185692,
+          "active_samples": 1977,
+          "complete_threshold_events": 103,
+          "censored_threshold_events": 102,
+          "coverage": 0.9927694859038143,
+          "aggregate_coverage": 0.9990116086235489,
+          "included": true,
+          "reasons": []
+        }
+      }
+    },
+    {
+      "partition_id": "source_validation_refit_5_0",
+      "household_id": "refit_5",
+      "role": "source_validation",
+      "start": "2014-11-14T20:53:44Z",
+      "end": "2014-11-28T20:53:44Z",
+      "devices": {
+        "kettle": {
+          "valid_samples": 137473,
+          "observed_days": 12.728981481481481,
+          "missing_fraction": 0.09078703703703705,
+          "active_samples": 936,
+          "complete_threshold_events": 47,
+          "censored_threshold_events": 64,
+          "coverage": 0.909212962962963,
+          "aggregate_coverage": 0.9879828042328043,
+          "included": true,
+          "reasons": []
+        },
+        "microwave": {
+          "valid_samples": 137473,
+          "observed_days": 12.728981481481481,
+          "missing_fraction": 0.09078703703703705,
+          "active_samples": 2141,
+          "complete_threshold_events": 78,
+          "censored_threshold_events": 132,
+          "coverage": 0.909212962962963,
+          "aggregate_coverage": 0.9879828042328043,
+          "included": true,
+          "reasons": []
+        },
+        "washing_machine": {
+          "valid_samples": 137473,
+          "observed_days": 12.728981481481481,
+          "missing_fraction": 0.09078703703703705,
+          "active_samples": 4417,
+          "complete_threshold_events": 112,
+          "censored_threshold_events": 220,
+          "coverage": 0.909212962962963,
+          "aggregate_coverage": 0.9879828042328043,
+          "included": true,
+          "reasons": []
+        }
+      }
+    },
+    {
+      "partition_id": "frozen_test_refit_17_0",
+      "household_id": "refit_17",
+      "role": "frozen_test",
+      "start": "2014-10-14T09:13:12Z",
+      "end": "2014-10-28T08:13:12Z",
+      "devices": {
+        "kettle": {
+          "valid_samples": 141009,
+          "observed_days": 13.05638888888889,
+          "missing_fraction": 0.06461691542288561,
+          "active_samples": 1012,
+          "complete_threshold_events": 56,
+          "censored_threshold_events": 81,
+          "coverage": 0.9353830845771144,
+          "aggregate_coverage": 0.9482719734660033,
+          "included": true,
+          "reasons": []
+        },
+        "microwave": {
+          "valid_samples": 141009,
+          "observed_days": 13.05638888888889,
+          "missing_fraction": 0.06461691542288561,
+          "active_samples": 383,
+          "complete_threshold_events": 27,
+          "censored_threshold_events": 25,
+          "coverage": 0.9353830845771144,
+          "aggregate_coverage": 0.9482719734660033,
+          "included": true,
+          "reasons": []
+        },
+        "washing_machine": {
+          "valid_samples": 141009,
+          "observed_days": 13.05638888888889,
+          "missing_fraction": 0.06461691542288561,
+          "active_samples": 3159,
+          "complete_threshold_events": 117,
+          "censored_threshold_events": 308,
+          "coverage": 0.9353830845771144,
+          "aggregate_coverage": 0.9482719734660033,
+          "included": true,
+          "reasons": []
+        }
+      }
+    }
+  ]
+}

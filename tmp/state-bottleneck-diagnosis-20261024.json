@@ -1,0 +1,457 @@
+{
+  "purpose": "read_only_bottleneck_diagnosis",
+  "posthoc_cutoffs_not_deployable": true,
+  "final_households_accessed": false,
+  "rows": [
+    {
+      "candidate": "C31",
+      "seed": 42,
+      "training_common": {
+        "samples": 134673,
+        "positives": 559,
+        "prevalence": 0.004150794888359211,
+        "AP": 0.14491123873233488,
+        "P_at_R85_posthoc": 0.1361945636623748,
+        "FPR_at_R85_posthoc": 0.022510699852364407,
+        "max_F1_posthoc": 0.2564459930313589
+      },
+      "validation_common": {
+        "samples": 110467,
+        "positives": 1402,
+        "prevalence": 0.012691573048964849,
+        "AP": 0.25671294036643405,
+        "P_at_R85_posthoc": 0.188285175879397,
+        "FPR_at_R85_posthoc": 0.04739375601705405,
+        "max_F1_posthoc": 0.3720524017467249
+      },
+      "development_common": {
+        "samples": 134315,
+        "positives": 371,
+        "prevalence": 0.002762163570710643,
+        "AP": 0.03437160225777262,
+        "P_at_R85_posthoc": 0.038817005545286505,
+        "FPR_at_R85_posthoc": 0.06599773039479186,
+        "max_F1_posthoc": 0.074623745819398
+      }
+    },
+    {
+      "candidate": "C31",
+      "seed": 1019,
+      "training_common": {
+        "samples": 134673,
+        "positives": 559,
+        "prevalence": 0.004150794888359211,
+        "AP": 0.31008000733825364,
+        "P_at_R85_posthoc": 0.21043324491600354,
+        "FPR_at_R85_posthoc": 0.013317028796397096,
+        "max_F1_posthoc": 0.42530120481927713
+      },
+      "validation_common": {
+        "samples": 110467,
+        "positives": 1402,
+        "prevalence": 0.012691573048964849,
+        "AP": 0.31948868677853853,
+        "P_at_R85_posthoc": 0.13077259794265703,
+        "FPR_at_R85_posthoc": 0.0728281300142117,
+        "max_F1_posthoc": 0.39307921059745876
+      },
+      "development_common": {
+        "samples": 134315,
+        "positives": 371,
+        "prevalence": 0.002762163570710643,
+        "AP": 0.06854587103925235,
+        "P_at_R85_posthoc": 0.04638191692352855,
+        "FPR_at_R85_posthoc": 0.04850534551752971,
+        "max_F1_posthoc": 0.16223776223776223
+      }
+    },
+    {
+      "candidate": "C31",
+      "seed": 2026,
+      "training_common": {
+        "samples": 134673,
+        "positives": 559,
+        "prevalence": 0.004150794888359211,
+        "AP": 0.2067295555218316,
+        "P_at_R85_posthoc": 0.16062520784835385,
+        "FPR_at_R85_posthoc": 0.01881981001237753,
+        "max_F1_posthoc": 0.33112582781456956
+      },
+      "validation_common": {
+        "samples": 110467,
+        "positives": 1402,
+        "prevalence": 0.012691573048964849,
+        "AP": 0.25989983218082857,
+        "P_at_R85_posthoc": 0.1155446293494705,
+        "FPR_at_R85_posthoc": 0.08576536927520285,
+        "max_F1_posthoc": 0.3490175801447777
+      },
+      "development_common": {
+        "samples": 134315,
+        "positives": 371,
+        "prevalence": 0.002762163570710643,
+        "AP": 0.0492516157408782,
+        "P_at_R85_posthoc": 0.03990463044296649,
+        "FPR_at_R85_posthoc": 0.057120886340560235,
+        "max_F1_posthoc": 0.09516500383729855
+      }
+    },
+    {
+      "candidate": "C61",
+      "seed": 42,
+      "training_common": {
+        "samples": 134673,
+        "positives": 559,
+        "prevalence": 0.004150794888359211,
+        "AP": 0.18717922060746034,
+        "P_at_R85_posthoc": 0.1640248104755341,
+        "FPR_at_R85_posthoc": 0.01808908838749124,
+        "max_F1_posthoc": 0.30198446937014667
+      },
+      "validation_common": {
+        "samples": 110467,
+        "positives": 1402,
+        "prevalence": 0.012691573048964849,
+        "AP": 0.22690864403708946,
+        "P_at_R85_posthoc": 0.19058260175578612,
+        "FPR_at_R85_posthoc": 0.0464952092788704,
+        "max_F1_posthoc": 0.35831145223187233
+      },
+      "development_common": {
+        "samples": 134315,
+        "positives": 371,
+        "prevalence": 0.002762163570710643,
+        "AP": 0.058614184558287034,
+        "P_at_R85_posthoc": 0.039961366654593745,
+        "FPR_at_R85_posthoc": 0.05936809412888969,
+        "max_F1_posthoc": 0.10236220472440945
+      }
+    },
+    {
+      "candidate": "C61",
+      "seed": 1019,
+      "training_common": {
+        "samples": 134673,
+        "positives": 559,
+        "prevalence": 0.004150794888359211,
+        "AP": 0.24308186982652438,
+        "P_at_R85_posthoc": 0.19597370583401807,
+        "FPR_at_R85_posthoc": 0.014592063468392561,
+        "max_F1_posthoc": 0.33879222108495394
+      },
+      "validation_common": {
+        "samples": 110467,
+        "positives": 1402,
+        "prevalence": 0.012691573048964849,
+        "AP": 0.2859347924888799,
+        "P_at_R85_posthoc": 0.1931302657161374,
+        "FPR_at_R85_posthoc": 0.04566084445055701,
+        "max_F1_posthoc": 0.3927307056879868
+      },
+      "development_common": {
+        "samples": 134315,
+        "positives": 371,
+        "prevalence": 0.002762163570710643,
+        "AP": 0.09569692178780702,
+        "P_at_R85_posthoc": 0.0434185215718604,
+        "FPR_at_R85_posthoc": 0.051976945589201455,
+        "max_F1_posthoc": 0.1446280991735537
+      }
+    },
+    {
+      "candidate": "C61",
+      "seed": 2026,
+      "training_common": {
+        "samples": 134673,
+        "positives": 559,
+        "prevalence": 0.004150794888359211,
+        "AP": 0.14972854510327474,
+        "P_at_R85_posthoc": 0.16109422492401215,
+        "FPR_at_R85_posthoc": 0.018521556287934147,
+        "max_F1_posthoc": 0.2747716092761771
+      },
+      "validation_common": {
+        "samples": 110467,
+        "positives": 1402,
+        "prevalence": 0.012691573048964849,
+        "AP": 0.24181911996586292,
+        "P_at_R85_posthoc": 0.1808252427184466,
+        "FPR_at_R85_posthoc": 0.049511759042772656,
+        "max_F1_posthoc": 0.3414893617021277
+      },
+      "development_common": {
+        "samples": 134315,
+        "positives": 371,
+        "prevalence": 0.002762163570710643,
+        "AP": 0.04118450323396684,
+        "P_at_R85_posthoc": 0.044543429844097995,
+        "FPR_at_R85_posthoc": 0.054448127575703276,
+        "max_F1_posthoc": 0.08582150432370697
+      }
+    },
+    {
+      "candidate": "C_EVENT",
+      "seed": 42,
+      "validation_common": {
+        "samples": 110467,
+        "positives": 1402,
+        "prevalence": 0.012691573048964849,
+        "AP": 0.24183191972688056,
+        "P_at_R85_posthoc": 0.18489219792151387,
+        "FPR_at_R85_posthoc": 0.04818227662403154,
+        "max_F1_posthoc": 0.3487346180636174
+      },
+      "development_common": {
+        "samples": 134315,
+        "positives": 371,
+        "prevalence": 0.002762163570710643,
+        "AP": 0.04888349717579719,
+        "P_at_R85_posthoc": 0.03981867189414359,
+        "FPR_at_R85_posthoc": 0.05850952636922893,
+        "max_F1_posthoc": 0.09069767441860466
+      }
+    },
+    {
+      "candidate": "C_EVENT",
+      "seed": 1019,
+      "validation_common": {
+        "samples": 110467,
+        "positives": 1402,
+        "prevalence": 0.012691573048964849,
+        "AP": 0.27040242109709967,
+        "P_at_R85_posthoc": 0.19173234679105677,
+        "FPR_at_R85_posthoc": 0.04607344244258011,
+        "max_F1_posthoc": 0.36724922192961457
+      },
+      "development_common": {
+        "samples": 134315,
+        "positives": 371,
+        "prevalence": 0.002762163570710643,
+        "AP": 0.04881703169842912,
+        "P_at_R85_posthoc": 0.040363636363636365,
+        "FPR_at_R85_posthoc": 0.05910679089768859,
+        "max_F1_posthoc": 0.10955414012738854
+      }
+    },
+    {
+      "candidate": "C_EVENT",
+      "seed": 2026,
+      "validation_common": {
+        "samples": 110467,
+        "positives": 1402,
+        "prevalence": 0.012691573048964849,
+        "AP": 0.2055328346526778,
+        "P_at_R85_posthoc": 0.12106439163111923,
+        "FPR_at_R85_posthoc": 0.07934717828817678,
+        "max_F1_posthoc": 0.3103806228373702
+      },
+      "development_common": {
+        "samples": 134315,
+        "positives": 371,
+        "prevalence": 0.002762163570710643,
+        "AP": 0.03050618638340833,
+        "P_at_R85_posthoc": 0.029439165269237934,
+        "FPR_at_R85_posthoc": 0.07777877321865855,
+        "max_F1_posthoc": 0.0778382053025153
+      }
+    },
+    {
+      "candidate": "C_HARD",
+      "seed": 42,
+      "validation_common": {
+        "samples": 110467,
+        "positives": 1402,
+        "prevalence": 0.012691573048964849,
+        "AP": 0.3422923796621104,
+        "P_at_R85_posthoc": 0.17638354542764131,
+        "FPR_at_R85_posthoc": 0.05103378719112456,
+        "max_F1_posthoc": 0.3852005532503458
+      },
+      "development_common": {
+        "samples": 134315,
+        "positives": 371,
+        "prevalence": 0.002762163570710643,
+        "AP": 0.06562549919541576,
+        "P_at_R85_posthoc": 0.045212019095759615,
+        "FPR_at_R85_posthoc": 0.050767484919070655,
+        "max_F1_posthoc": 0.14375987361769352
+      }
+    },
+    {
+      "candidate": "C_HARD",
+      "seed": 1019,
+      "validation_common": {
+        "samples": 110467,
+        "positives": 1402,
+        "prevalence": 0.012691573048964849,
+        "AP": 0.20064174938249654,
+        "P_at_R85_posthoc": 0.1515950766139161,
+        "FPR_at_R85_posthoc": 0.061935543024801726,
+        "max_F1_posthoc": 0.289122523251112
+      },
+      "development_common": {
+        "samples": 134315,
+        "positives": 371,
+        "prevalence": 0.002762163570710643,
+        "AP": 0.030633722891982657,
+        "P_at_R85_posthoc": 0.03350409836065574,
+        "FPR_at_R85_posthoc": 0.07042495371199904,
+        "max_F1_posthoc": 0.07206026858827383
+      }
+    },
+    {
+      "candidate": "C_HARD",
+      "seed": 2026,
+      "validation_common": {
+        "samples": 110467,
+        "positives": 1402,
+        "prevalence": 0.012691573048964849,
+        "AP": 0.2890649261678114,
+        "P_at_R85_posthoc": 0.12209828157974073,
+        "FPR_at_R85_posthoc": 0.08009902351808555,
+        "max_F1_posthoc": 0.37403675163011263
+      },
+      "development_common": {
+        "samples": 134315,
+        "positives": 371,
+        "prevalence": 0.002762163570710643,
+        "AP": 0.0678570124193815,
+        "P_at_R85_posthoc": 0.04375,
+        "FPR_at_R85_posthoc": 0.05482888371259631,
+        "max_F1_posthoc": 0.14175257731958762
+      }
+    },
+    {
+      "candidate": "C_FEATURES",
+      "seed": 42,
+      "validation_common": {
+        "samples": 110467,
+        "positives": 1402,
+        "prevalence": 0.012691573048964849,
+        "AP": 0.2634837726927965,
+        "P_at_R85_posthoc": 0.2082459818308875,
+        "FPR_at_R85_posthoc": 0.04155320221886031,
+        "max_F1_posthoc": 0.36108865534896256
+      },
+      "development_common": {
+        "samples": 134315,
+        "positives": 371,
+        "prevalence": 0.002762163570710643,
+        "AP": 0.03346023019230204,
+        "P_at_R85_posthoc": 0.04050329538645896,
+        "FPR_at_R85_posthoc": 0.0597787134922057,
+        "max_F1_posthoc": 0.0800632911392405
+      }
+    },
+    {
+      "candidate": "C_FEATURES",
+      "seed": 1019,
+      "validation_common": {
+        "samples": 110467,
+        "positives": 1402,
+        "prevalence": 0.012691573048964849,
+        "AP": 0.2633503000376979,
+        "P_at_R85_posthoc": 0.19592373438527286,
+        "FPR_at_R85_posthoc": 0.044853986155045156,
+        "max_F1_posthoc": 0.3935372186959031
+      },
+      "development_common": {
+        "samples": 134315,
+        "positives": 371,
+        "prevalence": 0.002762163570710643,
+        "AP": 0.03143469484304981,
+        "P_at_R85_posthoc": 0.03971345984667588,
+        "FPR_at_R85_posthoc": 0.05704622827450278,
+        "max_F1_posthoc": 0.07849478171394973
+      }
+    },
+    {
+      "candidate": "C_FEATURES",
+      "seed": 2026,
+      "validation_common": {
+        "samples": 110467,
+        "positives": 1402,
+        "prevalence": 0.012691573048964849,
+        "AP": 0.23037809222491598,
+        "P_at_R85_posthoc": 0.18494957331264547,
+        "FPR_at_R85_posthoc": 0.04816393893549718,
+        "max_F1_posthoc": 0.33472415391747795
+      },
+      "development_common": {
+        "samples": 134315,
+        "positives": 371,
+        "prevalence": 0.002762163570710643,
+        "AP": 0.029324737316667845,
+        "P_at_R85_posthoc": 0.037058754544388416,
+        "FPR_at_R85_posthoc": 0.061301738039777814,
+        "max_F1_posthoc": 0.07425742574257425
+      }
+    },
+    {
+      "candidate": "R_PR",
+      "seed": 42,
+      "validation_common": {
+        "samples": 110467,
+        "positives": 1402,
+        "prevalence": 0.012691573048964849,
+        "AP": 0.343830204170432,
+        "P_at_R85_posthoc": 0.15903036760788491,
+        "FPR_at_R85_posthoc": 0.05789208270297529,
+        "max_F1_posthoc": 0.3521739130434783
+      },
+      "development_common": {
+        "samples": 134315,
+        "positives": 371,
+        "prevalence": 0.002762163570710643,
+        "AP": 0.04902938828794718,
+        "P_at_R85_posthoc": 0.037839779667105736,
+        "FPR_at_R85_posthoc": 0.059987756077166575,
+        "max_F1_posthoc": 0.09304274937133278
+      }
+    },
+    {
+      "candidate": "R_PR",
+      "seed": 1019,
+      "validation_common": {
+        "samples": 110467,
+        "positives": 1402,
+        "prevalence": 0.012691573048964849,
+        "AP": 0.36479431463907575,
+        "P_at_R85_posthoc": 0.1581950895819509,
+        "FPR_at_R85_posthoc": 0.05815797918672351,
+        "max_F1_posthoc": 0.37669043521022866
+      },
+      "development_common": {
+        "samples": 134315,
+        "positives": 371,
+        "prevalence": 0.002762163570710643,
+        "AP": 0.05863277153298311,
+        "P_at_R85_posthoc": 0.04455647908434392,
+        "FPR_at_R85_posthoc": 0.052350235919488744,
+        "max_F1_posthoc": 0.1370338248048569
+      }
+    },
+    {
+      "candidate": "R_PR",
+      "seed": 2026,
+      "validation_common": {
+        "samples": 110467,
+        "positives": 1402,
+        "prevalence": 0.012691573048964849,
+        "AP": 0.3340701540410638,
+        "P_at_R85_posthoc": 0.20871238628411476,
+        "FPR_at_R85_posthoc": 0.04147068262045569,
+        "max_F1_posthoc": 0.37134778510838834
+      },
+      "development_common": {
+        "samples": 134315,
+        "positives": 371,
+        "prevalence": 0.002762163570710643,
+        "AP": 0.07319289429642363,
+        "P_at_R85_posthoc": 0.04934057408844065,
+        "FPR_at_R85_posthoc": 0.04574299707340381,
+        "max_F1_posthoc": 0.11538461538461539
+      }
+    }
+  ]
+}

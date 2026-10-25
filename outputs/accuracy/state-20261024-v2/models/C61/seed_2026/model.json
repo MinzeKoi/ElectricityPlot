@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "kind": "microwave_state_classifier_v1",
+  "candidate": "C61",
+  "seed": 2026,
+  "window_samples": 61,
+  "features": false,
+  "batch_size": 256,
+  "cpu_threads": 4,
+  "input_log_mean": 5.370561599731445,
+  "input_log_std": 0.8337093591690063,
+  "truth_threshold_w": 200,
+  "protocol_sha256": "4b279a803a5e02bce474ee8215f3d006de14683e91d34bfce32ef8d8b82eb1c5",
+  "code_sha256": "4ccfbc60dcff36fff887312a6896bc3ec3df3ff33bccc269fc0b6d35868fd25f",
+  "source_train_windows": {
+    "source_train_refit_2_0": 78700,
+    "source_train_refit_19_0": 55973
+  },
+  "source_validation_windows": {
+    "source_validation_refit_5_0": 110467
+  },
+  "parameter_count": 15929,
+  "optimizer_steps": 3528,
+  "target_labels_read": false,
+  "confirmation_budget": 0,
+  "selected_epoch": 8,
+  "decision_threshold_probability": 0.5327664017677307,
+  "source_selection": {
+    "threshold": 0.5327664017677307,
+    "precision": 0.1808252427184466,
+    "recall": 0.8502139800285307,
+    "f1": 0.2982236677508131,
+    "tp": 1192,
+    "fp": 5400,
+    "fn": 210
+  },
+  "weights_sha256": "755f5af4a24df21e9571654ec796c17adb096b13eaa725afa41a015a2d32005d"
+}

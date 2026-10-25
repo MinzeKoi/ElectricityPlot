@@ -1,0 +1,12 @@
+{
+  "reason": "Formatting only: repeat table header after household note; label absolute F1 differences as percentage points. No metric, protocol, model, prediction or run artifact changed.",
+  "original_delivery_sha256": "0939a315124acbe1f5d2828fee55bc9935502febd66dc16f7062ea71d6f074de",
+  "original_report_preserved": "docs/MICROWAVE_SAMPLING_REPORT_20261025.initial.md",
+  "artifacts": {
+    "docs/MICROWAVE_SAMPLING_REPORT_20261025.initial.md": "49ca48ced2d76d11fb1e67af626f8e01674e2bed7e1998cc59b6314cb3ecbf51",
+    "docs/MICROWAVE_SAMPLING_REPORT_20261025.md": "32f93fe23ac7fe72f4ecbaa003df47f68266c17cc0e8505413b5b7d7c69676e1",
+    "docs/MICROWAVE_SAMPLING_DELIVERY_20261025.json": "0939a315124acbe1f5d2828fee55bc9935502febd66dc16f7062ea71d6f074de",
+    "scripts/summarize_microwave_sampling.py": "4d4c9a04feb41b42fabc414749957ee8e49839fee38e16831bc5f64a13b734eb",
+    "scripts/correct_microwave_sampling_report_layout.py": "2d1d53a2c5735ef3b9e74e1c7fdcf4419dc4b6d59de8e28b209b6647b823562d"
+  }
+}

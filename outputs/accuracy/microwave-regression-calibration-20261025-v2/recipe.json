@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "score": "ordinary microwave raw_power_w before consistency correction",
+  "decision": "raw_power_w >= threshold_w; missing -> unavailable",
+  "selected": "W50",
+  "models": [
+    {
+      "candidate": "W50",
+      "seed": 42,
+      "model_path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\precision-20261024-v1\\models\\W50\\seed_42",
+      "model_sha256": "4c4bdcd18347f41410dda15bb53a086e59b2995bce6b54ea16850ad173143583",
+      "weights_sha256": "3ba70b4c261695d71d47972fd7acd052a1e9f213f7d58dac0681e8ad85e9321d",
+      "threshold_w": 118.97454833984375,
+      "source_gate_passed": true
+    },
+    {
+      "candidate": "W50",
+      "seed": 1019,
+      "model_path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\precision-20261024-v1\\models\\W50\\seed_1019",
+      "model_sha256": "3c174dcf0db00c4ce4135447e46c7e3ba2f89c84431e7abc476f3198d2445b5f",
+      "weights_sha256": "4ff40d0b845ab5bd84dbcfbcf0802f26015a4bd7c0506575610199f894bb6aae",
+      "threshold_w": 118.65302276611328,
+      "source_gate_passed": true
+    },
+    {
+      "candidate": "W50",
+      "seed": 2026,
+      "model_path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\precision-20261024-v1\\models\\W50\\seed_2026",
+      "model_sha256": "93b7740cbc2a9e7ccfed59e4172ddb680f3d42a43d8b51669ed438e6d9ed77ff",
+      "weights_sha256": "d75ae30c303c18a2973c4f6a559c1ba86ff1caa573d16b9790635da25362b697",
+      "threshold_w": 125.88843536376953,
+      "source_gate_passed": true
+    },
+    {
+      "candidate": "W10",
+      "seed": 42,
+      "model_path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\precision-20261024-v1\\models\\W10\\seed_42",
+      "model_sha256": "2640f53976638f70bd953d352667394bc47f1a4d3731dc03e03995591525fc16",
+      "weights_sha256": "c1662ba0ebe9660c7ca25dd4eb2a7d0d6e5d79f087d98921411be95935326826",
+      "threshold_w": 23.03774070739746,
+      "source_gate_passed": true
+    },
+    {
+      "candidate": "W10",
+      "seed": 1019,
+      "model_path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\precision-20261024-v1\\models\\W10\\seed_1019",
+      "model_sha256": "590f78fa9962a123c8bb669a6f0942b4b1adc3a773e937c60afdd70b8ca2cabf",
+      "weights_sha256": "eaf275f26780e3ced21e9bd1d239afac1b8e811760a859ed99f9d1b811f0077f",
+      "threshold_w": 6.976376533508301,
+      "source_gate_passed": true
+    },
+    {
+      "candidate": "W10",
+      "seed": 2026,
+      "model_path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\precision-20261024-v1\\models\\W10\\seed_2026",
+      "model_sha256": "46dfcb3648ce87064783e462807c1c054a28bf53f07f349e2c1f4cd4a3951b47",
+      "weights_sha256": "61dfa1b2f5b0d2cc1dbf2e5c6800e6a296f024058ab8f6463ab0fe2bad3098bf",
+      "threshold_w": 10.096916198730469,
+      "source_gate_passed": true
+    },
+    {
+      "candidate": "W1",
+      "seed": 42,
+      "model_path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\precision-20261024-v1\\models\\W1\\seed_42",
+      "model_sha256": "396bdeed27b2f5c0c7bf1d9968bccee7ae3b4fe0c7b68adeba92ff45c843ef79",
+      "weights_sha256": "7eafc345c15f9752e3ab8aaa232f05d22d0cbb4999972c1f705b8586beda2d84",
+      "threshold_w": 0.00015169191465247422,
+      "source_gate_passed": true
+    },
+    {
+      "candidate": "W1",
+      "seed": 1019,
+      "model_path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\precision-20261024-v1\\models\\W1\\seed_1019",
+      "model_sha256": "fb68cb2c66255462e3ea2984714048ae72dbaf70d9c2460c722010856dfabe6c",
+      "weights_sha256": "7313caf39fb09b376b2f21c75fa15e05cfd69a2ea2c37ed0db2d4db285f5a232",
+      "threshold_w": 0.0002908156020566821,
+      "source_gate_passed": true
+    },
+    {
+      "candidate": "W1",
+      "seed": 2026,
+      "model_path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\precision-20261024-v1\\models\\W1\\seed_2026",
+      "model_sha256": "ac9fc40d660fdaa6510b00a01bbc573808f7e26bf323a044ba6543c5f1b9afcc",
+      "weights_sha256": "d047ad6603efb49cf1ea475d1d95ac9a882bd1875a86bd3dd96b381427d567a9",
+      "threshold_w": 5.070059501122159e-07,
+      "source_gate_passed": true
+    },
+    {
+      "candidate": "W50_HN",
+      "seed": 42,
+      "model_path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\precision-20261024-v1\\models\\W50_HN\\seed_42",
+      "model_sha256": "454aa1a4fba131028ff5e5f58e14c609769fc7092df153eaa3c309d477bd38fd",
+      "weights_sha256": "1f264b455f5ab345bd0031de89b81c4dc781d79f10645fbb9f79b5841eda8d6b",
+      "threshold_w": 137.38824462890625,
+      "source_gate_passed": true
+    },
+    {
+      "candidate": "W50_HN",
+      "seed": 1019,
+      "model_path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\precision-20261024-v1\\models\\W50_HN\\seed_1019",
+      "model_sha256": "258e87e5127f51dd59183adb2f744c5773187770f6903a82c57a649d432a74bc",
+      "weights_sha256": "05baa882f93357a0e884dbf927aa39714cb31045f727ee52e18f2b95fd327423",
+      "threshold_w": 107.5514144897461,
+      "source_gate_passed": true
+    },
+    {
+      "candidate": "W50_HN",
+      "seed": 2026,
+      "model_path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\precision-20261024-v1\\models\\W50_HN\\seed_2026",
+      "model_sha256": "3b4fbd079a67196c1306777a89e47d689a22bd8eb1ef1759968dbe31498a2126",
+      "weights_sha256": "9edc50a61fd2cee23a6cf6f0f85921783c9cc459026f10477193fa7ec53ea878",
+      "threshold_w": 23.884490966796875,
+      "source_gate_passed": true
+    }
+  ],
+  "source_selection_sha256": "00fed1262555e440f9277d39722233d39341f48d1ce2c7c6b9844c61cfe3fee5",
+  "source_protocol_sha256": "788df5a8a410cfdbf2082930794f7de3dd0600430c40fe80c91b06102ec42492",
+  "power_output": "original_A_unchanged",
+  "default_ui_changed": false
+}

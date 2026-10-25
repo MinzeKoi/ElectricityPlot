@@ -1,0 +1,61 @@
+{
+  "status": "independently_verified",
+  "prediction_readbacks": 12,
+  "source_only": true,
+  "metric_checks": 12,
+  "exposure_checks": [
+    {
+      "arm": "natural",
+      "seed": 42,
+      "updates": 3528,
+      "positive_exposure": 2833,
+      "negative_exposure": 900335,
+      "exact_sampler_replay": true
+    },
+    {
+      "arm": "natural",
+      "seed": 1019,
+      "updates": 3528,
+      "positive_exposure": 2833,
+      "negative_exposure": 900335,
+      "exact_sampler_replay": true
+    },
+    {
+      "arm": "natural",
+      "seed": 2026,
+      "updates": 3528,
+      "positive_exposure": 2836,
+      "negative_exposure": 900332,
+      "exact_sampler_replay": true
+    },
+    {
+      "arm": "event",
+      "seed": 42,
+      "updates": 3528,
+      "positive_exposure": 56448,
+      "negative_exposure": 846720,
+      "exact_sampler_replay": true
+    },
+    {
+      "arm": "event",
+      "seed": 1019,
+      "updates": 3528,
+      "positive_exposure": 56448,
+      "negative_exposure": 846720,
+      "exact_sampler_replay": true
+    },
+    {
+      "arm": "event",
+      "seed": 2026,
+      "updates": 3528,
+      "positive_exposure": 56448,
+      "negative_exposure": 846720,
+      "exact_sampler_replay": true
+    }
+  ],
+  "context_event_isolation": true,
+  "registration_sha256": "d3026d8fd4eb22a0b4911fb53ecec81c6347097f0fe5495eb67d05d09ebd0777",
+  "freeze_sha256": "18ffed7ba2d3993addeef9dcfdc7f531b46884e04181cb2b4855479224fd532b",
+  "verifier_sha256": "27c6ab9da4a85b87356c03424d160a8556de38a2d6dd4910771cfb3f870c8763",
+  "scope": "local automated independent arithmetic, not a second investigator or machine"
+}

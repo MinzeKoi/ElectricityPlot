@@ -1,0 +1,20 @@
+test_actual_freeze_hash_barrier_rejects_mutation (test_state_experiment.StateExperimentTest.test_actual_freeze_hash_barrier_rejects_mutation) ... ok
+test_complete_synthetic_evaluation_separates_probability_and_power (test_state_experiment.StateExperimentTest.test_complete_synthetic_evaluation_separates_probability_and_power) ... ok
+test_default_mae_and_opt_in_evidence_preserve_exact_training (test_state_experiment.StateExperimentTest.test_default_mae_and_opt_in_evidence_preserve_exact_training) ... epoch 1/2: source validation normalized MAE=0.497888
+epoch 2/2: source validation normalized MAE=0.497538
+epoch 1/2: source validation normalized MAE=0.497888
+epoch 2/2: source validation normalized MAE=0.497538
+epoch 1/2: source validation normalized MAE=0.497888
+epoch 2/2: source validation normalized MAE=0.497538
+ok
+test_evaluation_checks_freeze_before_reading_development_labels (test_state_experiment.StateExperimentTest.test_evaluation_checks_freeze_before_reading_development_labels) ... ok
+test_pr_uses_whole_tie_groups_and_recall_guard (test_state_experiment.StateExperimentTest.test_pr_uses_whole_tie_groups_and_recall_guard) ... ok
+test_registration_and_source_selection_are_finite_and_support_paired (test_state_experiment.StateExperimentTest.test_registration_and_source_selection_are_finite_and_support_paired) ... ok
+test_sampling_breaks_gaps_and_houses_preserves_class_mass (test_state_experiment.StateExperimentTest.test_sampling_breaks_gaps_and_houses_preserves_class_mass) ... ok
+test_state_inference_missing_and_serialized_model (test_state_experiment.StateExperimentTest.test_state_inference_missing_and_serialized_model) ... ok
+test_training_rejects_target_labels_and_context_crossing_gap (test_state_experiment.StateExperimentTest.test_training_rejects_target_labels_and_context_crossing_gap) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 2.626s
+
+OK

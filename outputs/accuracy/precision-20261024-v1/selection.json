@@ -1,0 +1,31 @@
+{
+  "selected": "W50",
+  "candidate_passed_source_gate": false,
+  "selection_data": "source_validation_only",
+  "candidates": [
+    {
+      "candidate": "W50",
+      "eligible": false,
+      "mean_precision": 0.16792946180938437,
+      "mean_f1": 0.2786215273068662
+    },
+    {
+      "candidate": "W10",
+      "eligible": false,
+      "mean_precision": 0.22733742197110596,
+      "mean_f1": 0.33496294453676567
+    },
+    {
+      "candidate": "W1",
+      "eligible": false,
+      "mean_precision": 0.25865786962018206,
+      "mean_f1": 0.14705791895929549
+    },
+    {
+      "candidate": "W50_HN",
+      "eligible": false,
+      "mean_precision": 0.11101397768027532,
+      "mean_f1": 0.19207103876620168
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "status": "refit_completed_external_acquisition_blocked",
+  "run": "outputs\\accuracy\\data-expansion-20261024-v1",
+  "code_sha256": "076795347ff5998e1bd5651e696c1f1aa792b63c5bc220fb15721cb8f94ec877",
+  "comparisons": [
+    {
+      "comparison": "B-A",
+      "paired_seed_f1_deltas": [
+        -0.011021276363538404,
+        -0.01766493500825938,
+        0.007088625533397813
+      ],
+      "mean_primary_f1_delta": -0.007199195279466657,
+      "positive_seeds": 1,
+      "mean_device_f1_deltas": {
+        "kettle": -0.010864083479067052,
+        "microwave": -0.003534307079866262,
+        "washing_machine": -0.039076795505238626
+      },
+      "new_degenerate_cases": 0,
+      "internal_target_met": false,
+      "final_generalization_accepted": false
+    },
+    {
+      "comparison": "C-B",
+      "paired_seed_f1_deltas": [
+        -0.023441835136658706,
+        -0.00400480641471751,
+        -0.019650817192035853
+      ],
+      "mean_primary_f1_delta": -0.01569915291447069,
+      "positive_seeds": 0,
+      "mean_device_f1_deltas": {
+        "kettle": -0.029505707487500404,
+        "microwave": -0.0018925983414409774,
+        "washing_machine": -0.004413634569936477
+      },
+      "new_degenerate_cases": 0,
+      "internal_target_met": false,
+      "final_generalization_accepted": false
+    }
+  ],
+  "development_means": {
+    "A": {
+      "kettle": {
+        "precision": 0.6408068101271236,
+        "recall": 0.9202898550724637,
+        "f1": 0.7555085756780914,
+        "mae_w": 39.9746868153002,
+        "active_mae_w": 347.28867496639714,
+        "energy_absolute_error_kwh": 8.337212783177597,
+        "valid_samples": 137523.0
+      },
+      "microwave": {
+        "precision": 0.04012808999869747,
+        "recall": 0.9242819843342036,
+        "f1": 0.07691297343567473,
+        "mae_w": 51.41441371026292,
+        "active_mae_w": 537.8386885643359,
+        "energy_absolute_error_kwh": 13.989985187219256,
+        "valid_samples": 137523.0
+      },
+      "washing_machine": {
+        "precision": 0.06078195434631758,
+        "recall": 0.8292046936114733,
+        "f1": 0.1117600040733202,
+        "mae_w": 61.69070390496401,
+        "active_mae_w": 266.2695315146607,
+        "energy_absolute_error_kwh": 15.398504266992255,
+        "valid_samples": 137523.0
+      },
+      "primary_mean_f1": 0.41621077455688305
+    },
+    "B": {
+      "kettle": {
+        "precision": 0.6370387493535943,
+        "recall": 0.8985507246376812,
+        "f1": 0.7446444921990244,
+        "mae_w": 43.05211575340798,
+        "active_mae_w": 406.56168599496567,
+        "energy_absolute_error_kwh": 9.082299335332872,
+        "valid_samples": 137523.0
+      },
+      "microwave": {
+        "precision": 0.03816786539947028,
+        "recall": 0.9556135770234987,
+        "f1": 0.07337866635580846,
+        "mae_w": 47.31417057024652,
+        "active_mae_w": 607.7462042563261,
+        "energy_absolute_error_kwh": 12.61279646411205,
+        "valid_samples": 137523.0
+      },
+      "washing_machine": {
+        "precision": 0.03783759870418987,
+        "recall": 0.9512168622338114,
+        "f1": 0.07268320856808157,
+        "mae_w": 66.0100548330239,
+        "active_mae_w": 262.18341016314145,
+        "energy_absolute_error_kwh": 16.831799506149054,
+        "valid_samples": 137523.0
+      },
+      "primary_mean_f1": 0.40901157927741644
+    },
+    "C": {
+      "kettle": {
+        "precision": 0.5803952200988309,
+        "recall": 0.9337944664031621,
+        "f1": 0.7151387847115239,
+        "mae_w": 45.76227734843187,
+        "active_mae_w": 315.5125257612331,
+        "energy_absolute_error_kwh": 10.366155532725568,
+        "valid_samples": 137523.0
+      },
+      "microwave": {
+        "precision": 0.03710431433494293,
+        "recall": 0.9747606614447345,
+        "f1": 0.07148606801436748,
+        "mae_w": 45.65934266166127,
+        "active_mae_w": 673.7535801804223,
+        "energy_absolute_error_kwh": 12.322127403641895,
+        "valid_samples": 137523.0
+      },
+      "washing_machine": {
+        "precision": 0.03543760284904147,
+        "recall": 0.9305736636245111,
+        "f1": 0.06826957399814508,
+        "mae_w": 69.65490202625226,
+        "active_mae_w": 282.6743669963096,
+        "energy_absolute_error_kwh": 17.705325673425946,
+        "valid_samples": 137523.0
+      },
+      "primary_mean_f1": 0.3933124263629457
+    }
+  },
+  "external_status": {
+    "status": "blocked_acquisition_incomplete",
+    "reason": "Official download acquisition deadline exceeded; verified ranges retained",
+    "verified_ranges": 12,
+    "total_ranges": 428,
+    "source_url": "https://dap.ceda.ac.uk/edc/d1/7d78f943-f9fe-413b-af52-1816f9d968b0/data/version_0/ukdale.zip",
+    "archive_bytes": 3585155959,
+    "deadline_seconds": 600,
+    "source_receipt": "D:\\system position\\document\\真正的文档\\AIC\\data\\raw\\ukdale_2017_20261024\\range_acquisition_failed.json",
+    "source_receipt_sha256": "22bc66085e46f271b573e0c8aff5428ecda96e8896cf094554572178ba089a5a",
+    "test_house_replaced": false,
+    "group_D_trained": false,
+    "external_labels_evaluated": false,
+    "automatic_download_process_running": false
+  },
+  "models_trained": 27,
+  "packed_models": 9,
+  "metric_rows": 108,
+  "final_households_accessed": false,
+  "ui_default_changed": false
+}

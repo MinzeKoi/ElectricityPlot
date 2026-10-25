@@ -1,0 +1,14 @@
+{
+  "status": "failed_first_source_validation",
+  "source_fit_starts": 1,
+  "completed_fits": 0,
+  "inferred_optimizer_updates": 294,
+  "update_count_evidence": "fixed first checkpoint control flow; no checkpoint saved; runtime error window_samples from predict_windows validation",
+  "error": "KeyError: window_samples",
+  "weights_recoverable": false,
+  "development_truth_opened": false,
+  "final_house_data_accessed": false,
+  "no_retry_started": true,
+  "registration_sha256": "4ef1c31915fb1e18f7e23232cdee5016eae859f6cff974d8fa6b766351f28631",
+  "log_sha256": "f6bd6d00fdc7510f9e1dde21af11dfa695e355ae09a0b3c52754a2eaf64485d6"
+}

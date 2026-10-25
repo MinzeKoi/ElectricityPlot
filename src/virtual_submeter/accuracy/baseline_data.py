@@ -2,7 +2,6 @@
 
 import csv
 import re
-from pathlib import Path
 
 from ..data.common import DataError, iso, read_json, safe_child, sha256, source_fingerprint, utc, write_json
 from .diagnosis import event_support

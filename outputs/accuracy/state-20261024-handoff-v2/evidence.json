@@ -1,0 +1,25 @@
+{
+  "parent_freeze_sha256": "3a532fb863118f942814a4ec0dc81be1b204bcc13baeb36e8716179db5a3cb25",
+  "parent_evidence_sha256": "2d91305de3ea9a9a58cc22fff763215e0c7904f7521e759d4bf1bce13b298e74",
+  "artifacts": {
+    "C31_1019_source_pr.svg": "c6dfdc4d1ca880d6ddebf3565aa1bb4105f5868791a6727b264c1cada5b7fbb0",
+    "C31_2026_source_pr.svg": "b8f44ca6b6a7d9e5e27fd46e7062c8a2dd0d6457d3e24d91c3a2410640691452",
+    "C31_42_source_pr.svg": "b7b537c897ab56780342ae2c8771d96fb1012dc5cf45a3f6bd5b6a75317c3a2a",
+    "C61_1019_source_pr.svg": "b7fe0ce047da7bf168162d5e4fff95388906a15a1c67a11fc6e17160f904c03d",
+    "C61_2026_source_pr.svg": "98460cf706f9340bf3826a52db5f57021fb3359193c3e16f7a0a57f35e23d5b0",
+    "C61_42_source_pr.svg": "be49f59668053836fa31ee8290969748f64bc7f8e7d7000445455150f1513733",
+    "C_EVENT_1019_source_pr.svg": "f459559c20ec3f650d5ce585a53199ca04580b5ce871bb9e4a803719b7140f0d",
+    "C_EVENT_2026_source_pr.svg": "23b2f09b98d2b96693d515dc42e0baf7db684954db1c3f3d9aee088f7ed027c5",
+    "C_EVENT_42_source_pr.svg": "31b3b779736587ad6c5c58709ca76c06e21a36ca32f47133e631d9f10f40421e",
+    "C_FEATURES_1019_source_pr.svg": "c888a8dec756751a88655d71a50566b212083acc03c655e1095c82f1a0d92611",
+    "C_FEATURES_2026_source_pr.svg": "0c58eabc2ee5e5248ef4db53dc41b4b1d071daabdb1686f69c5a7fcc6f0ed2a1",
+    "C_FEATURES_42_source_pr.svg": "c1b0a248dce75549f5bd6886a46f2f7d81033a9e5244ee4d14a1a2a6cefb086f",
+    "C_HARD_1019_source_pr.svg": "ecb9a54a23accbdb44eefd886357c25e19a0257300bd2a7574b7b559effb7cf7",
+    "C_HARD_2026_source_pr.svg": "b8485c0604de6f0871c2aa1da3cd24d13d1ad110f8f9e1789cc5d6c34e07ee89",
+    "C_HARD_42_source_pr.svg": "4b3704b59b53505c21ffe0a4cff6897897793ae45a03f6be21531f313a30690d",
+    "R_PR_1019_source_pr.svg": "b40ce2cc6517e3aa4d748017b52392e76f033d71097604e2823ed4a54735708c",
+    "R_PR_2026_source_pr.svg": "6b9ccf22046942d01b5667a1e278e73389c77698a6d2a8d6a807acb45232b1a2",
+    "R_PR_42_source_pr.svg": "082e74148df7dd3562cec3d982a5d7909244eeaf7101718cf192383be569a238",
+    "source_pr.html": "7143dab6f84fee4a854ff752c44c67cd59187509fd89f2f07a077d1ed9a454e3"
+  }
+}

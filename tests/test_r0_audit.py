@@ -46,14 +46,12 @@ class R0AuditTest(unittest.TestCase):
         bad[14 * 10800:] = False
         self.assertIsNone(audit.search_windows({"aggregate": mask, "kettle": bad}, 0, plan)["first_pass"])
 
-    def test_label_gaps_do_not_change_query_input_support(self):
+    def test_query_support_excludes_context_boundaries_and_empty_support(self):
         aggregate = np.ones(1800, dtype=bool)
-        baseline = audit.query_support(aggregate)
-        labels = np.zeros(1800, dtype=bool)
-        self.assertEqual(baseline, audit.query_support(aggregate))
-        self.assertEqual(baseline["complete_aggregate_slots"], 12)
-        self.assertEqual(baseline["complete_slots_with_31_bin_context"], 10)
-        self.assertEqual(audit.query_support(labels)["complete_aggregate_slots"], 0)
+        support = audit.query_support(aggregate)
+        self.assertEqual(support["complete_aggregate_slots"], 12)
+        self.assertEqual(support["complete_slots_with_31_bin_context"], 10)
+        self.assertEqual(audit.query_support(np.zeros(1800, dtype=bool))["complete_aggregate_slots"], 0)
 
 
 if __name__ == "__main__":

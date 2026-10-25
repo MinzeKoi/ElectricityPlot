@@ -1,0 +1,33 @@
+{
+  "selected_before_development_evaluation": "W50",
+  "precision_exit_passed": false,
+  "checks": {
+    "defined_metrics": true,
+    "same_support": true,
+    "nondegenerate": true,
+    "mean_precision": false,
+    "every_seed_recall": true,
+    "mean_f1_gain": false,
+    "paired_positive_seeds": false,
+    "bounded_seed_f1_drop": true,
+    "false_positive_reduction": false
+  },
+  "selected_means": {
+    "precision": 0.04012808999869747,
+    "recall": 0.9242819843342036,
+    "f1": 0.07691297343567473,
+    "false_positive": 8482.0,
+    "false_negative": 29.0
+  },
+  "baseline_means": {
+    "precision": 0.04012808999869747,
+    "recall": 0.9242819843342036,
+    "f1": 0.07691297343567473,
+    "false_positive": 8482.0,
+    "false_negative": 29.0
+  },
+  "formal_evaluation": false,
+  "final_households_accessed": false,
+  "default_model_changed": false,
+  "other_devices_raw_unchanged": true
+}

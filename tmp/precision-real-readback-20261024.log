@@ -1,0 +1,49 @@
+{
+  "models": 12,
+  "negative_pools": [
+    {
+      "seed": 42,
+      "windows": 4739,
+      "full_source_mask_reproduced": true,
+      "counts": {
+        "refit_2": 3539,
+        "refit_19": 1200
+      }
+    },
+    {
+      "seed": 1019,
+      "windows": 6211,
+      "full_source_mask_reproduced": true,
+      "counts": {
+        "refit_2": 4947,
+        "refit_19": 1264
+      }
+    },
+    {
+      "seed": 2026,
+      "windows": 4430,
+      "full_source_mask_reproduced": true,
+      "counts": {
+        "refit_2": 3309,
+        "refit_19": 1121
+      }
+    }
+  ],
+  "full_inference": [
+    {
+      "candidate": "W50",
+      "seed": 42,
+      "rows": 150750,
+      "maximum_raw_power_difference_w": 0,
+      "all_states_and_missingness_equal": true
+    },
+    {
+      "candidate": "W10",
+      "seed": 42,
+      "rows": 150750,
+      "maximum_raw_power_difference_w": 0,
+      "all_states_and_missingness_equal": true
+    }
+  ],
+  "development_labels_read": false
+}

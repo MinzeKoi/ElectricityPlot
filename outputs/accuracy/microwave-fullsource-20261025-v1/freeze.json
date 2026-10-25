@@ -1,0 +1,32 @@
+{
+  "predictions": [
+    "natural/42",
+    "natural/1019",
+    "natural/2026",
+    "event/42",
+    "event/1019",
+    "event/2026",
+    "event_background/42",
+    "event_background/1019",
+    "event_background/2026"
+  ],
+  "registration_sha256": "fe3dd8e0d46ca0105516c040631544cdadb40fb04f843acec117357f8cfda3c5",
+  "training_sha256": "7aae51c96e9d84bc5860f4abda163aa913d8843505d3997ce0039584172f93a8",
+  "source_selection_sha256": "72a7a19d48c774636a8f55af137ad452e0698fb5bddb8a99ac893fb1405a6205",
+  "artifacts": {
+    "predictions/event_1019.npz": "b962743fdaf3ad08f08d3875df15ba0257fb7236a1bc30b4a3b3004b0d72116b",
+    "predictions/event_2026.npz": "466b5bdfa83030089da93e61d10b3bde9e2d791b87334cae1b1c70e53de3cf99",
+    "predictions/event_42.npz": "76fbf79ee06662f064851734d3455d2f8fad93bef56e5132054d3d7e62170cfc",
+    "predictions/event_background_1019.npz": "f8e3bc18c47b9e1aba8f9eb6892871f5a3666aaefab89b6faefa08ece4191603",
+    "predictions/event_background_2026.npz": "afd1b0ad945453a10142dd539b9557e7ad26f1718d7a751fee90dfcaed50e806",
+    "predictions/event_background_42.npz": "c5b3954b561f77956babfe83e54f60e6e88ff2a4b1130857eff09daafedb50f1",
+    "predictions/natural_1019.npz": "2fae2d429f12845ec87639d35e03035e73fd56205ba86c3792dd8b7601f15ed4",
+    "predictions/natural_2026.npz": "0388c6b62d8596242b7c85d438b3882265e037fafbfb2a2851f1704baf62cd37",
+    "predictions/natural_42.npz": "a71797b4333c1fb3e004a60b96de62d6bd01b506313b0f052403747c575f6086",
+    "inference_checks.json": "37cc4bf48a0ca4d2a74ffe4b0b6199bc662583b8d7726976ceb2983eed83a66b",
+    "source_rows.json": "ae78c5a087eca02d8f86637ca1c7930d67f0b43d92353779d422808914274349"
+  },
+  "ordinary_inference_matches": true,
+  "common_support_and_other_devices_match": true,
+  "house17_labels_opened": false
+}

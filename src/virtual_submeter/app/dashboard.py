@@ -180,7 +180,6 @@ def main(root: Path):
             except (DataError, OSError, ValueError, KeyError) as error:
                 st.session_state.pop("evaluation_directory", None)
                 st.error("评价未完成：" + str(error))
-    report_directory = directory
     if "evaluation_directory" in st.session_state:
         report_directory = Path(st.session_state["evaluation_directory"])
         try:

@@ -1,0 +1,359 @@
+Expansion A seed 42 kettle
+epoch 1/12: source validation normalized MAE=0.060560
+epoch 2/12: source validation normalized MAE=0.043774
+epoch 3/12: source validation normalized MAE=0.032032
+epoch 4/12: source validation normalized MAE=0.033939
+epoch 5/12: source validation normalized MAE=0.013982
+epoch 6/12: source validation normalized MAE=0.030177
+epoch 7/12: source validation normalized MAE=0.024855
+epoch 8/12: source validation normalized MAE=0.026271
+epoch 9/12: source validation normalized MAE=0.008151
+epoch 10/12: source validation normalized MAE=0.010271
+epoch 11/12: source validation normalized MAE=0.012177
+epoch 12/12: source validation normalized MAE=0.017874
+Expansion A seed 42 microwave
+epoch 1/12: source validation normalized MAE=0.146194
+epoch 2/12: source validation normalized MAE=0.152327
+epoch 3/12: source validation normalized MAE=0.078543
+epoch 4/12: source validation normalized MAE=0.076864
+epoch 5/12: source validation normalized MAE=0.086126
+epoch 6/12: source validation normalized MAE=0.063802
+epoch 7/12: source validation normalized MAE=0.089211
+epoch 8/12: source validation normalized MAE=0.069733
+epoch 9/12: source validation normalized MAE=0.048177
+epoch 10/12: source validation normalized MAE=0.061881
+epoch 11/12: source validation normalized MAE=0.053447
+epoch 12/12: source validation normalized MAE=0.052154
+Expansion A seed 42 washing_machine
+epoch 1/12: source validation normalized MAE=0.095212
+epoch 2/12: source validation normalized MAE=0.077956
+epoch 3/12: source validation normalized MAE=0.092082
+epoch 4/12: source validation normalized MAE=0.065131
+epoch 5/12: source validation normalized MAE=0.057531
+epoch 6/12: source validation normalized MAE=0.060837
+epoch 7/12: source validation normalized MAE=0.037701
+epoch 8/12: source validation normalized MAE=0.069165
+epoch 9/12: source validation normalized MAE=0.081501
+epoch 10/12: source validation normalized MAE=0.076336
+epoch 11/12: source validation normalized MAE=0.072179
+epoch 12/12: source validation normalized MAE=0.060628
+Expansion A seed 1019 kettle
+epoch 1/12: source validation normalized MAE=0.092189
+epoch 2/12: source validation normalized MAE=0.040173
+epoch 3/12: source validation normalized MAE=0.027857
+epoch 4/12: source validation normalized MAE=0.020597
+epoch 5/12: source validation normalized MAE=0.013978
+epoch 6/12: source validation normalized MAE=0.013248
+epoch 7/12: source validation normalized MAE=0.038423
+epoch 8/12: source validation normalized MAE=0.024342
+epoch 9/12: source validation normalized MAE=0.008336
+epoch 10/12: source validation normalized MAE=0.007497
+epoch 11/12: source validation normalized MAE=0.013821
+epoch 12/12: source validation normalized MAE=0.008555
+Expansion A seed 1019 microwave
+epoch 1/12: source validation normalized MAE=0.117111
+epoch 2/12: source validation normalized MAE=0.118584
+epoch 3/12: source validation normalized MAE=0.075350
+epoch 4/12: source validation normalized MAE=0.077017
+epoch 5/12: source validation normalized MAE=0.066992
+epoch 6/12: source validation normalized MAE=0.081960
+epoch 7/12: source validation normalized MAE=0.040449
+epoch 8/12: source validation normalized MAE=0.058494
+epoch 9/12: source validation normalized MAE=0.061587
+epoch 10/12: source validation normalized MAE=0.052611
+epoch 11/12: source validation normalized MAE=0.049214
+epoch 12/12: source validation normalized MAE=0.052124
+Expansion A seed 1019 washing_machine
+epoch 1/12: source validation normalized MAE=0.091077
+epoch 2/12: source validation normalized MAE=0.076266
+epoch 3/12: source validation normalized MAE=0.073837
+epoch 4/12: source validation normalized MAE=0.069037
+epoch 5/12: source validation normalized MAE=0.061180
+epoch 6/12: source validation normalized MAE=0.087321
+epoch 7/12: source validation normalized MAE=0.047365
+epoch 8/12: source validation normalized MAE=0.078350
+epoch 9/12: source validation normalized MAE=0.043347
+epoch 10/12: source validation normalized MAE=0.069083
+epoch 11/12: source validation normalized MAE=0.067428
+epoch 12/12: source validation normalized MAE=0.093200
+Expansion A seed 2026 kettle
+epoch 1/12: source validation normalized MAE=0.077842
+epoch 2/12: source validation normalized MAE=0.052306
+epoch 3/12: source validation normalized MAE=0.063648
+epoch 4/12: source validation normalized MAE=0.020743
+epoch 5/12: source validation normalized MAE=0.011570
+epoch 6/12: source validation normalized MAE=0.026118
+epoch 7/12: source validation normalized MAE=0.018441
+epoch 8/12: source validation normalized MAE=0.010018
+epoch 9/12: source validation normalized MAE=0.018990
+epoch 10/12: source validation normalized MAE=0.009698
+epoch 11/12: source validation normalized MAE=0.012911
+epoch 12/12: source validation normalized MAE=0.033230
+Expansion A seed 2026 microwave
+epoch 1/12: source validation normalized MAE=0.209742
+epoch 2/12: source validation normalized MAE=0.151988
+epoch 3/12: source validation normalized MAE=0.106643
+epoch 4/12: source validation normalized MAE=0.085931
+epoch 5/12: source validation normalized MAE=0.072867
+epoch 6/12: source validation normalized MAE=0.061677
+epoch 7/12: source validation normalized MAE=0.067467
+epoch 8/12: source validation normalized MAE=0.052563
+epoch 9/12: source validation normalized MAE=0.040306
+epoch 10/12: source validation normalized MAE=0.046628
+epoch 11/12: source validation normalized MAE=0.040747
+epoch 12/12: source validation normalized MAE=0.056153
+Expansion A seed 2026 washing_machine
+epoch 1/12: source validation normalized MAE=0.090581
+epoch 2/12: source validation normalized MAE=0.062073
+epoch 3/12: source validation normalized MAE=0.085585
+epoch 4/12: source validation normalized MAE=0.093374
+epoch 5/12: source validation normalized MAE=0.073260
+epoch 6/12: source validation normalized MAE=0.098731
+epoch 7/12: source validation normalized MAE=0.046080
+epoch 8/12: source validation normalized MAE=0.079925
+epoch 9/12: source validation normalized MAE=0.084888
+epoch 10/12: source validation normalized MAE=0.067613
+epoch 11/12: source validation normalized MAE=0.058268
+epoch 12/12: source validation normalized MAE=0.049572
+Expansion B seed 42 kettle
+epoch 1/12: source validation normalized MAE=0.071094
+epoch 2/12: source validation normalized MAE=0.039201
+epoch 3/12: source validation normalized MAE=0.072770
+epoch 4/12: source validation normalized MAE=0.043294
+epoch 5/12: source validation normalized MAE=0.022564
+epoch 6/12: source validation normalized MAE=0.023044
+epoch 7/12: source validation normalized MAE=0.027757
+epoch 8/12: source validation normalized MAE=0.015499
+epoch 9/12: source validation normalized MAE=0.011265
+epoch 10/12: source validation normalized MAE=0.027583
+epoch 11/12: source validation normalized MAE=0.014749
+epoch 12/12: source validation normalized MAE=0.027190
+Expansion B seed 42 microwave
+epoch 1/12: source validation normalized MAE=0.094822
+epoch 2/12: source validation normalized MAE=0.097037
+epoch 3/12: source validation normalized MAE=0.084891
+epoch 4/12: source validation normalized MAE=0.094112
+epoch 5/12: source validation normalized MAE=0.068423
+epoch 6/12: source validation normalized MAE=0.089428
+epoch 7/12: source validation normalized MAE=0.071976
+epoch 8/12: source validation normalized MAE=0.061440
+epoch 9/12: source validation normalized MAE=0.103338
+epoch 10/12: source validation normalized MAE=0.052551
+epoch 11/12: source validation normalized MAE=0.060905
+epoch 12/12: source validation normalized MAE=0.059422
+Expansion B seed 42 washing_machine
+epoch 1/12: source validation normalized MAE=0.049588
+epoch 2/12: source validation normalized MAE=0.080234
+epoch 3/12: source validation normalized MAE=0.059820
+epoch 4/12: source validation normalized MAE=0.058825
+epoch 5/12: source validation normalized MAE=0.072157
+epoch 6/12: source validation normalized MAE=0.094462
+epoch 7/12: source validation normalized MAE=0.066685
+epoch 8/12: source validation normalized MAE=0.058739
+epoch 9/12: source validation normalized MAE=0.058957
+epoch 10/12: source validation normalized MAE=0.055030
+epoch 11/12: source validation normalized MAE=0.067580
+epoch 12/12: source validation normalized MAE=0.064342
+Expansion B seed 1019 kettle
+epoch 1/12: source validation normalized MAE=0.070476
+epoch 2/12: source validation normalized MAE=0.036555
+epoch 3/12: source validation normalized MAE=0.024010
+epoch 4/12: source validation normalized MAE=0.025962
+epoch 5/12: source validation normalized MAE=0.018742
+epoch 6/12: source validation normalized MAE=0.031796
+epoch 7/12: source validation normalized MAE=0.024281
+epoch 8/12: source validation normalized MAE=0.032402
+epoch 9/12: source validation normalized MAE=0.009179
+epoch 10/12: source validation normalized MAE=0.015338
+epoch 11/12: source validation normalized MAE=0.014159
+epoch 12/12: source validation normalized MAE=0.009793
+Expansion B seed 1019 microwave
+epoch 1/12: source validation normalized MAE=0.082785
+epoch 2/12: source validation normalized MAE=0.085302
+epoch 3/12: source validation normalized MAE=0.080304
+epoch 4/12: source validation normalized MAE=0.070160
+epoch 5/12: source validation normalized MAE=0.070505
+epoch 6/12: source validation normalized MAE=0.072149
+epoch 7/12: source validation normalized MAE=0.056306
+epoch 8/12: source validation normalized MAE=0.058035
+epoch 9/12: source validation normalized MAE=0.057935
+epoch 10/12: source validation normalized MAE=0.043500
+epoch 11/12: source validation normalized MAE=0.057641
+epoch 12/12: source validation normalized MAE=0.056754
+Expansion B seed 1019 washing_machine
+epoch 1/12: source validation normalized MAE=0.102372
+epoch 2/12: source validation normalized MAE=0.090993
+epoch 3/12: source validation normalized MAE=0.084356
+epoch 4/12: source validation normalized MAE=0.083795
+epoch 5/12: source validation normalized MAE=0.062570
+epoch 6/12: source validation normalized MAE=0.084197
+epoch 7/12: source validation normalized MAE=0.067867
+epoch 8/12: source validation normalized MAE=0.047578
+epoch 9/12: source validation normalized MAE=0.063847
+epoch 10/12: source validation normalized MAE=0.064761
+epoch 11/12: source validation normalized MAE=0.075858
+epoch 12/12: source validation normalized MAE=0.081020
+Expansion B seed 2026 kettle
+epoch 1/12: source validation normalized MAE=0.127720
+epoch 2/12: source validation normalized MAE=0.062721
+epoch 3/12: source validation normalized MAE=0.035891
+epoch 4/12: source validation normalized MAE=0.024709
+epoch 5/12: source validation normalized MAE=0.026107
+epoch 6/12: source validation normalized MAE=0.041404
+epoch 7/12: source validation normalized MAE=0.023560
+epoch 8/12: source validation normalized MAE=0.012402
+epoch 9/12: source validation normalized MAE=0.014189
+epoch 10/12: source validation normalized MAE=0.013615
+epoch 11/12: source validation normalized MAE=0.018246
+epoch 12/12: source validation normalized MAE=0.007414
+Expansion B seed 2026 microwave
+epoch 1/12: source validation normalized MAE=0.150415
+epoch 2/12: source validation normalized MAE=0.128048
+epoch 3/12: source validation normalized MAE=0.097256
+epoch 4/12: source validation normalized MAE=0.065512
+epoch 5/12: source validation normalized MAE=0.085987
+epoch 6/12: source validation normalized MAE=0.053442
+epoch 7/12: source validation normalized MAE=0.064099
+epoch 8/12: source validation normalized MAE=0.042981
+epoch 9/12: source validation normalized MAE=0.044532
+epoch 10/12: source validation normalized MAE=0.043436
+epoch 11/12: source validation normalized MAE=0.054911
+epoch 12/12: source validation normalized MAE=0.052980
+Expansion B seed 2026 washing_machine
+epoch 1/12: source validation normalized MAE=0.088570
+epoch 2/12: source validation normalized MAE=0.098542
+epoch 3/12: source validation normalized MAE=0.075883
+epoch 4/12: source validation normalized MAE=0.077808
+epoch 5/12: source validation normalized MAE=0.076493
+epoch 6/12: source validation normalized MAE=0.065930
+epoch 7/12: source validation normalized MAE=0.086309
+epoch 8/12: source validation normalized MAE=0.086280
+epoch 9/12: source validation normalized MAE=0.062099
+epoch 10/12: source validation normalized MAE=0.068280
+epoch 11/12: source validation normalized MAE=0.057734
+epoch 12/12: source validation normalized MAE=0.054559
+Expansion C seed 42 kettle
+epoch 1/12: source validation normalized MAE=0.071535
+epoch 2/12: source validation normalized MAE=0.038593
+epoch 3/12: source validation normalized MAE=0.075445
+epoch 4/12: source validation normalized MAE=0.061154
+epoch 5/12: source validation normalized MAE=0.015853
+epoch 6/12: source validation normalized MAE=0.025264
+epoch 7/12: source validation normalized MAE=0.018577
+epoch 8/12: source validation normalized MAE=0.011688
+epoch 9/12: source validation normalized MAE=0.012324
+epoch 10/12: source validation normalized MAE=0.023871
+epoch 11/12: source validation normalized MAE=0.024295
+epoch 12/12: source validation normalized MAE=0.029498
+Expansion C seed 42 microwave
+epoch 1/12: source validation normalized MAE=0.042344
+epoch 2/12: source validation normalized MAE=0.042358
+epoch 3/12: source validation normalized MAE=0.054090
+epoch 4/12: source validation normalized MAE=0.054344
+epoch 5/12: source validation normalized MAE=0.036503
+epoch 6/12: source validation normalized MAE=0.039934
+epoch 7/12: source validation normalized MAE=0.039604
+epoch 8/12: source validation normalized MAE=0.034020
+epoch 9/12: source validation normalized MAE=0.042319
+epoch 10/12: source validation normalized MAE=0.052987
+epoch 11/12: source validation normalized MAE=0.039852
+epoch 12/12: source validation normalized MAE=0.037415
+Expansion C seed 42 washing_machine
+epoch 1/12: source validation normalized MAE=0.070515
+epoch 2/12: source validation normalized MAE=0.067621
+epoch 3/12: source validation normalized MAE=0.081722
+epoch 4/12: source validation normalized MAE=0.038313
+epoch 5/12: source validation normalized MAE=0.075915
+epoch 6/12: source validation normalized MAE=0.051776
+epoch 7/12: source validation normalized MAE=0.077352
+epoch 8/12: source validation normalized MAE=0.057490
+epoch 9/12: source validation normalized MAE=0.058315
+epoch 10/12: source validation normalized MAE=0.071340
+epoch 11/12: source validation normalized MAE=0.065319
+epoch 12/12: source validation normalized MAE=0.073866
+Expansion C seed 1019 kettle
+epoch 1/12: source validation normalized MAE=0.068625
+epoch 2/12: source validation normalized MAE=0.035044
+epoch 3/12: source validation normalized MAE=0.028093
+epoch 4/12: source validation normalized MAE=0.020064
+epoch 5/12: source validation normalized MAE=0.012991
+epoch 6/12: source validation normalized MAE=0.016392
+epoch 7/12: source validation normalized MAE=0.044823
+epoch 8/12: source validation normalized MAE=0.013963
+epoch 9/12: source validation normalized MAE=0.010676
+epoch 10/12: source validation normalized MAE=0.019651
+epoch 11/12: source validation normalized MAE=0.015356
+epoch 12/12: source validation normalized MAE=0.013135
+Expansion C seed 1019 microwave
+epoch 1/12: source validation normalized MAE=0.055926
+epoch 2/12: source validation normalized MAE=0.048420
+epoch 3/12: source validation normalized MAE=0.057097
+epoch 4/12: source validation normalized MAE=0.056417
+epoch 5/12: source validation normalized MAE=0.036206
+epoch 6/12: source validation normalized MAE=0.042017
+epoch 7/12: source validation normalized MAE=0.040116
+epoch 8/12: source validation normalized MAE=0.038268
+epoch 9/12: source validation normalized MAE=0.045542
+epoch 10/12: source validation normalized MAE=0.050088
+epoch 11/12: source validation normalized MAE=0.046145
+epoch 12/12: source validation normalized MAE=0.046249
+Expansion C seed 1019 washing_machine
+epoch 1/12: source validation normalized MAE=0.057309
+epoch 2/12: source validation normalized MAE=0.054748
+epoch 3/12: source validation normalized MAE=0.059992
+epoch 4/12: source validation normalized MAE=0.064931
+epoch 5/12: source validation normalized MAE=0.061473
+epoch 6/12: source validation normalized MAE=0.077256
+epoch 7/12: source validation normalized MAE=0.061056
+epoch 8/12: source validation normalized MAE=0.060813
+epoch 9/12: source validation normalized MAE=0.058077
+epoch 10/12: source validation normalized MAE=0.050585
+epoch 11/12: source validation normalized MAE=0.060477
+epoch 12/12: source validation normalized MAE=0.058122
+Expansion C seed 2026 kettle
+epoch 1/12: source validation normalized MAE=0.131355
+epoch 2/12: source validation normalized MAE=0.073459
+epoch 3/12: source validation normalized MAE=0.031426
+epoch 4/12: source validation normalized MAE=0.034749
+epoch 5/12: source validation normalized MAE=0.021022
+epoch 6/12: source validation normalized MAE=0.030802
+epoch 7/12: source validation normalized MAE=0.021743
+epoch 8/12: source validation normalized MAE=0.014456
+epoch 9/12: source validation normalized MAE=0.012407
+epoch 10/12: source validation normalized MAE=0.012855
+epoch 11/12: source validation normalized MAE=0.013369
+epoch 12/12: source validation normalized MAE=0.009850
+Expansion C seed 2026 microwave
+epoch 1/12: source validation normalized MAE=0.088649
+epoch 2/12: source validation normalized MAE=0.060570
+epoch 3/12: source validation normalized MAE=0.043694
+epoch 4/12: source validation normalized MAE=0.045934
+epoch 5/12: source validation normalized MAE=0.049058
+epoch 6/12: source validation normalized MAE=0.038984
+epoch 7/12: source validation normalized MAE=0.045493
+epoch 8/12: source validation normalized MAE=0.041626
+epoch 9/12: source validation normalized MAE=0.046481
+epoch 10/12: source validation normalized MAE=0.041362
+epoch 11/12: source validation normalized MAE=0.040012
+epoch 12/12: source validation normalized MAE=0.035718
+Expansion C seed 2026 washing_machine
+epoch 1/12: source validation normalized MAE=0.087882
+epoch 2/12: source validation normalized MAE=0.069807
+epoch 3/12: source validation normalized MAE=0.052506
+epoch 4/12: source validation normalized MAE=0.070963
+epoch 5/12: source validation normalized MAE=0.055249
+epoch 6/12: source validation normalized MAE=0.072646
+epoch 7/12: source validation normalized MAE=0.036774
+epoch 8/12: source validation normalized MAE=0.048415
+epoch 9/12: source validation normalized MAE=0.051793
+epoch 10/12: source validation normalized MAE=0.070625
+epoch 11/12: source validation normalized MAE=0.048808
+epoch 12/12: source validation normalized MAE=0.079545
+{
+  "status": "frozen",
+  "groups": [
+    "A",
+    "B",
+    "C"
+  ]
+}

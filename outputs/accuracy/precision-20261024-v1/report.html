@@ -1,0 +1,33 @@
+<!doctype html><meta charset="utf-8"><style>body{font:16px system-ui;margin:40px}td,th{padding:8px;border:1px solid #ccc}table{border-collapse:collapse}</style><h1>微波炉精确率实验</h1><p>House 17 已查看开发区间；来源选择先于开发评价。最终 8/9/20 未参与。固定 200 W 状态阈值。</p><p>预定候选：W50；开发出口：未通过，保留原模型。</p><table><tr><th>候选</th><th>种子</th><th>Precision</th><th>Recall</th><th>F1</th><th>FP</th><th>FN</th><th>运行 MAE W</th><th>电量误差 kWh</th></tr><tr><td>W50</td><td>42</td><td>0.039631</td><td>0.908616</td><td>0.075949</td><td>8433</td><td>35</td><td>491.060897</td><td>16.560284</td></tr><tr><td>W50</td><td>1019</td><td>0.038075</td><td>0.919060</td><td>0.073120</td><td>8893</td><td>31</td><td>655.098386</td><td>11.370314</td></tr><tr><td>W50</td><td>2026</td><td>0.042679</td><td>0.945170</td><td>0.081669</td><td>8120</td><td>21</td><td>467.356797</td><td>14.039357</td></tr><tr><td>W10</td><td>42</td><td>0.043310</td><td>0.791123</td><td>0.082125</td><td>6693</td><td>80</td><td>760.686080</td><td>7.476431</td></tr><tr><td>W10</td><td>1019</td><td>0.046349</td><td>0.812010</td><td>0.087692</td><td>6399</td><td>72</td><td>660.523058</td><td>8.127059</td></tr><tr><td>W10</td><td>2026</td><td>0.052779</td><td>0.785901</td><td>0.098916</td><td>5402</td><td>82</td><td>762.972419</td><td>5.560029</td></tr><tr><td>W1</td><td>42</td><td>0.260870</td><td>0.172324</td><td>0.207547</td><td>187</td><td>317</td><td>1212.982543</td><td>0.966435</td></tr><tr><td>W1</td><td>1019</td><td>0.118785</td><td>0.336815</td><td>0.175630</td><td>957</td><td>254</td><td>1092.390686</td><td>0.238282</td></tr><tr><td>W1</td><td>2026</td><td>0.188095</td><td>0.412533</td><td>0.258381</td><td>682</td><td>225</td><td>1043.118136</td><td>0.213258</td></tr><tr><td>W50_HN</td><td>42</td><td>0.035114</td><td>0.906005</td><td>0.067608</td><td>9535</td><td>36</td><td>686.505859</td><td>9.048727</td></tr><tr><td>W50_HN</td><td>1019</td><td>0.046545</td><td>0.851175</td><td>0.088263</td><td>6678</td><td>57</td><td>821.365987</td><td>6.503426</td></tr><tr><td>W50_HN</td><td>2026</td><td>0.048540</td><td>0.759791</td><td>0.091251</td><td>5704</td><td>92</td><td>825.504022</td><td>5.436012</td></tr></table><p><a href="comparison.csv">完整设备与原始/修正功率指标</a> · <a href="error_segments.csv">误报/检出/漏报片段</a> · <a href="error_curves.csv">基准与候选曲线数据</a></p><p>水壶/洗衣机原始预测逐点不变；组合功率修正可能改变。功率、电量与状态效果分别报告。候选单设备权重可通过普通预测接口加载；界面默认模型不替换。</p><pre>{
+  &quot;selected_before_development_evaluation&quot;: &quot;W50&quot;,
+  &quot;precision_exit_passed&quot;: false,
+  &quot;checks&quot;: {
+    &quot;defined_metrics&quot;: true,
+    &quot;same_support&quot;: true,
+    &quot;nondegenerate&quot;: true,
+    &quot;mean_precision&quot;: false,
+    &quot;every_seed_recall&quot;: true,
+    &quot;mean_f1_gain&quot;: false,
+    &quot;paired_positive_seeds&quot;: false,
+    &quot;bounded_seed_f1_drop&quot;: true,
+    &quot;false_positive_reduction&quot;: false
+  },
+  &quot;selected_means&quot;: {
+    &quot;precision&quot;: 0.04012808999869747,
+    &quot;recall&quot;: 0.9242819843342036,
+    &quot;f1&quot;: 0.07691297343567473,
+    &quot;false_positive&quot;: 8482.0,
+    &quot;false_negative&quot;: 29.0
+  },
+  &quot;baseline_means&quot;: {
+    &quot;precision&quot;: 0.04012808999869747,
+    &quot;recall&quot;: 0.9242819843342036,
+    &quot;f1&quot;: 0.07691297343567473,
+    &quot;false_positive&quot;: 8482.0,
+    &quot;false_negative&quot;: 29.0
+  },
+  &quot;formal_evaluation&quot;: false,
+  &quot;final_households_accessed&quot;: false,
+  &quot;default_model_changed&quot;: false,
+  &quot;other_devices_raw_unchanged&quot;: true
+}</pre>

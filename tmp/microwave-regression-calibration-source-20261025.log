@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "D:\system position\document\�������ĵ�\AIC\outputs\accuracy\microwave-regression-calibration-20261025-v1\run_microwave_regression_calibration.py", line 11, in <module>
+    main()
+    ~~~~^^
+  File "D:\system position\document\�������ĵ�\AIC\outputs\accuracy\microwave-regression-calibration-20261025-v1\source\virtual_submeter\accuracy\microwave_regression_calibration.py", line 512, in main
+    result = globals()[args.stage](args.run.resolve())
+  File "D:\system position\document\�������ĵ�\AIC\outputs\accuracy\microwave-regression-calibration-20261025-v1\source\virtual_submeter\accuracy\microwave_regression_calibration.py", line 250, in source_select
+    raise DataError('Block support differs after timestamp alignment')
+virtual_submeter.data.common.DataError: Block support differs after timestamp alignment

@@ -1,0 +1,134 @@
+{
+  "selected_before_development": "event",
+  "improvement_candidate": true,
+  "development_acceptance_passed": false,
+  "declared_improvement": false,
+  "means": {
+    "A": {
+      "precision": 0.04012808999869747,
+      "recall": 0.9242819843342036,
+      "f1": 0.07691297343567473,
+      "fp": 8482.0
+    },
+    "W50": {
+      "precision": 0.04012808999869747,
+      "recall": 0.9242819843342036,
+      "f1": 0.07691297343567473,
+      "fp": 8482.0
+    },
+    "natural": {
+      "precision": 0.034015268423185065,
+      "recall": 0.8572671888598782,
+      "f1": 0.06543066371820282,
+      "fp": 9322.0
+    },
+    "event": {
+      "precision": 0.033731804506750264,
+      "recall": 0.906875543951262,
+      "f1": 0.06504088514531482,
+      "fp": 9955.0
+    },
+    "event_background": {
+      "precision": 0.032551746620984125,
+      "recall": 0.926892950391645,
+      "f1": 0.06288462599292251,
+      "fp": 10574.0
+    }
+  },
+  "selected_deltas": {
+    "A": {
+      "precision": -0.006396285491947207,
+      "recall": -0.01740644038294159,
+      "f1": -0.011872088290359906,
+      "fp": 1473.0
+    },
+    "W50": {
+      "precision": -0.006396285491947207,
+      "recall": -0.01740644038294159,
+      "f1": -0.011872088290359906,
+      "fp": 1473.0
+    },
+    "natural": {
+      "precision": -0.00028346391643480073,
+      "recall": 0.04960835509138384,
+      "f1": -0.00038977857288799433,
+      "fp": 633.0
+    }
+  },
+  "common_support": {
+    "42": {
+      "n": 137523,
+      "mask_sha256": "d7608bed577515bc4bd98ff1efe4c78a82798a96c9d1d3e5dd03bb90d53598a1",
+      "timestamps_sha256": "342269261b9b59715ac588476545f50d6e875b7a01f6731745098c6c384a2ffe"
+    },
+    "1019": {
+      "n": 137523,
+      "mask_sha256": "d7608bed577515bc4bd98ff1efe4c78a82798a96c9d1d3e5dd03bb90d53598a1",
+      "timestamps_sha256": "342269261b9b59715ac588476545f50d6e875b7a01f6731745098c6c384a2ffe"
+    },
+    "2026": {
+      "n": 137523,
+      "mask_sha256": "d7608bed577515bc4bd98ff1efe4c78a82798a96c9d1d3e5dd03bb90d53598a1",
+      "timestamps_sha256": "342269261b9b59715ac588476545f50d6e875b7a01f6731745098c6c384a2ffe"
+    }
+  },
+  "power_improvement_claim": false,
+  "raw_power_and_other_devices_unchanged": true,
+  "default_model_changed": false,
+  "development_only_previously_inspected_house17": true,
+  "final_houses_accessed": false,
+  "additional_training_permitted": false,
+  "sampling_or_background_improvement_supported": false,
+  "reporting_registration_sha256": "afa088f0bd5344d688fdeff9534776b5c665d89dc5abe1bd65c0d7dc1d87ba7b",
+  "engine_summary_sha256": "e949c066e1d3e5796e8243d822e9c78d433939a656928463a4e0f0ac4d838579",
+  "freeze_sha256": "ab23f6277630330533d43789d97181747e88438efd6b3246348cac6d8db7f876",
+  "acceptance_checks": {
+    "source_selection_qualified": true,
+    "mean_precision_at_least_008": false,
+    "every_seed_recall_at_least_085": true,
+    "mean_f1_gain_at_least_002": false,
+    "at_least_two_seed_precision_and_f1_wins": false,
+    "no_seed_f1_drop_over_002": true,
+    "mean_fp_reduction_at_least_30_percent": false,
+    "no_degenerate_selected_seed": true,
+    "same_support_and_other_devices": true
+  },
+  "failed_checks": [
+    "mean_precision_at_least_008",
+    "mean_f1_gain_at_least_002",
+    "at_least_two_seed_precision_and_f1_wins",
+    "mean_fp_reduction_at_least_30_percent"
+  ],
+  "actual_new_fits": 9,
+  "source_selection": {
+    "selected_arm": "event",
+    "improvement_candidate": true,
+    "no_deployable_candidate": false,
+    "natural_source_gate_passed": true,
+    "arms": [
+      {
+        "arm": "natural",
+        "eligible": true,
+        "mean_precision": 0.13475046362056994,
+        "mean_f1": 0.22616574353797939
+      },
+      {
+        "arm": "event",
+        "eligible": true,
+        "mean_precision": 0.22253327015982516,
+        "mean_f1": 0.3350842093750643
+      },
+      {
+        "arm": "event_background",
+        "eligible": true,
+        "mean_precision": 0.22028807251737414,
+        "mean_f1": 0.33212622186755975
+      }
+    ],
+    "source_only": true
+  },
+  "registered_config_sha256": "dbb2e45acd179c93062f1adb8bbce0a678b28bc76e2c9d84b616a7abae7d1b3a",
+  "registration_sha256": "fe3dd8e0d46ca0105516c040631544cdadb40fb04f843acec117357f8cfda3c5",
+  "evaluation_sha256": "1ac17c21c81a79c9b9f4e91f7f446749a2f73ff2b0d69df70d4d6d9958d73243",
+  "selected_fp_reduction_ratio": -0.17366187219995277
+}

@@ -1,0 +1,279 @@
+{
+  "status": "complete_failed_registered_improvement_gate",
+  "new_fits": 3,
+  "reused_control_fits": 6,
+  "source_selection": {
+    "arms": [
+      {
+        "arm": "natural",
+        "eligible": true,
+        "mean_precision": 0.3002949176899228,
+        "mean_f1": 0.443248215531775
+      },
+      {
+        "arm": "event",
+        "eligible": false,
+        "mean_precision": 0.2956731537896158,
+        "mean_f1": 0.43849967191140155,
+        "mean_f1_delta_vs_natural": -0.004748543620373469
+      },
+      {
+        "arm": "event_background",
+        "eligible": true,
+        "mean_precision": 0.35196582419634287,
+        "mean_f1": 0.4930220468671063,
+        "f1_delta_vs_event": 0.05452237495570478,
+        "f1_delta_vs_natural": 0.04977383133533131
+      }
+    ],
+    "selected": {
+      "arm": "event_background",
+      "eligible": true,
+      "mean_precision": 0.35196582419634287,
+      "mean_f1": 0.4930220468671063,
+      "f1_delta_vs_event": 0.05452237495570478,
+      "f1_delta_vs_natural": 0.04977383133533131
+    },
+    "no_deployable_candidate": false
+  },
+  "outer_aggregates": [
+    {
+      "house": "refit_2",
+      "arm": "natural",
+      "seeds": 3,
+      "precision": 0.0645912813112731,
+      "recall": 0.5458937198067634,
+      "f1": 0.11486611405507603,
+      "ap": 0.07202467232416591,
+      "fp_total": 1748,
+      "all_seed_recall_85": false
+    },
+    {
+      "house": "refit_2",
+      "arm": "event",
+      "seeds": 3,
+      "precision": 0.09371203029819657,
+      "recall": 0.8019323671497585,
+      "f1": 0.16717925554345744,
+      "ap": 0.10065907668211675,
+      "fp_total": 1656,
+      "all_seed_recall_85": false
+    },
+    {
+      "house": "refit_2",
+      "arm": "event_background",
+      "seeds": 3,
+      "precision": 0.08714853948007212,
+      "recall": 0.5700483091787439,
+      "f1": 0.14905328589539116,
+      "ap": 0.09258023651291297,
+      "fp_total": 1376,
+      "all_seed_recall_85": false
+    },
+    {
+      "house": "refit_19",
+      "arm": "natural",
+      "seeds": 3,
+      "precision": 0.052647592375122156,
+      "recall": 0.626984126984127,
+      "f1": 0.09706202080641342,
+      "ap": 0.06157042569621102,
+      "fp_total": 1428,
+      "all_seed_recall_85": false
+    },
+    {
+      "house": "refit_19",
+      "arm": "event",
+      "seeds": 3,
+      "precision": 0.05936164577470073,
+      "recall": 0.7142857142857143,
+      "f1": 0.10959350934688487,
+      "ap": 0.06828987436367003,
+      "fp_total": 1442,
+      "all_seed_recall_85": false
+    },
+    {
+      "house": "refit_19",
+      "arm": "event_background",
+      "seeds": 3,
+      "precision": 0.07856323906157321,
+      "recall": 0.6984126984126985,
+      "f1": 0.14094520011740594,
+      "ap": 0.09356220887224503,
+      "fp_total": 1050,
+      "all_seed_recall_85": false
+    }
+  ],
+  "comparison_details": [
+    {
+      "house": "refit_2",
+      "control": "event",
+      "mean_f1_delta": -0.018125969648066287,
+      "fp_ratio": 0.8309178743961353,
+      "gates": {
+        "all_seed_recall_85": false,
+        "mean_precision_08": true,
+        "mean_f1_delta_02": false,
+        "fp_ratio_70": false,
+        "two_seeds_p_and_f1_improve": false,
+        "no_seed_f1_drop_over_02": false
+      }
+    },
+    {
+      "house": "refit_2",
+      "control": "natural",
+      "mean_f1_delta": 0.034187171840315125,
+      "fp_ratio": 0.7871853546910755,
+      "gates": {
+        "all_seed_recall_85": false,
+        "mean_precision_08": true,
+        "mean_f1_delta_02": true,
+        "fp_ratio_70": false,
+        "two_seeds_p_and_f1_improve": true,
+        "no_seed_f1_drop_over_02": true
+      }
+    },
+    {
+      "house": "refit_19",
+      "control": "event",
+      "mean_f1_delta": 0.031351690770521065,
+      "fp_ratio": 0.7281553398058253,
+      "gates": {
+        "all_seed_recall_85": false,
+        "mean_precision_08": false,
+        "mean_f1_delta_02": true,
+        "fp_ratio_70": false,
+        "two_seeds_p_and_f1_improve": true,
+        "no_seed_f1_drop_over_02": true
+      }
+    },
+    {
+      "house": "refit_19",
+      "control": "natural",
+      "mean_f1_delta": 0.04388317931099252,
+      "fp_ratio": 0.7352941176470589,
+      "gates": {
+        "all_seed_recall_85": false,
+        "mean_precision_08": false,
+        "mean_f1_delta_02": true,
+        "fp_ratio_70": false,
+        "two_seeds_p_and_f1_improve": true,
+        "no_seed_f1_drop_over_02": true
+      }
+    }
+  ],
+  "improvement_demonstrated": false,
+  "pool_support": {
+    "all_train_windows": 75222,
+    "template_centers": 130,
+    "background_centers": 69151,
+    "exclusion_counts": {
+      "eligible": 69563,
+      "missing_or_nonfinite_context": 5659
+    },
+    "eligible_template_threshold_segments": 10,
+    "houses": {
+      "refit_2": {
+        "positive_centers": 177,
+        "template_centers": 105,
+        "template_threshold_segments": 7,
+        "background_centers": 56083,
+        "background_dates_utc": [
+          16343,
+          16344,
+          16345,
+          16346,
+          16347,
+          16348,
+          16349,
+          16350,
+          16351,
+          16352
+        ],
+        "positive_exclusions": {
+          "missing_or_nonfinite_context": 72
+        }
+      },
+      "refit_19": {
+        "positive_centers": 59,
+        "template_centers": 25,
+        "template_threshold_segments": 3,
+        "background_centers": 13068,
+        "background_dates_utc": [
+          16349,
+          16350,
+          16351,
+          16352,
+          16353,
+          16354,
+          16355,
+          16356,
+          16357
+        ],
+        "positive_exclusions": {
+          "missing_or_nonfinite_context": 34
+        }
+      }
+    }
+  },
+  "independent_verification": {
+    "status": "independently_verified",
+    "script_sha256": "2491efdcb8e99f4d5c8124d970099452647f5bf12eae02c8203cd6751a17828c",
+    "registration_sha256": "31a29d9a559fa9495fede1b61953d0aaccc1ce1049edca73c5e4debae25fc31d",
+    "freeze_sha256": "182d764d792ec3f7dad3625b591e3ed08da6879183868a6802d7a8f117d03d3b",
+    "templates_raw_checked": 130,
+    "backgrounds_raw_checked": 69151,
+    "seeds": {
+      "42": {
+        "attempts": 28224,
+        "synthesized": 5417,
+        "cross_house_synthesized": 5417,
+        "threshold_segments": 10,
+        "raw_event_exposure_matches_control": true
+      },
+      "1019": {
+        "attempts": 28224,
+        "synthesized": 5336,
+        "cross_house_synthesized": 5336,
+        "threshold_segments": 10,
+        "raw_event_exposure_matches_control": true
+      },
+      "2026": {
+        "attempts": 28224,
+        "synthesized": 5399,
+        "cross_house_synthesized": 5399,
+        "threshold_segments": 10,
+        "raw_event_exposure_matches_control": true
+      }
+    },
+    "template_segment_support": {
+      "refit_2": {
+        "template_threshold_segments": 7,
+        "complete_observed_template_segments": 5,
+        "source_complete_observed_segments": 14
+      },
+      "refit_19": {
+        "template_threshold_segments": 3,
+        "complete_observed_template_segments": 3,
+        "source_complete_observed_segments": 4
+      }
+    },
+    "ordinary_inference": {
+      "status": "verified",
+      "prediction_readbacks": 18,
+      "source_only": true
+    },
+    "ordinary_inference_receipt_sha256": "46d9417f964a4a83aa61f250250fa8c391e5ebbaebdb477db84cd3ede5d059c4"
+  },
+  "files": {
+    "registration.json": "31a29d9a559fa9495fede1b61953d0aaccc1ce1049edca73c5e4debae25fc31d",
+    "training_complete.json": "1d4ae7a0c8ea243970b3709c3b21900ba10a72e824982f8ac12e5eedd5739083",
+    "freeze.json": "182d764d792ec3f7dad3625b591e3ed08da6879183868a6802d7a8f117d03d3b",
+    "evaluation_complete.json": "ee83c783b8501fd5466c2c93681c28a2de4747be39b01bf0ecf31d9a34ed997c",
+    "delivery_manifest.json": "46d9417f964a4a83aa61f250250fa8c391e5ebbaebdb477db84cd3ede5d059c4",
+    "independent_verification.json": "991c3a6a21891bf78fba717b25ce7ff64036110d5b10eaae642fbc9ea0643b10",
+    "independent_delivery_manifest.json": "4ade34b41748d8ba00b0507e02ff1fd09342fedd64ec76c595f28cfb21a2234d"
+  },
+  "house17_or_final_house_accessed": false,
+  "default_model_changed": false
+}

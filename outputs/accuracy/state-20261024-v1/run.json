@@ -1,0 +1,4 @@
+{
+  "status": "failed_training",
+  "error": "Independent state inference readback differs"
+}

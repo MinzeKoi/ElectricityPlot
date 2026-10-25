@@ -1,0 +1,22 @@
+{
+  "refit_2": {
+    "aggregate": {
+      "path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-data-audit-20261025-v2\\inputs\\refit_2\\aggregate.csv",
+      "sha256": "3da552d8166d0a0e91b98f49960a15e4a0011dd318f653a6b0359eb02cb37df3"
+    },
+    "microwave": {
+      "path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-data-audit-20261025-v2\\inputs\\refit_2\\microwave.csv",
+      "sha256": "2253ca5be6123a472fe098e3f559958484d9fd01e58ce582cacbda534b051ff8"
+    }
+  },
+  "refit_19": {
+    "aggregate": {
+      "path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-data-audit-20261025-v2\\inputs\\refit_19\\aggregate.csv",
+      "sha256": "2b4a52e98a18d9b39247a9c587d9471da5b7b1c6d8e0d5944dc19194dee46a67"
+    },
+    "microwave": {
+      "path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-data-audit-20261025-v2\\inputs\\refit_19\\microwave.csv",
+      "sha256": "b4b26543fc680a47f2ca5c88d2b393b3d9fc1c2eb6d24c59b44028db99668b7a"
+    }
+  }
+}

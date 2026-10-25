@@ -1,0 +1,13 @@
+{
+  "candidate": "W1",
+  "seed": 1019,
+  "partition": "frozen_test_refit_17_0",
+  "threshold": 0.0002908156020566821,
+  "path": "replays/W1_1019_frozen_test_refit_17_0.npz",
+  "sha256": "90867b52636ece73af042408a805ea67da340f96655d471a7e4a18a51103bc6d",
+  "rows": 150750,
+  "maximum_raw_difference_w": 0.0,
+  "state_equal": true,
+  "ordinary_model_path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\precision-20261024-v1\\models\\W1\\seed_1019",
+  "labels_read": false
+}

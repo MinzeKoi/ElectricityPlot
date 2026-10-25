@@ -1,0 +1,30 @@
+{
+  "real_fits": 0,
+  "synthetic_only": true,
+  "cpu_threads": 4,
+  "rows": [
+    {
+      "length": 31,
+      "synthetic_updates": 8,
+      "median_update_seconds": 0.008935299999848212,
+      "inference_batch_seconds": 0.002730624999912834,
+      "estimated_training_seconds_per_fit": 31.52373839946449,
+      "parameter_count": 5329,
+      "input_batch_bytes": 63488,
+      "hidden_activation_lower_bound_bytes": 3555328
+    },
+    {
+      "length": 127,
+      "synthetic_updates": 8,
+      "median_update_seconds": 0.01693290000048364,
+      "inference_batch_seconds": 0.00685412500001803,
+      "estimated_training_seconds_per_fit": 59.73927120170629,
+      "parameter_count": 5329,
+      "input_batch_bytes": 260096,
+      "hidden_activation_lower_bound_bytes": 14565376
+    }
+  ],
+  "process_peak_working_set_bytes": 0,
+  "six_fit_training_only_seconds": 273.78902880351234,
+  "estimate_excludes_validation_serialization_and_contention": true
+}

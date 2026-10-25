@@ -1,0 +1,23 @@
+{
+  "candidate": "C61",
+  "source_only": true,
+  "positive_windows": 559,
+  "windows": 134673,
+  "households": {
+    "refit_19": {
+      "windows": 55973,
+      "positive": 256,
+      "events": 47,
+      "sampling_mass": 0.41562154255121675
+    },
+    "refit_2": {
+      "windows": 78700,
+      "positive": 303,
+      "events": 40,
+      "sampling_mass": 0.5843784574487834
+    }
+  },
+  "threshold_segments": 87,
+  "positive_sampling_mass": 0.00415079488835921,
+  "source_identity_sha256": "9feb01a54ab849ea66d7213c42520b80cf918e363eead2a5a244cd0d1b032a87"
+}

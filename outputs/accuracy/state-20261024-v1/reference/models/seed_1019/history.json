@@ -1,0 +1,88 @@
+{
+  "epochs": [
+    {
+      "epoch": 1,
+      "training_weighted_mse": 0.03832478396693596,
+      "validation_normalized_mae": 0.11711061745882034,
+      "source_primary_f1": 0.08860898138006572,
+      "optimizer_steps": 587
+    },
+    {
+      "epoch": 2,
+      "training_weighted_mse": 0.025663068891219498,
+      "validation_normalized_mae": 0.11858411878347397,
+      "source_primary_f1": 0.08922712107425483,
+      "optimizer_steps": 1174
+    },
+    {
+      "epoch": 3,
+      "training_weighted_mse": 0.02390841010746274,
+      "validation_normalized_mae": 0.07534979283809662,
+      "source_primary_f1": 0.11278359511343805,
+      "optimizer_steps": 1761
+    },
+    {
+      "epoch": 4,
+      "training_weighted_mse": 0.022685457641584934,
+      "validation_normalized_mae": 0.07701732218265533,
+      "source_primary_f1": 0.1515165721250762,
+      "optimizer_steps": 2348
+    },
+    {
+      "epoch": 5,
+      "training_weighted_mse": 0.020226084439369022,
+      "validation_normalized_mae": 0.06699218600988388,
+      "source_primary_f1": 0.1694164777818776,
+      "optimizer_steps": 2935
+    },
+    {
+      "epoch": 6,
+      "training_weighted_mse": 0.01917445291526291,
+      "validation_normalized_mae": 0.08195964992046356,
+      "source_primary_f1": 0.129389868910827,
+      "optimizer_steps": 3522
+    },
+    {
+      "epoch": 7,
+      "training_weighted_mse": 0.01714420273935597,
+      "validation_normalized_mae": 0.040448982268571854,
+      "source_primary_f1": 0.2230119245044618,
+      "optimizer_steps": 4109
+    },
+    {
+      "epoch": 8,
+      "training_weighted_mse": 0.016972375045147026,
+      "validation_normalized_mae": 0.05849355459213257,
+      "source_primary_f1": 0.15326581231914013,
+      "optimizer_steps": 4696
+    },
+    {
+      "epoch": 9,
+      "training_weighted_mse": 0.015800062621446734,
+      "validation_normalized_mae": 0.06158670037984848,
+      "source_primary_f1": 0.15552817985833076,
+      "optimizer_steps": 5283
+    },
+    {
+      "epoch": 10,
+      "training_weighted_mse": 0.015274814949725374,
+      "validation_normalized_mae": 0.052611175924539566,
+      "source_primary_f1": 0.17812866218466664,
+      "optimizer_steps": 5870
+    },
+    {
+      "epoch": 11,
+      "training_weighted_mse": 0.014447158717459377,
+      "validation_normalized_mae": 0.049213774502277374,
+      "source_primary_f1": 0.18130201948512809,
+      "optimizer_steps": 6457
+    },
+    {
+      "epoch": 12,
+      "training_weighted_mse": 0.013285027223695916,
+      "validation_normalized_mae": 0.05212429538369179,
+      "source_primary_f1": 0.1914667798768839,
+      "optimizer_steps": 7044
+    }
+  ]
+}

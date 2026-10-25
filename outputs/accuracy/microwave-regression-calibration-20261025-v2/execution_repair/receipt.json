@@ -1,0 +1,8 @@
+{
+  "repair": "Allow list-valued source_rows.json in object-only legacy JSON reader; no threshold/selection/prediction changes",
+  "wrapper_sha256": "18505f1ebfc82095cfe185d02e74f9812abfe527e65148e27cd85bf4667a4e58",
+  "registration_sha256": "0716e61d312d02773f0a31baa0d0b4a8a46832273b82685e105a02e964032cf2",
+  "source_complete_sha256": "c779ad936269a8abce234f11682299ebbf1988a8c4c5da61a5ba447cddd55d75",
+  "development_labels_parsed": false,
+  "fits": 0
+}

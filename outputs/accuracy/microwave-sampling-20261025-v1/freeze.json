@@ -1,0 +1,21 @@
+{
+  "registration_sha256": "d3026d8fd4eb22a0b4911fb53ecec81c6347097f0fe5495eb67d05d09ebd0777",
+  "training_sha256": "efe11a411d7617af95adaee7d429a90f68edd0e15183d1e69b91809e6bbf7ee1",
+  "source_selection_sha256": "cf2fede7d45e4141ec495d5c3b84af05f9afbca94674b4529e4b6d50b5ad1a2f",
+  "predictions": {
+    "event_1019_refit_19.npz": "646540062a7938f61be4fa41a06f139e1b41e1a8442f8bdb64bb442168b405dc",
+    "event_1019_refit_2.npz": "4e5d169ef760bbaa40bcd387aaf4ba1dc9fae9bf5da4a70a9eeb4cfbef4e9be8",
+    "event_2026_refit_19.npz": "2d9e68f3907f5c3bfaa7bdad09c8609d22a992d29b8438976d6286356957dcd0",
+    "event_2026_refit_2.npz": "2038ec79340feb9f77bca13501932c2999fe20acedb7c524b53ac2e7e1b2c081",
+    "event_42_refit_19.npz": "8466294927a2ae7107d07eecc73288f20530991cbda3f63feb03cf8fb15b1d5e",
+    "event_42_refit_2.npz": "f49aac5d6911428e57cec5c570d2ec6b76f36c81b7822dba0801456420ab4981",
+    "natural_1019_refit_19.npz": "8d271a1e09d8c78e2982ce97f36ebb4edba1a5356d5896b08d74e61a703e82dd",
+    "natural_1019_refit_2.npz": "3bfc92e8310164c6b77bc5344bfe5712a5545f5719f7a57b33fa3decc9584f06",
+    "natural_2026_refit_19.npz": "c1dbeb621ce602b105558d1c5c11c386961b3e8666ecdd0d5caf0f2e44b909dc",
+    "natural_2026_refit_2.npz": "5ca485e6dd6b4274f9d339c9b84020aacf043834833e472ebdafa1e753706a18",
+    "natural_42_refit_19.npz": "b96ea902255d0da9fdca1bc52bfa83c15750fdeb7fde6724740c215f00de5bb6",
+    "natural_42_refit_2.npz": "628a4de38c40c410925cc522d084326705e62477802f107e294b6e3d21c63197"
+  },
+  "count": 12,
+  "outer_labels_opened": false
+}

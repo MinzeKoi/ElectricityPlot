@@ -1,0 +1,17 @@
+{
+  "parent_training_sha256": "4d9f3d3db9257a6be87b7b3c936a14ec42b7451dcc81de2c1979989cd17ba013",
+  "parent_freeze_sha256": "47e5602103a444c42c63cb3f185fa42ec821bb497bb450ff6015c65ac5e94027",
+  "artifacts": {
+    "seed_42/model.json": "6e640c9e073028adda7a614bb35c3ff888d882ffb9fb945d257ade3649e5b010",
+    "seed_42/weights.pt": "49a87c0b17a6c781f2cade797a7a9fbacf605e8b5cad96653c43f60f1157fdb2",
+    "seed_42/initial.pt": "a6e8dcc837b3c13548fda478efa1e39e4458fccaf02da6ec81e4884d646c2772",
+    "seed_1019/model.json": "af841a69428eedddc332fbca34fa8bb9cc6b8db7dc5caf032137b68f083a76e8",
+    "seed_1019/weights.pt": "1d77dbe5cd0366ce431d6eae524e07e8c66baa38d693529cc19b206478b47c55",
+    "seed_1019/initial.pt": "3ecce023bbcad16db5d0fa3d63ab24936ae13a2ee00e9cc7d01eb28edcd3ebb3",
+    "seed_2026/model.json": "af6cdb6a1fd2e4c1c0cb333b3d15472cc3202664231e21f2c2e94afd8d3eda6f",
+    "seed_2026/weights.pt": "45e64824f1b49f18a4c2f3b611b5f43c42006c060dd5d8ecf407fbeab74cf88b",
+    "seed_2026/initial.pt": "e7d47a36b8ef33058fbc0088aaebe7bbf4eb2a4c42f3f898658a16197165b2c8"
+  },
+  "real_control_fits": 0,
+  "truth_reads": 0
+}

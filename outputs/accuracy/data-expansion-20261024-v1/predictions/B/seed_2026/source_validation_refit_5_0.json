@@ -1,0 +1,7 @@
+{
+  "path": "predictions/B/seed_2026/source_validation_refit_5_0.npz",
+  "sha256": "c0c4164248dc710e6c52103edc4d97690d8c7c0cad3582b716260ae10327f957",
+  "model_sha256": "53c824a3b889ab89405217bfe1e5f195fe2869ce365edd2d6e37c772557e300c",
+  "partition_id": "source_validation_refit_5_0",
+  "protocol_sha256": "2d841d6cbd808ce77b366c9129261cde3d2b6c3bfe2d7e4b0934e17a6171dfc2"
+}

@@ -1,0 +1,431 @@
+<!doctype html><meta charset="utf-8"><style>body{font:16px system-ui;margin:32px}td,th{padding:8px;border:1px solid #ccc}table{border-collapse:collapse}</style><h1>微波炉状态分类受控实验</h1><p>House17已查看开发集；来源选择先于统一评价。真值≥200 W；分类决策为来源选定概率阈值，功率独立输出。最终8/9/20未访问。</p><p>来源预选：C61</p><table><tr><th>候选</th><th>种子</th><th>P</th><th>R</th><th>F1</th><th>FP</th><th>FN</th><th>MAE W</th><th>开机MAE W</th></tr><tr><td>W50</td><td>42</td><td>0.03905887807139546</td><td>0.9083557951482479</td><td>0.07489721080120014</td><td>8291</td><td>34</td><td>59.35726222250164</td><td>489.40132175336373</td></tr><tr><td>W50_THR</td><td>42</td><td>0.03764320785597381</td><td>0.9299191374663073</td><td>0.07235738255033557</td><td>8820</td><td>26</td><td>59.35726222250164</td><td>489.40132175336373</td></tr><tr><td>R_FIXED</td><td>42</td><td>0.03232213795594077</td><td>0.9649595687331537</td><td>0.06254913951253603</td><td>10718</td><td>13</td><td>69.86518368941682</td><td>408.0132158130327</td></tr><tr><td>R_PR</td><td>42</td><td>0.03642492116994672</td><td>0.9029649595687331</td><td>0.07002508361204013</td><td>8862</td><td>36</td><td>69.86518368941682</td><td>408.0132158130327</td></tr><tr><td>C31</td><td>42</td><td>0.038648947951273535</td><td>0.9407008086253369</td><td>0.07424742048718222</td><td>8681</td><td>22</td><td>59.35726222250164</td><td>489.40132175336373</td></tr><tr><td>C_EVENT</td><td>42</td><td>0.03780185059805913</td><td>0.9029649595687331</td><td>0.0725657965991552</td><td>8527</td><td>36</td><td>59.35726222250164</td><td>489.40132175336373</td></tr><tr><td>C_HARD</td><td>42</td><td>0.03897024090694379</td><td>0.889487870619946</td><td>0.07466908021269375</td><td>8138</td><td>41</td><td>59.35726222250164</td><td>489.40132175336373</td></tr><tr><td>C_FEATURES</td><td>42</td><td>0.036837189996886996</td><td>0.9568733153638814</td><td>0.07094324540367705</td><td>9282</td><td>16</td><td>59.35726222250164</td><td>489.40132175336373</td></tr><tr><td>C61</td><td>42</td><td>0.03841782223232553</td><td>0.9110512129380054</td><td>0.07372668775220853</td><td>8460</td><td>33</td><td>59.35726222250164</td><td>489.40132175336373</td></tr><tr><td>W50</td><td>1019</td><td>0.037399626003739965</td><td>0.9164420485175202</td><td>0.07186641302050306</td><td>8751</td><td>31</td><td>44.460669904616324</td><td>654.9050954965679</td></tr><tr><td>W50_THR</td><td>1019</td><td>0.041588609966279506</td><td>0.8975741239892183</td><td>0.07949391262831225</td><td>7674</td><td>38</td><td>44.460669904616324</td><td>654.9050954965679</td></tr><tr><td>R_FIXED</td><td>1019</td><td>0.037399626003739965</td><td>0.9164420485175202</td><td>0.07186641302050306</td><td>8751</td><td>31</td><td>44.46066984349988</td><td>654.9050943857898</td></tr><tr><td>R_PR</td><td>1019</td><td>0.041588609966279506</td><td>0.8975741239892183</td><td>0.07949391262831225</td><td>7674</td><td>38</td><td>44.46066984349988</td><td>654.9050943857898</td></tr><tr><td>C31</td><td>1019</td><td>0.04497710746027471</td><td>0.9002695417789758</td><td>0.08567397717070668</td><td>7092</td><td>37</td><td>44.460669904616324</td><td>654.9050954965679</td></tr><tr><td>C_EVENT</td><td>1019</td><td>0.039374572015521574</td><td>0.9299191374663073</td><td>0.0755502025621373</td><td>8417</td><td>26</td><td>44.460669904616324</td><td>654.9050954965679</td></tr><tr><td>C_HARD</td><td>1019</td><td>0.03228904093146081</td><td>0.7250673854447439</td><td>0.06182486784647208</td><td>8062</td><td>102</td><td>44.460669904616324</td><td>654.9050954965679</td></tr><tr><td>C_FEATURES</td><td>1019</td><td>0.034382284382284384</td><td>0.954177897574124</td><td>0.06637292584606731</td><td>9942</td><td>17</td><td>44.460669904616324</td><td>654.9050954965679</td></tr><tr><td>C61</td><td>1019</td><td>0.040362917296731415</td><td>0.9353099730458221</td><td>0.07738626226583407</td><td>8250</td><td>24</td><td>44.460669904616324</td><td>654.9050954965679</td></tr><tr><td>W50</td><td>2026</td><td>0.042177361211247294</td><td>0.9460916442048517</td><td>0.08075463016219947</td><td>7971</td><td>20</td><td>51.4529129176885</td><td>473.2008589010984</td></tr><tr><td>W50_THR</td><td>2026</td><td>0.04238008500303582</td><td>0.9407008086253369</td><td>0.08110620497327446</td><td>7886</td><td>22</td><td>51.4529129176885</td><td>473.2008589010984</td></tr><tr><td>R_FIXED</td><td>2026</td><td>0.0321285140562249</td><td>0.9919137466307277</td><td>0.06224101479915434</td><td>11086</td><td>3</td><td>73.67384653156381</td><td>373.0086652853418</td></tr><tr><td>R_PR</td><td>2026</td><td>0.043824701195219126</td><td>0.9487870619946092</td><td>0.08377960252290849</td><td>7680</td><td>19</td><td>73.67384653156381</td><td>373.0086652853418</td></tr><tr><td>C31</td><td>2026</td><td>0.03802240413614821</td><td>0.9514824797843666</td><td>0.0731227343345417</td><td>8931</td><td>18</td><td>51.4529129176885</td><td>473.2008589010984</td></tr><tr><td>C_EVENT</td><td>2026</td><td>0.030789531559269848</td><td>0.7547169811320755</td><td>0.05916534601162177</td><td>8814</td><td>91</td><td>51.4529129176885</td><td>473.2008589010984</td></tr><tr><td>C_HARD</td><td>2026</td><td>0.04326059050064185</td><td>0.9083557951482479</td><td>0.08258791814728587</td><td>7453</td><td>34</td><td>51.4529129176885</td><td>473.2008589010984</td></tr><tr><td>C_FEATURES</td><td>2026</td><td>0.03211789155488381</td><td>0.9164420485175202</td><td>0.062060783061056855</td><td>10246</td><td>31</td><td>51.4529129176885</td><td>473.2008589010984</td></tr><tr><td>C61</td><td>2026</td><td>0.039357787936224777</td><td>0.9514824797843666</td><td>0.07558886509635974</td><td>8616</td><td>18</td><td>51.4529129176885</td><td>473.2008589010984</td></tr></table><p><a href="comparison.csv">逐设备/种子/支持指标</a> · <a href="support.csv">正例与连续段支持</a> · <a href="error_segments.csv">错误段</a> · <a href="error_curves.csv">对照曲线</a></p><pre>{
+  &quot;selected&quot;: &quot;C61&quot;,
+  &quot;common_support_gates&quot;: {
+    &quot;R_PR&quot;: {
+      &quot;selected_before_development_evaluation&quot;: &quot;R_PR&quot;,
+      &quot;precision_exit_passed&quot;: false,
+      &quot;checks&quot;: {
+        &quot;defined_metrics&quot;: true,
+        &quot;same_support&quot;: true,
+        &quot;nondegenerate&quot;: true,
+        &quot;mean_precision&quot;: false,
+        &quot;every_seed_recall&quot;: true,
+        &quot;mean_f1_gain&quot;: false,
+        &quot;paired_positive_seeds&quot;: true,
+        &quot;bounded_seed_f1_drop&quot;: true,
+        &quot;false_positive_reduction&quot;: false
+      },
+      &quot;selected_means&quot;: {
+        &quot;precision&quot;: 0.04061274411048178,
+        &quot;recall&quot;: 0.9164420485175202,
+        &quot;f1&quot;: 0.07776619958775362,
+        &quot;false_positive&quot;: 8072.0,
+        &quot;false_negative&quot;: 31.0
+      },
+      &quot;baseline_means&quot;: {
+        &quot;precision&quot;: 0.03954528842879424,
+        &quot;recall&quot;: 0.9236298292902066,
+        &quot;f1&quot;: 0.07583941799463423,
+        &quot;false_positive&quot;: 8337.666666666666,
+        &quot;false_negative&quot;: 28.333333333333332
+      },
+      &quot;formal_evaluation&quot;: false,
+      &quot;final_households_accessed&quot;: false,
+      &quot;default_model_changed&quot;: false
+    },
+    &quot;C31&quot;: {
+      &quot;selected_before_development_evaluation&quot;: &quot;C31&quot;,
+      &quot;precision_exit_passed&quot;: false,
+      &quot;checks&quot;: {
+        &quot;defined_metrics&quot;: true,
+        &quot;same_support&quot;: true,
+        &quot;nondegenerate&quot;: true,
+        &quot;mean_precision&quot;: false,
+        &quot;every_seed_recall&quot;: true,
+        &quot;mean_f1_gain&quot;: false,
+        &quot;paired_positive_seeds&quot;: false,
+        &quot;bounded_seed_f1_drop&quot;: true,
+        &quot;false_positive_reduction&quot;: false
+      },
+      &quot;selected_means&quot;: {
+        &quot;precision&quot;: 0.04054948651589882,
+        &quot;recall&quot;: 0.9308176100628932,
+        &quot;f1&quot;: 0.0776813773308102,
+        &quot;false_positive&quot;: 8234.666666666666,
+        &quot;false_negative&quot;: 25.666666666666668
+      },
+      &quot;baseline_means&quot;: {
+        &quot;precision&quot;: 0.03954528842879424,
+        &quot;recall&quot;: 0.9236298292902066,
+        &quot;f1&quot;: 0.07583941799463423,
+        &quot;false_positive&quot;: 8337.666666666666,
+        &quot;false_negative&quot;: 28.333333333333332
+      },
+      &quot;formal_evaluation&quot;: false,
+      &quot;final_households_accessed&quot;: false,
+      &quot;default_model_changed&quot;: false
+    },
+    &quot;C_EVENT&quot;: {
+      &quot;selected_before_development_evaluation&quot;: &quot;C_EVENT&quot;,
+      &quot;precision_exit_passed&quot;: false,
+      &quot;checks&quot;: {
+        &quot;defined_metrics&quot;: true,
+        &quot;same_support&quot;: true,
+        &quot;nondegenerate&quot;: true,
+        &quot;mean_precision&quot;: false,
+        &quot;every_seed_recall&quot;: false,
+        &quot;mean_f1_gain&quot;: false,
+        &quot;paired_positive_seeds&quot;: false,
+        &quot;bounded_seed_f1_drop&quot;: false,
+        &quot;false_positive_reduction&quot;: false
+      },
+      &quot;selected_means&quot;: {
+        &quot;precision&quot;: 0.035988651390950185,
+        &quot;recall&quot;: 0.8625336927223719,
+        &quot;f1&quot;: 0.06909378172430476,
+        &quot;false_positive&quot;: 8586.0,
+        &quot;false_negative&quot;: 51.0
+      },
+      &quot;baseline_means&quot;: {
+        &quot;precision&quot;: 0.03954528842879424,
+        &quot;recall&quot;: 0.9236298292902066,
+        &quot;f1&quot;: 0.07583941799463423,
+        &quot;false_positive&quot;: 8337.666666666666,
+        &quot;false_negative&quot;: 28.333333333333332
+      },
+      &quot;formal_evaluation&quot;: false,
+      &quot;final_households_accessed&quot;: false,
+      &quot;default_model_changed&quot;: false
+    },
+    &quot;C_HARD&quot;: {
+      &quot;selected_before_development_evaluation&quot;: &quot;C_HARD&quot;,
+      &quot;precision_exit_passed&quot;: false,
+      &quot;checks&quot;: {
+        &quot;defined_metrics&quot;: true,
+        &quot;same_support&quot;: true,
+        &quot;nondegenerate&quot;: true,
+        &quot;mean_precision&quot;: false,
+        &quot;every_seed_recall&quot;: false,
+        &quot;mean_f1_gain&quot;: false,
+        &quot;paired_positive_seeds&quot;: false,
+        &quot;bounded_seed_f1_drop&quot;: true,
+        &quot;false_positive_reduction&quot;: false
+      },
+      &quot;selected_means&quot;: {
+        &quot;precision&quot;: 0.03817329077968215,
+        &quot;recall&quot;: 0.8409703504043127,
+        &quot;f1&quot;: 0.0730272887354839,
+        &quot;false_positive&quot;: 7884.333333333333,
+        &quot;false_negative&quot;: 59.0
+      },
+      &quot;baseline_means&quot;: {
+        &quot;precision&quot;: 0.03954528842879424,
+        &quot;recall&quot;: 0.9236298292902066,
+        &quot;f1&quot;: 0.07583941799463423,
+        &quot;false_positive&quot;: 8337.666666666666,
+        &quot;false_negative&quot;: 28.333333333333332
+      },
+      &quot;formal_evaluation&quot;: false,
+      &quot;final_households_accessed&quot;: false,
+      &quot;default_model_changed&quot;: false
+    },
+    &quot;C_FEATURES&quot;: {
+      &quot;selected_before_development_evaluation&quot;: &quot;C_FEATURES&quot;,
+      &quot;precision_exit_passed&quot;: false,
+      &quot;checks&quot;: {
+        &quot;defined_metrics&quot;: true,
+        &quot;same_support&quot;: true,
+        &quot;nondegenerate&quot;: true,
+        &quot;mean_precision&quot;: false,
+        &quot;every_seed_recall&quot;: true,
+        &quot;mean_f1_gain&quot;: false,
+        &quot;paired_positive_seeds&quot;: false,
+        &quot;bounded_seed_f1_drop&quot;: true,
+        &quot;false_positive_reduction&quot;: false
+      },
+      &quot;selected_means&quot;: {
+        &quot;precision&quot;: 0.03444578864468506,
+        &quot;recall&quot;: 0.9424977538185085,
+        &quot;f1&quot;: 0.06645898477026708,
+        &quot;false_positive&quot;: 9823.333333333334,
+        &quot;false_negative&quot;: 21.333333333333332
+      },
+      &quot;baseline_means&quot;: {
+        &quot;precision&quot;: 0.03954528842879424,
+        &quot;recall&quot;: 0.9236298292902066,
+        &quot;f1&quot;: 0.07583941799463423,
+        &quot;false_positive&quot;: 8337.666666666666,
+        &quot;false_negative&quot;: 28.333333333333332
+      },
+      &quot;formal_evaluation&quot;: false,
+      &quot;final_households_accessed&quot;: false,
+      &quot;default_model_changed&quot;: false
+    },
+    &quot;C61&quot;: {
+      &quot;selected_before_development_evaluation&quot;: &quot;C61&quot;,
+      &quot;precision_exit_passed&quot;: false,
+      &quot;checks&quot;: {
+        &quot;defined_metrics&quot;: true,
+        &quot;same_support&quot;: true,
+        &quot;nondegenerate&quot;: true,
+        &quot;mean_precision&quot;: false,
+        &quot;every_seed_recall&quot;: true,
+        &quot;mean_f1_gain&quot;: false,
+        &quot;paired_positive_seeds&quot;: false,
+        &quot;bounded_seed_f1_drop&quot;: true,
+        &quot;false_positive_reduction&quot;: false
+      },
+      &quot;selected_means&quot;: {
+        &quot;precision&quot;: 0.03937950915509391,
+        &quot;recall&quot;: 0.9326145552560646,
+        &quot;f1&quot;: 0.07556727170480078,
+        &quot;false_positive&quot;: 8442.0,
+        &quot;false_negative&quot;: 25.0
+      },
+      &quot;baseline_means&quot;: {
+        &quot;precision&quot;: 0.03954528842879424,
+        &quot;recall&quot;: 0.9236298292902066,
+        &quot;f1&quot;: 0.07583941799463423,
+        &quot;false_positive&quot;: 8337.666666666666,
+        &quot;false_negative&quot;: 28.333333333333332
+      },
+      &quot;formal_evaluation&quot;: false,
+      &quot;final_households_accessed&quot;: false,
+      &quot;default_model_changed&quot;: false
+    }
+  },
+  &quot;native_support_gates&quot;: {
+    &quot;R_PR&quot;: {
+      &quot;selected_before_development_evaluation&quot;: &quot;R_PR&quot;,
+      &quot;precision_exit_passed&quot;: false,
+      &quot;checks&quot;: {
+        &quot;defined_metrics&quot;: true,
+        &quot;same_support&quot;: true,
+        &quot;nondegenerate&quot;: true,
+        &quot;mean_precision&quot;: false,
+        &quot;every_seed_recall&quot;: true,
+        &quot;mean_f1_gain&quot;: false,
+        &quot;paired_positive_seeds&quot;: true,
+        &quot;bounded_seed_f1_drop&quot;: true,
+        &quot;false_positive_reduction&quot;: false
+      },
+      &quot;selected_means&quot;: {
+        &quot;precision&quot;: 0.04122111911893564,
+        &quot;recall&quot;: 0.9173194081810271,
+        &quot;f1&quot;: 0.0788841377394166,
+        &quot;false_positive&quot;: 8212.666666666666,
+        &quot;false_negative&quot;: 31.666666666666668
+      },
+      &quot;baseline_means&quot;: {
+        &quot;precision&quot;: 0.04012808999869747,
+        &quot;recall&quot;: 0.9242819843342036,
+        &quot;f1&quot;: 0.07691297343567473,
+        &quot;false_positive&quot;: 8482.0,
+        &quot;false_negative&quot;: 29.0
+      },
+      &quot;formal_evaluation&quot;: false,
+      &quot;final_households_accessed&quot;: false,
+      &quot;default_model_changed&quot;: false
+    },
+    &quot;C31&quot;: {
+      &quot;selected_before_development_evaluation&quot;: &quot;C31&quot;,
+      &quot;precision_exit_passed&quot;: false,
+      &quot;checks&quot;: {
+        &quot;defined_metrics&quot;: true,
+        &quot;same_support&quot;: true,
+        &quot;nondegenerate&quot;: true,
+        &quot;mean_precision&quot;: false,
+        &quot;every_seed_recall&quot;: true,
+        &quot;mean_f1_gain&quot;: false,
+        &quot;paired_positive_seeds&quot;: false,
+        &quot;bounded_seed_f1_drop&quot;: true,
+        &quot;false_positive_reduction&quot;: false
+      },
+      &quot;selected_means&quot;: {
+        &quot;precision&quot;: 0.041195710607388254,
+        &quot;recall&quot;: 0.9321148825065274,
+        &quot;f1&quot;: 0.07887118553296091,
+        &quot;false_positive&quot;: 8374.666666666666,
+        &quot;false_negative&quot;: 26.0
+      },
+      &quot;baseline_means&quot;: {
+        &quot;precision&quot;: 0.04012808999869747,
+        &quot;recall&quot;: 0.9242819843342036,
+        &quot;f1&quot;: 0.07691297343567473,
+        &quot;false_positive&quot;: 8482.0,
+        &quot;false_negative&quot;: 29.0
+      },
+      &quot;formal_evaluation&quot;: false,
+      &quot;final_households_accessed&quot;: false,
+      &quot;default_model_changed&quot;: false
+    },
+    &quot;C_EVENT&quot;: {
+      &quot;selected_before_development_evaluation&quot;: &quot;C_EVENT&quot;,
+      &quot;precision_exit_passed&quot;: false,
+      &quot;checks&quot;: {
+        &quot;defined_metrics&quot;: true,
+        &quot;same_support&quot;: true,
+        &quot;nondegenerate&quot;: true,
+        &quot;mean_precision&quot;: false,
+        &quot;every_seed_recall&quot;: false,
+        &quot;mean_f1_gain&quot;: false,
+        &quot;paired_positive_seeds&quot;: false,
+        &quot;bounded_seed_f1_drop&quot;: false,
+        &quot;false_positive_reduction&quot;: false
+      },
+      &quot;selected_means&quot;: {
+        &quot;precision&quot;: 0.03658994440138257,
+        &quot;recall&quot;: 0.8642297650130547,
+        &quot;f1&quot;: 0.07020680391651306,
+        &quot;false_positive&quot;: 8730.0,
+        &quot;false_negative&quot;: 52.0
+      },
+      &quot;baseline_means&quot;: {
+        &quot;precision&quot;: 0.04012808999869747,
+        &quot;recall&quot;: 0.9242819843342036,
+        &quot;f1&quot;: 0.07691297343567473,
+        &quot;false_positive&quot;: 8482.0,
+        &quot;false_negative&quot;: 29.0
+      },
+      &quot;formal_evaluation&quot;: false,
+      &quot;final_households_accessed&quot;: false,
+      &quot;default_model_changed&quot;: false
+    },
+    &quot;C_HARD&quot;: {
+      &quot;selected_before_development_evaluation&quot;: &quot;C_HARD&quot;,
+      &quot;precision_exit_passed&quot;: false,
+      &quot;checks&quot;: {
+        &quot;defined_metrics&quot;: true,
+        &quot;same_support&quot;: true,
+        &quot;nondegenerate&quot;: true,
+        &quot;mean_precision&quot;: false,
+        &quot;every_seed_recall&quot;: false,
+        &quot;mean_f1_gain&quot;: false,
+        &quot;paired_positive_seeds&quot;: false,
+        &quot;bounded_seed_f1_drop&quot;: true,
+        &quot;false_positive_reduction&quot;: false
+      },
+      &quot;selected_means&quot;: {
+        &quot;precision&quot;: 0.038630984518296115,
+        &quot;recall&quot;: 0.8389904264577893,
+        &quot;f1&quot;: 0.07385683618108511,
+        &quot;false_positive&quot;: 8020.666666666667,
+        &quot;false_negative&quot;: 61.666666666666664
+      },
+      &quot;baseline_means&quot;: {
+        &quot;precision&quot;: 0.04012808999869747,
+        &quot;recall&quot;: 0.9242819843342036,
+        &quot;f1&quot;: 0.07691297343567473,
+        &quot;false_positive&quot;: 8482.0,
+        &quot;false_negative&quot;: 29.0
+      },
+      &quot;formal_evaluation&quot;: false,
+      &quot;final_households_accessed&quot;: false,
+      &quot;default_model_changed&quot;: false
+    },
+    &quot;C_FEATURES&quot;: {
+      &quot;selected_before_development_evaluation&quot;: &quot;C_FEATURES&quot;,
+      &quot;precision_exit_passed&quot;: false,
+      &quot;checks&quot;: {
+        &quot;defined_metrics&quot;: true,
+        &quot;same_support&quot;: true,
+        &quot;nondegenerate&quot;: true,
+        &quot;mean_precision&quot;: false,
+        &quot;every_seed_recall&quot;: true,
+        &quot;mean_f1_gain&quot;: false,
+        &quot;paired_positive_seeds&quot;: false,
+        &quot;bounded_seed_f1_drop&quot;: true,
+        &quot;false_positive_reduction&quot;: false
+      },
+      &quot;selected_means&quot;: {
+        &quot;precision&quot;: 0.0349310228319951,
+        &quot;recall&quot;: 0.9425587467362924,
+        &quot;f1&quot;: 0.06736178635679953,
+        &quot;false_positive&quot;: 9995.666666666666,
+        &quot;false_negative&quot;: 22.0
+      },
+      &quot;baseline_means&quot;: {
+        &quot;precision&quot;: 0.04012808999869747,
+        &quot;recall&quot;: 0.9242819843342036,
+        &quot;f1&quot;: 0.07691297343567473,
+        &quot;false_positive&quot;: 8482.0,
+        &quot;false_negative&quot;: 29.0
+      },
+      &quot;formal_evaluation&quot;: false,
+      &quot;final_households_accessed&quot;: false,
+      &quot;default_model_changed&quot;: false
+    }
+  },
+  &quot;selection_diagnostics&quot;: {
+    &quot;W50_THR&quot;: {
+      &quot;selected_before_development_evaluation&quot;: &quot;W50_THR&quot;,
+      &quot;precision_exit_passed&quot;: false,
+      &quot;checks&quot;: {
+        &quot;defined_metrics&quot;: true,
+        &quot;same_support&quot;: true,
+        &quot;nondegenerate&quot;: true,
+        &quot;mean_precision&quot;: false,
+        &quot;every_seed_recall&quot;: true,
+        &quot;mean_f1_gain&quot;: false,
+        &quot;paired_positive_seeds&quot;: true,
+        &quot;bounded_seed_f1_drop&quot;: true,
+        &quot;false_positive_reduction&quot;: false
+      },
+      &quot;selected_means&quot;: {
+        &quot;precision&quot;: 0.04053730094176305,
+        &quot;recall&quot;: 0.9227313566936209,
+        &quot;f1&quot;: 0.07765250005064077,
+        &quot;false_positive&quot;: 8126.666666666667,
+        &quot;false_negative&quot;: 28.666666666666668
+      },
+      &quot;baseline_means&quot;: {
+        &quot;precision&quot;: 0.03954528842879424,
+        &quot;recall&quot;: 0.9236298292902066,
+        &quot;f1&quot;: 0.07583941799463423,
+        &quot;false_positive&quot;: 8337.666666666666,
+        &quot;false_negative&quot;: 28.333333333333332
+      },
+      &quot;formal_evaluation&quot;: false,
+      &quot;final_households_accessed&quot;: false,
+      &quot;default_model_changed&quot;: false
+    },
+    &quot;R_FIXED&quot;: {
+      &quot;selected_before_development_evaluation&quot;: &quot;R_FIXED&quot;,
+      &quot;precision_exit_passed&quot;: false,
+      &quot;checks&quot;: {
+        &quot;defined_metrics&quot;: true,
+        &quot;same_support&quot;: true,
+        &quot;nondegenerate&quot;: true,
+        &quot;mean_precision&quot;: false,
+        &quot;every_seed_recall&quot;: true,
+        &quot;mean_f1_gain&quot;: false,
+        &quot;paired_positive_seeds&quot;: false,
+        &quot;bounded_seed_f1_drop&quot;: true,
+        &quot;false_positive_reduction&quot;: false
+      },
+      &quot;selected_means&quot;: {
+        &quot;precision&quot;: 0.033950092671968544,
+        &quot;recall&quot;: 0.9577717879604672,
+        &quot;f1&quot;: 0.06555218911073114,
+        &quot;false_positive&quot;: 10185.0,
+        &quot;false_negative&quot;: 15.666666666666666
+      },
+      &quot;baseline_means&quot;: {
+        &quot;precision&quot;: 0.03954528842879424,
+        &quot;recall&quot;: 0.9236298292902066,
+        &quot;f1&quot;: 0.07583941799463423,
+        &quot;false_positive&quot;: 8337.666666666666,
+        &quot;false_negative&quot;: 28.333333333333332
+      },
+      &quot;formal_evaluation&quot;: false,
+      &quot;final_households_accessed&quot;: false,
+      &quot;default_model_changed&quot;: false
+    }
+  },
+  &quot;other_devices_raw_unchanged&quot;: true,
+  &quot;final_households_accessed&quot;: false,
+  &quot;default_model_changed&quot;: false,
+  &quot;new_development_household_check&quot;: &quot;not_completed_no_additional_designated_household&quot;,
+  &quot;formal_evaluation&quot;: false,
+  &quot;confirmation_budget&quot;: 0
+}</pre>

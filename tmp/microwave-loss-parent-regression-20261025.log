@@ -1,0 +1,28 @@
+test_actual_prepare_guard_blocks_truth_and_unknown_npz (test_microwave_tcn.TCNTests.test_actual_prepare_guard_blocks_truth_and_unknown_npz) ... ok
+test_authorization_and_freeze_required_before_truth (test_microwave_tcn.TCNTests.test_authorization_and_freeze_required_before_truth) ... ok
+test_checkpoint_rejects_constant_predictions (test_microwave_tcn.TCNTests.test_checkpoint_rejects_constant_predictions) ... ok
+test_development_absolute_precision_and_inclusive_f1_gain (test_microwave_tcn.TCNTests.test_development_absolute_precision_and_inclusive_f1_gain) ... ok
+test_development_seed_f1_drop_inclusive_boundary (test_microwave_tcn.TCNTests.test_development_seed_f1_drop_inclusive_boundary) ... ok
+test_evaluate_rejects_before_any_truth_or_npz_read (test_microwave_tcn.TCNTests.test_evaluate_rejects_before_any_truth_or_npz_read) ... ok
+test_existing_default_has_no_tcn_import (test_microwave_tcn.TCNTests.test_existing_default_has_no_tcn_import) ... ok
+test_gap_truncates_both_directions (test_microwave_tcn.TCNTests.test_gap_truncates_both_directions) ... ok
+test_incomplete_core_is_none_outer_missing_keeps_centers (test_microwave_tcn.TCNTests.test_incomplete_core_is_none_outer_missing_keeps_centers) ... ok
+test_mask_nan_zero_watts_alignment (test_microwave_tcn.TCNTests.test_mask_nan_zero_watts_alignment) ... ok
+test_normalization_not_recomputed_from_outer (test_microwave_tcn.TCNTests.test_normalization_not_recomputed_from_outer) ... ok
+test_ordinary_loader_roundtrip_and_wrong_kind (test_microwave_tcn.TCNTests.test_ordinary_loader_roundtrip_and_wrong_kind) ... ok
+test_parameters_and_same_seed_initialization (test_microwave_tcn.TCNTests.test_parameters_and_same_seed_initialization) ... ok
+test_prepare_rejects_development_house_before_file_access (test_microwave_tcn.TCNTests.test_prepare_rejects_development_house_before_file_access) ... ok
+test_real_outer_reaches_center (test_microwave_tcn.TCNTests.test_real_outer_reaches_center) ... ok
+test_selection_low_recall_degenerate_no_candidate (test_microwave_tcn.TCNTests.test_selection_low_recall_degenerate_no_candidate) ... ok
+test_selection_requires_new_arm_improvement_and_ties (test_microwave_tcn.TCNTests.test_selection_requires_new_arm_improvement_and_ties) ... ok
+test_single_missing_not_interpolated_or_barrier (test_microwave_tcn.TCNTests.test_single_missing_not_interpolated_or_barrier) ... ok
+mask TCN31 seed=42 checkpoint=1/12 source_eligible=False
+mask TCN127 seed=42 checkpoint=1/12 source_eligible=False
+test_synthetic_training_validation_and_saved_load_for_both_lengths (test_microwave_tcn.TCNTests.test_synthetic_training_validation_and_saved_load_for_both_lengths) ... ok
+test_time_break_and_partition_boundary (test_microwave_tcn.TCNTests.test_time_break_and_partition_boundary) ... ok
+test_unknown_outer_matches_short_including_gradients (test_microwave_tcn.TCNTests.test_unknown_outer_matches_short_including_gradients) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 1.756s
+
+OK

@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "audit_id": "microwave-data-audit-20261025-v2",
+  "purpose": "availability-approved source development comparison; not fresh final evaluation",
+  "sample_seconds": 8,
+  "window_samples": 31,
+  "on_threshold_w": 200,
+  "inputs": {
+    "refit_2": {
+      "aggregate": "outputs/accuracy/microwave-data-audit-20261025-v2/inputs/refit_2/aggregate.csv",
+      "microwave": "outputs/accuracy/microwave-data-audit-20261025-v2/inputs/refit_2/microwave.csv"
+    },
+    "refit_19": {
+      "aggregate": "outputs/accuracy/microwave-data-audit-20261025-v2/inputs/refit_19/aggregate.csv",
+      "microwave": "outputs/accuracy/microwave-data-audit-20261025-v2/inputs/refit_19/microwave.csv"
+    }
+  },
+  "support_masks": {
+    "refit_2": "outputs/accuracy/microwave-data-audit-20261025-v2/refit_2_support.npz",
+    "refit_19": "outputs/accuracy/microwave-data-audit-20261025-v2/refit_19_support.npz"
+  },
+  "blocks": {
+    "refit_2": {
+      "train": {
+        "start": "2014-09-29T06:28:48Z",
+        "end": "2014-10-09T05:58:48Z",
+        "windows": 60356,
+        "effective_hours": 134.12444444444444,
+        "positive_windows": 177,
+        "supported_threshold_segments": 32,
+        "complete_observed_segments": 14,
+        "complete_event_ids": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          15,
+          32,
+          36,
+          37,
+          41,
+          42,
+          43,
+          44,
+          53
+        ],
+        "cross_boundary_event_ids_excluded": []
+      },
+      "validation": {
+        "start": "2014-10-09T06:58:48Z",
+        "end": "2014-10-10T05:58:48Z",
+        "windows": 7247,
+        "effective_hours": 16.104444444444443,
+        "positive_windows": 64,
+        "supported_threshold_segments": 6,
+        "complete_observed_segments": 2,
+        "complete_event_ids": [
+          57,
+          60
+        ],
+        "cross_boundary_event_ids_excluded": []
+      },
+      "outer": {
+        "start": "2014-10-10T06:58:48Z",
+        "end": "2014-10-13T06:28:48Z",
+        "windows": 24736,
+        "effective_hours": 54.96888888888889,
+        "positive_windows": 128,
+        "supported_threshold_segments": 15,
+        "complete_observed_segments": 5,
+        "complete_event_ids": [
+          71,
+          76,
+          77,
+          79,
+          80
+        ],
+        "cross_boundary_event_ids_excluded": []
+      }
+    },
+    "refit_19": {
+      "train": {
+        "start": "2014-10-04T20:22:40Z",
+        "end": "2014-10-14T19:52:40Z",
+        "windows": 14866,
+        "effective_hours": 33.035555555555554,
+        "positive_windows": 59,
+        "supported_threshold_segments": 10,
+        "complete_observed_segments": 4,
+        "complete_event_ids": [
+          35,
+          36,
+          37,
+          39
+        ],
+        "cross_boundary_event_ids_excluded": []
+      },
+      "validation": {
+        "start": "2014-10-14T20:52:40Z",
+        "end": "2014-10-15T19:52:40Z",
+        "windows": 9900,
+        "effective_hours": 22.0,
+        "positive_windows": 82,
+        "supported_threshold_segments": 15,
+        "complete_observed_segments": 10,
+        "complete_event_ids": [
+          41,
+          44,
+          45,
+          47,
+          48,
+          50,
+          51,
+          52,
+          55,
+          56
+        ],
+        "cross_boundary_event_ids_excluded": []
+      },
+      "outer": {
+        "start": "2014-10-15T20:52:40Z",
+        "end": "2014-10-18T20:22:40Z",
+        "windows": 31136,
+        "effective_hours": 69.19111111111111,
+        "positive_windows": 136,
+        "supported_threshold_segments": 25,
+        "complete_observed_segments": 13,
+        "complete_event_ids": [
+          60,
+          63,
+          64,
+          68,
+          69,
+          70,
+          71,
+          73,
+          74,
+          76,
+          78,
+          79,
+          80
+        ],
+        "cross_boundary_event_ids_excluded": []
+      }
+    }
+  },
+  "boundary_half_gap_seconds": 1800,
+  "historical_outer_already_used": true,
+  "require_refreeze_before_model_comparison": true
+}

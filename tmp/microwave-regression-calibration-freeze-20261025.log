@@ -1,0 +1,19 @@
+Traceback (most recent call last):
+  File "D:\system position\document\�������ĵ�\AIC\outputs\accuracy\microwave-regression-calibration-20261025-v2\source\virtual_submeter\data\common.py", line 55, in read_json
+    raise ValueError("JSON object required")
+ValueError: JSON object required
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\system position\document\�������ĵ�\AIC\outputs\accuracy\microwave-regression-calibration-20261025-v2\run_microwave_regression_calibration.py", line 11, in <module>
+    main()
+    ~~~~^^
+  File "D:\system position\document\�������ĵ�\AIC\outputs\accuracy\microwave-regression-calibration-20261025-v2\source\virtual_submeter\accuracy\microwave_regression_calibration.py", line 528, in main
+    result = globals()[args.stage](args.run.resolve())
+  File "D:\system position\document\�������ĵ�\AIC\outputs\accuracy\microwave-regression-calibration-20261025-v2\source\virtual_submeter\accuracy\microwave_regression_calibration.py", line 302, in freeze
+    for r in read_json(run/'source_rows.json'):
+             ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\system position\document\�������ĵ�\AIC\outputs\accuracy\microwave-regression-calibration-20261025-v2\source\virtual_submeter\data\common.py", line 58, in read_json
+    raise DataError(f"Cannot read {path.name}: {error}") from error
+virtual_submeter.data.common.DataError: Cannot read source_rows.json: JSON object required

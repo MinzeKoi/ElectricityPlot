@@ -1,0 +1,38 @@
+<!doctype html><meta charset="utf-8"><style>body{font:16px system-ui;margin:40px;max-width:1200px}td,th{padding:10px;border:1px solid #ccc}table{border-collapse:collapse}</style><h1>数据集扩充对照</h1><p>开发实验；最终家庭 8/9/20 未参与。固定模型与更新步数；未修改界面默认模型。</p><h2>配对收益与内部目标</h2><pre>[
+  {
+    &quot;comparison&quot;: &quot;B-A&quot;,
+    &quot;paired_seed_f1_deltas&quot;: [
+      -0.011021276363538404,
+      -0.01766493500825938,
+      0.007088625533397813
+    ],
+    &quot;mean_primary_f1_delta&quot;: -0.007199195279466657,
+    &quot;positive_seeds&quot;: 1,
+    &quot;mean_device_f1_deltas&quot;: {
+      &quot;kettle&quot;: -0.010864083479067052,
+      &quot;microwave&quot;: -0.003534307079866262,
+      &quot;washing_machine&quot;: -0.039076795505238626
+    },
+    &quot;new_degenerate_cases&quot;: 0,
+    &quot;internal_target_met&quot;: false,
+    &quot;final_generalization_accepted&quot;: false
+  },
+  {
+    &quot;comparison&quot;: &quot;C-B&quot;,
+    &quot;paired_seed_f1_deltas&quot;: [
+      -0.023441835136658706,
+      -0.00400480641471751,
+      -0.019650817192035853
+    ],
+    &quot;mean_primary_f1_delta&quot;: -0.01569915291447069,
+    &quot;positive_seeds&quot;: 0,
+    &quot;mean_device_f1_deltas&quot;: {
+      &quot;kettle&quot;: -0.029505707487500404,
+      &quot;microwave&quot;: -0.0018925983414409774,
+      &quot;washing_machine&quot;: -0.004413634569936477
+    },
+    &quot;new_degenerate_cases&quot;: 0,
+    &quot;internal_target_met&quot;: false,
+    &quot;final_generalization_accepted&quot;: false
+  }
+]</pre><h2>House 17：三种子均值</h2><table><tr><th>组</th><th>设备</th><th>Precision</th><th>Recall</th><th>F1</th><th>运行 MAE W</th><th>电量绝对误差 kWh</th></tr><tr><td>A</td><td>kettle</td><td>0.640807</td><td>0.920290</td><td>0.755509</td><td>347.288675</td><td>8.337213</td></tr><tr><td>A</td><td>microwave</td><td>0.040128</td><td>0.924282</td><td>0.076913</td><td>537.838689</td><td>13.989985</td></tr><tr><td>A</td><td>washing_machine</td><td>0.060782</td><td>0.829205</td><td>0.111760</td><td>266.269532</td><td>15.398504</td></tr><tr><td>B</td><td>kettle</td><td>0.637039</td><td>0.898551</td><td>0.744644</td><td>406.561686</td><td>9.082299</td></tr><tr><td>B</td><td>microwave</td><td>0.038168</td><td>0.955614</td><td>0.073379</td><td>607.746204</td><td>12.612796</td></tr><tr><td>B</td><td>washing_machine</td><td>0.037838</td><td>0.951217</td><td>0.072683</td><td>262.183410</td><td>16.831800</td></tr><tr><td>C</td><td>kettle</td><td>0.580395</td><td>0.933794</td><td>0.715139</td><td>315.512526</td><td>10.366156</td></tr><tr><td>C</td><td>microwave</td><td>0.037104</td><td>0.974761</td><td>0.071486</td><td>673.753580</td><td>12.322127</td></tr><tr><td>C</td><td>washing_machine</td><td>0.035438</td><td>0.930574</td><td>0.068270</td><td>282.674367</td><td>17.705326</td></tr></table><p>原始及一致性修正视图、逐种子指标与有效支持见 comparison.csv。开机片段是固定阈值事件，不等于物理周期。功率与电量结论单独判断。</p>

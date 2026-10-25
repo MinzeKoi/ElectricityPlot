@@ -1,0 +1,21 @@
+{
+  "artifacts": {
+    "final_scores.npz": "bb697650c127062bad178cae6eb0f55faf2713e29dc606a4615d09ea0629de70",
+    "first_update.json": "9a27b250c8181bbf962ed8e06f1955ee9c4c2f962b251bc0dbdf55290e20b673",
+    "history.json": "c5a7238130e6fcfe624d595eb99dca754cc678f4b691d4f648834b65b737f055",
+    "initial_scores.npz": "1789ec12b162d2b3595b75bddf58b5aba04c7aeb8bfbdb42f4bbd38f0debed24",
+    "result.json": "e972d66d16a41c379e1657c2899c2ebce25dcbfe1cbbdf8b8352af0bb72f7933",
+    "scores_100.npz": "b0294dc98e6caa01a20f9c4cf8d6d8d70370e00c07591ef17a1baa906bd12c7d",
+    "scores_1000.npz": "077a9f6dda6ee4b6a0571460614fb8793570146b0611bbedc3185a459a139866",
+    "scores_1100.npz": "de20b472dab9881ec0ea6b0b0e627b7dae7204ea3333037434d77cba4f78d9fd",
+    "scores_200.npz": "fbbb7c726d7675c05c7a619913a831ef3c1da8b185c0c12883497f10fc49c7ab",
+    "scores_300.npz": "07cee9bdec45409d47859b3bdb775518c722554704cc50fbc0023df7fa032871",
+    "scores_400.npz": "dff09fd3017b1670e138d5ea83ba7b43c333b7042645b76cc06e7a21f7d46afc",
+    "scores_500.npz": "96b5bf8241efcb67fd0686003119c70218945c032de4c2bf9948f45515f3a421",
+    "scores_600.npz": "3df23a509b5c27169c2981bc0acf7b58c53adf737d31f381de9fa2d398d711e0",
+    "scores_700.npz": "c7e5aef63d41bd8ff75dca376adc98493cde8f25aecf591c1d306494e135a389",
+    "scores_800.npz": "10e16bc24dc72c7bdee87b24b73f7bf3ca93189fb508601b8ecd635d246adcc9",
+    "scores_900.npz": "d8c23c9c11fc97106eea59500558901305dd26adb735bd89730d271cad5f4031",
+    "weights.pt": "41dd9d960b396eefefd72539165c33cd0ce7608c25b2adcca2614163cd35c720"
+  }
+}

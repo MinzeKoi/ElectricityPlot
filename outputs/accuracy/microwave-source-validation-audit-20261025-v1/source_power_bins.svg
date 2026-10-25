@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="280" viewBox="0 0 900 280">
+<rect width="900" height="280" fill="white"/><g font-family="Arial" font-size="15" fill="#172033">
+<text x="20" y="25">Observed microwave ON centers: fixed power bins (not independent events)</text>
+<text x="20" y="70">refit_2</text>
+<rect x="130" y="50" width="80.23012552301255" height="30" fill="#94a3b8"/>
+<rect x="210.23012552301253" y="50" width="72.07112970711297" height="30" fill="#64748b"/>
+<rect x="282.3012552301255" y="50" width="497.69874476987445" height="30" fill="#0f766e"/>
+<rect x="780.0" y="50" width="0.0" height="30" fill="#eab308"/>
+<rect x="780.0" y="50" width="0.0" height="30" fill="#dc2626"/>
+<text x="20" y="118">refit_19</text>
+<rect x="130" y="98" width="48.26732673267327" height="30" fill="#94a3b8"/>
+<rect x="178.26732673267327" y="98" width="37.004950495049506" height="30" fill="#64748b"/>
+<rect x="215.27227722772278" y="98" width="564.7277227722773" height="30" fill="#0f766e"/>
+<rect x="780.0" y="98" width="0.0" height="30" fill="#eab308"/>
+<rect x="780.0" y="98" width="0.0" height="30" fill="#dc2626"/>
+<text x="20" y="166">refit_5</text>
+<rect x="130" y="146" width="26.71648762260626" height="30" fill="#94a3b8"/>
+<rect x="156.71648762260625" y="146" width="20.948155067725363" height="30" fill="#64748b"/>
+<rect x="177.66464269033162" y="146" width="371.2984586641756" height="30" fill="#0f766e"/>
+<rect x="548.9631013545072" y="146" width="92.90051377860813" height="30" fill="#eab308"/>
+<rect x="641.8636151331153" y="146" width="138.13638486688464" height="30" fill="#dc2626"/>
+<rect x="20" y="220" width="15" height="15" fill="#94a3b8"/><text x="40" y="233">200-600</text>
+<rect x="195" y="220" width="15" height="15" fill="#64748b"/><text x="215" y="233">600-1000</text>
+<rect x="370" y="220" width="15" height="15" fill="#0f766e"/><text x="390" y="233">1000-1600</text>
+<rect x="545" y="220" width="15" height="15" fill="#eab308"/><text x="565" y="233">1600-2200</text>
+<rect x="720" y="220" width="15" height="15" fill="#dc2626"/><text x="740" y="233">>2200 W</text>
+<text x="20" y="268">Bins are left-closed/right-open; 2200 W belongs to final bin. Source only; zero fits.</text></g></svg>

@@ -1,0 +1,6 @@
+{
+  "coordinator_execution_message": "2026-10-25 source_thread_id 01a16d7b-478e-7780-a999-88abe71e8c94: 现在授权：完成已要求的文档勘误、对应边界测试、新准备版本封存与验证后，直接使用正确新版本的封存入口执行预登记TCN31/TCN127×3seed，最多6新真实拟合；随后source预选、全部预测freeze、普通推理/共同支持/其他电器原始输出不变复核、一次House17开发评价、verify/report到完整交付。不必再等另一条执行消息，train/evaluate分别生成绑定实际registration/freeze哈希的凭据并记录本消息。",
+  "train": true,
+  "maximum_fits": 6,
+  "registration_sha256": "4ef1c31915fb1e18f7e23232cdee5016eae859f6cff974d8fa6b766351f28631"
+}

@@ -1,0 +1,12 @@
+{
+  "execute": true,
+  "maximum_fits": 9,
+  "source_thread_id": "01a16d7b-478e-7780-a999-88abe71e8c94",
+  "coordinator_execution_message": "现授权在同一任务实现真实train/freeze/evaluate/verify/report适配器及必要测试，并在任务3正确性复核完成后执行预登记矩阵，完成到最终开发结果与可复核交付，无须用户再次确认。后续确认任务3已正式终态完成、独立复核通过、无算法正确性否决，保留background臂。最多9新真实拟合；9模型和全部House17预测封存后才能评价；不改选、不补训、不访问最终8/9/20，不更换默认模型。",
+  "background_run": "D:/system position/document/真正的文档/AIC/outputs/accuracy/microwave-background-20261025-v1",
+  "background_thread_status": "completed",
+  "background_thread_cursor": "5c25b0ed-0708-4e5c-a2a8-c9bb1d22aebb:34",
+  "tests_log": "D:/system position/document/真正的文档/AIC/tmp/microwave-fullsource-execution-tests-20261025.log",
+  "final_houses_allowed": false,
+  "additional_training_allowed": false
+}

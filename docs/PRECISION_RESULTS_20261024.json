@@ -1,0 +1,267 @@
+{
+  "status": "precision_development_completed_target_not_met",
+  "freeze_sha256": "8fd69118721b3fd4f99e6b9fbe189e2fed5ceede59979e4392fd71e14d757ceb",
+  "evaluation_evidence_sha256": "071876fb9c8626dc39e1305057b43b8bd31edea8e952b4a3592364084ffe1d2e",
+  "execution_code_sha256": "00bf2be3cf738d2247249e34793098fbc24176f46fcd102e958b5779b1166f6f",
+  "verification": {
+    "status": "precision_verified",
+    "models": 12,
+    "cases": 24,
+    "target_labels_reopened": false,
+    "final_households_accessed": false,
+    "execution_source_matches_current": true
+  },
+  "source_selection": {
+    "selected": "W50",
+    "candidate_passed_source_gate": false,
+    "selection_data": "source_validation_only",
+    "candidates": [
+      {
+        "candidate": "W50",
+        "eligible": false,
+        "mean_precision": 0.16792946180938437,
+        "mean_f1": 0.2786215273068662
+      },
+      {
+        "candidate": "W10",
+        "eligible": false,
+        "mean_precision": 0.22733742197110596,
+        "mean_f1": 0.33496294453676567
+      },
+      {
+        "candidate": "W1",
+        "eligible": false,
+        "mean_precision": 0.25865786962018206,
+        "mean_f1": 0.14705791895929549
+      },
+      {
+        "candidate": "W50_HN",
+        "eligible": false,
+        "mean_precision": 0.11101397768027532,
+        "mean_f1": 0.19207103876620168
+      }
+    ]
+  },
+  "decision": {
+    "selected_before_development_evaluation": "W50",
+    "precision_exit_passed": false,
+    "checks": {
+      "defined_metrics": true,
+      "same_support": true,
+      "nondegenerate": true,
+      "mean_precision": false,
+      "every_seed_recall": true,
+      "mean_f1_gain": false,
+      "paired_positive_seeds": false,
+      "bounded_seed_f1_drop": true,
+      "false_positive_reduction": false
+    },
+    "selected_means": {
+      "precision": 0.04012808999869747,
+      "recall": 0.9242819843342036,
+      "f1": 0.07691297343567473,
+      "false_positive": 8482.0,
+      "false_negative": 29.0
+    },
+    "baseline_means": {
+      "precision": 0.04012808999869747,
+      "recall": 0.9242819843342036,
+      "f1": 0.07691297343567473,
+      "false_positive": 8482.0,
+      "false_negative": 29.0
+    },
+    "formal_evaluation": false,
+    "final_households_accessed": false,
+    "default_model_changed": false,
+    "other_devices_raw_unchanged": true
+  },
+  "groups": [
+    {
+      "candidate": "W50",
+      "source": {
+        "precision": 0.16792946180938437,
+        "recall": 0.8440461475072105,
+        "f1": 0.2786215273068662,
+        "true_positive": 1365.6666666666667,
+        "false_positive": 7092.666666666667,
+        "false_negative": 252.33333333333334,
+        "active_mae_w": 1027.9168922220379,
+        "energy_absolute_error_kwh": 7.926007747417509,
+        "seed_recalls": {
+          "42": 0.8016069221260815,
+          "1019": 0.8726823238566132,
+          "2026": 0.857849196538937
+        }
+      },
+      "development": {
+        "precision": 0.04012808999869747,
+        "recall": 0.9242819843342036,
+        "f1": 0.07691297343567473,
+        "true_positive": 354.0,
+        "false_positive": 8482.0,
+        "false_negative": 29.0,
+        "active_mae_w": 537.8386932845423,
+        "energy_absolute_error_kwh": 13.989985194353013,
+        "seed_recalls": {
+          "42": 0.9086161879895561,
+          "1019": 0.9190600522193212,
+          "2026": 0.9451697127937336
+        }
+      },
+      "development_fp_reduction": 0.0,
+      "post_hoc_development_checks": {
+        "defined_metrics": true,
+        "same_support": true,
+        "nondegenerate": true,
+        "mean_precision": false,
+        "every_seed_recall": true,
+        "mean_f1_gain": false,
+        "paired_positive_seeds": false,
+        "bounded_seed_f1_drop": true,
+        "false_positive_reduction": false
+      },
+      "post_hoc_checks_do_not_reselect": true
+    },
+    {
+      "candidate": "W10",
+      "source": {
+        "precision": 0.22733742197110596,
+        "recall": 0.6374124433456942,
+        "f1": 0.33496294453676567,
+        "true_positive": 1031.3333333333333,
+        "false_positive": 3519.6666666666665,
+        "false_negative": 586.6666666666666,
+        "active_mae_w": 1201.357144374537,
+        "energy_absolute_error_kwh": 1.6814081439382624,
+        "seed_recalls": {
+          "42": 0.6390605686032138,
+          "1019": 0.6489493201483313,
+          "2026": 0.6242274412855378
+        }
+      },
+      "development": {
+        "precision": 0.04747947845092737,
+        "recall": 0.7963446475195822,
+        "f1": 0.08957752794834191,
+        "true_positive": 305.0,
+        "false_positive": 6164.666666666667,
+        "false_negative": 78.0,
+        "active_mae_w": 728.0605190224765,
+        "energy_absolute_error_kwh": 7.0545063829944175,
+        "seed_recalls": {
+          "42": 0.7911227154046997,
+          "1019": 0.8120104438642297,
+          "2026": 0.7859007832898173
+        }
+      },
+      "development_fp_reduction": 0.27320600487306446,
+      "post_hoc_development_checks": {
+        "defined_metrics": true,
+        "same_support": true,
+        "nondegenerate": true,
+        "mean_precision": false,
+        "every_seed_recall": false,
+        "mean_f1_gain": false,
+        "paired_positive_seeds": true,
+        "bounded_seed_f1_drop": true,
+        "false_positive_reduction": false
+      },
+      "post_hoc_checks_do_not_reselect": true
+    },
+    {
+      "candidate": "W1",
+      "source": {
+        "precision": 0.25865786962018206,
+        "recall": 0.1065100947672023,
+        "f1": 0.14705791895929549,
+        "true_positive": 172.33333333333334,
+        "false_positive": 387.3333333333333,
+        "false_negative": 1445.6666666666667,
+        "active_mae_w": 1572.9693483949868,
+        "energy_absolute_error_kwh": 5.151557235788914,
+        "seed_recalls": {
+          "42": 0.011124845488257108,
+          "1019": 0.1180469715698393,
+          "2026": 0.1903584672435105
+        }
+      },
+      "development": {
+        "precision": 0.18924977789978992,
+        "recall": 0.3072236727589208,
+        "f1": 0.21385262670641825,
+        "true_positive": 117.66666666666667,
+        "false_positive": 608.6666666666666,
+        "false_negative": 265.3333333333333,
+        "active_mae_w": 1116.163788375754,
+        "energy_absolute_error_kwh": 0.4726583330300382,
+        "seed_recalls": {
+          "42": 0.17232375979112272,
+          "1019": 0.3368146214099217,
+          "2026": 0.412532637075718
+        }
+      },
+      "development_fp_reduction": 0.9282401949225811,
+      "post_hoc_development_checks": {
+        "defined_metrics": true,
+        "same_support": true,
+        "nondegenerate": true,
+        "mean_precision": true,
+        "every_seed_recall": false,
+        "mean_f1_gain": true,
+        "paired_positive_seeds": true,
+        "bounded_seed_f1_drop": true,
+        "false_positive_reduction": true
+      },
+      "post_hoc_checks_do_not_reselect": true
+    },
+    {
+      "candidate": "W50_HN",
+      "source": {
+        "precision": 0.11101397768027532,
+        "recall": 0.7393901936547178,
+        "f1": 0.19207103876620168,
+        "true_positive": 1196.3333333333333,
+        "false_positive": 9594.0,
+        "false_negative": 421.6666666666667,
+        "active_mae_w": 1229.225181539313,
+        "energy_absolute_error_kwh": 4.838342349677429,
+        "seed_recalls": {
+          "42": 0.9221260815822002,
+          "1019": 0.7527812113720643,
+          "2026": 0.5432632880098888
+        }
+      },
+      "development": {
+        "precision": 0.04339987707405177,
+        "recall": 0.8389904264577894,
+        "f1": 0.08237423964009445,
+        "true_positive": 321.3333333333333,
+        "false_positive": 7305.666666666667,
+        "false_negative": 61.666666666666664,
+        "active_mae_w": 777.791956361944,
+        "energy_absolute_error_kwh": 6.996055016567966,
+        "seed_recalls": {
+          "42": 0.9060052219321149,
+          "1019": 0.8511749347258486,
+          "2026": 0.7597911227154047
+        }
+      },
+      "development_fp_reduction": 0.13868584453352195,
+      "post_hoc_development_checks": {
+        "defined_metrics": true,
+        "same_support": true,
+        "nondegenerate": true,
+        "mean_precision": false,
+        "every_seed_recall": false,
+        "mean_f1_gain": false,
+        "paired_positive_seeds": true,
+        "bounded_seed_f1_drop": true,
+        "false_positive_reduction": false
+      },
+      "post_hoc_checks_do_not_reselect": true
+    }
+  ],
+  "development_labels_reopened": false,
+  "final_households_accessed": false,
+  "diagnostic_snippets": "sealed baseline/selected error windows; all candidate predictions added without reselection"
+}

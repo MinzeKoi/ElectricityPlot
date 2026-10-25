@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "experiment_id": "microwave-state-20261024-v1",
+  "parent_run": "outputs/accuracy/precision-20261024-v1",
+  "seeds": [42, 1019, 2026],
+  "candidates": ["R_PR", "C31", "C_EVENT", "C_HARD", "C_FEATURES", "C61"],
+  "classifier_epochs": 12,
+  "classifier_steps_per_checkpoint": 294,
+  "regression_steps_per_checkpoint": 587,
+  "minimum_source_recall": 0.85,
+  "minimum_precision": 0.08,
+  "minimum_recall": 0.85,
+  "minimum_f1_gain": 0.02,
+  "maximum_seed_f1_drop": 0.02,
+  "minimum_positive_seeds": 2,
+  "minimum_fp_reduction": 0.30,
+  "maximum_models": 18
+}

@@ -1,0 +1,65 @@
+{
+  "actual_fits": 0,
+  "matrix": {
+    "strict_mask/42": {
+      "updates": 3528,
+      "indices_sha256": "3fe17b9814f40a91c9666bc325d9a69449fc5ef26979b6518b387e81619be433",
+      "positive_exposure": 56448,
+      "negative_exposure": 846720,
+      "unique_windows": 150069,
+      "unique_positive_windows": 646,
+      "unique_positive_events": 103,
+      "repeated_exposures": 753099
+    },
+    "strict_mask/1019": {
+      "updates": 3528,
+      "indices_sha256": "f25024495adc4f21e8ddca117d7ed74777235e528c18313e1bdc86d2e0cd5f8e",
+      "positive_exposure": 56448,
+      "negative_exposure": 846720,
+      "unique_windows": 150069,
+      "unique_positive_windows": 646,
+      "unique_positive_events": 103,
+      "repeated_exposures": 753099
+    },
+    "strict_mask/2026": {
+      "updates": 3528,
+      "indices_sha256": "69400547dc3483f2e48ff01e89625765526949b377bb2af9d7495cc5953f4bf6",
+      "positive_exposure": 56448,
+      "negative_exposure": 846720,
+      "unique_windows": 150069,
+      "unique_positive_windows": 646,
+      "unique_positive_events": 103,
+      "repeated_exposures": 753099
+    },
+    "partial_mask/42": {
+      "updates": 3528,
+      "indices_sha256": "b3550b999dac26e5806d9ccd6c3f11ea1a07c987ea5a5f020f2c108d77569cf7",
+      "positive_exposure": 56448,
+      "negative_exposure": 846720,
+      "unique_windows": 259806,
+      "unique_positive_windows": 849,
+      "unique_positive_events": 154,
+      "repeated_exposures": 643362
+    },
+    "partial_mask/1019": {
+      "updates": 3528,
+      "indices_sha256": "5ea5614039f7d8aa1a70793055d44bb0d0031d33e70507a2ebd428d0eccbfd0d",
+      "positive_exposure": 56448,
+      "negative_exposure": 846720,
+      "unique_windows": 259806,
+      "unique_positive_windows": 849,
+      "unique_positive_events": 154,
+      "repeated_exposures": 643362
+    },
+    "partial_mask/2026": {
+      "updates": 3528,
+      "indices_sha256": "6a1631415f8e31ef884d7d84c849dffc83ae13634ff755155981d468252becff",
+      "positive_exposure": 56448,
+      "negative_exposure": 846720,
+      "unique_windows": 259806,
+      "unique_positive_windows": 849,
+      "unique_positive_events": 154,
+      "repeated_exposures": 643362
+    }
+  }
+}

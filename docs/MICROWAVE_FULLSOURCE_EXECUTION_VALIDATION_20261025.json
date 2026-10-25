@@ -1,0 +1,31 @@
+{
+  "status": "fullsource_completed_verified_development_target_not_met",
+  "run": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-fullsource-20261025-v1",
+  "actual_new_real_fits": 9,
+  "additional_real_fits_after_resume": 0,
+  "predictions_frozen_before_target_evaluation": 9,
+  "tests_passed": 22,
+  "source_selection": "event",
+  "development_acceptance_passed": false,
+  "verification": {
+    "independent_verification.json": "independently_verified",
+    "verification_after_evaluation.json": "fullsource_evaluation_verified",
+    "original_W50_support_verification.json": "original_W50_reproduced_exactly",
+    "reporting_readback.json": "reporting_readback_verified"
+  },
+  "original_W50_support_samples_per_seed": 137523,
+  "truth_csv_parses": 1,
+  "target_truth_csv_reopened_by_verification": false,
+  "final_houses_accessed": false,
+  "default_model_changed": false,
+  "other_device_raw_power_and_state_unchanged": true,
+  "original_preparation_validation_preserved": "docs/MICROWAVE_FULLSOURCE_VALIDATION_20261025.json",
+  "execution_validation_path": "D:\\system position\\document\\真正的文档\\AIC\\docs\\MICROWAVE_FULLSOURCE_EXECUTION_VALIDATION_20261025.json",
+  "artifacts": {
+    "independent_verification.json": "c5ce7fd06e55ef821dac25fc3087c9610f2e82f613e2548b094735a164f0100f",
+    "verification_after_evaluation.json": "446d3fcddf83688ff42ec704b5eaa7a5c7dc9b9c6062b1a8f7b860d28707672e",
+    "original_W50_support_verification.json": "a53e8b6db6ef3961db9f600c416ef3ffc026dd57bfc0e334c51269c8a05f005f",
+    "reporting_readback.json": "5955dce14d776cd03d7641b39ec643ed6466d08b958e08f67c6ddea0887dbf4d"
+  },
+  "tests_log_sha256": "1f810fbebedf3ce5b00b4bfcf8ce77f45abe0ffeaa79f2f0f1cda7bc13092804"
+}

@@ -4,14 +4,13 @@ Only aggregates are copied into a session. Submeter answers are never opened.
 This is a development/demo interface, not admission of a final method.
 """
 
-from pathlib import Path
 import csv
 import shutil
 
 import numpy as np
 
 from ..adaptation.session import locked
-from ..data.common import DataError, iso, read_json, safe_child, sha256, utc, write_json
+from ..data.common import DataError, inventory, iso, read_json, safe_child, sha256, utc, write_json
 from ..data.protocol import read_partition
 from ..models.artifacts import load_model
 from ..models.prediction import predict
@@ -19,11 +18,6 @@ from . import dynamic_session as sessions
 from .dynamic_queries import _export
 from .fixed_queries import load_plan as learner_plan
 from .learners import fit_adapter, score_adapter, temporal_features
-
-
-def inventory(directory):
-    return {p.relative_to(directory).as_posix(): sha256(p)
-            for p in sorted(directory.rglob("*")) if p.is_file()}
 
 
 def bind_import(model, parent_manifest, aggregate, output):

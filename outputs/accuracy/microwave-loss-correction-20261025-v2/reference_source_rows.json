@@ -1,0 +1,28 @@
+{
+  "TCN127": [
+    {
+      "seed": 42,
+      "precision": 0.22996088942437753,
+      "recall": 0.9077043954498611,
+      "f1": 0.3487267316055449,
+      "source_gate_passed": true,
+      "degenerate": false
+    },
+    {
+      "seed": 1019,
+      "precision": 0.233455463911302,
+      "recall": 0.911520044616578,
+      "f1": 0.3537917585105341,
+      "source_gate_passed": true,
+      "degenerate": false
+    },
+    {
+      "seed": 2026,
+      "precision": 0.24808309765392966,
+      "recall": 0.9213116082065843,
+      "f1": 0.3701140316569105,
+      "source_gate_passed": true,
+      "degenerate": false
+    }
+  ]
+}

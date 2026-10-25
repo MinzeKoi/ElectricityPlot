@@ -1,0 +1,13 @@
+{
+  "candidate": "W50_HN",
+  "seed": 42,
+  "partition": "source_validation_refit_5_0",
+  "threshold": 137.38824462890625,
+  "path": "replays/W50_HN_42_source_validation_refit_5_0.npz",
+  "sha256": "8c808e5f1a26d7d95db3ad61b1f19389cd57612aa1b1e5b4822c820279173847",
+  "rows": 151200,
+  "maximum_raw_difference_w": 0.0,
+  "state_equal": true,
+  "ordinary_model_path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\precision-20261024-v1\\models\\W50_HN\\seed_42",
+  "labels_read": false
+}

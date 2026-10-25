@@ -1,0 +1,2957 @@
+{
+  "definition": "Observed >=200W segments, not independent physical cycles; complete requires observed off boundaries and every positive center C31 usable",
+  "events": [
+    {
+      "id": 0,
+      "a": 319,
+      "b": 320,
+      "start": "2014-09-29T07:11:20Z",
+      "end": "2014-09-29T07:11:28Z",
+      "positive_centers": 1,
+      "observed_off_boundaries": false,
+      "household": "refit_2",
+      "usable_positive_centers": 0,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 1,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 1,
+      "a": 3920,
+      "b": 3923,
+      "start": "2014-09-29T15:11:28Z",
+      "end": "2014-09-29T15:11:52Z",
+      "positive_centers": 3,
+      "observed_off_boundaries": false,
+      "household": "refit_2",
+      "usable_positive_centers": 0,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 3,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 2,
+      "a": 3924,
+      "b": 3925,
+      "start": "2014-09-29T15:12:00Z",
+      "end": "2014-09-29T15:12:08Z",
+      "positive_centers": 1,
+      "observed_off_boundaries": false,
+      "household": "refit_2",
+      "usable_positive_centers": 0,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 1,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 3,
+      "a": 5689,
+      "b": 5690,
+      "start": "2014-09-29T19:07:20Z",
+      "end": "2014-09-29T19:07:28Z",
+      "positive_centers": 1,
+      "observed_off_boundaries": false,
+      "household": "refit_2",
+      "usable_positive_centers": 0,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 1,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 4,
+      "a": 5691,
+      "b": 5692,
+      "start": "2014-09-29T19:07:36Z",
+      "end": "2014-09-29T19:07:44Z",
+      "positive_centers": 1,
+      "observed_off_boundaries": false,
+      "household": "refit_2",
+      "usable_positive_centers": 0,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 1,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 5,
+      "a": 16804,
+      "b": 16805,
+      "start": "2014-09-30T19:49:20Z",
+      "end": "2014-09-30T19:49:28Z",
+      "positive_centers": 1,
+      "observed_off_boundaries": false,
+      "household": "refit_2",
+      "usable_positive_centers": 0,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 1,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 6,
+      "a": 22632,
+      "b": 22640,
+      "start": "2014-10-01T08:46:24Z",
+      "end": "2014-10-01T08:47:28Z",
+      "positive_centers": 8,
+      "observed_off_boundaries": false,
+      "household": "refit_2",
+      "usable_positive_centers": 8,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 7,
+      "a": 22641,
+      "b": 22642,
+      "start": "2014-10-01T08:47:36Z",
+      "end": "2014-10-01T08:47:44Z",
+      "positive_centers": 1,
+      "observed_off_boundaries": false,
+      "household": "refit_2",
+      "usable_positive_centers": 1,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 8,
+      "a": 22643,
+      "b": 22644,
+      "start": "2014-10-01T08:47:52Z",
+      "end": "2014-10-01T08:48:00Z",
+      "positive_centers": 1,
+      "observed_off_boundaries": false,
+      "household": "refit_2",
+      "usable_positive_centers": 1,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 9,
+      "a": 22646,
+      "b": 22648,
+      "start": "2014-10-01T08:48:16Z",
+      "end": "2014-10-01T08:48:32Z",
+      "positive_centers": 2,
+      "observed_off_boundaries": true,
+      "household": "refit_2",
+      "usable_positive_centers": 2,
+      "complete_c31_support": true,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 10,
+      "a": 25999,
+      "b": 26001,
+      "start": "2014-10-01T16:15:20Z",
+      "end": "2014-10-01T16:15:36Z",
+      "positive_centers": 2,
+      "observed_off_boundaries": true,
+      "household": "refit_2",
+      "usable_positive_centers": 2,
+      "complete_c31_support": true,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 11,
+      "a": 26003,
+      "b": 26005,
+      "start": "2014-10-01T16:15:52Z",
+      "end": "2014-10-01T16:16:08Z",
+      "positive_centers": 2,
+      "observed_off_boundaries": true,
+      "household": "refit_2",
+      "usable_positive_centers": 2,
+      "complete_c31_support": true,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 12,
+      "a": 26007,
+      "b": 26009,
+      "start": "2014-10-01T16:16:24Z",
+      "end": "2014-10-01T16:16:40Z",
+      "positive_centers": 2,
+      "observed_off_boundaries": true,
+      "household": "refit_2",
+      "usable_positive_centers": 2,
+      "complete_c31_support": true,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 13,
+      "a": 26720,
+      "b": 26749,
+      "start": "2014-10-01T17:51:28Z",
+      "end": "2014-10-01T17:55:20Z",
+      "positive_centers": 29,
+      "observed_off_boundaries": true,
+      "household": "refit_2",
+      "usable_positive_centers": 29,
+      "complete_c31_support": true,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 14,
+      "a": 26771,
+      "b": 26775,
+      "start": "2014-10-01T17:58:16Z",
+      "end": "2014-10-01T17:58:48Z",
+      "positive_centers": 4,
+      "observed_off_boundaries": false,
+      "household": "refit_2",
+      "usable_positive_centers": 4,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 15,
+      "a": 33058,
+      "b": 33060,
+      "start": "2014-10-02T07:56:32Z",
+      "end": "2014-10-02T07:56:48Z",
+      "positive_centers": 2,
+      "observed_off_boundaries": true,
+      "household": "refit_2",
+      "usable_positive_centers": 2,
+      "complete_c31_support": true,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 16,
+      "a": 33062,
+      "b": 33064,
+      "start": "2014-10-02T07:57:04Z",
+      "end": "2014-10-02T07:57:20Z",
+      "positive_centers": 2,
+      "observed_off_boundaries": false,
+      "household": "refit_2",
+      "usable_positive_centers": 2,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 17,
+      "a": 33065,
+      "b": 33067,
+      "start": "2014-10-02T07:57:28Z",
+      "end": "2014-10-02T07:57:44Z",
+      "positive_centers": 2,
+      "observed_off_boundaries": false,
+      "household": "refit_2",
+      "usable_positive_centers": 2,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 18,
+      "a": 43515,
+      "b": 43517,
+      "start": "2014-10-03T07:10:48Z",
+      "end": "2014-10-03T07:11:04Z",
+      "positive_centers": 2,
+      "observed_off_boundaries": true,
+      "household": "refit_2",
+      "usable_positive_centers": 1,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 1,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 19,
+      "a": 43518,
+      "b": 43520,
+      "start": "2014-10-03T07:11:12Z",
+      "end": "2014-10-03T07:11:28Z",
+      "positive_centers": 2,
+      "observed_off_boundaries": false,
+      "household": "refit_2",
+      "usable_positive_centers": 0,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 2,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 20,
+      "a": 43522,
+      "b": 43525,
+      "start": "2014-10-03T07:11:44Z",
+      "end": "2014-10-03T07:12:08Z",
+      "positive_centers": 3,
+      "observed_off_boundaries": false,
+      "household": "refit_2",
+      "usable_positive_centers": 0,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 3,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 21,
+      "a": 47782,
+      "b": 47785,
+      "start": "2014-10-03T16:39:44Z",
+      "end": "2014-10-03T16:40:08Z",
+      "positive_centers": 3,
+      "observed_off_boundaries": false,
+      "household": "refit_2",
+      "usable_positive_centers": 0,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 3,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 22,
+      "a": 47786,
+      "b": 47789,
+      "start": "2014-10-03T16:40:16Z",
+      "end": "2014-10-03T16:40:40Z",
+      "positive_centers": 3,
+      "observed_off_boundaries": true,
+      "household": "refit_2",
+      "usable_positive_centers": 0,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 3,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 23,
+      "a": 47790,
+      "b": 47792,
+      "start": "2014-10-03T16:40:48Z",
+      "end": "2014-10-03T16:41:04Z",
+      "positive_centers": 2,
+      "observed_off_boundaries": false,
+      "household": "refit_2",
+      "usable_positive_centers": 0,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 2,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 24,
+      "a": 49148,
+      "b": 49150,
+      "start": "2014-10-03T19:41:52Z",
+      "end": "2014-10-03T19:42:08Z",
+      "positive_centers": 2,
+      "observed_off_boundaries": false,
+      "household": "refit_2",
+      "usable_positive_centers": 2,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 25,
+      "a": 49153,
+      "b": 49154,
+      "start": "2014-10-03T19:42:32Z",
+      "end": "2014-10-03T19:42:40Z",
+      "positive_centers": 1,
+      "observed_off_boundaries": false,
+      "household": "refit_2",
+      "usable_positive_centers": 1,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 26,
+      "a": 49156,
+      "b": 49159,
+      "start": "2014-10-03T19:42:56Z",
+      "end": "2014-10-03T19:43:20Z",
+      "positive_centers": 3,
+      "observed_off_boundaries": false,
+      "household": "refit_2",
+      "usable_positive_centers": 0,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 3,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 27,
+      "a": 49161,
+      "b": 49164,
+      "start": "2014-10-03T19:43:36Z",
+      "end": "2014-10-03T19:44:00Z",
+      "positive_centers": 3,
+      "observed_off_boundaries": false,
+      "household": "refit_2",
+      "usable_positive_centers": 0,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 3,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 28,
+      "a": 49165,
+      "b": 49167,
+      "start": "2014-10-03T19:44:08Z",
+      "end": "2014-10-03T19:44:24Z",
+      "positive_centers": 2,
+      "observed_off_boundaries": false,
+      "household": "refit_2",
+      "usable_positive_centers": 0,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 2,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 29,
+      "a": 54742,
+      "b": 54744,
+      "start": "2014-10-04T08:07:44Z",
+      "end": "2014-10-04T08:08:00Z",
+      "positive_centers": 2,
+      "observed_off_boundaries": false,
+      "household": "refit_2",
+      "usable_positive_centers": 0,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 2,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 30,
+      "a": 54745,
+      "b": 54746,
+      "start": "2014-10-04T08:08:08Z",
+      "end": "2014-10-04T08:08:16Z",
+      "positive_centers": 1,
+      "observed_off_boundaries": false,
+      "household": "refit_2",
+      "usable_positive_centers": 0,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 1,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 31,
+      "a": 76324,
+      "b": 76327,
+      "start": "2014-10-06T08:05:20Z",
+      "end": "2014-10-06T08:05:44Z",
+      "positive_centers": 3,
+      "observed_off_boundaries": false,
+      "household": "refit_2",
+      "usable_positive_centers": 3,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 32,
+      "a": 76338,
+      "b": 76340,
+      "start": "2014-10-06T08:07:12Z",
+      "end": "2014-10-06T08:07:28Z",
+      "positive_centers": 2,
+      "observed_off_boundaries": true,
+      "household": "refit_2",
+      "usable_positive_centers": 2,
+      "complete_c31_support": true,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 33,
+      "a": 82579,
+      "b": 82589,
+      "start": "2014-10-06T21:59:20Z",
+      "end": "2014-10-06T22:00:40Z",
+      "positive_centers": 10,
+      "observed_off_boundaries": true,
+      "household": "refit_2",
+      "usable_positive_centers": 8,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 2,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 34,
+      "a": 82601,
+      "b": 82602,
+      "start": "2014-10-06T22:02:16Z",
+      "end": "2014-10-06T22:02:24Z",
+      "positive_centers": 1,
+      "observed_off_boundaries": false,
+      "household": "refit_2",
+      "usable_positive_centers": 1,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 35,
+      "a": 82604,
+      "b": 82606,
+      "start": "2014-10-06T22:02:40Z",
+      "end": "2014-10-06T22:02:56Z",
+      "positive_centers": 2,
+      "observed_off_boundaries": false,
+      "household": "refit_2",
+      "usable_positive_centers": 0,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 2,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 36,
+      "a": 87118,
+      "b": 87120,
+      "start": "2014-10-07T08:04:32Z",
+      "end": "2014-10-07T08:04:48Z",
+      "positive_centers": 2,
+      "observed_off_boundaries": true,
+      "household": "refit_2",
+      "usable_positive_centers": 2,
+      "complete_c31_support": true,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 37,
+      "a": 87121,
+      "b": 87123,
+      "start": "2014-10-07T08:04:56Z",
+      "end": "2014-10-07T08:05:12Z",
+      "positive_centers": 2,
+      "observed_off_boundaries": true,
+      "household": "refit_2",
+      "usable_positive_centers": 2,
+      "complete_c31_support": true,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 38,
+      "a": 87126,
+      "b": 87127,
+      "start": "2014-10-07T08:05:36Z",
+      "end": "2014-10-07T08:05:44Z",
+      "positive_centers": 1,
+      "observed_off_boundaries": false,
+      "household": "refit_2",
+      "usable_positive_centers": 1,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 39,
+      "a": 87132,
+      "b": 87134,
+      "start": "2014-10-07T08:06:24Z",
+      "end": "2014-10-07T08:06:40Z",
+      "positive_centers": 2,
+      "observed_off_boundaries": false,
+      "household": "refit_2",
+      "usable_positive_centers": 2,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 40,
+      "a": 89570,
+      "b": 89583,
+      "start": "2014-10-07T13:31:28Z",
+      "end": "2014-10-07T13:33:12Z",
+      "positive_centers": 13,
+      "observed_off_boundaries": false,
+      "household": "refit_2",
+      "usable_positive_centers": 13,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 41,
+      "a": 89594,
+      "b": 89612,
+      "start": "2014-10-07T13:34:40Z",
+      "end": "2014-10-07T13:37:04Z",
+      "positive_centers": 18,
+      "observed_off_boundaries": true,
+      "household": "refit_2",
+      "usable_positive_centers": 18,
+      "complete_c31_support": true,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 42,
+      "a": 89728,
+      "b": 89743,
+      "start": "2014-10-07T13:52:32Z",
+      "end": "2014-10-07T13:54:32Z",
+      "positive_centers": 15,
+      "observed_off_boundaries": true,
+      "household": "refit_2",
+      "usable_positive_centers": 15,
+      "complete_c31_support": true,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 43,
+      "a": 89764,
+      "b": 89773,
+      "start": "2014-10-07T13:57:20Z",
+      "end": "2014-10-07T13:58:32Z",
+      "positive_centers": 9,
+      "observed_off_boundaries": true,
+      "household": "refit_2",
+      "usable_positive_centers": 9,
+      "complete_c31_support": true,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 44,
+      "a": 91459,
+      "b": 91467,
+      "start": "2014-10-07T17:43:20Z",
+      "end": "2014-10-07T17:44:24Z",
+      "positive_centers": 8,
+      "observed_off_boundaries": true,
+      "household": "refit_2",
+      "usable_positive_centers": 8,
+      "complete_c31_support": true,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 45,
+      "a": 98121,
+      "b": 98123,
+      "start": "2014-10-08T08:31:36Z",
+      "end": "2014-10-08T08:31:52Z",
+      "positive_centers": 2,
+      "observed_off_boundaries": true,
+      "household": "refit_2",
+      "usable_positive_centers": 0,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 2,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 46,
+      "a": 98124,
+      "b": 98127,
+      "start": "2014-10-08T08:32:00Z",
+      "end": "2014-10-08T08:32:24Z",
+      "positive_centers": 3,
+      "observed_off_boundaries": true,
+      "household": "refit_2",
+      "usable_positive_centers": 0,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 3,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 47,
+      "a": 98128,
+      "b": 98132,
+      "start": "2014-10-08T08:32:32Z",
+      "end": "2014-10-08T08:33:04Z",
+      "positive_centers": 4,
+      "observed_off_boundaries": false,
+      "household": "refit_2",
+      "usable_positive_centers": 0,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 4,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 48,
+      "a": 101201,
+      "b": 101204,
+      "start": "2014-10-08T15:22:16Z",
+      "end": "2014-10-08T15:22:40Z",
+      "positive_centers": 3,
+      "observed_off_boundaries": false,
+      "household": "refit_2",
+      "usable_positive_centers": 0,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 3,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 49,
+      "a": 101206,
+      "b": 101208,
+      "start": "2014-10-08T15:22:56Z",
+      "end": "2014-10-08T15:23:12Z",
+      "positive_centers": 2,
+      "observed_off_boundaries": false,
+      "household": "refit_2",
+      "usable_positive_centers": 0,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 2,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 50,
+      "a": 101879,
+      "b": 101914,
+      "start": "2014-10-08T16:52:40Z",
+      "end": "2014-10-08T16:57:20Z",
+      "positive_centers": 35,
+      "observed_off_boundaries": false,
+      "household": "refit_2",
+      "usable_positive_centers": 29,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 6,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 51,
+      "a": 101982,
+      "b": 101983,
+      "start": "2014-10-08T17:06:24Z",
+      "end": "2014-10-08T17:06:32Z",
+      "positive_centers": 1,
+      "observed_off_boundaries": false,
+      "household": "refit_2",
+      "usable_positive_centers": 1,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 52,
+      "a": 101990,
+      "b": 101991,
+      "start": "2014-10-08T17:07:28Z",
+      "end": "2014-10-08T17:07:36Z",
+      "positive_centers": 1,
+      "observed_off_boundaries": false,
+      "household": "refit_2",
+      "usable_positive_centers": 1,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 53,
+      "a": 101993,
+      "b": 101994,
+      "start": "2014-10-08T17:07:52Z",
+      "end": "2014-10-08T17:08:00Z",
+      "positive_centers": 1,
+      "observed_off_boundaries": true,
+      "household": "refit_2",
+      "usable_positive_centers": 1,
+      "complete_c31_support": true,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 54,
+      "a": 108796,
+      "b": 108800,
+      "start": "2014-10-09T08:14:56Z",
+      "end": "2014-10-09T08:15:28Z",
+      "positive_centers": 4,
+      "observed_off_boundaries": false,
+      "household": "refit_2",
+      "usable_positive_centers": 2,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 2,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 55,
+      "a": 110414,
+      "b": 110428,
+      "start": "2014-10-09T11:50:40Z",
+      "end": "2014-10-09T11:52:32Z",
+      "positive_centers": 14,
+      "observed_off_boundaries": false,
+      "household": "refit_2",
+      "usable_positive_centers": 14,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 56,
+      "a": 110430,
+      "b": 110436,
+      "start": "2014-10-09T11:52:48Z",
+      "end": "2014-10-09T11:53:36Z",
+      "positive_centers": 6,
+      "observed_off_boundaries": false,
+      "household": "refit_2",
+      "usable_positive_centers": 6,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 57,
+      "a": 111241,
+      "b": 111252,
+      "start": "2014-10-09T13:40:56Z",
+      "end": "2014-10-09T13:42:24Z",
+      "positive_centers": 11,
+      "observed_off_boundaries": true,
+      "household": "refit_2",
+      "usable_positive_centers": 11,
+      "complete_c31_support": true,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 58,
+      "a": 111294,
+      "b": 111304,
+      "start": "2014-10-09T13:48:00Z",
+      "end": "2014-10-09T13:49:20Z",
+      "positive_centers": 10,
+      "observed_off_boundaries": true,
+      "household": "refit_2",
+      "usable_positive_centers": 0,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 10,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 59,
+      "a": 112871,
+      "b": 112888,
+      "start": "2014-10-09T17:18:16Z",
+      "end": "2014-10-09T17:20:32Z",
+      "positive_centers": 17,
+      "observed_off_boundaries": false,
+      "household": "refit_2",
+      "usable_positive_centers": 17,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 60,
+      "a": 112899,
+      "b": 112913,
+      "start": "2014-10-09T17:22:00Z",
+      "end": "2014-10-09T17:23:52Z",
+      "positive_centers": 14,
+      "observed_off_boundaries": true,
+      "household": "refit_2",
+      "usable_positive_centers": 14,
+      "complete_c31_support": true,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 61,
+      "a": 119472,
+      "b": 119477,
+      "start": "2014-10-10T07:58:24Z",
+      "end": "2014-10-10T07:59:04Z",
+      "positive_centers": 5,
+      "observed_off_boundaries": false,
+      "household": "refit_2",
+      "usable_positive_centers": 5,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 62,
+      "a": 119479,
+      "b": 119484,
+      "start": "2014-10-10T07:59:20Z",
+      "end": "2014-10-10T08:00:00Z",
+      "positive_centers": 5,
+      "observed_off_boundaries": false,
+      "household": "refit_2",
+      "usable_positive_centers": 5,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 63,
+      "a": 122429,
+      "b": 122440,
+      "start": "2014-10-10T14:32:40Z",
+      "end": "2014-10-10T14:34:08Z",
+      "positive_centers": 11,
+      "observed_off_boundaries": false,
+      "household": "refit_2",
+      "usable_positive_centers": 11,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 64,
+      "a": 122591,
+      "b": 122600,
+      "start": "2014-10-10T14:54:16Z",
+      "end": "2014-10-10T14:55:28Z",
+      "positive_centers": 9,
+      "observed_off_boundaries": false,
+      "household": "refit_2",
+      "usable_positive_centers": 9,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 65,
+      "a": 122623,
+      "b": 122630,
+      "start": "2014-10-10T14:58:32Z",
+      "end": "2014-10-10T14:59:28Z",
+      "positive_centers": 7,
+      "observed_off_boundaries": false,
+      "household": "refit_2",
+      "usable_positive_centers": 7,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 66,
+      "a": 123596,
+      "b": 123617,
+      "start": "2014-10-10T17:08:16Z",
+      "end": "2014-10-10T17:11:04Z",
+      "positive_centers": 21,
+      "observed_off_boundaries": false,
+      "household": "refit_2",
+      "usable_positive_centers": 21,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 67,
+      "a": 123676,
+      "b": 123677,
+      "start": "2014-10-10T17:18:56Z",
+      "end": "2014-10-10T17:19:04Z",
+      "positive_centers": 1,
+      "observed_off_boundaries": false,
+      "household": "refit_2",
+      "usable_positive_centers": 1,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 68,
+      "a": 125461,
+      "b": 125467,
+      "start": "2014-10-10T21:16:56Z",
+      "end": "2014-10-10T21:17:44Z",
+      "positive_centers": 6,
+      "observed_off_boundaries": true,
+      "household": "refit_2",
+      "usable_positive_centers": 0,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 6,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 69,
+      "a": 125469,
+      "b": 125474,
+      "start": "2014-10-10T21:18:00Z",
+      "end": "2014-10-10T21:18:40Z",
+      "positive_centers": 5,
+      "observed_off_boundaries": false,
+      "household": "refit_2",
+      "usable_positive_centers": 0,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 5,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 70,
+      "a": 125475,
+      "b": 125481,
+      "start": "2014-10-10T21:18:48Z",
+      "end": "2014-10-10T21:19:36Z",
+      "positive_centers": 6,
+      "observed_off_boundaries": false,
+      "household": "refit_2",
+      "usable_positive_centers": 0,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 6,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 71,
+      "a": 130429,
+      "b": 130432,
+      "start": "2014-10-11T08:19:20Z",
+      "end": "2014-10-11T08:19:44Z",
+      "positive_centers": 3,
+      "observed_off_boundaries": true,
+      "household": "refit_2",
+      "usable_positive_centers": 3,
+      "complete_c31_support": true,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 72,
+      "a": 134308,
+      "b": 134329,
+      "start": "2014-10-11T16:56:32Z",
+      "end": "2014-10-11T16:59:20Z",
+      "positive_centers": 21,
+      "observed_off_boundaries": false,
+      "household": "refit_2",
+      "usable_positive_centers": 21,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 73,
+      "a": 134334,
+      "b": 134355,
+      "start": "2014-10-11T17:00:00Z",
+      "end": "2014-10-11T17:02:48Z",
+      "positive_centers": 21,
+      "observed_off_boundaries": true,
+      "household": "refit_2",
+      "usable_positive_centers": 13,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 8,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 74,
+      "a": 134363,
+      "b": 134372,
+      "start": "2014-10-11T17:03:52Z",
+      "end": "2014-10-11T17:05:04Z",
+      "positive_centers": 9,
+      "observed_off_boundaries": false,
+      "household": "refit_2",
+      "usable_positive_centers": 0,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 9,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 75,
+      "a": 134374,
+      "b": 134380,
+      "start": "2014-10-11T17:05:20Z",
+      "end": "2014-10-11T17:06:08Z",
+      "positive_centers": 6,
+      "observed_off_boundaries": false,
+      "household": "refit_2",
+      "usable_positive_centers": 2,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 4,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 76,
+      "a": 135953,
+      "b": 135964,
+      "start": "2014-10-11T20:35:52Z",
+      "end": "2014-10-11T20:37:20Z",
+      "positive_centers": 11,
+      "observed_off_boundaries": true,
+      "household": "refit_2",
+      "usable_positive_centers": 11,
+      "complete_c31_support": true,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 77,
+      "a": 141213,
+      "b": 141215,
+      "start": "2014-10-12T08:17:12Z",
+      "end": "2014-10-12T08:17:28Z",
+      "positive_centers": 2,
+      "observed_off_boundaries": true,
+      "household": "refit_2",
+      "usable_positive_centers": 2,
+      "complete_c31_support": true,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 78,
+      "a": 141217,
+      "b": 141219,
+      "start": "2014-10-12T08:17:44Z",
+      "end": "2014-10-12T08:18:00Z",
+      "positive_centers": 2,
+      "observed_off_boundaries": true,
+      "household": "refit_2",
+      "usable_positive_centers": 0,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 2,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 79,
+      "a": 146710,
+      "b": 146724,
+      "start": "2014-10-12T20:30:08Z",
+      "end": "2014-10-12T20:32:00Z",
+      "positive_centers": 14,
+      "observed_off_boundaries": true,
+      "household": "refit_2",
+      "usable_positive_centers": 14,
+      "complete_c31_support": true,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 80,
+      "a": 146762,
+      "b": 146765,
+      "start": "2014-10-12T20:37:04Z",
+      "end": "2014-10-12T20:37:28Z",
+      "positive_centers": 3,
+      "observed_off_boundaries": true,
+      "household": "refit_2",
+      "usable_positive_centers": 3,
+      "complete_c31_support": true,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 0,
+      "a": 470,
+      "b": 471,
+      "start": "2014-10-04T21:25:20Z",
+      "end": "2014-10-04T21:25:28Z",
+      "positive_centers": 1,
+      "observed_off_boundaries": false,
+      "household": "refit_19",
+      "usable_positive_centers": 0,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 1,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 1,
+      "a": 485,
+      "b": 486,
+      "start": "2014-10-04T21:27:20Z",
+      "end": "2014-10-04T21:27:28Z",
+      "positive_centers": 1,
+      "observed_off_boundaries": false,
+      "household": "refit_19",
+      "usable_positive_centers": 0,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 1,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 2,
+      "a": 18233,
+      "b": 18234,
+      "start": "2014-10-06T12:53:44Z",
+      "end": "2014-10-06T12:53:52Z",
+      "positive_centers": 1,
+      "observed_off_boundaries": false,
+      "household": "refit_19",
+      "usable_positive_centers": 0,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 1,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 3,
+      "a": 18350,
+      "b": 18352,
+      "start": "2014-10-06T13:09:20Z",
+      "end": "2014-10-06T13:09:36Z",
+      "positive_centers": 2,
+      "observed_off_boundaries": false,
+      "household": "refit_19",
+      "usable_positive_centers": 0,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 2,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 4,
+      "a": 20440,
+      "b": 20444,
+      "start": "2014-10-06T17:48:00Z",
+      "end": "2014-10-06T17:48:32Z",
+      "positive_centers": 4,
+      "observed_off_boundaries": false,
+      "household": "refit_19",
+      "usable_positive_centers": 0,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 4,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 5,
+      "a": 20445,
+      "b": 20447,
+      "start": "2014-10-06T17:48:40Z",
+      "end": "2014-10-06T17:48:56Z",
+      "positive_centers": 2,
+      "observed_off_boundaries": false,
+      "household": "refit_19",
+      "usable_positive_centers": 0,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 2,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 6,
+      "a": 20543,
+      "b": 20545,
+      "start": "2014-10-06T18:01:44Z",
+      "end": "2014-10-06T18:02:00Z",
+      "positive_centers": 2,
+      "observed_off_boundaries": false,
+      "household": "refit_19",
+      "usable_positive_centers": 0,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 2,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 7,
+      "a": 20546,
+      "b": 20550,
+      "start": "2014-10-06T18:02:08Z",
+      "end": "2014-10-06T18:02:40Z",
+      "positive_centers": 4,
+      "observed_off_boundaries": false,
+      "household": "refit_19",
+      "usable_positive_centers": 0,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 4,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 8,
+      "a": 28523,
+      "b": 28525,
+      "start": "2014-10-07T11:45:44Z",
+      "end": "2014-10-07T11:46:00Z",
+      "positive_centers": 2,
+      "observed_off_boundaries": false,
+      "household": "refit_19",
+      "usable_positive_centers": 0,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 2,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 9,
+      "a": 28526,
+      "b": 28533,
+      "start": "2014-10-07T11:46:08Z",
+      "end": "2014-10-07T11:47:04Z",
+      "positive_centers": 7,
+      "observed_off_boundaries": false,
+      "household": "refit_19",
+      "usable_positive_centers": 0,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 7,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 10,
+      "a": 30288,
+      "b": 30289,
+      "start": "2014-10-07T15:41:04Z",
+      "end": "2014-10-07T15:41:12Z",
+      "positive_centers": 1,
+      "observed_off_boundaries": false,
+      "household": "refit_19",
+      "usable_positive_centers": 0,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 1,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 11,
+      "a": 31379,
+      "b": 31386,
+      "start": "2014-10-07T18:06:32Z",
+      "end": "2014-10-07T18:07:28Z",
+      "positive_centers": 7,
+      "observed_off_boundaries": false,
+      "household": "refit_19",
+      "usable_positive_centers": 0,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 7,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 12,
+      "a": 31387,
+      "b": 31391,
+      "start": "2014-10-07T18:07:36Z",
+      "end": "2014-10-07T18:08:08Z",
+      "positive_centers": 4,
+      "observed_off_boundaries": false,
+      "household": "refit_19",
+      "usable_positive_centers": 0,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 4,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 13,
+      "a": 42111,
+      "b": 42112,
+      "start": "2014-10-08T17:57:28Z",
+      "end": "2014-10-08T17:57:36Z",
+      "positive_centers": 1,
+      "observed_off_boundaries": false,
+      "household": "refit_19",
+      "usable_positive_centers": 0,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 1,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 14,
+      "a": 42113,
+      "b": 42120,
+      "start": "2014-10-08T17:57:44Z",
+      "end": "2014-10-08T17:58:40Z",
+      "positive_centers": 7,
+      "observed_off_boundaries": false,
+      "household": "refit_19",
+      "usable_positive_centers": 0,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 7,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 15,
+      "a": 42121,
+      "b": 42123,
+      "start": "2014-10-08T17:58:48Z",
+      "end": "2014-10-08T17:59:04Z",
+      "positive_centers": 2,
+      "observed_off_boundaries": false,
+      "household": "refit_19",
+      "usable_positive_centers": 0,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 2,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 16,
+      "a": 42130,
+      "b": 42134,
+      "start": "2014-10-08T18:00:00Z",
+      "end": "2014-10-08T18:00:32Z",
+      "positive_centers": 4,
+      "observed_off_boundaries": false,
+      "household": "refit_19",
+      "usable_positive_centers": 0,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 4,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 17,
+      "a": 42149,
+      "b": 42150,
+      "start": "2014-10-08T18:02:32Z",
+      "end": "2014-10-08T18:02:40Z",
+      "positive_centers": 1,
+      "observed_off_boundaries": false,
+      "household": "refit_19",
+      "usable_positive_centers": 0,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 1,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 18,
+      "a": 42151,
+      "b": 42157,
+      "start": "2014-10-08T18:02:48Z",
+      "end": "2014-10-08T18:03:36Z",
+      "positive_centers": 6,
+      "observed_off_boundaries": false,
+      "household": "refit_19",
+      "usable_positive_centers": 0,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 6,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 19,
+      "a": 42410,
+      "b": 42417,
+      "start": "2014-10-08T18:37:20Z",
+      "end": "2014-10-08T18:38:16Z",
+      "positive_centers": 7,
+      "observed_off_boundaries": false,
+      "household": "refit_19",
+      "usable_positive_centers": 0,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 7,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 20,
+      "a": 42418,
+      "b": 42421,
+      "start": "2014-10-08T18:38:24Z",
+      "end": "2014-10-08T18:38:48Z",
+      "positive_centers": 3,
+      "observed_off_boundaries": false,
+      "household": "refit_19",
+      "usable_positive_centers": 0,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 3,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 21,
+      "a": 42788,
+      "b": 42796,
+      "start": "2014-10-08T19:27:44Z",
+      "end": "2014-10-08T19:28:48Z",
+      "positive_centers": 8,
+      "observed_off_boundaries": false,
+      "household": "refit_19",
+      "usable_positive_centers": 0,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 8,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 22,
+      "a": 42797,
+      "b": 42803,
+      "start": "2014-10-08T19:28:56Z",
+      "end": "2014-10-08T19:29:44Z",
+      "positive_centers": 6,
+      "observed_off_boundaries": false,
+      "household": "refit_19",
+      "usable_positive_centers": 0,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 6,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 23,
+      "a": 59184,
+      "b": 59185,
+      "start": "2014-10-10T07:53:52Z",
+      "end": "2014-10-10T07:54:00Z",
+      "positive_centers": 1,
+      "observed_off_boundaries": false,
+      "household": "refit_19",
+      "usable_positive_centers": 0,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 1,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 24,
+      "a": 59186,
+      "b": 59187,
+      "start": "2014-10-10T07:54:08Z",
+      "end": "2014-10-10T07:54:16Z",
+      "positive_centers": 1,
+      "observed_off_boundaries": false,
+      "household": "refit_19",
+      "usable_positive_centers": 0,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 1,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 25,
+      "a": 62754,
+      "b": 62757,
+      "start": "2014-10-10T15:49:52Z",
+      "end": "2014-10-10T15:50:16Z",
+      "positive_centers": 3,
+      "observed_off_boundaries": false,
+      "household": "refit_19",
+      "usable_positive_centers": 0,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 3,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 26,
+      "a": 62758,
+      "b": 62760,
+      "start": "2014-10-10T15:50:24Z",
+      "end": "2014-10-10T15:50:40Z",
+      "positive_centers": 2,
+      "observed_off_boundaries": false,
+      "household": "refit_19",
+      "usable_positive_centers": 0,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 2,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 27,
+      "a": 68574,
+      "b": 68579,
+      "start": "2014-10-11T04:45:52Z",
+      "end": "2014-10-11T04:46:32Z",
+      "positive_centers": 5,
+      "observed_off_boundaries": false,
+      "household": "refit_19",
+      "usable_positive_centers": 0,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 5,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 28,
+      "a": 68580,
+      "b": 68589,
+      "start": "2014-10-11T04:46:40Z",
+      "end": "2014-10-11T04:47:52Z",
+      "positive_centers": 9,
+      "observed_off_boundaries": false,
+      "household": "refit_19",
+      "usable_positive_centers": 0,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 9,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 29,
+      "a": 86255,
+      "b": 86256,
+      "start": "2014-10-12T20:03:20Z",
+      "end": "2014-10-12T20:03:28Z",
+      "positive_centers": 1,
+      "observed_off_boundaries": false,
+      "household": "refit_19",
+      "usable_positive_centers": 0,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 1,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 30,
+      "a": 86257,
+      "b": 86258,
+      "start": "2014-10-12T20:03:36Z",
+      "end": "2014-10-12T20:03:44Z",
+      "positive_centers": 1,
+      "observed_off_boundaries": false,
+      "household": "refit_19",
+      "usable_positive_centers": 0,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 1,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 31,
+      "a": 93830,
+      "b": 93834,
+      "start": "2014-10-13T12:53:20Z",
+      "end": "2014-10-13T12:53:52Z",
+      "positive_centers": 4,
+      "observed_off_boundaries": false,
+      "household": "refit_19",
+      "usable_positive_centers": 4,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 32,
+      "a": 95210,
+      "b": 95216,
+      "start": "2014-10-13T15:57:20Z",
+      "end": "2014-10-13T15:58:08Z",
+      "positive_centers": 6,
+      "observed_off_boundaries": false,
+      "household": "refit_19",
+      "usable_positive_centers": 6,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 33,
+      "a": 95235,
+      "b": 95236,
+      "start": "2014-10-13T16:00:40Z",
+      "end": "2014-10-13T16:00:48Z",
+      "positive_centers": 1,
+      "observed_off_boundaries": false,
+      "household": "refit_19",
+      "usable_positive_centers": 1,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 34,
+      "a": 95242,
+      "b": 95243,
+      "start": "2014-10-13T16:01:36Z",
+      "end": "2014-10-13T16:01:44Z",
+      "positive_centers": 1,
+      "observed_off_boundaries": false,
+      "household": "refit_19",
+      "usable_positive_centers": 1,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 35,
+      "a": 95246,
+      "b": 95250,
+      "start": "2014-10-13T16:02:08Z",
+      "end": "2014-10-13T16:02:40Z",
+      "positive_centers": 4,
+      "observed_off_boundaries": true,
+      "household": "refit_19",
+      "usable_positive_centers": 4,
+      "complete_c31_support": true,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 36,
+      "a": 96119,
+      "b": 96131,
+      "start": "2014-10-13T17:58:32Z",
+      "end": "2014-10-13T18:00:08Z",
+      "positive_centers": 12,
+      "observed_off_boundaries": true,
+      "household": "refit_19",
+      "usable_positive_centers": 12,
+      "complete_c31_support": true,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 37,
+      "a": 96184,
+      "b": 96188,
+      "start": "2014-10-13T18:07:12Z",
+      "end": "2014-10-13T18:07:44Z",
+      "positive_centers": 4,
+      "observed_off_boundaries": true,
+      "household": "refit_19",
+      "usable_positive_centers": 4,
+      "complete_c31_support": true,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 38,
+      "a": 105855,
+      "b": 105862,
+      "start": "2014-10-14T15:36:40Z",
+      "end": "2014-10-14T15:37:36Z",
+      "positive_centers": 7,
+      "observed_off_boundaries": false,
+      "household": "refit_19",
+      "usable_positive_centers": 7,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 39,
+      "a": 106976,
+      "b": 106985,
+      "start": "2014-10-14T18:06:08Z",
+      "end": "2014-10-14T18:07:20Z",
+      "positive_centers": 9,
+      "observed_off_boundaries": true,
+      "household": "refit_19",
+      "usable_positive_centers": 9,
+      "complete_c31_support": true,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 40,
+      "a": 107040,
+      "b": 107051,
+      "start": "2014-10-14T18:14:40Z",
+      "end": "2014-10-14T18:16:08Z",
+      "positive_centers": 11,
+      "observed_off_boundaries": false,
+      "household": "refit_19",
+      "usable_positive_centers": 11,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 41,
+      "a": 116731,
+      "b": 116739,
+      "start": "2014-10-15T15:46:48Z",
+      "end": "2014-10-15T15:47:52Z",
+      "positive_centers": 8,
+      "observed_off_boundaries": true,
+      "household": "refit_19",
+      "usable_positive_centers": 8,
+      "complete_c31_support": true,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 42,
+      "a": 117541,
+      "b": 117547,
+      "start": "2014-10-15T17:34:48Z",
+      "end": "2014-10-15T17:35:36Z",
+      "positive_centers": 6,
+      "observed_off_boundaries": false,
+      "household": "refit_19",
+      "usable_positive_centers": 0,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 6,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 43,
+      "a": 118052,
+      "b": 118058,
+      "start": "2014-10-15T18:42:56Z",
+      "end": "2014-10-15T18:43:44Z",
+      "positive_centers": 6,
+      "observed_off_boundaries": false,
+      "household": "refit_19",
+      "usable_positive_centers": 6,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 44,
+      "a": 118081,
+      "b": 118085,
+      "start": "2014-10-15T18:46:48Z",
+      "end": "2014-10-15T18:47:20Z",
+      "positive_centers": 4,
+      "observed_off_boundaries": true,
+      "household": "refit_19",
+      "usable_positive_centers": 4,
+      "complete_c31_support": true,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 45,
+      "a": 118142,
+      "b": 118148,
+      "start": "2014-10-15T18:54:56Z",
+      "end": "2014-10-15T18:55:44Z",
+      "positive_centers": 6,
+      "observed_off_boundaries": true,
+      "household": "refit_19",
+      "usable_positive_centers": 6,
+      "complete_c31_support": true,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 46,
+      "a": 118149,
+      "b": 118156,
+      "start": "2014-10-15T18:55:52Z",
+      "end": "2014-10-15T18:56:48Z",
+      "positive_centers": 7,
+      "observed_off_boundaries": false,
+      "household": "refit_19",
+      "usable_positive_centers": 7,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 47,
+      "a": 118170,
+      "b": 118178,
+      "start": "2014-10-15T18:58:40Z",
+      "end": "2014-10-15T18:59:44Z",
+      "positive_centers": 8,
+      "observed_off_boundaries": true,
+      "household": "refit_19",
+      "usable_positive_centers": 8,
+      "complete_c31_support": true,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 48,
+      "a": 118245,
+      "b": 118248,
+      "start": "2014-10-15T19:08:40Z",
+      "end": "2014-10-15T19:09:04Z",
+      "positive_centers": 3,
+      "observed_off_boundaries": true,
+      "household": "refit_19",
+      "usable_positive_centers": 3,
+      "complete_c31_support": true,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 49,
+      "a": 118266,
+      "b": 118273,
+      "start": "2014-10-15T19:11:28Z",
+      "end": "2014-10-15T19:12:24Z",
+      "positive_centers": 7,
+      "observed_off_boundaries": false,
+      "household": "refit_19",
+      "usable_positive_centers": 7,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 50,
+      "a": 118277,
+      "b": 118281,
+      "start": "2014-10-15T19:12:56Z",
+      "end": "2014-10-15T19:13:28Z",
+      "positive_centers": 4,
+      "observed_off_boundaries": true,
+      "household": "refit_19",
+      "usable_positive_centers": 4,
+      "complete_c31_support": true,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 51,
+      "a": 118283,
+      "b": 118287,
+      "start": "2014-10-15T19:13:44Z",
+      "end": "2014-10-15T19:14:16Z",
+      "positive_centers": 4,
+      "observed_off_boundaries": true,
+      "household": "refit_19",
+      "usable_positive_centers": 4,
+      "complete_c31_support": true,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 52,
+      "a": 118291,
+      "b": 118296,
+      "start": "2014-10-15T19:14:48Z",
+      "end": "2014-10-15T19:15:28Z",
+      "positive_centers": 5,
+      "observed_off_boundaries": true,
+      "household": "refit_19",
+      "usable_positive_centers": 5,
+      "complete_c31_support": true,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 53,
+      "a": 118443,
+      "b": 118446,
+      "start": "2014-10-15T19:35:04Z",
+      "end": "2014-10-15T19:35:28Z",
+      "positive_centers": 3,
+      "observed_off_boundaries": false,
+      "household": "refit_19",
+      "usable_positive_centers": 3,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 54,
+      "a": 118448,
+      "b": 118449,
+      "start": "2014-10-15T19:35:44Z",
+      "end": "2014-10-15T19:35:52Z",
+      "positive_centers": 1,
+      "observed_off_boundaries": false,
+      "household": "refit_19",
+      "usable_positive_centers": 1,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 55,
+      "a": 118532,
+      "b": 118544,
+      "start": "2014-10-15T19:46:56Z",
+      "end": "2014-10-15T19:48:32Z",
+      "positive_centers": 12,
+      "observed_off_boundaries": true,
+      "household": "refit_19",
+      "usable_positive_centers": 12,
+      "complete_c31_support": true,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 56,
+      "a": 118546,
+      "b": 118550,
+      "start": "2014-10-15T19:48:48Z",
+      "end": "2014-10-15T19:49:20Z",
+      "positive_centers": 4,
+      "observed_off_boundaries": true,
+      "household": "refit_19",
+      "usable_positive_centers": 4,
+      "complete_c31_support": true,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 57,
+      "a": 125743,
+      "b": 125747,
+      "start": "2014-10-16T11:48:24Z",
+      "end": "2014-10-16T11:48:56Z",
+      "positive_centers": 4,
+      "observed_off_boundaries": false,
+      "household": "refit_19",
+      "usable_positive_centers": 4,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 58,
+      "a": 125756,
+      "b": 125758,
+      "start": "2014-10-16T11:50:08Z",
+      "end": "2014-10-16T11:50:24Z",
+      "positive_centers": 2,
+      "observed_off_boundaries": false,
+      "household": "refit_19",
+      "usable_positive_centers": 2,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 59,
+      "a": 125760,
+      "b": 125764,
+      "start": "2014-10-16T11:50:40Z",
+      "end": "2014-10-16T11:51:12Z",
+      "positive_centers": 4,
+      "observed_off_boundaries": false,
+      "household": "refit_19",
+      "usable_positive_centers": 4,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 60,
+      "a": 125775,
+      "b": 125779,
+      "start": "2014-10-16T11:52:40Z",
+      "end": "2014-10-16T11:53:12Z",
+      "positive_centers": 4,
+      "observed_off_boundaries": true,
+      "household": "refit_19",
+      "usable_positive_centers": 4,
+      "complete_c31_support": true,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 61,
+      "a": 125784,
+      "b": 125787,
+      "start": "2014-10-16T11:53:52Z",
+      "end": "2014-10-16T11:54:16Z",
+      "positive_centers": 3,
+      "observed_off_boundaries": false,
+      "household": "refit_19",
+      "usable_positive_centers": 3,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 62,
+      "a": 125788,
+      "b": 125795,
+      "start": "2014-10-16T11:54:24Z",
+      "end": "2014-10-16T11:55:20Z",
+      "positive_centers": 7,
+      "observed_off_boundaries": false,
+      "household": "refit_19",
+      "usable_positive_centers": 7,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 63,
+      "a": 125801,
+      "b": 125804,
+      "start": "2014-10-16T11:56:08Z",
+      "end": "2014-10-16T11:56:32Z",
+      "positive_centers": 3,
+      "observed_off_boundaries": true,
+      "household": "refit_19",
+      "usable_positive_centers": 3,
+      "complete_c31_support": true,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 64,
+      "a": 125831,
+      "b": 125842,
+      "start": "2014-10-16T12:00:08Z",
+      "end": "2014-10-16T12:01:36Z",
+      "positive_centers": 11,
+      "observed_off_boundaries": true,
+      "household": "refit_19",
+      "usable_positive_centers": 11,
+      "complete_c31_support": true,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 65,
+      "a": 125850,
+      "b": 125858,
+      "start": "2014-10-16T12:02:40Z",
+      "end": "2014-10-16T12:03:44Z",
+      "positive_centers": 8,
+      "observed_off_boundaries": false,
+      "household": "refit_19",
+      "usable_positive_centers": 0,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 8,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 66,
+      "a": 125872,
+      "b": 125883,
+      "start": "2014-10-16T12:05:36Z",
+      "end": "2014-10-16T12:07:04Z",
+      "positive_centers": 11,
+      "observed_off_boundaries": false,
+      "household": "refit_19",
+      "usable_positive_centers": 4,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 7,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 67,
+      "a": 125886,
+      "b": 125892,
+      "start": "2014-10-16T12:07:28Z",
+      "end": "2014-10-16T12:08:16Z",
+      "positive_centers": 6,
+      "observed_off_boundaries": false,
+      "household": "refit_19",
+      "usable_positive_centers": 6,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 68,
+      "a": 125900,
+      "b": 125904,
+      "start": "2014-10-16T12:09:20Z",
+      "end": "2014-10-16T12:09:52Z",
+      "positive_centers": 4,
+      "observed_off_boundaries": true,
+      "household": "refit_19",
+      "usable_positive_centers": 4,
+      "complete_c31_support": true,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 69,
+      "a": 125922,
+      "b": 125925,
+      "start": "2014-10-16T12:12:16Z",
+      "end": "2014-10-16T12:12:40Z",
+      "positive_centers": 3,
+      "observed_off_boundaries": true,
+      "household": "refit_19",
+      "usable_positive_centers": 3,
+      "complete_c31_support": true,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 70,
+      "a": 125932,
+      "b": 125936,
+      "start": "2014-10-16T12:13:36Z",
+      "end": "2014-10-16T12:14:08Z",
+      "positive_centers": 4,
+      "observed_off_boundaries": true,
+      "household": "refit_19",
+      "usable_positive_centers": 4,
+      "complete_c31_support": true,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 71,
+      "a": 125946,
+      "b": 125952,
+      "start": "2014-10-16T12:15:28Z",
+      "end": "2014-10-16T12:16:16Z",
+      "positive_centers": 6,
+      "observed_off_boundaries": true,
+      "household": "refit_19",
+      "usable_positive_centers": 6,
+      "complete_c31_support": true,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 72,
+      "a": 125953,
+      "b": 125960,
+      "start": "2014-10-16T12:16:24Z",
+      "end": "2014-10-16T12:17:20Z",
+      "positive_centers": 7,
+      "observed_off_boundaries": false,
+      "household": "refit_19",
+      "usable_positive_centers": 7,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 73,
+      "a": 127525,
+      "b": 127533,
+      "start": "2014-10-16T15:46:00Z",
+      "end": "2014-10-16T15:47:04Z",
+      "positive_centers": 8,
+      "observed_off_boundaries": true,
+      "household": "refit_19",
+      "usable_positive_centers": 8,
+      "complete_c31_support": true,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 74,
+      "a": 128800,
+      "b": 128813,
+      "start": "2014-10-16T18:36:00Z",
+      "end": "2014-10-16T18:37:44Z",
+      "positive_centers": 13,
+      "observed_off_boundaries": true,
+      "household": "refit_19",
+      "usable_positive_centers": 13,
+      "complete_c31_support": true,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 75,
+      "a": 128920,
+      "b": 128921,
+      "start": "2014-10-16T18:52:00Z",
+      "end": "2014-10-16T18:52:08Z",
+      "positive_centers": 1,
+      "observed_off_boundaries": false,
+      "household": "refit_19",
+      "usable_positive_centers": 1,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 76,
+      "a": 141158,
+      "b": 141166,
+      "start": "2014-10-17T22:03:44Z",
+      "end": "2014-10-17T22:04:48Z",
+      "positive_centers": 8,
+      "observed_off_boundaries": true,
+      "household": "refit_19",
+      "usable_positive_centers": 8,
+      "complete_c31_support": true,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 77,
+      "a": 149001,
+      "b": 149007,
+      "start": "2014-10-18T15:29:28Z",
+      "end": "2014-10-18T15:30:16Z",
+      "positive_centers": 6,
+      "observed_off_boundaries": false,
+      "household": "refit_19",
+      "usable_positive_centers": 6,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 78,
+      "a": 150124,
+      "b": 150132,
+      "start": "2014-10-18T17:59:12Z",
+      "end": "2014-10-18T18:00:16Z",
+      "positive_centers": 8,
+      "observed_off_boundaries": true,
+      "household": "refit_19",
+      "usable_positive_centers": 8,
+      "complete_c31_support": true,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 79,
+      "a": 150297,
+      "b": 150307,
+      "start": "2014-10-18T18:22:16Z",
+      "end": "2014-10-18T18:23:36Z",
+      "positive_centers": 10,
+      "observed_off_boundaries": true,
+      "household": "refit_19",
+      "usable_positive_centers": 10,
+      "complete_c31_support": true,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 80,
+      "a": 150320,
+      "b": 150324,
+      "start": "2014-10-18T18:25:20Z",
+      "end": "2014-10-18T18:25:52Z",
+      "positive_centers": 4,
+      "observed_off_boundaries": true,
+      "household": "refit_19",
+      "usable_positive_centers": 4,
+      "complete_c31_support": true,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 81,
+      "a": 150326,
+      "b": 150330,
+      "start": "2014-10-18T18:26:08Z",
+      "end": "2014-10-18T18:26:40Z",
+      "positive_centers": 4,
+      "observed_off_boundaries": false,
+      "household": "refit_19",
+      "usable_positive_centers": 4,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    },
+    {
+      "id": 82,
+      "a": 150332,
+      "b": 150334,
+      "start": "2014-10-18T18:26:56Z",
+      "end": "2014-10-18T18:27:12Z",
+      "positive_centers": 2,
+      "observed_off_boundaries": false,
+      "household": "refit_19",
+      "usable_positive_centers": 2,
+      "complete_c31_support": false,
+      "loss_counts": {
+        "edge": 0,
+        "aggregate_center_missing": 0,
+        "aggregate_context_missing": 0,
+        "label_center_missing": 0
+      }
+    }
+  ]
+}

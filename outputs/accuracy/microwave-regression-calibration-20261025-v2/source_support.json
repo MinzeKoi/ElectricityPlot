@@ -1,0 +1,122 @@
+{
+  "household": "refit_5",
+  "blocks": [
+    {
+      "windows": 18063,
+      "positive_windows": 676,
+      "negative_windows": 17387,
+      "events": 65,
+      "effective_seconds": 144504,
+      "expected_grid_points": 21600,
+      "excluded_grid_points": 3537,
+      "positive_fraction": 0.03742456956208825,
+      "dates_utc": [
+        16389,
+        16390
+      ],
+      "start": "2014-11-15T00:00:00Z",
+      "end": "2014-11-17T00:00:00Z",
+      "supported": true,
+      "complete_observed_segments": 27,
+      "partially_supported_segments": 38
+    },
+    {
+      "windows": 20518,
+      "positive_windows": 205,
+      "negative_windows": 20313,
+      "events": 17,
+      "effective_seconds": 164144,
+      "expected_grid_points": 21600,
+      "excluded_grid_points": 1082,
+      "positive_fraction": 0.009991227215128181,
+      "dates_utc": [
+        16391,
+        16392
+      ],
+      "start": "2014-11-17T00:00:00Z",
+      "end": "2014-11-19T00:00:00Z",
+      "supported": true,
+      "complete_observed_segments": 6,
+      "partially_supported_segments": 11
+    },
+    {
+      "windows": 20641,
+      "positive_windows": 303,
+      "negative_windows": 20338,
+      "events": 29,
+      "effective_seconds": 165128,
+      "expected_grid_points": 21600,
+      "excluded_grid_points": 959,
+      "positive_fraction": 0.0146795213410203,
+      "dates_utc": [
+        16393,
+        16394
+      ],
+      "start": "2014-11-19T00:00:00Z",
+      "end": "2014-11-21T00:00:00Z",
+      "supported": true,
+      "complete_observed_segments": 15,
+      "partially_supported_segments": 14
+    },
+    {
+      "windows": 16213,
+      "positive_windows": 183,
+      "negative_windows": 16030,
+      "events": 19,
+      "effective_seconds": 129704,
+      "expected_grid_points": 21600,
+      "excluded_grid_points": 5387,
+      "positive_fraction": 0.01128723863566274,
+      "dates_utc": [
+        16395,
+        16396
+      ],
+      "start": "2014-11-21T00:00:00Z",
+      "end": "2014-11-23T00:00:00Z",
+      "supported": true,
+      "complete_observed_segments": 5,
+      "partially_supported_segments": 14
+    },
+    {
+      "windows": 19127,
+      "positive_windows": 136,
+      "negative_windows": 18991,
+      "events": 10,
+      "effective_seconds": 153016,
+      "expected_grid_points": 21600,
+      "excluded_grid_points": 2473,
+      "positive_fraction": 0.007110367543263449,
+      "dates_utc": [
+        16397,
+        16398
+      ],
+      "start": "2014-11-23T00:00:00Z",
+      "end": "2014-11-25T00:00:00Z",
+      "supported": true,
+      "complete_observed_segments": 7,
+      "partially_supported_segments": 3
+    },
+    {
+      "windows": 15224,
+      "positive_windows": 65,
+      "negative_windows": 15159,
+      "events": 10,
+      "effective_seconds": 121792,
+      "expected_grid_points": 21600,
+      "excluded_grid_points": 6376,
+      "positive_fraction": 0.004269574356279559,
+      "dates_utc": [
+        16399,
+        16400
+      ],
+      "start": "2014-11-25T00:00:00Z",
+      "end": "2014-11-27T00:00:00Z",
+      "supported": true,
+      "complete_observed_segments": 4,
+      "partially_supported_segments": 6
+    }
+  ],
+  "alignment": "household_id + UTC timestamp, no row-index transfer",
+  "truth_sha256": "cc183726378d09f7ece3f9cf702e2729721a48933c37d6201329ff4129634f63",
+  "development_labels_parsed": false
+}

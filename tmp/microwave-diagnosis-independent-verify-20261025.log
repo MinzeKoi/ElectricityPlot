@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "model_readbacks": 6,
+  "checkpoint_pr_and_selection_checks": 72,
+  "outer_prediction_readbacks": 12,
+  "independent_metric_checks": 12,
+  "small_checks": [
+    {
+      "seed": 42,
+      "success_recomputed": true,
+      "gradient_and_update_nonzero": true
+    },
+    {
+      "seed": 1019,
+      "success_recomputed": true,
+      "gradient_and_update_nonzero": true
+    },
+    {
+      "seed": 2026,
+      "success_recomputed": true,
+      "gradient_and_update_nonzero": true
+    }
+  ],
+  "normalization_train_only_exact": true,
+  "context_and_event_isolation_pass": true,
+  "final_households_accessed": false,
+  "scope": "local automated verification; not a second investigator or machine",
+  "registration_sha256": "00c2d19926bb7a0a5514965ae2db658aa1a6a88e51368f15437489f242ec9389",
+  "freeze_sha256": "c5806b2456dd3a9e6267eb34bb52e6a57d8d660b467cbfc4a23c96160f3b78a6",
+  "verifier_sha256": "486e043d9f05a4828f8bb1cb15388f7df868b31c424063d767cda49e3a5fc1a2"
+}

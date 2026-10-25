@@ -1,0 +1,7 @@
+{
+  "path": "predictions/A/seed_2026/frozen_test_refit_17_0.npz",
+  "sha256": "817e530efc57459e73c3e1be8a89453859a28408bc205ba5306c4454aa6315ff",
+  "model_sha256": "75e8ce039bb7b1746c2b5713148910613e76f83de240b43d7bc950e423f7db3c",
+  "partition_id": "frozen_test_refit_17_0",
+  "protocol_sha256": "5c269b62c91fde82c63a5335bdb5a600b10870f4f45a757f1c736e716c4719fd"
+}

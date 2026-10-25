@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "fits": 0,
+  "source_PR_direct_confusion_checks": 864,
+  "source_twelve_model_time_masks_equal": true,
+  "source_block_selected_metrics_equal": true,
+  "original_A_W50_parameter_checks": 3,
+  "fixed_200W_development_baseline_exactly_reproduced": true,
+  "recipe_ordinary_inference_checked_rows": 2033,
+  "recipe_input_rows": 2048,
+  "recipe_truncated_right_boundary_rows_excluded": 15,
+  "recipe_raw_maximum_difference_w": 1.9073486328125e-06,
+  "recipe_raw_tolerance": {
+    "rtol": 1e-06,
+    "atol_w": 0.0002
+  },
+  "recipe_state_and_missing_exactly_equal": true,
+  "source_selection_sha256": "00fed1262555e440f9277d39722233d39341f48d1ce2c7c6b9844c61cfe3fee5",
+  "registration_sha256": "0716e61d312d02773f0a31baa0d0b4a8a46832273b82685e105a02e964032cf2",
+  "freeze_sha256": "b75849b44783e3945aee97f2532cbce25ded04e2ceedaebb0c7583c2193ef17e",
+  "evaluation_complete_sha256": "92503e97ae617d0ee4c362fdf9d2631760c6a37fcb77e624b6aaf408df1cae5d",
+  "verifier_sha256": "238bd855a10f5bd6f12537a1f3260fcb4f94591bfa54c7f8d5542783f2af5a93",
+  "verification_is_local_automated_not_independent_member": true,
+  "protocol_deviation": {
+    "pre_freeze_development_cache_array_materialized_for_schema": true,
+    "observed_fields": "t/y shapes and dtypes only; no values or statistics examined",
+    "development_labels_used_for_source_selection": false,
+    "strict_no_pre_freeze_label_read_condition_met": false
+  },
+  "overall_acceptance_passed": false
+}

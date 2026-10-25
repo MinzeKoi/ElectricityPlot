@@ -1,0 +1,10 @@
+{
+  "status": "reporting_readback_verified",
+  "registered_before_evaluation": true,
+  "archived_module_tests_and_script_match": true,
+  "training_snapshot_unchanged": true,
+  "numeric_gates_and_source_selection_unchanged": true,
+  "reporting_registration_sha256": "afa088f0bd5344d688fdeff9534776b5c665d89dc5abe1bd65c0d7dc1d87ba7b",
+  "final_summary_sha256": "27d999b7b7a35d59198b1749e22a5f02e6915a3e805df1992fdbc0c8bc52b748",
+  "script_sha256": "3d49b7de14e93e02078e7c84df38045ff05c5f38197c06dc9a083610c52e931a"
+}

@@ -1,0 +1,8 @@
+{
+  "freeze_sha256": "b75849b44783e3945aee97f2532cbce25ded04e2ceedaebb0c7583c2193ef17e",
+  "source_selection_sha256": "00fed1262555e440f9277d39722233d39341f48d1ce2c7c6b9844c61cfe3fee5",
+  "truth_cache_path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-fullsource-20261025-v1\\evaluation\\truth_once.npz",
+  "truth_cache_sha256": "ac48eb4afd718c1ea4348db1d54afab7a804c58676661bf7e1b1aa90a5c1e264",
+  "truth_original_sha256": "c796f9ac8d8a7bdf8acf29aafea63d1d8f4e46bd319f7c69e499ba61077d6111",
+  "cache_receipt_sha256": "1ac17c21c81a79c9b9f4e91f7f446749a2f73ff2b0d69df70d4d6d9958d73243"
+}

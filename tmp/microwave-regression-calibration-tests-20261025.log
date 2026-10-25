@@ -1,0 +1,14 @@
+test_complete_matrix_and_source_selection (test_microwave_regression_calibration.RegressionCalibrationTests.test_complete_matrix_and_source_selection) ... ok
+test_evaluation_cannot_open_labels_before_complete_freeze (test_microwave_regression_calibration.RegressionCalibrationTests.test_evaluation_cannot_open_labels_before_complete_freeze) ... ok
+test_exact_pr_includes_ties_and_block_constraint (test_microwave_regression_calibration.RegressionCalibrationTests.test_exact_pr_includes_ties_and_block_constraint) ... ok
+test_fixed_baseline_remains_and_every_seed_recall_guard (test_microwave_regression_calibration.RegressionCalibrationTests.test_fixed_baseline_remains_and_every_seed_recall_guard) ... ok
+test_full_matrix_freeze_required_for_label_barrier (test_microwave_regression_calibration.RegressionCalibrationTests.test_full_matrix_freeze_required_for_label_barrier) ... ok
+test_labels_align_by_house_and_timestamp_with_missing (test_microwave_regression_calibration.RegressionCalibrationTests.test_labels_align_by_house_and_timestamp_with_missing) ... ok
+test_list_valued_rows_can_be_saved_reopened_and_resumed (test_microwave_regression_calibration.RegressionCalibrationTests.test_list_valued_rows_can_be_saved_reopened_and_resumed) ... ok
+test_missing_is_unavailable_not_off (test_microwave_regression_calibration.RegressionCalibrationTests.test_missing_is_unavailable_not_off) ... ok
+test_reject_degenerate_only_recall_solution (test_microwave_regression_calibration.RegressionCalibrationTests.test_reject_degenerate_only_recall_solution) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.054s
+
+OK

@@ -6,14 +6,15 @@ from pathlib import Path
 import shutil
 import sys
 
-from ..data.common import DataError, read_json, safe_child, sha256, source_fingerprint, write_json
+from ..data.common import DataError, inventory as file_inventory, read_json, safe_child, sha256, source_fingerprint, write_json
 from ..data.protocol import read_partition
 from ..environment import environment_report
 from .diagnosis import event_support, paired_summary, query_summary, write_csv
 
 
 def inventory(root):
-    return {p.relative_to(root).as_posix(): sha256(p) for p in sorted(root.rglob("*")) if p.is_file()}
+    # Preserve the historical root= keyword used by this module's interface.
+    return file_inventory(root)
 
 
 def development_copy(model_dir, manifest, output):

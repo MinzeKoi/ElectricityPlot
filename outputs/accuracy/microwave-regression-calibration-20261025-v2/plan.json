@@ -1,0 +1,11 @@
+{
+  "experiment_id": "microwave-regression-calibration-20261025-v1",
+  "parent_run": "outputs/accuracy/precision-20261024-v1",
+  "block_support": "outputs/accuracy/microwave-fullsource-20261025-v1/support.json",
+  "families": ["W50", "W10", "W1", "W50_HN"],
+  "seeds": [42, 1019, 2026],
+  "maximum_fits": 0,
+  "truth_threshold_w": 200,
+  "minimum_block_recall": 0.85,
+  "expected_development_support": 137523
+}

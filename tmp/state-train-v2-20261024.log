@@ -1,0 +1,240 @@
+Fitting R_PR seed=42
+epoch 1/12: source validation normalized MAE=0.146194
+epoch 2/12: source validation normalized MAE=0.152327
+epoch 3/12: source validation normalized MAE=0.078543
+epoch 4/12: source validation normalized MAE=0.076864
+epoch 5/12: source validation normalized MAE=0.086126
+epoch 6/12: source validation normalized MAE=0.063802
+epoch 7/12: source validation normalized MAE=0.089211
+epoch 8/12: source validation normalized MAE=0.069733
+epoch 9/12: source validation normalized MAE=0.048177
+epoch 10/12: source validation normalized MAE=0.061881
+epoch 11/12: source validation normalized MAE=0.053447
+epoch 12/12: source validation normalized MAE=0.052154
+Fitting R_PR seed=1019
+epoch 1/12: source validation normalized MAE=0.117111
+epoch 2/12: source validation normalized MAE=0.118584
+epoch 3/12: source validation normalized MAE=0.075350
+epoch 4/12: source validation normalized MAE=0.077017
+epoch 5/12: source validation normalized MAE=0.066992
+epoch 6/12: source validation normalized MAE=0.081960
+epoch 7/12: source validation normalized MAE=0.040449
+epoch 8/12: source validation normalized MAE=0.058494
+epoch 9/12: source validation normalized MAE=0.061587
+epoch 10/12: source validation normalized MAE=0.052611
+epoch 11/12: source validation normalized MAE=0.049214
+epoch 12/12: source validation normalized MAE=0.052124
+Fitting R_PR seed=2026
+epoch 1/12: source validation normalized MAE=0.209742
+epoch 2/12: source validation normalized MAE=0.151988
+epoch 3/12: source validation normalized MAE=0.106643
+epoch 4/12: source validation normalized MAE=0.085931
+epoch 5/12: source validation normalized MAE=0.072867
+epoch 6/12: source validation normalized MAE=0.061677
+epoch 7/12: source validation normalized MAE=0.067467
+epoch 8/12: source validation normalized MAE=0.052563
+epoch 9/12: source validation normalized MAE=0.040306
+epoch 10/12: source validation normalized MAE=0.046628
+epoch 11/12: source validation normalized MAE=0.040747
+epoch 12/12: source validation normalized MAE=0.056153
+Fitting C31 seed=42
+C31 seed=42 checkpoint=1/12 source_P=0.14562 R=0.85229
+C31 seed=42 checkpoint=2/12 source_P=0.16922 R=0.85290
+C31 seed=42 checkpoint=3/12 source_P=0.18878 R=0.85909
+C31 seed=42 checkpoint=4/12 source_P=0.08051 R=0.85043
+C31 seed=42 checkpoint=5/12 source_P=0.07633 R=0.85290
+C31 seed=42 checkpoint=6/12 source_P=0.06435 R=0.85043
+C31 seed=42 checkpoint=7/12 source_P=0.12347 R=0.85043
+C31 seed=42 checkpoint=8/12 source_P=0.11372 R=0.86959
+C31 seed=42 checkpoint=9/12 source_P=0.16196 R=0.85043
+C31 seed=42 checkpoint=10/12 source_P=0.08433 R=0.85105
+C31 seed=42 checkpoint=11/12 source_P=0.11139 R=0.85105
+C31 seed=42 checkpoint=12/12 source_P=0.05364 R=0.85043
+Fitting C31 seed=1019
+C31 seed=1019 checkpoint=1/12 source_P=0.04660 R=0.85105
+C31 seed=1019 checkpoint=2/12 source_P=0.07534 R=0.85105
+C31 seed=1019 checkpoint=3/12 source_P=0.06985 R=0.85043
+C31 seed=1019 checkpoint=4/12 source_P=0.07438 R=0.85043
+C31 seed=1019 checkpoint=5/12 source_P=0.08273 R=0.85105
+C31 seed=1019 checkpoint=6/12 source_P=0.06392 R=0.85414
+C31 seed=1019 checkpoint=7/12 source_P=0.11112 R=0.86156
+C31 seed=1019 checkpoint=8/12 source_P=0.09852 R=0.85229
+C31 seed=1019 checkpoint=9/12 source_P=0.08266 R=0.85043
+C31 seed=1019 checkpoint=10/12 source_P=0.10491 R=0.85043
+C31 seed=1019 checkpoint=11/12 source_P=0.09564 R=0.85043
+C31 seed=1019 checkpoint=12/12 source_P=0.12346 R=0.85043
+Fitting C31 seed=2026
+C31 seed=2026 checkpoint=1/12 source_P=0.10855 R=0.85043
+C31 seed=2026 checkpoint=2/12 source_P=0.05558 R=0.85105
+C31 seed=2026 checkpoint=3/12 source_P=0.02499 R=0.90853
+C31 seed=2026 checkpoint=4/12 source_P=0.05637 R=0.85043
+C31 seed=2026 checkpoint=5/12 source_P=0.08796 R=0.85043
+C31 seed=2026 checkpoint=6/12 source_P=0.05179 R=0.85167
+C31 seed=2026 checkpoint=7/12 source_P=0.07248 R=0.85167
+C31 seed=2026 checkpoint=8/12 source_P=0.08383 R=0.85043
+C31 seed=2026 checkpoint=9/12 source_P=0.09459 R=0.85043
+C31 seed=2026 checkpoint=10/12 source_P=0.07321 R=0.85043
+C31 seed=2026 checkpoint=11/12 source_P=0.11271 R=0.86341
+C31 seed=2026 checkpoint=12/12 source_P=0.08553 R=0.85043
+Fitting C_EVENT seed=42
+C_EVENT seed=42 checkpoint=1/12 source_P=0.15089 R=0.88566
+C_EVENT seed=42 checkpoint=2/12 source_P=0.17693 R=0.85229
+C_EVENT seed=42 checkpoint=3/12 source_P=0.18286 R=0.85043
+C_EVENT seed=42 checkpoint=4/12 source_P=0.13155 R=0.85043
+C_EVENT seed=42 checkpoint=5/12 source_P=0.08942 R=0.85043
+C_EVENT seed=42 checkpoint=6/12 source_P=0.18240 R=0.85043
+C_EVENT seed=42 checkpoint=7/12 source_P=0.15113 R=0.85043
+C_EVENT seed=42 checkpoint=8/12 source_P=0.18039 R=0.85043
+C_EVENT seed=42 checkpoint=9/12 source_P=0.18744 R=0.85043
+C_EVENT seed=42 checkpoint=10/12 source_P=0.17877 R=0.85043
+C_EVENT seed=42 checkpoint=11/12 source_P=0.11813 R=0.85043
+C_EVENT seed=42 checkpoint=12/12 source_P=0.10234 R=0.85043
+Fitting C_EVENT seed=1019
+C_EVENT seed=1019 checkpoint=1/12 source_P=0.06447 R=0.85043
+C_EVENT seed=1019 checkpoint=2/12 source_P=0.06441 R=0.85105
+C_EVENT seed=1019 checkpoint=3/12 source_P=0.08268 R=0.85167
+C_EVENT seed=1019 checkpoint=4/12 source_P=0.15632 R=0.85105
+C_EVENT seed=1019 checkpoint=5/12 source_P=0.18982 R=0.85043
+C_EVENT seed=1019 checkpoint=6/12 source_P=0.09804 R=0.88504
+C_EVENT seed=1019 checkpoint=7/12 source_P=0.11135 R=0.85043
+C_EVENT seed=1019 checkpoint=8/12 source_P=0.10033 R=0.99197
+C_EVENT seed=1019 checkpoint=9/12 source_P=0.09384 R=0.85043
+C_EVENT seed=1019 checkpoint=10/12 source_P=0.08280 R=0.85290
+C_EVENT seed=1019 checkpoint=11/12 source_P=0.12652 R=0.85290
+C_EVENT seed=1019 checkpoint=12/12 source_P=0.08341 R=0.85600
+Fitting C_EVENT seed=2026
+C_EVENT seed=2026 checkpoint=1/12 source_P=0.12263 R=0.85043
+C_EVENT seed=2026 checkpoint=2/12 source_P=0.03989 R=0.86774
+C_EVENT seed=2026 checkpoint=3/12 source_P=0.02501 R=0.85043
+C_EVENT seed=2026 checkpoint=4/12 source_P=0.07548 R=0.85105
+C_EVENT seed=2026 checkpoint=5/12 source_P=0.06706 R=0.85043
+C_EVENT seed=2026 checkpoint=6/12 source_P=0.05979 R=0.85043
+C_EVENT seed=2026 checkpoint=7/12 source_P=0.05705 R=0.85600
+C_EVENT seed=2026 checkpoint=8/12 source_P=0.09114 R=0.85229
+C_EVENT seed=2026 checkpoint=9/12 source_P=0.08298 R=0.85043
+C_EVENT seed=2026 checkpoint=10/12 source_P=0.07986 R=0.85043
+C_EVENT seed=2026 checkpoint=11/12 source_P=0.07691 R=0.85229
+C_EVENT seed=2026 checkpoint=12/12 source_P=0.08785 R=0.85847
+Fitting C_HARD seed=42
+C_HARD seed=42 checkpoint=1/12 source_P=0.11121 R=0.86032
+C_HARD seed=42 checkpoint=2/12 source_P=0.15344 R=0.85105
+C_HARD seed=42 checkpoint=3/12 source_P=0.15445 R=0.85043
+C_HARD seed=42 checkpoint=4/12 source_P=0.09668 R=0.85043
+C_HARD seed=42 checkpoint=5/12 source_P=0.04766 R=0.85105
+C_HARD seed=42 checkpoint=6/12 source_P=0.14238 R=0.85043
+C_HARD seed=42 checkpoint=7/12 source_P=0.11688 R=0.85043
+C_HARD seed=42 checkpoint=8/12 source_P=0.07792 R=0.97404
+C_HARD seed=42 checkpoint=9/12 source_P=0.10734 R=0.85043
+C_HARD seed=42 checkpoint=10/12 source_P=0.09194 R=0.85043
+C_HARD seed=42 checkpoint=11/12 source_P=0.11216 R=0.85043
+C_HARD seed=42 checkpoint=12/12 source_P=0.17739 R=0.85043
+Fitting C_HARD seed=1019
+C_HARD seed=1019 checkpoint=1/12 source_P=0.15175 R=0.86156
+C_HARD seed=1019 checkpoint=2/12 source_P=0.04543 R=0.91224
+C_HARD seed=1019 checkpoint=3/12 source_P=0.04708 R=0.85043
+C_HARD seed=1019 checkpoint=4/12 source_P=0.08052 R=0.95117
+C_HARD seed=1019 checkpoint=5/12 source_P=0.09295 R=0.91038
+C_HARD seed=1019 checkpoint=6/12 source_P=0.09846 R=0.93140
+C_HARD seed=1019 checkpoint=7/12 source_P=0.08657 R=0.92583
+C_HARD seed=1019 checkpoint=8/12 source_P=0.08738 R=0.85043
+C_HARD seed=1019 checkpoint=9/12 source_P=0.09511 R=0.98640
+C_HARD seed=1019 checkpoint=10/12 source_P=0.09705 R=0.94129
+C_HARD seed=1019 checkpoint=11/12 source_P=0.09170 R=0.85229
+C_HARD seed=1019 checkpoint=12/12 source_P=0.08785 R=0.85043
+Fitting C_HARD seed=2026
+C_HARD seed=2026 checkpoint=1/12 source_P=0.10739 R=0.85043
+C_HARD seed=2026 checkpoint=2/12 source_P=0.03769 R=0.87577
+C_HARD seed=2026 checkpoint=3/12 source_P=0.06399 R=0.85043
+C_HARD seed=2026 checkpoint=4/12 source_P=0.09921 R=0.96848
+C_HARD seed=2026 checkpoint=5/12 source_P=0.08209 R=0.88319
+C_HARD seed=2026 checkpoint=6/12 source_P=0.08194 R=0.88937
+C_HARD seed=2026 checkpoint=7/12 source_P=0.09723 R=0.91718
+C_HARD seed=2026 checkpoint=8/12 source_P=0.09445 R=0.91038
+C_HARD seed=2026 checkpoint=9/12 source_P=0.11307 R=0.85538
+C_HARD seed=2026 checkpoint=10/12 source_P=0.11057 R=0.87083
+C_HARD seed=2026 checkpoint=11/12 source_P=0.11959 R=0.86279
+C_HARD seed=2026 checkpoint=12/12 source_P=0.11537 R=0.89184
+Fitting C_FEATURES seed=42
+C_FEATURES seed=42 checkpoint=1/12 source_P=0.18876 R=0.87639
+C_FEATURES seed=42 checkpoint=2/12 source_P=0.20820 R=0.85043
+C_FEATURES seed=42 checkpoint=3/12 source_P=0.19471 R=0.85043
+C_FEATURES seed=42 checkpoint=4/12 source_P=0.17164 R=0.85043
+C_FEATURES seed=42 checkpoint=5/12 source_P=0.16112 R=0.85043
+C_FEATURES seed=42 checkpoint=6/12 source_P=0.10204 R=0.85043
+C_FEATURES seed=42 checkpoint=7/12 source_P=0.14362 R=0.85043
+C_FEATURES seed=42 checkpoint=8/12 source_P=0.14770 R=0.85043
+C_FEATURES seed=42 checkpoint=9/12 source_P=0.13594 R=0.85043
+C_FEATURES seed=42 checkpoint=10/12 source_P=0.09913 R=0.85043
+C_FEATURES seed=42 checkpoint=11/12 source_P=0.09395 R=0.87886
+C_FEATURES seed=42 checkpoint=12/12 source_P=0.09394 R=0.85043
+Fitting C_FEATURES seed=1019
+C_FEATURES seed=1019 checkpoint=1/12 source_P=0.17500 R=0.85043
+C_FEATURES seed=1019 checkpoint=2/12 source_P=0.18615 R=0.85043
+C_FEATURES seed=1019 checkpoint=3/12 source_P=0.19551 R=0.85043
+C_FEATURES seed=1019 checkpoint=4/12 source_P=0.18591 R=0.85105
+C_FEATURES seed=1019 checkpoint=5/12 source_P=0.19306 R=0.85229
+C_FEATURES seed=1019 checkpoint=6/12 source_P=0.17881 R=0.85105
+C_FEATURES seed=1019 checkpoint=7/12 source_P=0.18811 R=0.85105
+C_FEATURES seed=1019 checkpoint=8/12 source_P=0.18502 R=0.85043
+C_FEATURES seed=1019 checkpoint=9/12 source_P=0.18568 R=0.85105
+C_FEATURES seed=1019 checkpoint=10/12 source_P=0.18331 R=0.85661
+C_FEATURES seed=1019 checkpoint=11/12 source_P=0.17950 R=0.85167
+C_FEATURES seed=1019 checkpoint=12/12 source_P=0.18998 R=0.85105
+Fitting C_FEATURES seed=2026
+C_FEATURES seed=2026 checkpoint=1/12 source_P=0.18481 R=0.85414
+C_FEATURES seed=2026 checkpoint=2/12 source_P=0.17670 R=0.85043
+C_FEATURES seed=2026 checkpoint=3/12 source_P=0.17905 R=0.85043
+C_FEATURES seed=2026 checkpoint=4/12 source_P=0.18117 R=0.85043
+C_FEATURES seed=2026 checkpoint=5/12 source_P=0.18135 R=0.85105
+C_FEATURES seed=2026 checkpoint=6/12 source_P=0.15811 R=0.85105
+C_FEATURES seed=2026 checkpoint=7/12 source_P=0.17076 R=0.85043
+C_FEATURES seed=2026 checkpoint=8/12 source_P=0.16327 R=0.85043
+C_FEATURES seed=2026 checkpoint=9/12 source_P=0.15445 R=0.85043
+C_FEATURES seed=2026 checkpoint=10/12 source_P=0.09685 R=0.85043
+C_FEATURES seed=2026 checkpoint=11/12 source_P=0.12574 R=0.85043
+C_FEATURES seed=2026 checkpoint=12/12 source_P=0.09352 R=0.85043
+Fitting C61 seed=42
+C61 seed=42 checkpoint=1/12 source_P=0.13110 R=0.85093
+C61 seed=42 checkpoint=2/12 source_P=0.11804 R=0.85021
+C61 seed=42 checkpoint=3/12 source_P=0.08787 R=0.85021
+C61 seed=42 checkpoint=4/12 source_P=0.17685 R=0.85021
+C61 seed=42 checkpoint=5/12 source_P=0.16347 R=0.85021
+C61 seed=42 checkpoint=6/12 source_P=0.14646 R=0.85021
+C61 seed=42 checkpoint=7/12 source_P=0.16507 R=0.85021
+C61 seed=42 checkpoint=8/12 source_P=0.19058 R=0.85164
+C61 seed=42 checkpoint=9/12 source_P=0.18374 R=0.85592
+C61 seed=42 checkpoint=10/12 source_P=0.18588 R=0.85093
+C61 seed=42 checkpoint=11/12 source_P=0.08558 R=0.85021
+C61 seed=42 checkpoint=12/12 source_P=0.14791 R=0.85021
+Fitting C61 seed=1019
+C61 seed=1019 checkpoint=1/12 source_P=0.13317 R=0.85021
+C61 seed=1019 checkpoint=2/12 source_P=0.18302 R=0.85021
+C61 seed=1019 checkpoint=3/12 source_P=0.15269 R=0.85307
+C61 seed=1019 checkpoint=4/12 source_P=0.16551 R=0.85021
+C61 seed=1019 checkpoint=5/12 source_P=0.11847 R=0.85021
+C61 seed=1019 checkpoint=6/12 source_P=0.06677 R=0.85235
+C61 seed=1019 checkpoint=7/12 source_P=0.15553 R=0.85021
+C61 seed=1019 checkpoint=8/12 source_P=0.12355 R=0.85235
+C61 seed=1019 checkpoint=9/12 source_P=0.19313 R=0.85021
+C61 seed=1019 checkpoint=10/12 source_P=0.13240 R=0.85021
+C61 seed=1019 checkpoint=11/12 source_P=0.16763 R=0.85021
+C61 seed=1019 checkpoint=12/12 source_P=0.17804 R=0.85021
+Fitting C61 seed=2026
+C61 seed=2026 checkpoint=1/12 source_P=0.02485 R=0.85164
+C61 seed=2026 checkpoint=2/12 source_P=0.11879 R=0.85093
+C61 seed=2026 checkpoint=3/12 source_P=0.10656 R=0.85021
+C61 seed=2026 checkpoint=4/12 source_P=0.05587 R=0.85021
+C61 seed=2026 checkpoint=5/12 source_P=0.09652 R=0.85021
+C61 seed=2026 checkpoint=6/12 source_P=0.04966 R=0.85093
+C61 seed=2026 checkpoint=7/12 source_P=0.09999 R=0.85093
+C61 seed=2026 checkpoint=8/12 source_P=0.18083 R=0.85021
+C61 seed=2026 checkpoint=9/12 source_P=0.09736 R=0.85093
+C61 seed=2026 checkpoint=10/12 source_P=0.12461 R=0.85021
+C61 seed=2026 checkpoint=11/12 source_P=0.15034 R=0.85164
+C61 seed=2026 checkpoint=12/12 source_P=0.10566 R=0.85021
+{
+  "status": "frozen",
+  "models": 18,
+  "predictions": 36,
+  "selected": "C61"
+}

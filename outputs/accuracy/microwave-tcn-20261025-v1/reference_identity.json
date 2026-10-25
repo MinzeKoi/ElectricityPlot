@@ -1,0 +1,19 @@
+{
+  "run": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-mask-20261025-v2",
+  "registration_sha256": "de724d37c27e029dab61f91c940ea43849d808788917d4a9438e24714f0551a5",
+  "freeze_sha256": "3f9f28e660b0f0f176f2fc8148e2024d3b9f0c46214548c9b80cdcccfaf11acd",
+  "models": {
+    "42": {
+      "model_json_sha256": "201e664f93b8e36207b45775195a8a4a98f190b497fff29a7c7265bddbfc6062",
+      "weights_sha256": "05df8bac32bc7d85f2d3c527974359b8f89a0b6f764ea1507d5a952c6ff970aa"
+    },
+    "1019": {
+      "model_json_sha256": "5120d0a22ef1230d3d488d7ced7f2a2b2c585c299c277c980be3b05b25e295ea",
+      "weights_sha256": "2dee0d398f8565c1ebae1b735612767c28664c0e41d745295f9ec3ab87f49364"
+    },
+    "2026": {
+      "model_json_sha256": "8d49d5eed96a4813825fb753fa1c7ae33b3710ade9edf1c3f27e34699d41d41a",
+      "weights_sha256": "3e55ca71da7ddaa3e74d2529c9e6bd6e6c64b8a4321394f61bbf8030ae0d5af6"
+    }
+  }
+}

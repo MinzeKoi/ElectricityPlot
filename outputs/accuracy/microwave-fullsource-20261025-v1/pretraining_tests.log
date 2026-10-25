@@ -1,0 +1,23 @@
+fullsource natural seed=42 checkpoint=1/12 source_eligible=False
+fullsource natural seed=42 checkpoint=2/12 source_eligible=False
+fullsource natural seed=1019 checkpoint=1/12 source_eligible=False
+fullsource natural seed=1019 checkpoint=2/12 source_eligible=False
+fullsource natural seed=2026 checkpoint=1/12 source_eligible=False
+fullsource natural seed=2026 checkpoint=2/12 source_eligible=False
+fullsource event seed=42 checkpoint=1/12 source_eligible=False
+fullsource event seed=42 checkpoint=2/12 source_eligible=False
+fullsource event seed=1019 checkpoint=1/12 source_eligible=False
+fullsource event seed=1019 checkpoint=2/12 source_eligible=False
+fullsource event seed=2026 checkpoint=1/12 source_eligible=False
+fullsource event seed=2026 checkpoint=2/12 source_eligible=False
+fullsource event_background seed=42 checkpoint=1/12 source_eligible=False
+fullsource event_background seed=42 checkpoint=2/12 source_eligible=False
+fullsource event_background seed=1019 checkpoint=1/12 source_eligible=False
+fullsource event_background seed=1019 checkpoint=2/12 source_eligible=False
+fullsource event_background seed=2026 checkpoint=1/12 source_eligible=False
+fullsource event_background seed=2026 checkpoint=2/12 source_eligible=False
+...................
+----------------------------------------------------------------------
+Ran 19 tests in 3.461s
+
+OK

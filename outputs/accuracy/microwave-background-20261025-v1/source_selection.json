@@ -1,0 +1,34 @@
+{
+  "arms": [
+    {
+      "arm": "natural",
+      "eligible": true,
+      "mean_precision": 0.3002949176899228,
+      "mean_f1": 0.443248215531775
+    },
+    {
+      "arm": "event",
+      "eligible": false,
+      "mean_precision": 0.2956731537896158,
+      "mean_f1": 0.43849967191140155,
+      "mean_f1_delta_vs_natural": -0.004748543620373469
+    },
+    {
+      "arm": "event_background",
+      "eligible": true,
+      "mean_precision": 0.35196582419634287,
+      "mean_f1": 0.4930220468671063,
+      "f1_delta_vs_event": 0.05452237495570478,
+      "f1_delta_vs_natural": 0.04977383133533131
+    }
+  ],
+  "selected": {
+    "arm": "event_background",
+    "eligible": true,
+    "mean_precision": 0.35196582419634287,
+    "mean_f1": 0.4930220468671063,
+    "f1_delta_vs_event": 0.05452237495570478,
+    "f1_delta_vs_natural": 0.04977383133533131
+  },
+  "no_deployable_candidate": false
+}

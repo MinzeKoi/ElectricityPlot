@@ -1,0 +1,68 @@
+{
+  "examples": [
+    {
+      "household": "2",
+      "nine_second_examples": [
+        {
+          "left": "2014-09-29T08:19:42Z",
+          "right": "2014-09-29T08:19:51Z",
+          "raw_aggregate_left": "2404",
+          "unsupported_interval": [
+            "2014-09-29T08:19:50Z",
+            "2014-09-29T08:19:51Z"
+          ]
+        },
+        {
+          "left": "2014-09-29T10:27:11Z",
+          "right": "2014-09-29T10:27:20Z",
+          "raw_aggregate_left": "89",
+          "unsupported_interval": [
+            "2014-09-29T10:27:19Z",
+            "2014-09-29T10:27:20Z"
+          ]
+        },
+        {
+          "left": "2014-09-29T11:50:45Z",
+          "right": "2014-09-29T11:50:54Z",
+          "raw_aggregate_left": "86",
+          "unsupported_interval": [
+            "2014-09-29T11:50:53Z",
+            "2014-09-29T11:50:54Z"
+          ]
+        }
+      ]
+    },
+    {
+      "household": "19",
+      "nine_second_examples": [
+        {
+          "left": "2014-10-04T20:22:44Z",
+          "right": "2014-10-04T20:22:53Z",
+          "raw_aggregate_left": "347",
+          "unsupported_interval": [
+            "2014-10-04T20:22:52Z",
+            "2014-10-04T20:22:53Z"
+          ]
+        },
+        {
+          "left": "2014-10-04T20:23:01Z",
+          "right": "2014-10-04T20:23:10Z",
+          "raw_aggregate_left": "348",
+          "unsupported_interval": [
+            "2014-10-04T20:23:09Z",
+            "2014-10-04T20:23:10Z"
+          ]
+        },
+        {
+          "left": "2014-10-04T20:23:10Z",
+          "right": "2014-10-04T20:23:19Z",
+          "raw_aggregate_left": "352",
+          "unsupported_interval": [
+            "2014-10-04T20:23:18Z",
+            "2014-10-04T20:23:19Z"
+          ]
+        }
+      ]
+    }
+  ]
+}

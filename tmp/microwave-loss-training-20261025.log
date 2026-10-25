@@ -1,0 +1,100 @@
+importance_BCE50 seed=42 checkpoint=1 eligible=True
+importance_BCE50 seed=42 checkpoint=2 eligible=True
+importance_BCE50 seed=42 checkpoint=3 eligible=True
+importance_BCE50 seed=42 checkpoint=4 eligible=True
+importance_BCE50 seed=42 checkpoint=5 eligible=True
+importance_BCE50 seed=42 checkpoint=6 eligible=True
+importance_BCE50 seed=42 checkpoint=7 eligible=True
+importance_BCE50 seed=42 checkpoint=8 eligible=True
+importance_BCE50 seed=42 checkpoint=9 eligible=True
+importance_BCE50 seed=42 checkpoint=10 eligible=True
+importance_BCE50 seed=42 checkpoint=11 eligible=True
+importance_BCE50 seed=42 checkpoint=12 eligible=True
+importance_BCE50 seed=1019 checkpoint=1 eligible=True
+importance_BCE50 seed=1019 checkpoint=2 eligible=True
+importance_BCE50 seed=1019 checkpoint=3 eligible=True
+importance_BCE50 seed=1019 checkpoint=4 eligible=True
+importance_BCE50 seed=1019 checkpoint=5 eligible=True
+importance_BCE50 seed=1019 checkpoint=6 eligible=True
+importance_BCE50 seed=1019 checkpoint=7 eligible=True
+importance_BCE50 seed=1019 checkpoint=8 eligible=True
+importance_BCE50 seed=1019 checkpoint=9 eligible=True
+importance_BCE50 seed=1019 checkpoint=10 eligible=True
+importance_BCE50 seed=1019 checkpoint=11 eligible=True
+importance_BCE50 seed=1019 checkpoint=12 eligible=True
+importance_BCE50 seed=2026 checkpoint=1 eligible=True
+importance_BCE50 seed=2026 checkpoint=2 eligible=True
+importance_BCE50 seed=2026 checkpoint=3 eligible=True
+importance_BCE50 seed=2026 checkpoint=4 eligible=True
+importance_BCE50 seed=2026 checkpoint=5 eligible=True
+importance_BCE50 seed=2026 checkpoint=6 eligible=True
+importance_BCE50 seed=2026 checkpoint=7 eligible=True
+importance_BCE50 seed=2026 checkpoint=8 eligible=True
+importance_BCE50 seed=2026 checkpoint=9 eligible=True
+importance_BCE50 seed=2026 checkpoint=10 eligible=True
+importance_BCE50 seed=2026 checkpoint=11 eligible=True
+importance_BCE50 seed=2026 checkpoint=12 eligible=True
+unit_BCE seed=42 checkpoint=1 eligible=True
+unit_BCE seed=42 checkpoint=2 eligible=True
+unit_BCE seed=42 checkpoint=3 eligible=True
+unit_BCE seed=42 checkpoint=4 eligible=True
+unit_BCE seed=42 checkpoint=5 eligible=True
+unit_BCE seed=42 checkpoint=6 eligible=True
+unit_BCE seed=42 checkpoint=7 eligible=True
+unit_BCE seed=42 checkpoint=8 eligible=True
+unit_BCE seed=42 checkpoint=9 eligible=True
+unit_BCE seed=42 checkpoint=10 eligible=True
+unit_BCE seed=42 checkpoint=11 eligible=True
+unit_BCE seed=42 checkpoint=12 eligible=True
+unit_BCE seed=1019 checkpoint=1 eligible=True
+unit_BCE seed=1019 checkpoint=2 eligible=True
+unit_BCE seed=1019 checkpoint=3 eligible=True
+unit_BCE seed=1019 checkpoint=4 eligible=True
+unit_BCE seed=1019 checkpoint=5 eligible=True
+unit_BCE seed=1019 checkpoint=6 eligible=True
+unit_BCE seed=1019 checkpoint=7 eligible=True
+unit_BCE seed=1019 checkpoint=8 eligible=True
+unit_BCE seed=1019 checkpoint=9 eligible=True
+unit_BCE seed=1019 checkpoint=10 eligible=True
+unit_BCE seed=1019 checkpoint=11 eligible=True
+unit_BCE seed=1019 checkpoint=12 eligible=True
+unit_BCE seed=2026 checkpoint=1 eligible=True
+unit_BCE seed=2026 checkpoint=2 eligible=True
+unit_BCE seed=2026 checkpoint=3 eligible=True
+unit_BCE seed=2026 checkpoint=4 eligible=True
+unit_BCE seed=2026 checkpoint=5 eligible=True
+unit_BCE seed=2026 checkpoint=6 eligible=True
+unit_BCE seed=2026 checkpoint=7 eligible=True
+unit_BCE seed=2026 checkpoint=8 eligible=True
+unit_BCE seed=2026 checkpoint=9 eligible=True
+unit_BCE seed=2026 checkpoint=10 eligible=True
+unit_BCE seed=2026 checkpoint=11 eligible=True
+unit_BCE seed=2026 checkpoint=12 eligible=True
+{
+  "status": "six_new_fits_complete",
+  "selection": {
+    "selected_arm": "TCN127",
+    "arms": [
+      {
+        "arm": "TCN127",
+        "eligible": true,
+        "mean_precision": 0.23716648366320306,
+        "mean_f1": 0.35754417392432986
+      },
+      {
+        "arm": "importance_BCE50",
+        "eligible": false,
+        "mean_precision": 0.10835941264176922,
+        "mean_f1": 0.18997514302650975
+      },
+      {
+        "arm": "unit_BCE",
+        "eligible": false,
+        "mean_precision": 0.14622081730837244,
+        "mean_f1": 0.24345942908557702
+      }
+    ],
+    "source_only": true,
+    "improvement_candidate": false
+  }
+}

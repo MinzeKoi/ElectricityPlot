@@ -1,0 +1,13 @@
+{
+  "candidate": "W10",
+  "seed": 1019,
+  "partition": "frozen_test_refit_17_0",
+  "threshold": 6.976376533508301,
+  "path": "replays/W10_1019_frozen_test_refit_17_0.npz",
+  "sha256": "39d2a020c60d699cd0eb511924ecb9ddd2c260d4d567e34cb60a2beea727c2d3",
+  "rows": 150750,
+  "maximum_raw_difference_w": 0.0,
+  "state_equal": true,
+  "ordinary_model_path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\precision-20261024-v1\\models\\W10\\seed_1019",
+  "labels_read": false
+}

@@ -1,0 +1,193 @@
+{
+  "refit_2": {
+    "windows": 93213,
+    "positive_windows": 369,
+    "negative_windows": 92844,
+    "events": 53,
+    "effective_seconds": 745704,
+    "expected_grid_points": 151200,
+    "excluded_grid_points": 57987,
+    "positive_fraction": 0.003958675292072994,
+    "dates_utc": [
+      16343,
+      16344,
+      16345,
+      16346,
+      16347,
+      16348,
+      16349,
+      16350,
+      16351,
+      16352,
+      16353,
+      16354,
+      16355,
+      16356
+    ],
+    "inputs": {
+      "aggregate": {
+        "path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-data-audit-20261025-v2\\inputs\\refit_2\\aggregate.csv",
+        "sha256": "3da552d8166d0a0e91b98f49960a15e4a0011dd318f653a6b0359eb02cb37df3"
+      },
+      "microwave": {
+        "path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-data-audit-20261025-v2\\inputs\\refit_2\\microwave.csv",
+        "sha256": "2253ca5be6123a472fe098e3f559958484d9fd01e58ce582cacbda534b051ff8"
+      }
+    },
+    "label_complete_segments": 30,
+    "complete_observed_segments": 21
+  },
+  "refit_19": {
+    "windows": 56856,
+    "positive_windows": 277,
+    "negative_windows": 56579,
+    "events": 50,
+    "effective_seconds": 454848,
+    "expected_grid_points": 151200,
+    "excluded_grid_points": 94344,
+    "positive_fraction": 0.00487195722527086,
+    "dates_utc": [
+      16349,
+      16350,
+      16351,
+      16352,
+      16353,
+      16354,
+      16355,
+      16356,
+      16357,
+      16358,
+      16359,
+      16360,
+      16361
+    ],
+    "inputs": {
+      "aggregate": {
+        "path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-data-audit-20261025-v2\\inputs\\refit_19\\aggregate.csv",
+        "sha256": "2b4a52e98a18d9b39247a9c587d9471da5b7b1c6d8e0d5944dc19194dee46a67"
+      },
+      "microwave": {
+        "path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-data-audit-20261025-v2\\inputs\\refit_19\\microwave.csv",
+        "sha256": "b4b26543fc680a47f2ca5c88d2b393b3d9fc1c2eb6d24c59b44028db99668b7a"
+      }
+    },
+    "label_complete_segments": 27,
+    "complete_observed_segments": 27
+  },
+  "refit_5": {
+    "inputs": {
+      "aggregate": {
+        "path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\precision-20261024-v1\\protocol\\data\\source_validation_refit_5_0\\aggregate.csv",
+        "sha256": "b1cc0a12a37b3182164fba3d1ddcc62ba85682bed641302f859095d0dda92525"
+      },
+      "microwave": {
+        "path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\precision-20261024-v1\\protocol\\data\\source_validation_refit_5_0\\microwave.csv",
+        "sha256": "d907c7cb236c9340519722456376ba27339cc63c42db9eadf74e4db4745fcaf3"
+      }
+    },
+    "blocks": {
+      "block_0": {
+        "windows": 18063,
+        "positive_windows": 676,
+        "negative_windows": 17387,
+        "events": 65,
+        "effective_seconds": 144504,
+        "expected_grid_points": 21600,
+        "excluded_grid_points": 3537,
+        "positive_fraction": 0.03742456956208825,
+        "dates_utc": [
+          16389,
+          16390
+        ],
+        "start": "2014-11-15T00:00:00Z",
+        "end": "2014-11-17T00:00:00Z",
+        "supported": true
+      },
+      "block_1": {
+        "windows": 20518,
+        "positive_windows": 205,
+        "negative_windows": 20313,
+        "events": 17,
+        "effective_seconds": 164144,
+        "expected_grid_points": 21600,
+        "excluded_grid_points": 1082,
+        "positive_fraction": 0.009991227215128181,
+        "dates_utc": [
+          16391,
+          16392
+        ],
+        "start": "2014-11-17T00:00:00Z",
+        "end": "2014-11-19T00:00:00Z",
+        "supported": true
+      },
+      "block_2": {
+        "windows": 20641,
+        "positive_windows": 303,
+        "negative_windows": 20338,
+        "events": 29,
+        "effective_seconds": 165128,
+        "expected_grid_points": 21600,
+        "excluded_grid_points": 959,
+        "positive_fraction": 0.0146795213410203,
+        "dates_utc": [
+          16393,
+          16394
+        ],
+        "start": "2014-11-19T00:00:00Z",
+        "end": "2014-11-21T00:00:00Z",
+        "supported": true
+      },
+      "block_3": {
+        "windows": 16213,
+        "positive_windows": 183,
+        "negative_windows": 16030,
+        "events": 19,
+        "effective_seconds": 129704,
+        "expected_grid_points": 21600,
+        "excluded_grid_points": 5387,
+        "positive_fraction": 0.01128723863566274,
+        "dates_utc": [
+          16395,
+          16396
+        ],
+        "start": "2014-11-21T00:00:00Z",
+        "end": "2014-11-23T00:00:00Z",
+        "supported": true
+      },
+      "block_4": {
+        "windows": 19127,
+        "positive_windows": 136,
+        "negative_windows": 18991,
+        "events": 10,
+        "effective_seconds": 153016,
+        "expected_grid_points": 21600,
+        "excluded_grid_points": 2473,
+        "positive_fraction": 0.007110367543263449,
+        "dates_utc": [
+          16397,
+          16398
+        ],
+        "start": "2014-11-23T00:00:00Z",
+        "end": "2014-11-25T00:00:00Z",
+        "supported": true
+      },
+      "block_5": {
+        "windows": 15224,
+        "positive_windows": 65,
+        "negative_windows": 15159,
+        "events": 10,
+        "effective_seconds": 121792,
+        "expected_grid_points": 21600,
+        "excluded_grid_points": 6376,
+        "positive_fraction": 0.004269574356279559,
+        "dates_utc": [
+          16399,
+          16400
+        ],
+        "start": "2014-11-25T00:00:00Z",
+        "end": "2014-11-27T00:00:00Z",
+        "supported": true
+      }
+    }
+  }
+}

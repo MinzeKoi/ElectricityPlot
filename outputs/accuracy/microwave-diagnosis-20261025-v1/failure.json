@@ -1,0 +1,8 @@
+{
+  "stage": "prepare",
+  "error": "refit_19/train: lacks both classes; registered comparison infeasible",
+  "fits": 0,
+  "retained_without_overwrite": true,
+  "superseded_by": "microwave-diagnosis-20261025-v2",
+  "final_households_accessed": false
+}

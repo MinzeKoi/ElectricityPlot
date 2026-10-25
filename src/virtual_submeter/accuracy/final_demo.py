@@ -2,7 +2,6 @@
 
 import csv
 from dataclasses import replace
-from pathlib import Path
 
 from ..config import load_config
 from ..data.common import DataError, read_json, sha256, write_json

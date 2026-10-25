@@ -1,0 +1,97 @@
+mask strict_mask seed=42 checkpoint=1/12 source_eligible=True
+mask strict_mask seed=42 checkpoint=2/12 source_eligible=True
+mask strict_mask seed=42 checkpoint=3/12 source_eligible=True
+mask strict_mask seed=42 checkpoint=4/12 source_eligible=True
+mask strict_mask seed=42 checkpoint=5/12 source_eligible=True
+mask strict_mask seed=42 checkpoint=6/12 source_eligible=True
+mask strict_mask seed=42 checkpoint=7/12 source_eligible=True
+mask strict_mask seed=42 checkpoint=8/12 source_eligible=True
+mask strict_mask seed=42 checkpoint=9/12 source_eligible=True
+mask strict_mask seed=42 checkpoint=10/12 source_eligible=True
+mask strict_mask seed=42 checkpoint=11/12 source_eligible=True
+mask strict_mask seed=42 checkpoint=12/12 source_eligible=True
+mask strict_mask seed=1019 checkpoint=1/12 source_eligible=True
+mask strict_mask seed=1019 checkpoint=2/12 source_eligible=True
+mask strict_mask seed=1019 checkpoint=3/12 source_eligible=True
+mask strict_mask seed=1019 checkpoint=4/12 source_eligible=True
+mask strict_mask seed=1019 checkpoint=5/12 source_eligible=True
+mask strict_mask seed=1019 checkpoint=6/12 source_eligible=True
+mask strict_mask seed=1019 checkpoint=7/12 source_eligible=True
+mask strict_mask seed=1019 checkpoint=8/12 source_eligible=True
+mask strict_mask seed=1019 checkpoint=9/12 source_eligible=True
+mask strict_mask seed=1019 checkpoint=10/12 source_eligible=True
+mask strict_mask seed=1019 checkpoint=11/12 source_eligible=True
+mask strict_mask seed=1019 checkpoint=12/12 source_eligible=True
+mask strict_mask seed=2026 checkpoint=1/12 source_eligible=True
+mask strict_mask seed=2026 checkpoint=2/12 source_eligible=True
+mask strict_mask seed=2026 checkpoint=3/12 source_eligible=True
+mask strict_mask seed=2026 checkpoint=4/12 source_eligible=True
+mask strict_mask seed=2026 checkpoint=5/12 source_eligible=True
+mask strict_mask seed=2026 checkpoint=6/12 source_eligible=True
+mask strict_mask seed=2026 checkpoint=7/12 source_eligible=True
+mask strict_mask seed=2026 checkpoint=8/12 source_eligible=True
+mask strict_mask seed=2026 checkpoint=9/12 source_eligible=True
+mask strict_mask seed=2026 checkpoint=10/12 source_eligible=True
+mask strict_mask seed=2026 checkpoint=11/12 source_eligible=True
+mask strict_mask seed=2026 checkpoint=12/12 source_eligible=True
+mask partial_mask seed=42 checkpoint=1/12 source_eligible=True
+mask partial_mask seed=42 checkpoint=2/12 source_eligible=True
+mask partial_mask seed=42 checkpoint=3/12 source_eligible=True
+mask partial_mask seed=42 checkpoint=4/12 source_eligible=True
+mask partial_mask seed=42 checkpoint=5/12 source_eligible=True
+mask partial_mask seed=42 checkpoint=6/12 source_eligible=True
+mask partial_mask seed=42 checkpoint=7/12 source_eligible=True
+mask partial_mask seed=42 checkpoint=8/12 source_eligible=True
+mask partial_mask seed=42 checkpoint=9/12 source_eligible=True
+mask partial_mask seed=42 checkpoint=10/12 source_eligible=True
+mask partial_mask seed=42 checkpoint=11/12 source_eligible=True
+mask partial_mask seed=42 checkpoint=12/12 source_eligible=True
+mask partial_mask seed=1019 checkpoint=1/12 source_eligible=True
+mask partial_mask seed=1019 checkpoint=2/12 source_eligible=True
+mask partial_mask seed=1019 checkpoint=3/12 source_eligible=True
+mask partial_mask seed=1019 checkpoint=4/12 source_eligible=True
+mask partial_mask seed=1019 checkpoint=5/12 source_eligible=True
+mask partial_mask seed=1019 checkpoint=6/12 source_eligible=True
+mask partial_mask seed=1019 checkpoint=7/12 source_eligible=True
+mask partial_mask seed=1019 checkpoint=8/12 source_eligible=True
+mask partial_mask seed=1019 checkpoint=9/12 source_eligible=True
+mask partial_mask seed=1019 checkpoint=10/12 source_eligible=True
+mask partial_mask seed=1019 checkpoint=11/12 source_eligible=True
+mask partial_mask seed=1019 checkpoint=12/12 source_eligible=True
+mask partial_mask seed=2026 checkpoint=1/12 source_eligible=True
+mask partial_mask seed=2026 checkpoint=2/12 source_eligible=True
+mask partial_mask seed=2026 checkpoint=3/12 source_eligible=True
+mask partial_mask seed=2026 checkpoint=4/12 source_eligible=True
+mask partial_mask seed=2026 checkpoint=5/12 source_eligible=True
+mask partial_mask seed=2026 checkpoint=6/12 source_eligible=True
+mask partial_mask seed=2026 checkpoint=7/12 source_eligible=True
+mask partial_mask seed=2026 checkpoint=8/12 source_eligible=True
+mask partial_mask seed=2026 checkpoint=9/12 source_eligible=True
+mask partial_mask seed=2026 checkpoint=10/12 source_eligible=True
+mask partial_mask seed=2026 checkpoint=11/12 source_eligible=True
+mask partial_mask seed=2026 checkpoint=12/12 source_eligible=True
+{
+  "status": "training_complete",
+  "fits": 6,
+  "source_selection": {
+    "selected_arm": "partial_mask",
+    "partial_training_supported": true,
+    "improvement_candidate": true,
+    "no_deployable_candidate": false,
+    "arms": [
+      {
+        "arm": "strict_mask",
+        "eligible": true,
+        "mean_precision": 0.20280453302619653,
+        "mean_f1": 0.3137900213167024
+      },
+      {
+        "arm": "partial_mask",
+        "eligible": true,
+        "mean_precision": 0.2139767740114613,
+        "mean_f1": 0.32684018808516974
+      }
+    ],
+    "source_only": true
+  }
+}

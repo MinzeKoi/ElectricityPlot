@@ -6,14 +6,13 @@ from pathlib import Path
 import sys
 import tempfile
 import unittest
-from unittest.mock import patch
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 
-from virtual_submeter.accuracy.baseline import candidate_rank, event_detection, prepare, train_comparison, verify
+from virtual_submeter.accuracy.baseline import candidate_rank, event_detection
 from virtual_submeter.accuracy.baseline_data import load_plan
-from virtual_submeter.data.common import DataError, iso, read_json, sha256, write_json
+from virtual_submeter.data.common import DataError, iso, read_json, write_json
 
 try:
     import numpy as np

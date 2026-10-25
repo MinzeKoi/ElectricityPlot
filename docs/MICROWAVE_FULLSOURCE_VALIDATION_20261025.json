@@ -1,0 +1,22 @@
+{
+  "status": "preparation_complete_execution_pending",
+  "run": "outputs/accuracy/microwave-fullsource-20261025-prep-v3",
+  "tests_passed": 15,
+  "actual_fits": 0,
+  "house17_truth_opened": false,
+  "final_houses_accessed": false,
+  "maximum_planned_fits": 9,
+  "execution_adapters_enabled": false,
+  "preparation_verify_passed": true,
+  "expected_train_rejection_observed": true,
+  "artifacts": {
+    "configs/microwave_fullsource_20261025.json": "dbb2e45acd179c93062f1adb8bbce0a678b28bc76e2c9d84b616a7abae7d1b3a",
+    "src/virtual_submeter/accuracy/microwave_fullsource.py": "2507599f6cf97a1a07d90085d1185bb0f021977d25f777f335e7593c3768c7d8",
+    "scripts/run_microwave_fullsource.py": "0760cb061b69d20b420cfcefc5088354f771bf2d5820b151a6ef185d4ac24949",
+    "tests/test_microwave_fullsource.py": "871de5925341428044e63548e50b1cb10dc73652f8d7f4283eb5df7d95bfb354",
+    "docs/MICROWAVE_FULLSOURCE_PLAN_20261025.md": "becd498348bd0d14e1e38916c3329afb89d8f43958f57a2cd95c3df2468ed61e",
+    "docs/MICROWAVE_FULLSOURCE_PREPARATION_20261025.md": "84279ff1d41efe3d48a1b6a3a846c2b68c98dcd7789c29b3a651304465fe13f3",
+    "tmp/microwave-fullsource-preparation-tests-20261025.log": "854aa3595312006c1484867b6f0db5f6046170340e70a79b3d6ae2ebead5c131",
+    "outputs/accuracy/microwave-fullsource-20261025-prep-v3/registration.json": "a3b7e89a8eac1843f8d1cf6153287cca3930b2cfabff01d09b24dd1a2d4fa9ac"
+  }
+}

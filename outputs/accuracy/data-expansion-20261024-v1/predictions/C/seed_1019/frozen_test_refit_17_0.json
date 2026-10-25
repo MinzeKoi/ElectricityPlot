@@ -1,0 +1,7 @@
+{
+  "path": "predictions/C/seed_1019/frozen_test_refit_17_0.npz",
+  "sha256": "eb06d2aaa0be6b0b879f493709879fabcf44007ccf9505beab625a38387925e8",
+  "model_sha256": "21ce5417515f4e623302552ebca1af1b4bafcfbb6c18782072572d76be543610",
+  "partition_id": "frozen_test_refit_17_0",
+  "protocol_sha256": "dae70de806908899512daa6db78a807e8c11b42e8172d1de414851c2dc91d815"
+}

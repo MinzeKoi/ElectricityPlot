@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "protocol_id": "expansion-r0-existing-dates-v1",
+  "catalog_sha256": "18b44c7ce7ea065799017cc5cdff43d4623971f2e14a6e2e3c5ad506ebf33dab",
+  "audit_sha256": "b9de52aa694ab3dfb9af5bc4fa3096cd51ed67e6cae21b38ff42eb9141c8f228",
+  "households": {
+    "10": {
+      "start": "2013-12-08T11:48:56Z",
+      "end": "2014-01-05T11:48:56Z",
+      "source_sha256": "fe51a6a561063a6a0782a41586aeaf03152c90d316610cc896a858331464065b"
+    },
+    "12": {
+      "start": "2014-10-08T08:33:12Z",
+      "end": "2014-11-05T08:33:12Z",
+      "source_sha256": "0051cb297e04cc0f958791a2216168bfff2b75e3f3425954ce2a5cdf2f13710d"
+    },
+    "15": {
+      "start": "2014-09-29T05:50:32Z",
+      "end": "2014-10-27T05:50:32Z",
+      "source_sha256": "a39b2202585c77ab07c23ca36cd3e5f0ac4957e37bd57f63ae8d5e0716a9b3d9"
+    },
+    "16": {
+      "start": "2014-08-17T06:52:00Z",
+      "end": "2014-09-14T06:52:00Z",
+      "source_sha256": "5fb61cb99d7878412bc258e423480a9b5e82b93e3b42d431a6467456d4bd5f44"
+    },
+    "18": {
+      "start": "2014-11-05T01:55:28Z",
+      "end": "2014-12-03T01:55:28Z",
+      "source_sha256": "0fab94dfee9be07b936ed17f22be7b697310008bbb66e8f8ce624872d36b9ccd"
+    }
+  }
+}

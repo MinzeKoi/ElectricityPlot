@@ -1,6 +1,5 @@
 """A4 paired power experiment, immutable freeze and source residual calibration."""
 
-import copy
 from datetime import datetime, timezone
 import hashlib
 from html import escape

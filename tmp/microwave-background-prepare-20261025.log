@@ -1,0 +1,237 @@
+{
+  "status": "prepared_not_trained",
+  "actual_fits": 0,
+  "support": {
+    "all_train_windows": 75222,
+    "template_centers": 130,
+    "background_centers": 69151,
+    "exclusion_counts": {
+      "eligible": 69563,
+      "missing_or_nonfinite_context": 5659
+    },
+    "eligible_template_threshold_segments": 10,
+    "houses": {
+      "refit_2": {
+        "positive_centers": 177,
+        "template_centers": 105,
+        "template_threshold_segments": 7,
+        "background_centers": 56083,
+        "background_dates_utc": [
+          16343,
+          16344,
+          16345,
+          16346,
+          16347,
+          16348,
+          16349,
+          16350,
+          16351,
+          16352
+        ],
+        "positive_exclusions": {
+          "missing_or_nonfinite_context": 72
+        }
+      },
+      "refit_19": {
+        "positive_centers": 59,
+        "template_centers": 25,
+        "template_threshold_segments": 3,
+        "background_centers": 13068,
+        "background_dates_utc": [
+          16349,
+          16350,
+          16351,
+          16352,
+          16353,
+          16354,
+          16355,
+          16356,
+          16357
+        ],
+        "positive_exclusions": {
+          "missing_or_nonfinite_context": 34
+        }
+      }
+    }
+  },
+  "dry_replay": {
+    "42": {
+      "attempts": 28224,
+      "synthesized": 5417,
+      "fallbacks": 22807,
+      "actual_fraction_of_positive_slots": 0.09596442743764172,
+      "unique_template_threshold_segments": 10,
+      "template_event_identities": [
+        [
+          0,
+          13
+        ],
+        [
+          0,
+          33
+        ],
+        [
+          0,
+          41
+        ],
+        [
+          0,
+          42
+        ],
+        [
+          0,
+          43
+        ],
+        [
+          0,
+          44
+        ],
+        [
+          0,
+          50
+        ],
+        [
+          1,
+          36
+        ],
+        [
+          1,
+          37
+        ],
+        [
+          1,
+          39
+        ]
+      ],
+      "house_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    "1019": {
+      "attempts": 28224,
+      "synthesized": 5336,
+      "fallbacks": 22888,
+      "actual_fraction_of_positive_slots": 0.09452947845804989,
+      "unique_template_threshold_segments": 10,
+      "template_event_identities": [
+        [
+          0,
+          13
+        ],
+        [
+          0,
+          33
+        ],
+        [
+          0,
+          41
+        ],
+        [
+          0,
+          42
+        ],
+        [
+          0,
+          43
+        ],
+        [
+          0,
+          44
+        ],
+        [
+          0,
+          50
+        ],
+        [
+          1,
+          36
+        ],
+        [
+          1,
+          37
+        ],
+        [
+          1,
+          39
+        ]
+      ],
+      "house_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    "2026": {
+      "attempts": 28224,
+      "synthesized": 5399,
+      "fallbacks": 22825,
+      "actual_fraction_of_positive_slots": 0.09564554988662131,
+      "unique_template_threshold_segments": 10,
+      "template_event_identities": [
+        [
+          0,
+          13
+        ],
+        [
+          0,
+          33
+        ],
+        [
+          0,
+          41
+        ],
+        [
+          0,
+          42
+        ],
+        [
+          0,
+          43
+        ],
+        [
+          0,
+          44
+        ],
+        [
+          0,
+          50
+        ],
+        [
+          1,
+          36
+        ],
+        [
+          1,
+          37
+        ],
+        [
+          1,
+          39
+        ]
+      ],
+      "house_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    }
+  },
+  "awaiting_execution_message": true
+}

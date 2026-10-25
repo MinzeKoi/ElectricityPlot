@@ -1,0 +1,41 @@
+{
+  "schema": "microwave_sampling_audit_v1",
+  "status": "ready",
+  "audit": {
+    "path": "MICROWAVE_DATA_AUDIT_20261025.json",
+    "sha256": "b910e31f3b6cae7d307f32e8f365936c1ae08d5af300a61305050f330edf52d5"
+  },
+  "data_version": "strict8-replayed-identical-v1",
+  "sources": [
+    {
+      "household_id": "refit_2",
+      "start": "2014-09-29T06:28:48Z",
+      "end": "2014-10-13T06:28:48Z",
+      "artifacts": {
+        "aggregate": {
+          "path": "../outputs/accuracy/microwave-data-audit-20261025-v2/inputs/refit_2/aggregate.csv",
+          "sha256": "3da552d8166d0a0e91b98f49960a15e4a0011dd318f653a6b0359eb02cb37df3"
+        },
+        "microwave": {
+          "path": "../outputs/accuracy/microwave-data-audit-20261025-v2/inputs/refit_2/microwave.csv",
+          "sha256": "2253ca5be6123a472fe098e3f559958484d9fd01e58ce582cacbda534b051ff8"
+        }
+      }
+    },
+    {
+      "household_id": "refit_19",
+      "start": "2014-10-04T20:22:40Z",
+      "end": "2014-10-18T20:22:40Z",
+      "artifacts": {
+        "aggregate": {
+          "path": "../outputs/accuracy/microwave-data-audit-20261025-v2/inputs/refit_19/aggregate.csv",
+          "sha256": "2b4a52e98a18d9b39247a9c587d9471da5b7b1c6d8e0d5944dc19194dee46a67"
+        },
+        "microwave": {
+          "path": "../outputs/accuracy/microwave-data-audit-20261025-v2/inputs/refit_19/microwave.csv",
+          "sha256": "b4b26543fc680a47f2ca5c88d2b393b3d9fc1c2eb6d24c59b44028db99668b7a"
+        }
+      }
+    }
+  ]
+}

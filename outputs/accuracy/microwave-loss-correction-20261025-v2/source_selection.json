@@ -1,0 +1,25 @@
+{
+  "selected_arm": "TCN127",
+  "arms": [
+    {
+      "arm": "TCN127",
+      "eligible": true,
+      "mean_precision": 0.23716648366320306,
+      "mean_f1": 0.35754417392432986
+    },
+    {
+      "arm": "importance_BCE50",
+      "eligible": false,
+      "mean_precision": 0.10835941264176922,
+      "mean_f1": 0.18997514302650975
+    },
+    {
+      "arm": "unit_BCE",
+      "eligible": false,
+      "mean_precision": 0.14622081730837244,
+      "mean_f1": 0.24345942908557702
+    }
+  ],
+  "source_only": true,
+  "improvement_candidate": false
+}

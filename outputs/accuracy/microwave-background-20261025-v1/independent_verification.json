@@ -1,0 +1,49 @@
+{
+  "status": "independently_verified",
+  "script_sha256": "2491efdcb8e99f4d5c8124d970099452647f5bf12eae02c8203cd6751a17828c",
+  "registration_sha256": "31a29d9a559fa9495fede1b61953d0aaccc1ce1049edca73c5e4debae25fc31d",
+  "freeze_sha256": "182d764d792ec3f7dad3625b591e3ed08da6879183868a6802d7a8f117d03d3b",
+  "templates_raw_checked": 130,
+  "backgrounds_raw_checked": 69151,
+  "seeds": {
+    "42": {
+      "attempts": 28224,
+      "synthesized": 5417,
+      "cross_house_synthesized": 5417,
+      "threshold_segments": 10,
+      "raw_event_exposure_matches_control": true
+    },
+    "1019": {
+      "attempts": 28224,
+      "synthesized": 5336,
+      "cross_house_synthesized": 5336,
+      "threshold_segments": 10,
+      "raw_event_exposure_matches_control": true
+    },
+    "2026": {
+      "attempts": 28224,
+      "synthesized": 5399,
+      "cross_house_synthesized": 5399,
+      "threshold_segments": 10,
+      "raw_event_exposure_matches_control": true
+    }
+  },
+  "template_segment_support": {
+    "refit_2": {
+      "template_threshold_segments": 7,
+      "complete_observed_template_segments": 5,
+      "source_complete_observed_segments": 14
+    },
+    "refit_19": {
+      "template_threshold_segments": 3,
+      "complete_observed_template_segments": 3,
+      "source_complete_observed_segments": 4
+    }
+  },
+  "ordinary_inference": {
+    "status": "verified",
+    "prediction_readbacks": 18,
+    "source_only": true
+  },
+  "ordinary_inference_receipt_sha256": "46d9417f964a4a83aa61f250250fa8c391e5ebbaebdb477db84cd3ede5d059c4"
+}

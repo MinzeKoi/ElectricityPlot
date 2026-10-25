@@ -1,0 +1,31 @@
+{
+  "predictions": [
+    "TCN127/42",
+    "TCN127/1019",
+    "TCN127/2026",
+    "importance_BCE50/42",
+    "importance_BCE50/1019",
+    "importance_BCE50/2026",
+    "unit_BCE/42",
+    "unit_BCE/1019",
+    "unit_BCE/2026"
+  ],
+  "registration_sha256": "2f42dc822e28476dce632e4df45af7ebc86a3efb3f9fc0be9bf3acfd91dadfd0",
+  "training_sha256": "b20e0bf66e5ee7e00847dc27bcb5a5fecc59faa04ceb1eec4f540ce8d6b528df",
+  "source_selection_sha256": "90b3b3f8766dc69c8c382865b3ee4f4471ab40c7a66e9ccce8d794f33d6038a1",
+  "artifacts": {
+    "predictions/importance_BCE50_1019.npz": "323733ebbfbfe12a6467d6bffe48f35e4e5439f16b4b750c88319ba7f9a0d24b",
+    "predictions/importance_BCE50_2026.npz": "6244649de4db3012aab68639d6dbabc2a47dcb2946541a05b6f60b6329c2f55a",
+    "predictions/importance_BCE50_42.npz": "cddfe139874de9142350ba16af84067554a91888e949cbf5347f21fce591f273",
+    "predictions/TCN127_1019.npz": "7402cc2efa7ecfd97d1361eab25830b15890dbd4a19ea2907a8f1bf29d595010",
+    "predictions/TCN127_2026.npz": "12558d12f58d0ec59e2c396a080de154378fbcc7291a5459c0188285f01cee5f",
+    "predictions/TCN127_42.npz": "a23135e40529aee4f46fef65095ddfdeb37db4639e12e37e290ac2127df866a5",
+    "predictions/unit_BCE_1019.npz": "abd35b5b01bd19425e2dc9474a8155dbd0c373a6fe60808e02f928fa400bf154",
+    "predictions/unit_BCE_2026.npz": "126ebe2a4fa39449e2bb34805fdef6e94631e36d02274bf40e678b4310e619d0",
+    "predictions/unit_BCE_42.npz": "42f9b8dd3a2a5ca90548f3a2f26762571527764b14fd9550b5f05caaa89a7120",
+    "inference_checks.json": "90455178f36cd6b2612dfb57ceb0f290c6d0386326f7bcb389566d0abeddf2c1"
+  },
+  "ordinary_inference_matches": true,
+  "common_support_and_other_devices_match": true,
+  "house17_truth_reads": 0
+}

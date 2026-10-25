@@ -1,0 +1,640 @@
+{
+  "schema_version": 1,
+  "audit_id": "microwave-data-audit-20261025-v2",
+  "status": "complete",
+  "accessed_actual_data_households": [
+    "2",
+    "19"
+  ],
+  "model_fits": 0,
+  "real_fix_applied": false,
+  "data_version": "strict8-replayed-identical-v1",
+  "shared_code_changed": false,
+  "default_behavior_changed": false,
+  "old_run_hashes": {
+    "registration.json": "00c2d19926bb7a0a5514965ae2db658aa1a6a88e51368f15437489f242ec9389",
+    "freeze.json": "c5806b2456dd3a9e6267eb34bb52e6a57d8d660b467cbfc4a23c96160f3b78a6",
+    "daily_support.json": "722f2677512eee8df4ca9690571382d06869a2b76ae3a0a50a750ddb63227980",
+    "delivery_manifest.json": "bf77e1931f4b87e77e2604ac86846b7de636098b77f5e25cd8991c1a3419016a",
+    "source_protocol.json": "9c0d5374acfccf094c9c85106e874bf6950ee80bd7c391740131ee0a8a28bc9e"
+  },
+  "households": {
+    "refit_2": {
+      "original_path": "data/raw/refit_complete_20261022/households/CLEAN_House2.csv",
+      "original_sha256": "5e3b8b30734070692bb6ac12504a26f5a1394aabe050199a1f7b7c5f88065561",
+      "slice_path": "outputs/accuracy/microwave-data-audit-20261025-v2/raw_slices/House2.csv",
+      "slice_sha256": "d6e00b88a70523e51b87d4303a48e79bef79bfb16968fae2f7180d8939592b3d",
+      "start": "2014-09-29T06:28:48Z",
+      "end": "2014-10-13T06:28:48Z",
+      "raw_selected_records_with_bracketing": 153678,
+      "timestamp_duplicates_or_decreases": 0,
+      "non_8_second_raw_intervals": 29233,
+      "unix_used_local_Time_ignored": true,
+      "replay": {
+        "aggregate": {
+          "missing_before": 14216,
+          "missing_after": 14216,
+          "missing_mask_changes": 0,
+          "power_changes": 0,
+          "coverage_flag_timestamp_changes": 0,
+          "input_path": "outputs/accuracy/microwave-data-audit-20261025-v2/inputs/refit_2/aggregate.csv",
+          "sha256": "3da552d8166d0a0e91b98f49960a15e4a0011dd318f653a6b0359eb02cb37df3",
+          "old_path": "outputs/accuracy/microwave-diagnosis-20261025-v2/inputs/refit_2/aggregate.csv"
+        },
+        "microwave": {
+          "missing_before": 15120,
+          "missing_after": 15120,
+          "missing_mask_changes": 0,
+          "power_changes": 0,
+          "coverage_flag_timestamp_changes": 0,
+          "input_path": "outputs/accuracy/microwave-data-audit-20261025-v2/inputs/refit_2/microwave.csv",
+          "sha256": "2253ca5be6123a472fe098e3f559958484d9fd01e58ce582cacbda534b051ff8",
+          "old_path": "outputs/accuracy/microwave-diagnosis-20261025-v2/inputs/refit_2/microwave.csv"
+        }
+      },
+      "total_usable_windows": 93213,
+      "total_positive_windows": 369,
+      "complete_observed_segments": 21,
+      "usable_window_delta": 0,
+      "usable_positive_delta": 0,
+      "complete_event_delta": 0,
+      "candidate_blocks": {
+        "historical_train": {
+          "start": "2014-10-07T06:28:48Z",
+          "end": "2014-10-10T05:58:48Z",
+          "windows": 21317,
+          "effective_hours": 47.37111111111111,
+          "positive_windows": 166,
+          "supported_threshold_segments": 19,
+          "complete_observed_segments": 9,
+          "complete_event_ids": [
+            36,
+            37,
+            41,
+            42,
+            43,
+            44,
+            53,
+            57,
+            60
+          ],
+          "cross_boundary_event_ids_excluded": []
+        },
+        "historical_validation": {
+          "start": "2014-10-10T06:58:48Z",
+          "end": "2014-10-11T05:58:48Z",
+          "windows": 7962,
+          "effective_hours": 17.69333333333333,
+          "positive_windows": 59,
+          "supported_threshold_segments": 7,
+          "complete_observed_segments": 0,
+          "complete_event_ids": [],
+          "cross_boundary_event_ids_excluded": []
+        },
+        "historical_outer": {
+          "start": "2014-10-11T06:58:48Z",
+          "end": "2014-10-13T06:28:48Z",
+          "windows": 16325,
+          "effective_hours": 36.27777777777778,
+          "positive_windows": 69,
+          "supported_threshold_segments": 8,
+          "complete_observed_segments": 5,
+          "complete_event_ids": [
+            71,
+            76,
+            77,
+            79,
+            80
+          ],
+          "cross_boundary_event_ids_excluded": []
+        },
+        "recommended_train": {
+          "start": "2014-09-29T06:28:48Z",
+          "end": "2014-10-09T05:58:48Z",
+          "windows": 60356,
+          "effective_hours": 134.12444444444444,
+          "positive_windows": 177,
+          "supported_threshold_segments": 32,
+          "complete_observed_segments": 14,
+          "complete_event_ids": [
+            9,
+            10,
+            11,
+            12,
+            13,
+            15,
+            32,
+            36,
+            37,
+            41,
+            42,
+            43,
+            44,
+            53
+          ],
+          "cross_boundary_event_ids_excluded": []
+        },
+        "recommended_validation": {
+          "start": "2014-10-09T06:58:48Z",
+          "end": "2014-10-10T05:58:48Z",
+          "windows": 7247,
+          "effective_hours": 16.104444444444443,
+          "positive_windows": 64,
+          "supported_threshold_segments": 6,
+          "complete_observed_segments": 2,
+          "complete_event_ids": [
+            57,
+            60
+          ],
+          "cross_boundary_event_ids_excluded": []
+        },
+        "recommended_outer": {
+          "start": "2014-10-10T06:58:48Z",
+          "end": "2014-10-13T06:28:48Z",
+          "windows": 24736,
+          "effective_hours": 54.96888888888889,
+          "positive_windows": 128,
+          "supported_threshold_segments": 15,
+          "complete_observed_segments": 5,
+          "complete_event_ids": [
+            71,
+            76,
+            77,
+            79,
+            80
+          ],
+          "cross_boundary_event_ids_excluded": []
+        },
+        "early_0_7": {
+          "start": "2014-09-29T06:28:48Z",
+          "end": "2014-10-06T05:58:48Z",
+          "windows": 37556,
+          "effective_hours": 83.45777777777778,
+          "positive_windows": 61,
+          "supported_threshold_segments": 15,
+          "complete_observed_segments": 6,
+          "complete_event_ids": [
+            9,
+            10,
+            11,
+            12,
+            13,
+            15
+          ],
+          "cross_boundary_event_ids_excluded": []
+        },
+        "day_8": {
+          "start": "2014-10-07T06:58:48Z",
+          "end": "2014-10-08T05:58:48Z",
+          "windows": 8017,
+          "effective_hours": 17.815555555555555,
+          "positive_windows": 70,
+          "supported_threshold_segments": 9,
+          "complete_observed_segments": 6,
+          "complete_event_ids": [
+            36,
+            37,
+            41,
+            42,
+            43,
+            44
+          ],
+          "cross_boundary_event_ids_excluded": []
+        },
+        "day_9": {
+          "start": "2014-10-08T06:58:48Z",
+          "end": "2014-10-09T05:58:48Z",
+          "windows": 4961,
+          "effective_hours": 11.024444444444445,
+          "positive_windows": 32,
+          "supported_threshold_segments": 4,
+          "complete_observed_segments": 1,
+          "complete_event_ids": [
+            53
+          ],
+          "cross_boundary_event_ids_excluded": []
+        },
+        "day_10": {
+          "start": "2014-10-09T06:58:48Z",
+          "end": "2014-10-10T05:58:48Z",
+          "windows": 7247,
+          "effective_hours": 16.104444444444443,
+          "positive_windows": 64,
+          "supported_threshold_segments": 6,
+          "complete_observed_segments": 2,
+          "complete_event_ids": [
+            57,
+            60
+          ],
+          "cross_boundary_event_ids_excluded": []
+        },
+        "day_11": {
+          "start": "2014-10-10T06:58:48Z",
+          "end": "2014-10-11T05:58:48Z",
+          "windows": 7962,
+          "effective_hours": 17.69333333333333,
+          "positive_windows": 59,
+          "supported_threshold_segments": 7,
+          "complete_observed_segments": 0,
+          "complete_event_ids": [],
+          "cross_boundary_event_ids_excluded": []
+        },
+        "day_12": {
+          "start": "2014-10-11T06:58:48Z",
+          "end": "2014-10-12T05:58:48Z",
+          "windows": 8657,
+          "effective_hours": 19.23777777777778,
+          "positive_windows": 50,
+          "supported_threshold_segments": 5,
+          "complete_observed_segments": 2,
+          "complete_event_ids": [
+            71,
+            76
+          ],
+          "cross_boundary_event_ids_excluded": []
+        },
+        "day_13": {
+          "start": "2014-10-12T06:58:48Z",
+          "end": "2014-10-13T05:58:48Z",
+          "windows": 6994,
+          "effective_hours": 15.542222222222222,
+          "positive_windows": 19,
+          "supported_threshold_segments": 3,
+          "complete_observed_segments": 3,
+          "complete_event_ids": [
+            77,
+            79,
+            80
+          ],
+          "cross_boundary_event_ids_excluded": []
+        }
+      }
+    },
+    "refit_19": {
+      "original_path": "data/raw/refit_complete_20261022/households/CLEAN_House19.csv",
+      "original_sha256": "b445ebaec2562b0559dd13e62c399e8403f4a2f28e09042994cab470f6867960",
+      "slice_path": "outputs/accuracy/microwave-data-audit-20261025-v2/raw_slices/House19.csv",
+      "slice_sha256": "04a3ed8a732286a0e7c998542e637e921124519ac211fb2cd27de6dbff3e41d7",
+      "start": "2014-10-04T20:22:40Z",
+      "end": "2014-10-18T20:22:40Z",
+      "raw_selected_records_with_bracketing": 158690,
+      "timestamp_duplicates_or_decreases": 0,
+      "non_8_second_raw_intervals": 79502,
+      "unix_used_local_Time_ignored": true,
+      "replay": {
+        "aggregate": {
+          "missing_before": 12960,
+          "missing_after": 12960,
+          "missing_mask_changes": 0,
+          "power_changes": 0,
+          "coverage_flag_timestamp_changes": 0,
+          "input_path": "outputs/accuracy/microwave-data-audit-20261025-v2/inputs/refit_19/aggregate.csv",
+          "sha256": "2b4a52e98a18d9b39247a9c587d9471da5b7b1c6d8e0d5944dc19194dee46a67",
+          "old_path": "outputs/accuracy/microwave-diagnosis-20261025-v2/inputs/refit_19/aggregate.csv"
+        },
+        "microwave": {
+          "missing_before": 15120,
+          "missing_after": 15120,
+          "missing_mask_changes": 0,
+          "power_changes": 0,
+          "coverage_flag_timestamp_changes": 0,
+          "input_path": "outputs/accuracy/microwave-data-audit-20261025-v2/inputs/refit_19/microwave.csv",
+          "sha256": "b4b26543fc680a47f2ca5c88d2b393b3d9fc1c2eb6d24c59b44028db99668b7a",
+          "old_path": "outputs/accuracy/microwave-diagnosis-20261025-v2/inputs/refit_19/microwave.csv"
+        }
+      },
+      "total_usable_windows": 56856,
+      "total_positive_windows": 277,
+      "complete_observed_segments": 27,
+      "usable_window_delta": 0,
+      "usable_positive_delta": 0,
+      "complete_event_delta": 0,
+      "candidate_blocks": {
+        "historical_train": {
+          "start": "2014-10-12T20:22:40Z",
+          "end": "2014-10-15T19:52:40Z",
+          "windows": 25133,
+          "effective_hours": 55.85111111111111,
+          "positive_windows": 141,
+          "supported_threshold_segments": 25,
+          "complete_observed_segments": 14,
+          "complete_event_ids": [
+            35,
+            36,
+            37,
+            39,
+            41,
+            44,
+            45,
+            47,
+            48,
+            50,
+            51,
+            52,
+            55,
+            56
+          ],
+          "cross_boundary_event_ids_excluded": []
+        },
+        "historical_validation": {
+          "start": "2014-10-15T20:52:40Z",
+          "end": "2014-10-16T19:52:40Z",
+          "windows": 9869,
+          "effective_hours": 21.93111111111111,
+          "positive_windows": 94,
+          "supported_threshold_segments": 18,
+          "complete_observed_segments": 9,
+          "complete_event_ids": [
+            60,
+            63,
+            64,
+            68,
+            69,
+            70,
+            71,
+            73,
+            74
+          ],
+          "cross_boundary_event_ids_excluded": []
+        },
+        "historical_outer": {
+          "start": "2014-10-16T20:52:40Z",
+          "end": "2014-10-18T20:22:40Z",
+          "windows": 20787,
+          "effective_hours": 46.193333333333335,
+          "positive_windows": 42,
+          "supported_threshold_segments": 7,
+          "complete_observed_segments": 4,
+          "complete_event_ids": [
+            76,
+            78,
+            79,
+            80
+          ],
+          "cross_boundary_event_ids_excluded": []
+        },
+        "recommended_train": {
+          "start": "2014-10-04T20:22:40Z",
+          "end": "2014-10-14T19:52:40Z",
+          "windows": 14866,
+          "effective_hours": 33.035555555555554,
+          "positive_windows": 59,
+          "supported_threshold_segments": 10,
+          "complete_observed_segments": 4,
+          "complete_event_ids": [
+            35,
+            36,
+            37,
+            39
+          ],
+          "cross_boundary_event_ids_excluded": []
+        },
+        "recommended_validation": {
+          "start": "2014-10-14T20:52:40Z",
+          "end": "2014-10-15T19:52:40Z",
+          "windows": 9900,
+          "effective_hours": 22.0,
+          "positive_windows": 82,
+          "supported_threshold_segments": 15,
+          "complete_observed_segments": 10,
+          "complete_event_ids": [
+            41,
+            44,
+            45,
+            47,
+            48,
+            50,
+            51,
+            52,
+            55,
+            56
+          ],
+          "cross_boundary_event_ids_excluded": []
+        },
+        "recommended_outer": {
+          "start": "2014-10-15T20:52:40Z",
+          "end": "2014-10-18T20:22:40Z",
+          "windows": 31136,
+          "effective_hours": 69.19111111111111,
+          "positive_windows": 136,
+          "supported_threshold_segments": 25,
+          "complete_observed_segments": 13,
+          "complete_event_ids": [
+            60,
+            63,
+            64,
+            68,
+            69,
+            70,
+            71,
+            73,
+            74,
+            76,
+            78,
+            79,
+            80
+          ],
+          "cross_boundary_event_ids_excluded": []
+        },
+        "early_0_7": {
+          "start": "2014-10-04T20:22:40Z",
+          "end": "2014-10-11T19:52:40Z",
+          "windows": 97,
+          "effective_hours": 0.21555555555555556,
+          "positive_windows": 0,
+          "supported_threshold_segments": 0,
+          "complete_observed_segments": 0,
+          "complete_event_ids": [],
+          "cross_boundary_event_ids_excluded": []
+        },
+        "day_8": {
+          "start": "2014-10-12T20:52:40Z",
+          "end": "2014-10-13T19:52:40Z",
+          "windows": 4303,
+          "effective_hours": 9.562222222222223,
+          "positive_windows": 32,
+          "supported_threshold_segments": 7,
+          "complete_observed_segments": 3,
+          "complete_event_ids": [
+            35,
+            36,
+            37
+          ],
+          "cross_boundary_event_ids_excluded": []
+        },
+        "day_9": {
+          "start": "2014-10-13T20:52:40Z",
+          "end": "2014-10-14T19:52:40Z",
+          "windows": 9970,
+          "effective_hours": 22.155555555555555,
+          "positive_windows": 27,
+          "supported_threshold_segments": 3,
+          "complete_observed_segments": 1,
+          "complete_event_ids": [
+            39
+          ],
+          "cross_boundary_event_ids_excluded": []
+        },
+        "day_10": {
+          "start": "2014-10-14T20:52:40Z",
+          "end": "2014-10-15T19:52:40Z",
+          "windows": 9900,
+          "effective_hours": 22.0,
+          "positive_windows": 82,
+          "supported_threshold_segments": 15,
+          "complete_observed_segments": 10,
+          "complete_event_ids": [
+            41,
+            44,
+            45,
+            47,
+            48,
+            50,
+            51,
+            52,
+            55,
+            56
+          ],
+          "cross_boundary_event_ids_excluded": []
+        },
+        "day_11": {
+          "start": "2014-10-15T20:52:40Z",
+          "end": "2014-10-16T19:52:40Z",
+          "windows": 9869,
+          "effective_hours": 21.93111111111111,
+          "positive_windows": 94,
+          "supported_threshold_segments": 18,
+          "complete_observed_segments": 9,
+          "complete_event_ids": [
+            60,
+            63,
+            64,
+            68,
+            69,
+            70,
+            71,
+            73,
+            74
+          ],
+          "cross_boundary_event_ids_excluded": []
+        },
+        "day_12": {
+          "start": "2014-10-16T20:52:40Z",
+          "end": "2014-10-17T19:52:40Z",
+          "windows": 10106,
+          "effective_hours": 22.45777777777778,
+          "positive_windows": 0,
+          "supported_threshold_segments": 0,
+          "complete_observed_segments": 0,
+          "complete_event_ids": [],
+          "cross_boundary_event_ids_excluded": []
+        },
+        "day_13": {
+          "start": "2014-10-17T20:52:40Z",
+          "end": "2014-10-18T19:52:40Z",
+          "windows": 9976,
+          "effective_hours": 22.16888888888889,
+          "positive_windows": 42,
+          "supported_threshold_segments": 7,
+          "complete_observed_segments": 4,
+          "complete_event_ids": [
+            76,
+            78,
+            79,
+            80
+          ],
+          "cross_boundary_event_ids_excluded": []
+        }
+      }
+    }
+  },
+  "root_causes": [
+    "Strict 8-second observation hold cap plus frequent 9-second raw intervals creates genuine unsupported seconds under the frozen conservative contract.",
+    "Occasional longer raw gaps further fragment context; a 31-bin window requires all 248 seconds, so small scattered holes remove many windows.",
+    "Issues=1 invalidates labels only; additional label loss is reproducible, and does not gate aggregate validity.",
+    "No import, timestamp, label alignment or window implementation defect was found in the audited source chain."
+  ],
+  "contract_verdict": "No correctness repair justified. Allowing a nine-second hold would be a new observational assumption, not recovered measurements; not applied.",
+  "unrecoverable_limits": [
+    "Original pre-cleaning missingness and upstream zero/forward-filled values are unavailable.",
+    "Upstream IAM >4000W clipping cannot be reversed.",
+    "Physical cycles cannot be identified independently from threshold segments.",
+    "Real inter-record gaps remain unsupported; strict8 audit does not recover early House19 positive windows."
+  ],
+  "recommendation": {
+    "selection_basis": "availability only; no model scores read by this audit",
+    "primary_blocks": [
+      "recommended_train",
+      "recommended_validation",
+      "recommended_outer"
+    ],
+    "primary_relative_days": {
+      "train": [
+        0,
+        10
+      ],
+      "validation": [
+        10,
+        11
+      ],
+      "outer": [
+        11,
+        14
+      ],
+      "boundary_half_gap_seconds": 1800
+    },
+    "multiple_validation_day_candidates_with_complete_support_both_houses": [
+      "day_8",
+      "day_9",
+      "day_10",
+      "day_13"
+    ],
+    "unsuitable_single_day_complete_event_validation": {
+      "day_11": "House2 has zero complete observed segments",
+      "day_12": "House19 has zero observed positive centers"
+    },
+    "use_condition": "Inspect per-house complete_observed_segments; reserve validation days before fitting and retain >=1800s each side of boundaries. Recompute windows and whole event exclusion for the chosen split; day masks above are diagnostic alternatives, not simultaneously disjoint roles.",
+    "historical_contamination": "Days 12-14 have already been evaluated in the old diagnosis; they cannot be called fresh unseen evaluation. Availability does not establish independent test evidence.",
+    "fresh_holdout_available_within_audited_range": false
+  },
+  "downstream": {
+    "input_paths": {
+      "refit_2": {
+        "aggregate": "outputs/accuracy/microwave-data-audit-20261025-v2/inputs/refit_2/aggregate.csv",
+        "microwave": "outputs/accuracy/microwave-data-audit-20261025-v2/inputs/refit_2/microwave.csv"
+      },
+      "refit_19": {
+        "aggregate": "outputs/accuracy/microwave-data-audit-20261025-v2/inputs/refit_19/aggregate.csv",
+        "microwave": "outputs/accuracy/microwave-data-audit-20261025-v2/inputs/refit_19/microwave.csv"
+      }
+    },
+    "support_masks": {
+      "refit_2": "outputs/accuracy/microwave-data-audit-20261025-v2/refit_2_support.npz",
+      "refit_19": "outputs/accuracy/microwave-data-audit-20261025-v2/refit_19_support.npz"
+    },
+    "input_contract": "Identical CSV schema and bytes as old diagnostic source inputs, 8s UTC, missing preserved, microwave on >=200W; opt in explicitly to these paths.",
+    "normalization": "Estimate only on selected training windows; this audit creates no normalization or model.",
+    "events_file": "outputs/accuracy/microwave-data-audit-20261025-v2/events.json"
+  },
+  "rebuild_command": ".venv-m2/Scripts/python.exe scripts/audit_microwave_data.py --run outputs/accuracy/microwave-data-audit-20261025-vNEXT",
+  "verification": [
+    {
+      "household": "2",
+      "raw_hash_verified": true,
+      "exact_grid": true,
+      "all_channels_replayed": true,
+      "uncovered_seconds_fully_attributed": true,
+      "daily_old_symptom_reproduced": true,
+      "split_context_event_isolation": true
+    },
+    {
+      "household": "19",
+      "raw_hash_verified": true,
+      "exact_grid": true,
+      "all_channels_replayed": true,
+      "uncovered_seconds_fully_attributed": true,
+      "daily_old_symptom_reproduced": true,
+      "split_context_event_isolation": true
+    }
+  ]
+}

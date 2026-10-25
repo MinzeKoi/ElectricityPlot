@@ -1,0 +1,25 @@
+{
+  "status": "independently_verified",
+  "registration_sha256": "de724d37c27e029dab61f91c940ea43849d808788917d4a9438e24714f0551a5",
+  "freeze_sha256": "3f9f28e660b0f0f176f2fc8148e2024d3b9f0c46214548c9b80cdcccfaf11acd",
+  "evaluation_complete_sha256": "a202f1d1eb079ad81af855712a384a0d96d61a21cefa51a6cab4a64118014c48",
+  "verification_script_sha256": "cc57370dbb6fb0c9c5bf0aad517ce0444760e0b8c9d276ac5627e94bc1ccfed1",
+  "actual_real_fits": 6,
+  "added_support_verified": true,
+  "normalization_verified": true,
+  "same_support_and_raw_devices_verified": true,
+  "ordinary_cli_readback_verified": true,
+  "development_gate_conditions": {
+    "every_seed_recall_ge_85pct": true,
+    "mean_precision_ge_8pct": false,
+    "mean_f1_gain_ge_02": false,
+    "two_seeds_precision_and_f1_improve": false,
+    "every_seed_f1_drop_le_02": true,
+    "mean_fp_reduction_ge_30pct": false,
+    "no_degenerate_seed": true
+  },
+  "development_acceptance_passed": false,
+  "fp_change_ratio_vs_W50": 0.17629489900180784,
+  "final_houses_accessed": false,
+  "no_additional_fits_or_reselection": true
+}

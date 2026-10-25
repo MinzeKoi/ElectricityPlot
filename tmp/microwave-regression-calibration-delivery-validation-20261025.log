@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "D:\system position\document\�������ĵ�\AIC\scripts\verify_microwave_regression_calibration_delivery.py", line 122, in <module>
+    main()
+    ~~~~^^
+  File "D:\system position\document\�������ĵ�\AIC\scripts\verify_microwave_regression_calibration_delivery.py", line 97, in main
+    assert float(row['raw_score_w']) == score[i]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

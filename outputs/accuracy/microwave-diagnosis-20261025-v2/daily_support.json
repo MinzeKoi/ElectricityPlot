@@ -1,0 +1,200 @@
+{
+  "rows": [
+    {
+      "household": "refit_2",
+      "day_from_zero": 0,
+      "raw_on_centers": 7,
+      "complete_aggregate_windows": 0,
+      "usable_on_centers": 0
+    },
+    {
+      "household": "refit_2",
+      "day_from_zero": 1,
+      "raw_on_centers": 1,
+      "complete_aggregate_windows": 3800,
+      "usable_on_centers": 0
+    },
+    {
+      "household": "refit_2",
+      "day_from_zero": 2,
+      "raw_on_centers": 51,
+      "complete_aggregate_windows": 8290,
+      "usable_on_centers": 51
+    },
+    {
+      "household": "refit_2",
+      "day_from_zero": 3,
+      "raw_on_centers": 6,
+      "complete_aggregate_windows": 8143,
+      "usable_on_centers": 6
+    },
+    {
+      "household": "refit_2",
+      "day_from_zero": 4,
+      "raw_on_centers": 26,
+      "complete_aggregate_windows": 6451,
+      "usable_on_centers": 4
+    },
+    {
+      "household": "refit_2",
+      "day_from_zero": 5,
+      "raw_on_centers": 3,
+      "complete_aggregate_windows": 3200,
+      "usable_on_centers": 0
+    },
+    {
+      "household": "refit_2",
+      "day_from_zero": 6,
+      "raw_on_centers": 0,
+      "complete_aggregate_windows": 8207,
+      "usable_on_centers": 0
+    },
+    {
+      "household": "refit_2",
+      "day_from_zero": 7,
+      "raw_on_centers": 18,
+      "complete_aggregate_windows": 9015,
+      "usable_on_centers": 14
+    },
+    {
+      "household": "refit_2",
+      "day_from_zero": 8,
+      "raw_on_centers": 70,
+      "complete_aggregate_windows": 8563,
+      "usable_on_centers": 70
+    },
+    {
+      "household": "refit_2",
+      "day_from_zero": 9,
+      "raw_on_centers": 52,
+      "complete_aggregate_windows": 5422,
+      "usable_on_centers": 32
+    },
+    {
+      "household": "refit_2",
+      "day_from_zero": 10,
+      "raw_on_centers": 76,
+      "complete_aggregate_windows": 7744,
+      "usable_on_centers": 64
+    },
+    {
+      "household": "refit_2",
+      "day_from_zero": 11,
+      "raw_on_centers": 76,
+      "complete_aggregate_windows": 8444,
+      "usable_on_centers": 59
+    },
+    {
+      "household": "refit_2",
+      "day_from_zero": 12,
+      "raw_on_centers": 71,
+      "complete_aggregate_windows": 9155,
+      "usable_on_centers": 50
+    },
+    {
+      "household": "refit_2",
+      "day_from_zero": 13,
+      "raw_on_centers": 21,
+      "complete_aggregate_windows": 7452,
+      "usable_on_centers": 19
+    },
+    {
+      "household": "refit_19",
+      "day_from_zero": 0,
+      "raw_on_centers": 2,
+      "complete_aggregate_windows": 0,
+      "usable_on_centers": 0
+    },
+    {
+      "household": "refit_19",
+      "day_from_zero": 1,
+      "raw_on_centers": 15,
+      "complete_aggregate_windows": 40,
+      "usable_on_centers": 0
+    },
+    {
+      "household": "refit_19",
+      "day_from_zero": 2,
+      "raw_on_centers": 21,
+      "complete_aggregate_windows": 8,
+      "usable_on_centers": 0
+    },
+    {
+      "household": "refit_19",
+      "day_from_zero": 3,
+      "raw_on_centers": 45,
+      "complete_aggregate_windows": 19,
+      "usable_on_centers": 0
+    },
+    {
+      "household": "refit_19",
+      "day_from_zero": 4,
+      "raw_on_centers": 0,
+      "complete_aggregate_windows": 7,
+      "usable_on_centers": 0
+    },
+    {
+      "household": "refit_19",
+      "day_from_zero": 5,
+      "raw_on_centers": 7,
+      "complete_aggregate_windows": 0,
+      "usable_on_centers": 0
+    },
+    {
+      "household": "refit_19",
+      "day_from_zero": 6,
+      "raw_on_centers": 14,
+      "complete_aggregate_windows": 23,
+      "usable_on_centers": 0
+    },
+    {
+      "household": "refit_19",
+      "day_from_zero": 7,
+      "raw_on_centers": 2,
+      "complete_aggregate_windows": 16,
+      "usable_on_centers": 0
+    },
+    {
+      "household": "refit_19",
+      "day_from_zero": 8,
+      "raw_on_centers": 32,
+      "complete_aggregate_windows": 4745,
+      "usable_on_centers": 32
+    },
+    {
+      "household": "refit_19",
+      "day_from_zero": 9,
+      "raw_on_centers": 27,
+      "complete_aggregate_windows": 10569,
+      "usable_on_centers": 27
+    },
+    {
+      "household": "refit_19",
+      "day_from_zero": 10,
+      "raw_on_centers": 88,
+      "complete_aggregate_windows": 10466,
+      "usable_on_centers": 82
+    },
+    {
+      "household": "refit_19",
+      "day_from_zero": 11,
+      "raw_on_centers": 109,
+      "complete_aggregate_windows": 10605,
+      "usable_on_centers": 94
+    },
+    {
+      "household": "refit_19",
+      "day_from_zero": 12,
+      "raw_on_centers": 0,
+      "complete_aggregate_windows": 10674,
+      "usable_on_centers": 0
+    },
+    {
+      "household": "refit_19",
+      "day_from_zero": 13,
+      "raw_on_centers": 42,
+      "complete_aggregate_windows": 10691,
+      "usable_on_centers": 42
+    }
+  ]
+}

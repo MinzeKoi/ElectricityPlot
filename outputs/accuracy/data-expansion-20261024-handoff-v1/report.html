@@ -1,0 +1,52 @@
+<!doctype html><meta charset="utf-8"><title>数据扩充与重新训练</title><style>body{font:16px system-ui;margin:40px;max-width:1250px;color:#172b34}table{border-collapse:collapse}td,th{border:1px solid #ccd5da;padding:10px}pre{white-space:pre-wrap;background:#f5f7f9;padding:16px}</style><h1>数据扩充与重新训练</h1><p>REFIT 来源训练与开发对照。House 8、9、20 保持隔离，界面默认模型未替换。所有扩数组保持现有模型、损失和阈值，采用相同更新步数。</p><h2>实际训练数据</h2><table><tr><th>组</th><th>设备</th><th>来源家庭</th><th>有效训练窗口</th><th>每种子更新步数</th></tr><tr><td>A</td><td>kettle</td><td>refit_19/refit_2</td><td>150069</td><td>7044</td></tr><tr><td>A</td><td>microwave</td><td>refit_19/refit_2</td><td>150069</td><td>7044</td></tr><tr><td>A</td><td>washing_machine</td><td>refit_19/refit_2</td><td>150069</td><td>7044</td></tr><tr><td>B</td><td>kettle</td><td>refit_19/refit_2</td><td>426204</td><td>7044</td></tr><tr><td>B</td><td>microwave</td><td>refit_19/refit_2</td><td>426204</td><td>7044</td></tr><tr><td>B</td><td>washing_machine</td><td>refit_19/refit_2</td><td>426204</td><td>7044</td></tr><tr><td>C</td><td>kettle</td><td>refit_19/refit_2</td><td>426204</td><td>7044</td></tr><tr><td>C</td><td>microwave</td><td>refit_10/refit_12/refit_15/refit_18/refit_19/refit_2</td><td>1340422</td><td>7044</td></tr><tr><td>C</td><td>washing_machine</td><td>refit_10/refit_15/refit_16/refit_18/refit_19/refit_2</td><td>1301717</td><td>7044</td></tr></table><p>窗口数为完整总表上下文和该设备标签同时有效的窗口，不是独立事件数。House 12 的水壶未达到预设完整事件门槛，两段均排除，未另选日期。</p><h2>配对开发收益</h2><pre>[
+  {
+    &quot;comparison&quot;: &quot;B-A&quot;,
+    &quot;paired_seed_f1_deltas&quot;: [
+      -0.011021276363538404,
+      -0.01766493500825938,
+      0.007088625533397813
+    ],
+    &quot;mean_primary_f1_delta&quot;: -0.007199195279466657,
+    &quot;positive_seeds&quot;: 1,
+    &quot;mean_device_f1_deltas&quot;: {
+      &quot;kettle&quot;: -0.010864083479067052,
+      &quot;microwave&quot;: -0.003534307079866262,
+      &quot;washing_machine&quot;: -0.039076795505238626
+    },
+    &quot;new_degenerate_cases&quot;: 0,
+    &quot;internal_target_met&quot;: false,
+    &quot;final_generalization_accepted&quot;: false
+  },
+  {
+    &quot;comparison&quot;: &quot;C-B&quot;,
+    &quot;paired_seed_f1_deltas&quot;: [
+      -0.023441835136658706,
+      -0.00400480641471751,
+      -0.019650817192035853
+    ],
+    &quot;mean_primary_f1_delta&quot;: -0.01569915291447069,
+    &quot;positive_seeds&quot;: 0,
+    &quot;mean_device_f1_deltas&quot;: {
+      &quot;kettle&quot;: -0.029505707487500404,
+      &quot;microwave&quot;: -0.0018925983414409774,
+      &quot;washing_machine&quot;: -0.004413634569936477
+    },
+    &quot;new_degenerate_cases&quot;: 0,
+    &quot;internal_target_met&quot;: false,
+    &quot;final_generalization_accepted&quot;: false
+  }
+]</pre><h2>逐设备识别</h2><table><tr><th>组</th><th>设备</th><th>Precision</th><th>Recall</th><th>F1</th><th>运行段 MAE W</th><th>电量绝对误差 kWh</th></tr><tr><td>A</td><td>kettle</td><td>0.640807</td><td>0.920290</td><td>0.755509</td><td>347.288675</td><td>8.337213</td></tr><tr><td>A</td><td>microwave</td><td>0.040128</td><td>0.924282</td><td>0.076913</td><td>537.838689</td><td>13.989985</td></tr><tr><td>A</td><td>washing_machine</td><td>0.060782</td><td>0.829205</td><td>0.111760</td><td>266.269532</td><td>15.398504</td></tr><tr><td>B</td><td>kettle</td><td>0.637039</td><td>0.898551</td><td>0.744644</td><td>406.561686</td><td>9.082299</td></tr><tr><td>B</td><td>microwave</td><td>0.038168</td><td>0.955614</td><td>0.073379</td><td>607.746204</td><td>12.612796</td></tr><tr><td>B</td><td>washing_machine</td><td>0.037838</td><td>0.951217</td><td>0.072683</td><td>262.183410</td><td>16.831800</td></tr><tr><td>C</td><td>kettle</td><td>0.580395</td><td>0.933794</td><td>0.715139</td><td>315.512526</td><td>10.366156</td></tr><tr><td>C</td><td>microwave</td><td>0.037104</td><td>0.974761</td><td>0.071486</td><td>673.753580</td><td>12.322127</td></tr><tr><td>C</td><td>washing_machine</td><td>0.035438</td><td>0.930574</td><td>0.068270</td><td>282.674367</td><td>17.705326</td></tr></table><h2>外部来源</h2><pre>{
+  &quot;status&quot;: &quot;blocked_acquisition_incomplete&quot;,
+  &quot;reason&quot;: &quot;Official download acquisition deadline exceeded; verified ranges retained&quot;,
+  &quot;verified_ranges&quot;: 12,
+  &quot;total_ranges&quot;: 428,
+  &quot;source_url&quot;: &quot;https://dap.ceda.ac.uk/edc/d1/7d78f943-f9fe-413b-af52-1816f9d968b0/data/version_0/ukdale.zip&quot;,
+  &quot;archive_bytes&quot;: 3585155959,
+  &quot;deadline_seconds&quot;: 600,
+  &quot;source_receipt&quot;: &quot;D:\\system position\\document\\真正的文档\\AIC\\data\\raw\\ukdale_2017_20261024\\range_acquisition_failed.json&quot;,
+  &quot;source_receipt_sha256&quot;: &quot;22bc66085e46f271b573e0c8aff5428ecda96e8896cf094554572178ba089a5a&quot;,
+  &quot;test_house_replaced&quot;: false,
+  &quot;group_D_trained&quot;: false,
+  &quot;external_labels_evaluated&quot;: false,
+  &quot;automatic_download_process_running&quot;: false
+}</pre><p>三个种子属于同一个已查看开发家庭，不能作为三户独立泛化证据。Precision/Recall/F1、功率与电量必须分别解读。原始和一致性修正视图、逐种子结果见实验 comparison.csv；训练成本见 models.csv。历史实验及失败记录保留。</p>

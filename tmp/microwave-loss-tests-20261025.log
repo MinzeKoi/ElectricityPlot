@@ -1,0 +1,13 @@
+importance_BCE50 seed=42 checkpoint=1 eligible=False
+unit_BCE seed=42 checkpoint=1 eligible=False
+test_both_losses_fit_validate_save_load (test_microwave_loss_correction.LossCorrectionTests.test_both_losses_fit_validate_save_load) ... ok
+test_complete_stream_and_initialization (test_microwave_loss_correction.LossCorrectionTests.test_complete_stream_and_initialization) ... ok
+test_development_gate_protects_recall (test_microwave_loss_correction.LossCorrectionTests.test_development_gate_protects_recall) ... ok
+test_identity_missing_and_finite (test_microwave_loss_correction.LossCorrectionTests.test_identity_missing_and_finite) ... ok
+test_probability_and_expected_bce (test_microwave_loss_correction.LossCorrectionTests.test_probability_and_expected_bce) ... ok
+test_selection_matrix_recall_degenerate (test_microwave_loss_correction.LossCorrectionTests.test_selection_matrix_recall_degenerate) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 3.214s
+
+OK

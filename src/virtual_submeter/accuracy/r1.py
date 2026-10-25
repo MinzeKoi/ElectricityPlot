@@ -2,8 +2,6 @@
 
 import copy
 from datetime import datetime, timezone
-import hashlib
-import json
 from pathlib import Path
 import shutil
 
@@ -25,7 +23,10 @@ def merge_single_models(directories, output):
     from ..models.network import SmallSeq2Point
     pairs = [load_model(d) for d in directories]
     reference = pairs[0][0]
-    keys = ("input_log_mean", "input_log_std", "protocol_sha256", "source_train_windows", "source_validation_windows")
+    expanded = all(m.get("expansion_training") for m, _ in pairs)
+    keys = ("input_log_mean", "input_log_std", "protocol_sha256")
+    if not expanded:
+        keys += ("source_train_windows", "source_validation_windows")
     if any(any(m[k] != reference[k] for k in keys) or len(m["appliances"]) != 1
            or m["settings"] != reference["settings"] for m, _ in pairs):
         raise DataError("Single-device packing requires identical inputs, normalization and settings")
@@ -71,6 +72,13 @@ def merge_single_models(directories, output):
                     validation_normalized_mae=sum(m["validation_normalized_mae"] for m, _ in pairs) / count,
                     selected_epoch=None)
     metadata["model_id"] = "r1-single-packed-" + metadata["weights"]["sha256"][:16]
+    if expanded:
+        metadata["training_households"] = sorted({h for m, _ in pairs for h in m["training_households"]})
+        metadata["source_train_windows"] = {a: m["source_train_windows"] for a, (m, _) in zip(devices, pairs)}
+        for component, (m, _) in zip(metadata["single_device_components"], pairs):
+            component.update(training_households=m["training_households"], source_train_windows=m["source_train_windows"],
+                             optimizer_steps=m["optimizer_steps"], timing_seconds=m["timing_seconds"])
+        metadata["timing_seconds"] = {k: sum(m["timing_seconds"][k] for m, _ in pairs) for k in ("fit", "total")}
     write_json(output / "model.json", metadata)
     write_json(output / "settings.json", settings)
     write_json(output / "queries.json", {"records": [], "budget_used": 0})

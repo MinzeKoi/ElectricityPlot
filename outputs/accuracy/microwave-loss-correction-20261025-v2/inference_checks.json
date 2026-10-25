@@ -1,0 +1,104 @@
+{
+  "checks": [
+    {
+      "arm": "TCN127",
+      "seed": 42,
+      "ordinary_scores_exact": true,
+      "ordinary_state_exact": true,
+      "raw_A_all_devices_exact": true,
+      "input_support_sha256": "9c058561394d89386a0c1240edcd8d1c3e74f3feb79e2c51901978a0babf0cd3",
+      "valid_input_centers": 139437,
+      "threshold": 0.6005000472068787,
+      "weights_sha256": "49a87c0b17a6c781f2cade797a7a9fbacf605e8b5cad96653c43f60f1157fdb2"
+    },
+    {
+      "arm": "TCN127",
+      "seed": 1019,
+      "ordinary_scores_exact": true,
+      "ordinary_state_exact": true,
+      "raw_A_all_devices_exact": true,
+      "input_support_sha256": "9c058561394d89386a0c1240edcd8d1c3e74f3feb79e2c51901978a0babf0cd3",
+      "valid_input_centers": 139437,
+      "threshold": 0.5248380899429321,
+      "weights_sha256": "1d77dbe5cd0366ce431d6eae524e07e8c66baa38d693529cc19b206478b47c55"
+    },
+    {
+      "arm": "TCN127",
+      "seed": 2026,
+      "ordinary_scores_exact": true,
+      "ordinary_state_exact": true,
+      "raw_A_all_devices_exact": true,
+      "input_support_sha256": "9c058561394d89386a0c1240edcd8d1c3e74f3feb79e2c51901978a0babf0cd3",
+      "valid_input_centers": 139437,
+      "threshold": 0.6595595479011536,
+      "weights_sha256": "45e64824f1b49f18a4c2f3b611b5f43c42006c060dd5d8ecf407fbeab74cf88b"
+    },
+    {
+      "arm": "importance_BCE50",
+      "seed": 42,
+      "ordinary_scores_exact": true,
+      "ordinary_state_exact": true,
+      "raw_A_all_devices_exact": true,
+      "input_support_sha256": "9c058561394d89386a0c1240edcd8d1c3e74f3feb79e2c51901978a0babf0cd3",
+      "valid_input_centers": 139437,
+      "threshold": 0.003624346572905779,
+      "weights_sha256": "b34d35f54dd25bf504c39942115255d1cafb7c57bf4e23305811ff4ad9631969"
+    },
+    {
+      "arm": "importance_BCE50",
+      "seed": 1019,
+      "ordinary_scores_exact": true,
+      "ordinary_state_exact": true,
+      "raw_A_all_devices_exact": true,
+      "input_support_sha256": "9c058561394d89386a0c1240edcd8d1c3e74f3feb79e2c51901978a0babf0cd3",
+      "valid_input_centers": 139437,
+      "threshold": 8.40844222693704e-06,
+      "weights_sha256": "9d1c8cade00efe378c181938d81e470e70ae94583bb42df3995f84ef953b5f04"
+    },
+    {
+      "arm": "importance_BCE50",
+      "seed": 2026,
+      "ordinary_scores_exact": true,
+      "ordinary_state_exact": true,
+      "raw_A_all_devices_exact": true,
+      "input_support_sha256": "9c058561394d89386a0c1240edcd8d1c3e74f3feb79e2c51901978a0babf0cd3",
+      "valid_input_centers": 139437,
+      "threshold": 0.0006086346111260355,
+      "weights_sha256": "e84633af626b97adad64df664b4694c67949f5044df845a82a8fc1205ad21e98"
+    },
+    {
+      "arm": "unit_BCE",
+      "seed": 42,
+      "ordinary_scores_exact": true,
+      "ordinary_state_exact": true,
+      "raw_A_all_devices_exact": true,
+      "input_support_sha256": "9c058561394d89386a0c1240edcd8d1c3e74f3feb79e2c51901978a0babf0cd3",
+      "valid_input_centers": 139437,
+      "threshold": 0.03501575440168381,
+      "weights_sha256": "c6698b112f7876cfdbcf8a1ef5eaeb729b08073814c7bc8b1e2bc8e721547d24"
+    },
+    {
+      "arm": "unit_BCE",
+      "seed": 1019,
+      "ordinary_scores_exact": true,
+      "ordinary_state_exact": true,
+      "raw_A_all_devices_exact": true,
+      "input_support_sha256": "9c058561394d89386a0c1240edcd8d1c3e74f3feb79e2c51901978a0babf0cd3",
+      "valid_input_centers": 139437,
+      "threshold": 4.000221931477199e-09,
+      "weights_sha256": "5ab1c4e9cc8dac5957b0cc544315633af7d735a3e1cd6e0dcf1f0bb4e72e3f44"
+    },
+    {
+      "arm": "unit_BCE",
+      "seed": 2026,
+      "ordinary_scores_exact": true,
+      "ordinary_state_exact": true,
+      "raw_A_all_devices_exact": true,
+      "input_support_sha256": "9c058561394d89386a0c1240edcd8d1c3e74f3feb79e2c51901978a0babf0cd3",
+      "valid_input_centers": 139437,
+      "threshold": 0.04622975364327431,
+      "weights_sha256": "b8fd11a706d794654d030f93f14f2df2e9a7f72b0284e8a85e3fd85789066f74"
+    }
+  ],
+  "house17_truth_reads": 0
+}

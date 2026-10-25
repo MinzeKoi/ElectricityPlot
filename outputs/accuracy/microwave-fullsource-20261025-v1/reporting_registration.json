@@ -1,0 +1,14 @@
+{
+  "registered_at_utc": "2026-10-25T03:21:19.178968+00:00",
+  "source_thread_id": "01a16d7b-478e-7780-a999-88abe71e8c94",
+  "coordinator_message": "合格source预选者包括natural，相对W50通过原开发全部门槛即完整方案改善；另设sampling_or_background_improvement_supported=passed且selected!=natural，不改训练、选择、数值门槛或读取顺序。",
+  "timing": "request_received_after_training_started_before_any_development_evaluation",
+  "training_registration_sha256": "fe3dd8e0d46ca0105516c040631544cdadb40fb04f843acec117357f8cfda3c5",
+  "training_started_sha256": "a4e2c6888e369c113a649b8d3ab248d6d2756d0005b05949260f20f60b0c90e2",
+  "reporting_module_sha256": "dec84617b55371a5d7984e3927de3854175dff50d90bf9ba10ee0a55c195eb9b",
+  "reporting_tests_sha256": "63bacab7c895fd249e59b3cacd1ad2782dbb42ac05eb359ea1bb427e6c364919",
+  "script_sha256": "747efdd44f1ead055717d96df1ccfd6cf6c6b37312bd8d5c7c728e4b94df64b9",
+  "declared_improvement_definition": "qualified_source_selected_including_natural_passes_all_original_W50_development_gates",
+  "sampling_or_background_improvement_supported_definition": "development_acceptance_passed_and_selected_not_natural",
+  "development_scores_opened": false
+}

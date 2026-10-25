@@ -1,0 +1,22 @@
+{
+  "status": "complete",
+  "artifacts": {
+    "audit.json": "a6c90fb8fdc8a7476f0a2ace4b0107b497282b15a880a1c176bbea5b8268c691",
+    "counterexamples.json": "5810b99a8e75cde270dbee8674d6ad2933565307a775231b1515f2cd1feec0a6",
+    "daily_support.json": "3dd47b989884f49449a512772547829c75ad7c5dfc32073644e7a1307cdc50bb",
+    "downstream_plan.json": "9304165ffb38a14202a8cbccd2ee8f6332588c26357ee4565bf511a680dcd084",
+    "events.json": "d113f8210dcb86870876f57ba29c965c75edf24c9a76ea99ef840a0cc6693b44",
+    "inputs/refit_19/aggregate.csv": "2b4a52e98a18d9b39247a9c587d9471da5b7b1c6d8e0d5944dc19194dee46a67",
+    "inputs/refit_19/microwave.csv": "b4b26543fc680a47f2ca5c88d2b393b3d9fc1c2eb6d24c59b44028db99668b7a",
+    "inputs/refit_2/aggregate.csv": "3da552d8166d0a0e91b98f49960a15e4a0011dd318f653a6b0359eb02cb37df3",
+    "inputs/refit_2/microwave.csv": "2253ca5be6123a472fe098e3f559958484d9fd01e58ce582cacbda534b051ff8",
+    "raw_slices/House19.csv": "04a3ed8a732286a0e7c998542e637e921124519ac211fb2cd27de6dbff3e41d7",
+    "raw_slices/House2.csv": "d6e00b88a70523e51b87d4303a48e79bef79bfb16968fae2f7180d8939592b3d",
+    "refit_19_support.npz": "5df2d4975718541f98aed7609a78bd34b14371e7183ff74d400133220ef03e04",
+    "refit_2_support.npz": "6f9fb8071ef16843d2d869e3ced359917b22cba4f3c35f8b11e66a3a7478da84",
+    "source/scripts/audit_microwave_data.py": "30a08d8154f0edb0dc5aadac59cb3446ae136ce582d9bc5dd4e74be79669d53c",
+    "source/src/virtual_submeter/data/common.py": "06b7af77b897a8d093004d82d2651af8d56d7c437536624a817d195ad2848299",
+    "source/src/virtual_submeter/data/prepare.py": "9d0befa61e1d40c5cd1f444f0ee1b90a5a6919ebd2c3fd8f4a66ae8b8cbd9ae0",
+    "source/src/virtual_submeter/models/arrays.py": "878836398d48e9a0c8eb11559df70998a57b6dfaf20501dc7bc5253277f0d7bd"
+  }
+}

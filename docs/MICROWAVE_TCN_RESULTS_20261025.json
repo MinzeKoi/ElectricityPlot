@@ -1,0 +1,668 @@
+{
+  "run": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-tcn-20261025-v3",
+  "status": "completed",
+  "source_selection": {
+    "selected_arm": "TCN127",
+    "arms": [
+      {
+        "arm": "partial_mask",
+        "eligible": true,
+        "mean_precision": 0.2139767740114613,
+        "mean_f1": 0.32684018808516974
+      },
+      {
+        "arm": "TCN31",
+        "eligible": true,
+        "mean_precision": 0.22757574055776772,
+        "mean_f1": 0.3410765792621067
+      },
+      {
+        "arm": "TCN127",
+        "eligible": true,
+        "mean_precision": 0.23716648366320306,
+        "mean_f1": 0.35754417392432986
+      }
+    ],
+    "source_only": true,
+    "improvement_candidate": true,
+    "no_deployable_candidate": false
+  },
+  "source_rows": {
+    "TCN31": [
+      {
+        "seed": 42,
+        "precision": 0.2315037431057233,
+        "recall": 0.9420987115812642,
+        "f1": 0.3446128612314477,
+        "source_gate_passed": true,
+        "degenerate": false
+      },
+      {
+        "seed": 1019,
+        "precision": 0.21622418958026698,
+        "recall": 0.9366308454548972,
+        "f1": 0.3307917551282664,
+        "source_gate_passed": true,
+        "degenerate": false
+      },
+      {
+        "seed": 2026,
+        "precision": 0.23499928898731282,
+        "recall": 0.9321794428669525,
+        "f1": 0.3478251214266061,
+        "source_gate_passed": true,
+        "degenerate": false
+      }
+    ],
+    "TCN127": [
+      {
+        "seed": 42,
+        "precision": 0.22996088942437753,
+        "recall": 0.9077043954498611,
+        "f1": 0.3487267316055449,
+        "source_gate_passed": true,
+        "degenerate": false
+      },
+      {
+        "seed": 1019,
+        "precision": 0.233455463911302,
+        "recall": 0.911520044616578,
+        "f1": 0.3537917585105341,
+        "source_gate_passed": true,
+        "degenerate": false
+      },
+      {
+        "seed": 2026,
+        "precision": 0.24808309765392966,
+        "recall": 0.9213116082065843,
+        "f1": 0.3701140316569105,
+        "source_gate_passed": true,
+        "degenerate": false
+      }
+    ],
+    "partial_mask": [
+      {
+        "seed": 42,
+        "precision": 0.21875642605094922,
+        "recall": 0.8919912236188633,
+        "f1": 0.3362235784412034,
+        "source_gate_passed": true,
+        "degenerate": false
+      },
+      {
+        "seed": 1019,
+        "precision": 0.20983101508823176,
+        "recall": 0.9141969577934536,
+        "f1": 0.32148781067108384,
+        "source_gate_passed": true,
+        "degenerate": false
+      },
+      {
+        "seed": 2026,
+        "precision": 0.2133428808952029,
+        "recall": 0.9008172017200663,
+        "f1": 0.32280917514322194,
+        "source_gate_passed": true,
+        "degenerate": false
+      }
+    ]
+  },
+  "development_rows": [
+    {
+      "arm": "A",
+      "seed": 42,
+      "tp": 348,
+      "fp": 8433,
+      "fn": 35,
+      "tn": 128707,
+      "n": 137523,
+      "precision": 0.039631021523744446,
+      "recall": 0.9086161879895561,
+      "f1": 0.0759493670886076,
+      "degenerate": false,
+      "predicted_on": 8781
+    },
+    {
+      "arm": "W50",
+      "seed": 42,
+      "tp": 348,
+      "fp": 8433,
+      "fn": 35,
+      "tn": 128707,
+      "n": 137523,
+      "precision": 0.039631021523744446,
+      "recall": 0.9086161879895561,
+      "f1": 0.0759493670886076,
+      "degenerate": false,
+      "predicted_on": 8781
+    },
+    {
+      "arm": "TCN31",
+      "seed": 42,
+      "tp": 360,
+      "fp": 10134,
+      "fn": 23,
+      "tn": 127006,
+      "n": 137523,
+      "precision": 0.03430531732418525,
+      "recall": 0.9399477806788512,
+      "f1": 0.06619472280959823,
+      "degenerate": false,
+      "predicted_on": 10494
+    },
+    {
+      "arm": "TCN127",
+      "seed": 42,
+      "tp": 382,
+      "fp": 10488,
+      "fn": 1,
+      "tn": 126652,
+      "n": 137523,
+      "precision": 0.03514259429622815,
+      "recall": 0.9973890339425587,
+      "f1": 0.0678930063094286,
+      "degenerate": false,
+      "predicted_on": 10870
+    },
+    {
+      "arm": "partial_mask",
+      "seed": 42,
+      "tp": 375,
+      "fp": 10068,
+      "fn": 8,
+      "tn": 127072,
+      "n": 137523,
+      "precision": 0.03590922148807814,
+      "recall": 0.97911227154047,
+      "f1": 0.06927766488084242,
+      "degenerate": false,
+      "predicted_on": 10443
+    },
+    {
+      "arm": "A",
+      "seed": 1019,
+      "tp": 352,
+      "fp": 8893,
+      "fn": 31,
+      "tn": 128247,
+      "n": 137523,
+      "precision": 0.03807463493780422,
+      "recall": 0.9190600522193212,
+      "f1": 0.07312006647278771,
+      "degenerate": false,
+      "predicted_on": 9245
+    },
+    {
+      "arm": "W50",
+      "seed": 1019,
+      "tp": 352,
+      "fp": 8893,
+      "fn": 31,
+      "tn": 128247,
+      "n": 137523,
+      "precision": 0.03807463493780422,
+      "recall": 0.9190600522193212,
+      "f1": 0.07312006647278771,
+      "degenerate": false,
+      "predicted_on": 9245
+    },
+    {
+      "arm": "TCN31",
+      "seed": 1019,
+      "tp": 340,
+      "fp": 9798,
+      "fn": 43,
+      "tn": 127342,
+      "n": 137523,
+      "precision": 0.033537186821858356,
+      "recall": 0.8877284595300261,
+      "f1": 0.06463263948293889,
+      "degenerate": false,
+      "predicted_on": 10138
+    },
+    {
+      "arm": "TCN127",
+      "seed": 1019,
+      "tp": 380,
+      "fp": 10053,
+      "fn": 3,
+      "tn": 127087,
+      "n": 137523,
+      "precision": 0.03642288891018882,
+      "recall": 0.9921671018276762,
+      "f1": 0.07026627218934911,
+      "degenerate": false,
+      "predicted_on": 10433
+    },
+    {
+      "arm": "partial_mask",
+      "seed": 1019,
+      "tp": 338,
+      "fp": 9591,
+      "fn": 45,
+      "tn": 127549,
+      "n": 137523,
+      "precision": 0.034041696041897475,
+      "recall": 0.8825065274151436,
+      "f1": 0.06555469356089992,
+      "degenerate": false,
+      "predicted_on": 9929
+    },
+    {
+      "arm": "A",
+      "seed": 2026,
+      "tp": 362,
+      "fp": 8120,
+      "fn": 21,
+      "tn": 129020,
+      "n": 137523,
+      "precision": 0.04267861353454374,
+      "recall": 0.9451697127937336,
+      "f1": 0.08166948674562888,
+      "degenerate": false,
+      "predicted_on": 8482
+    },
+    {
+      "arm": "W50",
+      "seed": 2026,
+      "tp": 362,
+      "fp": 8120,
+      "fn": 21,
+      "tn": 129020,
+      "n": 137523,
+      "precision": 0.04267861353454374,
+      "recall": 0.9451697127937336,
+      "f1": 0.08166948674562888,
+      "degenerate": false,
+      "predicted_on": 8482
+    },
+    {
+      "arm": "TCN31",
+      "seed": 2026,
+      "tp": 350,
+      "fp": 9481,
+      "fn": 33,
+      "tn": 127659,
+      "n": 137523,
+      "precision": 0.035601668192452446,
+      "recall": 0.9138381201044387,
+      "f1": 0.06853338554924614,
+      "degenerate": false,
+      "predicted_on": 9831
+    },
+    {
+      "arm": "TCN127",
+      "seed": 2026,
+      "tp": 375,
+      "fp": 10260,
+      "fn": 8,
+      "tn": 126880,
+      "n": 137523,
+      "precision": 0.03526093088857546,
+      "recall": 0.97911227154047,
+      "f1": 0.0680704302051189,
+      "degenerate": false,
+      "predicted_on": 10635
+    },
+    {
+      "arm": "partial_mask",
+      "seed": 2026,
+      "tp": 343,
+      "fp": 10273,
+      "fn": 40,
+      "tn": 126867,
+      "n": 137523,
+      "precision": 0.032309721175584026,
+      "recall": 0.8955613577023499,
+      "f1": 0.06236930630057278,
+      "degenerate": false,
+      "predicted_on": 10616
+    }
+  ],
+  "summary": {
+    "selected_before_development": "TCN127",
+    "improvement_candidate": true,
+    "long_context_selected": true,
+    "task4_source_preselected_comparison": {
+      "selected_arm": "partial_mask",
+      "freeze_sha256": "3f9f28e660b0f0f176f2fc8148e2024d3b9f0c46214548c9b80cdcccfaf11acd",
+      "source_selection_sha256": "fcc7b51686e09c46fe223e047c569141481464d22331c035cded2caaa8adfd86"
+    },
+    "development_acceptance_passed": false,
+    "declared_improvement": false,
+    "means": {
+      "A": {
+        "precision": 0.04012808999869747,
+        "recall": 0.9242819843342036,
+        "f1": 0.07691297343567473,
+        "fp": 8482.0
+      },
+      "TCN127": {
+        "precision": 0.03560880469833081,
+        "recall": 0.9895561357702349,
+        "f1": 0.0687432362346322,
+        "fp": 10267.0
+      },
+      "TCN31": {
+        "precision": 0.03448139077949868,
+        "recall": 0.9138381201044387,
+        "f1": 0.06645358261392775,
+        "fp": 9804.333333333334
+      },
+      "W50": {
+        "precision": 0.04012808999869747,
+        "recall": 0.9242819843342036,
+        "f1": 0.07691297343567473,
+        "fp": 8482.0
+      },
+      "partial_mask": {
+        "precision": 0.034086879568519884,
+        "recall": 0.9190600522193212,
+        "f1": 0.06573388824743838,
+        "fp": 9977.333333333334
+      }
+    },
+    "selected_deltas": {
+      "A": {
+        "precision": -0.00451928530036666,
+        "recall": 0.06527415143603132,
+        "f1": -0.008169737201042526,
+        "fp": 1785.0
+      },
+      "TCN31": {
+        "precision": 0.0011274139188321292,
+        "recall": 0.07571801566579628,
+        "f1": 0.0022896536207044488,
+        "fp": 462.66666666666606
+      },
+      "W50": {
+        "precision": -0.00451928530036666,
+        "recall": 0.06527415143603132,
+        "f1": -0.008169737201042526,
+        "fp": 1785.0
+      },
+      "partial_mask": {
+        "precision": 0.0015219251298109263,
+        "recall": 0.07049608355091375,
+        "f1": 0.0030093479871938222,
+        "fp": 289.66666666666606
+      }
+    },
+    "common_support": {
+      "42": {
+        "n": 137523,
+        "mask_sha256": "d7608bed577515bc4bd98ff1efe4c78a82798a96c9d1d3e5dd03bb90d53598a1",
+        "timestamps_sha256": "342269261b9b59715ac588476545f50d6e875b7a01f6731745098c6c384a2ffe"
+      },
+      "1019": {
+        "n": 137523,
+        "mask_sha256": "d7608bed577515bc4bd98ff1efe4c78a82798a96c9d1d3e5dd03bb90d53598a1",
+        "timestamps_sha256": "342269261b9b59715ac588476545f50d6e875b7a01f6731745098c6c384a2ffe"
+      },
+      "2026": {
+        "n": 137523,
+        "mask_sha256": "d7608bed577515bc4bd98ff1efe4c78a82798a96c9d1d3e5dd03bb90d53598a1",
+        "timestamps_sha256": "342269261b9b59715ac588476545f50d6e875b7a01f6731745098c6c384a2ffe"
+      }
+    },
+    "power_improvement_claim": false,
+    "raw_power_and_other_devices_unchanged": true,
+    "default_model_changed": false,
+    "development_only_previously_inspected_house17": true,
+    "final_houses_accessed": false,
+    "additional_training_permitted": false
+  },
+  "paired_context_differences": [
+    {
+      "seed": 42,
+      "difference_direction": "TCN127_minus_TCN31",
+      "source": {
+        "precision": -0.0015428536813457683,
+        "recall": -0.03439431613140309,
+        "f1": 0.004113870374097217
+      },
+      "development": {
+        "precision": 0.0008372769720429024,
+        "recall": 0.057441253263707526,
+        "f1": 0.0016982834998303664,
+        "tp": 22,
+        "fp": 354,
+        "fn": -22,
+        "tn": -354
+      },
+      "state_disagreements_on_complete_core_centers": 2580
+    },
+    {
+      "seed": 1019,
+      "difference_direction": "TCN127_minus_TCN31",
+      "source": {
+        "precision": 0.017231274331035024,
+        "recall": -0.02511080083831918,
+        "f1": 0.02300000338226771
+      },
+      "development": {
+        "precision": 0.002885702088330465,
+        "recall": 0.1044386422976501,
+        "f1": 0.0056336327064102215,
+        "tp": 40,
+        "fp": 255,
+        "fn": -40,
+        "tn": -255
+      },
+      "state_disagreements_on_complete_core_centers": 2220
+    },
+    {
+      "seed": 2026,
+      "difference_direction": "TCN127_minus_TCN31",
+      "source": {
+        "precision": 0.013083808666616847,
+        "recall": -0.010867834660368225,
+        "f1": 0.022288910230304382
+      },
+      "development": {
+        "precision": -0.00034073730387698675,
+        "recall": 0.06527415143603132,
+        "f1": -0.0004629553441272416,
+        "tp": 25,
+        "fp": 779,
+        "fn": -25,
+        "tn": -779
+      },
+      "state_disagreements_on_complete_core_centers": 2839
+    }
+  ],
+  "support": {
+    "centers": 259806,
+    "positive_centers": 849,
+    "positive_centers_with_new_context": 849,
+    "centers_with_new_context": 259804,
+    "mean_new_observed_points": 90.97410760336558,
+    "positive_mean_new_observed_points": 91.87043580683157,
+    "stop_counts": {
+      "left": {
+        "missing_run": 5962,
+        "radius": 253844
+      },
+      "right": {
+        "boundary": 96,
+        "missing_run": 5941,
+        "radius": 253769
+      }
+    }
+  },
+  "recovery": {
+    "status": "recovery_audited",
+    "prior_failed_source_fit_starts": 1,
+    "effective_model_fits": 6,
+    "cumulative_start_cap": 7,
+    "maximum_actual_source_updates": 21462,
+    "prior_updates": 294,
+    "new_updates": 21168,
+    "prior_validation_score_files": 0,
+    "prior_checkpoint_recoverable": false,
+    "same_seed42_initialization": true,
+    "same_first294_batch_indices": true,
+    "first294_batch_indices_sha256": "8dcbca0256b7440d1dd158938fd4531aacf6b92d6dd22443fd2f1b3cc1671f80",
+    "source_shape_checks": {
+      "TCN31": {
+        "train": [
+          259806,
+          31
+        ],
+        "validation": {
+          "0": [
+            18063,
+            31
+          ],
+          "1": [
+            20518,
+            31
+          ],
+          "2": [
+            20641,
+            31
+          ],
+          "3": [
+            16213,
+            31
+          ],
+          "4": [
+            19127,
+            31
+          ],
+          "5": [
+            15224,
+            31
+          ]
+        }
+      },
+      "TCN127": {
+        "train": [
+          259806,
+          127
+        ],
+        "validation": {
+          "0": [
+            18063,
+            127
+          ],
+          "1": [
+            20518,
+            127
+          ],
+          "2": [
+            20641,
+            127
+          ],
+          "3": [
+            16213,
+            127
+          ],
+          "4": [
+            19127,
+            127
+          ],
+          "5": [
+            15224,
+            127
+          ]
+        }
+      }
+    },
+    "house17_truth_opened": false,
+    "note": "Supplemental all-array shape audit recorded after v3 started; both-length synthetic training-through-validation test passed before v3 preparation. Exact v2 bug reproduced using sealed v2 code afterward.",
+    "registration_sha256": "1cd50f61d2702d84b984fe08aff5aa2ff8eb4d5bba28f102626226e958dbf72b"
+  },
+  "successful_fits": 6,
+  "failed_source_fit_starts": 1,
+  "total_source_fit_starts": 7,
+  "successful_source_updates": 21168,
+  "failed_source_updates_inferred": 294,
+  "total_source_updates": 21462,
+  "source_train_seconds_by_model": {
+    "TCN31/42": 62.093970400001126,
+    "TCN31/1019": 60.8200668999998,
+    "TCN31/2026": 62.501554899999974,
+    "TCN127/42": 126.84897210000054,
+    "TCN127/1019": 122.58474039999965,
+    "TCN127/2026": 117.67982879999909
+  },
+  "tests_passed": 61,
+  "new_tests_passed": 21,
+  "benchmark_reference": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-tcn-20261025-v2\\benchmark.json",
+  "synthetic_benchmark": {
+    "real_fits": 0,
+    "synthetic_only": true,
+    "cpu_threads": 4,
+    "rows": [
+      {
+        "length": 31,
+        "synthetic_updates": 8,
+        "median_update_seconds": 0.009668749999036663,
+        "inference_batch_seconds": 0.0022777125000175147,
+        "estimated_training_seconds_per_fit": 34.11134999660135,
+        "parameter_count": 5329,
+        "input_batch_bytes": 63488,
+        "hidden_activation_lower_bound_bytes": 3555328
+      },
+      {
+        "length": 127,
+        "synthetic_updates": 8,
+        "median_update_seconds": 0.017431399999622954,
+        "inference_batch_seconds": 0.005291774999932386,
+        "estimated_training_seconds_per_fit": 61.49797919866978,
+        "parameter_count": 5329,
+        "input_batch_bytes": 260096,
+        "hidden_activation_lower_bound_bytes": 14565376
+      }
+    ],
+    "registration_sha256": "4ef1c31915fb1e18f7e23232cdee5016eae859f6cff974d8fa6b766351f28631",
+    "process_peak_working_set_bytes": 663654400,
+    "six_fit_training_only_seconds": 286.8279875858134,
+    "estimate_excludes_validation_serialization_and_contention": true
+  },
+  "default_changed": false,
+  "power_improvement_claim": false,
+  "final_houses_accessed": false,
+  "bindings": {
+    "registration.json": "1cd50f61d2702d84b984fe08aff5aa2ff8eb4d5bba28f102626226e958dbf72b",
+    "training_complete.json": "4d9f3d3db9257a6be87b7b3c936a14ec42b7451dcc81de2c1979989cd17ba013",
+    "source_rows.json": "d6e2f1818d505d475352018e936ef8c09502b783e987279735981223ee34eed1",
+    "source_selection.json": "32afd9555fb45009c60b16127a2888d35b0dd06461a8427069cb3552c0a9eaec",
+    "freeze.json": "47e5602103a444c42c63cb3f185fa42ec821bb497bb450ff6015c65ac5e94027",
+    "inference_checks.json": "c81a0b79e6f1880ad9b3ed38c6325c4d1b8859050ea114090055cfc8be7d198e",
+    "evaluation_complete.json": "d1d14238de321c92d4312787a5c0f743009b5f3f952c531206c6edeac1f149a2",
+    "evaluation/metrics.json": "5626a9e89dd7087276401b57e3b3b1ab2ce3a164d19801bab0e6f29a2b2be91b",
+    "evaluation/summary.json": "87395ca4cf3a83b3240c2ffad0131d5024293ea27e045928f9fbac42bb91adf9",
+    "recovery_audit.json": "21cd80e360d603b3f511b513ea66843d1f97a268de1ecf34ab7164ac77a928a9",
+    "report.json": "1395ee4721a476c9996cca1e58cdf3f2fd512504f382aa2ef9281951a9488282",
+    "report.md": "bcaa905cf587f1cc3d62a8c80609d5957ba1baf08d3a0f857d859a2edb147bd6",
+    "preparation_verification.json": "661d120c57f60e92005ce6cdf23dcdf1c86b6a1b6a5889847a4f3d154e5e93ef",
+    "preparation_access.json": "a34ce03d2f84accc0582d506596e24f2881d68a5495893c1273d6814472f44ef",
+    "execution_authorization.json": "5c93b2a4b303a6400cb70d5a81f91d9ebaba6db6ebf18aee7502934a81db99f0",
+    "benchmark_reference": "bd6862b150fbc5cd0aa44a3a5150d4164545bee8268088448a785011408b84e6",
+    "tests": "7216436e7ae85e2598357eaf005334dfb4603040edbb6fcd0291747e7679b9bd",
+    "v2_bug_reproduction": "70b2e4d62fcaf09dec013422094f0b3a3ecc11eaf494ed5b4102f3ad090c9caf",
+    "delivery_script": "ec3b08bc1f62fd679d776c0951af867c4d01b517a19281273ba16eceea099486",
+    "independent_delivery_verification.json": "f16b01c40dc2c5f90b3e3348d234eb3619d77466bf8a73150c5cb9dee30d52ce"
+  },
+  "independent_delivery_verification": {
+    "status": "independently_verified_completed_delivery",
+    "successful_fits": 6,
+    "failed_source_fit_starts": 1,
+    "total_source_fit_starts": 7,
+    "total_source_updates": 21462,
+    "confusions_precision_recall_f1_exact": true,
+    "common_support_per_seed": 137523,
+    "raw_A_all_devices_exact": true,
+    "labels_read_only_after_frozen_guard": true,
+    "freeze_sha256": "47e5602103a444c42c63cb3f185fa42ec821bb497bb450ff6015c65ac5e94027",
+    "evaluation_complete_sha256": "d1d14238de321c92d4312787a5c0f743009b5f3f952c531206c6edeac1f149a2"
+  },
+  "selected_gate_details": {
+    "absolute_precision_at_least_008": false,
+    "mean_f1_gain": -0.008169737201042526,
+    "fp_ratio_to_W50": 1.2104456496109408,
+    "minimum_seed_recall": 0.97911227154047
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "artifacts": {
+    "epoch_1.pt": "089e741b8dd6d09e7e51579fd9962fa94053eaa4e99cf923bae667793cf318ec",
+    "epoch_10.pt": "71311d8657c1f4d8a3c4a1c1bf76064cb5c2f40aa22f196a1d4eecec49fddc4b",
+    "epoch_10_pr.npz": "6ca65f10e19d2e79af2db74942c167c9c84e48e3405a283f99fe44274b418cf1",
+    "epoch_11.pt": "361e4cbfb5c51c725fdaf5da55ec918e3a7fc836c45d3f842e2954a9d619ae1e",
+    "epoch_11_pr.npz": "811c0068e65cbd764e3305252470fb414c3aff54cecf4428c2584d7d8c1812e4",
+    "epoch_12.pt": "89d544e3224ad89e13bc8e9aa4b1dac209039304875bb69be070f97125e33c3d",
+    "epoch_12_pr.npz": "e7e27cbfce29b03d156c220186e83fbe8044f8b979fa14a4a03221d7a1bfea8e",
+    "epoch_1_pr.npz": "6161eebd65dd84c5732bb526e519fd6aa5991d16f39c850ece3f0b9fb97c574f",
+    "epoch_2.pt": "3cd98e0332c9c3f2bd7b55f02a5141a26c61a4a5164e0b53a620a5c6010478bb",
+    "epoch_2_pr.npz": "1411b7f00b8cf45803d4394d269d61d9cf3185d86a4be2af5a701910d94e834d",
+    "epoch_3.pt": "ea62a9627ea447266551c7ea0f18c93d7f6407b1950e45dace597aa39fcbefec",
+    "epoch_3_pr.npz": "7ec76ddcfa3bad74a5ff9dc44039ffcf633753c014a79d2601b7c2c9f6e1a60b",
+    "epoch_4.pt": "5c0f8494ae47005bcb45126b2b72eb8819eadf704e31428e233e49b95c5e3262",
+    "epoch_4_pr.npz": "53b2c7e76be32285f9fe409a5b9b5bc5704e3ce0ece28071470af356e72de43c",
+    "epoch_5.pt": "e14f054ae87b15803559f3fd3461d1742bbe2e45b3349f5fb5cd51f2333c2156",
+    "epoch_5_pr.npz": "3a1473126c5f32feffd6cc14310f8ab1ee03284a1fd48453d712f25fb66c1075",
+    "epoch_6.pt": "67b7b7c1fe57de7b725b3fb0eb7b9bbaaef57285bcc23c3ded10016ee7efe227",
+    "epoch_6_pr.npz": "f38b572ce4774a4df7cf434870e24bcead9b0795ddf1fcb53ef8b2dc5292c817",
+    "epoch_7.pt": "ae72cfa113e3902305098afbcb1402d1f3828a04ecd618edddb528cb7d5d35bb",
+    "epoch_7_pr.npz": "254d561b295fa6bd37b563b119d31ae4da2e3e8c8a3ae6f9f35e101daa9bc025",
+    "epoch_8.pt": "2d6191e005ffbceba2c3acd350e695951450862cb5d7251a54d7d7fbd48eb2f6",
+    "epoch_8_pr.npz": "6299191998bbb1421ca9b0792905f8dd4c719e2915a99448c53f7f4dbfc5b1b5",
+    "epoch_9.pt": "124b3d5ce0d24001b171ee39589b511f3dc4ca76620bd127e24208c38c40d264",
+    "epoch_9_pr.npz": "f938cfa0bc37867cb70fef17e16b4a823b3464d4e80fa1ffffd6eb35cedfdd7b",
+    "history.json": "bcf4f3d9d525c4beed4f5d404b0a0db993bcf94dd8039405a0effff98cb39dcd",
+    "model.json": "5c921502ab824e03c5570b54f6bbf32b96c8f6a5aed6a3032d05889aed0351c7",
+    "sampling.json": "a70cedc3b1c06146e6fded8f1eb4b0f92a044a6e2a94df38dad57efa78d39f4a",
+    "weights.pt": "361e4cbfb5c51c725fdaf5da55ec918e3a7fc836c45d3f842e2954a9d619ae1e"
+  }
+}

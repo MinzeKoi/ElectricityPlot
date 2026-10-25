@@ -1,0 +1,22 @@
+{
+  "status": "ordinary_cli_exact_readback",
+  "selected_arm": "partial_mask",
+  "seed": 42,
+  "rows": 150750,
+  "scores_exact": true,
+  "states_exact": true,
+  "missing_exact": true,
+  "output_sha256": "eef9208a67bcfdc00d01b519fc62cfc4926b496012c34f0285ffd1064b099eb4",
+  "command": [
+    "D:\\system position\\document\\真正的文档\\AIC\\.venv-m2\\Scripts\\python.exe",
+    "-B",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-mask-20261025-v2\\predict_microwave_mask.py",
+    "--model",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-mask-20261025-v2\\models\\partial_mask\\seed_42",
+    "--aggregate",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\precision-20261024-v1\\protocol\\data\\frozen_test_refit_17_0\\aggregate.csv",
+    "--output",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-mask-20261025-v2\\ordinary_seed42.csv"
+  ],
+  "house17_truth_read": false
+}

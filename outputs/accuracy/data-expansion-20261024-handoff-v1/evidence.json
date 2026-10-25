@@ -1,0 +1,748 @@
+{
+  "source_run": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\data-expansion-20261024-v1",
+  "summary_sha256": "9da36211860e7bb68a69122885959c8126271dd314aaf119c88ef115ce5a2902",
+  "metrics_refit_sha256": "ce40d5f852b84e9d9f1a706e5aafa62b67b61e95a757f61ba1109ae67a63f7e8",
+  "models": [
+    {
+      "group": "A",
+      "seed": 42,
+      "appliance": "kettle",
+      "households": [
+        "refit_19",
+        "refit_2"
+      ],
+      "valid_training_windows": 150069,
+      "windows_by_partition": {
+        "source_train_refit_2_0": 93213,
+        "source_train_refit_19_0": 56856
+      },
+      "optimizer_steps": 7044,
+      "selected_checkpoint": 9,
+      "fit_seconds": 38.49032449999868,
+      "model_sha256": "a5386a84a5f2112e30bf831f15370d273338fb68a3385634f20b492d7fc4ed6f",
+      "weights_sha256": "2b8341f7b6e65f261f0414d85184142535da6466fde2ac2b397b4221f6e0749e"
+    },
+    {
+      "group": "A",
+      "seed": 42,
+      "appliance": "microwave",
+      "households": [
+        "refit_19",
+        "refit_2"
+      ],
+      "valid_training_windows": 150069,
+      "windows_by_partition": {
+        "source_train_refit_2_0": 93213,
+        "source_train_refit_19_0": 56856
+      },
+      "optimizer_steps": 7044,
+      "selected_checkpoint": 9,
+      "fit_seconds": 40.16326470000058,
+      "model_sha256": "17583641992eceacb849d191eb18a5511ba294f313213bb40116584aa6941010",
+      "weights_sha256": "3ba70b4c261695d71d47972fd7acd052a1e9f213f7d58dac0681e8ad85e9321d"
+    },
+    {
+      "group": "A",
+      "seed": 42,
+      "appliance": "washing_machine",
+      "households": [
+        "refit_19",
+        "refit_2"
+      ],
+      "valid_training_windows": 150069,
+      "windows_by_partition": {
+        "source_train_refit_2_0": 93213,
+        "source_train_refit_19_0": 56856
+      },
+      "optimizer_steps": 7044,
+      "selected_checkpoint": 7,
+      "fit_seconds": 25.104939699998795,
+      "model_sha256": "7fe1cd4edf22d81fd838f89fbc2e28247f642850c0e07765e092a4ac6c0b39df",
+      "weights_sha256": "2c1c4fee559ead70e40d620e72acf684caab240e41c8138fba5adf2a8cc1f784"
+    },
+    {
+      "group": "A",
+      "seed": 1019,
+      "appliance": "kettle",
+      "households": [
+        "refit_19",
+        "refit_2"
+      ],
+      "valid_training_windows": 150069,
+      "windows_by_partition": {
+        "source_train_refit_2_0": 93213,
+        "source_train_refit_19_0": 56856
+      },
+      "optimizer_steps": 7044,
+      "selected_checkpoint": 10,
+      "fit_seconds": 42.86284510000041,
+      "model_sha256": "e1dfea3f5fe97af0ce970cfe8eb3b364b8cc1dcc0bba81ce29a8e4826813880b",
+      "weights_sha256": "176189bb0fb7706007b6e3cb4ab6450bb9b6f44f02e33ad504cb0c7b84c9a080"
+    },
+    {
+      "group": "A",
+      "seed": 1019,
+      "appliance": "microwave",
+      "households": [
+        "refit_19",
+        "refit_2"
+      ],
+      "valid_training_windows": 150069,
+      "windows_by_partition": {
+        "source_train_refit_2_0": 93213,
+        "source_train_refit_19_0": 56856
+      },
+      "optimizer_steps": 7044,
+      "selected_checkpoint": 7,
+      "fit_seconds": 40.60202670000217,
+      "model_sha256": "cc90656b22948e3c06bef913686f49d22506e3c24a66e9f9b393b513ee39dfd7",
+      "weights_sha256": "4ff40d0b845ab5bd84dbcfbcf0802f26015a4bd7c0506575610199f894bb6aae"
+    },
+    {
+      "group": "A",
+      "seed": 1019,
+      "appliance": "washing_machine",
+      "households": [
+        "refit_19",
+        "refit_2"
+      ],
+      "valid_training_windows": 150069,
+      "windows_by_partition": {
+        "source_train_refit_2_0": 93213,
+        "source_train_refit_19_0": 56856
+      },
+      "optimizer_steps": 7044,
+      "selected_checkpoint": 9,
+      "fit_seconds": 39.15158869999868,
+      "model_sha256": "42717af78b261fe96dce8cf9456f7b2ee85456c02c9579e1aa774782230f0cc8",
+      "weights_sha256": "8021c563923df2ff5a441e49c696b28b01f0f5111162941694dcf2bf5fd69899"
+    },
+    {
+      "group": "A",
+      "seed": 2026,
+      "appliance": "kettle",
+      "households": [
+        "refit_19",
+        "refit_2"
+      ],
+      "valid_training_windows": 150069,
+      "windows_by_partition": {
+        "source_train_refit_2_0": 93213,
+        "source_train_refit_19_0": 56856
+      },
+      "optimizer_steps": 7044,
+      "selected_checkpoint": 10,
+      "fit_seconds": 39.47954709999976,
+      "model_sha256": "c8a41d621cf895b2aa7ff12106b55da252a4e0535b2724792faea228bcccdc01",
+      "weights_sha256": "3001b83933afe79d0d84fb0d5db296b41202afc5313653916bd08ab0fcb52a73"
+    },
+    {
+      "group": "A",
+      "seed": 2026,
+      "appliance": "microwave",
+      "households": [
+        "refit_19",
+        "refit_2"
+      ],
+      "valid_training_windows": 150069,
+      "windows_by_partition": {
+        "source_train_refit_2_0": 93213,
+        "source_train_refit_19_0": 56856
+      },
+      "optimizer_steps": 7044,
+      "selected_checkpoint": 9,
+      "fit_seconds": 29.34222679999948,
+      "model_sha256": "4201ca811962c6f3c6f9afb05cbabc0cffcee0c4b2af76c7659fa51e87063e6f",
+      "weights_sha256": "d75ae30c303c18a2973c4f6a559c1ba86ff1caa573d16b9790635da25362b697"
+    },
+    {
+      "group": "A",
+      "seed": 2026,
+      "appliance": "washing_machine",
+      "households": [
+        "refit_19",
+        "refit_2"
+      ],
+      "valid_training_windows": 150069,
+      "windows_by_partition": {
+        "source_train_refit_2_0": 93213,
+        "source_train_refit_19_0": 56856
+      },
+      "optimizer_steps": 7044,
+      "selected_checkpoint": 7,
+      "fit_seconds": 21.941283699998166,
+      "model_sha256": "1176a78cc469c327ca919a395239063cb25947f9ea1b5d9ec03e74450d6d00e6",
+      "weights_sha256": "3c59ad81a75c8e808b546b1b4b901ec920ee6f3ed1b26448df66fb3f0797ae36"
+    },
+    {
+      "group": "B",
+      "seed": 42,
+      "appliance": "kettle",
+      "households": [
+        "refit_19",
+        "refit_2"
+      ],
+      "valid_training_windows": 426204,
+      "windows_by_partition": {
+        "source_train_refit_2_0": 93213,
+        "source_train_refit_2_1": 144141,
+        "source_train_refit_19_0": 56856,
+        "source_train_refit_19_1": 131994
+      },
+      "optimizer_steps": 7044,
+      "selected_checkpoint": 9,
+      "fit_seconds": 22.852305200001865,
+      "model_sha256": "b6a70361a194765ccbf3f91cf18acf60b9ae840bb9b5e30e679dbbb325583538",
+      "weights_sha256": "1ae14532ac48f309ae4810f2f6e2ff4b6ddca423214a99ed1c7ff02ccae1315c"
+    },
+    {
+      "group": "B",
+      "seed": 42,
+      "appliance": "microwave",
+      "households": [
+        "refit_19",
+        "refit_2"
+      ],
+      "valid_training_windows": 426204,
+      "windows_by_partition": {
+        "source_train_refit_2_0": 93213,
+        "source_train_refit_2_1": 144141,
+        "source_train_refit_19_0": 56856,
+        "source_train_refit_19_1": 131994
+      },
+      "optimizer_steps": 7044,
+      "selected_checkpoint": 10,
+      "fit_seconds": 19.346226199999364,
+      "model_sha256": "3340c067829151d3078bb1fc8ab113953da0fadb1040ed19412c2dfcce48f78f",
+      "weights_sha256": "307969572dc6d76ea4a8c90ead875aff107d28fe5c6a750a2bf51366ba7a7f29"
+    },
+    {
+      "group": "B",
+      "seed": 42,
+      "appliance": "washing_machine",
+      "households": [
+        "refit_19",
+        "refit_2"
+      ],
+      "valid_training_windows": 426204,
+      "windows_by_partition": {
+        "source_train_refit_2_0": 93213,
+        "source_train_refit_2_1": 144141,
+        "source_train_refit_19_0": 56856,
+        "source_train_refit_19_1": 131994
+      },
+      "optimizer_steps": 7044,
+      "selected_checkpoint": 1,
+      "fit_seconds": 20.286401900000783,
+      "model_sha256": "9628e802dd7eb2518a4e01712ff2a2103d33738277030610c0422ec57ab9f6db",
+      "weights_sha256": "7c2cc9c3d0c82e7e6c8d097affa4fa47dfa68c03019c8821c5cd5ac3f1527460"
+    },
+    {
+      "group": "B",
+      "seed": 1019,
+      "appliance": "kettle",
+      "households": [
+        "refit_19",
+        "refit_2"
+      ],
+      "valid_training_windows": 426204,
+      "windows_by_partition": {
+        "source_train_refit_2_0": 93213,
+        "source_train_refit_2_1": 144141,
+        "source_train_refit_19_0": 56856,
+        "source_train_refit_19_1": 131994
+      },
+      "optimizer_steps": 7044,
+      "selected_checkpoint": 9,
+      "fit_seconds": 21.77476899999965,
+      "model_sha256": "9f7658e5839ecbb654449ea3cfe363f9c4cf75a46877ed69c4e591139267d48b",
+      "weights_sha256": "b7cd54917c1be9047bf3b7c4f3f77d8d97890f766b85603a9772c580e80d8330"
+    },
+    {
+      "group": "B",
+      "seed": 1019,
+      "appliance": "microwave",
+      "households": [
+        "refit_19",
+        "refit_2"
+      ],
+      "valid_training_windows": 426204,
+      "windows_by_partition": {
+        "source_train_refit_2_0": 93213,
+        "source_train_refit_2_1": 144141,
+        "source_train_refit_19_0": 56856,
+        "source_train_refit_19_1": 131994
+      },
+      "optimizer_steps": 7044,
+      "selected_checkpoint": 10,
+      "fit_seconds": 27.30199680000078,
+      "model_sha256": "eff3c7a518f1e64142a25857e9741a5ac9c7cc69b31df5249b2b309b7d4f1c21",
+      "weights_sha256": "5ecb44b8c8f569befd869a5264a5f2bd3f6b6520e22337b6ddf05c4cb628caa0"
+    },
+    {
+      "group": "B",
+      "seed": 1019,
+      "appliance": "washing_machine",
+      "households": [
+        "refit_19",
+        "refit_2"
+      ],
+      "valid_training_windows": 426204,
+      "windows_by_partition": {
+        "source_train_refit_2_0": 93213,
+        "source_train_refit_2_1": 144141,
+        "source_train_refit_19_0": 56856,
+        "source_train_refit_19_1": 131994
+      },
+      "optimizer_steps": 7044,
+      "selected_checkpoint": 8,
+      "fit_seconds": 36.247860900002706,
+      "model_sha256": "e6a2659a5e8d95443f7576d747c59ede3d24e37adb1192952ea74515d7a90aaa",
+      "weights_sha256": "c3d2323bfa17197ddc516ece9f5f76dc16d94fbe3564af8c22b15068e4ed3df5"
+    },
+    {
+      "group": "B",
+      "seed": 2026,
+      "appliance": "kettle",
+      "households": [
+        "refit_19",
+        "refit_2"
+      ],
+      "valid_training_windows": 426204,
+      "windows_by_partition": {
+        "source_train_refit_2_0": 93213,
+        "source_train_refit_2_1": 144141,
+        "source_train_refit_19_0": 56856,
+        "source_train_refit_19_1": 131994
+      },
+      "optimizer_steps": 7044,
+      "selected_checkpoint": 12,
+      "fit_seconds": 40.39220299999943,
+      "model_sha256": "227a6e790f298d781b0bb06b4ebbb69029054ce934b92bbb82d9face2f1df011",
+      "weights_sha256": "2e2d3964a01299be55d1bf11832b71ea3e70e64bb41dcc3932c04241dc23176c"
+    },
+    {
+      "group": "B",
+      "seed": 2026,
+      "appliance": "microwave",
+      "households": [
+        "refit_19",
+        "refit_2"
+      ],
+      "valid_training_windows": 426204,
+      "windows_by_partition": {
+        "source_train_refit_2_0": 93213,
+        "source_train_refit_2_1": 144141,
+        "source_train_refit_19_0": 56856,
+        "source_train_refit_19_1": 131994
+      },
+      "optimizer_steps": 7044,
+      "selected_checkpoint": 8,
+      "fit_seconds": 37.675805999999284,
+      "model_sha256": "09125c54dff5e5cebb2381d9c4500582d881484f6a6b10a4a4440e0503a8f3a2",
+      "weights_sha256": "4f7ab032a64aa1568def34e6d2ced21141e6e4b182e38031eee56e688df49a0e"
+    },
+    {
+      "group": "B",
+      "seed": 2026,
+      "appliance": "washing_machine",
+      "households": [
+        "refit_19",
+        "refit_2"
+      ],
+      "valid_training_windows": 426204,
+      "windows_by_partition": {
+        "source_train_refit_2_0": 93213,
+        "source_train_refit_2_1": 144141,
+        "source_train_refit_19_0": 56856,
+        "source_train_refit_19_1": 131994
+      },
+      "optimizer_steps": 7044,
+      "selected_checkpoint": 12,
+      "fit_seconds": 39.98019129999739,
+      "model_sha256": "b2e8dd2b36cd3170df43c988b1a174faa222d6d021f2218b0c766b89f1c1e711",
+      "weights_sha256": "af7a981d42afbd0fb0a251b643a7600088986018c5f0817ca17666d64cec2c3e"
+    },
+    {
+      "group": "C",
+      "seed": 42,
+      "appliance": "kettle",
+      "households": [
+        "refit_19",
+        "refit_2"
+      ],
+      "valid_training_windows": 426204,
+      "windows_by_partition": {
+        "source_train_refit_2_0": 93213,
+        "source_train_refit_2_1": 144141,
+        "source_train_refit_19_0": 56856,
+        "source_train_refit_19_1": 131994,
+        "source_train_refit_10_0": 0,
+        "source_train_refit_10_1": 0,
+        "source_train_refit_12_0": 0,
+        "source_train_refit_12_1": 0,
+        "source_train_refit_15_0": 0,
+        "source_train_refit_15_1": 0,
+        "source_train_refit_16_0": 0,
+        "source_train_refit_16_1": 0,
+        "source_train_refit_18_0": 0,
+        "source_train_refit_18_1": 0
+      },
+      "optimizer_steps": 7044,
+      "selected_checkpoint": 8,
+      "fit_seconds": 37.45527929999662,
+      "model_sha256": "cc30dd574b4a1c893642939a04db5d5367c92ddaf29975434064f322a5b03ce6",
+      "weights_sha256": "0520775c23ed5ae20723aaeb355c10bebbda60bf7b68b4688b6f47c64678a831"
+    },
+    {
+      "group": "C",
+      "seed": 42,
+      "appliance": "microwave",
+      "households": [
+        "refit_10",
+        "refit_12",
+        "refit_15",
+        "refit_18",
+        "refit_19",
+        "refit_2"
+      ],
+      "valid_training_windows": 1340422,
+      "windows_by_partition": {
+        "source_train_refit_2_0": 93213,
+        "source_train_refit_2_1": 144141,
+        "source_train_refit_19_0": 56856,
+        "source_train_refit_19_1": 131994,
+        "source_train_refit_10_0": 78336,
+        "source_train_refit_10_1": 95365,
+        "source_train_refit_12_0": 92792,
+        "source_train_refit_12_1": 130060,
+        "source_train_refit_15_0": 88001,
+        "source_train_refit_15_1": 146310,
+        "source_train_refit_16_0": 0,
+        "source_train_refit_16_1": 0,
+        "source_train_refit_18_0": 134632,
+        "source_train_refit_18_1": 148722
+      },
+      "optimizer_steps": 7044,
+      "selected_checkpoint": 8,
+      "fit_seconds": 55.7112309999975,
+      "model_sha256": "0a7b8f694ce8048603c0414f3a2e6b952bcf791f145aa10d5bd68dfdffafd6d6",
+      "weights_sha256": "523e298cbf342c13515044a4749d35498ae885b4a871365cbc82a2d483b73455"
+    },
+    {
+      "group": "C",
+      "seed": 42,
+      "appliance": "washing_machine",
+      "households": [
+        "refit_10",
+        "refit_15",
+        "refit_16",
+        "refit_18",
+        "refit_19",
+        "refit_2"
+      ],
+      "valid_training_windows": 1301717,
+      "windows_by_partition": {
+        "source_train_refit_2_0": 93213,
+        "source_train_refit_2_1": 144141,
+        "source_train_refit_19_0": 56856,
+        "source_train_refit_19_1": 131994,
+        "source_train_refit_10_0": 78336,
+        "source_train_refit_10_1": 95365,
+        "source_train_refit_12_0": 0,
+        "source_train_refit_12_1": 0,
+        "source_train_refit_15_0": 88001,
+        "source_train_refit_15_1": 146310,
+        "source_train_refit_16_0": 95471,
+        "source_train_refit_16_1": 88676,
+        "source_train_refit_18_0": 134632,
+        "source_train_refit_18_1": 148722
+      },
+      "optimizer_steps": 7044,
+      "selected_checkpoint": 4,
+      "fit_seconds": 55.641888400001335,
+      "model_sha256": "8cbae1699cca0ce025dfcec86673cbdb25493e80d47277a927284b7cc9af2fc5",
+      "weights_sha256": "9953e34cb7e2266ba2ceacd987f5be31babb4ee7b793c8b196f66cdf0d59bfe1"
+    },
+    {
+      "group": "C",
+      "seed": 1019,
+      "appliance": "kettle",
+      "households": [
+        "refit_19",
+        "refit_2"
+      ],
+      "valid_training_windows": 426204,
+      "windows_by_partition": {
+        "source_train_refit_2_0": 93213,
+        "source_train_refit_2_1": 144141,
+        "source_train_refit_19_0": 56856,
+        "source_train_refit_19_1": 131994,
+        "source_train_refit_10_0": 0,
+        "source_train_refit_10_1": 0,
+        "source_train_refit_12_0": 0,
+        "source_train_refit_12_1": 0,
+        "source_train_refit_15_0": 0,
+        "source_train_refit_15_1": 0,
+        "source_train_refit_16_0": 0,
+        "source_train_refit_16_1": 0,
+        "source_train_refit_18_0": 0,
+        "source_train_refit_18_1": 0
+      },
+      "optimizer_steps": 7044,
+      "selected_checkpoint": 9,
+      "fit_seconds": 51.91323630000261,
+      "model_sha256": "4ce38cb043aa0b2b09d7172f47b1c51f9dd95dff2d3aa982f7f435bad799fa87",
+      "weights_sha256": "72e9474cade855c055ecf3151559b9db31791b932813b17ca0e848a8dc627748"
+    },
+    {
+      "group": "C",
+      "seed": 1019,
+      "appliance": "microwave",
+      "households": [
+        "refit_10",
+        "refit_12",
+        "refit_15",
+        "refit_18",
+        "refit_19",
+        "refit_2"
+      ],
+      "valid_training_windows": 1340422,
+      "windows_by_partition": {
+        "source_train_refit_2_0": 93213,
+        "source_train_refit_2_1": 144141,
+        "source_train_refit_19_0": 56856,
+        "source_train_refit_19_1": 131994,
+        "source_train_refit_10_0": 78336,
+        "source_train_refit_10_1": 95365,
+        "source_train_refit_12_0": 92792,
+        "source_train_refit_12_1": 130060,
+        "source_train_refit_15_0": 88001,
+        "source_train_refit_15_1": 146310,
+        "source_train_refit_16_0": 0,
+        "source_train_refit_16_1": 0,
+        "source_train_refit_18_0": 134632,
+        "source_train_refit_18_1": 148722
+      },
+      "optimizer_steps": 7044,
+      "selected_checkpoint": 5,
+      "fit_seconds": 38.94995299999937,
+      "model_sha256": "37f7833c95a838d4bf0a16964b67f0be7c61db4215f864ba5e65a0e3bcd87110",
+      "weights_sha256": "ffea64d7ea59b2a6633172426b48f21395e5cae45c6509b7f5f5eaf5ff5e73c5"
+    },
+    {
+      "group": "C",
+      "seed": 1019,
+      "appliance": "washing_machine",
+      "households": [
+        "refit_10",
+        "refit_15",
+        "refit_16",
+        "refit_18",
+        "refit_19",
+        "refit_2"
+      ],
+      "valid_training_windows": 1301717,
+      "windows_by_partition": {
+        "source_train_refit_2_0": 93213,
+        "source_train_refit_2_1": 144141,
+        "source_train_refit_19_0": 56856,
+        "source_train_refit_19_1": 131994,
+        "source_train_refit_10_0": 78336,
+        "source_train_refit_10_1": 95365,
+        "source_train_refit_12_0": 0,
+        "source_train_refit_12_1": 0,
+        "source_train_refit_15_0": 88001,
+        "source_train_refit_15_1": 146310,
+        "source_train_refit_16_0": 95471,
+        "source_train_refit_16_1": 88676,
+        "source_train_refit_18_0": 134632,
+        "source_train_refit_18_1": 148722
+      },
+      "optimizer_steps": 7044,
+      "selected_checkpoint": 10,
+      "fit_seconds": 30.5295131999992,
+      "model_sha256": "2f1666a30d805bec85f13637be48ca3f0f5266b2b03a3a9e6f656e3c113de3af",
+      "weights_sha256": "c7575edb314d24793690a67e5f1aa76fe94e8f9454d0d16109b11507d1a5b1fb"
+    },
+    {
+      "group": "C",
+      "seed": 2026,
+      "appliance": "kettle",
+      "households": [
+        "refit_19",
+        "refit_2"
+      ],
+      "valid_training_windows": 426204,
+      "windows_by_partition": {
+        "source_train_refit_2_0": 93213,
+        "source_train_refit_2_1": 144141,
+        "source_train_refit_19_0": 56856,
+        "source_train_refit_19_1": 131994,
+        "source_train_refit_10_0": 0,
+        "source_train_refit_10_1": 0,
+        "source_train_refit_12_0": 0,
+        "source_train_refit_12_1": 0,
+        "source_train_refit_15_0": 0,
+        "source_train_refit_15_1": 0,
+        "source_train_refit_16_0": 0,
+        "source_train_refit_16_1": 0,
+        "source_train_refit_18_0": 0,
+        "source_train_refit_18_1": 0
+      },
+      "optimizer_steps": 7044,
+      "selected_checkpoint": 12,
+      "fit_seconds": 21.73081739999907,
+      "model_sha256": "d6d8c9a908f7f29ad3bc8cd97b28615a6ab70305598a8f19ad9e4bf894271b18",
+      "weights_sha256": "6574089aebf97e184228a2025cd6bae3b79058acd272e39fad00ef9b237af18d"
+    },
+    {
+      "group": "C",
+      "seed": 2026,
+      "appliance": "microwave",
+      "households": [
+        "refit_10",
+        "refit_12",
+        "refit_15",
+        "refit_18",
+        "refit_19",
+        "refit_2"
+      ],
+      "valid_training_windows": 1340422,
+      "windows_by_partition": {
+        "source_train_refit_2_0": 93213,
+        "source_train_refit_2_1": 144141,
+        "source_train_refit_19_0": 56856,
+        "source_train_refit_19_1": 131994,
+        "source_train_refit_10_0": 78336,
+        "source_train_refit_10_1": 95365,
+        "source_train_refit_12_0": 92792,
+        "source_train_refit_12_1": 130060,
+        "source_train_refit_15_0": 88001,
+        "source_train_refit_15_1": 146310,
+        "source_train_refit_16_0": 0,
+        "source_train_refit_16_1": 0,
+        "source_train_refit_18_0": 134632,
+        "source_train_refit_18_1": 148722
+      },
+      "optimizer_steps": 7044,
+      "selected_checkpoint": 12,
+      "fit_seconds": 38.3585525999988,
+      "model_sha256": "580eaeb2d1088e03b2152a4e718431f9c13e1819b8ea3e22c6f8694b056a58bf",
+      "weights_sha256": "f5abf02a85e2d5fda42612433d77b2d86955a30a7ef2861a76712e64f0bca70f"
+    },
+    {
+      "group": "C",
+      "seed": 2026,
+      "appliance": "washing_machine",
+      "households": [
+        "refit_10",
+        "refit_15",
+        "refit_16",
+        "refit_18",
+        "refit_19",
+        "refit_2"
+      ],
+      "valid_training_windows": 1301717,
+      "windows_by_partition": {
+        "source_train_refit_2_0": 93213,
+        "source_train_refit_2_1": 144141,
+        "source_train_refit_19_0": 56856,
+        "source_train_refit_19_1": 131994,
+        "source_train_refit_10_0": 78336,
+        "source_train_refit_10_1": 95365,
+        "source_train_refit_12_0": 0,
+        "source_train_refit_12_1": 0,
+        "source_train_refit_15_0": 88001,
+        "source_train_refit_15_1": 146310,
+        "source_train_refit_16_0": 95471,
+        "source_train_refit_16_1": 88676,
+        "source_train_refit_18_0": 134632,
+        "source_train_refit_18_1": 148722
+      },
+      "optimizer_steps": 7044,
+      "selected_checkpoint": 7,
+      "fit_seconds": 37.53334899999754,
+      "model_sha256": "2042d40b2ddb71627a05e7a94bd28ee44cbed0d1f6860b23caed5ddbdb558ca2",
+      "weights_sha256": "d5ee6ffea075e147f9dafb4e1a03ef72f1acdc4eae076a0e64b1ca0983ad6721"
+    }
+  ],
+  "reference_checks": [
+    {
+      "passed": true,
+      "maximum_weight_difference": 0.0,
+      "historical_model_sha256": "91df6847e8a05bac400b1f5b4a8b917411739a048cb08524247b6caba74d1f90",
+      "reproduced_model_sha256": "db0b4e6746aa05ead791eb5c628c35f56bf7ab892bcdc54dd1c57eaf1a1ab543"
+    },
+    {
+      "passed": true,
+      "maximum_weight_difference": 0.0,
+      "historical_model_sha256": "6f4db7483a35c7a589d78a2bd6b4ba6f2f6e3c468b9261172ff482a38565ed5a",
+      "reproduced_model_sha256": "75e8ce039bb7b1746c2b5713148910613e76f83de240b43d7bc950e423f7db3c"
+    },
+    {
+      "passed": true,
+      "maximum_weight_difference": 0.0,
+      "historical_model_sha256": "2b6b1c3a244fb747d2d6669daae370f00d4d0e5e5365ddc1478e48b2e8b5fd9e",
+      "reproduced_model_sha256": "3fa5be021c6a74a02ef10b7faa406b78fd7f1422e340a2ad76aeedce7dd57e4a"
+    }
+  ],
+  "conclusions": {
+    "status": "development_results",
+    "comparisons": [
+      {
+        "comparison": "B-A",
+        "paired_seed_f1_deltas": [
+          -0.011021276363538404,
+          -0.01766493500825938,
+          0.007088625533397813
+        ],
+        "mean_primary_f1_delta": -0.007199195279466657,
+        "positive_seeds": 1,
+        "mean_device_f1_deltas": {
+          "kettle": -0.010864083479067052,
+          "microwave": -0.003534307079866262,
+          "washing_machine": -0.039076795505238626
+        },
+        "new_degenerate_cases": 0,
+        "internal_target_met": false,
+        "final_generalization_accepted": false
+      },
+      {
+        "comparison": "C-B",
+        "paired_seed_f1_deltas": [
+          -0.023441835136658706,
+          -0.00400480641471751,
+          -0.019650817192035853
+        ],
+        "mean_primary_f1_delta": -0.01569915291447069,
+        "positive_seeds": 0,
+        "mean_device_f1_deltas": {
+          "kettle": -0.029505707487500404,
+          "microwave": -0.0018925983414409774,
+          "washing_machine": -0.004413634569936477
+        },
+        "new_degenerate_cases": 0,
+        "internal_target_met": false,
+        "final_generalization_accepted": false
+      }
+    ],
+    "final_households_accessed": false,
+    "ui_default_changed": false,
+    "external_status": {
+      "status": "blocked_acquisition_incomplete",
+      "reason": "Official download acquisition deadline exceeded; verified ranges retained",
+      "verified_ranges": 12,
+      "total_ranges": 428,
+      "source_url": "https://dap.ceda.ac.uk/edc/d1/7d78f943-f9fe-413b-af52-1816f9d968b0/data/version_0/ukdale.zip",
+      "archive_bytes": 3585155959,
+      "deadline_seconds": 600,
+      "source_receipt": "D:\\system position\\document\\真正的文档\\AIC\\data\\raw\\ukdale_2017_20261024\\range_acquisition_failed.json",
+      "source_receipt_sha256": "22bc66085e46f271b573e0c8aff5428ecda96e8896cf094554572178ba089a5a",
+      "test_house_replaced": false,
+      "group_D_trained": false,
+      "external_labels_evaluated": false,
+      "automatic_download_process_running": false
+    }
+  }
+}

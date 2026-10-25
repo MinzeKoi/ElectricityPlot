@@ -1,0 +1,9 @@
+{
+  "run": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-tcn-20261025-v3",
+  "freeze_sha256": "47e5602103a444c42c63cb3f185fa42ec821bb497bb450ff6015c65ac5e94027",
+  "registration_sha256": "1cd50f61d2702d84b984fe08aff5aa2ff8eb4d5bba28f102626226e958dbf72b",
+  "delivery_sha256": "6a218e5968b58446895cc48cc02e1224ebf1960038955298962ae76444bcc954",
+  "prior_failed_starts": 1,
+  "prior_successful_fits": 6,
+  "prior_updates": 21462
+}

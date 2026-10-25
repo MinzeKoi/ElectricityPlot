@@ -1,0 +1,65 @@
+{
+  "checks": [
+    {
+      "arm": "strict_mask",
+      "seed": 42,
+      "valid_input_centers": 139437,
+      "ordinary_scores_exact": true,
+      "ordinary_state_exact": true,
+      "raw_A_exact": true,
+      "input_center_t_sha256": "9c058561394d89386a0c1240edcd8d1c3e74f3feb79e2c51901978a0babf0cd3",
+      "weights_sha256": "64871212b9326ad1d67ceab40a2612464c95eb70c99acfd91e2b2eb279a49de7"
+    },
+    {
+      "arm": "strict_mask",
+      "seed": 1019,
+      "valid_input_centers": 139437,
+      "ordinary_scores_exact": true,
+      "ordinary_state_exact": true,
+      "raw_A_exact": true,
+      "input_center_t_sha256": "9c058561394d89386a0c1240edcd8d1c3e74f3feb79e2c51901978a0babf0cd3",
+      "weights_sha256": "43fee5bcbae6bc8e807eea516b901acfeb22a7b08c5a3030b9f372ec31106160"
+    },
+    {
+      "arm": "strict_mask",
+      "seed": 2026,
+      "valid_input_centers": 139437,
+      "ordinary_scores_exact": true,
+      "ordinary_state_exact": true,
+      "raw_A_exact": true,
+      "input_center_t_sha256": "9c058561394d89386a0c1240edcd8d1c3e74f3feb79e2c51901978a0babf0cd3",
+      "weights_sha256": "827b4d55abec336f0a993919a0055822f1601c2b49ab6a91462e8d1422972b1e"
+    },
+    {
+      "arm": "partial_mask",
+      "seed": 42,
+      "valid_input_centers": 139437,
+      "ordinary_scores_exact": true,
+      "ordinary_state_exact": true,
+      "raw_A_exact": true,
+      "input_center_t_sha256": "9c058561394d89386a0c1240edcd8d1c3e74f3feb79e2c51901978a0babf0cd3",
+      "weights_sha256": "05df8bac32bc7d85f2d3c527974359b8f89a0b6f764ea1507d5a952c6ff970aa"
+    },
+    {
+      "arm": "partial_mask",
+      "seed": 1019,
+      "valid_input_centers": 139437,
+      "ordinary_scores_exact": true,
+      "ordinary_state_exact": true,
+      "raw_A_exact": true,
+      "input_center_t_sha256": "9c058561394d89386a0c1240edcd8d1c3e74f3feb79e2c51901978a0babf0cd3",
+      "weights_sha256": "2dee0d398f8565c1ebae1b735612767c28664c0e41d745295f9ec3ab87f49364"
+    },
+    {
+      "arm": "partial_mask",
+      "seed": 2026,
+      "valid_input_centers": 139437,
+      "ordinary_scores_exact": true,
+      "ordinary_state_exact": true,
+      "raw_A_exact": true,
+      "input_center_t_sha256": "9c058561394d89386a0c1240edcd8d1c3e74f3feb79e2c51901978a0babf0cd3",
+      "weights_sha256": "3e55ca71da7ddaa3e74d2529c9e6bd6e6c64b8a4321394f61bbf8030ae0d5af6"
+    }
+  ],
+  "house17_labels_opened": false
+}

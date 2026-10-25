@@ -1,0 +1,53 @@
+Fitting R_PR seed=42
+epoch 1/12: source validation normalized MAE=0.146194
+epoch 2/12: source validation normalized MAE=0.152327
+epoch 3/12: source validation normalized MAE=0.078543
+epoch 4/12: source validation normalized MAE=0.076864
+epoch 5/12: source validation normalized MAE=0.086126
+epoch 6/12: source validation normalized MAE=0.063802
+epoch 7/12: source validation normalized MAE=0.089211
+epoch 8/12: source validation normalized MAE=0.069733
+epoch 9/12: source validation normalized MAE=0.048177
+epoch 10/12: source validation normalized MAE=0.061881
+epoch 11/12: source validation normalized MAE=0.053447
+epoch 12/12: source validation normalized MAE=0.052154
+Fitting R_PR seed=1019
+epoch 1/12: source validation normalized MAE=0.117111
+epoch 2/12: source validation normalized MAE=0.118584
+epoch 3/12: source validation normalized MAE=0.075350
+epoch 4/12: source validation normalized MAE=0.077017
+epoch 5/12: source validation normalized MAE=0.066992
+epoch 6/12: source validation normalized MAE=0.081960
+epoch 7/12: source validation normalized MAE=0.040449
+epoch 8/12: source validation normalized MAE=0.058494
+epoch 9/12: source validation normalized MAE=0.061587
+epoch 10/12: source validation normalized MAE=0.052611
+epoch 11/12: source validation normalized MAE=0.049214
+epoch 12/12: source validation normalized MAE=0.052124
+Fitting R_PR seed=2026
+epoch 1/12: source validation normalized MAE=0.209742
+epoch 2/12: source validation normalized MAE=0.151988
+epoch 3/12: source validation normalized MAE=0.106643
+epoch 4/12: source validation normalized MAE=0.085931
+epoch 5/12: source validation normalized MAE=0.072867
+epoch 6/12: source validation normalized MAE=0.061677
+epoch 7/12: source validation normalized MAE=0.067467
+epoch 8/12: source validation normalized MAE=0.052563
+epoch 9/12: source validation normalized MAE=0.040306
+epoch 10/12: source validation normalized MAE=0.046628
+epoch 11/12: source validation normalized MAE=0.040747
+epoch 12/12: source validation normalized MAE=0.056153
+Fitting C31 seed=42
+C31 seed=42 checkpoint=1/12 source_P=0.14562 R=0.85229
+C31 seed=42 checkpoint=2/12 source_P=0.16922 R=0.85290
+C31 seed=42 checkpoint=3/12 source_P=0.18878 R=0.85909
+C31 seed=42 checkpoint=4/12 source_P=0.08051 R=0.85043
+C31 seed=42 checkpoint=5/12 source_P=0.07633 R=0.85290
+C31 seed=42 checkpoint=6/12 source_P=0.06435 R=0.85043
+C31 seed=42 checkpoint=7/12 source_P=0.12347 R=0.85043
+C31 seed=42 checkpoint=8/12 source_P=0.11372 R=0.86959
+C31 seed=42 checkpoint=9/12 source_P=0.16196 R=0.85043
+C31 seed=42 checkpoint=10/12 source_P=0.08433 R=0.85105
+C31 seed=42 checkpoint=11/12 source_P=0.11139 R=0.85105
+C31 seed=42 checkpoint=12/12 source_P=0.05364 R=0.85043
+{"status": "state_failed", "error": "Independent state inference readback differs"}

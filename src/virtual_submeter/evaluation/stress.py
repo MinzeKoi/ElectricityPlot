@@ -113,7 +113,6 @@ def stress_test(model_dir: Path, manifest_path: Path, partition_id: str, setting
         validate_output(stressed)
         stressed["quality_summary"] = quality_summary(stressed)
         write_json(staging / "injected/predictions.json", stressed)
-        write_json(staging / "injected/run.json", {k: v for k, v in stressed.items() if k != "rows"})
         write_prediction_csv(staging / "injected/predictions.csv", stressed)
         write_json(staging / "frozen_predictions.json", {"baseline_sha256": sha256(staging / "baseline/predictions.json"),
                    "injected_sha256": sha256(staging / "injected/predictions.json"), "settings_sha256": sha256(staging / "settings.json"),

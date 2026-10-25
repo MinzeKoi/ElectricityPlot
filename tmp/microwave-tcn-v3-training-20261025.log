@@ -1,0 +1,102 @@
+mask TCN31 seed=42 checkpoint=1/12 source_eligible=True
+mask TCN31 seed=42 checkpoint=2/12 source_eligible=True
+mask TCN31 seed=42 checkpoint=3/12 source_eligible=True
+mask TCN31 seed=42 checkpoint=4/12 source_eligible=True
+mask TCN31 seed=42 checkpoint=5/12 source_eligible=True
+mask TCN31 seed=42 checkpoint=6/12 source_eligible=True
+mask TCN31 seed=42 checkpoint=7/12 source_eligible=True
+mask TCN31 seed=42 checkpoint=8/12 source_eligible=True
+mask TCN31 seed=42 checkpoint=9/12 source_eligible=True
+mask TCN31 seed=42 checkpoint=10/12 source_eligible=True
+mask TCN31 seed=42 checkpoint=11/12 source_eligible=True
+mask TCN31 seed=42 checkpoint=12/12 source_eligible=True
+mask TCN31 seed=1019 checkpoint=1/12 source_eligible=True
+mask TCN31 seed=1019 checkpoint=2/12 source_eligible=True
+mask TCN31 seed=1019 checkpoint=3/12 source_eligible=True
+mask TCN31 seed=1019 checkpoint=4/12 source_eligible=True
+mask TCN31 seed=1019 checkpoint=5/12 source_eligible=True
+mask TCN31 seed=1019 checkpoint=6/12 source_eligible=True
+mask TCN31 seed=1019 checkpoint=7/12 source_eligible=True
+mask TCN31 seed=1019 checkpoint=8/12 source_eligible=True
+mask TCN31 seed=1019 checkpoint=9/12 source_eligible=True
+mask TCN31 seed=1019 checkpoint=10/12 source_eligible=True
+mask TCN31 seed=1019 checkpoint=11/12 source_eligible=True
+mask TCN31 seed=1019 checkpoint=12/12 source_eligible=True
+mask TCN31 seed=2026 checkpoint=1/12 source_eligible=True
+mask TCN31 seed=2026 checkpoint=2/12 source_eligible=True
+mask TCN31 seed=2026 checkpoint=3/12 source_eligible=True
+mask TCN31 seed=2026 checkpoint=4/12 source_eligible=True
+mask TCN31 seed=2026 checkpoint=5/12 source_eligible=True
+mask TCN31 seed=2026 checkpoint=6/12 source_eligible=True
+mask TCN31 seed=2026 checkpoint=7/12 source_eligible=True
+mask TCN31 seed=2026 checkpoint=8/12 source_eligible=True
+mask TCN31 seed=2026 checkpoint=9/12 source_eligible=True
+mask TCN31 seed=2026 checkpoint=10/12 source_eligible=True
+mask TCN31 seed=2026 checkpoint=11/12 source_eligible=True
+mask TCN31 seed=2026 checkpoint=12/12 source_eligible=True
+mask TCN127 seed=42 checkpoint=1/12 source_eligible=True
+mask TCN127 seed=42 checkpoint=2/12 source_eligible=True
+mask TCN127 seed=42 checkpoint=3/12 source_eligible=True
+mask TCN127 seed=42 checkpoint=4/12 source_eligible=True
+mask TCN127 seed=42 checkpoint=5/12 source_eligible=True
+mask TCN127 seed=42 checkpoint=6/12 source_eligible=True
+mask TCN127 seed=42 checkpoint=7/12 source_eligible=True
+mask TCN127 seed=42 checkpoint=8/12 source_eligible=True
+mask TCN127 seed=42 checkpoint=9/12 source_eligible=True
+mask TCN127 seed=42 checkpoint=10/12 source_eligible=True
+mask TCN127 seed=42 checkpoint=11/12 source_eligible=True
+mask TCN127 seed=42 checkpoint=12/12 source_eligible=True
+mask TCN127 seed=1019 checkpoint=1/12 source_eligible=True
+mask TCN127 seed=1019 checkpoint=2/12 source_eligible=True
+mask TCN127 seed=1019 checkpoint=3/12 source_eligible=True
+mask TCN127 seed=1019 checkpoint=4/12 source_eligible=True
+mask TCN127 seed=1019 checkpoint=5/12 source_eligible=True
+mask TCN127 seed=1019 checkpoint=6/12 source_eligible=True
+mask TCN127 seed=1019 checkpoint=7/12 source_eligible=True
+mask TCN127 seed=1019 checkpoint=8/12 source_eligible=True
+mask TCN127 seed=1019 checkpoint=9/12 source_eligible=True
+mask TCN127 seed=1019 checkpoint=10/12 source_eligible=True
+mask TCN127 seed=1019 checkpoint=11/12 source_eligible=True
+mask TCN127 seed=1019 checkpoint=12/12 source_eligible=True
+mask TCN127 seed=2026 checkpoint=1/12 source_eligible=True
+mask TCN127 seed=2026 checkpoint=2/12 source_eligible=True
+mask TCN127 seed=2026 checkpoint=3/12 source_eligible=True
+mask TCN127 seed=2026 checkpoint=4/12 source_eligible=True
+mask TCN127 seed=2026 checkpoint=5/12 source_eligible=True
+mask TCN127 seed=2026 checkpoint=6/12 source_eligible=True
+mask TCN127 seed=2026 checkpoint=7/12 source_eligible=True
+mask TCN127 seed=2026 checkpoint=8/12 source_eligible=True
+mask TCN127 seed=2026 checkpoint=9/12 source_eligible=True
+mask TCN127 seed=2026 checkpoint=10/12 source_eligible=True
+mask TCN127 seed=2026 checkpoint=11/12 source_eligible=True
+mask TCN127 seed=2026 checkpoint=12/12 source_eligible=True
+{
+  "status": "training_complete",
+  "fits": 6,
+  "source_selection": {
+    "selected_arm": "TCN127",
+    "arms": [
+      {
+        "arm": "partial_mask",
+        "eligible": true,
+        "mean_precision": 0.2139767740114613,
+        "mean_f1": 0.32684018808516974
+      },
+      {
+        "arm": "TCN31",
+        "eligible": true,
+        "mean_precision": 0.22757574055776772,
+        "mean_f1": 0.3410765792621067
+      },
+      {
+        "arm": "TCN127",
+        "eligible": true,
+        "mean_precision": 0.23716648366320306,
+        "mean_f1": 0.35754417392432986
+      }
+    ],
+    "source_only": true,
+    "improvement_candidate": true,
+    "no_deployable_candidate": false
+  }
+}

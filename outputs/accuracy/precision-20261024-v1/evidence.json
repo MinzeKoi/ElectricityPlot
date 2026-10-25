@@ -1,0 +1,10 @@
+{
+  "artifacts": {
+    "metrics.json": "3b74e7033566b4905db2ab1ab6f3836e8cb0a2e51ccac5fa29f8184a764941c8",
+    "summary.json": "d7cced54aca230595338df72d7ce6499f90c1938df292e838c69b651a55de439",
+    "comparison.csv": "907f76dded81e99b50a13807679a8214544f0d614b8da2525c7d10eebb0a08fc",
+    "error_segments.csv": "f9a7573026890a3f47b374ffdbd94e926557c22a886f8857a095efe2aa1e6029",
+    "error_curves.csv": "cf950745e8c9b1b0448fa223d9c6ccaed5490b4a1c87fcc3104b472c3a2ea3d8",
+    "report.html": "e9d76cf4a91f5c034ac7f09fdeedb738bb2825b934aad3fe62f1f031ba70c04e"
+  }
+}

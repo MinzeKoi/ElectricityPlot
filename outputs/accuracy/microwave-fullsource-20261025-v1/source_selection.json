@@ -1,0 +1,27 @@
+{
+  "selected_arm": "event",
+  "improvement_candidate": true,
+  "no_deployable_candidate": false,
+  "natural_source_gate_passed": true,
+  "arms": [
+    {
+      "arm": "natural",
+      "eligible": true,
+      "mean_precision": 0.13475046362056994,
+      "mean_f1": 0.22616574353797939
+    },
+    {
+      "arm": "event",
+      "eligible": true,
+      "mean_precision": 0.22253327015982516,
+      "mean_f1": 0.3350842093750643
+    },
+    {
+      "arm": "event_background",
+      "eligible": true,
+      "mean_precision": 0.22028807251737414,
+      "mean_f1": 0.33212622186755975
+    }
+  ],
+  "source_only": true
+}

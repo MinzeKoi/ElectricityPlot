@@ -1,0 +1,122 @@
+{
+  "block_0": {
+    "core_file_sha256": "9aeb4bb0e10c1c67473cb1c99e0ab5ee85339eb072fc4b9aa3eb13c509ca0abd",
+    "windows": 18063,
+    "positive_windows": 676,
+    "negative_windows": 17387,
+    "events": 65,
+    "effective_seconds": 144504,
+    "expected_grid_points": 21600,
+    "excluded_grid_points": 3537,
+    "positive_fraction": 0.03742456956208825,
+    "dates_utc": [
+      16389,
+      16390
+    ],
+    "start": "2014-11-15T00:00:00Z",
+    "end": "2014-11-17T00:00:00Z",
+    "supported": true,
+    "complete_observed_segments": 27,
+    "partially_supported_segments": 38
+  },
+  "block_1": {
+    "core_file_sha256": "6b31ff5f93c5a19a2b0997d40f749f20ecc1acc723e2954455e81340d5fb1c25",
+    "windows": 20518,
+    "positive_windows": 205,
+    "negative_windows": 20313,
+    "events": 17,
+    "effective_seconds": 164144,
+    "expected_grid_points": 21600,
+    "excluded_grid_points": 1082,
+    "positive_fraction": 0.009991227215128181,
+    "dates_utc": [
+      16391,
+      16392
+    ],
+    "start": "2014-11-17T00:00:00Z",
+    "end": "2014-11-19T00:00:00Z",
+    "supported": true,
+    "complete_observed_segments": 6,
+    "partially_supported_segments": 11
+  },
+  "block_2": {
+    "core_file_sha256": "9150ba19102b3b54ed96444b658e2b3aca32548f426936ec0e686a33de3d21a0",
+    "windows": 20641,
+    "positive_windows": 303,
+    "negative_windows": 20338,
+    "events": 29,
+    "effective_seconds": 165128,
+    "expected_grid_points": 21600,
+    "excluded_grid_points": 959,
+    "positive_fraction": 0.0146795213410203,
+    "dates_utc": [
+      16393,
+      16394
+    ],
+    "start": "2014-11-19T00:00:00Z",
+    "end": "2014-11-21T00:00:00Z",
+    "supported": true,
+    "complete_observed_segments": 15,
+    "partially_supported_segments": 14
+  },
+  "block_3": {
+    "core_file_sha256": "0b9b7852c67880119b441da583330f29c5fa275d177eab3c2cab02c731232c7d",
+    "windows": 16213,
+    "positive_windows": 183,
+    "negative_windows": 16030,
+    "events": 19,
+    "effective_seconds": 129704,
+    "expected_grid_points": 21600,
+    "excluded_grid_points": 5387,
+    "positive_fraction": 0.01128723863566274,
+    "dates_utc": [
+      16395,
+      16396
+    ],
+    "start": "2014-11-21T00:00:00Z",
+    "end": "2014-11-23T00:00:00Z",
+    "supported": true,
+    "complete_observed_segments": 5,
+    "partially_supported_segments": 14
+  },
+  "block_4": {
+    "core_file_sha256": "2b50a7a4fca7b5f56721bef4b32bc017a42fb14b325623aa22848d3a8c47189f",
+    "windows": 19127,
+    "positive_windows": 136,
+    "negative_windows": 18991,
+    "events": 10,
+    "effective_seconds": 153016,
+    "expected_grid_points": 21600,
+    "excluded_grid_points": 2473,
+    "positive_fraction": 0.007110367543263449,
+    "dates_utc": [
+      16397,
+      16398
+    ],
+    "start": "2014-11-23T00:00:00Z",
+    "end": "2014-11-25T00:00:00Z",
+    "supported": true,
+    "complete_observed_segments": 7,
+    "partially_supported_segments": 3
+  },
+  "block_5": {
+    "core_file_sha256": "57242cb1495f1a2fa521f7888a760fd9f37d7e3b7801c3f2014901d10c089a4e",
+    "windows": 15224,
+    "positive_windows": 65,
+    "negative_windows": 15159,
+    "events": 10,
+    "effective_seconds": 121792,
+    "expected_grid_points": 21600,
+    "excluded_grid_points": 6376,
+    "positive_fraction": 0.004269574356279559,
+    "dates_utc": [
+      16399,
+      16400
+    ],
+    "start": "2014-11-25T00:00:00Z",
+    "end": "2014-11-27T00:00:00Z",
+    "supported": true,
+    "complete_observed_segments": 4,
+    "partially_supported_segments": 6
+  }
+}

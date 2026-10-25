@@ -1,0 +1,178 @@
+A0 freeze prediction: house_3/random/seed_42/budget_0
+A0 freeze prediction: house_3/random/seed_42/budget_5
+A0 freeze prediction: house_3/proposed/seed_42/budget_0
+A0 freeze prediction: house_3/proposed/seed_42/budget_5
+epoch 1/2: source validation normalized MAE=0.497888
+epoch 2/2: source validation normalized MAE=0.497538
+epoch 1/2: source validation normalized MAE=0.497888
+epoch 2/2: source validation normalized MAE=0.497538
+epoch 1/2: source validation normalized MAE=0.045716
+epoch 2/2: source validation normalized MAE=0.044864
+epoch 1/2: source validation normalized MAE=0.498126
+epoch 2/2: source validation normalized MAE=0.497966
+epoch 1/2: source validation normalized MAE=0.498126
+epoch 2/2: source validation normalized MAE=0.497965
+epoch 1/2: source validation normalized MAE=0.498126
+epoch 2/2: source validation normalized MAE=0.497965
+epoch 1/2: source validation normalized MAE=0.496989
+epoch 2/2: source validation normalized MAE=0.496849
+2026-10-25 00:20:33.328 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-10-25 00:20:33.709 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+epoch 1/2: source validation normalized MAE=0.496989
+epoch 2/2: source validation normalized MAE=0.496849
+2026-10-25 00:20:34.521 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+epoch 1/2: source validation normalized MAE=0.496989
+epoch 2/2: source validation normalized MAE=0.496849
+epoch 1/2: source validation normalized MAE=0.496989
+epoch 2/2: source validation normalized MAE=0.496849
+epoch 1/2: source validation normalized MAE=0.496989
+epoch 2/2: source validation normalized MAE=0.496849
+2026-10-25 00:20:50.948 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+M5 freeze: source training and all adaptation cases, seed=42
+M5 freeze: source training and all adaptation cases, seed=1019
+M5 freeze: test aggregate prediction B0_house_3_seed_42
+M5 freeze: test aggregate prediction B1_house_3_seed_42
+M5 freeze: test aggregate prediction B2_house_3_seed_42_budget_0
+M5 freeze: test aggregate prediction B2_house_3_seed_42_budget_5
+M5 freeze: test aggregate prediction B3_house_3_seed_42_budget_0
+M5 freeze: test aggregate prediction B3_house_3_seed_42_budget_5
+M5 freeze: test aggregate prediction P1_house_3_seed_42_budget_0
+M5 freeze: test aggregate prediction P1_house_3_seed_42_budget_5
+M5 freeze: test aggregate prediction B0_house_3_seed_1019
+M5 freeze: test aggregate prediction B1_house_3_seed_1019
+M5 freeze: test aggregate prediction B2_house_3_seed_1019_budget_0
+M5 freeze: test aggregate prediction B2_house_3_seed_1019_budget_5
+M5 freeze: test aggregate prediction B3_house_3_seed_1019_budget_0
+M5 freeze: test aggregate prediction B3_house_3_seed_1019_budget_5
+M5 freeze: test aggregate prediction P1_house_3_seed_1019_budget_0
+M5 freeze: test aggregate prediction P1_house_3_seed_1019_budget_5
+M5 evaluate: B0_house_3_seed_42
+M5 freeze: source training and all adaptation cases, seed=42
+M5 freeze: source training and all adaptation cases, seed=42
+M5 freeze: source training and all adaptation cases, seed=1019
+M5 freeze: test aggregate prediction B0_house_3_seed_42
+M5 freeze: test aggregate prediction B1_house_3_seed_42
+M5 freeze: test aggregate prediction B2_house_3_seed_42_budget_0
+M5 freeze: test aggregate prediction B2_house_3_seed_42_budget_5
+M5 freeze: test aggregate prediction B3_house_3_seed_42_budget_0
+M5 freeze: test aggregate prediction B3_house_3_seed_42_budget_5
+M5 freeze: test aggregate prediction P1_house_3_seed_42_budget_0
+M5 freeze: test aggregate prediction P1_house_3_seed_42_budget_5
+M5 freeze: test aggregate prediction B0_house_3_seed_1019
+M5 freeze: test aggregate prediction B1_house_3_seed_1019
+M5 freeze: test aggregate prediction B2_house_3_seed_1019_budget_0
+M5 freeze: test aggregate prediction B2_house_3_seed_1019_budget_5
+M5 freeze: test aggregate prediction B3_house_3_seed_1019_budget_0
+M5 freeze: test aggregate prediction B3_house_3_seed_1019_budget_5
+M5 freeze: test aggregate prediction P1_house_3_seed_1019_budget_0
+M5 freeze: test aggregate prediction P1_house_3_seed_1019_budget_5
+M5 freeze: source training and all adaptation cases, seed=42
+M5 freeze: source training and all adaptation cases, seed=1019
+M5 freeze: test aggregate prediction B0_house_3_seed_42
+M5 freeze: test aggregate prediction B1_house_3_seed_42
+M5 freeze: test aggregate prediction B2_house_3_seed_42_budget_0
+M5 freeze: test aggregate prediction B2_house_3_seed_42_budget_5
+M5 freeze: test aggregate prediction B3_house_3_seed_42_budget_0
+M5 freeze: test aggregate prediction B3_house_3_seed_42_budget_5
+M5 freeze: test aggregate prediction P1_house_3_seed_42_budget_0
+M5 freeze: test aggregate prediction P1_house_3_seed_42_budget_5
+M5 freeze: test aggregate prediction B0_house_3_seed_1019
+M5 freeze: test aggregate prediction B1_house_3_seed_1019
+M5 freeze: test aggregate prediction B2_house_3_seed_1019_budget_0
+M5 freeze: test aggregate prediction B2_house_3_seed_1019_budget_5
+M5 freeze: test aggregate prediction B3_house_3_seed_1019_budget_0
+M5 freeze: test aggregate prediction B3_house_3_seed_1019_budget_5
+M5 freeze: test aggregate prediction P1_house_3_seed_1019_budget_0
+M5 freeze: test aggregate prediction P1_house_3_seed_1019_budget_5
+M5 evaluate: B0_house_3_seed_42
+M5 evaluate: B1_house_3_seed_42
+M5 evaluate: B2_house_3_seed_42_budget_0
+M5 evaluate: B2_house_3_seed_42_budget_5
+M5 evaluate: B3_house_3_seed_42_budget_0
+M5 evaluate: B3_house_3_seed_42_budget_5
+M5 evaluate: P1_house_3_seed_42_budget_0
+M5 evaluate: P1_house_3_seed_42_budget_5
+M5 evaluate: B0_house_3_seed_1019
+M5 evaluate: B1_house_3_seed_1019
+M5 evaluate: B2_house_3_seed_1019_budget_0
+M5 evaluate: B2_house_3_seed_1019_budget_5
+M5 evaluate: B3_house_3_seed_1019_budget_0
+M5 evaluate: B3_house_3_seed_1019_budget_5
+M5 evaluate: P1_house_3_seed_1019_budget_0
+M5 evaluate: P1_house_3_seed_1019_budget_5
+M5 background stress: P1_house_3_seed_42_budget_0
+M5 background stress: P1_house_3_seed_42_budget_5
+M5 background stress: P1_house_3_seed_1019_budget_0
+M5 background stress: P1_house_3_seed_1019_budget_5
+M5 freeze: source training and all adaptation cases, seed=42
+M5 freeze: source training and all adaptation cases, seed=1019
+M5 freeze: test aggregate prediction B0_house_3_seed_42
+M5 freeze: test aggregate prediction B1_house_3_seed_42
+M5 freeze: test aggregate prediction B2_house_3_seed_42_budget_0
+M5 freeze: test aggregate prediction B2_house_3_seed_42_budget_5
+M5 freeze: test aggregate prediction B3_house_3_seed_42_budget_0
+M5 freeze: test aggregate prediction B3_house_3_seed_42_budget_5
+M5 freeze: test aggregate prediction P1_house_3_seed_42_budget_0
+M5 freeze: test aggregate prediction P1_house_3_seed_42_budget_5
+M5 freeze: test aggregate prediction B0_house_3_seed_1019
+M5 freeze: test aggregate prediction B1_house_3_seed_1019
+M5 freeze: test aggregate prediction B2_house_3_seed_1019_budget_0
+M5 freeze: test aggregate prediction B2_house_3_seed_1019_budget_5
+M5 freeze: test aggregate prediction B3_house_3_seed_1019_budget_0
+M5 freeze: test aggregate prediction B3_house_3_seed_1019_budget_5
+M5 freeze: test aggregate prediction P1_house_3_seed_1019_budget_0
+M5 freeze: test aggregate prediction P1_house_3_seed_1019_budget_5
+M5 evaluate: B0_house_3_seed_42
+M5 evaluate: B1_house_3_seed_42
+M5 evaluate: B2_house_3_seed_42_budget_0
+M5 evaluate: B2_house_3_seed_42_budget_5
+M5 evaluate: B3_house_3_seed_42_budget_0
+M5 evaluate: B3_house_3_seed_42_budget_5
+M5 evaluate: P1_house_3_seed_42_budget_0
+M5 evaluate: P1_house_3_seed_42_budget_5
+M5 evaluate: B0_house_3_seed_1019
+M5 evaluate: B1_house_3_seed_1019
+M5 evaluate: B2_house_3_seed_1019_budget_0
+M5 evaluate: B2_house_3_seed_1019_budget_5
+M5 evaluate: B3_house_3_seed_1019_budget_0
+M5 evaluate: B3_house_3_seed_1019_budget_5
+M5 evaluate: P1_house_3_seed_1019_budget_0
+M5 evaluate: P1_house_3_seed_1019_budget_5
+M5 background stress: P1_house_3_seed_42_budget_0
+M5 background stress: P1_house_3_seed_42_budget_5
+M5 background stress: P1_house_3_seed_1019_budget_0
+M5 background stress: P1_house_3_seed_1019_budget_5
+epoch 1/2: source validation normalized MAE=0.498126
+epoch 2/2: source validation normalized MAE=0.497966
+epoch 1/2: source validation normalized MAE=0.498126
+epoch 2/2: source validation normalized MAE=0.497966
+epoch 1/2: source validation normalized MAE=0.498126
+epoch 2/2: source validation normalized MAE=0.497966
+epoch 1/2: source validation normalized MAE=0.498126
+epoch 2/2: source validation normalized MAE=0.497966
+epoch 1/2: source validation normalized MAE=0.497888
+epoch 2/2: source validation normalized MAE=0.497538
+epoch 1/2: source validation normalized MAE=0.020040
+epoch 2/2: source validation normalized MAE=0.380000
+epoch 1/2: source validation normalized MAE=0.020040
+epoch 2/2: source validation normalized MAE=0.380000
+epoch 1/2: source validation normalized MAE=0.497888
+epoch 2/2: source validation normalized MAE=0.497538
+epoch 1/2: source validation normalized MAE=0.497888
+epoch 2/2: source validation normalized MAE=0.497538
+epoch 1/2: source validation normalized MAE=0.497888
+epoch 2/2: source validation normalized MAE=0.497538
+epoch 1/2: source validation normalized MAE=0.496989
+epoch 2/2: source validation normalized MAE=0.496849
+2026-10-25 00:21:42.417 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-10-25 00:21:42.771 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+epoch 1/2: source validation normalized MAE=0.497888
+epoch 2/2: source validation normalized MAE=0.497538
+epoch 1/2: source validation normalized MAE=0.497888
+epoch 2/2: source validation normalized MAE=0.497538
+epoch 1/2: source validation normalized MAE=0.497888
+epoch 2/2: source validation normalized MAE=0.497538
+----------------------------------------------------------------------
+Ran 183 tests in 132.779s
+
+OK

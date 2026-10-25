@@ -1,0 +1,43 @@
+{
+  "selected": "C61",
+  "source_gate_passed": true,
+  "selection_data": "source_validation_common_support_only",
+  "candidates": [
+    {
+      "candidate": "R_PR",
+      "eligible": false,
+      "mean_precision": 0.1735223122548588,
+      "mean_f1": 0.2871868291088029
+    },
+    {
+      "candidate": "C31",
+      "eligible": true,
+      "mean_precision": 0.14345648032666639,
+      "mean_f1": 0.24439795885559468
+    },
+    {
+      "candidate": "C_EVENT",
+      "eligible": false,
+      "mean_precision": 0.1676670409183858,
+      "mean_f1": 0.2785310861727617
+    },
+    {
+      "candidate": "C_HARD",
+      "eligible": true,
+      "mean_precision": 0.1499966492025903,
+      "mean_f1": 0.2545674820528991
+    },
+    {
+      "candidate": "C_FEATURES",
+      "eligible": false,
+      "mean_precision": 0.19689770729942094,
+      "mean_f1": 0.31946579950131043
+    },
+    {
+      "candidate": "C61",
+      "eligible": true,
+      "mean_precision": 0.18817937006345672,
+      "mean_f1": 0.3081498037445915
+    }
+  ]
+}

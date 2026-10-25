@@ -1,0 +1,234 @@
+small seed=42 step=100 P=0.5000 R=1.0000 BCE=2.23589
+small seed=42 step=200 P=0.4962 R=1.0000 BCE=1.20947
+small seed=42 step=300 P=0.5323 R=1.0000 BCE=0.88759
+small seed=42 step=400 P=0.6667 R=1.0000 BCE=0.72437
+small seed=42 step=500 P=0.6947 R=1.0000 BCE=0.54174
+small seed=42 step=600 P=0.7416 R=1.0000 BCE=0.38751
+small seed=42 step=700 P=0.8049 R=1.0000 BCE=0.27404
+small seed=42 step=800 P=0.8800 R=1.0000 BCE=0.20044
+small seed=42 step=900 P=0.8800 R=1.0000 BCE=0.14328
+small seed=42 step=1000 P=0.9041 R=1.0000 BCE=0.09514
+small seed=42 step=1100 P=0.9565 R=1.0000 BCE=0.05952
+small seed=42 step=1200 P=0.9851 R=1.0000 BCE=0.03704
+small seed=42 step=1300 P=1.0000 R=1.0000 BCE=0.02442
+small seed=1019 step=100 P=0.5000 R=1.0000 BCE=2.42757
+small seed=1019 step=200 P=0.5116 R=1.0000 BCE=1.78453
+small seed=1019 step=300 P=0.5455 R=1.0000 BCE=0.80474
+small seed=1019 step=400 P=0.6804 R=1.0000 BCE=0.55084
+small seed=1019 step=500 P=0.7416 R=1.0000 BCE=0.36997
+small seed=1019 step=600 P=0.8571 R=1.0000 BCE=0.22540
+small seed=1019 step=700 P=0.9429 R=1.0000 BCE=0.12614
+small seed=1019 step=800 P=0.9565 R=1.0000 BCE=0.08860
+small seed=1019 step=900 P=0.9706 R=1.0000 BCE=0.06769
+small seed=1019 step=1000 P=0.9851 R=1.0000 BCE=0.05282
+small seed=1019 step=1100 P=0.9851 R=1.0000 BCE=0.04184
+small seed=2026 step=100 P=0.5000 R=1.0000 BCE=2.35532
+small seed=2026 step=200 P=0.5197 R=1.0000 BCE=1.36750
+small seed=2026 step=300 P=0.5455 R=1.0000 BCE=0.93717
+small seed=2026 step=400 P=0.6346 R=1.0000 BCE=0.72629
+small seed=2026 step=500 P=0.7097 R=1.0000 BCE=0.54949
+small seed=2026 step=600 P=0.7586 R=1.0000 BCE=0.39792
+small seed=2026 step=700 P=0.7952 R=1.0000 BCE=0.30381
+small seed=2026 step=800 P=0.8354 R=1.0000 BCE=0.22583
+small seed=2026 step=900 P=0.8684 R=1.0000 BCE=0.14131
+small seed=2026 step=1000 P=0.9429 R=1.0000 BCE=0.09762
+small seed=2026 step=1100 P=0.9565 R=1.0000 BCE=0.07317
+small seed=2026 step=1200 P=0.9706 R=1.0000 BCE=0.05737
+small seed=2026 step=1300 P=0.9706 R=1.0000 BCE=0.04499
+small seed=2026 step=1400 P=0.9706 R=1.0000 BCE=0.03538
+small seed=2026 step=1500 P=1.0000 R=1.0000 BCE=0.02800
+small seed=2026 step=1600 P=1.0000 R=1.0000 BCE=0.02238
+{
+  "status": "small_completed",
+  "results": [
+    {
+      "seed": 42,
+      "updates": 1300,
+      "success": true,
+      "stop_reason": "consecutive_success",
+      "seconds": 2.7815157,
+      "normalization": {
+        "input_log_mean": 5.370561599731445,
+        "input_log_std": 0.8337093591690063,
+        "cpu_threads": 4,
+        "batch_size": 256
+      },
+      "initial": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 66,
+        "tn": 132,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "off_false_positive_rate": 0.0,
+        "ap": 0.2724489114055387,
+        "prevalence": 0.3333333333333333,
+        "n": 198,
+        "threshold": 0.5,
+        "bce": 51.636016845703125,
+        "positive_score_quantiles": [
+          0.04234382510185242,
+          0.04541939124464989,
+          0.047717493027448654
+        ],
+        "negative_score_quantiles": [
+          0.04149846360087395,
+          0.04650520905852318,
+          0.047503214329481125
+        ]
+      },
+      "final": {
+        "tp": 66,
+        "fp": 0,
+        "fn": 0,
+        "tn": 132,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "off_false_positive_rate": 0.0,
+        "ap": 1.0,
+        "prevalence": 0.3333333333333333,
+        "n": 198,
+        "threshold": 0.5,
+        "bce": 0.02442372962832451,
+        "positive_score_quantiles": [
+          0.9886257648468018,
+          0.9999960064888,
+          1.0
+        ],
+        "negative_score_quantiles": [
+          0.0,
+          2.1404313044204315e-10,
+          0.4127379059791565
+        ]
+      }
+    },
+    {
+      "seed": 1019,
+      "updates": 1100,
+      "success": true,
+      "stop_reason": "consecutive_success",
+      "seconds": 3.1955924000000095,
+      "normalization": {
+        "input_log_mean": 5.370561599731445,
+        "input_log_std": 0.8337093591690063,
+        "cpu_threads": 4,
+        "batch_size": 256
+      },
+      "initial": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 66,
+        "tn": 132,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "off_false_positive_rate": 0.0,
+        "ap": 0.48862068070564235,
+        "prevalence": 0.3333333333333333,
+        "n": 198,
+        "threshold": 0.5,
+        "bce": 50.480133056640625,
+        "positive_score_quantiles": [
+          0.04614023491740227,
+          0.048608604818582535,
+          0.05091355741024017
+        ],
+        "negative_score_quantiles": [
+          0.045434195548295975,
+          0.04771975800395012,
+          0.050955239683389664
+        ]
+      },
+      "final": {
+        "tp": 66,
+        "fp": 1,
+        "fn": 0,
+        "tn": 131,
+        "precision": 0.9850746268656716,
+        "recall": 1.0,
+        "f1": 0.9924812030075187,
+        "off_false_positive_rate": 0.007575757575757576,
+        "ap": 1.0,
+        "prevalence": 0.3333333333333333,
+        "n": 198,
+        "threshold": 0.5,
+        "bce": 0.041839662939310074,
+        "positive_score_quantiles": [
+          0.9935994148254395,
+          0.9999574422836304,
+          1.0
+        ],
+        "negative_score_quantiles": [
+          0.0,
+          7.229374659800669e-06,
+          0.9911952018737793
+        ]
+      }
+    },
+    {
+      "seed": 2026,
+      "updates": 1600,
+      "success": true,
+      "stop_reason": "consecutive_success",
+      "seconds": 4.0649186000000554,
+      "normalization": {
+        "input_log_mean": 5.370561599731445,
+        "input_log_std": 0.8337093591690063,
+        "cpu_threads": 4,
+        "batch_size": 256
+      },
+      "initial": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 66,
+        "tn": 132,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "off_false_positive_rate": 0.0,
+        "ap": 0.5881860852319004,
+        "prevalence": 0.3333333333333333,
+        "n": 198,
+        "threshold": 0.5,
+        "bce": 50.60848617553711,
+        "positive_score_quantiles": [
+          0.04461729899048805,
+          0.048490919172763824,
+          0.05084969848394394
+        ],
+        "negative_score_quantiles": [
+          0.04449378699064255,
+          0.04686926677823067,
+          0.05047423020005226
+        ]
+      },
+      "final": {
+        "tp": 66,
+        "fp": 0,
+        "fn": 0,
+        "tn": 132,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "off_false_positive_rate": 0.0,
+        "ap": 1.0,
+        "prevalence": 0.3333333333333333,
+        "n": 198,
+        "threshold": 0.5,
+        "bce": 0.02237590216100216,
+        "positive_score_quantiles": [
+          0.9872913956642151,
+          0.9999963641166687,
+          1.0
+        ],
+        "negative_score_quantiles": [
+          0.0,
+          1.6881755715569824e-10,
+          0.4043818414211273
+        ]
+      }
+    }
+  ]
+}

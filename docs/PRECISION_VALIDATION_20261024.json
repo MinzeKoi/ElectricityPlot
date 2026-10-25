@@ -1,0 +1,236 @@
+{
+  "status": "implementation_and_experiment_verified_effect_target_not_met",
+  "tests": {
+    "passed": 174,
+    "seconds": 131.753,
+    "log": "tmp/precision-regression-20261024.log",
+    "log_sha256": "f33d9de5677b3da3a7929c43f0dbb49653b7532b3744b0fc4932680ecfe0fc54"
+  },
+  "models": 12,
+  "prediction_cases": 24,
+  "metric_rows": 144,
+  "w50_exact_parameter_reproduction_seeds": [
+    42,
+    1019,
+    2026
+  ],
+  "all_model_source_normalization_scales_and_budget_verified": true,
+  "negative_pools": [
+    {
+      "seed": 42,
+      "windows": 4739,
+      "full_source_mask_reproduced": true,
+      "counts": {
+        "refit_2": 3539,
+        "refit_19": 1200
+      }
+    },
+    {
+      "seed": 1019,
+      "windows": 6211,
+      "full_source_mask_reproduced": true,
+      "counts": {
+        "refit_2": 4947,
+        "refit_19": 1264
+      }
+    },
+    {
+      "seed": 2026,
+      "windows": 4430,
+      "full_source_mask_reproduced": true,
+      "counts": {
+        "refit_2": 3309,
+        "refit_19": 1121
+      }
+    }
+  ],
+  "full_ordinary_inference_readback": [
+    {
+      "candidate": "W50",
+      "seed": 42,
+      "rows": 150750,
+      "maximum_raw_power_difference_w": 0,
+      "all_states_and_missingness_equal": true
+    },
+    {
+      "candidate": "W10",
+      "seed": 42,
+      "rows": 150750,
+      "maximum_raw_power_difference_w": 0,
+      "all_states_and_missingness_equal": true
+    }
+  ],
+  "full_readback_evidence_sha256": "cbd554d6728d8f020a17d8df8d68cdf3f0ed7b96691e6f6ebf6ced34429eea6b",
+  "sample_readback": {
+    "checks": [
+      {
+        "candidate": "W50",
+        "seed": 42,
+        "rows": 2033,
+        "maximum_raw_power_difference_w": 1.9073486328125e-06,
+        "passed": true
+      },
+      {
+        "candidate": "W50",
+        "seed": 1019,
+        "rows": 2033,
+        "maximum_raw_power_difference_w": 5.960464477539062e-07,
+        "passed": true
+      },
+      {
+        "candidate": "W50",
+        "seed": 2026,
+        "rows": 2033,
+        "maximum_raw_power_difference_w": 4.76837158203125e-07,
+        "passed": true
+      },
+      {
+        "candidate": "W10",
+        "seed": 42,
+        "rows": 2033,
+        "maximum_raw_power_difference_w": 4.470348358154297e-07,
+        "passed": true
+      },
+      {
+        "candidate": "W10",
+        "seed": 1019,
+        "rows": 2033,
+        "maximum_raw_power_difference_w": 0.0,
+        "passed": true
+      },
+      {
+        "candidate": "W10",
+        "seed": 2026,
+        "rows": 2033,
+        "maximum_raw_power_difference_w": 5.960464477539063e-08,
+        "passed": true
+      },
+      {
+        "candidate": "W1",
+        "seed": 42,
+        "rows": 2033,
+        "maximum_raw_power_difference_w": 2.0489096641540527e-08,
+        "passed": true
+      },
+      {
+        "candidate": "W1",
+        "seed": 1019,
+        "rows": 2033,
+        "maximum_raw_power_difference_w": 3.725290298461914e-09,
+        "passed": true
+      },
+      {
+        "candidate": "W1",
+        "seed": 2026,
+        "rows": 2033,
+        "maximum_raw_power_difference_w": 3.725290298461914e-09,
+        "passed": true
+      },
+      {
+        "candidate": "W50_HN",
+        "seed": 42,
+        "rows": 2033,
+        "maximum_raw_power_difference_w": 1.1920928955078125e-07,
+        "passed": true
+      },
+      {
+        "candidate": "W50_HN",
+        "seed": 1019,
+        "rows": 2033,
+        "maximum_raw_power_difference_w": 4.76837158203125e-07,
+        "passed": true
+      },
+      {
+        "candidate": "W50_HN",
+        "seed": 2026,
+        "rows": 2033,
+        "maximum_raw_power_difference_w": 1.1920928955078125e-06,
+        "passed": true
+      }
+    ],
+    "all_passed": true
+  },
+  "verification": {
+    "status": "precision_verified",
+    "models": 12,
+    "cases": 24,
+    "target_labels_reopened": false,
+    "final_households_accessed": false,
+    "execution_source_matches_current": true
+  },
+  "source_selection": {
+    "selected": "W50",
+    "candidate_passed_source_gate": false,
+    "selection_data": "source_validation_only",
+    "candidates": [
+      {
+        "candidate": "W50",
+        "eligible": false,
+        "mean_precision": 0.16792946180938437,
+        "mean_f1": 0.2786215273068662
+      },
+      {
+        "candidate": "W10",
+        "eligible": false,
+        "mean_precision": 0.22733742197110596,
+        "mean_f1": 0.33496294453676567
+      },
+      {
+        "candidate": "W1",
+        "eligible": false,
+        "mean_precision": 0.25865786962018206,
+        "mean_f1": 0.14705791895929549
+      },
+      {
+        "candidate": "W50_HN",
+        "eligible": false,
+        "mean_precision": 0.11101397768027532,
+        "mean_f1": 0.19207103876620168
+      }
+    ]
+  },
+  "development_exit": {
+    "selected_before_development_evaluation": "W50",
+    "precision_exit_passed": false,
+    "checks": {
+      "defined_metrics": true,
+      "same_support": true,
+      "nondegenerate": true,
+      "mean_precision": false,
+      "every_seed_recall": true,
+      "mean_f1_gain": false,
+      "paired_positive_seeds": false,
+      "bounded_seed_f1_drop": true,
+      "false_positive_reduction": false
+    },
+    "selected_means": {
+      "precision": 0.04012808999869747,
+      "recall": 0.9242819843342036,
+      "f1": 0.07691297343567473,
+      "false_positive": 8482.0,
+      "false_negative": 29.0
+    },
+    "baseline_means": {
+      "precision": 0.04012808999869747,
+      "recall": 0.9242819843342036,
+      "f1": 0.07691297343567473,
+      "false_positive": 8482.0,
+      "false_negative": 29.0
+    },
+    "formal_evaluation": false,
+    "final_households_accessed": false,
+    "default_model_changed": false,
+    "other_devices_raw_unchanged": true
+  },
+  "snapshot_cli_verified": {
+    "status": "precision_verified",
+    "models": 12,
+    "cases": 24,
+    "target_labels_reopened": false,
+    "final_households_accessed": false,
+    "execution_source_matches_current": true
+  },
+  "handoff_evidence_sha256": "0685ee5221e0328e8699af2ed92b704a0a9102feac1d71fe5e740b01e1f1b39b",
+  "final_households_accessed": false,
+  "independent_member_reproduction_completed": false
+}

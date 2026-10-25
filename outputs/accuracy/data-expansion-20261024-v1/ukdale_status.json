@@ -1,0 +1,15 @@
+{
+  "status": "blocked_acquisition_incomplete",
+  "reason": "Official download acquisition deadline exceeded; verified ranges retained",
+  "verified_ranges": 12,
+  "total_ranges": 428,
+  "source_url": "https://dap.ceda.ac.uk/edc/d1/7d78f943-f9fe-413b-af52-1816f9d968b0/data/version_0/ukdale.zip",
+  "archive_bytes": 3585155959,
+  "deadline_seconds": 600,
+  "source_receipt": "D:\\system position\\document\\真正的文档\\AIC\\data\\raw\\ukdale_2017_20261024\\range_acquisition_failed.json",
+  "source_receipt_sha256": "22bc66085e46f271b573e0c8aff5428ecda96e8896cf094554572178ba089a5a",
+  "test_house_replaced": false,
+  "group_D_trained": false,
+  "external_labels_evaluated": false,
+  "automatic_download_process_running": false
+}

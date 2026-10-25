@@ -1,0 +1,19 @@
+{
+  "centers": 259806,
+  "positive_centers": 849,
+  "positive_centers_with_new_context": 849,
+  "centers_with_new_context": 259804,
+  "mean_new_observed_points": 90.97410760336558,
+  "positive_mean_new_observed_points": 91.87043580683157,
+  "stop_counts": {
+    "left": {
+      "missing_run": 5962,
+      "radius": 253844
+    },
+    "right": {
+      "boundary": 96,
+      "missing_run": 5941,
+      "radius": 253769
+    }
+  }
+}

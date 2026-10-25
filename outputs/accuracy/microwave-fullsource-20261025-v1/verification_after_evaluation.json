@@ -1,0 +1,109 @@
+{
+  "status": "fullsource_evaluation_verified",
+  "models": 9,
+  "training_replays": [
+    {
+      "arm": "natural",
+      "seed": 42,
+      "updates": 3528,
+      "sampler_and_augmentation_exact": true
+    },
+    {
+      "arm": "natural",
+      "seed": 1019,
+      "updates": 3528,
+      "sampler_and_augmentation_exact": true
+    },
+    {
+      "arm": "natural",
+      "seed": 2026,
+      "updates": 3528,
+      "sampler_and_augmentation_exact": true
+    },
+    {
+      "arm": "event",
+      "seed": 42,
+      "updates": 3528,
+      "sampler_and_augmentation_exact": true
+    },
+    {
+      "arm": "event",
+      "seed": 1019,
+      "updates": 3528,
+      "sampler_and_augmentation_exact": true
+    },
+    {
+      "arm": "event",
+      "seed": 2026,
+      "updates": 3528,
+      "sampler_and_augmentation_exact": true
+    },
+    {
+      "arm": "event_background",
+      "seed": 42,
+      "updates": 3528,
+      "sampler_and_augmentation_exact": true
+    },
+    {
+      "arm": "event_background",
+      "seed": 1019,
+      "updates": 3528,
+      "sampler_and_augmentation_exact": true
+    },
+    {
+      "arm": "event_background",
+      "seed": 2026,
+      "updates": 3528,
+      "sampler_and_augmentation_exact": true
+    }
+  ],
+  "ordinary_inference_readbacks": [
+    {
+      "arm": "natural",
+      "seed": 42,
+      "ordinary_inference_reloaded_exact": true
+    },
+    {
+      "arm": "natural",
+      "seed": 1019,
+      "ordinary_inference_reloaded_exact": true
+    },
+    {
+      "arm": "natural",
+      "seed": 2026,
+      "ordinary_inference_reloaded_exact": true
+    },
+    {
+      "arm": "event",
+      "seed": 42,
+      "ordinary_inference_reloaded_exact": true
+    },
+    {
+      "arm": "event",
+      "seed": 1019,
+      "ordinary_inference_reloaded_exact": true
+    },
+    {
+      "arm": "event",
+      "seed": 2026,
+      "ordinary_inference_reloaded_exact": true
+    },
+    {
+      "arm": "event_background",
+      "seed": 42,
+      "ordinary_inference_reloaded_exact": true
+    },
+    {
+      "arm": "event_background",
+      "seed": 1019,
+      "ordinary_inference_reloaded_exact": true
+    },
+    {
+      "arm": "event_background",
+      "seed": 2026,
+      "ordinary_inference_reloaded_exact": true
+    }
+  ],
+  "target_truth_csv_reopened": false,
+  "final_houses_accessed": false
+}

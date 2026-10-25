@@ -1,0 +1,23 @@
+{
+  "candidate": "C_EVENT",
+  "source_only": true,
+  "positive_windows": 646,
+  "windows": 150069,
+  "households": {
+    "refit_19": {
+      "windows": 56856,
+      "positive": 277,
+      "events": 50,
+      "sampling_mass": 0.5
+    },
+    "refit_2": {
+      "windows": 93213,
+      "positive": 369,
+      "events": 53,
+      "sampling_mass": 0.5
+    }
+  },
+  "threshold_segments": 103,
+  "positive_sampling_mass": 0.0043046865108716656,
+  "source_identity_sha256": "2d01bb060c84c42ed083d3a3beac788ab70cb4520e568025900299cc729e39e2"
+}

@@ -1,0 +1,62 @@
+{
+  "completed_at": "2026-10-25T04:18:22.548763+00:00",
+  "freeze_sha256": "b75849b44783e3945aee97f2532cbce25ded04e2ceedaebb0c7583c2193ef17e",
+  "fits": 0,
+  "truth_csv_reopened": false,
+  "summary": {
+    "selected_before_development_evaluation": "W50_CAL",
+    "precision_exit_passed": false,
+    "checks": {
+      "defined_metrics": true,
+      "same_support": true,
+      "nondegenerate": true,
+      "mean_precision": false,
+      "every_seed_recall": true,
+      "mean_f1_gain": false,
+      "paired_positive_seeds": false,
+      "bounded_seed_f1_drop": true,
+      "false_positive_reduction": false,
+      "exact_original_support": true
+    },
+    "selected_means": {
+      "precision": 0.03575837709533618,
+      "recall": 0.9625761531766753,
+      "f1": 0.06894470314180615,
+      "false_positive": 9993.666666666666,
+      "false_negative": 14.333333333333334
+    },
+    "baseline_means": {
+      "precision": 0.04012808999869747,
+      "recall": 0.9242819843342036,
+      "f1": 0.07691297343567473,
+      "false_positive": 8482.0,
+      "false_negative": 29.0
+    },
+    "formal_evaluation": false,
+    "final_households_accessed": false,
+    "default_model_changed": false
+  },
+  "artifacts": {
+    "results.json": "f92779a6beece0a0f3f5ab0e33907036c2b5dacba57a221ade05f9cb6d062869",
+    "comparison.csv": "d0ee634f4c92c13ffc835337d66e065d401e2d8628c571013b4c4fc01bd39d60",
+    "false_positives.csv": "b5819fc1f31386c03504fc09cca85da1ae3162e86077a28f812631263135e62f",
+    "power_diagnostics.csv": "2f9251ef2f54d8dd295c078c7c42435583ffeffcd1e38aaf2d9b26f8d2a67776",
+    "development_pr/W10_CAL_1019.npz": "35b22ee22034a42a56e4908bbcc1f092158bb3de5605e73222b5ab2457b67c79",
+    "development_pr/W10_CAL_2026.npz": "f2e970f67c57a090e6948e2a531ed574671a79e8c5fbaca5f5077e866b17436e",
+    "development_pr/W10_CAL_42.npz": "f0235fe71a31a4360b13fb7d7c516aad82b42797f767194e2bbd8f0080c5d63b",
+    "development_pr/W1_CAL_1019.npz": "285d1c46d800fee85c1a58db9e22291895b4d72a43f1b6015d74147c5991b87d",
+    "development_pr/W1_CAL_2026.npz": "b7b667ee889d85f438184d474f8743aff5372c28b86f8165459bcd1fdcfcc277",
+    "development_pr/W1_CAL_42.npz": "c0b1e9ebf8f4ba1a6d38b317a6990be731e172ac3e717e52d2040f6f18496792",
+    "development_pr/W50_1019.npz": "c8e12b14954cc2455112db30f9c1138c8040e702aa4c1b56a9b8b3f2d34d8053",
+    "development_pr/W50_2026.npz": "4ca8c12566c834e5739a951236437bb33abeaddc3f8ab69e15d2041486f3b1fc",
+    "development_pr/W50_42.npz": "004446eaf19ba4ce829b829419c97e1e91cf8d989696d25f8640725b88bbb544",
+    "development_pr/W50_CAL_1019.npz": "c8e12b14954cc2455112db30f9c1138c8040e702aa4c1b56a9b8b3f2d34d8053",
+    "development_pr/W50_CAL_2026.npz": "4ca8c12566c834e5739a951236437bb33abeaddc3f8ab69e15d2041486f3b1fc",
+    "development_pr/W50_CAL_42.npz": "004446eaf19ba4ce829b829419c97e1e91cf8d989696d25f8640725b88bbb544",
+    "development_pr/W50_HN_CAL_1019.npz": "c8f6dd674c6ee7c8db674ca856acc56d40627060473b1ca13c159e077956ded4",
+    "development_pr/W50_HN_CAL_2026.npz": "a0da5e4a63d9f75259624f6a1d4109b59f01216cf815bcdd2ebc51c818318d01",
+    "development_pr/W50_HN_CAL_42.npz": "e712fbd4d16cf558ad92c4673f3afbc5472e70783ebac640f0d18ea1232ad860",
+    "development_truth.npz": "cc93f78b30fddefd1ab3e2ad4d17adcecb6c63c99f99e65d23becb2eba484a0a",
+    "evaluation_started.json": "fa988047b0f1eef0c005542e028951b75f55ba37f791b25cb1edb7efbca73b87"
+  }
+}

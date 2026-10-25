@@ -1,0 +1,20 @@
+{
+  "status": "evaluated_once",
+  "paired_comparisons": [
+    {
+      "target_house": "refit_2",
+      "mean_ap_same_minus_cross": 0.03588687153459881,
+      "mean_diagnostic_fpr_same": 0.10695538057742782,
+      "mean_diagnostic_fpr_cross": 0.050688976377952756,
+      "registered_clear_advantage": false
+    },
+    {
+      "target_house": "refit_19",
+      "mean_ap_same_minus_cross": 0.0687861560633288,
+      "mean_diagnostic_fpr_same": 0.020808226881979593,
+      "mean_diagnostic_fpr_cross": 0.08278299991965936,
+      "registered_clear_advantage": true
+    }
+  ],
+  "rows": 24
+}

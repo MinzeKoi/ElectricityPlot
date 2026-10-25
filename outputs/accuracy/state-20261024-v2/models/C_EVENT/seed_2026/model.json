@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "kind": "microwave_state_classifier_v1",
+  "candidate": "C_EVENT",
+  "seed": 2026,
+  "window_samples": 31,
+  "features": false,
+  "batch_size": 256,
+  "cpu_threads": 4,
+  "input_log_mean": 5.370561599731445,
+  "input_log_std": 0.8337093591690063,
+  "truth_threshold_w": 200,
+  "protocol_sha256": "4b279a803a5e02bce474ee8215f3d006de14683e91d34bfce32ef8d8b82eb1c5",
+  "code_sha256": "4ccfbc60dcff36fff887312a6896bc3ec3df3ff33bccc269fc0b6d35868fd25f",
+  "source_train_windows": {
+    "source_train_refit_2_0": 93213,
+    "source_train_refit_19_0": 56856
+  },
+  "source_validation_windows": {
+    "source_validation_refit_5_0": 120281
+  },
+  "parameter_count": 8249,
+  "optimizer_steps": 3528,
+  "target_labels_read": false,
+  "confirmation_budget": 0,
+  "selected_epoch": 1,
+  "decision_threshold_probability": 0.5095022320747375,
+  "source_selection": {
+    "threshold": 0.5095022320747375,
+    "precision": 0.12262721682559487,
+    "recall": 0.8504326328800988,
+    "f1": 0.21434691175325182,
+    "tp": 1376,
+    "fp": 9845,
+    "fn": 242
+  },
+  "weights_sha256": "e63914d9d699d70105e1ce79703153b5e7b60ce12b1dd55eb1410d41be295135"
+}

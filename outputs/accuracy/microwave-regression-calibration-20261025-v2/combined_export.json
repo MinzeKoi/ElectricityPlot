@@ -1,0 +1,47 @@
+{
+  "selected": "W50",
+  "fits": 0,
+  "columns": [
+    "kettle",
+    "microwave",
+    "washing_machine"
+  ],
+  "state_missing_value": -1,
+  "default_ui_changed": false,
+  "effect_acceptance_passed": false,
+  "cases": [
+    {
+      "seed": 42,
+      "path": "combined_predictions/seed_42.npz",
+      "sha256": "13c2e5289b62f9a7f6da40c760f3dd25f0c5cccbb6c685f64daa6e02bb82dda2",
+      "original_A_reference_path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\precision-20261024-v1\\reference\\predictions\\seed_42\\frozen_test_refit_17_0.npz",
+      "original_A_reference_sha256": "38b1e92e5554b5967c9a75340351fc0cf9141eb2ad6c7c20a45cb55ddcad6352",
+      "all_three_raw_power_columns_exactly_original_A": true,
+      "other_device_states_exactly_original_A": true,
+      "microwave_state_exactly_frozen_calibration": true
+    },
+    {
+      "seed": 1019,
+      "path": "combined_predictions/seed_1019.npz",
+      "sha256": "bc4f4be31264d891b5f777f405f900e950bef30c7ae91613a392e5f20aacf6c6",
+      "original_A_reference_path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\precision-20261024-v1\\reference\\predictions\\seed_1019\\frozen_test_refit_17_0.npz",
+      "original_A_reference_sha256": "b9a6c0015a25496ab85a8494e83fab11331be5478ffea13687152fca3f02808c",
+      "all_three_raw_power_columns_exactly_original_A": true,
+      "other_device_states_exactly_original_A": true,
+      "microwave_state_exactly_frozen_calibration": true
+    },
+    {
+      "seed": 2026,
+      "path": "combined_predictions/seed_2026.npz",
+      "sha256": "4e51d6a4a1a4676737c2a37f2632ea5fa96ffa3f8bdbfa2218c4499db2bb2f32",
+      "original_A_reference_path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\precision-20261024-v1\\reference\\predictions\\seed_2026\\frozen_test_refit_17_0.npz",
+      "original_A_reference_sha256": "817e530efc57459e73c3e1be8a89453859a28408bc205ba5306c4454aa6315ff",
+      "all_three_raw_power_columns_exactly_original_A": true,
+      "other_device_states_exactly_original_A": true,
+      "microwave_state_exactly_frozen_calibration": true
+    }
+  ],
+  "source_selection_sha256": "00fed1262555e440f9277d39722233d39341f48d1ce2c7c6b9844c61cfe3fee5",
+  "freeze_sha256": "b75849b44783e3945aee97f2532cbce25ded04e2ceedaebb0c7583c2193ef17e",
+  "exporter_sha256": "7221241852479820763b9dad2b1f7417abc9ca22dd375f9b3e97dc144b2616df"
+}

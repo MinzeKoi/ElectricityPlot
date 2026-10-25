@@ -1,0 +1,9 @@
+{
+  "parent_evidence_sha256": "071876fb9c8626dc39e1305057b43b8bd31edea8e952b4a3592364084ffe1d2e",
+  "summary_script_sha256": "a2c6a357f9038b3ad33d4b661847816dbbbd2f54874167ac26754431a7800a1a",
+  "artifacts": {
+    "results.json": "9602366f3e2f364d5ad89279fbe9afc1ff0a6f34c7f3eded55eb22fcc9443c28",
+    "all_candidate_error_curves.csv": "d224c8376dc707ffd61e16708de4593e95bb9df099503acbb77903715c1f6525",
+    "report.html": "db1269087235ded0f09644f4c8123f688fbe12ec8f634d239c1fb6471e1a176b"
+  }
+}

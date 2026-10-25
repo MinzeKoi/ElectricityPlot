@@ -1,0 +1,8 @@
+{
+  "status": "prepared_not_trained",
+  "actual_fits": 0,
+  "maximum_fits": 6,
+  "added_windows": 109737,
+  "added_positive_centers": 203,
+  "new_supported_segments": 51
+}

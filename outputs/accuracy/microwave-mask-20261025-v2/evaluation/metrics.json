@@ -1,0 +1,269 @@
+{
+  "rows": [
+    {
+      "arm": "A",
+      "seed": 42,
+      "tp": 348,
+      "fp": 8433,
+      "fn": 35,
+      "tn": 128707,
+      "n": 137523,
+      "precision": 0.039631021523744446,
+      "recall": 0.9086161879895561,
+      "f1": 0.0759493670886076,
+      "degenerate": false,
+      "predicted_on": 8781
+    },
+    {
+      "arm": "W50",
+      "seed": 42,
+      "tp": 348,
+      "fp": 8433,
+      "fn": 35,
+      "tn": 128707,
+      "n": 137523,
+      "precision": 0.039631021523744446,
+      "recall": 0.9086161879895561,
+      "f1": 0.0759493670886076,
+      "degenerate": false,
+      "predicted_on": 8781
+    },
+    {
+      "arm": "strict_mask",
+      "seed": 42,
+      "tp": 377,
+      "fp": 11578,
+      "fn": 6,
+      "tn": 125562,
+      "n": 137523,
+      "precision": 0.0315349226265161,
+      "recall": 0.9843342036553525,
+      "f1": 0.06111201167125952,
+      "degenerate": false,
+      "predicted_on": 11955
+    },
+    {
+      "arm": "partial_mask",
+      "seed": 42,
+      "tp": 375,
+      "fp": 10068,
+      "fn": 8,
+      "tn": 127072,
+      "n": 137523,
+      "precision": 0.03590922148807814,
+      "recall": 0.97911227154047,
+      "f1": 0.06927766488084242,
+      "degenerate": false,
+      "predicted_on": 10443
+    },
+    {
+      "arm": "task4_selected",
+      "seed": 42,
+      "tp": 347,
+      "fp": 9751,
+      "fn": 36,
+      "tn": 127389,
+      "n": 137523,
+      "precision": 0.03436324024559319,
+      "recall": 0.9060052219321149,
+      "f1": 0.0662150558152848,
+      "degenerate": false,
+      "predicted_on": 10098
+    },
+    {
+      "arm": "A",
+      "seed": 1019,
+      "tp": 352,
+      "fp": 8893,
+      "fn": 31,
+      "tn": 128247,
+      "n": 137523,
+      "precision": 0.03807463493780422,
+      "recall": 0.9190600522193212,
+      "f1": 0.07312006647278771,
+      "degenerate": false,
+      "predicted_on": 9245
+    },
+    {
+      "arm": "W50",
+      "seed": 1019,
+      "tp": 352,
+      "fp": 8893,
+      "fn": 31,
+      "tn": 128247,
+      "n": 137523,
+      "precision": 0.03807463493780422,
+      "recall": 0.9190600522193212,
+      "f1": 0.07312006647278771,
+      "degenerate": false,
+      "predicted_on": 9245
+    },
+    {
+      "arm": "strict_mask",
+      "seed": 1019,
+      "tp": 319,
+      "fp": 9313,
+      "fn": 64,
+      "tn": 127827,
+      "n": 137523,
+      "precision": 0.0331187707641196,
+      "recall": 0.8328981723237598,
+      "f1": 0.0637044433349975,
+      "degenerate": false,
+      "predicted_on": 9632
+    },
+    {
+      "arm": "partial_mask",
+      "seed": 1019,
+      "tp": 338,
+      "fp": 9591,
+      "fn": 45,
+      "tn": 127549,
+      "n": 137523,
+      "precision": 0.034041696041897475,
+      "recall": 0.8825065274151436,
+      "f1": 0.06555469356089992,
+      "degenerate": false,
+      "predicted_on": 9929
+    },
+    {
+      "arm": "task4_selected",
+      "seed": 1019,
+      "tp": 359,
+      "fp": 10509,
+      "fn": 24,
+      "tn": 126631,
+      "n": 137523,
+      "precision": 0.033032756716967246,
+      "recall": 0.9373368146214099,
+      "f1": 0.063816549640032,
+      "degenerate": false,
+      "predicted_on": 10868
+    },
+    {
+      "arm": "A",
+      "seed": 2026,
+      "tp": 362,
+      "fp": 8120,
+      "fn": 21,
+      "tn": 129020,
+      "n": 137523,
+      "precision": 0.04267861353454374,
+      "recall": 0.9451697127937336,
+      "f1": 0.08166948674562888,
+      "degenerate": false,
+      "predicted_on": 8482
+    },
+    {
+      "arm": "W50",
+      "seed": 2026,
+      "tp": 362,
+      "fp": 8120,
+      "fn": 21,
+      "tn": 129020,
+      "n": 137523,
+      "precision": 0.04267861353454374,
+      "recall": 0.9451697127937336,
+      "f1": 0.08166948674562888,
+      "degenerate": false,
+      "predicted_on": 8482
+    },
+    {
+      "arm": "strict_mask",
+      "seed": 2026,
+      "tp": 369,
+      "fp": 10970,
+      "fn": 14,
+      "tn": 126170,
+      "n": 137523,
+      "precision": 0.032542552253285124,
+      "recall": 0.9634464751958225,
+      "f1": 0.06295853949837911,
+      "degenerate": false,
+      "predicted_on": 11339
+    },
+    {
+      "arm": "partial_mask",
+      "seed": 2026,
+      "tp": 343,
+      "fp": 10273,
+      "fn": 40,
+      "tn": 126867,
+      "n": 137523,
+      "precision": 0.032309721175584026,
+      "recall": 0.8955613577023499,
+      "f1": 0.06236930630057278,
+      "degenerate": false,
+      "predicted_on": 10616
+    },
+    {
+      "arm": "task4_selected",
+      "seed": 2026,
+      "tp": 336,
+      "fp": 9605,
+      "fn": 47,
+      "tn": 127535,
+      "n": 137523,
+      "precision": 0.03379941655769037,
+      "recall": 0.8772845953002611,
+      "f1": 0.06509104998062766,
+      "degenerate": false,
+      "predicted_on": 9941
+    }
+  ],
+  "support": {
+    "42": {
+      "n": 137523,
+      "mask_sha256": "d7608bed577515bc4bd98ff1efe4c78a82798a96c9d1d3e5dd03bb90d53598a1",
+      "timestamps_sha256": "342269261b9b59715ac588476545f50d6e875b7a01f6731745098c6c384a2ffe"
+    },
+    "1019": {
+      "n": 137523,
+      "mask_sha256": "d7608bed577515bc4bd98ff1efe4c78a82798a96c9d1d3e5dd03bb90d53598a1",
+      "timestamps_sha256": "342269261b9b59715ac588476545f50d6e875b7a01f6731745098c6c384a2ffe"
+    },
+    "2026": {
+      "n": 137523,
+      "mask_sha256": "d7608bed577515bc4bd98ff1efe4c78a82798a96c9d1d3e5dd03bb90d53598a1",
+      "timestamps_sha256": "342269261b9b59715ac588476545f50d6e875b7a01f6731745098c6c384a2ffe"
+    }
+  },
+  "power_baselines": [
+    {
+      "arm": "A",
+      "seed": 42,
+      "mae_w": 59.017197172641865,
+      "energy_absolute_error_kwh": 16.560283940819666
+    },
+    {
+      "arm": "W50",
+      "seed": 42,
+      "mae_w": 59.01719722408994,
+      "energy_absolute_error_kwh": 16.560283953758276
+    },
+    {
+      "arm": "A",
+      "seed": 1019,
+      "mae_w": 44.15200301773798,
+      "energy_absolute_error_kwh": 11.3703142864986
+    },
+    {
+      "arm": "W50",
+      "seed": 1019,
+      "mae_w": 44.15200297044874,
+      "energy_absolute_error_kwh": 11.370314270249654
+    },
+    {
+      "arm": "A",
+      "seed": 2026,
+      "mae_w": 51.07404094040891,
+      "energy_absolute_error_kwh": 14.039357334339503
+    },
+    {
+      "arm": "W50",
+      "seed": 2026,
+      "mae_w": 51.07404105150117,
+      "energy_absolute_error_kwh": 14.03935735905111
+    }
+  ]
+}

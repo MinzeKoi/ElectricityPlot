@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "source_training_c61_common_windows": 134673,
+  "positive_centers": 559,
+  "prior_training_and_checkpoint_summary_recomputed": true,
+  "validation_development_numbers_only_existing_summary_not_new_labels": true,
+  "final_households_accessed": false,
+  "rows": [
+    {
+      "seed": 42,
+      "training_common_ap": 0.18717922060746034,
+      "training_common_p85": 0.1640248104755341,
+      "training_common_fpr85": 0.01808908838749124,
+      "selected_epoch": 8,
+      "last_bce": 0.09668927651760327,
+      "last_val_p": 0.14790916987219258
+    },
+    {
+      "seed": 1019,
+      "training_common_ap": 0.24308186982652438,
+      "training_common_p85": 0.19597370583401807,
+      "training_common_fpr85": 0.014592063468392561,
+      "selected_epoch": 9,
+      "last_bce": 0.08096116723898215,
+      "last_val_p": 0.17804331590739358
+    },
+    {
+      "seed": 2026,
+      "training_common_ap": 0.14972854510327474,
+      "training_common_p85": 0.16109422492401215,
+      "training_common_fpr85": 0.018521556287934147,
+      "selected_epoch": 8,
+      "last_bce": 0.10006903821513766,
+      "last_val_p": 0.1056550257046623
+    }
+  ]
+}

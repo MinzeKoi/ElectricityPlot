@@ -10,7 +10,7 @@ import numpy as np
 
 from ..adaptation.selection import candidates
 from ..adaptation.session import locked, save
-from ..data.common import DataError, read_json, sha256, utc, write_json, safe_child
+from ..data.common import DataError, read_json, sha256, write_json, safe_child
 from ..data.protocol import validate_confirmation_history
 
 STRATEGIES = ("random", "uncertainty", "proposed", "uncertainty_static", "proposed_static",
@@ -218,7 +218,10 @@ def select_next(directory):
     with locked(directory):
         session = read_session(directory)
         if session["pending"] is None:
-            rounds = {read_json(directory / e["path"])["visible_count"]: read_json(directory / e["path"]) for e in session["rounds"]}
+            rounds = {}
+            for entry in session["rounds"]:
+                snapshot = read_json(directory / entry["path"])
+                rounds[snapshot["visible_count"]] = snapshot
             session["pending"] = _pending(session, read_json(directory / "pool.json")["items"], rounds)
             save(directory, session)
         return session["pending"]

@@ -1,0 +1,11 @@
+{
+  "status": "all_18_predictions_frozen",
+  "selection": {
+    "arm": "event_background",
+    "eligible": true,
+    "mean_precision": 0.35196582419634287,
+    "mean_f1": 0.4930220468671063,
+    "f1_delta_vs_event": 0.05452237495570478,
+    "f1_delta_vs_natural": 0.04977383133533131
+  }
+}

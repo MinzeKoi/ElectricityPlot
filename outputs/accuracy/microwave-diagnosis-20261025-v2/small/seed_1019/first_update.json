@@ -1,0 +1,11 @@
+{
+  "gradient_l2": 36.232540130615234,
+  "parameter_delta_l2": 0.07822662591934204,
+  "normalized_min": -1.156089186668396,
+  "normalized_max": 4.664107322692871,
+  "finite": true,
+  "label_counts": [
+    132,
+    66
+  ]
+}

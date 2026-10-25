@@ -1,0 +1,8 @@
+{
+  "coordinator_execution_message": "2026-10-25: 先前协调消息授权固定TCN31/TCN127×3seed、source唯一选择、全部freeze、一次开发评分。用户随后明确答复：允许一次故障重试，累计最多7次启动。仅修复验证元数据接口，固定六模型，不调参或增加候选。",
+  "train": true,
+  "maximum_fits": 6,
+  "cumulative_maximum_fit_starts": 7,
+  "prior_failed_source_fit_starts": 1,
+  "registration_sha256": "1cd50f61d2702d84b984fe08aff5aa2ff8eb4d5bba28f102626226e958dbf72b"
+}

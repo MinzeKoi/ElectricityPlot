@@ -1,0 +1,25 @@
+{
+  "status": "evaluated_once",
+  "comparisons": [
+    {
+      "house": "refit_2",
+      "control": "event",
+      "registered_improvement_gate": false
+    },
+    {
+      "house": "refit_2",
+      "control": "natural",
+      "registered_improvement_gate": false
+    },
+    {
+      "house": "refit_19",
+      "control": "event",
+      "registered_improvement_gate": false
+    },
+    {
+      "house": "refit_19",
+      "control": "natural",
+      "registered_improvement_gate": false
+    }
+  ]
+}

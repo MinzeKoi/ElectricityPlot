@@ -1,0 +1,35 @@
+{
+  "kind": "microwave_state_classifier_v1",
+  "truth_threshold_w": 200,
+  "window_samples": 31,
+  "features": false,
+  "input_log_mean": 5.266282558441162,
+  "input_log_std": 0.8734146952629089,
+  "cpu_threads": 4,
+  "batch_size": 256,
+  "decision_threshold_probability": 0.9465653896331787,
+  "weights_sha256": "9a20a62b56b675e30b6677b5a1d56f6218378dae1654d9cd3942c7f20140a315",
+  "selected": {
+    "epoch": 8,
+    "threshold": 0.9465653896331787,
+    "worst_precision": 0.20141342756183744,
+    "mean_precision": 0.39121350436825386,
+    "mean_f1": 0.5354521930404155,
+    "supported_blocks": [
+      "refit_2/validation_0",
+      "refit_2/validation_1",
+      "refit_19/validation_0",
+      "refit_19/validation_1"
+    ],
+    "limited_evidence": false
+  },
+  "source_gate_passed": true,
+  "arm": "event_background",
+  "seed": 2026,
+  "parameter_count": 8249,
+  "updates": 3528,
+  "seconds": 34.381131200000254,
+  "seen": 903168,
+  "positive_seen": 56448,
+  "positive_weight_mass_fraction": 0.7692307692307693
+}

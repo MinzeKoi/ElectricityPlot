@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "D:\system position\document\�������ĵ�\AIC\scripts\run_microwave_loss_correction.py", line 20, in <module>
+    result = experiment.prepare(args.run,args.plan)
+  File "D:\system position\document\�������ĵ�\AIC\src\virtual_submeter\accuracy\microwave_loss_correction.py", line 151, in prepare
+    shutil.copyfile(up/f'sampling_{seed}.npz',run/f'sampling_{seed}.npz')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\27622\AppData\Local\Programs\Python\Python313\Lib\shutil.py", line 260, in copyfile
+    with open(src, 'rb') as fsrc:
+         ~~~~^^^^^^^^^^^
+  File "D:\system position\document\�������ĵ�\AIC\src\virtual_submeter\accuracy\microwave_loss_correction.py", line 121, in guard
+    raise DataError('Forbidden prepare read: '+name)
+virtual_submeter.data.common.DataError: Forbidden prepare read: d:\system position\document\�������ĵ�\aic\outputs\accuracy\microwave-tcn-20261025-v3\sampling_42.npz

@@ -1,0 +1,6 @@
+{
+  "input_log_mean": 5.266282558441162,
+  "input_log_std": 0.8734146952629089,
+  "cpu_threads": 4,
+  "batch_size": 256
+}

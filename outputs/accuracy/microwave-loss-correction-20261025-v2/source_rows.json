@@ -1,0 +1,80 @@
+{
+  "TCN127": [
+    {
+      "seed": 42,
+      "precision": 0.22996088942437753,
+      "recall": 0.9077043954498611,
+      "f1": 0.3487267316055449,
+      "source_gate_passed": true,
+      "degenerate": false
+    },
+    {
+      "seed": 1019,
+      "precision": 0.233455463911302,
+      "recall": 0.911520044616578,
+      "f1": 0.3537917585105341,
+      "source_gate_passed": true,
+      "degenerate": false
+    },
+    {
+      "seed": 2026,
+      "precision": 0.24808309765392966,
+      "recall": 0.9213116082065843,
+      "f1": 0.3701140316569105,
+      "source_gate_passed": true,
+      "degenerate": false
+    }
+  ],
+  "importance_BCE50": [
+    {
+      "seed": 42,
+      "precision": 0.10475058374311132,
+      "recall": 0.9974960465296699,
+      "f1": 0.18502330325905436,
+      "source_gate_passed": true,
+      "degenerate": false
+    },
+    {
+      "seed": 1019,
+      "precision": 0.10014296353203789,
+      "recall": 0.9958700302695074,
+      "f1": 0.17778478794488087,
+      "source_gate_passed": true,
+      "degenerate": false
+    },
+    {
+      "seed": 2026,
+      "precision": 0.12018469065015847,
+      "recall": 0.9506650569626983,
+      "f1": 0.20711733787559403,
+      "source_gate_passed": true,
+      "degenerate": false
+    }
+  ],
+  "unit_BCE": [
+    {
+      "seed": 42,
+      "precision": 0.17445933780725045,
+      "recall": 0.9136847719866616,
+      "f1": 0.28226973439045394,
+      "source_gate_passed": true,
+      "degenerate": false
+    },
+    {
+      "seed": 1019,
+      "precision": 0.10202363187322899,
+      "recall": 0.9967746629158988,
+      "f1": 0.180777271509162,
+      "source_gate_passed": true,
+      "degenerate": false
+    },
+    {
+      "seed": 2026,
+      "precision": 0.16217948224463785,
+      "recall": 0.9447115556886194,
+      "f1": 0.2673312813571151,
+      "source_gate_passed": true,
+      "degenerate": false
+    }
+  ]
+}

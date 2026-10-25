@@ -1,0 +1,50 @@
+{
+  "sources": {
+    "refit_2": {
+      "start": "2014-09-29T06:28:48Z",
+      "end": "2014-10-13T06:28:48Z",
+      "channel_mapping": {
+        "kettle": [
+          "Appliance8"
+        ],
+        "microwave": [
+          "Appliance5"
+        ],
+        "washing_machine": [
+          "Appliance2"
+        ]
+      }
+    },
+    "refit_19": {
+      "start": "2014-10-04T20:22:40Z",
+      "end": "2014-10-18T20:22:40Z",
+      "channel_mapping": {
+        "kettle": [
+          "Appliance5"
+        ],
+        "microwave": [
+          "Appliance4"
+        ],
+        "washing_machine": [
+          "Appliance2"
+        ]
+      }
+    }
+  },
+  "historical_normalization": {
+    "input_log_mean": 5.370561599731445,
+    "input_log_std": 0.8337093591690063,
+    "normalization_source_windows": {
+      "source_train_refit_2_0": 93213,
+      "source_train_refit_19_0": 56856
+    },
+    "steps_per_checkpoint": 587,
+    "normalization_scope": "source_train_union_only"
+  },
+  "upstream_limitations": [
+    "Upstream gaps were forward-filled or zeroed; original missingness is not recoverable.",
+    "IAM spikes above 4000 W were replaced with zero upstream.",
+    "Issues=1 means the sum of IAM channels exceeds aggregate power.",
+    "Appliance identities describe monitored channels, not every appliance owned by a household."
+  ]
+}

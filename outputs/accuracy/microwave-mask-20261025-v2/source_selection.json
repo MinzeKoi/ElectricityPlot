@@ -1,0 +1,21 @@
+{
+  "selected_arm": "partial_mask",
+  "partial_training_supported": true,
+  "improvement_candidate": true,
+  "no_deployable_candidate": false,
+  "arms": [
+    {
+      "arm": "strict_mask",
+      "eligible": true,
+      "mean_precision": 0.20280453302619653,
+      "mean_f1": 0.3137900213167024
+    },
+    {
+      "arm": "partial_mask",
+      "eligible": true,
+      "mean_precision": 0.2139767740114613,
+      "mean_f1": 0.32684018808516974
+    }
+  ],
+  "source_only": true
+}

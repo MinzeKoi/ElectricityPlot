@@ -1,0 +1,20 @@
+{
+  "artifacts": {
+    "error_cases.json": "cde16d1f24a574eba5a542d6bae553ebd9b3d3eef2609cf880c048511946dcdb",
+    "metrics.csv": "77b8f0effbb1f1534d580ef2908542a46066b94557291a62d88989d494257815",
+    "pr_refit_19_1019_refit_19.npz": "fb5cd9e97ac305d38cda8884ff0a7bc6b6f3be29053a2f06e73cbb0e19cbaed5",
+    "pr_refit_19_1019_refit_2.npz": "3d3392562674c88db2502804f68523b7c209ecd847fe3ce08b84f6e233b13b03",
+    "pr_refit_19_2026_refit_19.npz": "331ab0f479d6afa109e9aa882b6f0f5eb613f9cb2fe79bb0c2da9212053f1047",
+    "pr_refit_19_2026_refit_2.npz": "bacfdef72c2c94a31bd826df6b1cdf33b82a11193894fd9c9235d05a819f050e",
+    "pr_refit_19_42_refit_19.npz": "ef43763f15d14fea9bd889b4d365d0d0c82ae52edbe494c08dace84bc8672615",
+    "pr_refit_19_42_refit_2.npz": "0cdfd36761dabdda743f80816582ac31a0cfc3b8e9760f9318ccd17592b68814",
+    "pr_refit_2_1019_refit_19.npz": "0a5fbd456d2422c559c0fb70f3e743d813f7f59cc7bc7c87756a47b4126f1565",
+    "pr_refit_2_1019_refit_2.npz": "c4011169ee759113272709f37d3c728589bc7c4918155e3e10d571396bb92c68",
+    "pr_refit_2_2026_refit_19.npz": "72095b49c89259eb876aabbd081785d36ee5ffb86a0ca44c306dfdb6d0584739",
+    "pr_refit_2_2026_refit_2.npz": "fea9891fc4afa1cdf815aec4998615c148d913044d1e7fcfcf69c79b497f7fe5",
+    "pr_refit_2_42_refit_19.npz": "de7fa7ab3c894dca5992f317e2b644856f4ff4728ec0d7244bb48ae7eafe807d",
+    "pr_refit_2_42_refit_2.npz": "9ceebd92a878ff90404ce5b82a46ebc45a63bf9f9fa78347fceacebe8c152823",
+    "results.json": "f0ebdd11a7c1d2c5192e36a0db739ec8b060b22a3e3fd9e1fa35cc5709b25ae9"
+  },
+  "freeze_sha256": "c5806b2456dd3a9e6267eb34bb52e6a57d8d660b467cbfc4a23c96160f3b78a6"
+}

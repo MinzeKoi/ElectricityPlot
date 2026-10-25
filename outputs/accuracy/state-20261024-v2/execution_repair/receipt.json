@@ -1,0 +1,7 @@
+{
+  "freeze_sha256": "3a532fb863118f942814a4ec0dc81be1b204bcc13baeb36e8716179db5a3cb25",
+  "wrapper_sha256": "b244d459243ed8891e89efa5ef72de193f143b885b141db30e966092e168ff3e",
+  "reason": "Materialize lazy NPZ arrays once before exact PR ranking; no score, threshold, model or selection changes",
+  "snapshot_code_sha256": "4ccfbc60dcff36fff887312a6896bc3ec3df3ff33bccc269fc0b6d35868fd25f",
+  "development_labels_parsed_before_repair": false
+}

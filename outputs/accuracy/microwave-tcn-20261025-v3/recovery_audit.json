@@ -1,0 +1,83 @@
+{
+  "status": "recovery_audited",
+  "prior_failed_source_fit_starts": 1,
+  "effective_model_fits": 6,
+  "cumulative_start_cap": 7,
+  "maximum_actual_source_updates": 21462,
+  "prior_updates": 294,
+  "new_updates": 21168,
+  "prior_validation_score_files": 0,
+  "prior_checkpoint_recoverable": false,
+  "same_seed42_initialization": true,
+  "same_first294_batch_indices": true,
+  "first294_batch_indices_sha256": "8dcbca0256b7440d1dd158938fd4531aacf6b92d6dd22443fd2f1b3cc1671f80",
+  "source_shape_checks": {
+    "TCN31": {
+      "train": [
+        259806,
+        31
+      ],
+      "validation": {
+        "0": [
+          18063,
+          31
+        ],
+        "1": [
+          20518,
+          31
+        ],
+        "2": [
+          20641,
+          31
+        ],
+        "3": [
+          16213,
+          31
+        ],
+        "4": [
+          19127,
+          31
+        ],
+        "5": [
+          15224,
+          31
+        ]
+      }
+    },
+    "TCN127": {
+      "train": [
+        259806,
+        127
+      ],
+      "validation": {
+        "0": [
+          18063,
+          127
+        ],
+        "1": [
+          20518,
+          127
+        ],
+        "2": [
+          20641,
+          127
+        ],
+        "3": [
+          16213,
+          127
+        ],
+        "4": [
+          19127,
+          127
+        ],
+        "5": [
+          15224,
+          127
+        ]
+      }
+    }
+  },
+  "house17_truth_opened": false,
+  "note": "Supplemental all-array shape audit recorded after v3 started; both-length synthetic training-through-validation test passed before v3 preparation. Exact v2 bug reproduced using sealed v2 code afterward.",
+  "registration_sha256": "1cd50f61d2702d84b984fe08aff5aa2ff8eb4d5bba28f102626226e958dbf72b"
+}
