@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "mae_epoch": 7,
+  "precision_epoch": 7,
+  "maximum_parameter_difference": 0
+}

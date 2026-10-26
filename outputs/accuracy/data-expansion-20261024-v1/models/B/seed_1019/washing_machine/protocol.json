@@ -1,0 +1,390 @@
+{
+  "schema_version": 1,
+  "protocol_id": "data-expansion-20261024-v1-B",
+  "purpose": "engineering_pilot_only",
+  "accuracy_usage": "development_only",
+  "data_kind": "real_data_expansion",
+  "sample_interval_seconds": 8,
+  "target_appliances": [
+    "kettle",
+    "microwave",
+    "washing_machine"
+  ],
+  "split_gap_seconds": 3600,
+  "max_model_context_seconds": 3600,
+  "partial_source_labels": true,
+  "upstream_limitations": [
+    "Upstream gaps were forward-filled or zeroed; original missingness is not recoverable.",
+    "IAM spikes above 4000 W were replaced with zero upstream.",
+    "Issues=1 means the sum of IAM channels exceeds aggregate power.",
+    "Appliance identities describe monitored channels, not every appliance owned by a household."
+  ],
+  "partitions": [
+    {
+      "partition_id": "source_train_refit_2_0",
+      "household_id": "refit_2",
+      "role": "source_train",
+      "start": "2014-09-29T06:28:48Z",
+      "end": "2014-10-13T06:28:48Z",
+      "artifacts": {
+        "aggregate": {
+          "path": "data/source_train_refit_2_0/aggregate.csv",
+          "sha256": "3da552d8166d0a0e91b98f49960a15e4a0011dd318f653a6b0359eb02cb37df3"
+        },
+        "kettle": {
+          "path": "data/source_train_refit_2_0/kettle.csv",
+          "sha256": "9aee5cd8dad76f2d2d99dc2806853777a9dae9ddff72b035599dbd0aec844833"
+        },
+        "microwave": {
+          "path": "data/source_train_refit_2_0/microwave.csv",
+          "sha256": "2253ca5be6123a472fe098e3f559958484d9fd01e58ce582cacbda534b051ff8"
+        },
+        "washing_machine": {
+          "path": "data/source_train_refit_2_0/washing_machine.csv",
+          "sha256": "c0d75cc929b3ce1eaad6aab7d6078c20fab46cc875eb6690a91fb0fd0d436bac"
+        }
+      },
+      "origin": {
+        "dataset": "refit",
+        "household": "2",
+        "source_sha256": "5e3b8b30734070692bb6ac12504a26f5a1394aabe050199a1f7b7c5f88065561",
+        "license": "CC-BY-4.0",
+        "provenance": {
+          "schema_version": 1,
+          "household_id": "2",
+          "source_url": "https://pure.strath.ac.uk/ws/portalfiles/portal/62090184/CLEAN_REFIT_081116.7z",
+          "license": "CC-BY-4.0",
+          "retrieved_at": "2026-10-22T03:15:43.478374+00:00",
+          "kind": "real_complete",
+          "stored_bytes": 325391201,
+          "sha256": "5e3b8b30734070692bb6ac12504a26f5a1394aabe050199a1f7b7c5f88065561",
+          "archive_sha256": "4dc4dde763da1c843e9d565fc68f1a63752d858980615635994d7f701fdfcc4b",
+          "archive_member": "CLEAN_House2.csv",
+          "archive_member_crc32": "ffbf8453",
+          "archive_member_crc32_verified": true,
+          "publisher_checksum_verified": false,
+          "integrity_note": "Archive member CRC and local SHA-256 verified; no independently published archive checksum obtained.",
+          "trailing_incomplete_row_removed": false
+        },
+        "channel_mapping": {
+          "kettle": [
+            "Appliance8"
+          ],
+          "microwave": [
+            "Appliance5"
+          ],
+          "washing_machine": [
+            "Appliance2"
+          ]
+        }
+      }
+    },
+    {
+      "partition_id": "source_train_refit_2_1",
+      "household_id": "refit_2",
+      "role": "source_train",
+      "start": "2014-10-13T07:28:48Z",
+      "end": "2014-10-27T06:28:48Z",
+      "artifacts": {
+        "aggregate": {
+          "path": "data/source_train_refit_2_1/aggregate.csv",
+          "sha256": "11727d8b1e6f0e74e814b06b5a7e3a59a2d9d9bb01da72422db9d9987e1b5138"
+        },
+        "kettle": {
+          "path": "data/source_train_refit_2_1/kettle.csv",
+          "sha256": "f3f9b289497540f354384f5bcc7c30ad821496f7080bedabecc131e833c1b8dc"
+        },
+        "microwave": {
+          "path": "data/source_train_refit_2_1/microwave.csv",
+          "sha256": "0499e995d1075fdcade0d6284e2c047509271f3e1a2a86e6c43ad2d19420abe3"
+        },
+        "washing_machine": {
+          "path": "data/source_train_refit_2_1/washing_machine.csv",
+          "sha256": "095cc39eed8339485a3e95abcc0329c3a8b32655b44c1e211a641128f351f6e5"
+        }
+      },
+      "origin": {
+        "dataset": "refit",
+        "household": "2",
+        "source_sha256": "5e3b8b30734070692bb6ac12504a26f5a1394aabe050199a1f7b7c5f88065561",
+        "license": "CC-BY-4.0",
+        "provenance": {
+          "schema_version": 1,
+          "household_id": "2",
+          "source_url": "https://pure.strath.ac.uk/ws/portalfiles/portal/62090184/CLEAN_REFIT_081116.7z",
+          "license": "CC-BY-4.0",
+          "retrieved_at": "2026-10-22T03:15:43.478374+00:00",
+          "kind": "real_complete",
+          "stored_bytes": 325391201,
+          "sha256": "5e3b8b30734070692bb6ac12504a26f5a1394aabe050199a1f7b7c5f88065561",
+          "archive_sha256": "4dc4dde763da1c843e9d565fc68f1a63752d858980615635994d7f701fdfcc4b",
+          "archive_member": "CLEAN_House2.csv",
+          "archive_member_crc32": "ffbf8453",
+          "archive_member_crc32_verified": true,
+          "publisher_checksum_verified": false,
+          "integrity_note": "Archive member CRC and local SHA-256 verified; no independently published archive checksum obtained.",
+          "trailing_incomplete_row_removed": false
+        },
+        "channel_mapping": {
+          "kettle": [
+            "Appliance8"
+          ],
+          "microwave": [
+            "Appliance5"
+          ],
+          "washing_machine": [
+            "Appliance2"
+          ]
+        }
+      }
+    },
+    {
+      "partition_id": "source_train_refit_19_0",
+      "household_id": "refit_19",
+      "role": "source_train",
+      "start": "2014-10-04T20:22:40Z",
+      "end": "2014-10-18T20:22:40Z",
+      "artifacts": {
+        "aggregate": {
+          "path": "data/source_train_refit_19_0/aggregate.csv",
+          "sha256": "2b4a52e98a18d9b39247a9c587d9471da5b7b1c6d8e0d5944dc19194dee46a67"
+        },
+        "kettle": {
+          "path": "data/source_train_refit_19_0/kettle.csv",
+          "sha256": "98783628578c57824021af764455efd81ef023ab8bdc9cb7431a04d93a867d69"
+        },
+        "microwave": {
+          "path": "data/source_train_refit_19_0/microwave.csv",
+          "sha256": "b4b26543fc680a47f2ca5c88d2b393b3d9fc1c2eb6d24c59b44028db99668b7a"
+        },
+        "washing_machine": {
+          "path": "data/source_train_refit_19_0/washing_machine.csv",
+          "sha256": "dd6dbac73aa5f01c270518aec22e86c6a0ddc80ea35039ab216a371c24e54599"
+        }
+      },
+      "origin": {
+        "dataset": "refit",
+        "household": "19",
+        "source_sha256": "b445ebaec2562b0559dd13e62c399e8403f4a2f28e09042994cab470f6867960",
+        "license": "CC-BY-4.0",
+        "provenance": {
+          "schema_version": 1,
+          "household_id": "19",
+          "source_url": "https://pure.strath.ac.uk/ws/portalfiles/portal/62090184/CLEAN_REFIT_081116.7z",
+          "license": "CC-BY-4.0",
+          "retrieved_at": "2026-10-22T03:15:43.478374+00:00",
+          "kind": "real_complete",
+          "stored_bytes": 320691540,
+          "sha256": "b445ebaec2562b0559dd13e62c399e8403f4a2f28e09042994cab470f6867960",
+          "archive_sha256": "4dc4dde763da1c843e9d565fc68f1a63752d858980615635994d7f701fdfcc4b",
+          "archive_member": "CLEAN_House19.csv",
+          "archive_member_crc32": "dfa27676",
+          "archive_member_crc32_verified": true,
+          "publisher_checksum_verified": false,
+          "integrity_note": "Archive member CRC and local SHA-256 verified; no independently published archive checksum obtained.",
+          "trailing_incomplete_row_removed": false
+        },
+        "channel_mapping": {
+          "kettle": [
+            "Appliance5"
+          ],
+          "microwave": [
+            "Appliance4"
+          ],
+          "washing_machine": [
+            "Appliance2"
+          ]
+        }
+      }
+    },
+    {
+      "partition_id": "source_train_refit_19_1",
+      "household_id": "refit_19",
+      "role": "source_train",
+      "start": "2014-10-18T21:22:40Z",
+      "end": "2014-11-01T20:22:40Z",
+      "artifacts": {
+        "aggregate": {
+          "path": "data/source_train_refit_19_1/aggregate.csv",
+          "sha256": "426f8b6a582d5d534accea8bc1da852bdaf1624e51e3c6de0f42396211f51131"
+        },
+        "kettle": {
+          "path": "data/source_train_refit_19_1/kettle.csv",
+          "sha256": "c68d2772e08b82f55d8734f80c037a30a9d178dad3f60a95c09a2f282c68d768"
+        },
+        "microwave": {
+          "path": "data/source_train_refit_19_1/microwave.csv",
+          "sha256": "f42459e4e96468684ad142b8687f24c00c7095be1918dc4fd35bd4827c0411b1"
+        },
+        "washing_machine": {
+          "path": "data/source_train_refit_19_1/washing_machine.csv",
+          "sha256": "9b939e3f0942511e42d98b095b2d3f5b80ac44b73a29156b27e42cef74ba28cb"
+        }
+      },
+      "origin": {
+        "dataset": "refit",
+        "household": "19",
+        "source_sha256": "b445ebaec2562b0559dd13e62c399e8403f4a2f28e09042994cab470f6867960",
+        "license": "CC-BY-4.0",
+        "provenance": {
+          "schema_version": 1,
+          "household_id": "19",
+          "source_url": "https://pure.strath.ac.uk/ws/portalfiles/portal/62090184/CLEAN_REFIT_081116.7z",
+          "license": "CC-BY-4.0",
+          "retrieved_at": "2026-10-22T03:15:43.478374+00:00",
+          "kind": "real_complete",
+          "stored_bytes": 320691540,
+          "sha256": "b445ebaec2562b0559dd13e62c399e8403f4a2f28e09042994cab470f6867960",
+          "archive_sha256": "4dc4dde763da1c843e9d565fc68f1a63752d858980615635994d7f701fdfcc4b",
+          "archive_member": "CLEAN_House19.csv",
+          "archive_member_crc32": "dfa27676",
+          "archive_member_crc32_verified": true,
+          "publisher_checksum_verified": false,
+          "integrity_note": "Archive member CRC and local SHA-256 verified; no independently published archive checksum obtained.",
+          "trailing_incomplete_row_removed": false
+        },
+        "channel_mapping": {
+          "kettle": [
+            "Appliance5"
+          ],
+          "microwave": [
+            "Appliance4"
+          ],
+          "washing_machine": [
+            "Appliance2"
+          ]
+        }
+      }
+    },
+    {
+      "partition_id": "source_validation_refit_5_0",
+      "household_id": "refit_5",
+      "role": "source_validation",
+      "start": "2014-11-14T20:53:44Z",
+      "end": "2014-11-28T20:53:44Z",
+      "artifacts": {
+        "aggregate": {
+          "path": "data/source_validation_refit_5_0/aggregate.csv",
+          "sha256": "b1cc0a12a37b3182164fba3d1ddcc62ba85682bed641302f859095d0dda92525"
+        },
+        "kettle": {
+          "path": "data/source_validation_refit_5_0/kettle.csv",
+          "sha256": "0d6ab377b85361c9f90aa4b9246579dbc65555ada9471bcc2ac8f8d9a93958ef"
+        },
+        "microwave": {
+          "path": "data/source_validation_refit_5_0/microwave.csv",
+          "sha256": "d907c7cb236c9340519722456376ba27339cc63c42db9eadf74e4db4745fcaf3"
+        },
+        "washing_machine": {
+          "path": "data/source_validation_refit_5_0/washing_machine.csv",
+          "sha256": "3aafc2828cb1f2b0f71ab87a2d6dec23d33ce0b9af2ab62b64e099a89a6c69e3"
+        }
+      },
+      "origin": {
+        "dataset": "refit",
+        "household": "5",
+        "source_sha256": "897defbaeadb048ced0d7f6b0ba262a7fa701b7a6943b6a7ca8ad515d7fa3c50",
+        "license": "CC-BY-4.0",
+        "provenance": {
+          "schema_version": 1,
+          "household_id": "5",
+          "source_url": "https://pure.strath.ac.uk/ws/portalfiles/portal/62090184/CLEAN_REFIT_081116.7z",
+          "license": "CC-BY-4.0",
+          "retrieved_at": "2026-10-22T03:15:43.478374+00:00",
+          "kind": "real_complete",
+          "stored_bytes": 435272416,
+          "sha256": "897defbaeadb048ced0d7f6b0ba262a7fa701b7a6943b6a7ca8ad515d7fa3c50",
+          "archive_sha256": "4dc4dde763da1c843e9d565fc68f1a63752d858980615635994d7f701fdfcc4b",
+          "archive_member": "CLEAN_House5.csv",
+          "archive_member_crc32": "5545bc11",
+          "archive_member_crc32_verified": true,
+          "publisher_checksum_verified": false,
+          "integrity_note": "Archive member CRC and local SHA-256 verified; no independently published archive checksum obtained.",
+          "trailing_incomplete_row_removed": false
+        },
+        "channel_mapping": {
+          "kettle": [
+            "Appliance8"
+          ],
+          "microwave": [
+            "Appliance7"
+          ],
+          "washing_machine": [
+            "Appliance3"
+          ]
+        }
+      }
+    },
+    {
+      "partition_id": "frozen_test_refit_17_0",
+      "household_id": "refit_17",
+      "role": "frozen_test",
+      "start": "2014-10-14T09:13:12Z",
+      "end": "2014-10-28T08:13:12Z",
+      "artifacts": {
+        "aggregate": {
+          "path": "data/frozen_test_refit_17_0/aggregate.csv",
+          "sha256": "668938caa5894e713946c346fde1da8f02ad2c3cf228d827a4d84fc5beeda41b"
+        },
+        "kettle": {
+          "path": "data/frozen_test_refit_17_0/kettle.csv",
+          "sha256": "64f1faefe128677856b41d2f2dba70a31353a743d517f01a331833287a300aa5"
+        },
+        "microwave": {
+          "path": "data/frozen_test_refit_17_0/microwave.csv",
+          "sha256": "c796f9ac8d8a7bdf8acf29aafea63d1d8f4e46bd319f7c69e499ba61077d6111"
+        },
+        "washing_machine": {
+          "path": "data/frozen_test_refit_17_0/washing_machine.csv",
+          "sha256": "76888b4404a4c0519be4fa7ad751c88ed6760babaaecde04b64597d62f91395a"
+        }
+      },
+      "origin": {
+        "dataset": "refit",
+        "household": "17",
+        "source_sha256": "5f794deb64d864ceaf711b12e699e9bcc4a3ad3977b32e105e1ee762b3073cbe",
+        "license": "CC-BY-4.0",
+        "provenance": {
+          "schema_version": 1,
+          "household_id": "17",
+          "source_url": "https://pure.strath.ac.uk/ws/portalfiles/portal/62090184/CLEAN_REFIT_081116.7z",
+          "license": "CC-BY-4.0",
+          "retrieved_at": "2026-10-22T03:15:43.478374+00:00",
+          "kind": "real_complete",
+          "stored_bytes": 317925929,
+          "sha256": "5f794deb64d864ceaf711b12e699e9bcc4a3ad3977b32e105e1ee762b3073cbe",
+          "archive_sha256": "4dc4dde763da1c843e9d565fc68f1a63752d858980615635994d7f701fdfcc4b",
+          "archive_member": "CLEAN_House17.csv",
+          "archive_member_crc32": "b2c85d6b",
+          "archive_member_crc32_verified": true,
+          "publisher_checksum_verified": false,
+          "integrity_note": "Archive member CRC and local SHA-256 verified; no independently published archive checksum obtained.",
+          "trailing_incomplete_row_removed": false
+        },
+        "channel_mapping": {
+          "kettle": [
+            "Appliance8"
+          ],
+          "microwave": [
+            "Appliance7"
+          ],
+          "washing_machine": [
+            "Appliance4"
+          ]
+        }
+      }
+    }
+  ],
+  "expansion_training": {
+    "input_log_mean": 5.486993312835693,
+    "input_log_std": 0.7847750782966614,
+    "normalization_source_windows": {
+      "source_train_refit_2_0": 93213,
+      "source_train_refit_2_1": 144141,
+      "source_train_refit_19_0": 56856,
+      "source_train_refit_19_1": 131994
+    },
+    "steps_per_checkpoint": 587,
+    "normalization_scope": "source_train_union_only"
+  }
+}

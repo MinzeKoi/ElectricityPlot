@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "status": "trained",
+  "project": "ElectricityPlot",
+  "kind": "small_seq2point",
+  "created_at": "2026-10-24T09:38:36.701960+00:00",
+  "appliances": [
+    "microwave"
+  ],
+  "settings": {
+    "schema_version": 1,
+    "window_samples": 31,
+    "channels": 8,
+    "hidden_units": 32,
+    "epochs": 12,
+    "batch_size": 256,
+    "learning_rate": 0.001,
+    "active_loss_weight": 50.0,
+    "seed": 1019,
+    "cpu_threads": 4,
+    "on_thresholds_w": {
+      "kettle": 2000.0,
+      "microwave": 200.0,
+      "washing_machine": 20.0
+    }
+  },
+  "sample_interval_seconds": 8,
+  "protocol_sha256": "2d841d6cbd808ce77b366c9129261cde3d2b6c3bfe2d7e4b0934e17a6171dfc2",
+  "protocol_id": "data-expansion-20261024-v1-B",
+  "purpose": "engineering_pilot_only",
+  "data_kind": "real_data_expansion",
+  "code_sha256": "076795347ff5998e1bd5651e696c1f1aa792b63c5bc220fb15721cb8f94ec877",
+  "settings_sha256": "bcdaa3b770b7c74ada09bf213676e48d0e0c89ac1f1637a0d4d3a90cc852fc94",
+  "input_log_mean": 5.486993312835693,
+  "input_log_std": 0.7847750782966614,
+  "power_scales_w": [
+    1351.125
+  ],
+  "source_train_windows": {
+    "source_train_refit_2_0": 93213,
+    "source_train_refit_2_1": 144141,
+    "source_train_refit_19_0": 56856,
+    "source_train_refit_19_1": 131994
+  },
+  "source_validation_windows": {
+    "source_validation_refit_5_0": 120281
+  },
+  "training_households": [
+    "refit_19",
+    "refit_2"
+  ],
+  "validation_households": [
+    "refit_5"
+  ],
+  "target_labels_read": false,
+  "adaptation": "none",
+  "confidence": null,
+  "upstream_limitations": [
+    "Upstream gaps were forward-filled or zeroed; original missingness is not recoverable.",
+    "IAM spikes above 4000 W were replaced with zero upstream.",
+    "Issues=1 means the sum of IAM channels exceeds aggregate power.",
+    "Appliance identities describe monitored channels, not every appliance owned by a household."
+  ],
+  "state_definition": "predicted_power_w >= fixed on_thresholds_w; thresholds chosen before test evaluation",
+  "expansion_training": {
+    "input_log_mean": 5.486993312835693,
+    "input_log_std": 0.7847750782966614,
+    "normalization_source_windows": {
+      "source_train_refit_2_0": 93213,
+      "source_train_refit_2_1": 144141,
+      "source_train_refit_19_0": 56856,
+      "source_train_refit_19_1": 131994
+    },
+    "steps_per_checkpoint": 587,
+    "normalization_scope": "source_train_union_only"
+  },
+  "selected_epoch": 10,
+  "weights": {
+    "path": "weights.pt",
+    "sha256": "5ecb44b8c8f569befd869a5264a5f2bd3f6b6520e22337b6ddf05c4cb628caa0"
+  },
+  "validation_normalized_mae": 0.04350045323371887,
+  "checkpoint_metric": "normalized_mae",
+  "torch_version": "2.9.0+cpu",
+  "parameter_count": 8249,
+  "optimizer_steps": 7044,
+  "timing_seconds": {
+    "fit": 27.30199680000078,
+    "total": 43.48163769999883
+  },
+  "model_id": "small_seq2point-00efa16db12047f4"
+}

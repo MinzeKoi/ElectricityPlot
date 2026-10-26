@@ -1,0 +1,260 @@
+{
+  "schema_version": 1,
+  "project": "ElectricityPlot",
+  "dataset": "REFIT_CLEANED",
+  "license": "CC-BY-4.0",
+  "citation": "Murray, Stankovic and Stankovic (2017), Scientific Data 4, 160122. doi:10.1038/sdata.2016.122",
+  "sample_interval_seconds": 8,
+  "catalog_sha256": "fe887f15940696876eba107f8c58953452ead0afd93a430b02340d45117671d7",
+  "upstream_limitations": [
+    "Upstream gaps were forward-filled or zeroed; original missingness is not recoverable.",
+    "IAM spikes above 4000 W were replaced with zero upstream.",
+    "Issues=1 means the sum of IAM channels exceeds aggregate power.",
+    "Appliance identities describe monitored channels, not every appliance owned by a household."
+  ],
+  "households": {
+    "4": {
+      "source_file": "house_4.csv",
+      "source_sha256": "bd07921ca95be8e3b49ba5928c33d118046f1c034db1f9d343b04f93a7017f8b",
+      "provenance": null,
+      "channel_mapping": {
+        "kettle": [
+          "Appliance9"
+        ],
+        "microwave": [
+          "Appliance8"
+        ],
+        "washing_machine": [
+          "Appliance6"
+        ]
+      },
+      "raw_intervals_seconds": {
+        "8": 239
+      },
+      "bins": 239,
+      "channels": {
+        "aggregate": {
+          "valid_bins": 239,
+          "nonzero_bins": 239,
+          "observed_energy_kwh": 0.539666666666667,
+          "flags": {
+            "upstream_cleaned_missingness_unknown": 239
+          },
+          "coverage": 1.0
+        },
+        "kettle": {
+          "valid_bins": 239,
+          "nonzero_bins": 36,
+          "observed_energy_kwh": 0.17599999999999996,
+          "flags": {
+            "upstream_cleaned_missingness_unknown": 239
+          },
+          "coverage": 1.0
+        },
+        "microwave": {
+          "valid_bins": 239,
+          "nonzero_bins": 44,
+          "observed_energy_kwh": 0.06844444444444442,
+          "flags": {
+            "upstream_cleaned_missingness_unknown": 239
+          },
+          "coverage": 1.0
+        },
+        "washing_machine": {
+          "valid_bins": 239,
+          "nonzero_bins": 89,
+          "observed_energy_kwh": 0.02966666666666672,
+          "flags": {
+            "upstream_cleaned_missingness_unknown": 239
+          },
+          "coverage": 1.0
+        }
+      },
+      "artifacts": {
+        "aggregate": {
+          "path": "aggregate/house_4.csv",
+          "sha256": "fc8df2ab37a1535e7652df543a6f001ca5ffa0161b74acd3a61ebd9b405cf3b9"
+        },
+        "kettle": {
+          "path": "labels/house_4/kettle.csv",
+          "sha256": "7f5563b42ab21f40132da39accfb95b63548ec41fb3afedf6efe1ace14fb99a5"
+        },
+        "microwave": {
+          "path": "labels/house_4/microwave.csv",
+          "sha256": "75b2913c03efbd6d167621101abb16adf2c69f13676b43c3e25867a1ee02be12"
+        },
+        "washing_machine": {
+          "path": "labels/house_4/washing_machine.csv",
+          "sha256": "ab17f3c8ad6d1f2fb8bc4bec5aa3ed138d20d50babdd1f67005b7678df24133b"
+        }
+      },
+      "first_observation": "1970-01-01T00:00:00Z",
+      "start": "1970-01-01T00:00:00Z",
+      "end": "1970-01-01T00:31:52Z",
+      "raw_rows": 240,
+      "last_observation": "1970-01-01T00:31:52Z"
+    },
+    "6": {
+      "source_file": "house_6.csv",
+      "source_sha256": "fb79543fa106fe6524ea75bc0065bce597bd0e13960831160c27219e52717166",
+      "provenance": null,
+      "channel_mapping": {
+        "kettle": [
+          "Appliance9"
+        ],
+        "microwave": [
+          "Appliance8"
+        ],
+        "washing_machine": [
+          "Appliance6"
+        ]
+      },
+      "raw_intervals_seconds": {
+        "8": 239
+      },
+      "bins": 239,
+      "channels": {
+        "aggregate": {
+          "valid_bins": 239,
+          "nonzero_bins": 239,
+          "observed_energy_kwh": 0.5316666666666668,
+          "flags": {
+            "upstream_cleaned_missingness_unknown": 239
+          },
+          "coverage": 1.0
+        },
+        "kettle": {
+          "valid_bins": 239,
+          "nonzero_bins": 35,
+          "observed_energy_kwh": 0.17111111111111107,
+          "flags": {
+            "upstream_cleaned_missingness_unknown": 239
+          },
+          "coverage": 1.0
+        },
+        "microwave": {
+          "valid_bins": 239,
+          "nonzero_bins": 42,
+          "observed_energy_kwh": 0.0653333333333333,
+          "flags": {
+            "upstream_cleaned_missingness_unknown": 239
+          },
+          "coverage": 1.0
+        },
+        "washing_machine": {
+          "valid_bins": 239,
+          "nonzero_bins": 89,
+          "observed_energy_kwh": 0.02966666666666672,
+          "flags": {
+            "upstream_cleaned_missingness_unknown": 239
+          },
+          "coverage": 1.0
+        }
+      },
+      "artifacts": {
+        "aggregate": {
+          "path": "aggregate/house_6.csv",
+          "sha256": "8bbb988cf1e1e3b54f7a70fdce347e67b94599b1439c114543b9f4dffd17ac5f"
+        },
+        "kettle": {
+          "path": "labels/house_6/kettle.csv",
+          "sha256": "f1046c42b03ec199a36b0509e91337364abe4e20e813a056b9d42dd4c382ceda"
+        },
+        "microwave": {
+          "path": "labels/house_6/microwave.csv",
+          "sha256": "0dd5406369b130d9430769fba0d5910af724f4afb1e7576890d5b8339f973a54"
+        },
+        "washing_machine": {
+          "path": "labels/house_6/washing_machine.csv",
+          "sha256": "f7222136a2fd18b59a78ddc9abfafc1d230f464d549cc6b7679869b7c444be5f"
+        }
+      },
+      "first_observation": "1970-01-01T00:00:00Z",
+      "start": "1970-01-01T00:00:00Z",
+      "end": "1970-01-01T00:31:52Z",
+      "raw_rows": 240,
+      "last_observation": "1970-01-01T00:31:52Z"
+    },
+    "7": {
+      "source_file": "house_7.csv",
+      "source_sha256": "8d9d7fc8d5b66c2b6b946dd552b7d3e743f73c8126534e971e5ac362454849ed",
+      "provenance": null,
+      "channel_mapping": {
+        "kettle": [
+          "Appliance9"
+        ],
+        "microwave": [
+          "Appliance8"
+        ],
+        "washing_machine": [
+          "Appliance6"
+        ]
+      },
+      "raw_intervals_seconds": {
+        "8": 239
+      },
+      "bins": 239,
+      "channels": {
+        "aggregate": {
+          "valid_bins": 239,
+          "nonzero_bins": 239,
+          "observed_energy_kwh": 0.5301111111111112,
+          "flags": {
+            "upstream_cleaned_missingness_unknown": 239
+          },
+          "coverage": 1.0
+        },
+        "kettle": {
+          "valid_bins": 239,
+          "nonzero_bins": 35,
+          "observed_energy_kwh": 0.17111111111111107,
+          "flags": {
+            "upstream_cleaned_missingness_unknown": 239
+          },
+          "coverage": 1.0
+        },
+        "microwave": {
+          "valid_bins": 239,
+          "nonzero_bins": 41,
+          "observed_energy_kwh": 0.06377777777777774,
+          "flags": {
+            "upstream_cleaned_missingness_unknown": 239
+          },
+          "coverage": 1.0
+        },
+        "washing_machine": {
+          "valid_bins": 239,
+          "nonzero_bins": 89,
+          "observed_energy_kwh": 0.02966666666666672,
+          "flags": {
+            "upstream_cleaned_missingness_unknown": 239
+          },
+          "coverage": 1.0
+        }
+      },
+      "artifacts": {
+        "aggregate": {
+          "path": "aggregate/house_7.csv",
+          "sha256": "eac04cf658e69bef508730ee5b77026277e9d8ea91e0adca6fed6d00d63dc1ba"
+        },
+        "kettle": {
+          "path": "labels/house_7/kettle.csv",
+          "sha256": "f6c443d59d240a0cf34461c00dc7953ec0b289a12fc22581c0b1c0b832e5cc15"
+        },
+        "microwave": {
+          "path": "labels/house_7/microwave.csv",
+          "sha256": "f4d17bd03816e50d8cb469c9b83bef8c03d7203c731b1ed08289644dd28bbd33"
+        },
+        "washing_machine": {
+          "path": "labels/house_7/washing_machine.csv",
+          "sha256": "5927cae0059cf2473f1f0f39eafa38c188b25a94227b2c43f357678422eb77e0"
+        }
+      },
+      "first_observation": "1970-01-01T00:00:00Z",
+      "start": "1970-01-01T00:00:00Z",
+      "end": "1970-01-01T00:31:52Z",
+      "raw_rows": 240,
+      "last_observation": "1970-01-01T00:31:52Z"
+    }
+  }
+}

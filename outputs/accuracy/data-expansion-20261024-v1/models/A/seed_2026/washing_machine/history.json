@@ -1,0 +1,88 @@
+{
+  "epochs": [
+    {
+      "epoch": 1,
+      "training_weighted_mse": 0.032728992319901,
+      "validation_normalized_mae": 0.09058118611574173,
+      "source_primary_f1": null,
+      "optimizer_steps": 587
+    },
+    {
+      "epoch": 2,
+      "training_weighted_mse": 0.029061904132275027,
+      "validation_normalized_mae": 0.06207326427102089,
+      "source_primary_f1": null,
+      "optimizer_steps": 1174
+    },
+    {
+      "epoch": 3,
+      "training_weighted_mse": 0.024414716584273195,
+      "validation_normalized_mae": 0.08558547496795654,
+      "source_primary_f1": null,
+      "optimizer_steps": 1761
+    },
+    {
+      "epoch": 4,
+      "training_weighted_mse": 0.020765186396163246,
+      "validation_normalized_mae": 0.09337368607521057,
+      "source_primary_f1": null,
+      "optimizer_steps": 2348
+    },
+    {
+      "epoch": 5,
+      "training_weighted_mse": 0.018871701120901453,
+      "validation_normalized_mae": 0.07325965911149979,
+      "source_primary_f1": null,
+      "optimizer_steps": 2935
+    },
+    {
+      "epoch": 6,
+      "training_weighted_mse": 0.017491753152656858,
+      "validation_normalized_mae": 0.09873146563768387,
+      "source_primary_f1": null,
+      "optimizer_steps": 3522
+    },
+    {
+      "epoch": 7,
+      "training_weighted_mse": 0.017245596460280573,
+      "validation_normalized_mae": 0.046080321073532104,
+      "source_primary_f1": null,
+      "optimizer_steps": 4109
+    },
+    {
+      "epoch": 8,
+      "training_weighted_mse": 0.016647420128444217,
+      "validation_normalized_mae": 0.07992526143789291,
+      "source_primary_f1": null,
+      "optimizer_steps": 4696
+    },
+    {
+      "epoch": 9,
+      "training_weighted_mse": 0.01628989224924528,
+      "validation_normalized_mae": 0.0848877802491188,
+      "source_primary_f1": null,
+      "optimizer_steps": 5283
+    },
+    {
+      "epoch": 10,
+      "training_weighted_mse": 0.016172292297547942,
+      "validation_normalized_mae": 0.06761302053928375,
+      "source_primary_f1": null,
+      "optimizer_steps": 5870
+    },
+    {
+      "epoch": 11,
+      "training_weighted_mse": 0.01635125410645444,
+      "validation_normalized_mae": 0.05826782062649727,
+      "source_primary_f1": null,
+      "optimizer_steps": 6457
+    },
+    {
+      "epoch": 12,
+      "training_weighted_mse": 0.015596532064500552,
+      "validation_normalized_mae": 0.04957239329814911,
+      "source_primary_f1": null,
+      "optimizer_steps": 7044
+    }
+  ]
+}

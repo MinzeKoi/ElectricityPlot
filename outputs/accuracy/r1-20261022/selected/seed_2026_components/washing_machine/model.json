@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "status": "trained",
+  "project": "ElectricityPlot",
+  "kind": "small_seq2point",
+  "created_at": "2026-10-22T04:24:17.153382+00:00",
+  "appliances": [
+    "washing_machine"
+  ],
+  "settings": {
+    "schema_version": 1,
+    "window_samples": 31,
+    "channels": 8,
+    "hidden_units": 32,
+    "epochs": 12,
+    "batch_size": 256,
+    "learning_rate": 0.001,
+    "active_loss_weight": 50.0,
+    "seed": 2026,
+    "cpu_threads": 4,
+    "on_thresholds_w": {
+      "kettle": 2000.0,
+      "microwave": 200.0,
+      "washing_machine": 20.0
+    }
+  },
+  "sample_interval_seconds": 8,
+  "protocol_sha256": "e6356bf007fb8c0302008e1f18bd039f8651456172a7a062ac92133909b79084",
+  "protocol_id": "refit-r1-r0-dates-development-v1",
+  "purpose": "engineering_pilot_only",
+  "data_kind": "real_REFIT_complete_date_selected",
+  "code_sha256": "df270ef5e38af2e83a6dc2fd7bec0d8bb6c14b163360938d0e7c982d1688a303",
+  "settings_sha256": "37c367aaf2da0f084a1337069b5834691ff86ec2745b39b17c28f2d96607941d",
+  "input_log_mean": 5.370561599731445,
+  "input_log_std": 0.8337093591690063,
+  "power_scales_w": [
+    2349.0
+  ],
+  "source_train_windows": {
+    "source_train_house_2": 93213,
+    "source_train_house_19": 56856
+  },
+  "source_validation_windows": {
+    "source_validation_house_5": 120281
+  },
+  "training_households": [
+    "19",
+    "2"
+  ],
+  "validation_households": [
+    "5"
+  ],
+  "target_labels_read": false,
+  "adaptation": "none",
+  "confidence": null,
+  "upstream_limitations": [
+    "Upstream gaps were forward-filled or zeroed; original missingness is not recoverable.",
+    "IAM spikes above 4000 W were replaced with zero upstream.",
+    "Issues=1 means the sum of IAM channels exceeds aggregate power.",
+    "Appliance identities describe monitored channels, not every appliance owned by a household."
+  ],
+  "state_definition": "predicted_power_w >= fixed on_thresholds_w; thresholds chosen before test evaluation",
+  "selected_epoch": 7,
+  "weights": {
+    "path": "weights.pt",
+    "sha256": "3c59ad81a75c8e808b546b1b4b901ec920ee6f3ed1b26448df66fb3f0797ae36"
+  },
+  "validation_normalized_mae": 0.046080321073532104,
+  "checkpoint_metric": "normalized_mae",
+  "torch_version": "2.9.0+cpu",
+  "parameter_count": 8249,
+  "timing_seconds": {
+    "fit": 15.3144441000004,
+    "total": 21.882041400000162
+  },
+  "model_id": "small_seq2point-1299e837cd0b5909"
+}

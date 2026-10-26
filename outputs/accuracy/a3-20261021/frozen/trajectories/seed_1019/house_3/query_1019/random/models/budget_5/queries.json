@@ -1,0 +1,70 @@
+{
+  "records": [
+    {
+      "query_id": "a022070e90a9d428ef109212",
+      "household_id": "3",
+      "appliance_type": "kettle",
+      "window_start": "2013-09-26T05:41:04Z",
+      "window_end": "2013-09-26T06:01:04Z",
+      "response": "unsure",
+      "label_source": "simulated_from_submeter",
+      "selection_strategy": "random",
+      "model_version": "a3-state-d566331838c307dc",
+      "budget_before": 0,
+      "budget_after": 1
+    },
+    {
+      "query_id": "1638747725859071d5c51f00",
+      "household_id": "3",
+      "appliance_type": "washing_machine",
+      "window_start": "2013-09-26T03:41:04Z",
+      "window_end": "2013-09-26T04:01:04Z",
+      "response": "not_used",
+      "label_source": "simulated_from_submeter",
+      "selection_strategy": "random",
+      "model_version": "a3-state-d566331838c307dc",
+      "budget_before": 1,
+      "budget_after": 2
+    },
+    {
+      "query_id": "8a9a29e6a36ea4f4567c4626",
+      "household_id": "3",
+      "appliance_type": "washing_machine",
+      "window_start": "2013-09-26T18:21:04Z",
+      "window_end": "2013-09-26T18:41:04Z",
+      "response": "unsure",
+      "label_source": "simulated_from_submeter",
+      "selection_strategy": "random",
+      "model_version": "a3-state-d566331838c307dc",
+      "budget_before": 2,
+      "budget_after": 3
+    },
+    {
+      "query_id": "78c58b04af5515775f881364",
+      "household_id": "3",
+      "appliance_type": "kettle",
+      "window_start": "2013-09-26T04:21:04Z",
+      "window_end": "2013-09-26T04:41:04Z",
+      "response": "not_used",
+      "label_source": "simulated_from_submeter",
+      "selection_strategy": "random",
+      "model_version": "a3-state-d566331838c307dc",
+      "budget_before": 3,
+      "budget_after": 4
+    },
+    {
+      "query_id": "1bc423176505e1bb2f76f0d5",
+      "household_id": "3",
+      "appliance_type": "kettle",
+      "window_start": "2013-09-27T04:41:04Z",
+      "window_end": "2013-09-27T05:01:04Z",
+      "response": "unsure",
+      "label_source": "simulated_from_submeter",
+      "selection_strategy": "random",
+      "model_version": "a3-state-d566331838c307dc",
+      "budget_before": 4,
+      "budget_after": 5
+    }
+  ],
+  "budget_used": 5
+}

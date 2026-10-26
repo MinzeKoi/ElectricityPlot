@@ -1,0 +1,76 @@
+{
+  "epochs": [
+    {
+      "epoch": 1,
+      "training_weighted_mse": 0.03458261283810352,
+      "validation_normalized_mae": 0.09521207213401794,
+      "source_primary_f1": null
+    },
+    {
+      "epoch": 2,
+      "training_weighted_mse": 0.030295622014968545,
+      "validation_normalized_mae": 0.0779564380645752,
+      "source_primary_f1": null
+    },
+    {
+      "epoch": 3,
+      "training_weighted_mse": 0.02752701572237598,
+      "validation_normalized_mae": 0.09208208322525024,
+      "source_primary_f1": null
+    },
+    {
+      "epoch": 4,
+      "training_weighted_mse": 0.02596600032557232,
+      "validation_normalized_mae": 0.06513121724128723,
+      "source_primary_f1": null
+    },
+    {
+      "epoch": 5,
+      "training_weighted_mse": 0.023764807708321907,
+      "validation_normalized_mae": 0.05753115564584732,
+      "source_primary_f1": null
+    },
+    {
+      "epoch": 6,
+      "training_weighted_mse": 0.02163618070397706,
+      "validation_normalized_mae": 0.06083734333515167,
+      "source_primary_f1": null
+    },
+    {
+      "epoch": 7,
+      "training_weighted_mse": 0.020126204989550377,
+      "validation_normalized_mae": 0.03770074248313904,
+      "source_primary_f1": null
+    },
+    {
+      "epoch": 8,
+      "training_weighted_mse": 0.02014733847411738,
+      "validation_normalized_mae": 0.06916499137878418,
+      "source_primary_f1": null
+    },
+    {
+      "epoch": 9,
+      "training_weighted_mse": 0.019213472091062948,
+      "validation_normalized_mae": 0.08150129020214081,
+      "source_primary_f1": null
+    },
+    {
+      "epoch": 10,
+      "training_weighted_mse": 0.01943157034361988,
+      "validation_normalized_mae": 0.07633637636899948,
+      "source_primary_f1": null
+    },
+    {
+      "epoch": 11,
+      "training_weighted_mse": 0.0176680952083107,
+      "validation_normalized_mae": 0.07217901945114136,
+      "source_primary_f1": null
+    },
+    {
+      "epoch": 12,
+      "training_weighted_mse": 0.016576939277449552,
+      "validation_normalized_mae": 0.06062769889831543,
+      "source_primary_f1": null
+    }
+  ]
+}

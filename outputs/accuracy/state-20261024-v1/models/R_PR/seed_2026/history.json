@@ -1,0 +1,316 @@
+{
+  "epochs": [
+    {
+      "epoch": 1,
+      "training_weighted_mse": 0.04403546180453506,
+      "validation_normalized_mae": 0.20974241197109222,
+      "source_primary_f1": 0.05287581699346405,
+      "state_evidence": [
+        {
+          "appliance": "microwave",
+          "fixed_precision": 0.02715585243865597,
+          "fixed_recall": 1.0,
+          "fixed_f1": 0.05287581699346405,
+          "constrained": {
+            "threshold": 421.4452819824219,
+            "precision": 0.033921241373088544,
+            "recall": 0.9295426452410384,
+            "f1": 0.06545391243798415,
+            "tp": 1504,
+            "fp": 42834,
+            "fn": 114
+          },
+          "pr_sha256": "90b72f8a11dcdb899d98f773fb8f369a28941d2df6a439c28ffa36b74d441c46"
+        }
+      ],
+      "checkpoint_sha256": "3bde9f092d9f6b1e58833ff742aeffdd2fdde8414150dff7ad617cfa8dd59711",
+      "optimizer_steps": 587
+    },
+    {
+      "epoch": 2,
+      "training_weighted_mse": 0.027233286558774387,
+      "validation_normalized_mae": 0.15198825299739838,
+      "source_primary_f1": 0.08002769809081017,
+      "state_evidence": [
+        {
+          "appliance": "microwave",
+          "fixed_precision": 0.04168169405945695,
+          "fixed_recall": 1.0,
+          "fixed_f1": 0.08002769809081017,
+          "constrained": {
+            "threshold": 547.0617065429688,
+            "precision": 0.07457920658115495,
+            "recall": 0.8516687268232386,
+            "f1": 0.13714854441403335,
+            "tp": 1378,
+            "fp": 17099,
+            "fn": 240
+          },
+          "pr_sha256": "c618d46b9370db4ff089e99637061fb52646dd55e3fd908ae2054c2607d7daee"
+        }
+      ],
+      "checkpoint_sha256": "fc6f0a7d9f4dbdd40329069a6c556553a12fac08208e71813faa13d69c6a4f74",
+      "optimizer_steps": 1174
+    },
+    {
+      "epoch": 3,
+      "training_weighted_mse": 0.024806127408458507,
+      "validation_normalized_mae": 0.10664314776659012,
+      "source_primary_f1": 0.10508881888740948,
+      "state_evidence": [
+        {
+          "appliance": "microwave",
+          "fixed_precision": 0.055458440445586975,
+          "fixed_recall": 1.0,
+          "fixed_f1": 0.10508881888740948,
+          "constrained": {
+            "threshold": 409.1553955078125,
+            "precision": 0.08455634019035922,
+            "recall": 0.8510506798516687,
+            "f1": 0.15382896721219907,
+            "tp": 1377,
+            "fp": 14908,
+            "fn": 241
+          },
+          "pr_sha256": "2bfc438cfebfb515bec39c521588c678308e17fdbcfe1af946d7854ffbd9e2bf"
+        }
+      ],
+      "checkpoint_sha256": "267e59995cbf5d26978fed205fb2b27f1e5f426c7c5b539f6008af1b04801a1c",
+      "optimizer_steps": 1761
+    },
+    {
+      "epoch": 4,
+      "training_weighted_mse": 0.02242545748485846,
+      "validation_normalized_mae": 0.0859307050704956,
+      "source_primary_f1": 0.15155488947171225,
+      "state_evidence": [
+        {
+          "appliance": "microwave",
+          "fixed_precision": 0.08199047329482112,
+          "fixed_recall": 1.0,
+          "fixed_f1": 0.15155488947171225,
+          "constrained": {
+            "threshold": 565.1676635742188,
+            "precision": 0.20826396246405326,
+            "recall": 0.8504326328800988,
+            "f1": 0.33458966565349546,
+            "tp": 1376,
+            "fp": 5231,
+            "fn": 242
+          },
+          "pr_sha256": "6c16450ddea0b48e9e48cfe32812a26023a3c3b83a674d92d8c41c35451606ca"
+        }
+      ],
+      "checkpoint_sha256": "9d07fcc5252b7158a7e6c4f1ece82246b646e44459f358ed41aa3ba221b5d611",
+      "optimizer_steps": 2348
+    },
+    {
+      "epoch": 5,
+      "training_weighted_mse": 0.01981172354462183,
+      "validation_normalized_mae": 0.07286662608385086,
+      "source_primary_f1": 0.14792532110967865,
+      "state_evidence": [
+        {
+          "appliance": "microwave",
+          "fixed_precision": 0.08015523932729625,
+          "fixed_recall": 0.9573547589616811,
+          "fixed_f1": 0.14792532110967865,
+          "constrained": {
+            "threshold": 295.3959045410156,
+            "precision": 0.09939455095862765,
+            "recall": 0.8522867737948084,
+            "f1": 0.1780273689646269,
+            "tp": 1379,
+            "fp": 12495,
+            "fn": 239
+          },
+          "pr_sha256": "f3db8275ce36b9b148749520300030190887f4365a84150d4018b593695f6bec"
+        }
+      ],
+      "checkpoint_sha256": "d0f57f62bedd8a3140c69ed3aa8b8bdf2943fad98436142ac2acd6c460f963b8",
+      "optimizer_steps": 2935
+    },
+    {
+      "epoch": 6,
+      "training_weighted_mse": 0.01842513782082255,
+      "validation_normalized_mae": 0.06167738139629364,
+      "source_primary_f1": 0.18450100085787818,
+      "state_evidence": [
+        {
+          "appliance": "microwave",
+          "fixed_precision": 0.101657528203189,
+          "fixed_recall": 0.9969097651421508,
+          "fixed_f1": 0.18450100085787818,
+          "constrained": {
+            "threshold": 447.94384765625,
+            "precision": 0.2058779650902581,
+            "recall": 0.8529048207663782,
+            "f1": 0.3316909025357529,
+            "tp": 1380,
+            "fp": 5323,
+            "fn": 238
+          },
+          "pr_sha256": "53e0a332584ea62c7bdc8b43b2b22c0edb8c39b4cb78e3ba53243e4ff84b43ce"
+        }
+      ],
+      "checkpoint_sha256": "1ab22a5ed282521ed081400718aff20d29b4a815f38a3994fab547309e9de865",
+      "optimizer_steps": 3522
+    },
+    {
+      "epoch": 7,
+      "training_weighted_mse": 0.015707408852230383,
+      "validation_normalized_mae": 0.06746675074100494,
+      "source_primary_f1": 0.17926361970344865,
+      "state_evidence": [
+        {
+          "appliance": "microwave",
+          "fixed_precision": 0.09848068826652023,
+          "fixed_recall": 0.9975278121137207,
+          "fixed_f1": 0.17926361970344865,
+          "constrained": {
+            "threshold": 475.61883544921875,
+            "precision": 0.2028900029489826,
+            "recall": 0.8504326328800988,
+            "f1": 0.32761904761904764,
+            "tp": 1376,
+            "fp": 5406,
+            "fn": 242
+          },
+          "pr_sha256": "49edb2ffa70c21872ec70fca12ae1f762fab6b019fd740e9b9653f65daadcec3"
+        }
+      ],
+      "checkpoint_sha256": "de5c5a2ac0685708057c5efccce0ea2763a09621cba5695a44bc65009fbf1400",
+      "optimizer_steps": 4109
+    },
+    {
+      "epoch": 8,
+      "training_weighted_mse": 0.015120223509932631,
+      "validation_normalized_mae": 0.0525626577436924,
+      "source_primary_f1": 0.1971848686690964,
+      "state_evidence": [
+        {
+          "appliance": "microwave",
+          "fixed_precision": 0.10975097929490767,
+          "fixed_recall": 0.9697156983930779,
+          "fixed_f1": 0.1971848686690964,
+          "constrained": {
+            "threshold": 283.8331298828125,
+            "precision": 0.13793103448275862,
+            "recall": 0.8504326328800988,
+            "f1": 0.23736415387269277,
+            "tp": 1376,
+            "fp": 8600,
+            "fn": 242
+          },
+          "pr_sha256": "d3bcfc25a16943b110ba40eda04a7036552d64abda1287f1ffada38e40d6f204"
+        }
+      ],
+      "checkpoint_sha256": "a381b10f79ca8fe44dabf1f41782e205fac6c35165e163bbbcf37ce09f830739",
+      "optimizer_steps": 4696
+    },
+    {
+      "epoch": 9,
+      "training_weighted_mse": 0.013594688332727492,
+      "validation_normalized_mae": 0.04030609503388405,
+      "source_primary_f1": 0.3273584905660377,
+      "state_evidence": [
+        {
+          "appliance": "microwave",
+          "fixed_precision": 0.20227338968230837,
+          "fixed_recall": 0.857849196538937,
+          "fixed_f1": 0.3273584905660377,
+          "constrained": {
+            "threshold": 209.72154235839844,
+            "precision": 0.2047009818506397,
+            "recall": 0.8504326328800988,
+            "f1": 0.3299760191846523,
+            "tp": 1376,
+            "fp": 5346,
+            "fn": 242
+          },
+          "pr_sha256": "d872fcf2576c921e9d2d435d916a9cc22d71d1a0ac43fcb5c89dbb0e34ef6d39"
+        }
+      ],
+      "checkpoint_sha256": "86e678bf63feecf72bafde1f1af731b889f274c237a47ee67e4737513c76200a",
+      "optimizer_steps": 5283
+    },
+    {
+      "epoch": 10,
+      "training_weighted_mse": 0.01333696308676199,
+      "validation_normalized_mae": 0.04662821441888809,
+      "source_primary_f1": 0.2093078569729644,
+      "state_evidence": [
+        {
+          "appliance": "microwave",
+          "fixed_precision": 0.12005457025920874,
+          "fixed_recall": 0.8158220024721878,
+          "fixed_f1": 0.2093078569729644,
+          "constrained": {
+            "threshold": 163.43104553222656,
+            "precision": 0.11354125542834584,
+            "recall": 0.8887515451174289,
+            "f1": 0.20135825806903312,
+            "tp": 1438,
+            "fp": 11227,
+            "fn": 180
+          },
+          "pr_sha256": "8cc847d4ea42bcd1dec88876420416c41a583c07145379bc6231ee638db24b63"
+        }
+      ],
+      "checkpoint_sha256": "e482b47512e54c838f092500d6cc1d8541ba5c5ffe1edbea22fbb32d2b356a8b",
+      "optimizer_steps": 5870
+    },
+    {
+      "epoch": 11,
+      "training_weighted_mse": 0.013166981085796899,
+      "validation_normalized_mae": 0.040747106075286865,
+      "source_primary_f1": 0.24507750314201926,
+      "state_evidence": [
+        {
+          "appliance": "microwave",
+          "fixed_precision": 0.14754098360655737,
+          "fixed_recall": 0.723114956736712,
+          "fixed_f1": 0.24507750314201926,
+          "constrained": {
+            "threshold": 114.97356414794922,
+            "precision": 0.10838912957857424,
+            "recall": 0.8504326328800988,
+            "f1": 0.1922727590302522,
+            "tp": 1376,
+            "fp": 11319,
+            "fn": 242
+          },
+          "pr_sha256": "6e2cb9a5a15683a2cc0abbd38d3ef4b33354315931ac2c64dfba76b108d83ead"
+        }
+      ],
+      "checkpoint_sha256": "a5a6422acd2fc4f7d2a5d922e3f2d81a798569446409a218c3d42af2b875b5c8",
+      "optimizer_steps": 6457
+    },
+    {
+      "epoch": 12,
+      "training_weighted_mse": 0.012726182593121525,
+      "validation_normalized_mae": 0.05615311115980148,
+      "source_primary_f1": 0.19772897259808256,
+      "state_evidence": [
+        {
+          "appliance": "microwave",
+          "fixed_precision": 0.11108564443425778,
+          "fixed_recall": 0.8986402966625463,
+          "fixed_f1": 0.19772897259808256,
+          "constrained": {
+            "threshold": 274.4526672363281,
+            "precision": 0.16299455105425253,
+            "recall": 0.8504326328800988,
+            "f1": 0.273558648111332,
+            "tp": 1376,
+            "fp": 7066,
+            "fn": 242
+          },
+          "pr_sha256": "6c5eb84c4c643def6ea44dd39ec506f96e20076e56f672e146a8622e862de8ff"
+        }
+      ],
+      "checkpoint_sha256": "6754330f413f0afa344f59c6e9b7839c846c209862965fb6381324f2a0526409",
+      "optimizer_steps": 7044
+    }
+  ]
+}

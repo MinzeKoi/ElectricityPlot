@@ -1,0 +1,76 @@
+{
+  "epochs": [
+    {
+      "epoch": 1,
+      "training_weighted_mse": 0.034088274256429504,
+      "validation_normalized_mae": 0.09107685834169388,
+      "source_primary_f1": null
+    },
+    {
+      "epoch": 2,
+      "training_weighted_mse": 0.02998305665028817,
+      "validation_normalized_mae": 0.076265849173069,
+      "source_primary_f1": null
+    },
+    {
+      "epoch": 3,
+      "training_weighted_mse": 0.02467547883127979,
+      "validation_normalized_mae": 0.07383683323860168,
+      "source_primary_f1": null
+    },
+    {
+      "epoch": 4,
+      "training_weighted_mse": 0.02154230126363009,
+      "validation_normalized_mae": 0.06903667747974396,
+      "source_primary_f1": null
+    },
+    {
+      "epoch": 5,
+      "training_weighted_mse": 0.01858893846784984,
+      "validation_normalized_mae": 0.061180148273706436,
+      "source_primary_f1": null
+    },
+    {
+      "epoch": 6,
+      "training_weighted_mse": 0.017931998926623133,
+      "validation_normalized_mae": 0.08732090890407562,
+      "source_primary_f1": null
+    },
+    {
+      "epoch": 7,
+      "training_weighted_mse": 0.016274424768612447,
+      "validation_normalized_mae": 0.04736541211605072,
+      "source_primary_f1": null
+    },
+    {
+      "epoch": 8,
+      "training_weighted_mse": 0.016417753773772907,
+      "validation_normalized_mae": 0.07835043966770172,
+      "source_primary_f1": null
+    },
+    {
+      "epoch": 9,
+      "training_weighted_mse": 0.015904244028852887,
+      "validation_normalized_mae": 0.043347232043743134,
+      "source_primary_f1": null
+    },
+    {
+      "epoch": 10,
+      "training_weighted_mse": 0.014981658045167219,
+      "validation_normalized_mae": 0.06908269971609116,
+      "source_primary_f1": null
+    },
+    {
+      "epoch": 11,
+      "training_weighted_mse": 0.014765295379997963,
+      "validation_normalized_mae": 0.06742767989635468,
+      "source_primary_f1": null
+    },
+    {
+      "epoch": 12,
+      "training_weighted_mse": 0.014985416319139725,
+      "validation_normalized_mae": 0.09319977462291718,
+      "source_primary_f1": null
+    }
+  ]
+}
