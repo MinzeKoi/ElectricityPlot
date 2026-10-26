@@ -1,0 +1,46 @@
+{
+  "selected_before_development": "expanded_guard95",
+  "acceptance_gates": {
+    "mean_P_at_least_008": true,
+    "each_R_at_least_085": true,
+    "mean_F1_gain_at_least_002": true,
+    "at_least_two_seed_P_F1_up": true,
+    "each_F1_drop_at_most_002": true,
+    "mean_FP_reduction_at_least_30_percent": true,
+    "no_new_all_on_or_off": true,
+    "support_137523_exact": true
+  },
+  "development_acceptance_passed": true,
+  "means": {
+    "A": {
+      "precision": 0.4999890927335791,
+      "recall": 1.0,
+      "f1": 0.6666569712482366,
+      "fp": 68763.0
+    },
+    "W50": {
+      "precision": 0.4999890927335791,
+      "recall": 1.0,
+      "f1": 0.6666569712482366,
+      "fp": 68763.0
+    },
+    "control_guard95": {
+      "precision": 0.4999890927335791,
+      "recall": 1.0,
+      "f1": 0.6666569712482366,
+      "fp": 68763.0
+    },
+    "expanded_guard95": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fp": 0.0
+    }
+  },
+  "new_fits": 3,
+  "optimizer_updates": 19404,
+  "power_improvement_claim": false,
+  "default_changed": false,
+  "independent_new_house_validation": false,
+  "limitation": "来源扩展和更新量同时改变；House17为反复使用的工程开发集；合成通过不能证明真实改善。"
+}

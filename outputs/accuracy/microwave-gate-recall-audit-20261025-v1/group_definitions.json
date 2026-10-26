@@ -1,0 +1,18 @@
+{
+  "origin": "source blocks 4/5 true-on evaluation points only",
+  "quartiles": {
+    "power_w": [
+      1153.5,
+      1416.5,
+      1614.375
+    ],
+    "background_w": [
+      478.875,
+      565.0,
+      693.375
+    ]
+  },
+  "bin_rule": "searchsorted(cuts,value,side=right); Q1..Q4",
+  "outer_rule": "full outer_fraction==1; partial outer_fraction<1",
+  "fragment_rule": "maximal observed y>=200 points with adjacent row and UTC delta 8, within evaluation support; not physical cycle"
+}

@@ -1,0 +1,104 @@
+{
+  "selected_before_development": "gate",
+  "development_acceptance_passed": false,
+  "acceptance_gates": {
+    "mean_P_at_least_008": false,
+    "each_R_at_least_085": true,
+    "mean_F1_gain_at_least_002": false,
+    "at_least_two_seed_P_F1_up": true,
+    "each_F1_drop_at_most_002": true,
+    "FP_reduction_at_least_30_percent": false,
+    "nondegenerate": true
+  },
+  "means": {
+    "A": {
+      "precision": 0.04012808999869747,
+      "recall": 0.9242819843342036,
+      "f1": 0.07691297343567473,
+      "fp": 8482.0
+    },
+    "W50": {
+      "precision": 0.04012808999869747,
+      "recall": 0.9242819843342036,
+      "f1": 0.07691297343567473,
+      "fp": 8482.0
+    },
+    "gate": {
+      "precision": 0.04557415587138985,
+      "recall": 0.9425587467362924,
+      "f1": 0.08691990338673412,
+      "fp": 7578.0
+    },
+    "parent": {
+      "precision": 0.04383194005219535,
+      "recall": 0.9556135770234987,
+      "f1": 0.08381358671843069,
+      "fp": 7987.333333333333
+    }
+  },
+  "deltas": {
+    "A": {
+      "W50": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "fp": 0.0
+      },
+      "parent": {
+        "precision": -0.0037038500534978813,
+        "recall": -0.031331592689295085,
+        "f1": -0.006900613282755957,
+        "fp": 494.66666666666697
+      }
+    },
+    "W50": {
+      "W50": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "fp": 0.0
+      },
+      "parent": {
+        "precision": -0.0037038500534978813,
+        "recall": -0.031331592689295085,
+        "f1": -0.006900613282755957,
+        "fp": 494.66666666666697
+      }
+    },
+    "gate": {
+      "W50": {
+        "precision": 0.005446065872692377,
+        "recall": 0.018276762402088753,
+        "f1": 0.010006929951059396,
+        "fp": -904.0
+      },
+      "parent": {
+        "precision": 0.0017422158191944953,
+        "recall": -0.013054830287206332,
+        "f1": 0.0031063166683034382,
+        "fp": -409.33333333333303
+      }
+    },
+    "parent": {
+      "W50": {
+        "precision": 0.0037038500534978813,
+        "recall": 0.031331592689295085,
+        "f1": 0.006900613282755957,
+        "fp": -494.66666666666697
+      },
+      "parent": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "fp": 0.0
+      }
+    }
+  },
+  "new_fits": 0,
+  "optimizer_updates": 0,
+  "only_source_preselection_accepted": true,
+  "power_improvement_claim": false,
+  "default_changed": false,
+  "final_houses_accessed": false,
+  "independent_new_house_validation": false
+}

@@ -1,0 +1,9 @@
+{
+  "prediction_files": 18,
+  "model_count": 6,
+  "metrics_rows": 7596,
+  "new_fits": 0,
+  "optimizer_updates": 0,
+  "source_inputs_hash_mtime_unchanged": true,
+  "access_policy": "exact input allowlist; output-only writes; network/subprocess/backward/optimizer blocked"
+}

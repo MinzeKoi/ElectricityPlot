@@ -1,0 +1,25 @@
+{
+  "checks": [
+    {
+      "seed": 42,
+      "ordinary_exact": true,
+      "raw_A_exact": true,
+      "other_states_A_exact": true,
+      "support_exact": true
+    },
+    {
+      "seed": 1019,
+      "ordinary_exact": true,
+      "raw_A_exact": true,
+      "other_states_A_exact": true,
+      "support_exact": true
+    },
+    {
+      "seed": 2026,
+      "ordinary_exact": true,
+      "raw_A_exact": true,
+      "other_states_A_exact": true,
+      "support_exact": true
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "selected_before_development": "control_guard95",
+  "source_rejection": "expanded来源逐块95召回/非退化或相对冻结control保护未通过",
+  "development_acceptance_passed": false,
+  "prediction_improvement_demonstrated": false,
+  "source_eligible": false,
+  "new_fits": 3,
+  "optimizer_updates": 19404,
+  "control_retrains": 0,
+  "source_means": {
+    "control_guard95": {
+      "precision": 0.2427475573932083,
+      "recall": 0.9720211161387633,
+      "f1": 0.3875975746515943
+    },
+    "expanded_guard95": {
+      "precision": 0.22170771974202474,
+      "recall": 0.9695701357466064,
+      "f1": 0.3596891829322833
+    }
+  },
+  "source_protection": {
+    "all_seed_blocks_R95_and_nondegenerate": true,
+    "mean_F1_not_below_control": false,
+    "each_seed_mean_R_drop_at_most_005": true,
+    "at_least_two_seed_P_up": false
+  },
+  "development_evaluated": false,
+  "default_changed": false,
+  "power_improvement_claim": false,
+  "final_house_reads": 0,
+  "registration_sha256": "11dd4f8d9fdf68d2740c4b643a869ae462e21f4518eb309aacdb89eb92d11040",
+  "authorization_sha256": "3e845bfe546916375b82e46e8c09163e76b1f4165f7264270781c893bb9fa732",
+  "preparation_manifest_sha256": "49cd456838c0619067ede69caa3bc0236a4d9d592a630a1adfe7e94d7a3ece3b",
+  "independent_source_verification_sha256": "9098fd6a20ec462f1e282939328121e0deb561b1e0cdd1d0580930c0101371aa"
+}

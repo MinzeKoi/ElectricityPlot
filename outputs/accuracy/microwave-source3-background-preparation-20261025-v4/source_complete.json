@@ -1,0 +1,12 @@
+{
+  "source_selection_sha256": "84668d2541972cdc3a14bfd947e3eaf940fa16526c8b28e11a6047bed77aeca5",
+  "registration_sha256": "e2dc9fdf165bff1e57dc9456bf6880b2e79d372213de863857fc3f10157f3535",
+  "artifacts": {
+    "seed_1019_block_4.npz": "87930f7c6cf768ede29e18e605480a79054fb7838341ba30f0372ae36c32de16",
+    "seed_1019_block_5.npz": "b3722d559b44002a07c4c4902cf86dc28398b15e8fc177ad45377cea9405ec53",
+    "seed_2026_block_4.npz": "27e196e2a7b917dcacb507c5f55baba74bd5fb2bfdbfd8ab7ec5926ea759bc91",
+    "seed_2026_block_5.npz": "0197131090f14280433a248ca1e2de42e712c801bef8bd22a46dca235d93b444",
+    "seed_42_block_4.npz": "22ce3f34d3c1e80f5b4ef177829dedca3f95d0f918fc727a6ee0dc3a84d163df",
+    "seed_42_block_5.npz": "15c5b05490ac11cb6266abc6e315f7cee328dd616e7aeaaf610d7b35f4f2edcd"
+  }
+}

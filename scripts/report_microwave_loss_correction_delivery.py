@@ -23,6 +23,11 @@ if __name__=='__main__':
     assert digest(run/'freeze.json')==review['freeze_sha256']
     summary=read(run/'evaluation/summary.json')
     text=(run/'report.md').read_text(encoding='utf-8').replace('0.14084224','0.14083946')
+    text+='\n## 来源逐seed指标与固定选择\n\n| 组 | seed | P | R | F1 | 通过块内门槛 |\n|---|---:|---:|---:|---:|---|\n'
+    for arm,rows in read(run/'source_rows.json').items():
+        for r in rows:
+            text+=f"| {arm} | {r['seed']} | {r['precision']:.8f} | {r['recall']:.8f} | {r['f1']:.8f} | {r['source_gate_passed']} |\n"
+    text+='\n两个新臂各seed均满足来源块内召回与非退化检查，但均未达到相对TCN127的均F1与至少两个seed精度提高要求，故不具备来源候选资格；唯一来源选择固定为TCN127。开发数据不参与此决定。\n'
     text+='\n## 逐seed误报配对差异\n\n| 组 | seed | 对照 | ΔP | ΔR | ΔF1 | ΔFP | FP减少比例 |\n|---|---:|---|---:|---:|---:|---:|---:|\n'
     with (run/'paired_false_positive_comparison.csv').open(encoding='utf-8',newline='') as stream:
         for r in csv.DictReader(stream):
@@ -51,13 +56,20 @@ if __name__=='__main__':
     text+='\n逐层shuffle无放回导致有限前缀中心曝光与长期边际概率不完全相等，详细总变差和实际加权正质量见loss_and_finite_cycle_audit.json。这里只主张固定logits对长期边际分布的加权期望恒等；实际训练中logits随历史变化，不主张每步条件独立无偏。\n'
     text+='\n## 复核与交付\n\n独立算术复核精确重现全部15行混淆矩阵和P/R/F1；每seed 137523评价点；9个冻结模型状态与普通加载一致；原A所有电器功率逐点不变，其他电器状态由原阈值派生也不变。6项封存损失测试、3项任务专用拒绝路径测试、21项父TCN回归测试通过（共30项）。\n'
     text+='\nv1仅有一次准备读取白名单遗漏，未启动真实拟合或更新；原目录已保留，v2修复后封存执行。测试启动器首次未指向外部配置导致6项测试定位错误，修正测试路径后全部通过，未改变模型代码或目标。新训练无失败、无额外启动。父任务294步接口失败与6有效拟合独立列账。\n'
+    text+='\n原对话中断发生在冻结命令运行期间；该命令后来正常完成，退出码0，九份预测与freeze.json均已生成。恢复时旧handle确认退出，未重训、未重新冻结或覆盖已有阶段。依据成功冻结必先完成完整verify_training的封存源码顺序，复用全检查凭据并重新核对全部依赖哈希、来源选择、九个普通模型加载和阈值；记录为resumption_verification.json。恢复后只执行缺失的一次真值CSV评价和缓存算术复核。\n'
     text+='\n完整精确源PR曲线为pr/source/下54个NPZ，开发PR为pr/development/下15个NPZ（A/W50阈值以瓦为单位，分类器阈值为概率）；development_pr.svg为开发预览。每个NPZ含thresholds/precision/recall/f1，源曲线固定各seed已选checkpoint，未据开发重新选择。\n'
     text+='\n复现入口（在项目根运行）：\n\n```powershell\n.venv-m2/Scripts/python.exe -B outputs/accuracy/microwave-loss-correction-20261025-v2/run_microwave_loss_correction.py verify --run outputs/accuracy/microwave-loss-correction-20261025-v2\n```\n\n候选可由标准center_mask_tcn.load_state_model加载，模型目录outputs/accuracy/microwave-loss-correction-20261025-v2/models/{arm}/seed_{seed}；原predict_microwave_tcn.py --model指向这些目录即可按普通接口推理。训练与评价禁止重复执行覆盖已有目录。\n'
+    b=read(run/'baseline_identity.json')
+    aggregate=Path(b['reference_run'])/'protocol'/b['development_partition']['artifacts']['aggregate']['path']
+    text+=f'\n普通预测完整命令示例（仅状态概率输出，需使用尚不存在的output文件）：\n\n```powershell\n.venv-m2/Scripts/python.exe -B scripts/predict_microwave_tcn.py --model "{run}/models/unit_BCE/seed_42" --aggregate "{aggregate}" --output "{root}/tmp/microwave-loss-unit42-ordinary.csv"\n```\n'
+    math=read(run/'mathematical_validation.json')
+    text+=f"\n实际259806个中心固定logits全枚举校正期望={math['fixed_logit_importance_BCE50_expected']:.15f}，自然均匀BCE50={math['natural_uniform_BCE50']:.15f}，差={math['absolute_difference']}；正概率质量={math['positive_probability_mass']}。三个完整3528批次流的各层循环最大计数差均为1，详见mathematical_validation.json。\n"
     (run/'report.md').write_text(text,encoding='utf-8')
     shutil.copyfile(run/'report.md',root/'docs/MICROWAVE_LOSS_CORRECTION_RESULTS_20261025.md')
     write(root/'docs/MICROWAVE_LOSS_CORRECTION_RESULTS_20261025.json',dict(**summary,loss_audit=training,finite_cycle=finite,independent_review=review))
     write(run/'runtime_delivery.json',dict(python=sys.version,numpy=np.__version__,torch=torch.__version__))
     files=['src/virtual_submeter/accuracy/microwave_loss_correction.py','scripts/run_microwave_loss_correction.py',
+        'scripts/complete_microwave_loss_correction.py',
         'scripts/verify_microwave_loss_correction_delivery.py','scripts/report_microwave_loss_correction_delivery.py',
         'tests/test_microwave_loss_correction.py','tests/test_microwave_loss_correction_guards.py',
         'configs/microwave_loss_correction_20261025.json','docs/MICROWAVE_LOSS_CORRECTION_PLAN_20261025.md',

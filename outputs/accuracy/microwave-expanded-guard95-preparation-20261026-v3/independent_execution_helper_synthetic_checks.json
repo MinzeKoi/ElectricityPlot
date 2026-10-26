@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "synthetic_only": true,
+  "curves": [
+    {
+      "recall": 0.85,
+      "threshold_exact": true
+    },
+    {
+      "recall": 0.95,
+      "threshold_exact": true
+    }
+  ],
+  "independent_max_missing_and_gap_exact": true,
+  "scalar_confusions_all_on_off_and_mixed_exact": true,
+  "real_fits": 0,
+  "real_optimizer_updates": 0
+}

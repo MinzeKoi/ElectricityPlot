@@ -1,0 +1,18 @@
+{
+  "authorization": {
+    "authorized": true,
+    "approval_origin": "human",
+    "experiment": "microwave_expanded_guard95_task18_v1",
+    "additional_new_fits": 3,
+    "maximum_updates": 19404,
+    "seeds": [
+      42,
+      1019,
+      2026
+    ],
+    "registration_sha256": "12533969bffe6fc7d16ded92e5d40bb258abbc26218ffe343f9b7483bd42384d",
+    "approved_rule": "expanded_guard95_fixed_L95_H95_radius15",
+    "human_authorization_quote": "SYNTHETIC TEST ONLY - NO REAL BUDGET",
+    "human_authorization_reference": "unittest temporary fixture"
+  }
+}

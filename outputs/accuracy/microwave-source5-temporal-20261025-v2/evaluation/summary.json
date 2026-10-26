@@ -1,0 +1,63 @@
+{
+  "selected_before_development": "source5",
+  "development_acceptance_passed": false,
+  "means": {
+    "A": {
+      "precision": 0.04012808999869747,
+      "recall": 0.9242819843342036,
+      "f1": 0.07691297343567473,
+      "fp": 8482.0
+    },
+    "W50": {
+      "precision": 0.04012808999869747,
+      "recall": 0.9242819843342036,
+      "f1": 0.07691297343567473,
+      "fp": 8482.0
+    },
+    "control": {
+      "precision": 0.03745633315052142,
+      "recall": 0.9564838990426457,
+      "f1": 0.07208622170282329,
+      "fp": 9418.0
+    },
+    "source5": {
+      "precision": 0.04383194005219535,
+      "recall": 0.9556135770234987,
+      "f1": 0.08381358671843069,
+      "fp": 7987.333333333333
+    }
+  },
+  "common_support": {
+    "42": {
+      "n": 137523,
+      "mask_sha256": "d7608bed577515bc4bd98ff1efe4c78a82798a96c9d1d3e5dd03bb90d53598a1",
+      "timestamps_sha256": "342269261b9b59715ac588476545f50d6e875b7a01f6731745098c6c384a2ffe"
+    },
+    "1019": {
+      "n": 137523,
+      "mask_sha256": "d7608bed577515bc4bd98ff1efe4c78a82798a96c9d1d3e5dd03bb90d53598a1",
+      "timestamps_sha256": "342269261b9b59715ac588476545f50d6e875b7a01f6731745098c6c384a2ffe"
+    },
+    "2026": {
+      "n": 137523,
+      "mask_sha256": "d7608bed577515bc4bd98ff1efe4c78a82798a96c9d1d3e5dd03bb90d53598a1",
+      "timestamps_sha256": "342269261b9b59715ac588476545f50d6e875b7a01f6731745098c6c384a2ffe"
+    }
+  },
+  "source5_beats_symmetric_control_at_source": true,
+  "source5_development_deltas_vs_control": {
+    "precision": 0.006375606901673929,
+    "recall": -0.0008703220191470518,
+    "f1": 0.011727365015607394,
+    "fp": -1430.666666666667
+  },
+  "declared_house5_training_improvement": false,
+  "only_source_preselected_candidate_accepted": true,
+  "development_diagnostics_do_not_change_selection": true,
+  "power_improvement_claim": false,
+  "default_model_changed": false,
+  "final_houses_accessed": false,
+  "validation_is_fresh_independent": false,
+  "development_only_previously_inspected_house17": true,
+  "additional_training_permitted": false
+}

@@ -1,0 +1,22 @@
+{
+  "prior_attempts": [
+    {
+      "directory": "microwave-fit-generalization-diagnostic-task19-20261026-v1",
+      "status": "runtime delayed NumPy import blocked before predictions; exact data allowlist retained; runtime read root added"
+    },
+    {
+      "directory": "microwave-fit-generalization-diagnostic-task19-20261026-v2",
+      "status": "full inference complete; verifier final-batch shape changed; 1/256 point differed by 1.1368683772161603e-13; preserve original final <=256 batch"
+    },
+    {
+      "directory": "microwave-fit-generalization-diagnostic-task19-20261026-v3",
+      "status": "full inference and two independent 7596-row numerical passes succeeded; report refused duplicate dataset/partition block total ambiguity; new report test fixes explicit partition lookup"
+    }
+  ],
+  "preflight_note": "One initial py_compile invocation created Task19 script bytecode, removed before the fixed execution. Inference, verification and tests use -B; original artifacts cannot be written.",
+  "final_delivery": "v4 only; previous directories retained without overwriting; all six models fully rerun; no external or old cache imported",
+  "new_fits": 0,
+  "optimizer_updates": 0,
+  "threshold_searches": 0,
+  "checkpoint_searches": 0
+}

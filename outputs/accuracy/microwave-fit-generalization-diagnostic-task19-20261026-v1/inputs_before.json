@@ -1,0 +1,137 @@
+{
+  "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-expanded-guard95-preparation-20261026-v3\\registration.json": {
+    "sha256": "11dd4f8d9fdf68d2740c4b643a869ae462e21f4518eb309aacdb89eb92d11040",
+    "mtime_ns": 1792987944933545400,
+    "size": 14615
+  },
+  "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-expanded-guard95-preparation-20261026-v3\\execution_delivery_manifest.json": {
+    "sha256": "5944f36d8e09cc174487fb9a0e423647b239abf49fca802983f889d03e00b27a",
+    "mtime_ns": 1792989344535123200,
+    "size": 34007
+  },
+  "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-expanded-guard95-preparation-20261026-v3\\source_selection.json": {
+    "sha256": "e114bd7238fac81c5ffe8aeb150dda9d5a0e541dfe83117fe49d36714f9aba52",
+    "mtime_ns": 1792989136343469200,
+    "size": 7417
+  },
+  "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-expanded-guard95-preparation-20261026-v3\\protocol.md": {
+    "sha256": "96003bc1663b5e4ef5d3121563954d1178c9bee7fdaadb50eaa2fbccd7247855",
+    "mtime_ns": 1792987944288780400,
+    "size": 4201
+  },
+  "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-expanded-guard95-preparation-20261026-v3\\normalization.json": {
+    "sha256": "6bded76808e2480ce220ab65784f86b605c1c119a86595c1bc9d60f65c83fb26",
+    "mtime_ns": 1792987933424908300,
+    "size": 128
+  },
+  "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-expanded-guard95-preparation-20261026-v3\\train.npz": {
+    "sha256": "1b4eaf721d25e2826f75c31ca9100949d4bc2ee2af665aae285275a84a202a49",
+    "mtime_ns": 1792987933423900900,
+    "size": 6225767
+  },
+  "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-expanded-guard95-preparation-20261026-v3\\validation\\block_4.npz": {
+    "sha256": "3b680a6c96b6ace61f747fba4025e97aa5738cd821214edcb7e0cb351f875f1a",
+    "mtime_ns": 1792987933427574600,
+    "size": 183942
+  },
+  "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-expanded-guard95-preparation-20261026-v3\\validation\\block_5.npz": {
+    "sha256": "7c3c78b99279a95ba76eb362c38298887d40d1236ea2fdaa02f39a2a46ab6f4f",
+    "mtime_ns": 1792987933427574600,
+    "size": 173999
+  },
+  "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-temporal-20261025-v2\\train.npz": {
+    "sha256": "5d8809260b1d52a6f613422644d9b38454cbe321377039926f87587c0016de7a",
+    "mtime_ns": 1792909688700842200,
+    "size": 3588836
+  },
+  "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_BCE\\seed_42\\model.json": {
+    "sha256": "33ea2ca10445ce9a310b7f2bad92c91fc634f4aa382c183a896b821ec63dc61e",
+    "mtime_ns": 1792912590699432700,
+    "size": 1985
+  },
+  "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_BCE\\seed_42\\weights.pt": {
+    "sha256": "5d72837ca4615a1f635bd3162dd0886172757582b3d4c6d97f817c982d5f9dc2",
+    "mtime_ns": 1792912590693933500,
+    "size": 27117
+  },
+  "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_BCE\\seed_1019\\model.json": {
+    "sha256": "e89eff756404adf8e587438a1d757ab225d7f03ab9221fcc95e16aa1805e30a1",
+    "mtime_ns": 1792912709486604000,
+    "size": 1973
+  },
+  "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_BCE\\seed_1019\\weights.pt": {
+    "sha256": "75cbb7427dc8372144439bf034a652164e6eeb1a59d6097b426fea259f6300a7",
+    "mtime_ns": 1792912709478687100,
+    "size": 27717
+  },
+  "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_BCE\\seed_2026\\model.json": {
+    "sha256": "4df2a277c655487c2287f97dec58b13ba8ca52e0df888d3e06e7859be87834c6",
+    "mtime_ns": 1792912825483189400,
+    "size": 1984
+  },
+  "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_BCE\\seed_2026\\weights.pt": {
+    "sha256": "e89dc1a8f2ee73af3a93edfc594d5956ad7ba42575fb0d80f8fe4a68aeafa815",
+    "mtime_ns": 1792912825475055900,
+    "size": 27717
+  },
+  "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-expanded-guard95-preparation-20261026-v3\\models\\expanded\\seed_42\\model.json": {
+    "sha256": "a8ec3fc529e6f59d845a7a476b8526b1488c2cca06886ea613848c50ae73d62f",
+    "mtime_ns": 1792988711621084100,
+    "size": 1969
+  },
+  "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-expanded-guard95-preparation-20261026-v3\\models\\expanded\\seed_42\\weights.pt": {
+    "sha256": "128a82bf9cbc179b5ffbf290622d25d68f9b6c5dc8c1439f84ed9977d3c040ab",
+    "mtime_ns": 1792988711613577900,
+    "size": 27117
+  },
+  "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-expanded-guard95-preparation-20261026-v3\\models\\expanded\\seed_1019\\model.json": {
+    "sha256": "a2cb24969b642686e100b1ca1e0d2c1379b895b6cb83ef170335cfdadd4b2619",
+    "mtime_ns": 1792988904942246300,
+    "size": 1987
+  },
+  "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-expanded-guard95-preparation-20261026-v3\\models\\expanded\\seed_1019\\weights.pt": {
+    "sha256": "32bd9c2bd1f42ff11c6915bd72637869496ea4b297f137141a4a3cc6d3c20bf2",
+    "mtime_ns": 1792988904935228200,
+    "size": 27117
+  },
+  "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-expanded-guard95-preparation-20261026-v3\\models\\expanded\\seed_2026\\model.json": {
+    "sha256": "91793f901a2c8398886e92b79b80caeeefb18de2ef1d3af6ad200d5aaf60b0d8",
+    "mtime_ns": 1792989095842851700,
+    "size": 1962
+  },
+  "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-expanded-guard95-preparation-20261026-v3\\models\\expanded\\seed_2026\\weights.pt": {
+    "sha256": "3b9822e3612544adc79c1b3447ff04fea894894dd10f88645a04cfc5ecfeec24",
+    "mtime_ns": 1792989095835723800,
+    "size": 27117
+  },
+  "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-expanded-guard95-preparation-20261026-v3\\source\\virtual_submeter\\__init__.py": {
+    "sha256": "419bcd145f8d8226a8ea5accc99eac723c1c7009ac2e3d12f1df990cbeed91bf",
+    "mtime_ns": 1792509597086174300,
+    "size": 96
+  },
+  "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-expanded-guard95-preparation-20261026-v3\\source\\virtual_submeter\\models\\__init__.py": {
+    "sha256": "413be034f6ee42d6891a9c78121e10f4f132b05af10e32c64f7961cca7098d65",
+    "mtime_ns": 1792454031381431100,
+    "size": 81
+  },
+  "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-expanded-guard95-preparation-20261026-v3\\source\\virtual_submeter\\models\\center_mask_tcn.py": {
+    "sha256": "5af1f19bb38aa90d2ff7dc767aac4efebb595e8c9949b0f21def4011d3858528",
+    "mtime_ns": 1792902236109945200,
+    "size": 5383
+  },
+  "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-expanded-guard95-preparation-20261026-v3\\source\\virtual_submeter\\models\\arrays.py": {
+    "sha256": "878836398d48e9a0c8eb11559df70998a57b6dfaf20501dc7bc5253277f0d7bd",
+    "mtime_ns": 1792454031382431500,
+    "size": 2655
+  },
+  "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-expanded-guard95-preparation-20261026-v3\\source\\virtual_submeter\\data\\__init__.py": {
+    "sha256": "2ff031feefab071288bd0d514b8c9d01539b28a18c6500af2662388590c85636",
+    "mtime_ns": 1792452902109157900,
+    "size": 77
+  },
+  "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-expanded-guard95-preparation-20261026-v3\\source\\virtual_submeter\\data\\common.py": {
+    "sha256": "06b7af77b897a8d093004d82d2651af8d56d7c437536624a817d195ad2848299",
+    "mtime_ns": 1792858769490519500,
+    "size": 3234
+  }
+}

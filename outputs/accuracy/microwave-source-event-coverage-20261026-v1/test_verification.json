@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "tests": 5,
+  "command": ".venv-m2/Scripts/python.exe -B -m unittest discover -s outputs/accuracy/microwave-source-event-coverage-20261026-v1 -p test_boundaries.py -v",
+  "cases": [
+    "house/date allowlist",
+    "NaN/time-gap segmentation",
+    "9s gap retains unsupported coverage",
+    "two consecutive core missing rejected",
+    "label-independent chronological date calculation"
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "reads": [
+    {
+      "path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source3-background-preparation-20261025-v4\\identity.json",
+      "scope": "source identity/protocol metadata only",
+      "sha256": "03e55fa4f7d253686de70d6a947874670bbcfad6218f4a3b113a0b96847a241f"
+    },
+    {
+      "path": "D:\\system position\\document\\真正的文档\\AIC\\data\\processed\\refit_r1_sources_20261022\\manifest.json",
+      "scope": "source identity/protocol metadata only",
+      "sha256": "2cc2382d9c2b53242af3b2b4445960ee2013e88a74ada43b4e6701c1784afa9b"
+    },
+    {
+      "path": "D:\\system position\\document\\真正的文档\\AIC\\configs\\refit_channels_complete_20261022.json",
+      "scope": "source identity/protocol metadata only",
+      "sha256": "18b44c7ce7ea065799017cc5cdff43d4623971f2e14a6e2e3c5ad506ebf33dab"
+    },
+    {
+      "path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-temporal-20261025-v2\\train.npz",
+      "scope": "frozen house/t/y/event fields only; H5 aggregate identity count only",
+      "sha256": "5d8809260b1d52a6f613422644d9b38454cbe321377039926f87587c0016de7a"
+    },
+    {
+      "path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source3-background-preparation-20261025-v4\\source_pool_audit.json",
+      "scope": "source identity/protocol metadata only",
+      "sha256": "9f9ff927beb2cc4187880cf8440fbc916dfcda618efa929d1240f1d4f36c341f"
+    },
+    {
+      "path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source3-background-preparation-20261025-v4\\pool_manifest.csv",
+      "scope": "source-only pool metadata; H5 aggregate counts only",
+      "sha256": "e4dc95e732fc59c7ed45e082b48e7285274b6a209875e5c6dcd847778c43775c"
+    },
+    {
+      "path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-data-audit-20261025-v2\\inputs\\refit_2\\aggregate.csv",
+      "scope": "original14d House2 aggregate",
+      "sha256": "3da552d8166d0a0e91b98f49960a15e4a0011dd318f653a6b0359eb02cb37df3"
+    },
+    {
+      "path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-data-audit-20261025-v2\\inputs\\refit_2\\microwave.csv",
+      "scope": "original14d House2 microwave",
+      "sha256": "2253ca5be6123a472fe098e3f559958484d9fd01e58ce582cacbda534b051ff8"
+    },
+    {
+      "path": "D:\\system position\\document\\真正的文档\\AIC\\data\\raw\\refit_complete_20261022\\households\\CLEAN_House2.receipt.json",
+      "scope": "source identity/protocol metadata only",
+      "sha256": "c14142bf53382086e053982ac4fa2c96ecea722f5d7745c0c8a5d6d10e0e606a"
+    },
+    {
+      "path": "D:\\system position\\document\\真正的文档\\AIC\\data\\raw\\refit_complete_20261022\\households\\CLEAN_House2.csv",
+      "scope": "SHA256 whole allowed house; numeric parsing candidate range plus one predecessor/closing observation only",
+      "sha256": "5e3b8b30734070692bb6ac12504a26f5a1394aabe050199a1f7b7c5f88065561"
+    },
+    {
+      "path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-data-audit-20261025-v2\\inputs\\refit_19\\aggregate.csv",
+      "scope": "original14d House19 aggregate",
+      "sha256": "2b4a52e98a18d9b39247a9c587d9471da5b7b1c6d8e0d5944dc19194dee46a67"
+    },
+    {
+      "path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-data-audit-20261025-v2\\inputs\\refit_19\\microwave.csv",
+      "scope": "original14d House19 microwave",
+      "sha256": "b4b26543fc680a47f2ca5c88d2b393b3d9fc1c2eb6d24c59b44028db99668b7a"
+    },
+    {
+      "path": "D:\\system position\\document\\真正的文档\\AIC\\data\\raw\\refit_complete_20261022\\households\\CLEAN_House19.receipt.json",
+      "scope": "source identity/protocol metadata only",
+      "sha256": "30dc1c1751fbb4b45790e0b7325ad2f3af2e5fdf8ce7c6f063fceed9471831aa"
+    },
+    {
+      "path": "D:\\system position\\document\\真正的文档\\AIC\\data\\raw\\refit_complete_20261022\\households\\CLEAN_House19.csv",
+      "scope": "SHA256 whole allowed house; numeric parsing candidate range plus one predecessor/closing observation only",
+      "sha256": "b445ebaec2562b0559dd13e62c399e8403f4a2f28e09042994cab470f6867960"
+    }
+  ],
+  "scope": "explicit named metadata and numeric House2/19 only; no recursive data search",
+  "earlier_discovery": "Initial broad filename-only rg listing under outputs/accuracy was overbroad; no listed data contents opened. Further discovery explicitly scoped. One nonrecursive listing of refit_complete_28d cache denied; not retried.",
+  "raw_power_boundary_exception": "one predecessor and first closing observation only; necessary to reproduce native 8-second hold age; not candidate centers"
+}

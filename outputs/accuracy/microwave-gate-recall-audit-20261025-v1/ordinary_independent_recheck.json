@@ -1,0 +1,6 @@
+{
+  "seed": 1019,
+  "ordinary_infer_full_aggregate_scores_exact": true,
+  "source_all_seeds_selected_epoch_scores_checked": true,
+  "source_ordinary_to_frozen_cache": true
+}

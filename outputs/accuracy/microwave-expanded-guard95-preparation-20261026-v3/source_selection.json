@@ -1,0 +1,283 @@
+{
+  "source_only": true,
+  "selected": "control_guard95",
+  "expanded_eligible": false,
+  "source_rejection": "expanded来源逐块95召回/非退化或相对冻结control保护未通过",
+  "rows": {
+    "control_guard95": [
+      {
+        "seed": 42,
+        "precision": 0.21395396563083935,
+        "recall": 0.9695701357466064,
+        "f1": 0.34927066156884773,
+        "degenerate": false,
+        "source_gate_passed": true
+      },
+      {
+        "seed": 1019,
+        "precision": 0.26339476715484617,
+        "recall": 0.976923076923077,
+        "f1": 0.4148894366448755,
+        "degenerate": false,
+        "source_gate_passed": true
+      },
+      {
+        "seed": 2026,
+        "precision": 0.2508939393939394,
+        "recall": 0.9695701357466064,
+        "f1": 0.3986326257410595,
+        "degenerate": false,
+        "source_gate_passed": true
+      }
+    ],
+    "expanded_guard95": [
+      {
+        "seed": 42,
+        "precision": 0.2301931415057154,
+        "recall": 0.976923076923077,
+        "f1": 0.3710286101345031,
+        "degenerate": false,
+        "source_gate_passed": true
+      },
+      {
+        "seed": 1019,
+        "precision": 0.18731378155799727,
+        "recall": 0.9622171945701358,
+        "f1": 0.3135734238428498,
+        "degenerate": false,
+        "source_gate_passed": true
+      },
+      {
+        "seed": 2026,
+        "precision": 0.2476162361623616,
+        "recall": 0.9695701357466064,
+        "f1": 0.3944655148194971,
+        "degenerate": false,
+        "source_gate_passed": true
+      }
+    ]
+  },
+  "recipes": [
+    {
+      "seed": 42,
+      "L": 0.062284789979457855,
+      "H": 0.33881038427352905,
+      "feasible": true,
+      "blocks": [
+        {
+          "block": "4",
+          "tp": 136,
+          "fp": 552,
+          "fn": 0,
+          "tn": 18439,
+          "n": 19127,
+          "precision": 0.19767441860465115,
+          "recall": 1.0,
+          "f1": 0.3300970873786408,
+          "fpr": 0.02906639987362435,
+          "predicted_on": 688,
+          "degenerate": false
+        },
+        {
+          "block": "5",
+          "tp": 62,
+          "fp": 174,
+          "fn": 3,
+          "tn": 14985,
+          "n": 15224,
+          "precision": 0.2627118644067797,
+          "recall": 0.9538461538461539,
+          "f1": 0.4119601328903654,
+          "fpr": 0.011478329705125669,
+          "predicted_on": 236,
+          "degenerate": false
+        }
+      ]
+    },
+    {
+      "seed": 1019,
+      "L": 0.15721666812896729,
+      "H": 0.32190343737602234,
+      "feasible": true,
+      "blocks": [
+        {
+          "block": "4",
+          "tp": 132,
+          "fp": 577,
+          "fn": 4,
+          "tn": 18414,
+          "n": 19127,
+          "precision": 0.1861777150916784,
+          "recall": 0.9705882352941176,
+          "f1": 0.31242603550295855,
+          "fpr": 0.030382812911379075,
+          "predicted_on": 709,
+          "degenerate": false
+        },
+        {
+          "block": "5",
+          "tp": 62,
+          "fp": 267,
+          "fn": 3,
+          "tn": 14892,
+          "n": 15224,
+          "precision": 0.1884498480243161,
+          "recall": 0.9538461538461539,
+          "f1": 0.3147208121827411,
+          "fpr": 0.017613299030279042,
+          "predicted_on": 329,
+          "degenerate": false
+        }
+      ]
+    },
+    {
+      "seed": 2026,
+      "L": 0.06922787427902222,
+      "H": 0.4296627342700958,
+      "feasible": true,
+      "blocks": [
+        {
+          "block": "4",
+          "tp": 134,
+          "fp": 408,
+          "fn": 2,
+          "tn": 18583,
+          "n": 19127,
+          "precision": 0.24723247232472326,
+          "recall": 0.9852941176470589,
+          "f1": 0.3952802359882006,
+          "fpr": 0.02148386077615713,
+          "predicted_on": 542,
+          "degenerate": false
+        },
+        {
+          "block": "5",
+          "tp": 62,
+          "fp": 188,
+          "fn": 3,
+          "tn": 14971,
+          "n": 15224,
+          "precision": 0.248,
+          "recall": 0.9538461538461539,
+          "f1": 0.39365079365079364,
+          "fpr": 0.012401873474503595,
+          "predicted_on": 250,
+          "degenerate": false
+        }
+      ]
+    }
+  ],
+  "control_recipes": [
+    {
+      "seed": 42,
+      "L": 0.09719955176115036,
+      "H": 0.2631731927394867,
+      "feasible": true,
+      "blocks": [
+        {
+          "block": "4",
+          "tp": 134,
+          "fp": 595,
+          "fn": 2,
+          "tn": 18396,
+          "n": 19127,
+          "precision": 0.18381344307270234,
+          "recall": 0.9852941176470589,
+          "f1": 0.30982658959537573,
+          "fpr": 0.03133063029856248,
+          "predicted_on": 729,
+          "degenerate": false
+        },
+        {
+          "block": "5",
+          "tp": 62,
+          "fp": 192,
+          "fn": 3,
+          "tn": 14967,
+          "n": 15224,
+          "precision": 0.2440944881889764,
+          "recall": 0.9538461538461539,
+          "f1": 0.3887147335423197,
+          "fpr": 0.012665743122897288,
+          "predicted_on": 254,
+          "degenerate": false
+        }
+      ]
+    },
+    {
+      "seed": 1019,
+      "L": 0.11615903675556183,
+      "H": 0.34624072909355164,
+      "feasible": true,
+      "blocks": [
+        {
+          "block": "4",
+          "tp": 136,
+          "fp": 379,
+          "fn": 0,
+          "tn": 18612,
+          "n": 19127,
+          "precision": 0.26407766990291265,
+          "recall": 1.0,
+          "f1": 0.41781874039938555,
+          "fpr": 0.019956821652361643,
+          "predicted_on": 515,
+          "degenerate": false
+        },
+        {
+          "block": "5",
+          "tp": 62,
+          "fp": 174,
+          "fn": 3,
+          "tn": 14985,
+          "n": 15224,
+          "precision": 0.2627118644067797,
+          "recall": 0.9538461538461539,
+          "f1": 0.4119601328903654,
+          "fpr": 0.011478329705125669,
+          "predicted_on": 236,
+          "degenerate": false
+        }
+      ]
+    },
+    {
+      "seed": 2026,
+      "L": 0.0628107488155365,
+      "H": 0.27999335527420044,
+      "feasible": true,
+      "blocks": [
+        {
+          "block": "4",
+          "tp": 134,
+          "fp": 394,
+          "fn": 2,
+          "tn": 18597,
+          "n": 19127,
+          "precision": 0.2537878787878788,
+          "recall": 0.9852941176470589,
+          "f1": 0.4036144578313253,
+          "fpr": 0.02074666947501448,
+          "predicted_on": 528,
+          "degenerate": false
+        },
+        {
+          "block": "5",
+          "tp": 62,
+          "fp": 188,
+          "fn": 3,
+          "tn": 14971,
+          "n": 15224,
+          "precision": 0.248,
+          "recall": 0.9538461538461539,
+          "f1": 0.39365079365079364,
+          "fpr": 0.012401873474503595,
+          "predicted_on": 250,
+          "degenerate": false
+        }
+      ]
+    }
+  ],
+  "registration_sha256": "11dd4f8d9fdf68d2740c4b643a869ae462e21f4518eb309aacdb89eb92d11040",
+  "training_sha256": "a208544c8fb8a7a4289da40f2297782e50bf73280e52ae6f0ac023d53f4cab60",
+  "algorithm_sha256": "17838379de35aa40cab1fe175a4a5551b00c05f5e39e14d085bbd8beade76a68"
+}

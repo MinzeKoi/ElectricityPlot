@@ -1,0 +1,19 @@
+{
+  "failed_attempts": [
+    {
+      "directory": "microwave-fit-generalization-diagnostic-task19-20261026-v1",
+      "status": "runtime NumPy delayed import blocked before any prediction; fixed runtime read root; no fit/update"
+    },
+    {
+      "directory": "microwave-fit-generalization-diagnostic-task19-20261026-v2",
+      "status": "all predictions completed; exact ordinary readback caught changed final-batch length; no seal/no overwrite",
+      "maximum_observed_difference_control42_last256": 1.1368683772161603e-13,
+      "observed_mismatched_points": 1,
+      "fix": "replay original final <=256 batch; observed exact for original final14; v3 independently reruns full inference"
+    }
+  ],
+  "preflight_note": "One preflight py_compile invocation created a Task19 script pyc, removed before the fixed execution. All fixed inference/verification and test invocations use -B; no original artifact bytecode or writes permitted.",
+  "delivery": "v3 only; retain v1 and v2 failure records; no cache import from root or prior attempts",
+  "new_fits": 0,
+  "optimizer_updates": 0
+}

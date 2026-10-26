@@ -1,0 +1,173 @@
+{
+  "selected": "gate",
+  "source_only": true,
+  "gate_qualified": true,
+  "protection": {
+    "all_seeds_feasible": true,
+    "mean_f1_not_lower": true,
+    "each_seed_recall_drop_at_most_005": true,
+    "at_least_two_seed_precision_up": true
+  },
+  "parent_rows": [
+    {
+      "seed": 42,
+      "precision": 0.20371462264150944,
+      "recall": 0.9087104072398191,
+      "f1": 0.3320305862361937
+    },
+    {
+      "seed": 1019,
+      "precision": 0.2130441845354126,
+      "recall": 0.920079185520362,
+      "f1": 0.3448210326259107
+    },
+    {
+      "seed": 2026,
+      "precision": 0.21214534564631207,
+      "recall": 0.920079185520362,
+      "f1": 0.3436397739739763
+    }
+  ],
+  "gate_rows": [
+    {
+      "seed": 42,
+      "precision": 0.2088208092485549,
+      "recall": 0.9234162895927602,
+      "f1": 0.3396135265700483
+    },
+    {
+      "seed": 1019,
+      "precision": 0.23758920317988536,
+      "recall": 0.9307692307692308,
+      "f1": 0.3776353343002854
+    },
+    {
+      "seed": 2026,
+      "precision": 0.21494469970760766,
+      "recall": 0.9237556561085973,
+      "f1": 0.3472051072084463
+    }
+  ],
+  "parent_mean": {
+    "precision": 0.20963471760774469,
+    "recall": 0.916289592760181,
+    "f1": 0.34016379761202686
+  },
+  "gate_mean": {
+    "precision": 0.22045157071201596,
+    "recall": 0.9259803921568629,
+    "f1": 0.3548179893595933
+  },
+  "recipes": [
+    {
+      "schema": "event_gate_recipe_v1",
+      "seed": 42,
+      "eligible": true,
+      "L": 0.720104992389679,
+      "H": 0.9695672988891602,
+      "radius_samples": 15,
+      "interval_seconds": 8,
+      "parent": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-temporal-20261025-v2\\models\\source5\\seed_42",
+      "parent_hashes": {
+        "model.json": "9550bd7606a156e93aa302f346663748480e57b1c1ce9bdd0129705bbf963946",
+        "weights.pt": "ddf6102395d38a8f360dd9a8afac5cf64db18b8e1227ecac7ef30e0aae0f55dc"
+      },
+      "parent_epoch": 11,
+      "parent_point_threshold": 0.8221133351325989,
+      "score_semantics": "uncalibrated sigmoid state score",
+      "maximum_effective_context_samples": 157,
+      "offline_future_context": true,
+      "algorithm_sha256": "342c1e97707e4053c7d0b8fa438c10e48a445cc378d1fa9796e58a149ead82fd",
+      "registration_sha256": "efe3a1a39370bb96c9f4af264f7f19dc91fb23672adf7173ecaf237a59fe7c6c",
+      "source_data_sha256": {
+        "aggregate": "b1cc0a12a37b3182164fba3d1ddcc62ba85682bed641302f859095d0dda92525",
+        "microwave": "d907c7cb236c9340519722456376ba27339cc63c42db9eadf74e4db4745fcaf3"
+      },
+      "missing": "None; low failure remains off",
+      "segments": "finite original score, continuous 8 seconds, within household and partition",
+      "reason": null,
+      "seed_feasible": true,
+      "source_group_qualified": true
+    },
+    {
+      "schema": "event_gate_recipe_v1",
+      "seed": 1019,
+      "eligible": true,
+      "L": 0.8444480299949646,
+      "H": 0.9955602884292603,
+      "radius_samples": 15,
+      "interval_seconds": 8,
+      "parent": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-temporal-20261025-v2\\models\\source5\\seed_1019",
+      "parent_hashes": {
+        "model.json": "4c59fdde3fe3068e219236b2077e5c1d0a9f941c38895f4f12c89eb9f26a2eb5",
+        "weights.pt": "70b20e41682ac2ee7cad5d4dc98dbb9034b480a4bdfff59245639e214011e8b6"
+      },
+      "parent_epoch": 11,
+      "parent_point_threshold": 0.9118906855583191,
+      "score_semantics": "uncalibrated sigmoid state score",
+      "maximum_effective_context_samples": 157,
+      "offline_future_context": true,
+      "algorithm_sha256": "342c1e97707e4053c7d0b8fa438c10e48a445cc378d1fa9796e58a149ead82fd",
+      "registration_sha256": "efe3a1a39370bb96c9f4af264f7f19dc91fb23672adf7173ecaf237a59fe7c6c",
+      "source_data_sha256": {
+        "aggregate": "b1cc0a12a37b3182164fba3d1ddcc62ba85682bed641302f859095d0dda92525",
+        "microwave": "d907c7cb236c9340519722456376ba27339cc63c42db9eadf74e4db4745fcaf3"
+      },
+      "missing": "None; low failure remains off",
+      "segments": "finite original score, continuous 8 seconds, within household and partition",
+      "reason": null,
+      "seed_feasible": true,
+      "source_group_qualified": true
+    },
+    {
+      "schema": "event_gate_recipe_v1",
+      "seed": 2026,
+      "eligible": true,
+      "L": 0.754520833492279,
+      "H": 0.9739248156547546,
+      "radius_samples": 15,
+      "interval_seconds": 8,
+      "parent": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-temporal-20261025-v2\\models\\source5\\seed_2026",
+      "parent_hashes": {
+        "model.json": "03636a8223260559d41df2b9b7cdb5b4e9cbb7c0fbc38065a75ee61fe294d86b",
+        "weights.pt": "2a8149dc5bfb67ad5872df087f236afb99766335f86dbc04b564c942f9d9178b"
+      },
+      "parent_epoch": 10,
+      "parent_point_threshold": 0.8346552848815918,
+      "score_semantics": "uncalibrated sigmoid state score",
+      "maximum_effective_context_samples": 157,
+      "offline_future_context": true,
+      "algorithm_sha256": "342c1e97707e4053c7d0b8fa438c10e48a445cc378d1fa9796e58a149ead82fd",
+      "registration_sha256": "efe3a1a39370bb96c9f4af264f7f19dc91fb23672adf7173ecaf237a59fe7c6c",
+      "source_data_sha256": {
+        "aggregate": "b1cc0a12a37b3182164fba3d1ddcc62ba85682bed641302f859095d0dda92525",
+        "microwave": "d907c7cb236c9340519722456376ba27339cc63c42db9eadf74e4db4745fcaf3"
+      },
+      "missing": "None; low failure remains off",
+      "segments": "finite original score, continuous 8 seconds, within household and partition",
+      "reason": null,
+      "seed_feasible": true,
+      "source_group_qualified": true
+    }
+  ],
+  "artifacts": {
+    "1019_block_4.npz": "1dad083c5594f89b8a76e0e005ed923892a5316d78f1920b4500b7de196c40c1",
+    "1019_block_5.npz": "66a3cc0ca4bdf7459f78519fac802ec7c8a3d2157ee349eae304b419339a9bc0",
+    "2026_block_4.npz": "3900bbdae94bb4b5162aa0e71588a49335ba9f91fec49c22d1a263d48d27b959",
+    "2026_block_5.npz": "233cbca08f30d3d380e8ba3bce05e598286dc270cbd38cfa8febb3deddca9f6d",
+    "42_block_4.npz": "2c2a3f02b4da6e76667b7ad112bb941f54bc55204235ba34fb54b55ce10ecb4a",
+    "42_block_5.npz": "2de47f2337017ff8aa75b1d2229e5a6e33060708716a1dd3bb82307f946b5b7b",
+    "block_metrics.csv": "81663ca3e33737addd3e6d2fa5d830d840c118ad3cd00bbaa2ed1194de248c2a",
+    "H_curve_1019.csv": "5f0faf0e4d190c120b73b38948b92c54fd2a7a50a9c935fb1eaf257a22cd73c0",
+    "H_curve_2026.csv": "7df2bbbb881180830c03b5d85fb372f882fc9ccfbae8ebabb022718efab822d1",
+    "H_curve_42.csv": "f791b468ce6d313ba11691268fbe0d6d3525e2eaebfe4ae5ee9ee566be895641",
+    "L_curve_1019.csv": "b6dfc75d804e134df60a734ec4d9887e2d04f195a1df247dacab3eee6b0fe248",
+    "L_curve_2026.csv": "5cccbc9726758f2f956005127fc55ba5f729d3bc9fa031a12505c74fa2d1e9d9",
+    "L_curve_42.csv": "448b6619b1fcd69cb89b10fe460214fdb6e5a1503dadff5118146553ae7ad2ee",
+    "recipe_1019.json": "c322d7677f13df6296c3885c3756809b53f359e3049fad5037b99fc7af9ecd8c",
+    "recipe_2026.json": "ff910b9db6df1b9cb4808d22e9d8fcc29adc83959add93a0501a1c3ffe3ce99d",
+    "recipe_42.json": "a83727ebf3afcd6a58ea3d08b5b281b866b7adccd268d8b499db99ec853a70a6"
+  },
+  "new_fits": 0,
+  "optimizer_updates": 0
+}

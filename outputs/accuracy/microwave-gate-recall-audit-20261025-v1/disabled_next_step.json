@@ -1,0 +1,14 @@
+{
+  "status": "disabled",
+  "executed": false,
+  "title": "来源逐seed逐块召回退化拒绝条件",
+  "scope": "仅作为下一轮预注册提案；任何seed×来源块中固定gate召回低于其对应冻结point召回，则gate不具资格进入开发。不得以均值掩盖该条件。",
+  "changes_previous_fixed_rules": true,
+  "changes": "新增来源资格规则，不改变本轮L/H/radius、来源选择或正式开发失败。",
+  "new_fit_budget_required_for_this_guard": false,
+  "new_fits_proposed": 0,
+  "new_training_requires_separate_human_authorization": true,
+  "development_evaluation_requires_separate_authorization": true,
+  "not_proposed": "本审计不生成段级gate，不扫半径/H，不后选本轮point，不计算新规则开发成绩。",
+  "limitation": "来源保护可以减少已有来源召回退化，不保证跨户召回≥.85，也不能自动选择更优模型。"
+}

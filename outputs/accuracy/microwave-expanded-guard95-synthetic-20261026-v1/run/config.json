@@ -1,0 +1,61 @@
+{
+  "experiment": "microwave_expanded_guard95_task18_v1",
+  "authorized": false,
+  "seeds": [
+    42,
+    1019,
+    2026
+  ],
+  "maximum_new_fits": 3,
+  "maximum_updates": 19404,
+  "checkpoints": 12,
+  "steps_per_checkpoint": 539,
+  "batch_size": 256,
+  "positive_per_batch": 16,
+  "uniform_negative_per_batch": 240,
+  "learning_rate": 0.001,
+  "cpu_threads": 4,
+  "window_samples": 127,
+  "pos_weight": 1.0,
+  "optimizer": "Adam",
+  "parameter_count": 5329,
+  "candidate": "expanded_guard95",
+  "control": "control_guard95",
+  "candidate_bounds": {
+    "2": [
+      1413244800,
+      1414454400
+    ],
+    "19": [
+      1413676800,
+      1414886400
+    ]
+  },
+  "added_support": {
+    "2": [
+      144557,
+      404,
+      109
+    ],
+    "19": [
+      134661,
+      315,
+      51
+    ]
+  },
+  "train_support": [
+    615922,
+    2994,
+    612928
+  ],
+  "source_support": [
+    34351,
+    201
+  ],
+  "retries": false,
+  "control_retraining": false,
+  "development_points": 137523,
+  "preparation_authorization_quote": "新开并准备3模型方案",
+  "preparation_authorization_reference": "01a16d7b-478e-7780-a999-88abe71e8c94/request_user_input_async/call_62ed5be28a8d478386332e5fe60fcdb7",
+  "preparation_authorizes_training": false
+}

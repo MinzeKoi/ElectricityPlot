@@ -1,0 +1,21 @@
+test_95_parameter_is_distinct_from_85 (test_microwave_recall_guard95.Recall95Tests.test_95_parameter_is_distinct_from_85) ... ok
+test_all_execution_entrypoints_reject_before_identity_or_data (test_microwave_recall_guard95.Recall95Tests.test_all_execution_entrypoints_reject_before_identity_or_data) ... ok
+test_disabled_no_fit (test_microwave_recall_guard95.Recall95Tests.test_disabled_no_fit) ... ok
+test_infeasible_matrix_refused (test_microwave_recall_guard95.Recall95Tests.test_infeasible_matrix_refused) ... ok
+test_infeasible_source_report_needs_no_development_or_truth (test_microwave_recall_guard95.Recall95Tests.test_infeasible_source_report_needs_no_development_or_truth) ... ok
+test_label_and_final_house_isolation_even_allowlisted (test_microwave_recall_guard95.Recall95Tests.test_label_and_final_house_isolation_even_allowlisted) ... ok
+test_local_unknown_numeric_denied (test_microwave_recall_guard95.Recall95Tests.test_local_unknown_numeric_denied) ... ok
+test_low_failure_counted_fn_nan_and_block_segments (test_microwave_recall_guard95.Recall95Tests.test_low_failure_counted_fn_nan_and_block_segments) ... ok
+test_no_different_low_or_relaxation (test_microwave_recall_guard95.Recall95Tests.test_no_different_low_or_relaxation) ... ok
+test_old_fit_authorization_rejected (test_microwave_recall_guard95.Recall95Tests.test_old_fit_authorization_rejected) ... ok
+test_receipt_bound_and_quote_required (test_microwave_recall_guard95.Recall95Tests.test_receipt_bound_and_quote_required) ... ok
+test_synthetic_source_freeze_evaluate_verify_report_predict (test_microwave_recall_guard95.Recall95Tests.test_synthetic_source_freeze_evaluate_verify_report_predict)
+Full production orchestration with synthetic arrays and mocked model only. ... ok
+test_w50_exact_centers_no_filtering_or_rethreshold (test_microwave_recall_guard95.Recall95Tests.test_w50_exact_centers_no_filtering_or_rethreshold) ... ok
+test_w50_source_guard_and_ties (test_microwave_recall_guard95.Recall95Tests.test_w50_source_guard_and_ties) ... ok
+test_zero_optimizer_and_backward (test_microwave_recall_guard95.Recall95Tests.test_zero_optimizer_and_backward) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 4.037s
+
+OK

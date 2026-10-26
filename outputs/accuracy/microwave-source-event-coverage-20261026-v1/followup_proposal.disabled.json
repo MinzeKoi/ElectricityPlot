@@ -1,0 +1,104 @@
+{
+  "status": "DISABLED_AUDIT_PROPOSAL_ONLY",
+  "authorized": false,
+  "training_enabled": false,
+  "fit_calls_permitted_now": 0,
+  "requires_separate_root_human_authorization": [
+    "extend original2/19 each14d source identity",
+    "new paired-control and expansion training budgets",
+    "any later source inference/calibration and separately gated development evaluation"
+  ],
+  "exact_additions": [
+    {
+      "house": "2",
+      "start_utc": "2014-10-14T00:00:00Z",
+      "end_utc": "2014-10-28T00:00:00Z",
+      "eligible_centers": 144557,
+      "eligible_positive_centers": 404,
+      "supported_segments": 109
+    },
+    {
+      "house": "19",
+      "start_utc": "2014-10-19T00:00:00Z",
+      "end_utc": "2014-11-02T00:00:00Z",
+      "eligible_centers": 134661,
+      "eligible_positive_centers": 315,
+      "supported_segments": 51
+    }
+  ],
+  "expected_combined": {
+    "windows": 615922,
+    "positive_centers": 2994,
+    "negative_centers": 612928
+  },
+  "data_rule": "preselected consecutive complete UTC dates; retain low coverage and zero-positive days; core31>=24 observed/no adjacent missing, context127 original mask/boundary truncation; reject whole cross-role positive segments; audit counts must be independently reproduced before any train materialization",
+  "source_normalization": {
+    "mode": "exact frozen source2/19 constants, no refit",
+    "input_log_mean": 5.370561599731445,
+    "input_log_std": 0.8337093591690063
+  },
+  "house5": "same existing prefix, no new dates, block4/5 same frozen validation centers; suffix never new training",
+  "seeds": [
+    42,
+    1019,
+    2026
+  ],
+  "recipe": "unit_BCE",
+  "pos_weight": 1,
+  "model": "unchanged CenterMaskTCN16 six dilation layers/context127/5329 parameters",
+  "optimizer": "Adam lr0.001, batch256, positive16/negative240, CPU4",
+  "budget": {
+    "original_reference_updates": 3528,
+    "old_negatives": 334429,
+    "expanded_negatives": 612928,
+    "reason": "expanded negative uniform-draw expectation must not fall below old3528 baseline; round up per checkpoint",
+    "formula": "12*ceil(294*Nneg_expanded/Nneg_original)",
+    "steps_per_checkpoint": 539,
+    "checkpoints": 12,
+    "updates_per_model": 6468,
+    "old_reference_expected_draws_per_negative": 2.5318378489903686,
+    "expanded_expected_draws_per_negative": 2.532630259997912,
+    "paired_controls_new_fits": 3,
+    "expanded_new_fits": 3,
+    "total_new_fits_if_separately_approved": 6,
+    "total_optimizer_updates_if_approved": 38808,
+    "per_model_total_draws": 1655808,
+    "per_model_positive_draws": 103488,
+    "per_model_negative_draws": 1552320
+  },
+  "exposure_fairness": {
+    "primary_comparison": "three paired same-seed refreshed controls and three expansion models; both receive exactly6468 updates, 12 equal checkpoints and same initialization/sampler/quota; frozen3528 controls are descriptive references only",
+    "caveat": "Equal compute is not equal per-center or per-event exposure. Additional dates change hierarchical positive denominators; the single negative-based multiplier cannot match every event exposure.",
+    "positive_probability": "P(center in positive slot)=1/(G_house_date*E_in_group*C_in_event); expected positive draws=16*U/(G*E*C)",
+    "negative_probability": "P(negative center per draw)=1/Nneg; expected draws=240*U/Nneg",
+    "required_before_start": "audit-only deterministic sampling ledger for both arms and all three seeds: each house/date/event/center exposures, unique centers/segments, positive mass per group, expected and realized counts; reject if original source support/16:240 quota or frozen identities change; no selecting dates/budgets by source or development performance",
+    "exact_exposure_claim_permitted": false
+  },
+  "checkpoint_rule": "12 source checkpoints; original source85 worst-P/mean-P/F1/earlier selection and original source relative qualification unchanged; stride changes294 to539 solely by preregistered budget and requires approval",
+  "terminal": "fixed L95/H95/radius15, source-only calibration; no search",
+  "source_control": {
+    "each_seed_each_block_recall_min": 0.95,
+    "nondegenerate": true,
+    "mean_f1_not_below_control": true,
+    "max_seed_average_recall_drop": 0.05,
+    "min_seeds_precision_improved": 2,
+    "rank": [
+      "mean_precision",
+      "mean_f1",
+      "control_on_tie"
+    ]
+  },
+  "development_gates": {
+    "mean_precision_min": 0.08,
+    "each_seed_recall_min": 0.85,
+    "mean_f1_gain_vs_W50_min": 0.02,
+    "min_seeds_precision_and_f1_improved": 2,
+    "max_seed_f1_drop": 0.02,
+    "mean_fp_ratio_max": 0.7,
+    "nondegenerate": true,
+    "original137523_support_mask_raw_power_other_appliance_states_exact": true,
+    "tolerance": 1e-12
+  },
+  "final_houses": "8/9/20 prohibited; House17 prohibited in audit; no development read or evaluation until separately authorized and unique source selection frozen",
+  "fallback_if_only_three_fits_approved": "do not run this six-fit paired proposal; require a newly approved, explicit alternative. Never silently substitute frozen3528 controls or claim equal exposure."
+}

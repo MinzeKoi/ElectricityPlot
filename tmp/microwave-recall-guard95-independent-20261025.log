@@ -1,0 +1,52 @@
+{
+  "status": "independent_scalar_numeric_and_paired_verification_passed",
+  "means": {
+    "A": {
+      "precision": 0.04012808999869747,
+      "recall": 0.9242819843342036,
+      "f1": 0.07691297343567473,
+      "fp": 8482.0
+    },
+    "W50": {
+      "precision": 0.04012808999869747,
+      "recall": 0.9242819843342036,
+      "f1": 0.07691297343567473,
+      "fp": 8482.0
+    },
+    "guard95": {
+      "precision": 0.05715486666427189,
+      "recall": 0.9617058311575283,
+      "f1": 0.10722891982716358,
+      "fp": 6686.666666666667
+    },
+    "Task12_H85": {
+      "precision": 0.08571581494952664,
+      "recall": 0.8764142732811141,
+      "f1": 0.15033862341034895,
+      "fp": 4988.333333333333
+    }
+  },
+  "source_qualified": true,
+  "formal_gates": {
+    "mean_P_at_least_008": false,
+    "each_R_at_least_085": true,
+    "mean_F1_gain_at_least_002": true,
+    "at_least_two_seed_P_F1_up": true,
+    "each_F1_drop_at_most_002": true,
+    "mean_FP_reduction_at_least_30_percent": false,
+    "no_new_all_on_or_off": true,
+    "support_137523_exact": true
+  },
+  "formal_passed": false,
+  "mean_FP_reduction": 0.21166391574314225,
+  "mean_F1_gain": 0.03031594639148885,
+  "registration_sha256": "72a70fa1c97ce8c648955e2134bacf2fcce930ed388a37802ad0cd443d24618a",
+  "source_selection_sha256": "5869f4410a8a7cd0ec3ea32d30118d5e750b5af9544ae6e37ceac7016b7fb2c8",
+  "freeze_sha256": "55e84e5f1d1ee5f89c4f1e0a7dbecc97ac5837d15c4f63777ca0bd3940bf00fa",
+  "ordinary_pretruth_seal_sha256": "174190212376290839c70eaaab059bbeb80b3fdbe32562f936137adc55b71801",
+  "original_truth_csv_reads": 0,
+  "new_fits": 0,
+  "optimizer_updates": 0,
+  "default_changed": false,
+  "independent_new_house_validation": false
+}

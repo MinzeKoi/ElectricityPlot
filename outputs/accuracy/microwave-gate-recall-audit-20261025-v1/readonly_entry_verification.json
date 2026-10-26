@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "read_only_replay_exit": 2,
+  "replay_seconds": 2.0252442000019073,
+  "independent_verification": true,
+  "all_audit_file_hashes_and_mtimes_unchanged": true,
+  "files_checked": 37,
+  "rejected_overwrite_or_missing_output": [
+    {
+      "exit_code": 2,
+      "reason": "requires --output"
+    },
+    {
+      "exit_code": 2,
+      "reason": "already exists"
+    }
+  ]
+}

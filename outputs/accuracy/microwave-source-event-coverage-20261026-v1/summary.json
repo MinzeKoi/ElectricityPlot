@@ -1,0 +1,236 @@
+{
+  "status": "audit_complete_no_training",
+  "houses": [
+    {
+      "house": "2",
+      "role": "frozen_train_original14d",
+      "start_utc": "2014-09-29T06:28:48Z",
+      "end_utc": "2014-10-13T06:28:48Z",
+      "grid_bins": 151200,
+      "expected_grid_bins": 151200,
+      "utc_dates": 15,
+      "full_utc_dates": 13,
+      "aggregate_known": 136984,
+      "label_known": 136080,
+      "aggregate_covered_seconds": 1164342.0,
+      "label_covered_seconds": 1159601.0,
+      "aggregate_missing_bins": 14216,
+      "label_missing_bins": 15120,
+      "positive_label_bins": 478,
+      "observable_segments": 81,
+      "complete_off_boundary_segments": 30,
+      "eligible_centers": 127747,
+      "eligible_positive_centers": 466,
+      "eligible_negative_centers": 127281,
+      "supported_segments": 74,
+      "fully_supported_complete_segments": 29,
+      "positive_power_w": {
+        "n": 478,
+        "q0_q10_q50_q90_q100": [
+          209.0,
+          575.5,
+          1097.9375,
+          1134.7875,
+          1160.0
+        ]
+      },
+      "observed_segment_seconds": {
+        "n": 81,
+        "q0_q10_q50_q90_q100": [
+          8.0,
+          8.0,
+          24.0,
+          112.0,
+          280.0
+        ]
+      },
+      "off_background_residual_w": {
+        "n": 135602,
+        "q0_q10_q50_q90_q100": [
+          68.0,
+          85.25,
+          156.0,
+          444.375,
+          14156.0
+        ]
+      },
+      "negative_residual_bins": 0,
+      "centers_are_audit_counts_only": true
+    },
+    {
+      "house": "2",
+      "role": "candidate_audit_only_not_training",
+      "start_utc": "2014-10-14T00:00:00Z",
+      "end_utc": "2014-10-28T00:00:00Z",
+      "grid_bins": 151200,
+      "expected_grid_bins": 151200,
+      "utc_dates": 14,
+      "full_utc_dates": 14,
+      "aggregate_known": 147208,
+      "label_known": 146408,
+      "aggregate_covered_seconds": 1180595.0,
+      "label_covered_seconds": 1177147.0,
+      "aggregate_missing_bins": 3992,
+      "label_missing_bins": 4792,
+      "positive_label_bins": 415,
+      "observable_segments": 115,
+      "complete_off_boundary_segments": 57,
+      "eligible_centers": 144557,
+      "eligible_positive_centers": 404,
+      "eligible_negative_centers": 144153,
+      "supported_segments": 109,
+      "fully_supported_complete_segments": 57,
+      "positive_power_w": {
+        "n": 415,
+        "q0_q10_q50_q90_q100": [
+          204.25,
+          431.75,
+          1093.125,
+          1134.0,
+          1156.875
+        ]
+      },
+      "observed_segment_seconds": {
+        "n": 115,
+        "q0_q10_q50_q90_q100": [
+          8.0,
+          8.0,
+          16.0,
+          68.80000000000007,
+          144.0
+        ]
+      },
+      "off_background_residual_w": {
+        "n": 145993,
+        "q0_q10_q50_q90_q100": [
+          56.25,
+          119.625,
+          190.0,
+          657.75,
+          12911.75
+        ]
+      },
+      "negative_residual_bins": 0,
+      "centers_are_audit_counts_only": true
+    },
+    {
+      "house": "19",
+      "role": "frozen_train_original14d",
+      "start_utc": "2014-10-04T20:22:40Z",
+      "end_utc": "2014-10-18T20:22:40Z",
+      "grid_bins": 151200,
+      "expected_grid_bins": 151200,
+      "utc_dates": 15,
+      "full_utc_dates": 13,
+      "aggregate_known": 138240,
+      "label_known": 136080,
+      "aggregate_covered_seconds": 1192689.0,
+      "label_covered_seconds": 1179914.0,
+      "aggregate_missing_bins": 12960,
+      "label_missing_bins": 15120,
+      "positive_label_bins": 404,
+      "observable_segments": 83,
+      "complete_off_boundary_segments": 27,
+      "eligible_centers": 132059,
+      "eligible_positive_centers": 383,
+      "eligible_negative_centers": 131676,
+      "supported_segments": 80,
+      "fully_supported_complete_segments": 27,
+      "positive_power_w": {
+        "n": 404,
+        "q0_q10_q50_q90_q100": [
+          203.25,
+          793.85,
+          1258.6875,
+          1322.0,
+          1367.0
+        ]
+      },
+      "observed_segment_seconds": {
+        "n": 83,
+        "q0_q10_q50_q90_q100": [
+          8.0,
+          8.0,
+          32.0,
+          70.39999999999998,
+          104.0
+        ]
+      },
+      "off_background_residual_w": {
+        "n": 135676,
+        "q0_q10_q50_q90_q100": [
+          119.75,
+          155.5,
+          225.5,
+          459.5,
+          7393.375
+        ]
+      },
+      "negative_residual_bins": 0,
+      "centers_are_audit_counts_only": true
+    },
+    {
+      "house": "19",
+      "role": "candidate_audit_only_not_training",
+      "start_utc": "2014-10-19T00:00:00Z",
+      "end_utc": "2014-11-02T00:00:00Z",
+      "grid_bins": 151200,
+      "expected_grid_bins": 151200,
+      "utc_dates": 14,
+      "full_utc_dates": 14,
+      "aggregate_known": 138560,
+      "label_known": 136164,
+      "aggregate_covered_seconds": 1110078.0,
+      "label_covered_seconds": 1097053.0,
+      "aggregate_missing_bins": 12640,
+      "label_missing_bins": 15036,
+      "positive_label_bins": 333,
+      "observable_segments": 54,
+      "complete_off_boundary_segments": 19,
+      "eligible_centers": 134661,
+      "eligible_positive_centers": 315,
+      "eligible_negative_centers": 134346,
+      "supported_segments": 51,
+      "fully_supported_complete_segments": 19,
+      "positive_power_w": {
+        "n": 333,
+        "q0_q10_q50_q90_q100": [
+          301.5,
+          906.15,
+          1284.0,
+          1317.7,
+          1340.0
+        ]
+      },
+      "observed_segment_seconds": {
+        "n": 54,
+        "q0_q10_q50_q90_q100": [
+          8.0,
+          8.0,
+          40.0,
+          109.60000000000002,
+          168.0
+        ]
+      },
+      "off_background_residual_w": {
+        "n": 135831,
+        "q0_q10_q50_q90_q100": [
+          130.0,
+          159.875,
+          233.125,
+          462.125,
+          7485.0
+        ]
+      },
+      "negative_residual_bins": 0,
+      "centers_are_audit_counts_only": true
+    }
+  ],
+  "models_fit": 0,
+  "optimizer_steps": 0,
+  "inference": 0,
+  "calibration": 0,
+  "development_evaluations": 0,
+  "house17_reads": 0,
+  "final_house_reads": 0
+}

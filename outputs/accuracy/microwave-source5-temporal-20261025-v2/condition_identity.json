@@ -1,0 +1,9 @@
+{
+  "task8_freeze_sha256": "6bb27cac7b0c483cf225514369b1d361e3264df4eb3b847f816c69f7ddd3ecc1",
+  "task8_source_selection_sha256": "90b3b3f8766dc69c8c382865b3ee4f4471ab40c7a66e9ccce8d794f33d6038a1",
+  "control_freeze_sha256": "47e5602103a444c42c63cb3f185fa42ec821bb497bb450ff6015c65ac5e94027",
+  "control_registration_sha256": "1cd50f61d2702d84b984fe08aff5aa2ff8eb4d5bba28f102626226e958dbf72b",
+  "source_recipe": "control_BCE50",
+  "source_only": true,
+  "development_scores_read": false
+}

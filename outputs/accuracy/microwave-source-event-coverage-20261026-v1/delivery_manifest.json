@@ -1,0 +1,33 @@
+{
+  "status": "completed",
+  "files": {
+    "access_evidence.json": "6c362ba0c5080c4eb7f85c4d401b8f73bee4eced896b03df5f009492e39709f2",
+    "audit.py": "3b7cb069a976f298705089f50536b6950ba739b7d137c8a54134ba39f7eb7380",
+    "build_delivery.py": "288ffffebfeb92a690e2517e5562fa243f2e3d37f963b59fb58bc3617897609e",
+    "config.json": "1b4d7fde41362ccb64c04e0c5fed8304906970302797989b6a2a40b8bd9bc2d8",
+    "daily_counts.csv": "ad4e58f71689d641953fdfc58a771a319c38cb6ad4fdecbe531a21da9f47f9a7",
+    "date_roles.json": "e9503e4ae9084f3b80c75bd4c665a7c1a98704d11a038de3ca888848c75751e4",
+    "followup_proposal.disabled.json": "aa62b8e82ca201061044e60215befa5315fa4db2b3470ae409ad381395e28f3d",
+    "frozen_identity.json": "77a237e93ec4943a8cb0878ef058c3cdb1dfc1b7a1c21f4dd9242da7284f2648",
+    "frozen_missingness_attribution.json": "068ae9025070f1402b1a55b0600ca5b6a56dd9d37ff21ea78031232ae40e4952",
+    "independent_verification.json": "4dd839fd6fead9f0e98a33d0a217dd279151cefb26b481cec35c7d67e8fa5b9c",
+    "raw_range_evidence.json": "dff5381137a5597ba4e9e4bb4176b3befa44b8eff767cfd516dcc77564d737ea",
+    "REPORT.zh.md": "8eb5e6956c92ec5396ea022b2f0c0be7819fd7cbf28a3304568d88fef5413f97",
+    "sealed_pool_metadata.json": "441ecca572ebb25145bdc8edd2dce68e5db77eac32378cc05c83160b088da2a1",
+    "segment_details.csv": "27e5419660f663dd71fb7c41d9e9a97c4946e8aa16dfa2cbdacbe5483f1d2b7b",
+    "source_metadata.json": "c1345b6b35c32a7b7b6b77bd6bc21b5ef45a7fbff2ea00d5c6cf7a6b42f39832",
+    "summary.json": "159dc8a37e8a55d975e0f8e618f700d59b5e45585ff4b235fb4463d71ee66de4",
+    "test_boundaries.py": "d3876ed9a514e94ca014498bf641ee6d624823e93953a9cfbdf3698777cc3d82",
+    "test_verification.json": "7014d3e9de135f7012a408f808303b8796a186583f216f66aeecae3cd43f56ba",
+    "verify.py": "357a621e93acea57c5b030a3176809f7e5afff9c6a323ee2ebf1c23eb5ddfb05"
+  },
+  "configuration_sha256": "1b4d7fde41362ccb64c04e0c5fed8304906970302797989b6a2a40b8bd9bc2d8",
+  "audit_code_sha256": "3b7cb069a976f298705089f50536b6950ba739b7d137c8a54134ba39f7eb7380",
+  "verification_code_sha256": "357a621e93acea57c5b030a3176809f7e5afff9c6a323ee2ebf1c23eb5ddfb05",
+  "source_dependency_hashes": {
+    "src\\virtual_submeter\\data\\prepare.py": "9d0befa61e1d40c5cd1f444f0ee1b90a5a6919ebd2c3fd8f4a66ae8b8cbd9ae0",
+    "src\\virtual_submeter\\data\\common.py": "06b7af77b897a8d093004d82d2651af8d56d7c437536624a817d195ad2848299"
+  },
+  "current_authorization": "audit only; zero fits/updates/inference/calibration/development evaluation",
+  "new_training_data_materialized": false
+}

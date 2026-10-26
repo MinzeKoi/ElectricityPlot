@@ -1,0 +1,27 @@
+{
+  "authorized": false,
+  "actual_real_fits": 0,
+  "actual_updates": 0,
+  "status": "feasible",
+  "artifacts": {
+    "audit_refit_19.npz": "6f63dd22ab5d53ef7fe0fdb96454956f259f25955e8f4f110fa201e55b88136d",
+    "audit_refit_2.npz": "4d4a4972c9a4e2a30e2e510913fbeec07e37d34d0c81a816a598aa93e3dacc74",
+    "audit_refit_5.npz": "378d3ab27f864f1688eea7c58dfaa6b04332a3d036eca1b8e43d3daa4782681e",
+    "background_refit_19.npz": "893ed2bf0becd19ff3ce5c95051cd6d7ce29d861162b36aca08ac5e1f47df218",
+    "background_refit_2.npz": "bed8e78066c29d1c20f6a007ad64b4aedce8f9d5073452f3b393ba5d40eb669d",
+    "background_refit_5.npz": "b1b2c8e80630eb5a7d9408a6c631b8b4a887b615b729d898131225afbb72712d",
+    "date_event_support.csv": "a70508a01b29cd8dc80af0bb0457eff0038cc8c8d878e9f0d0f494ade7d45ee1",
+    "identity.json": "aef3ba0a7096480c5cb8c5f8aa5e31dd3271e84477d272b89080af4f3a6cec97",
+    "pool_manifest.csv": "e4dc95e732fc59c7ed45e082b48e7285274b6a209875e5c6dcd847778c43775c",
+    "prepare_access.json": "db090b6cc93404b3f78c927a1be026ef0257ed715ed18b468ac39aa7b928182e",
+    "source_pool_audit.json": "9f9ff927beb2cc4187880cf8440fbc916dfcda618efa929d1240f1d4f36c341f",
+    "template_refit_19.npz": "9ca6077d84315ef59cacc4596db7e5e0f7514622c0ed5317d863d98e8c097d52",
+    "template_refit_2.npz": "67552a1aacf1c28678d81dc7b8efec8f5b8d970eebcbace1f9c274f6c57e3bc4",
+    "template_refit_5.npz": "0d3e9f82d500d736926e1d2eadb09df28412605831f598b0e3929f79c1ac03f8",
+    "configs/microwave_source3_background_20261025.disabled.json": "0bc26c03401ef744ea4adb4c190dae7154e68d942b308aa5cf2e60cc1f8bd4d0",
+    "docs/MICROWAVE_SOURCE3_BACKGROUND_PLAN_20261025.md": "da8cd1039e912974cee843efe2279434f94d0332e0065bb9d08c2f3dd426bc31",
+    "scripts/run_microwave_source3_background.py": "3f6bb3083fd8a6a5543887c380af506a3fa2827f293c09042daf11420d51e135",
+    "tests/test_microwave_source3_background.py": "442dff9d0e86ebb1973cc4a7766a2cd03683fee99a631021ab7e6b8cc7c28681",
+    "src/virtual_submeter/accuracy/microwave_source3_background.py": "7262e17304aa17f7f8c58d0841ad14e81df2f4fac3e09bcba4c08bcc04bdc09f"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "matrix": [
+    [
+      "A",
+      42
+    ],
+    [
+      "A",
+      1019
+    ],
+    [
+      "A",
+      2026
+    ],
+    [
+      "W50",
+      42
+    ],
+    [
+      "W50",
+      1019
+    ],
+    [
+      "W50",
+      2026
+    ],
+    [
+      "guard95",
+      42
+    ],
+    [
+      "guard95",
+      1019
+    ],
+    [
+      "guard95",
+      2026
+    ]
+  ],
+  "source_selection_sha256": "5869f4410a8a7cd0ec3ea32d30118d5e750b5af9544ae6e37ceac7016b7fb2c8",
+  "registration_sha256": "72a70fa1c97ce8c648955e2134bacf2fcce930ed388a37802ad0cd443d24618a",
+  "identity_sha256": "1d8dfe7430bcecb2da153dcc0524c90dc5f7a7babbb6d98be5ce0bfbc8b16182",
+  "artifacts": {
+    "predictions/A_1019.npz": "657ac2882fe05edbf5783e3f5482f415c17014adcaaff7f383b4213479100a37",
+    "predictions/A_2026.npz": "bfb114d8fc89e702f982fbf658fca7c18129c79e06f03eb09a65c48b36f79ded",
+    "predictions/A_42.npz": "3e5e30b4a434ebc7e26989c8f7a539e6f4df8b3b71ec76eb1c2a2209a9bc883b",
+    "predictions/guard95_1019.npz": "5e3805129af01f124d1b98891801dca9f4f39611628dceca93baab3a1802c8f9",
+    "predictions/guard95_2026.npz": "0b59bbe0b7617dc6490e5d72a0ed0159509a87b06d42df7b13de137c0fe845f8",
+    "predictions/guard95_42.npz": "764439ec5543c2e0028e3b9e8908cef8e11045805b31ed47a8c61c64ef09b321",
+    "predictions/W50_1019.npz": "bce136259f876bae3333866c9df74c4c79174ddae2238e831156ac0c959bdc50",
+    "predictions/W50_2026.npz": "fefe30282464d3a780cb014639f8f5396e3a03fb4c930602cd70f6b443d46b6d",
+    "predictions/W50_42.npz": "c290bda1119db047131605c7d5c811ef9690bfda8d6a9ca95bb753f962e5033e",
+    "inference_checks.json": "bf4901a567896a3bb74b2a99ea86cc47f0c780ea7311296c6a6ea4cab8f46a74"
+  },
+  "truth_opened": false
+}

@@ -1,0 +1,12 @@
+{
+  "family": "expanded",
+  "seed": 2026,
+  "dataset": "train",
+  "model_json_sha256": "91793f901a2c8398886e92b79b80caeeefb18de2ef1d3af6ad200d5aaf60b0d8",
+  "weights_sha256": "3b9822e3612544adc79c1b3447ff04fea894894dd10f88645a04cfc5ecfeec24",
+  "input_sha256": "1b4eaf721d25e2826f75c31ca9100949d4bc2ee2af665aae285275a84a202a49",
+  "identity_sha256": "2104cd6409bf9c6f5f5bb7fae97b52a9cd299d12bc5e6d1df48eabb2a893c207",
+  "threshold": 0.1598636955022812,
+  "prediction_sha256": "1d63e231b6d700298fff0e2ac1fa6a73edf4daa837743996116a874f87698da7",
+  "probability_sha256": "78c0bdf57edd1010173d5a909f59e978da23a9a29c2baa15da4a9ab01cbdf931"
+}

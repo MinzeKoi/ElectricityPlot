@@ -1,0 +1,12 @@
+{
+  "status": "execution_delivered",
+  "run": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-expanded-guard95-preparation-20261026-v3",
+  "source_eligible": false,
+  "selected": "control_guard95",
+  "development_evaluated": false,
+  "development_acceptance_passed": false,
+  "new_fits": 3,
+  "optimizer_updates": 19404,
+  "execution_manifest_sha256": "5944f36d8e09cc174487fb9a0e423647b239abf49fca802983f889d03e00b27a",
+  "preparation_manifest_sha256": "49cd456838c0619067ede69caa3bc0236a4d9d592a630a1adfe7e94d7a3ece3b"
+}

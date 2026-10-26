@@ -1,0 +1,24 @@
+{
+  "original": [
+    259806,
+    849
+  ],
+  "added": [
+    76898,
+    1426
+  ],
+  "combined": [
+    336704,
+    2275
+  ],
+  "validation": [
+    34351,
+    201
+  ],
+  "normalization_exact": true,
+  "original_rows_exact": true,
+  "house5_numeric_index": 2,
+  "context_and_events_within_block": true,
+  "validation_inputs_equal_original_frozen": true,
+  "train_validation_center_and_event_disjoint": true
+}

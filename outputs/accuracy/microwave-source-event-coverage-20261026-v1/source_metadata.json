@@ -1,0 +1,59 @@
+{
+  "manifest": {
+    "2": {
+      "start": "2014-09-29T06:28:48Z",
+      "end": "2014-10-27T06:28:48Z",
+      "source_sha256": "5e3b8b30734070692bb6ac12504a26f5a1394aabe050199a1f7b7c5f88065561",
+      "artifacts": {
+        "aggregate": {
+          "path": "aggregate/house_2.csv",
+          "sha256": "eb2e299a08aaab56b5980ced094f33447e974d96afba22bd665ce68166ae83e7"
+        },
+        "kettle": {
+          "path": "labels/house_2/kettle.csv",
+          "sha256": "bd08fd5bb7f5bab668e863f1c172e00411ce8c75ed9b3ff1c018db87546bb64a"
+        },
+        "microwave": {
+          "path": "labels/house_2/microwave.csv",
+          "sha256": "55f6f3f6315c0ec650eece3dfdc593147bf0925a68566cfc8dcd325507effac5"
+        },
+        "washing_machine": {
+          "path": "labels/house_2/washing_machine.csv",
+          "sha256": "77ea52c1de4a8076c591329df9b1d4bb31cf038a063574cda69e2bd34ce11c9e"
+        }
+      }
+    },
+    "19": {
+      "start": "2014-10-04T20:22:40Z",
+      "end": "2014-11-01T20:22:40Z",
+      "source_sha256": "b445ebaec2562b0559dd13e62c399e8403f4a2f28e09042994cab470f6867960",
+      "artifacts": {
+        "aggregate": {
+          "path": "aggregate/house_19.csv",
+          "sha256": "b2265f85c3d0121966b5c41be47a84d0cc20f9b7f3ca0062c763d82b90f252a3"
+        },
+        "kettle": {
+          "path": "labels/house_19/kettle.csv",
+          "sha256": "f25379e3727f740b868df5bfe82ed68cc8a5ed8d9c9deed4d7035c0a04058b19"
+        },
+        "microwave": {
+          "path": "labels/house_19/microwave.csv",
+          "sha256": "135b4ad32ff8c45ffcdd9e6553262dba038e579966b66020fb933cb3dfba5dc2"
+        },
+        "washing_machine": {
+          "path": "labels/house_19/washing_machine.csv",
+          "sha256": "28d359475ca191ce1144501bbb2464fbe919c64083f09493476d40b4a2fd0189"
+        }
+      }
+    }
+  },
+  "channels": {
+    "2": [
+      "Appliance5"
+    ],
+    "19": [
+      "Appliance4"
+    ]
+  },
+  "agents": "No applicable AGENTS.md found in workspace ancestors and accessed directory ancestors"
+}

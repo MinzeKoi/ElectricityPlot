@@ -1,0 +1,67 @@
+{
+  "status": "independently_reviewed_numeric_invariants",
+  "phase": "pre-freeze",
+  "real_new_starts": 3,
+  "actual_updates": 10584,
+  "control_retrains": 0,
+  "blocks": [
+    {
+      "role": "train",
+      "block": 0,
+      "centers": 18899,
+      "positive": 714,
+      "actual_observed_context_times_sha256": "9691b34281be0dc300a9586f55d8b990b12b972af460d7f9c409494bd3e6ef8d",
+      "core_and_outer_boundary_pass": true
+    },
+    {
+      "role": "train",
+      "block": 1,
+      "centers": 20716,
+      "positive": 226,
+      "actual_observed_context_times_sha256": "ea60715bdd2245eeba73ac407ebb2eac48def6da1467bd3f8fc175ffc94d2caa",
+      "core_and_outer_boundary_pass": true
+    },
+    {
+      "role": "train",
+      "block": 2,
+      "centers": 20714,
+      "positive": 303,
+      "actual_observed_context_times_sha256": "8c549634fe87adac855341d25988231c55c7eea373b1fcb97c77b7e78db21be3",
+      "core_and_outer_boundary_pass": true
+    },
+    {
+      "role": "train",
+      "block": 3,
+      "centers": 16569,
+      "positive": 183,
+      "actual_observed_context_times_sha256": "16aa94bf30696dfd1bc6584eba7f489e510bacd953e39aa3196a47ff8806c3c5",
+      "core_and_outer_boundary_pass": true
+    },
+    {
+      "role": "validation",
+      "block": 4,
+      "centers": 19127,
+      "positive": 136,
+      "actual_observed_context_times_sha256": "74ba9fec4996cbfd4b54eae2eeef923fb5562d0234701daa4b3481073b218d38",
+      "core_and_outer_boundary_pass": true
+    },
+    {
+      "role": "validation",
+      "block": 5,
+      "centers": 15224,
+      "positive": 65,
+      "actual_observed_context_times_sha256": "5b1b296a013add7ecb8b95c6f740edba78951ff7a8b7ffb49a9fdc568aef483c",
+      "core_and_outer_boundary_pass": true
+    }
+  ],
+  "normalization_byte_exact": true,
+  "original_259806_rows_all_columns_exact": true,
+  "house5_index": 2,
+  "actual_context_time_sets_disjoint": true,
+  "all_three_complete_sampling_streams_replayed": true,
+  "same_seed_old_initializations_exact": true,
+  "default_protocol_guard_sha256": "1ffd4b55a36ced8e0a24629cf233fc21aecf4348145715f6a39a905ceba15ef6",
+  "final_house_data_accessed": false,
+  "source_selection_sha256": "ed0f373ff0971fb67ed46bcc0a8c0f7fb59b485f5f2418b72ed0392b18618bd2",
+  "registration_sha256": "99b3092f4f89f837830daefb0b00020e00e2f197aadb8099169e9d523068acb9"
+}

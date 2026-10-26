@@ -1,0 +1,12 @@
+{
+  "family": "control",
+  "seed": 2026,
+  "dataset": "train",
+  "model_json_sha256": "4df2a277c655487c2287f97dec58b13ba8ca52e0df888d3e06e7859be87834c6",
+  "weights_sha256": "e89dc1a8f2ee73af3a93edfc594d5956ad7ba42575fb0d80f8fe4a68aeafa815",
+  "input_sha256": "1b4eaf721d25e2826f75c31ca9100949d4bc2ee2af665aae285275a84a202a49",
+  "identity_sha256": "2104cd6409bf9c6f5f5bb7fae97b52a9cd299d12bc5e6d1df48eabb2a893c207",
+  "threshold": 0.0628107488155365,
+  "prediction_sha256": "bce600662f4ab4009de93b94572bc9dd82d00dfdbea5de73c481fbabca98b7de",
+  "probability_sha256": "8e01297ff428e5a7374414f229adecd6ec1363ac0c35cf06baac42f26da39aac"
+}

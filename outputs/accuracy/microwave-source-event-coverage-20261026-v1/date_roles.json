@@ -1,0 +1,231 @@
+{
+  "original_training": [
+    {
+      "house": "2",
+      "role": "frozen_train_original14d",
+      "start_utc": "2014-09-29T06:28:48Z",
+      "end_utc": "2014-10-13T06:28:48Z",
+      "used_for_training": true
+    },
+    {
+      "house": "19",
+      "role": "frozen_train_original14d",
+      "start_utc": "2014-10-04T20:22:40Z",
+      "end_utc": "2014-10-18T20:22:40Z",
+      "used_for_training": true
+    }
+  ],
+  "unused_dates": [
+    {
+      "house": "2",
+      "role": "excluded_tail_partial_date",
+      "start_utc": "2014-10-13T06:28:48Z",
+      "end_utc": "2014-10-14T00:00:00Z",
+      "used_for_training": false
+    },
+    {
+      "house": "2",
+      "role": "candidate_audit_only_not_training",
+      "start_utc": "2014-10-14T00:00:00Z",
+      "end_utc": "2014-10-15T00:00:00Z",
+      "used_for_training": false
+    },
+    {
+      "house": "2",
+      "role": "candidate_audit_only_not_training",
+      "start_utc": "2014-10-15T00:00:00Z",
+      "end_utc": "2014-10-16T00:00:00Z",
+      "used_for_training": false
+    },
+    {
+      "house": "2",
+      "role": "candidate_audit_only_not_training",
+      "start_utc": "2014-10-16T00:00:00Z",
+      "end_utc": "2014-10-17T00:00:00Z",
+      "used_for_training": false
+    },
+    {
+      "house": "2",
+      "role": "candidate_audit_only_not_training",
+      "start_utc": "2014-10-17T00:00:00Z",
+      "end_utc": "2014-10-18T00:00:00Z",
+      "used_for_training": false
+    },
+    {
+      "house": "2",
+      "role": "candidate_audit_only_not_training",
+      "start_utc": "2014-10-18T00:00:00Z",
+      "end_utc": "2014-10-19T00:00:00Z",
+      "used_for_training": false
+    },
+    {
+      "house": "2",
+      "role": "candidate_audit_only_not_training",
+      "start_utc": "2014-10-19T00:00:00Z",
+      "end_utc": "2014-10-20T00:00:00Z",
+      "used_for_training": false
+    },
+    {
+      "house": "2",
+      "role": "candidate_audit_only_not_training",
+      "start_utc": "2014-10-20T00:00:00Z",
+      "end_utc": "2014-10-21T00:00:00Z",
+      "used_for_training": false
+    },
+    {
+      "house": "2",
+      "role": "candidate_audit_only_not_training",
+      "start_utc": "2014-10-21T00:00:00Z",
+      "end_utc": "2014-10-22T00:00:00Z",
+      "used_for_training": false
+    },
+    {
+      "house": "2",
+      "role": "candidate_audit_only_not_training",
+      "start_utc": "2014-10-22T00:00:00Z",
+      "end_utc": "2014-10-23T00:00:00Z",
+      "used_for_training": false
+    },
+    {
+      "house": "2",
+      "role": "candidate_audit_only_not_training",
+      "start_utc": "2014-10-23T00:00:00Z",
+      "end_utc": "2014-10-24T00:00:00Z",
+      "used_for_training": false
+    },
+    {
+      "house": "2",
+      "role": "candidate_audit_only_not_training",
+      "start_utc": "2014-10-24T00:00:00Z",
+      "end_utc": "2014-10-25T00:00:00Z",
+      "used_for_training": false
+    },
+    {
+      "house": "2",
+      "role": "candidate_audit_only_not_training",
+      "start_utc": "2014-10-25T00:00:00Z",
+      "end_utc": "2014-10-26T00:00:00Z",
+      "used_for_training": false
+    },
+    {
+      "house": "2",
+      "role": "candidate_audit_only_not_training",
+      "start_utc": "2014-10-26T00:00:00Z",
+      "end_utc": "2014-10-27T00:00:00Z",
+      "used_for_training": false
+    },
+    {
+      "house": "2",
+      "role": "candidate_audit_only_not_training",
+      "start_utc": "2014-10-27T00:00:00Z",
+      "end_utc": "2014-10-28T00:00:00Z",
+      "used_for_training": false
+    },
+    {
+      "house": "19",
+      "role": "excluded_tail_partial_date",
+      "start_utc": "2014-10-18T20:22:40Z",
+      "end_utc": "2014-10-19T00:00:00Z",
+      "used_for_training": false
+    },
+    {
+      "house": "19",
+      "role": "candidate_audit_only_not_training",
+      "start_utc": "2014-10-19T00:00:00Z",
+      "end_utc": "2014-10-20T00:00:00Z",
+      "used_for_training": false
+    },
+    {
+      "house": "19",
+      "role": "candidate_audit_only_not_training",
+      "start_utc": "2014-10-20T00:00:00Z",
+      "end_utc": "2014-10-21T00:00:00Z",
+      "used_for_training": false
+    },
+    {
+      "house": "19",
+      "role": "candidate_audit_only_not_training",
+      "start_utc": "2014-10-21T00:00:00Z",
+      "end_utc": "2014-10-22T00:00:00Z",
+      "used_for_training": false
+    },
+    {
+      "house": "19",
+      "role": "candidate_audit_only_not_training",
+      "start_utc": "2014-10-22T00:00:00Z",
+      "end_utc": "2014-10-23T00:00:00Z",
+      "used_for_training": false
+    },
+    {
+      "house": "19",
+      "role": "candidate_audit_only_not_training",
+      "start_utc": "2014-10-23T00:00:00Z",
+      "end_utc": "2014-10-24T00:00:00Z",
+      "used_for_training": false
+    },
+    {
+      "house": "19",
+      "role": "candidate_audit_only_not_training",
+      "start_utc": "2014-10-24T00:00:00Z",
+      "end_utc": "2014-10-25T00:00:00Z",
+      "used_for_training": false
+    },
+    {
+      "house": "19",
+      "role": "candidate_audit_only_not_training",
+      "start_utc": "2014-10-25T00:00:00Z",
+      "end_utc": "2014-10-26T00:00:00Z",
+      "used_for_training": false
+    },
+    {
+      "house": "19",
+      "role": "candidate_audit_only_not_training",
+      "start_utc": "2014-10-26T00:00:00Z",
+      "end_utc": "2014-10-27T00:00:00Z",
+      "used_for_training": false
+    },
+    {
+      "house": "19",
+      "role": "candidate_audit_only_not_training",
+      "start_utc": "2014-10-27T00:00:00Z",
+      "end_utc": "2014-10-28T00:00:00Z",
+      "used_for_training": false
+    },
+    {
+      "house": "19",
+      "role": "candidate_audit_only_not_training",
+      "start_utc": "2014-10-28T00:00:00Z",
+      "end_utc": "2014-10-29T00:00:00Z",
+      "used_for_training": false
+    },
+    {
+      "house": "19",
+      "role": "candidate_audit_only_not_training",
+      "start_utc": "2014-10-29T00:00:00Z",
+      "end_utc": "2014-10-30T00:00:00Z",
+      "used_for_training": false
+    },
+    {
+      "house": "19",
+      "role": "candidate_audit_only_not_training",
+      "start_utc": "2014-10-30T00:00:00Z",
+      "end_utc": "2014-10-31T00:00:00Z",
+      "used_for_training": false
+    },
+    {
+      "house": "19",
+      "role": "candidate_audit_only_not_training",
+      "start_utc": "2014-10-31T00:00:00Z",
+      "end_utc": "2014-11-01T00:00:00Z",
+      "used_for_training": false
+    },
+    {
+      "house": "19",
+      "role": "candidate_audit_only_not_training",
+      "start_utc": "2014-11-01T00:00:00Z",
+      "end_utc": "2014-11-02T00:00:00Z",
+      "used_for_training": false
+    }
+  ],
+  "house5_prefix": "existing 2014-11-15 through 2014-11-22T23:30Z unchanged; suffix block4/5 validation only; not new training"
+}

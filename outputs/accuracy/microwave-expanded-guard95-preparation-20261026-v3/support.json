@@ -1,0 +1,1378 @@
+{
+  "original": [
+    336704,
+    2275
+  ],
+  "added": {
+    "2": {
+      "support": [
+        144557,
+        404,
+        109
+      ],
+      "event_offset": 81,
+      "raw": {
+        "house": "2",
+        "range_start": "2014-10-14T00:00:00Z",
+        "range_end": "2014-10-28T00:00:00Z",
+        "raw_rows": 176088,
+        "first_raw": "2014-10-13T23:59:56Z",
+        "last_raw": "2014-10-28T13:46:49Z",
+        "boundary_context_unix": [
+          1413244796,
+          1414504009
+        ],
+        "delta_histogram": {
+          "7": 129263,
+          "6": 43377,
+          "1": 1137,
+          "18": 4,
+          "21": 1,
+          "10": 45,
+          "47": 2,
+          "9": 245,
+          "12": 32,
+          "8": 968,
+          "63": 1,
+          "32": 2,
+          "11": 13,
+          "14": 23,
+          "49": 2,
+          "40": 1,
+          "2": 163,
+          "5": 154,
+          "13": 17,
+          "76": 5,
+          "48": 2,
+          "45": 1,
+          "37": 1,
+          "399": 1,
+          "31": 1,
+          "25": 1,
+          "19": 1,
+          "17": 4,
+          "42": 1,
+          "27": 5,
+          "51": 1,
+          "77": 2,
+          "30": 2,
+          "29": 2,
+          "23": 1,
+          "46": 1,
+          "26": 1,
+          "16": 4,
+          "15": 6,
+          "50": 1,
+          "28": 2,
+          "1379": 1,
+          "4": 259,
+          "3": 329,
+          "89": 1,
+          "74510": 1
+        },
+        "issues1_rows": 513,
+        "selected_rows_sha256": "b121e3b28194dfc0fb600315cceeb1077dc2027d773944c6a378300904601721"
+      },
+      "events": [
+        {
+          "event_id": 0,
+          "start": 1413279408,
+          "end": 1413279432,
+          "samples": 3,
+          "complete": false
+        },
+        {
+          "event_id": 1,
+          "start": 1413279456,
+          "end": 1413279472,
+          "samples": 2,
+          "complete": true
+        },
+        {
+          "event_id": 2,
+          "start": 1413295136,
+          "end": 1413295232,
+          "samples": 12,
+          "complete": true
+        },
+        {
+          "event_id": 3,
+          "start": 1413295272,
+          "end": 1413295296,
+          "samples": 3,
+          "complete": true
+        },
+        {
+          "event_id": 4,
+          "start": 1413295304,
+          "end": 1413295344,
+          "samples": 5,
+          "complete": true
+        },
+        {
+          "event_id": 5,
+          "start": 1413306744,
+          "end": 1413306784,
+          "samples": 5,
+          "complete": false
+        },
+        {
+          "event_id": 6,
+          "start": 1413306792,
+          "end": 1413306832,
+          "samples": 5,
+          "complete": false
+        },
+        {
+          "event_id": 7,
+          "start": 1413306968,
+          "end": 1413307016,
+          "samples": 6,
+          "complete": false
+        },
+        {
+          "event_id": 8,
+          "start": 1413307032,
+          "end": 1413307080,
+          "samples": 6,
+          "complete": false
+        },
+        {
+          "event_id": 9,
+          "start": 1413309424,
+          "end": 1413309520,
+          "samples": 12,
+          "complete": true
+        },
+        {
+          "event_id": 10,
+          "start": 1413309544,
+          "end": 1413309624,
+          "samples": 10,
+          "complete": true
+        },
+        {
+          "event_id": 11,
+          "start": 1413363008,
+          "end": 1413363016,
+          "samples": 1,
+          "complete": false
+        },
+        {
+          "event_id": 12,
+          "start": 1413363040,
+          "end": 1413363056,
+          "samples": 2,
+          "complete": false
+        },
+        {
+          "event_id": 13,
+          "start": 1413363072,
+          "end": 1413363088,
+          "samples": 2,
+          "complete": false
+        },
+        {
+          "event_id": 14,
+          "start": 1413382064,
+          "end": 1413382128,
+          "samples": 8,
+          "complete": true
+        },
+        {
+          "event_id": 15,
+          "start": 1413389288,
+          "end": 1413389312,
+          "samples": 3,
+          "complete": false
+        },
+        {
+          "event_id": 16,
+          "start": 1413389320,
+          "end": 1413389344,
+          "samples": 3,
+          "complete": false
+        },
+        {
+          "event_id": 17,
+          "start": 1413416872,
+          "end": 1413416936,
+          "samples": 8,
+          "complete": true
+        },
+        {
+          "event_id": 18,
+          "start": 1413482672,
+          "end": 1413482808,
+          "samples": 17,
+          "complete": false
+        },
+        {
+          "event_id": 19,
+          "start": 1413549672,
+          "end": 1413549792,
+          "samples": 15,
+          "complete": true
+        },
+        {
+          "event_id": 20,
+          "start": 1413549816,
+          "end": 1413549912,
+          "samples": 12,
+          "complete": false
+        },
+        {
+          "event_id": 21,
+          "start": 1413555184,
+          "end": 1413555200,
+          "samples": 2,
+          "complete": false
+        },
+        {
+          "event_id": 22,
+          "start": 1413555224,
+          "end": 1413555240,
+          "samples": 2,
+          "complete": true
+        },
+        {
+          "event_id": 23,
+          "start": 1413797528,
+          "end": 1413797552,
+          "samples": 3,
+          "complete": true
+        },
+        {
+          "event_id": 24,
+          "start": 1413797560,
+          "end": 1413797576,
+          "samples": 2,
+          "complete": true
+        },
+        {
+          "event_id": 25,
+          "start": 1413797592,
+          "end": 1413797608,
+          "samples": 2,
+          "complete": false
+        },
+        {
+          "event_id": 26,
+          "start": 1413823704,
+          "end": 1413823720,
+          "samples": 2,
+          "complete": false
+        },
+        {
+          "event_id": 27,
+          "start": 1413823744,
+          "end": 1413823760,
+          "samples": 2,
+          "complete": true
+        },
+        {
+          "event_id": 28,
+          "start": 1413823800,
+          "end": 1413823816,
+          "samples": 2,
+          "complete": true
+        },
+        {
+          "event_id": 29,
+          "start": 1413823832,
+          "end": 1413823856,
+          "samples": 3,
+          "complete": true
+        },
+        {
+          "event_id": 30,
+          "start": 1413823864,
+          "end": 1413823880,
+          "samples": 2,
+          "complete": true
+        },
+        {
+          "event_id": 31,
+          "start": 1413823896,
+          "end": 1413823912,
+          "samples": 2,
+          "complete": true
+        },
+        {
+          "event_id": 32,
+          "start": 1413823952,
+          "end": 1413823968,
+          "samples": 2,
+          "complete": true
+        },
+        {
+          "event_id": 33,
+          "start": 1413823984,
+          "end": 1413824000,
+          "samples": 2,
+          "complete": true
+        },
+        {
+          "event_id": 34,
+          "start": 1413824328,
+          "end": 1413824344,
+          "samples": 2,
+          "complete": false
+        },
+        {
+          "event_id": 35,
+          "start": 1413824360,
+          "end": 1413824376,
+          "samples": 2,
+          "complete": false
+        },
+        {
+          "event_id": 36,
+          "start": 1413824384,
+          "end": 1413824392,
+          "samples": 1,
+          "complete": false
+        },
+        {
+          "event_id": 37,
+          "start": 1413824600,
+          "end": 1413824608,
+          "samples": 1,
+          "complete": false
+        },
+        {
+          "event_id": 38,
+          "start": 1413824640,
+          "end": 1413824648,
+          "samples": 1,
+          "complete": true
+        },
+        {
+          "event_id": 39,
+          "start": 1413824664,
+          "end": 1413824672,
+          "samples": 1,
+          "complete": true
+        },
+        {
+          "event_id": 40,
+          "start": 1413824720,
+          "end": 1413824736,
+          "samples": 2,
+          "complete": true
+        },
+        {
+          "event_id": 41,
+          "start": 1413824792,
+          "end": 1413824800,
+          "samples": 1,
+          "complete": false
+        },
+        {
+          "event_id": 42,
+          "start": 1413824840,
+          "end": 1413824856,
+          "samples": 2,
+          "complete": true
+        },
+        {
+          "event_id": 43,
+          "start": 1413824872,
+          "end": 1413824888,
+          "samples": 2,
+          "complete": true
+        },
+        {
+          "event_id": 44,
+          "start": 1413824920,
+          "end": 1413825000,
+          "samples": 10,
+          "complete": false
+        },
+        {
+          "event_id": 45,
+          "start": 1413825264,
+          "end": 1413825272,
+          "samples": 1,
+          "complete": true
+        },
+        {
+          "event_id": 46,
+          "start": 1413825320,
+          "end": 1413825336,
+          "samples": 2,
+          "complete": true
+        },
+        {
+          "event_id": 47,
+          "start": 1413825384,
+          "end": 1413825400,
+          "samples": 2,
+          "complete": false
+        },
+        {
+          "event_id": 48,
+          "start": 1413825416,
+          "end": 1413825432,
+          "samples": 2,
+          "complete": false
+        },
+        {
+          "event_id": 49,
+          "start": 1413825616,
+          "end": 1413825672,
+          "samples": 7,
+          "complete": false
+        },
+        {
+          "event_id": 50,
+          "start": 1413828360,
+          "end": 1413828424,
+          "samples": 8,
+          "complete": false
+        },
+        {
+          "event_id": 51,
+          "start": 1413881728,
+          "end": 1413881744,
+          "samples": 2,
+          "complete": true
+        },
+        {
+          "event_id": 52,
+          "start": 1413881768,
+          "end": 1413881784,
+          "samples": 2,
+          "complete": false
+        },
+        {
+          "event_id": 53,
+          "start": 1413881792,
+          "end": 1413881800,
+          "samples": 1,
+          "complete": false
+        },
+        {
+          "event_id": 54,
+          "start": 1413909672,
+          "end": 1413909688,
+          "samples": 2,
+          "complete": true
+        },
+        {
+          "event_id": 55,
+          "start": 1413909696,
+          "end": 1413909712,
+          "samples": 2,
+          "complete": true
+        },
+        {
+          "event_id": 56,
+          "start": 1413909728,
+          "end": 1413909736,
+          "samples": 1,
+          "complete": true
+        },
+        {
+          "event_id": 57,
+          "start": 1413925016,
+          "end": 1413925024,
+          "samples": 1,
+          "complete": false
+        },
+        {
+          "event_id": 58,
+          "start": 1413925032,
+          "end": 1413925048,
+          "samples": 2,
+          "complete": false
+        },
+        {
+          "event_id": 59,
+          "start": 1413925056,
+          "end": 1413925072,
+          "samples": 2,
+          "complete": false
+        },
+        {
+          "event_id": 60,
+          "start": 1413925088,
+          "end": 1413925096,
+          "samples": 1,
+          "complete": false
+        },
+        {
+          "event_id": 61,
+          "start": 1413925120,
+          "end": 1413925144,
+          "samples": 3,
+          "complete": false
+        },
+        {
+          "event_id": 62,
+          "start": 1413963512,
+          "end": 1413963520,
+          "samples": 1,
+          "complete": true
+        },
+        {
+          "event_id": 63,
+          "start": 1413963528,
+          "end": 1413963544,
+          "samples": 2,
+          "complete": true
+        },
+        {
+          "event_id": 64,
+          "start": 1413963560,
+          "end": 1413963576,
+          "samples": 2,
+          "complete": true
+        },
+        {
+          "event_id": 65,
+          "start": 1413984272,
+          "end": 1413984288,
+          "samples": 2,
+          "complete": false
+        },
+        {
+          "event_id": 66,
+          "start": 1413984304,
+          "end": 1413984320,
+          "samples": 2,
+          "complete": false
+        },
+        {
+          "event_id": 67,
+          "start": 1413984328,
+          "end": 1413984344,
+          "samples": 2,
+          "complete": true
+        },
+        {
+          "event_id": 68,
+          "start": 1414000144,
+          "end": 1414000216,
+          "samples": 9,
+          "complete": true
+        },
+        {
+          "event_id": 69,
+          "start": 1414000280,
+          "end": 1414000320,
+          "samples": 5,
+          "complete": false
+        },
+        {
+          "event_id": 70,
+          "start": 1414000368,
+          "end": 1414000400,
+          "samples": 4,
+          "complete": true
+        },
+        {
+          "event_id": 71,
+          "start": 1414054960,
+          "end": 1414054984,
+          "samples": 3,
+          "complete": true
+        },
+        {
+          "event_id": 72,
+          "start": 1414054992,
+          "end": 1414055008,
+          "samples": 2,
+          "complete": true
+        },
+        {
+          "event_id": 73,
+          "start": 1414055016,
+          "end": 1414055032,
+          "samples": 2,
+          "complete": false
+        },
+        {
+          "event_id": 74,
+          "start": 1414081144,
+          "end": 1414081152,
+          "samples": 1,
+          "complete": false
+        },
+        {
+          "event_id": 75,
+          "start": 1414081160,
+          "end": 1414081184,
+          "samples": 3,
+          "complete": true
+        },
+        {
+          "event_id": 76,
+          "start": 1414081192,
+          "end": 1414081216,
+          "samples": 3,
+          "complete": true
+        },
+        {
+          "event_id": 77,
+          "start": 1414139624,
+          "end": 1414139640,
+          "samples": 2,
+          "complete": true
+        },
+        {
+          "event_id": 78,
+          "start": 1414139656,
+          "end": 1414139664,
+          "samples": 1,
+          "complete": false
+        },
+        {
+          "event_id": 79,
+          "start": 1414139688,
+          "end": 1414139704,
+          "samples": 2,
+          "complete": false
+        },
+        {
+          "event_id": 80,
+          "start": 1414170080,
+          "end": 1414170104,
+          "samples": 3,
+          "complete": true
+        },
+        {
+          "event_id": 81,
+          "start": 1414170112,
+          "end": 1414170128,
+          "samples": 2,
+          "complete": true
+        },
+        {
+          "event_id": 82,
+          "start": 1414170152,
+          "end": 1414170160,
+          "samples": 1,
+          "complete": false
+        },
+        {
+          "event_id": 83,
+          "start": 1414170168,
+          "end": 1414170184,
+          "samples": 2,
+          "complete": false
+        },
+        {
+          "event_id": 84,
+          "start": 1414170200,
+          "end": 1414170216,
+          "samples": 2,
+          "complete": false
+        },
+        {
+          "event_id": 85,
+          "start": 1414172384,
+          "end": 1414172400,
+          "samples": 2,
+          "complete": true
+        },
+        {
+          "event_id": 86,
+          "start": 1414172408,
+          "end": 1414172432,
+          "samples": 3,
+          "complete": true
+        },
+        {
+          "event_id": 87,
+          "start": 1414172440,
+          "end": 1414172456,
+          "samples": 2,
+          "complete": false
+        },
+        {
+          "event_id": 88,
+          "start": 1414172472,
+          "end": 1414172488,
+          "samples": 2,
+          "complete": false
+        },
+        {
+          "event_id": 89,
+          "start": 1414172528,
+          "end": 1414172560,
+          "samples": 4,
+          "complete": true
+        },
+        {
+          "event_id": 90,
+          "start": 1414172568,
+          "end": 1414172592,
+          "samples": 3,
+          "complete": false
+        },
+        {
+          "event_id": 91,
+          "start": 1414231920,
+          "end": 1414231928,
+          "samples": 1,
+          "complete": false
+        },
+        {
+          "event_id": 92,
+          "start": 1414231944,
+          "end": 1414231960,
+          "samples": 2,
+          "complete": false
+        },
+        {
+          "event_id": 93,
+          "start": 1414231968,
+          "end": 1414231976,
+          "samples": 1,
+          "complete": false
+        },
+        {
+          "event_id": 94,
+          "start": 1414239392,
+          "end": 1414239496,
+          "samples": 13,
+          "complete": false
+        },
+        {
+          "event_id": 95,
+          "start": 1414256560,
+          "end": 1414256584,
+          "samples": 3,
+          "complete": false
+        },
+        {
+          "event_id": 96,
+          "start": 1414256608,
+          "end": 1414256616,
+          "samples": 1,
+          "complete": false
+        },
+        {
+          "event_id": 97,
+          "start": 1414256632,
+          "end": 1414256640,
+          "samples": 1,
+          "complete": true
+        },
+        {
+          "event_id": 98,
+          "start": 1414256680,
+          "end": 1414256704,
+          "samples": 3,
+          "complete": false
+        },
+        {
+          "event_id": 99,
+          "start": 1414256712,
+          "end": 1414256728,
+          "samples": 2,
+          "complete": false
+        },
+        {
+          "event_id": 100,
+          "start": 1414256744,
+          "end": 1414256768,
+          "samples": 3,
+          "complete": false
+        },
+        {
+          "event_id": 101,
+          "start": 1414256776,
+          "end": 1414256800,
+          "samples": 3,
+          "complete": true
+        },
+        {
+          "event_id": 102,
+          "start": 1414257384,
+          "end": 1414257528,
+          "samples": 18,
+          "complete": false
+        },
+        {
+          "event_id": 103,
+          "start": 1414312568,
+          "end": 1414312592,
+          "samples": 3,
+          "complete": true
+        },
+        {
+          "event_id": 104,
+          "start": 1414353496,
+          "end": 1414353576,
+          "samples": 10,
+          "complete": true
+        },
+        {
+          "event_id": 105,
+          "start": 1414353696,
+          "end": 1414353744,
+          "samples": 6,
+          "complete": true
+        },
+        {
+          "event_id": 106,
+          "start": 1414398368,
+          "end": 1414398424,
+          "samples": 7,
+          "complete": true
+        },
+        {
+          "event_id": 107,
+          "start": 1414398432,
+          "end": 1414398456,
+          "samples": 3,
+          "complete": true
+        },
+        {
+          "event_id": 108,
+          "start": 1414412568,
+          "end": 1414412576,
+          "samples": 1,
+          "complete": true
+        },
+        {
+          "event_id": 109,
+          "start": 1414412584,
+          "end": 1414412600,
+          "samples": 2,
+          "complete": true
+        },
+        {
+          "event_id": 110,
+          "start": 1414412824,
+          "end": 1414412928,
+          "samples": 13,
+          "complete": false
+        },
+        {
+          "event_id": 111,
+          "start": 1414424712,
+          "end": 1414424744,
+          "samples": 4,
+          "complete": true
+        },
+        {
+          "event_id": 112,
+          "start": 1414424752,
+          "end": 1414424768,
+          "samples": 2,
+          "complete": true
+        },
+        {
+          "event_id": 113,
+          "start": 1414424776,
+          "end": 1414424800,
+          "samples": 3,
+          "complete": false
+        },
+        {
+          "event_id": 114,
+          "start": 1414424808,
+          "end": 1414424824,
+          "samples": 2,
+          "complete": false
+        }
+      ],
+      "raw_index_semantics": "zero-based row in extra/house_2.npz native resampled role grid; never an original-file/global index"
+    },
+    "19": {
+      "support": [
+        134661,
+        315,
+        51
+      ],
+      "event_offset": 83,
+      "raw": {
+        "house": "19",
+        "range_start": "2014-10-19T00:00:00Z",
+        "range_end": "2014-11-02T00:00:00Z",
+        "raw_rows": 161200,
+        "first_raw": "2014-10-18T23:59:57Z",
+        "last_raw": "2014-11-02T00:00:05Z",
+        "boundary_context_unix": [
+          1413676797,
+          1414886405
+        ],
+        "delta_histogram": {
+          "7": 145055,
+          "6": 11432,
+          "8": 2673,
+          "1": 1400,
+          "38": 2,
+          "9": 33,
+          "15": 15,
+          "27": 1,
+          "16": 9,
+          "11": 23,
+          "10": 28,
+          "43": 1,
+          "12": 20,
+          "55": 1,
+          "13": 15,
+          "24": 1,
+          "400": 1,
+          "30": 2,
+          "23": 2,
+          "34": 1,
+          "14": 8,
+          "1375": 1,
+          "77": 2,
+          "76": 7,
+          "33": 1,
+          "5": 150,
+          "2": 142,
+          "4": 55,
+          "3": 53,
+          "3613": 1,
+          "88912": 1,
+          "123": 1,
+          "17": 2,
+          "69": 53,
+          "70": 7
+        },
+        "issues1_rows": 1907,
+        "selected_rows_sha256": "d4ff47e79b816a496a24a53319f31409d5247aaa9a5c1c391a7b8c11bd08d477"
+      },
+      "events": [
+        {
+          "event_id": 0,
+          "start": 1413743480,
+          "end": 1413743544,
+          "samples": 8,
+          "complete": true
+        },
+        {
+          "event_id": 1,
+          "start": 1413744248,
+          "end": 1413744296,
+          "samples": 6,
+          "complete": false
+        },
+        {
+          "event_id": 2,
+          "start": 1413744672,
+          "end": 1413744800,
+          "samples": 16,
+          "complete": true
+        },
+        {
+          "event_id": 3,
+          "start": 1413745256,
+          "end": 1413745288,
+          "samples": 4,
+          "complete": true
+        },
+        {
+          "event_id": 4,
+          "start": 1413746504,
+          "end": 1413746552,
+          "samples": 6,
+          "complete": false
+        },
+        {
+          "event_id": 5,
+          "start": 1413798152,
+          "end": 1413798208,
+          "samples": 7,
+          "complete": true
+        },
+        {
+          "event_id": 6,
+          "start": 1413798808,
+          "end": 1413798832,
+          "samples": 3,
+          "complete": true
+        },
+        {
+          "event_id": 7,
+          "start": 1413815184,
+          "end": 1413815192,
+          "samples": 1,
+          "complete": false
+        },
+        {
+          "event_id": 8,
+          "start": 1413827416,
+          "end": 1413827536,
+          "samples": 15,
+          "complete": true
+        },
+        {
+          "event_id": 9,
+          "start": 1413907896,
+          "end": 1413907976,
+          "samples": 10,
+          "complete": false
+        },
+        {
+          "event_id": 10,
+          "start": 1413912160,
+          "end": 1413912280,
+          "samples": 15,
+          "complete": true
+        },
+        {
+          "event_id": 11,
+          "start": 1413983424,
+          "end": 1413983448,
+          "samples": 3,
+          "complete": false
+        },
+        {
+          "event_id": 12,
+          "start": 1413983472,
+          "end": 1413983480,
+          "samples": 1,
+          "complete": false
+        },
+        {
+          "event_id": 13,
+          "start": 1413983824,
+          "end": 1413983848,
+          "samples": 3,
+          "complete": false
+        },
+        {
+          "event_id": 14,
+          "start": 1413983896,
+          "end": 1413983944,
+          "samples": 6,
+          "complete": false
+        },
+        {
+          "event_id": 15,
+          "start": 1413984000,
+          "end": 1413984088,
+          "samples": 11,
+          "complete": true
+        },
+        {
+          "event_id": 16,
+          "start": 1413984344,
+          "end": 1413984368,
+          "samples": 3,
+          "complete": false
+        },
+        {
+          "event_id": 17,
+          "start": 1414069496,
+          "end": 1414069520,
+          "samples": 3,
+          "complete": false
+        },
+        {
+          "event_id": 18,
+          "start": 1414078616,
+          "end": 1414078624,
+          "samples": 1,
+          "complete": false
+        },
+        {
+          "event_id": 19,
+          "start": 1414150368,
+          "end": 1414150416,
+          "samples": 6,
+          "complete": false
+        },
+        {
+          "event_id": 20,
+          "start": 1414150488,
+          "end": 1414150536,
+          "samples": 6,
+          "complete": false
+        },
+        {
+          "event_id": 21,
+          "start": 1414224408,
+          "end": 1414224464,
+          "samples": 7,
+          "complete": false
+        },
+        {
+          "event_id": 22,
+          "start": 1414224488,
+          "end": 1414224496,
+          "samples": 1,
+          "complete": false
+        },
+        {
+          "event_id": 23,
+          "start": 1414313312,
+          "end": 1414313416,
+          "samples": 13,
+          "complete": false
+        },
+        {
+          "event_id": 24,
+          "start": 1414398424,
+          "end": 1414398432,
+          "samples": 1,
+          "complete": false
+        },
+        {
+          "event_id": 25,
+          "start": 1414398448,
+          "end": 1414398488,
+          "samples": 5,
+          "complete": false
+        },
+        {
+          "event_id": 26,
+          "start": 1414398496,
+          "end": 1414398528,
+          "samples": 4,
+          "complete": false
+        },
+        {
+          "event_id": 27,
+          "start": 1414411744,
+          "end": 1414411800,
+          "samples": 7,
+          "complete": false
+        },
+        {
+          "event_id": 28,
+          "start": 1414411880,
+          "end": 1414411912,
+          "samples": 4,
+          "complete": false
+        },
+        {
+          "event_id": 29,
+          "start": 1414412008,
+          "end": 1414412032,
+          "samples": 3,
+          "complete": false
+        },
+        {
+          "event_id": 30,
+          "start": 1414413320,
+          "end": 1414413368,
+          "samples": 6,
+          "complete": false
+        },
+        {
+          "event_id": 31,
+          "start": 1414518784,
+          "end": 1414518800,
+          "samples": 2,
+          "complete": false
+        },
+        {
+          "event_id": 32,
+          "start": 1414519352,
+          "end": 1414519416,
+          "samples": 8,
+          "complete": true
+        },
+        {
+          "event_id": 33,
+          "start": 1414519496,
+          "end": 1414519592,
+          "samples": 12,
+          "complete": true
+        },
+        {
+          "event_id": 34,
+          "start": 1414519688,
+          "end": 1414519776,
+          "samples": 11,
+          "complete": true
+        },
+        {
+          "event_id": 35,
+          "start": 1414571728,
+          "end": 1414571840,
+          "samples": 14,
+          "complete": false
+        },
+        {
+          "event_id": 36,
+          "start": 1414597664,
+          "end": 1414597712,
+          "samples": 6,
+          "complete": false
+        },
+        {
+          "event_id": 37,
+          "start": 1414604592,
+          "end": 1414604608,
+          "samples": 2,
+          "complete": false
+        },
+        {
+          "event_id": 38,
+          "start": 1414604624,
+          "end": 1414604632,
+          "samples": 1,
+          "complete": true
+        },
+        {
+          "event_id": 39,
+          "start": 1414604848,
+          "end": 1414604864,
+          "samples": 2,
+          "complete": true
+        },
+        {
+          "event_id": 40,
+          "start": 1414604888,
+          "end": 1414604896,
+          "samples": 1,
+          "complete": true
+        },
+        {
+          "event_id": 41,
+          "start": 1414604944,
+          "end": 1414604952,
+          "samples": 1,
+          "complete": true
+        },
+        {
+          "event_id": 42,
+          "start": 1414605408,
+          "end": 1414605424,
+          "samples": 2,
+          "complete": true
+        },
+        {
+          "event_id": 43,
+          "start": 1414606800,
+          "end": 1414606968,
+          "samples": 21,
+          "complete": false
+        },
+        {
+          "event_id": 44,
+          "start": 1414607144,
+          "end": 1414607176,
+          "samples": 4,
+          "complete": true
+        },
+        {
+          "event_id": 45,
+          "start": 1414607216,
+          "end": 1414607248,
+          "samples": 4,
+          "complete": true
+        },
+        {
+          "event_id": 46,
+          "start": 1414657368,
+          "end": 1414657472,
+          "samples": 13,
+          "complete": false
+        },
+        {
+          "event_id": 47,
+          "start": 1414713384,
+          "end": 1414713408,
+          "samples": 3,
+          "complete": false
+        },
+        {
+          "event_id": 48,
+          "start": 1414740952,
+          "end": 1414740960,
+          "samples": 1,
+          "complete": false
+        },
+        {
+          "event_id": 49,
+          "start": 1414740976,
+          "end": 1414741072,
+          "samples": 12,
+          "complete": false
+        },
+        {
+          "event_id": 50,
+          "start": 1414771416,
+          "end": 1414771464,
+          "samples": 6,
+          "complete": false
+        },
+        {
+          "event_id": 51,
+          "start": 1414781592,
+          "end": 1414781704,
+          "samples": 14,
+          "complete": false
+        },
+        {
+          "event_id": 52,
+          "start": 1414785216,
+          "end": 1414785240,
+          "samples": 3,
+          "complete": false
+        },
+        {
+          "event_id": 53,
+          "start": 1414873368,
+          "end": 1414873408,
+          "samples": 5,
+          "complete": true
+        }
+      ],
+      "raw_index_semantics": "zero-based row in extra/house_19.npz native resampled role grid; never an original-file/global index"
+    }
+  },
+  "combined": [
+    615922,
+    2994,
+    612928
+  ],
+  "sampling": {
+    "42": {
+      "updates": 6468,
+      "positive_presentations": 103488,
+      "negative_presentations": 1552320,
+      "unique_positive_centers": 2952,
+      "unique_negative_centers": 612928,
+      "indices_sha256": "622ab8277a4ce2f208583e2120c79d88896c190b990a71a297160364d8c8039c",
+      "initial_tensor_exact": true
+    },
+    "1019": {
+      "updates": 6468,
+      "positive_presentations": 103488,
+      "negative_presentations": 1552320,
+      "unique_positive_centers": 2952,
+      "unique_negative_centers": 612928,
+      "indices_sha256": "30655b02507e3064639e28c7695ae5c490e422ea78c7b44c2991c799ac34264b",
+      "initial_tensor_exact": true
+    },
+    "2026": {
+      "updates": 6468,
+      "positive_presentations": 103488,
+      "negative_presentations": 1552320,
+      "unique_positive_centers": 2952,
+      "unique_negative_centers": 612928,
+      "indices_sha256": "65e00893df170df643098485f2fa80a06f2a7b616e99e2620ec9aa652df9b697",
+      "initial_tensor_exact": true
+    }
+  },
+  "negative_expected_presentations": 2.532630259997912,
+  "original_negative_expected_presentations": 2.5318378489903686,
+  "limitations": "Only coarse negative-center exposure matched. Positive/event/date exposures cannot all match. Data and update budget change together; no independent data-expansion causal claim.",
+  "original_fields": {
+    "y": "6ee518f892386bfca0f6b94704e5110f006baa4ff93d6ce7c9687754dbdef06b",
+    "t": "ca010e9504af54e6860f371123234d846727d52b44b20c133136073befe7ee63",
+    "raw_index": "eb57e8cbc757b56256a7aadfd169efb45df4403d988a852794f59527ebe9f055",
+    "event": "c4fa2d437a731488bd273cc539a00195d8ff6de60cb0e424da3588f7cc10ef71",
+    "house": "11b1f0860a3b052e6d9c7c3a1df5cd4b51e054a6acf9ecbdc0faaa8f569f6b84",
+    "x": "eb59f5d012c39b863de47c074c8bf451995a965d65fd016f0da68cbae3fb09ce",
+    "mask": "5056bf4f3d09c9fb8d24d41bd84d699bf1ba35693eb8d254e367d5102f53da5d",
+    "outer_observed": "bb0eeb3052426fdb825c24f714cc93522dfd6074d06158442751320604f7b33c",
+    "outer_fraction": "09bcf2cf4108cfb6b3c56a4662b37fbc4c531c329109fcd325edd8e6eb79c041",
+    "left_stop": "c6259230dcc6f10a3109f11c7f0ab757b9fb6f04fa14a706db50b3ca6fec8077",
+    "right_stop": "980752fe37f521382d332c698f66fbd33b081a5a9bd7948e859bcb3faa9ad69f",
+    "mask_identity": "b4411062b63a816a9659275af38aa83da0bcae59303121015ab4de4c7773225c"
+  },
+  "source_roles": "original14d uses unchanged original house-local raw_index/event; House5 prefix retains its original block mapping; extended14d raw_index indexes its extra native role grid; event offset avoids old/new house-local event collisions"
+}

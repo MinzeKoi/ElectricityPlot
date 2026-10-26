@@ -1,0 +1,30 @@
+{
+  "schema": "event_gate_recipe_v1",
+  "seed": 1019,
+  "eligible": true,
+  "L": 0.8444480299949646,
+  "H": 0.9955602884292603,
+  "radius_samples": 15,
+  "interval_seconds": 8,
+  "parent": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-temporal-20261025-v2\\models\\source5\\seed_1019",
+  "parent_hashes": {
+    "model.json": "4c59fdde3fe3068e219236b2077e5c1d0a9f941c38895f4f12c89eb9f26a2eb5",
+    "weights.pt": "70b20e41682ac2ee7cad5d4dc98dbb9034b480a4bdfff59245639e214011e8b6"
+  },
+  "parent_epoch": 11,
+  "parent_point_threshold": 0.9118906855583191,
+  "score_semantics": "uncalibrated sigmoid state score",
+  "maximum_effective_context_samples": 157,
+  "offline_future_context": true,
+  "algorithm_sha256": "d34d7f777bba267d0fe469a3b74f6e17660c2d6611e72cb6a9e101dc9f9538ea",
+  "registration_sha256": "646af246bbc851dc2812d8a243f169a6f87b423afc8d373c738a686de7de83f7",
+  "source_data_sha256": {
+    "aggregate": "b1cc0a12a37b3182164fba3d1ddcc62ba85682bed641302f859095d0dda92525",
+    "microwave": "d907c7cb236c9340519722456376ba27339cc63c42db9eadf74e4db4745fcaf3"
+  },
+  "missing": "None; low failure remains off",
+  "segments": "finite original score, continuous 8 seconds, within household and partition",
+  "reason": null,
+  "seed_feasible": true,
+  "source_group_qualified": true
+}

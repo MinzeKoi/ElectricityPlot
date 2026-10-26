@@ -1,0 +1,12 @@
+{
+  "kind": "microwave_center_mask_tcn_v1",
+  "truth_threshold_w": 200,
+  "window_samples": 127,
+  "inference_support": "strict_complete_31",
+  "input_log_mean": 6.90875477931522,
+  "input_log_std": 1.0,
+  "decision_threshold_probability": 0.6,
+  "cpu_threads": 4,
+  "batch_size": 256,
+  "weights_sha256": "5d26a1f9bfc8c582326b81878459b9cd4b515f0ca609769cd2aea66986dcc1ae"
+}

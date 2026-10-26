@@ -1,0 +1,22 @@
+{
+  "checks": [
+    {
+      "stage": "source",
+      "missing_task16_authorization_rejected": true
+    },
+    {
+      "stage": "freeze",
+      "missing_task16_authorization_rejected": true
+    },
+    {
+      "stage": "evaluate",
+      "missing_task16_authorization_rejected": true
+    },
+    {
+      "stage": "predict",
+      "missing_task16_authorization_rejected": true
+    }
+  ],
+  "real_candidate_computations": 0,
+  "development_reads": 0
+}

@@ -1,0 +1,64 @@
+{
+  "input_log_mean": 5.370561599731445,
+  "input_log_std": 0.8337093591690063,
+  "cpu_threads": 4,
+  "batch_size": 256,
+  "window_samples": 127,
+  "kind": "microwave_center_mask_tcn_v1",
+  "inference_support": "strict_complete_31",
+  "truth_threshold_w": 200,
+  "decision_threshold_probability": 0.20690152049064636,
+  "selected": {
+    "threshold": 0.20690152049064636,
+    "worst_precision": 0.19205298013245034,
+    "mean_precision": 0.1941573311877205,
+    "mean_f1": 0.3199918746453913,
+    "supported_blocks": [
+      "block_4",
+      "block_5"
+    ],
+    "limited_evidence": false,
+    "mean_recall": 0.9093891402714933,
+    "block_metrics": {
+      "block_4": {
+        "tp": 126,
+        "fp": 516,
+        "fn": 10,
+        "tn": 18475,
+        "precision": 0.19626168224299065,
+        "recall": 0.9264705882352942,
+        "f1": 0.32390745501285345,
+        "off_false_positive_rate": 0.027170765099257543,
+        "ap": 0.2243306055358842,
+        "prevalence": 0.007110367543263449,
+        "n": 19127,
+        "threshold": 0.20690152049064636
+      },
+      "block_5": {
+        "tp": 58,
+        "fp": 244,
+        "fn": 7,
+        "tn": 14915,
+        "precision": 0.19205298013245034,
+        "recall": 0.8923076923076924,
+        "f1": 0.31607629427792916,
+        "off_false_positive_rate": 0.016096048552015303,
+        "ap": 0.3321433122349762,
+        "prevalence": 0.004269574356279559,
+        "n": 15224,
+        "threshold": 0.20690152049064636
+      }
+    },
+    "epoch": 2,
+    "source_gate_passed": true
+  },
+  "arm": "expanded",
+  "seed": 1019,
+  "updates": 6468,
+  "parameter_count": 5329,
+  "recipe": "unit_BCE",
+  "weights_sha256": "32bd9c2bd1f42ff11c6915bd72637869496ea4b297f137141a4a3cc6d3c20bf2",
+  "registration_sha256": "11dd4f8d9fdf68d2740c4b643a869ae462e21f4518eb309aacdb89eb92d11040",
+  "same_household_temporal_engineering_experiment": true,
+  "power_improvement_claim": false
+}

@@ -1,0 +1,38 @@
+{
+  "task": 17,
+  "authorized_audit_only": true,
+  "allowed_numeric_houses": [
+    2,
+    19
+  ],
+  "house5": "existing frozen aggregate counts only",
+  "forbidden_houses": [
+    17,
+    8,
+    9,
+    20
+  ],
+  "date_selection": "first complete UTC date after original14d end, then 14 consecutive UTC dates; no label ranking",
+  "candidate_bounds": {
+    "2": [
+      1413244800,
+      1414454400
+    ],
+    "19": [
+      1413676800,
+      1414886400
+    ]
+  },
+  "threshold_w": 200,
+  "native_seconds": 8,
+  "core": 31,
+  "context": 127,
+  "min_core_real": 24,
+  "two_consecutive_missing": "reject",
+  "training_interfaces": [],
+  "model_fits": 0,
+  "optimizer_steps": 0,
+  "inference": 0,
+  "calibration": 0,
+  "development_evaluations": 0
+}

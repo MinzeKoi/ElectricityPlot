@@ -1,0 +1,33 @@
+{
+  "experiment": "microwave_recall_guard95_v1",
+  "authorized": false,
+  "parent_run": "outputs/accuracy/microwave-source5-loss-preparation-20261025-v4",
+  "seeds": [
+    42,
+    1019,
+    2026
+  ],
+  "new_fits": 0,
+  "optimizer_updates": 0,
+  "low_minimum_recall": 0.95,
+  "high_minimum_recall": 0.95,
+  "radius_samples": 15,
+  "interval_seconds": 8,
+  "source_support": [
+    34351,
+    201
+  ],
+  "development_support": 137523,
+  "families": [
+    "W50",
+    "guard95"
+  ],
+  "truth_threshold_w": 200,
+  "source_recall_drop_limit": 0.05,
+  "minimum_precision": 0.08,
+  "minimum_recall": 0.85,
+  "minimum_f1_gain": 0.02,
+  "maximum_seed_f1_drop": 0.02,
+  "minimum_positive_seeds": 2,
+  "minimum_fp_reduction": 0.3
+}

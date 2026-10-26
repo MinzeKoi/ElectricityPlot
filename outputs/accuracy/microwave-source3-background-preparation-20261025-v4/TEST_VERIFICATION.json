@@ -1,0 +1,13 @@
+{
+  "new_synthetic_tests": 19,
+  "temporal_compatibility_tests": 19,
+  "unit_loss_compatibility_tests": 13,
+  "total_distinct_tests": 51,
+  "snapshot_synthetic_repeat_tests": 19,
+  "new_real_fits": 0,
+  "real_updates": 0,
+  "registration_sha256": "e2dc9fdf165bff1e57dc9456bf6880b2e79d372213de863857fc3f10157f3535",
+  "production_numpy_bool_serialization_fixed": true,
+  "independent_source_threshold_and_scalar_verification_tested": true,
+  "independent_development_numeric_summary_and_segments_tested": true
+}

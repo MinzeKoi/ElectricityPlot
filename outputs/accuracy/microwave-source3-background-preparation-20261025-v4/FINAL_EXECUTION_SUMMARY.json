@@ -1,0 +1,78 @@
+{
+  "status": "completed_source_rejected_no_development_access",
+  "new_fits": 3,
+  "updates": 10584,
+  "control_retrains": 0,
+  "source_selected": "control_guard95",
+  "augmentation_eligible": false,
+  "qualification": {
+    "complete_three_seeds": true,
+    "each_seed_each_block_R95": true,
+    "each_seed_each_block_nondegenerate": true,
+    "mean_F1_not_below_control": false,
+    "each_seed_average_R_drop_at_most_005": true,
+    "at_least_two_seed_P_improved": false
+  },
+  "source_means": {
+    "control_guard95": {
+      "precision": 0.2427475573932083,
+      "recall": 0.9720211161387633,
+      "f1": 0.3875975746515943
+    },
+    "aug_guard95": {
+      "precision": 0.22678876856525154,
+      "recall": 0.9651206636500755,
+      "f1": 0.3648067345587995
+    }
+  },
+  "source_delta": {
+    "precision": -0.01595878882795676,
+    "recall": -0.006900452488687758,
+    "f1": -0.022790840092794806
+  },
+  "trained_models": [
+    {
+      "seed": 42,
+      "path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source3-background-preparation-20261025-v4\\models\\aug\\seed_42",
+      "selected_epoch": 10,
+      "updates": 3528,
+      "seconds": 110.01154389999988,
+      "weights_sha256": "37579c92e99691ea883307225af9e17d1ce8a80c27564c772417fd7a159e816f",
+      "initial_sha256": "a6e8dcc837b3c13548fda478efa1e39e4458fccaf02da6ec81e4884d646c2772"
+    },
+    {
+      "seed": 1019,
+      "path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source3-background-preparation-20261025-v4\\models\\aug\\seed_1019",
+      "selected_epoch": 12,
+      "updates": 3528,
+      "seconds": 110.90170450000005,
+      "weights_sha256": "c59f421244d91745c70036e1b83eec01e6adf63c849c295ceb538b269960fec6",
+      "initial_sha256": "3ecce023bbcad16db5d0fa3d63ab24936ae13a2ee00e9cc7d01eb28edcd3ebb3"
+    },
+    {
+      "seed": 2026,
+      "path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source3-background-preparation-20261025-v4\\models\\aug\\seed_2026",
+      "selected_epoch": 7,
+      "updates": 3528,
+      "seconds": 113.5148608999998,
+      "weights_sha256": "003e032001f2d2774b23460b7e7471043443e081c56e43e8b6d07b2507aa19c9",
+      "initial_sha256": "e7d47a36b8ef33058fbc0088aaebe7bbf4eb2a4c42f3f898658a16197165b2c8"
+    }
+  ],
+  "development_predictions": 0,
+  "development_truth_cache_reads": 0,
+  "development_formal_acceptance": "not_evaluated_due_source_rejection",
+  "paired_development_FP_tables": "not_generated_due_source_rejection",
+  "default_changed": false,
+  "final_house_reads": 0,
+  "registration_sha256": "e2dc9fdf165bff1e57dc9456bf6880b2e79d372213de863857fc3f10157f3535",
+  "source_selection_sha256": "84668d2541972cdc3a14bfd947e3eaf940fa16526c8b28e11a6047bed77aeca5",
+  "receipt_sha256": "9b60a32451f3ef5cd547dcf30744bb37170e364d53337c9079ddb0a73d2d08b0",
+  "exposure": {
+    "synthetic_total": 84672,
+    "synthetic_per_seed": 28224,
+    "template_windows": 214,
+    "observable_template_segments": 16,
+    "independent_cycles_claimed": false
+  }
+}

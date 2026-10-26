@@ -1,0 +1,31 @@
+{
+  "status": "executed_once_formal_acceptance_failed_no_default_change",
+  "source_selected": "guard95",
+  "source_qualified": true,
+  "formal_acceptance_passed": false,
+  "failed_gates": [
+    "mean_P_at_least_008",
+    "mean_FP_reduction_at_least_30_percent"
+  ],
+  "new_fits": 0,
+  "optimizer_updates": 0,
+  "new_source_selection_runs": 1,
+  "seed_H95_selections": 3,
+  "freeze_runs": 1,
+  "evaluation_runs": 1,
+  "public_predict_seed_readbacks": 3,
+  "ordinary_exact_before_truth": true,
+  "original_truth_csv_reads": 0,
+  "final_households_accessed": false,
+  "original_A_raw_and_other_states_exact": true,
+  "default_changed": false,
+  "registration_sha256": "72a70fa1c97ce8c648955e2134bacf2fcce930ed388a37802ad0cd443d24618a",
+  "human_authorization_sha256": "0a018a1db66e9accf3e2f81ecf46e9b48581c7806b882395c33fea1d9536e8e7",
+  "source_selection_sha256": "5869f4410a8a7cd0ec3ea32d30118d5e750b5af9544ae6e37ceac7016b7fb2c8",
+  "freeze_sha256": "55e84e5f1d1ee5f89c4f1e0a7dbecc97ac5837d15c4f63777ca0bd3940bf00fa",
+  "evaluation_complete_sha256": "5694d9a3fc1bb6e2a30bb3214b540130301bd1fa2c9faa7f97c9089ae07a849e",
+  "independent_verification_sha256": "03873c66ac02f3cf710ebbf9b2f5850b97d088d11928f392224937c3440fe80f",
+  "parent_manifest_unchanged": true,
+  "repeated_House17_engineering_development": true,
+  "independent_new_house_validation": false
+}

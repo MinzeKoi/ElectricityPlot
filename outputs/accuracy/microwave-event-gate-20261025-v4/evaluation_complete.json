@@ -1,0 +1,15 @@
+{
+  "freeze_sha256": "e5b0704f1233e92514e4872fba6bd7c7cc1fdc4e7a90d176ce3ae223495e1f30",
+  "source_selection_sha256": "4549cb0cb8dbf19fc052b4bdc8715b62e0590b4921b37ce830c686332b0a6bec",
+  "truth_cache_parses": 1,
+  "truth_cache_sha256": "ac48eb4afd718c1ea4348db1d54afab7a804c58676661bf7e1b1aa90a5c1e264",
+  "artifacts": {
+    "development_confusions.csv": "5214ae4d1af50f400c0626f3a6d4c2b6547e1f7f44bc49240540adc5632a4d58",
+    "false_positive_changes.csv": "d3d3c39f52ecab435e821fd8c3be9b2b411ca008ef54e0871c8ce3087f47f89e",
+    "metrics.json": "53078ccc9e4e802f3f994f119106f3c6d732ceee26c03b8924e88417893b99a1",
+    "predicted_on_segments.csv": "47629315f79fae003e90ec7af16c2c80c339192abded5a4e774136f667391987",
+    "started.json": "259fc4b744988fe1821be1003d6d1e88374563d35f3d27a656177aabb2c9069e",
+    "summary.json": "2e71bda0e1aa037a374b2172eb64e78fc1af08081c89bdb5518dd5a03caf82de",
+    "truth_once.npz": "ac48eb4afd718c1ea4348db1d54afab7a804c58676661bf7e1b1aa90a5c1e264"
+  }
+}

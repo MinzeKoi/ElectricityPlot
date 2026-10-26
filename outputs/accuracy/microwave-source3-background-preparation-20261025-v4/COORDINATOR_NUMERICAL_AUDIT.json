@@ -1,0 +1,23 @@
+{
+  "origin": "explicit coordinator message in Task15 from root chat 01a16d7b-478e-7780-a999-88abe71e8c94",
+  "reported_independent_checks": {
+    "raw_W_pair_hash_recomputation_exact": 84672,
+    "independent_contiguous_8s_radius15_local_max_exact": true,
+    "source_block_scalar_confusions_exact": 6,
+    "source_means": {
+      "control_guard95": {
+        "precision": 0.2427475573932083,
+        "recall": 0.9720211161387633,
+        "f1": 0.3875975746515943
+      },
+      "aug_guard95": {
+        "precision": 0.22678876856525154,
+        "recall": 0.9651206636500755,
+        "f1": 0.3648067345587995
+      }
+    },
+    "predictions_directory_absent": true,
+    "evaluation_directory_absent": true
+  },
+  "attribution": "Coordinator-reported independent audit; direct local source/exposure verification is separately saved in independent_source_execution_verification.json"
+}

@@ -1,0 +1,77 @@
+{
+  "matrix": [
+    [
+      "old_point",
+      42
+    ],
+    [
+      "old_point",
+      1019
+    ],
+    [
+      "old_point",
+      2026
+    ],
+    [
+      "old_gate",
+      42
+    ],
+    [
+      "old_gate",
+      1019
+    ],
+    [
+      "old_gate",
+      2026
+    ],
+    [
+      "new_point",
+      42
+    ],
+    [
+      "new_point",
+      1019
+    ],
+    [
+      "new_point",
+      2026
+    ],
+    [
+      "new_gate",
+      42
+    ],
+    [
+      "new_gate",
+      1019
+    ],
+    [
+      "new_gate",
+      2026
+    ]
+  ],
+  "source_selection_sha256": "e4d0f855021ae85f6dfc9d31cdbd351f362a80fbf8d2d2bc791ab7a6e70ed9ec",
+  "registration_sha256": "70c531a28c9401f8ec13d4ecf8381a8e519aa7241b2a95214baa7f085a9ed43e",
+  "identity_sha256": "b9c5cddc0c81489bc9ea60c3d4fe87bc6a2922bbcd7f7beeda4c5954e90faed2",
+  "artifacts": {
+    "predictions/A_1019.npz": "def58fede789e96ff77738e79b1053292c692867cc7e67b696e9864224c90ebb",
+    "predictions/A_2026.npz": "3be8c0d831a04754c3158f4254ca41c5de8081e2942186328fc66930b8096d41",
+    "predictions/A_42.npz": "4920be87feea3e6ff13663afbb5a367f7781f88855e37b7533f31cc7a7126ca1",
+    "predictions/new_gate_1019.npz": "e5fb514fcfbb06a7bee9363bb526d730f4c2f9af17217b6f46dd8597fa415dee",
+    "predictions/new_gate_2026.npz": "2c356e0b8ff578414d15655702b1c5c7ea47b1d702ba1605730a302f6a948c91",
+    "predictions/new_gate_42.npz": "32936be88ac0e3a46793a6871964bafbf0c79b412856ac991f0c86567ce40790",
+    "predictions/new_point_1019.npz": "d8fd0ca970bfbe4a78a8591a0fb3c52f82356b2fb4eab935fd019c98661349d6",
+    "predictions/new_point_2026.npz": "bfb71069caa13208f71af1a1e13c02794925e52ad4a58c7335a2713bbb4ad55e",
+    "predictions/new_point_42.npz": "47f8e19744b6cbc57e29a52effe8668169be4db7b3c4e01fa2bbc5474d0e3c5a",
+    "predictions/old_gate_1019.npz": "ba184bafae05ceda79b1ba9d42b7e59b4891b21244d9c7eba48dff7f03df7f69",
+    "predictions/old_gate_2026.npz": "e5344f1255075aa62cde7865ff4d0fa2d064497d872d9b5ed5ebe721a8ce0156",
+    "predictions/old_gate_42.npz": "7a53edd3bd7318c85d3e673c429f27d1f9f357cc065ddd1d33072b58990030c8",
+    "predictions/old_point_1019.npz": "6a82e3dda5fe344296c5120930ce091f254c3c8bdd91c0cb7efae3d6bb63a577",
+    "predictions/old_point_2026.npz": "fe196169fbd90137b3bd36ab046e11cafb6dc4c54afbd86e8de8580cabb0a56a",
+    "predictions/old_point_42.npz": "29cd80c49f02045e9488d2f39441764e47c67aaf7789418776628b89a2f541cd",
+    "predictions/W50_1019.npz": "bce136259f876bae3333866c9df74c4c79174ddae2238e831156ac0c959bdc50",
+    "predictions/W50_2026.npz": "fefe30282464d3a780cb014639f8f5396e3a03fb4c930602cd70f6b443d46b6d",
+    "predictions/W50_42.npz": "c290bda1119db047131605c7d5c811ef9690bfda8d6a9ca95bb753f962e5033e",
+    "inference_checks.json": "ab4f4f3e0d5ea025704fd585ea8d4ad34396b8ee857afb9ec50372ae6fed2620"
+  },
+  "truth_opened": false
+}

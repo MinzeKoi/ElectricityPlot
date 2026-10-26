@@ -1,0 +1,10 @@
+{
+  "status": "verified",
+  "new_fits": 0,
+  "optimizer_updates": 0,
+  "task10_models_retrained": 0,
+  "original_137523_support_exact": true,
+  "scalar_confusions_exact": true,
+  "hashes_and_ordinary_replays_bound": true,
+  "source_preselection_unchanged": true
+}

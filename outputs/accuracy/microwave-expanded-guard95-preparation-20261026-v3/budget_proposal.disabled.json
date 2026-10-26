@@ -1,0 +1,16 @@
+{
+  "authorized": false,
+  "approval_origin": "human",
+  "experiment": "microwave_expanded_guard95_task18_v1",
+  "additional_new_fits": 3,
+  "maximum_updates": 19404,
+  "seeds": [
+    42,
+    1019,
+    2026
+  ],
+  "registration_sha256": "11dd4f8d9fdf68d2740c4b643a869ae462e21f4518eb309aacdb89eb92d11040",
+  "approved_rule": "expanded_guard95_fixed_L95_H95_radius15",
+  "human_authorization_quote": null,
+  "human_authorization_reference": null
+}

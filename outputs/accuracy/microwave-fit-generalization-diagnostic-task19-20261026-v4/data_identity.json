@@ -1,0 +1,78 @@
+{
+  "train": {
+    "input_path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-expanded-guard95-preparation-20261026-v3\\train.npz",
+    "file_sha256": "1b4eaf721d25e2826f75c31ca9100949d4bc2ee2af665aae285275a84a202a49",
+    "fields": {
+      "y": "eb93e777a0f83ebc63ca8566cf1864a78a8aa7b5eeb93d56e8737d78150045a0",
+      "t": "3e8782e744ae48a419ee7fb391cd2c6cdf051632011192aa7fce746ba0541cd0",
+      "raw_index": "6502787ad843d26c3583662f9d3832769f92cca9c0eb4f9b730d0583a291687d",
+      "event": "dd686c4b2858bd0b450f0f89fb13e7e1e2b97269dc0a1aa0df9d54238a3eb537",
+      "house": "e7d888d17bff83a19856cb4ab34a918d7ccdc370ab8091024204deffafa436c9",
+      "x": "5229b06cd5712cf514dff6ed7fb7241055d101bae4b9656d33350c7a187fe2e8",
+      "mask": "bcb24744f91358df2f046f0b962b246589115fa9c3f03cfb4e6b9d39a35faa2c",
+      "outer_observed": "65896de5c2d372a1bca0651bfdbaec4aba035181066da0a4a4071f3031732dbf",
+      "outer_fraction": "cae0a433da0f2d9ca9c51adfc6568c5a04b3ff8d021e0dba8179789d9615029f",
+      "left_stop": "fdcad7eed429de4347a57e9773a320c1eced664f3f3a846ec24a7afdf0cae7b9",
+      "right_stop": "193868a316525e39855412cd5bc9484b78cdaceccc2b13a6608db4b3094953c4",
+      "mask_identity": "0e7bab704d230c80fdc2a5fdb70e98ffd42fea69228339e80a41fd81e0984daf",
+      "source_role": "9820012e678db072d967c9bdc3b210d69a6fd28075472bb91eb04f65ad43d54f"
+    },
+    "identity_sha256": "2104cd6409bf9c6f5f5bb7fae97b52a9cd299d12bc5e6d1df48eabb2a893c207",
+    "n": 615922,
+    "positives": 2994,
+    "strict_n": 499214,
+    "strict_positive": 2711
+  },
+  "block_4": {
+    "input_path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-expanded-guard95-preparation-20261026-v3\\validation\\block_4.npz",
+    "file_sha256": "3b680a6c96b6ace61f747fba4025e97aa5738cd821214edcb7e0cb351f875f1a",
+    "fields": {
+      "x": "98b718f31da4c3016e299adbd081bbf4387431fa32781216121a23304b79d8de",
+      "mask": "056e45843b6d8e225dbfe0d9a76c0944fd05140e820edc532924ed10d376a2a1",
+      "outer_observed": "3e2e53cbff7674c1e5f5a7def01e60f5fe54d10d3a18a43c7fb813c9c02bf0fe",
+      "outer_fraction": "501c1e31cf5ee9723e5e8575ac3e25480cc0e8552e8ceed3d20b94d50a456703",
+      "left_stop": "494bec10420e9f73cf79b8ab1aef087d4ffcfc5797e5355f087c7dd349eb6f22",
+      "right_stop": "4fab5f37a667c5a49ba991c6c7aaf05edcf4b60274c3c8a11a8028b3715d0120",
+      "mask_identity": "f6f74c48a9dc08cfefeebe4068b9ca7ca49a455c67940fdde8a1162a72194b9c",
+      "y": "1e6a0bdc46bda7e78227a397f38c5dc089f6eaa60c7cabfc23aab9551c2aa68d",
+      "t": "5ef282840360eae811717eb364f0c680fd0ead7fe210783102ec06c6f04a7b6c",
+      "raw_index": "4fee528aa389f6b293439eb7bf90fd9a99e8e3b4740e896f8e96a1b463903b41",
+      "house": "5b222acb8b4c96654bfc356995b45fda3d4e2e91fa0d6b268c2344ff92685d6e",
+      "event": "4503496104cd615e4c431ee639731cd504a70db5d9146011d44c561f9720ab99",
+      "house_name": "493605bf52057bdd6dd79eb95ce5c3fec49109fd6eb0bb79336e3bdd114c2eaf",
+      "block": "4ad07b59f9365de7859cef42699cac98bd92a4d075f94989259dd1de20461fbf",
+      "source_role": "0efd71300c37ce7a752dc842f09b8ba051a7c05ce4a5932d1bbd6b333b453ec6"
+    },
+    "identity_sha256": "26ae3f1324a107c4a58ed867d00d7d633bea12c7c2fa98e3bfa51cd38529a5b4",
+    "n": 19127,
+    "positives": 136,
+    "strict_n": 19127,
+    "strict_positive": 136
+  },
+  "block_5": {
+    "input_path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-expanded-guard95-preparation-20261026-v3\\validation\\block_5.npz",
+    "file_sha256": "7c3c78b99279a95ba76eb362c38298887d40d1236ea2fdaa02f39a2a46ab6f4f",
+    "fields": {
+      "x": "949fcfa07f785b70a2637cb405c2ca690c2155d022992b0508fce713b832266c",
+      "mask": "6908f0a3bfe16b84d10e3ce3f4d1607ac539b68a5652f778442917ee54f978a4",
+      "outer_observed": "232bc7823458ff060043d59f791b4a6c99c94519c5ebd4bb66333b018b6ee50a",
+      "outer_fraction": "56a0682733983a47f573bb29444c66bd31d501aef59f11961125a2acbae6c1cd",
+      "left_stop": "46fd1567b89384fe093a213b8b20086618afbc9f93d3765d79f3cbaf8a8ccea6",
+      "right_stop": "3dd48d33e3f39ea03a058fef3e22259df442e8a5f529c2fbfe0959e16762d1ac",
+      "mask_identity": "97bc47885e9ee4706902c870f2de33f36d84e60e0d8c919023107538d5d618ce",
+      "y": "bfedb4f20dddb87ad4b81c75615ca80ed320deb760494fafd60138d3179acf33",
+      "t": "0cfdd12e1fe2ecb68721b8db87319b931b2f4a96c8175ac43bc2d80cff33d58f",
+      "raw_index": "24878efd080392a7c520115475f7e57d41d4737792a2df9de32d5356b84277c9",
+      "house": "38e1c8876b199f6a0cba7553dab1d1c6f9b1f3b6fd61028e3615d97df58416a3",
+      "event": "ba5463afae200ed323322e261a0fa353152f544b7d2d081f643ef48c515b4ee2",
+      "house_name": "1489324f13efd13de75f863ed70e2e4bc18fbebc37042953a100635c712eccd6",
+      "block": "3f66808b0a27465a405446f51fc4dbe209939a45975acde3177bcd196230e802",
+      "source_role": "484e82f9c0ee16382751979681d3a5cd03eb50ba39253a7c630dee211e04b56e"
+    },
+    "identity_sha256": "2df49621d1c5ed30c695f0fd15f78ee28f3fa136a23d28fa4cd8e4c77aee053c",
+    "n": 15224,
+    "positives": 65,
+    "strict_n": 15224,
+    "strict_positive": 65
+  }
+}

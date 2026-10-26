@@ -1,0 +1,9 @@
+{
+  "maximum_new_fits": 3,
+  "task8_development_passed": false,
+  "task8_freeze_sha256": "6bb27cac7b0c483cf225514369b1d361e3264df4eb3b847f816c69f7ddd3ecc1",
+  "coordinator_message": "现在条件已成立并授权实际执行。固定Task8唯一source预选TCN127/control_BCE50，3seed各一次，不重训控制。用户原文：允许这个独立时间对照试验；额度用完了，现在继续。",
+  "source_thread_id": "01a16d7b-478e-7780-a999-88abe71e8c94",
+  "source_recipe": "control_BCE50",
+  "task8_source_selection_sha256": "90b3b3f8766dc69c8c382865b3ee4f4471ab40c7a66e9ccce8d794f33d6038a1"
+}

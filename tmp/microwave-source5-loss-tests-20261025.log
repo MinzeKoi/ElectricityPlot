@@ -1,0 +1,41 @@
+test_acceptance_is_selected_only_and_thresholds_not_lowered (test_microwave_source5_loss.Source5LossTests.test_acceptance_is_selected_only_and_thresholds_not_lowered) ... ok
+test_authorization_missing_before_any_fit (test_microwave_source5_loss.Source5LossTests.test_authorization_missing_before_any_fit) ... ok
+test_config_disabled_budget_fixed (test_microwave_source5_loss.Source5LossTests.test_config_disabled_budget_fixed) ... ok
+test_final_house_read_block_even_if_allowlisted (test_microwave_source5_loss.Source5LossTests.test_final_house_read_block_even_if_allowlisted) ... ok
+test_gate_calibration_same_L95_H85_calls (test_microwave_source5_loss.Source5LossTests.test_gate_calibration_same_L95_H85_calls) ... ok
+test_gate_one_max_no_label_based_segments_low_is_fn (test_microwave_source5_loss.Source5LossTests.test_gate_one_max_no_label_based_segments_low_is_fn) ... ok
+test_new_entry_passes_only_explicit_unit_weight (test_microwave_source5_loss.Source5LossTests.test_new_entry_passes_only_explicit_unit_weight) ... ok
+test_npz_explicit_key_only (test_microwave_source5_loss.Source5LossTests.test_npz_explicit_key_only) ... ok
+test_prepare_blocks_model_optimizer_backward_and_truth (test_microwave_source5_loss.Source5LossTests.test_prepare_blocks_model_optimizer_backward_and_truth) ... ok
+test_qualification_and_frozen_tie_order (test_microwave_source5_loss.Source5LossTests.test_qualification_and_frozen_tie_order) ... ok
+test_receipt_cannot_reuse_prior_budget_or_wrong_identity (test_microwave_source5_loss.Source5LossTests.test_receipt_cannot_reuse_prior_budget_or_wrong_identity) ... ok
+source5 seed=42 checkpoint=1/1 eligible=True seconds=0.0
+source5 seed=42 checkpoint=1/1 eligible=True seconds=0.0
+unit_BCE seed=42 checkpoint=1/1 eligible=True seconds=0.0
+test_shared_fit_default50_explicit50_unit_changes_loss_gradient (test_microwave_source5_loss.Source5LossTests.test_shared_fit_default50_explicit50_unit_changes_loss_gradient) ... ok
+test_all_recipe_synthetic_train_save_ordinary_load (test_microwave_source5_temporal.TemporalTests.test_all_recipe_synthetic_train_save_ordinary_load) ... ok
+test_append_preserves_every_original_row_and_normalization (test_microwave_source5_temporal.TemporalTests.test_append_preserves_every_original_row_and_normalization) ... ok
+test_core_outer_event_and_unknown (test_microwave_source5_temporal.TemporalTests.test_core_outer_event_and_unknown) ... ok
+test_exact_permit (test_microwave_source5_temporal.TemporalTests.test_exact_permit) ... ok
+test_fixed_prior_expectation_not_merged_prior (test_microwave_source5_temporal.TemporalTests.test_fixed_prior_expectation_not_merged_prior) ... ok
+test_matrix_source_and_development_gates (test_microwave_source5_temporal.TemporalTests.test_matrix_source_and_development_gates) ... ok
+test_pending_condition_zero_data_prepare_and_mutation (test_microwave_source5_temporal.TemporalTests.test_pending_condition_zero_data_prepare_and_mutation) ... ok
+test_time_break_and_tail_boundary (test_microwave_source5_temporal.TemporalTests.test_time_break_and_tail_boundary) ... ok
+test_two_block_checkpoint_selection_only_and_earlier_tie (test_microwave_source5_temporal.TemporalTests.test_two_block_checkpoint_selection_only_and_earlier_tie) ... ok
+test_validation_frozen_support_and_identity (test_microwave_source5_temporal.TemporalTests.test_validation_frozen_support_and_identity) ... ok
+source5 seed=42 checkpoint=1/2 eligible=False seconds=0.1
+source5 seed=42 checkpoint=2/2 eligible=True seconds=0.1
+test_actual_fit_selection_and_ordinary_readback (test_microwave_source5_temporal_execution.ExecutionTests.test_actual_fit_selection_and_ordinary_readback) ... ok
+test_default_protocol_still_rejects_train_validation_same_house (test_microwave_source5_temporal_execution.ExecutionTests.test_default_protocol_still_rejects_train_validation_same_house) ... ok
+test_eval_guard_complete_matrix_hash_and_inference (test_microwave_source5_temporal_execution.ExecutionTests.test_eval_guard_complete_matrix_hash_and_inference) ... ok
+test_execution_plan_only_control_recipe (test_microwave_source5_temporal_execution.ExecutionTests.test_execution_plan_only_control_recipe) ... ok
+test_failed_update_persists_start_no_retry (test_microwave_source5_temporal_execution.ExecutionTests.test_failed_update_persists_start_no_retry) ... ok
+test_guard_rejects_unregistered_and_truth_before_freeze (test_microwave_source5_temporal_execution.ExecutionTests.test_guard_rejects_unregistered_and_truth_before_freeze) ... ok
+test_real_freeze_and_once_evaluate_on_small_synthetic_data (test_microwave_source5_temporal_execution.ExecutionTests.test_real_freeze_and_once_evaluate_on_small_synthetic_data) ... ok
+test_real_scoring_exact_support_and_missing_prediction_rejected (test_microwave_source5_temporal_execution.ExecutionTests.test_real_scoring_exact_support_and_missing_prediction_rejected) ... ok
+test_source_selection_cannot_change_after_written (test_microwave_source5_temporal_execution.ExecutionTests.test_source_selection_cannot_change_after_written) ... ok
+
+----------------------------------------------------------------------
+Ran 31 tests in 3.040s
+
+OK

@@ -1,0 +1,11 @@
+{
+  "artifacts": {
+    "comparison.csv": "31590d7316e0e654448fc01d6b2c346d5737ebb02d79ce119dba9a1eac32ff0f",
+    "metrics.json": "f6c5f355afbabc6f97c3724736b96f1329a671447c2e6a9840fc2971000e0c03",
+    "started.json": "347b7a430dd08f3ed7180916f899d881498688cd5251836ae78e3a9aa3bcbb55",
+    "summary.json": "b13016691320ffa523e152e7988649597c94ed6593b3ab2faf5a6897cf887cf3",
+    "truth_once.npz": "ac48eb4afd718c1ea4348db1d54afab7a804c58676661bf7e1b1aa90a5c1e264"
+  },
+  "truth_csv_parses": 1,
+  "freeze_sha256": "6bb27cac7b0c483cf225514369b1d361e3264df4eb3b847f816c69f7ddd3ecc1"
+}

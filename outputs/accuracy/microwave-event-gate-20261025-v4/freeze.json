@@ -1,0 +1,32 @@
+{
+  "matrix": [
+    "parent/42",
+    "gate/42",
+    "parent/1019",
+    "gate/1019",
+    "parent/2026",
+    "gate/2026"
+  ],
+  "selected": "gate",
+  "source_selection_sha256": "4549cb0cb8dbf19fc052b4bdc8715b62e0590b4921b37ce830c686332b0a6bec",
+  "registration_sha256": "efe3a1a39370bb96c9f4af264f7f19dc91fb23672adf7173ecaf237a59fe7c6c",
+  "identity_sha256": "91f58d067279d885f2a9d156103679ba5e5d135a230b7fe1b73924f36d5d92de",
+  "house17_truth_opened": false,
+  "artifacts": {
+    "predictions/A_1019.npz": "def58fede789e96ff77738e79b1053292c692867cc7e67b696e9864224c90ebb",
+    "predictions/A_2026.npz": "3be8c0d831a04754c3158f4254ca41c5de8081e2942186328fc66930b8096d41",
+    "predictions/A_42.npz": "4920be87feea3e6ff13663afbb5a367f7781f88855e37b7533f31cc7a7126ca1",
+    "predictions/gate_1019.npz": "fb5a8557afb9307efec1ab1fd12ab7c1d672ca0604c3ce247a391187962a2f81",
+    "predictions/gate_2026.npz": "46926f4a72c3b0f04311c7bafde05a62bfe1fa2047ef2537f92c91d3908e5db0",
+    "predictions/gate_42.npz": "faacfd8cc0f1a500a520d6fef9de33292031d2fdcc8b6255e286187bf6e819d0",
+    "predictions/parent_1019.npz": "d6a3a882816b2c7e374384514bb839fe1e2e099bce74d79d5510b0cbf8b9f2fc",
+    "predictions/parent_2026.npz": "555ea4412065d35a095555e5dcd6d95fe2097a11ee51fc6a535ed9abb2f6bcb2",
+    "predictions/parent_42.npz": "d1e986daaba18fbf77169e12ef52e97d7f033e102698063336bb1eded7f3d2a0",
+    "predictions/W50_1019.npz": "bce136259f876bae3333866c9df74c4c79174ddae2238e831156ac0c959bdc50",
+    "predictions/W50_2026.npz": "fefe30282464d3a780cb014639f8f5396e3a03fb4c930602cd70f6b443d46b6d",
+    "predictions/W50_42.npz": "c290bda1119db047131605c7d5c811ef9690bfda8d6a9ca95bb753f962e5033e",
+    "inference_checks.json": "2d8769ccf88f6a3cad5afaf733257e97b8ed9250c29c4ed2a3978b1092be0692"
+  },
+  "new_fits": 0,
+  "optimizer_updates": 0
+}

@@ -1,0 +1,26 @@
+test_block_boundary (test_microwave_event_gate.GateTests.test_block_boundary) ... ok
+test_exact_curve_against_brute_force_with_ties (test_microwave_event_gate.GateTests.test_exact_curve_against_brute_force_with_ties) ... ok
+test_exact_max_against_nested_reference (test_microwave_event_gate.GateTests.test_exact_max_against_nested_reference) ... ok
+test_household_and_utc_alignment (test_microwave_event_gate.GateTests.test_household_and_utc_alignment) ... ok
+test_infeasible_does_not_lower_recall (test_microwave_event_gate.GateTests.test_infeasible_does_not_lower_recall) ... ok
+test_label_availability_never_changes_features_or_state (test_microwave_event_gate.GateTests.test_label_availability_never_changes_features_or_state) ... ok
+test_low_fail_is_false_negative (test_microwave_event_gate.GateTests.test_low_fail_is_false_negative) ... ok
+test_missing_stays_missing_low_failure_stays_off (test_microwave_event_gate.GateTests.test_missing_stays_missing_low_failure_stays_off) ... ok
+test_nan_break (test_microwave_event_gate.GateTests.test_nan_break) ... ok
+test_no_overwrite (test_microwave_event_gate.GateTests.test_no_overwrite) ... ok
+test_no_radius_search (test_microwave_event_gate.GateTests.test_no_radius_search) ... ok
+test_nonfinite_eval_cannot_be_silently_filtered (test_microwave_event_gate.GateTests.test_nonfinite_eval_cannot_be_silently_filtered) ... ok
+test_optimizer_and_backward_blocked (test_microwave_event_gate.GateTests.test_optimizer_and_backward_blocked) ... ok
+test_ordinary_recipe_reads_back_complete_scores (test_microwave_event_gate.GateTests.test_ordinary_recipe_reads_back_complete_scores) ... ok
+test_reject_unqualified_recipe (test_microwave_event_gate.GateTests.test_reject_unqualified_recipe) ... ok
+test_selection_matches_exhaustive_ranking (test_microwave_event_gate.GateTests.test_selection_matches_exhaustive_ranking) ... ok
+test_single_max_does_not_propagate (test_microwave_event_gate.GateTests.test_single_max_does_not_propagate) ... ok
+test_source_development_isolation_including_hash_reads (test_microwave_event_gate.GateTests.test_source_development_isolation_including_hash_reads) ... ok
+test_timestamp_break (test_microwave_event_gate.GateTests.test_timestamp_break) ... ok
+test_unknown_label_peak_can_be_feature (test_microwave_event_gate.GateTests.test_unknown_label_peak_can_be_feature) ... ok
+test_unsealed_matrix_rejected_before_truth (test_microwave_event_gate.GateTests.test_unsealed_matrix_rejected_before_truth) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.093s
+
+OK

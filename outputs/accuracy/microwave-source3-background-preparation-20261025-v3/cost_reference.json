@@ -1,0 +1,13 @@
+{
+  "reference": "frozen Task12 unit_BCE same-shape training; no new timing fit",
+  "seconds": {
+    "42": 123.81700669999918,
+    "1019": 117.65597340000022,
+    "2026": 114.83461850000094
+  },
+  "total_seconds": 356.30759860000035,
+  "maximum_additional_fits": 3,
+  "maximum_additional_updates": 10584,
+  "overhead": "augmentation and logging add work; reference is not an upper bound",
+  "billable_price_not_available": true
+}

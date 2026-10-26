@@ -1,0 +1,59 @@
+{
+  "selected_before_development": "TCN127",
+  "development_acceptance_passed": false,
+  "declared_new_improvement": false,
+  "means": {
+    "A": {
+      "precision": 0.04012808999869747,
+      "recall": 0.9242819843342036,
+      "f1": 0.07691297343567473,
+      "fp": 8482.0
+    },
+    "W50": {
+      "precision": 0.04012808999869747,
+      "recall": 0.9242819843342036,
+      "f1": 0.07691297343567473,
+      "fp": 8482.0
+    },
+    "TCN127": {
+      "precision": 0.03560880469833081,
+      "recall": 0.9895561357702349,
+      "f1": 0.0687432362346322,
+      "fp": 10267.0
+    },
+    "importance_BCE50": {
+      "precision": 0.028875924281462694,
+      "recall": 0.9973890339425587,
+      "f1": 0.05611319477326399,
+      "fp": 12972.0
+    },
+    "unit_BCE": {
+      "precision": 0.032109171485978895,
+      "recall": 0.9982593559617058,
+      "f1": 0.06220225827739065,
+      "fp": 11623.333333333334
+    }
+  },
+  "supports": {
+    "42": {
+      "n": 137523,
+      "mask_sha256": "d7608bed577515bc4bd98ff1efe4c78a82798a96c9d1d3e5dd03bb90d53598a1",
+      "timestamps_sha256": "342269261b9b59715ac588476545f50d6e875b7a01f6731745098c6c384a2ffe"
+    },
+    "1019": {
+      "n": 137523,
+      "mask_sha256": "d7608bed577515bc4bd98ff1efe4c78a82798a96c9d1d3e5dd03bb90d53598a1",
+      "timestamps_sha256": "342269261b9b59715ac588476545f50d6e875b7a01f6731745098c6c384a2ffe"
+    },
+    "2026": {
+      "n": 137523,
+      "mask_sha256": "d7608bed577515bc4bd98ff1efe4c78a82798a96c9d1d3e5dd03bb90d53598a1",
+      "timestamps_sha256": "342269261b9b59715ac588476545f50d6e875b7a01f6731745098c6c384a2ffe"
+    }
+  },
+  "default_model_changed": false,
+  "final_houses_accessed": false,
+  "development_only_previously_inspected_house17": true,
+  "raw_power_all_devices_unchanged": true,
+  "additional_fits_permitted": false
+}

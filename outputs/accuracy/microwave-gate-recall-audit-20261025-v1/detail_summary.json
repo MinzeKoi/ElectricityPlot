@@ -1,0 +1,9 @@
+{
+  "lost_fragments": 9,
+  "added_fn_total": 59,
+  "full_outer_added_fn": 47,
+  "cross_seed_correct": {
+    "42": 59,
+    "2026": 48
+  }
+}

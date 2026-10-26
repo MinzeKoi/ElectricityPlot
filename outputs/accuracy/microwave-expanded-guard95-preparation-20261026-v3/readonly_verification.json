@@ -1,0 +1,40 @@
+{
+  "status": "passed",
+  "repetitions": 2,
+  "file_count": 132,
+  "all_hashes_and_mtimes_exact": true,
+  "checks": [
+    {
+      "verify": {
+        "status": "preparation_verified",
+        "new_fits": 0,
+        "optimizer_updates": 0,
+        "development_reads": 0,
+        "registration_sha256": "11dd4f8d9fdf68d2740c4b643a869ae462e21f4518eb309aacdb89eb92d11040"
+      },
+      "report_verification": {
+        "status": "preparation_verified",
+        "new_fits": 0,
+        "optimizer_updates": 0,
+        "development_reads": 0,
+        "registration_sha256": "11dd4f8d9fdf68d2740c4b643a869ae462e21f4518eb309aacdb89eb92d11040"
+      }
+    },
+    {
+      "verify": {
+        "status": "preparation_verified",
+        "new_fits": 0,
+        "optimizer_updates": 0,
+        "development_reads": 0,
+        "registration_sha256": "11dd4f8d9fdf68d2740c4b643a869ae462e21f4518eb309aacdb89eb92d11040"
+      },
+      "report_verification": {
+        "status": "preparation_verified",
+        "new_fits": 0,
+        "optimizer_updates": 0,
+        "development_reads": 0,
+        "registration_sha256": "11dd4f8d9fdf68d2740c4b643a869ae462e21f4518eb309aacdb89eb92d11040"
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "authorization": {
+    "authorized": true,
+    "approval_origin": "human",
+    "experiment": "microwave_expanded_guard95_task18_v1",
+    "additional_new_fits": 3,
+    "maximum_updates": 19404,
+    "seeds": [
+      42,
+      1019,
+      2026
+    ],
+    "registration_sha256": "11dd4f8d9fdf68d2740c4b643a869ae462e21f4518eb309aacdb89eb92d11040",
+    "approved_rule": "expanded_guard95_fixed_L95_H95_radius15",
+    "human_authorization_quote": "允许新增3模型／19,404次更新",
+    "human_authorization_reference": "01a16d7b-478e-7780-a999-88abe71e8c94/request_user_input_async/call_56eaec9ecea54fccbd0e0c83a2a084b2",
+    "authorization_scope": "Frozen Task18 v3 train→source→source-qualified only freeze (12 ordinary CLI)→one parent-cache evaluation→readonly verification/report; no control retraining, no retry/additional fits, no default/UI changes, final houses 8/9/20 isolated"
+  },
+  "maximum_new_fits": 3,
+  "maximum_updates": 19404
+}

@@ -1,0 +1,52 @@
+{
+  "schema": "post_freeze_tied_AP_diagnosis_v1",
+  "diagnostic_only": true,
+  "parent_run": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4",
+  "parent_manifest_sha256": "06be175936c2e80866211531dcdbf6aea7d03b80f6728745dc7d34c38af8a8dc",
+  "parent_artifacts": {
+    "evaluation/truth_once.npz": "ac48eb4afd718c1ea4348db1d54afab7a804c58676661bf7e1b1aa90a5c1e264",
+    "predictions/W50_42.npz": "c290bda1119db047131605c7d5c811ef9690bfda8d6a9ca95bb753f962e5033e",
+    "predictions/old_point_42.npz": "29cd80c49f02045e9488d2f39441764e47c67aaf7789418776628b89a2f541cd",
+    "predictions/new_point_42.npz": "47f8e19744b6cbc57e29a52effe8668169be4db7b3c4e01fa2bbc5474d0e3c5a",
+    "predictions/W50_1019.npz": "bce136259f876bae3333866c9df74c4c79174ddae2238e831156ac0c959bdc50",
+    "predictions/old_point_1019.npz": "6a82e3dda5fe344296c5120930ce091f254c3c8bdd91c0cb7efae3d6bb63a577",
+    "predictions/new_point_1019.npz": "d8fd0ca970bfbe4a78a8591a0fb3c52f82356b2fb4eab935fd019c98661349d6",
+    "predictions/W50_2026.npz": "fefe30282464d3a780cb014639f8f5396e3a03fb4c930602cd70f6b443d46b6d",
+    "predictions/old_point_2026.npz": "fe196169fbd90137b3bd36ab046e11cafb6dc4c54afbd86e8de8580cabb0a56a",
+    "predictions/new_point_2026.npz": "bfb71069caa13208f71af1a1e13c02794925e52ad4a58c7335a2713bbb4ad55e"
+  },
+  "rows": [
+    {
+      "seed": 42,
+      "support": 137523,
+      "positives": 383,
+      "old_point_ap": 0.042182738565727775,
+      "new_point_ap": 0.07458511403598099,
+      "delta_ap": 0.032402375470253215
+    },
+    {
+      "seed": 1019,
+      "support": 137523,
+      "positives": 383,
+      "old_point_ap": 0.05127394306039125,
+      "new_point_ap": 0.20291719636214792,
+      "delta_ap": 0.15164325330175665
+    },
+    {
+      "seed": 2026,
+      "support": 137523,
+      "positives": 383,
+      "old_point_ap": 0.06256303588939549,
+      "new_point_ap": 0.12082601448308486,
+      "delta_ap": 0.05826297859368937
+    }
+  ],
+  "new_fits": 0,
+  "updates": 0,
+  "thresholds_selected": 0,
+  "source_selection_changed": false,
+  "formal_development_acceptance_passed": false,
+  "tied_score_groups_exact": true,
+  "two_independent_AP_implementations_agree": true,
+  "interpretation": "All three seeds improve score ranking on repeatedly used House17; this is not independent generalization and does not override seed1019 gate recall failure."
+}

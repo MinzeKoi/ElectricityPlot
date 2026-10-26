@@ -1,0 +1,14 @@
+{
+  "status": "independent_source_and_training_passed",
+  "registration_sha256": "11dd4f8d9fdf68d2740c4b643a869ae462e21f4518eb309aacdb89eb92d11040",
+  "source_selection_sha256": "e114bd7238fac81c5ffe8aeb150dda9d5a0e541dfe83117fe49d36714f9aba52",
+  "training_complete_sha256": "a208544c8fb8a7a4289da40f2297782e50bf73280e52ae6f0ac023d53f4cab60",
+  "actual_new_fits": 3,
+  "actual_updates": 19404,
+  "control_retrains": 0,
+  "source_eligible": false,
+  "source_selected": "control_guard95",
+  "development_reads": 0,
+  "final_house_reads": 0,
+  "method": "Scalar confusions; independently sorted reverse-cumulative curves at fixed .85/.95; independent sliding-window radius15 max; all checkpoint ranks/batch hashes/init/exposure audited"
+}

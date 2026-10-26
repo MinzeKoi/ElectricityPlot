@@ -1,0 +1,9 @@
+{
+  "selected": "new_gate",
+  "eligibility": {
+    "old_point": true,
+    "old_gate": true,
+    "new_point": true,
+    "new_gate": true
+  }
+}

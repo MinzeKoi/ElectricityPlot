@@ -1,0 +1,15 @@
+{
+  "metadata_path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-data-audit-20261025-v2\\daily_support.json",
+  "sha256": "3dd47b989884f49449a512772547829c75ad7c5dfc32073644e7a1307cdc50bb",
+  "houses": {
+    "2": {
+      "aggregate_uncovered_seconds": 45258,
+      "label_bins_lost_to_issues": 904
+    },
+    "19": {
+      "aggregate_uncovered_seconds": 16911,
+      "label_bins_lost_to_issues": 2160
+    }
+  },
+  "interpretation": "Observed frozen labels are exactly90% finite; source metadata attributes losses to strict8 gap bins plus Issues label invalidation. No explicit artificial-mask flag found; do not infer acquisition missingness or artificial dropout solely from this ratio. No values repaired."
+}

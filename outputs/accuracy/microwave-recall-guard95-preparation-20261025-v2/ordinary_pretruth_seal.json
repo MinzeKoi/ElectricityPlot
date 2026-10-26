@@ -1,0 +1,63 @@
+{
+  "status": "all_three_public_CLI_predictions_exact_before_truth",
+  "freeze_sha256": "55e84e5f1d1ee5f89c4f1e0a7dbecc97ac5837d15c4f63777ca0bd3940bf00fa",
+  "checks": [
+    {
+      "seed": 42,
+      "rows": 150750,
+      "timestamp_probability_state_exact": true,
+      "csv_sha256": "7e6767f9d4e3e8b2da8e5950b502f249ae80396f2bf91ff85ef75e805ba54861",
+      "prediction_sha256": "764439ec5543c2e0028e3b9e8908cef8e11045805b31ed47a8c61c64ef09b321"
+    },
+    {
+      "seed": 1019,
+      "rows": 150750,
+      "timestamp_probability_state_exact": true,
+      "csv_sha256": "f5874ffc2138fdffdf7650919287f100985b27378fbb5a8f84534bda7238b161",
+      "prediction_sha256": "5e3805129af01f124d1b98891801dca9f4f39611628dceca93baab3a1802c8f9"
+    },
+    {
+      "seed": 2026,
+      "rows": 150750,
+      "timestamp_probability_state_exact": true,
+      "csv_sha256": "90a1259593cec2ac059b658b80b6193a2ade20299cf05811f438d4b59fe97a5f",
+      "prediction_sha256": "0b59bbe0b7617dc6490e5d72a0ed0159509a87b06d42df7b13de137c0fe845f8"
+    }
+  ],
+  "truth_opened": false,
+  "new_fits": 0,
+  "optimizer_updates": 0,
+  "reads": [
+    "d:\\system position\\document\\真正的文档\\aic\\outputs\\accuracy\\microwave-recall-guard95-preparation-20261025-v2\\ordinary_guard95_seed1019.csv",
+    "d:\\system position\\document\\真正的文档\\aic\\outputs\\accuracy\\microwave-recall-guard95-preparation-20261025-v2\\ordinary_guard95_seed2026.csv",
+    "d:\\system position\\document\\真正的文档\\aic\\outputs\\accuracy\\microwave-recall-guard95-preparation-20261025-v2\\ordinary_guard95_seed42.csv",
+    "d:\\system position\\document\\真正的文档\\aic\\outputs\\accuracy\\microwave-recall-guard95-preparation-20261025-v2\\predictions\\a_1019.npz",
+    "d:\\system position\\document\\真正的文档\\aic\\outputs\\accuracy\\microwave-recall-guard95-preparation-20261025-v2\\predictions\\a_2026.npz",
+    "d:\\system position\\document\\真正的文档\\aic\\outputs\\accuracy\\microwave-recall-guard95-preparation-20261025-v2\\predictions\\a_42.npz",
+    "d:\\system position\\document\\真正的文档\\aic\\outputs\\accuracy\\microwave-recall-guard95-preparation-20261025-v2\\predictions\\guard95_1019.npz",
+    "d:\\system position\\document\\真正的文档\\aic\\outputs\\accuracy\\microwave-recall-guard95-preparation-20261025-v2\\predictions\\guard95_2026.npz",
+    "d:\\system position\\document\\真正的文档\\aic\\outputs\\accuracy\\microwave-recall-guard95-preparation-20261025-v2\\predictions\\guard95_42.npz",
+    "d:\\system position\\document\\真正的文档\\aic\\outputs\\accuracy\\microwave-recall-guard95-preparation-20261025-v2\\predictions\\w50_1019.npz",
+    "d:\\system position\\document\\真正的文档\\aic\\outputs\\accuracy\\microwave-recall-guard95-preparation-20261025-v2\\predictions\\w50_2026.npz",
+    "d:\\system position\\document\\真正的文档\\aic\\outputs\\accuracy\\microwave-recall-guard95-preparation-20261025-v2\\predictions\\w50_42.npz",
+    "d:\\system position\\document\\真正的文档\\aic\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_bce\\seed_1019\\epoch_12_block_4.npz",
+    "d:\\system position\\document\\真正的文档\\aic\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_bce\\seed_1019\\epoch_12_block_5.npz",
+    "d:\\system position\\document\\真正的文档\\aic\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_bce\\seed_1019\\weights.pt",
+    "d:\\system position\\document\\真正的文档\\aic\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_bce\\seed_2026\\epoch_11_block_4.npz",
+    "d:\\system position\\document\\真正的文档\\aic\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_bce\\seed_2026\\epoch_11_block_5.npz",
+    "d:\\system position\\document\\真正的文档\\aic\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_bce\\seed_2026\\weights.pt",
+    "d:\\system position\\document\\真正的文档\\aic\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_bce\\seed_42\\epoch_5_block_4.npz",
+    "d:\\system position\\document\\真正的文档\\aic\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_bce\\seed_42\\epoch_5_block_5.npz",
+    "d:\\system position\\document\\真正的文档\\aic\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_bce\\seed_42\\weights.pt",
+    "d:\\system position\\document\\真正的文档\\aic\\outputs\\accuracy\\microwave-source5-temporal-20261025-v2\\validation\\block_4.npz",
+    "d:\\system position\\document\\真正的文档\\aic\\outputs\\accuracy\\microwave-source5-temporal-20261025-v2\\validation\\block_5.npz",
+    "d:\\system position\\document\\真正的文档\\aic\\outputs\\accuracy\\precision-20261024-v1\\models\\w50\\seed_1019\\weights.pt",
+    "d:\\system position\\document\\真正的文档\\aic\\outputs\\accuracy\\precision-20261024-v1\\models\\w50\\seed_2026\\weights.pt",
+    "d:\\system position\\document\\真正的文档\\aic\\outputs\\accuracy\\precision-20261024-v1\\models\\w50\\seed_42\\weights.pt",
+    "d:\\system position\\document\\真正的文档\\aic\\outputs\\accuracy\\precision-20261024-v1\\predictions\\w50\\seed_1019\\source_validation_refit_5_0.npz",
+    "d:\\system position\\document\\真正的文档\\aic\\outputs\\accuracy\\precision-20261024-v1\\predictions\\w50\\seed_2026\\source_validation_refit_5_0.npz",
+    "d:\\system position\\document\\真正的文档\\aic\\outputs\\accuracy\\precision-20261024-v1\\predictions\\w50\\seed_42\\source_validation_refit_5_0.npz",
+    "d:\\system position\\document\\真正的文档\\aic\\outputs\\accuracy\\precision-20261024-v1\\protocol\\data\\source_validation_refit_5_0\\aggregate.csv",
+    "d:\\system position\\document\\真正的文档\\aic\\outputs\\accuracy\\precision-20261024-v1\\protocol\\data\\source_validation_refit_5_0\\microwave.csv"
+  ]
+}

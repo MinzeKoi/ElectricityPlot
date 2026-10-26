@@ -1,0 +1,79 @@
+{
+  "train_sha256": "5d8809260b1d52a6f613422644d9b38454cbe321377039926f87587c0016de7a",
+  "fields": [
+    "t",
+    "y",
+    "event",
+    "house",
+    "outer_fraction"
+  ],
+  "house_code_note": "Encoded parent cache identities; event IDs not asserted to be independent physical runs.",
+  "coverage": [
+    {
+      "house_code": 0,
+      "positive_centers": 466,
+      "observable_threshold_fragments": 74,
+      "distinct_event_ids": 74,
+      "power": {
+        "n": 466,
+        "q05": 412.875,
+        "q25": 1029.625,
+        "q50": 1098.0,
+        "q75": 1121.0,
+        "q95": 1142.875
+      },
+      "outer_fraction": {
+        "n": 466,
+        "q05": 0.9192708730697632,
+        "q25": 0.9791666865348816,
+        "q50": 0.9895833134651184,
+        "q75": 1.0,
+        "q95": 1.0
+      }
+    },
+    {
+      "house_code": 1,
+      "positive_centers": 383,
+      "observable_threshold_fragments": 80,
+      "distinct_event_ids": 80,
+      "power": {
+        "n": 383,
+        "q05": 476.70001220703125,
+        "q25": 1197.75,
+        "q50": 1260.5,
+        "q75": 1298.5625,
+        "q95": 1330.4625244140625
+      },
+      "outer_fraction": {
+        "n": 383,
+        "q05": 0.6052083373069763,
+        "q25": 0.8854166865348816,
+        "q50": 1.0,
+        "q75": 1.0,
+        "q95": 1.0
+      }
+    },
+    {
+      "house_code": 2,
+      "positive_centers": 1426,
+      "observable_threshold_fragments": 136,
+      "distinct_event_ids": 136,
+      "power": {
+        "n": 1426,
+        "q05": 715.375,
+        "q25": 1396.03125,
+        "q50": 1442.9375,
+        "q75": 2003.25,
+        "q95": 2736.65625
+      },
+      "outer_fraction": {
+        "n": 1426,
+        "q05": 0.6796875,
+        "q25": 1.0,
+        "q50": 1.0,
+        "q75": 1.0,
+        "q95": 1.0
+      }
+    }
+  ]
+}

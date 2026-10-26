@@ -1,0 +1,12 @@
+{
+  "family": "expanded",
+  "seed": 42,
+  "dataset": "block_5",
+  "model_json_sha256": "a8ec3fc529e6f59d845a7a476b8526b1488c2cca06886ea613848c50ae73d62f",
+  "weights_sha256": "128a82bf9cbc179b5ffbf290622d25d68f9b6c5dc8c1439f84ed9977d3c040ab",
+  "input_sha256": "7c3c78b99279a95ba76eb362c38298887d40d1236ea2fdaa02f39a2a46ab6f4f",
+  "identity_sha256": "2df49621d1c5ed30c695f0fd15f78ee28f3fa136a23d28fa4cd8e4c77aee053c",
+  "threshold": 0.14810234308242798,
+  "prediction_sha256": "bac3a8dc39d2d900c999e85fc0f40715754e79d1612df3c23a6544faa964eb23",
+  "probability_sha256": "2a574448f2cb1b8b5cd38ea16a97fc154f6f95abffc5be7364383e7b2d26a0a6"
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "status": "trained",
+  "kind": "constant_mean",
+  "appliances": [
+    "kettle",
+    "microwave",
+    "washing_machine"
+  ],
+  "sample_interval_seconds": 8,
+  "constant_power_w": [
+    100,
+    250,
+    10
+  ],
+  "settings": {
+    "window_samples": 31,
+    "batch_size": 256,
+    "cpu_threads": 4,
+    "on_thresholds_w": {
+      "kettle": 2000,
+      "microwave": 200,
+      "washing_machine": 20
+    }
+  }
+}

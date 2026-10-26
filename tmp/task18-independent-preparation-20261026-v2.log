@@ -1,0 +1,60 @@
+{
+  "status": "independent_preparation_passed",
+  "additional": [
+    {
+      "house": "2",
+      "centers": 144557,
+      "positive": 404,
+      "native_values_and_context_exact": true
+    },
+    {
+      "house": "19",
+      "centers": 134661,
+      "positive": 315,
+      "native_values_and_context_exact": true
+    }
+  ],
+  "total": [
+    615922,
+    2994,
+    612928
+  ],
+  "positive_day_groups_by_house": [
+    23,
+    26,
+    8
+  ],
+  "positive_day_groups": 57,
+  "house5_old_positive_expected": 14567.225806451614,
+  "house5_new_positive_expected": 14524.631578947368,
+  "old_date_positive_exposure_ratio": 0.9970760233918128,
+  "seeds": [
+    {
+      "seed": 42,
+      "house5_positive_actual": 14526,
+      "house5_positive_expected": 14524.631578947368,
+      "unique_positive": 2952,
+      "unique_negative": 612928
+    },
+    {
+      "seed": 1019,
+      "house5_positive_actual": 14524,
+      "house5_positive_expected": 14524.631578947368,
+      "unique_positive": 2952,
+      "unique_negative": 612928
+    },
+    {
+      "seed": 2026,
+      "house5_positive_actual": 14523,
+      "house5_positive_expected": 14524.631578947368,
+      "unique_positive": 2952,
+      "unique_negative": 612928
+    }
+  ],
+  "new_fits": 0,
+  "optimizer_updates": 0,
+  "development_reads": 0,
+  "final_house_reads": 0,
+  "method": "Independent interval intersection, convolution core mask, cumulative stop context, scalar positive count and per-batch add.at exposure; all ledger rows recomputed",
+  "protected_reads": 51
+}

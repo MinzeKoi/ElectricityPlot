@@ -1,0 +1,34 @@
+{
+  "status": "all_real_execution_commands_fail_closed_without_budget",
+  "commands": [
+    {
+      "stage": "train",
+      "exit_code": 1,
+      "rejected_before_data_or_model": true
+    },
+    {
+      "stage": "source",
+      "exit_code": 1,
+      "rejected_before_data_or_model": true
+    },
+    {
+      "stage": "freeze",
+      "exit_code": 1,
+      "rejected_before_data_or_model": true
+    },
+    {
+      "stage": "evaluate",
+      "exit_code": 1,
+      "rejected_before_data_or_model": true
+    },
+    {
+      "stage": "predict",
+      "exit_code": 1,
+      "rejected_before_data_or_model": true
+    }
+  ],
+  "prepared_files_unchanged": true,
+  "new_real_fits": 0,
+  "real_updates": 0,
+  "authorization_receipt_created": false
+}

@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "repetitions": 2,
+  "all_hashes_and_mtimes_exact": true,
+  "checks": [
+    {
+      "verify": {
+        "status": "source_only_rejected",
+        "selected": "control_guard95",
+        "development_reads": 0
+      },
+      "report_verification": {
+        "status": "source_only_rejected",
+        "selected": "control_guard95",
+        "development_reads": 0
+      }
+    },
+    {
+      "verify": {
+        "status": "source_only_rejected",
+        "selected": "control_guard95",
+        "development_reads": 0
+      },
+      "report_verification": {
+        "status": "source_only_rejected",
+        "selected": "control_guard95",
+        "development_reads": 0
+      }
+    }
+  ],
+  "preparation_manifest_sha256": "49cd456838c0619067ede69caa3bc0236a4d9d592a630a1adfe7e94d7a3ece3b"
+}

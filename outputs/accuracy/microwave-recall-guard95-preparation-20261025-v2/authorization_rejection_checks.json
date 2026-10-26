@@ -1,0 +1,38 @@
+{
+  "checks": [
+    {
+      "phase": "source_select",
+      "missing_authorization_rejected": true,
+      "exit_code": 1
+    },
+    {
+      "phase": "freeze",
+      "missing_authorization_rejected": true,
+      "exit_code": 1
+    },
+    {
+      "phase": "evaluate",
+      "missing_authorization_rejected": true,
+      "exit_code": 1
+    },
+    {
+      "phase": "verify",
+      "missing_authorization_rejected": true,
+      "exit_code": 1
+    },
+    {
+      "phase": "report",
+      "missing_authorization_rejected": true,
+      "exit_code": 1
+    },
+    {
+      "phase": "predict",
+      "missing_authorization_rejected": true,
+      "exit_code": 1
+    }
+  ],
+  "real_new_H95_calibrations": 0,
+  "real_development_predictions": 0,
+  "new_fits": 0,
+  "optimizer_updates": 0
+}

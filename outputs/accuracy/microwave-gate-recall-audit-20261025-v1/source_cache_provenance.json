@@ -1,0 +1,29 @@
+{
+  "inputs": {
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\source_selection.json": "e4d0f855021ae85f6dfc9d31cdbd351f362a80fbf8d2d2bc791ab7a6e70ed9ec",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\identity.json": "b9c5cddc0c81489bc9ea60c3d4fe87bc6a2922bbcd7f7beeda4c5954e90faed2",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\final_delivery_manifest.json": "06be175936c2e80866211531dcdbf6aea7d03b80f6728745dc7d34c38af8a8dc",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\precision-20261024-v1\\protocol\\data\\source_validation_refit_5_0\\aggregate.csv": "b1cc0a12a37b3182164fba3d1ddcc62ba85682bed641302f859095d0dda92525",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_BCE\\seed_42\\model.json": "33ea2ca10445ce9a310b7f2bad92c91fc634f4aa382c183a896b821ec63dc61e",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-temporal-20261025-v2\\validation\\block_4.npz": "3b680a6c96b6ace61f747fba4025e97aa5738cd821214edcb7e0cb351f875f1a",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_BCE\\seed_42\\epoch_5_block_4.npz": "a032561e1b0ca7604cb83d4bf797234bf680235b60ce809e1c28fe526fc39146",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-temporal-20261025-v2\\validation\\block_5.npz": "7c3c78b99279a95ba76eb362c38298887d40d1236ea2fdaa02f39a2a46ab6f4f",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_BCE\\seed_42\\epoch_5_block_5.npz": "b0c398661d1e9a0b9c64dcf7e0d16c6eefe093b6ec4132f157a44cdb96c59378",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_BCE\\seed_1019\\model.json": "e89eff756404adf8e587438a1d757ab225d7f03ab9221fcc95e16aa1805e30a1",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_BCE\\seed_1019\\epoch_12_block_4.npz": "7c65109f83bf5ee36b18dc762e536df667d159c781b6aa9aadac7c6f52929a2a",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_BCE\\seed_1019\\epoch_12_block_5.npz": "cf79c0c7220aab0b3abb2f117f0e057bc01548e00a95db289c78613ebd1eedbf",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_BCE\\seed_2026\\model.json": "4df2a277c655487c2287f97dec58b13ba8ca52e0df888d3e06e7859be87834c6",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_BCE\\seed_2026\\epoch_11_block_4.npz": "7fb768e917ea910acb215ab54589f55d70dad1c1f0d0460abe83e04e8d87b0ef",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_BCE\\seed_2026\\epoch_11_block_5.npz": "5dc504ab648959da0abe15763b5a3e7037ed1dd703e56903d315352be81a4eac"
+  },
+  "caches": {
+    "source_1019_4.npz": "6a1b226041a9c9f9fc61e216c86d0af980c406b453478af1eb7792ebeb7e2ebf",
+    "source_1019_5.npz": "8f75076a388fd7bced46a16a71bcf6ed501f9896c3855dfae8e1f1255f798446",
+    "source_2026_4.npz": "9db21691399cb16769d3c113fa9c95ae89966e86a3fcd1256f27843110cf6ced",
+    "source_2026_5.npz": "b82788c55dfb58c5ddb49b5790ea9b0bc6399d622085525a4d7943364345b722",
+    "source_42_4.npz": "f861658b3bec08b085b486c97881d253e00b2be08f804de567a694c01b4ae623",
+    "source_42_5.npz": "4ddac71fccd8f1875f4fc549047343e0268026ef795326dd96c4abec74d82661"
+  },
+  "algorithm": "342c1e97707e4053c7d0b8fa438c10e48a445cc378d1fa9796e58a149ead82fd",
+  "context_algorithm": "5af1f19bb38aa90d2ff7dc767aac4efebb595e8c9949b0f21def4011d3858528"
+}

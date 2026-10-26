@@ -39,3 +39,11 @@ importance固定p_ref=849/259806；新Npos/Nneg目标正p_ref/Npos、负(1-p_ref
 ```
 
 权威依据：MICROWAVE_SOURCE_VALIDATION_AUDIT_20261025.md/.json、disabled提案和审计v4；只使用任务8计划理解配方，不读取其开发结果或自行确定最终配方。prepare登记为代码准备完成，不冒称真实数据/模型工作流已完成。
+
+## 条件成立后的独立正式版本
+
+协调者后续明确：“现在条件已成立并授权实际执行”。任务8v2 source_selection唯一选择TCN127，两新损失臂未通过来源保护，控制配方固定为任务7v3 control_BCE50。任务8原开发未达标由协调者确认，本任务不读取任务8开发成绩设计。用户续行原文“额度用完了，现在继续”。只执行固定control_BCE50三seed，不把其他损失测试作为真实候选。
+
+新增microwave_source5_temporal_execution.py及microwave_source5_temporal_execution_20261025.json；原准备目录封存保留，原disabled提案不变。正式目录microwave-source5-temporal-20261025-v1。真实入口使用`--real`：prepare（需--authorization绑定协调条件与task8 source/freeze哈希）、train、source_select、freeze、evaluate、verify、report。各后续阶段使用正式目录内封存的run_microwave_source5_temporal.py和source代码运行。prepare白名单限定数值输入，train/freeze禁止真值及未登记数值路径，evaluate先完整冻结门禁后一次原真值CSV解析，verify/report只复用一次缓存。
+
+新增真实路径测试直接调用同一fit_one，缩小为两checkpoint各一步，验证模型元数据127字段、保存/普通加载、两块重选、曝光和失败持久记录；测试冻结矩阵、推理门禁、数据白名单与source选择不可改写。真实运行只有三次启动许可，失败不重试。正式执行仍须逐项满足本计划前述固定计数与约束。报告分别说明整体相对W50是否达标、新增House5训练是否胜过对称重选旧控制，不能将仅旧控制选模变化归因为新增训练。

@@ -1,0 +1,11 @@
+{
+  "artifacts": {
+    "date_event_exposure.csv": "06cebac58344a055dffcb04b4dfac6c11975eecc414995825d4e89e709e1d04c",
+    "DETAILS.zh.md": "e7763200997c819c415630d795de7a6f573ab6e55c4c16d7ea4ca8e6e12f32f8",
+    "false_positive_spans.csv": "5262ec1cf87d93c8aa8488b67b3ed6a0f6e9bcbcab94cadcd2a8204510d69a07",
+    "loss_contributions.csv": "10bad4f5d046dde6f1822521fde969f5ca49b4dcec5330cc7fcd9bb75608a01b",
+    "source_selected_block_confusions.csv": "b426ce8167b9516f84b318c188e74b79f6b18563874becbe294a702db8f70cc7"
+  },
+  "source_selection_sha256": "ed0f373ff0971fb67ed46bcc0a8c0f7fb59b485f5f2418b72ed0392b18618bd2",
+  "evaluation_complete_sha256": "a78b12fe9dfbaf7d3270dead7389f6c073acec7ec01705dcd567f654542f4386"
+}

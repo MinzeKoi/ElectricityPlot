@@ -1,0 +1,12 @@
+{
+  "family": "control",
+  "seed": 1019,
+  "dataset": "train",
+  "model_json_sha256": "e89eff756404adf8e587438a1d757ab225d7f03ab9221fcc95e16aa1805e30a1",
+  "weights_sha256": "75cbb7427dc8372144439bf034a652164e6eeb1a59d6097b426fea259f6300a7",
+  "input_sha256": "1b4eaf721d25e2826f75c31ca9100949d4bc2ee2af665aae285275a84a202a49",
+  "identity_sha256": "2104cd6409bf9c6f5f5bb7fae97b52a9cd299d12bc5e6d1df48eabb2a893c207",
+  "threshold": 0.15353359282016754,
+  "prediction_sha256": "f1a9b592c4cc2e108380493eb4f5a49ff6481350cafbc9b3fc92e7149052ca9d",
+  "probability_sha256": "6b6046f7a5a2a4537302c0b1e21965fca305b0bb07bd0da68af782b408e76447"
+}

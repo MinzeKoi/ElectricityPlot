@@ -1,0 +1,237 @@
+{
+  "selected_before_development": "TCN127",
+  "development_acceptance_passed": false,
+  "declared_new_improvement": false,
+  "means": {
+    "A": {
+      "precision": 0.04012808999869747,
+      "recall": 0.9242819843342036,
+      "f1": 0.07691297343567473,
+      "fp": 8482.0
+    },
+    "W50": {
+      "precision": 0.04012808999869747,
+      "recall": 0.9242819843342036,
+      "f1": 0.07691297343567473,
+      "fp": 8482.0
+    },
+    "TCN127": {
+      "precision": 0.03560880469833081,
+      "recall": 0.9895561357702349,
+      "f1": 0.0687432362346322,
+      "fp": 10267.0
+    },
+    "importance_BCE50": {
+      "precision": 0.028875924281462694,
+      "recall": 0.9973890339425587,
+      "f1": 0.05611319477326399,
+      "fp": 12972.0
+    },
+    "unit_BCE": {
+      "precision": 0.032109171485978895,
+      "recall": 0.9982593559617058,
+      "f1": 0.06220225827739065,
+      "fp": 11623.333333333334
+    }
+  },
+  "supports": {
+    "42": {
+      "n": 137523,
+      "mask_sha256": "d7608bed577515bc4bd98ff1efe4c78a82798a96c9d1d3e5dd03bb90d53598a1",
+      "timestamps_sha256": "342269261b9b59715ac588476545f50d6e875b7a01f6731745098c6c384a2ffe"
+    },
+    "1019": {
+      "n": 137523,
+      "mask_sha256": "d7608bed577515bc4bd98ff1efe4c78a82798a96c9d1d3e5dd03bb90d53598a1",
+      "timestamps_sha256": "342269261b9b59715ac588476545f50d6e875b7a01f6731745098c6c384a2ffe"
+    },
+    "2026": {
+      "n": 137523,
+      "mask_sha256": "d7608bed577515bc4bd98ff1efe4c78a82798a96c9d1d3e5dd03bb90d53598a1",
+      "timestamps_sha256": "342269261b9b59715ac588476545f50d6e875b7a01f6731745098c6c384a2ffe"
+    }
+  },
+  "default_model_changed": false,
+  "final_houses_accessed": false,
+  "development_only_previously_inspected_house17": true,
+  "raw_power_all_devices_unchanged": true,
+  "additional_fits_permitted": false,
+  "loss_audit": [
+    {
+      "arm": "importance_BCE50",
+      "seed": 42,
+      "positive_loss_sum": 26003.802109852433,
+      "negative_loss_sum": 35014.50858731195,
+      "positive_loss_fraction": 0.42616391395871384,
+      "mean_batch_nominal_positive_mass": 0.13958811174757155
+    },
+    {
+      "arm": "importance_BCE50",
+      "seed": 1019,
+      "positive_loss_sum": 23409.756996661425,
+      "negative_loss_sum": 31233.932380969636,
+      "positive_loss_fraction": 0.4284073287014263,
+      "mean_batch_nominal_positive_mass": 0.13961096298342354
+    },
+    {
+      "arm": "importance_BCE50",
+      "seed": 2026,
+      "positive_loss_sum": 22482.286019213498,
+      "negative_loss_sum": 30126.16414214112,
+      "positive_loss_fraction": 0.42735123255405555,
+      "mean_batch_nominal_positive_mass": 0.13959984654294594
+    },
+    {
+      "arm": "unit_BCE",
+      "seed": 42,
+      "positive_loss_sum": 14080.565801002085,
+      "negative_loss_sum": 15184.059591114521,
+      "positive_loss_fraction": 0.4811462853987241,
+      "mean_batch_nominal_positive_mass": 0.0625
+    },
+    {
+      "arm": "unit_BCE",
+      "seed": 1019,
+      "positive_loss_sum": 13006.232681054622,
+      "negative_loss_sum": 14035.460383534431,
+      "positive_loss_fraction": 0.4809696142171738,
+      "mean_batch_nominal_positive_mass": 0.0625
+    },
+    {
+      "arm": "unit_BCE",
+      "seed": 2026,
+      "positive_loss_sum": 11825.459607613273,
+      "negative_loss_sum": 12889.601640582085,
+      "positive_loss_fraction": 0.478471790494824,
+      "mean_batch_nominal_positive_mass": 0.0625
+    }
+  ],
+  "finite_cycle": [
+    {
+      "seed": 42,
+      "draws": 903168,
+      "positive_draws": 56448,
+      "negative_draws": 846720,
+      "finite_prefix_total_variation_from_longrun": 0.05663372768753027,
+      "importance_min": 0.00283288299731338,
+      "importance_max": 1.0631809888917114,
+      "empirical_weighted_positive_mass": 0.14084773942801726
+    },
+    {
+      "seed": 1019,
+      "draws": 903168,
+      "positive_draws": 56448,
+      "negative_draws": 846720,
+      "finite_prefix_total_variation_from_longrun": 0.0566360846730715,
+      "importance_min": 0.00283288299731338,
+      "importance_max": 1.0631809888917114,
+      "empirical_weighted_positive_mass": 0.14085749530354255
+    },
+    {
+      "seed": 2026,
+      "draws": 903168,
+      "positive_draws": 56448,
+      "negative_draws": 846720,
+      "finite_prefix_total_variation_from_longrun": 0.05663253477854075,
+      "importance_min": 0.00283288299731338,
+      "importance_max": 1.0631809888917114,
+      "empirical_weighted_positive_mass": 0.14084808785595834
+    }
+  ],
+  "independent_review": {
+    "status": "independently_verified_completed_delivery",
+    "new_starts": 6,
+    "new_successful_fits": 6,
+    "new_failed_starts": 0,
+    "new_updates": 21168,
+    "reused_control_fits": 3,
+    "retrained_control_fits": 0,
+    "confusions_exact": [
+      {
+        "arm": "A",
+        "seed": 42,
+        "exact": true
+      },
+      {
+        "arm": "W50",
+        "seed": 42,
+        "exact": true
+      },
+      {
+        "arm": "TCN127",
+        "seed": 42,
+        "exact": true
+      },
+      {
+        "arm": "importance_BCE50",
+        "seed": 42,
+        "exact": true
+      },
+      {
+        "arm": "unit_BCE",
+        "seed": 42,
+        "exact": true
+      },
+      {
+        "arm": "A",
+        "seed": 1019,
+        "exact": true
+      },
+      {
+        "arm": "W50",
+        "seed": 1019,
+        "exact": true
+      },
+      {
+        "arm": "TCN127",
+        "seed": 1019,
+        "exact": true
+      },
+      {
+        "arm": "importance_BCE50",
+        "seed": 1019,
+        "exact": true
+      },
+      {
+        "arm": "unit_BCE",
+        "seed": 1019,
+        "exact": true
+      },
+      {
+        "arm": "A",
+        "seed": 2026,
+        "exact": true
+      },
+      {
+        "arm": "W50",
+        "seed": 2026,
+        "exact": true
+      },
+      {
+        "arm": "TCN127",
+        "seed": 2026,
+        "exact": true
+      },
+      {
+        "arm": "importance_BCE50",
+        "seed": 2026,
+        "exact": true
+      },
+      {
+        "arm": "unit_BCE",
+        "seed": 2026,
+        "exact": true
+      }
+    ],
+    "common_support": 137523,
+    "raw_power_all_devices_exact": true,
+    "freeze_sha256": "6bb27cac7b0c483cf225514369b1d361e3264df4eb3b847f816c69f7ddd3ecc1",
+    "evaluation_complete_sha256": "dfa8445dd54356a61f05dd1db3f324c494f6c30ac0e034d90280026c77c85414",
+    "parent_budget": {
+      "failed_starts": 1,
+      "successful_fits": 6,
+      "updates": 21462
+    },
+    "final_houses_accessed": false
+  }
+}

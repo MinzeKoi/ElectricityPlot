@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "D:\system position\document\�������ĵ�\AIC\src\virtual_submeter\data\common.py", line 55, in read_json
+    raise ValueError("JSON object required")
+ValueError: JSON object required
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\system position\document\�������ĵ�\AIC\scripts\run_microwave_expanded_guard95.py", line 19, in <module>
+    if a.command=='prepare': result=e.prepare(run)
+                                    ~~~~~~~~~^^^^^
+  File "D:\system position\document\�������ĵ�\AIC\src\virtual_submeter\accuracy\microwave_expanded_guard95.py", line 195, in prepare
+    expected_raw=next(r for r in read_json(AUDIT/'raw_range_evidence.json') if r['house']==h)
+                                 ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\system position\document\�������ĵ�\AIC\src\virtual_submeter\data\common.py", line 58, in read_json
+    raise DataError(f"Cannot read {path.name}: {error}") from error
+virtual_submeter.data.common.DataError: Cannot read raw_range_evidence.json: JSON object required

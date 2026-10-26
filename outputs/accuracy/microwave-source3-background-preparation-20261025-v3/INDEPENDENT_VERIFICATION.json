@@ -1,0 +1,68 @@
+{
+  "status": "independent_preparation_verified",
+  "registration_sha256": "4df4d0a63ff32731dd22aa545d7aef56773a6856fbfd20943e5e79c004e728a7",
+  "source_pool": {
+    "templates": 214,
+    "backgrounds": 268549,
+    "template_houses": 3
+  },
+  "template_support": [
+    {
+      "house": "refit_2",
+      "template_windows": 39,
+      "observable_template_event_ids": [
+        42,
+        43,
+        44,
+        79
+      ],
+      "template_event_count": 4,
+      "template_center_power_range": [
+        274.25,
+        1149.75
+      ]
+    },
+    {
+      "house": "refit_19",
+      "template_windows": 44,
+      "observable_template_event_ids": [
+        37,
+        55,
+        56,
+        73,
+        76,
+        78
+      ],
+      "template_event_count": 6,
+      "template_center_power_range": [
+        342.25,
+        1328.125
+      ]
+    },
+    {
+      "house": "refit_5",
+      "template_windows": 131,
+      "observable_template_event_ids": [
+        11,
+        37,
+        72,
+        95,
+        104,
+        125
+      ],
+      "template_event_count": 6,
+      "template_center_power_range": [
+        207.375,
+        2817.375
+      ]
+    }
+  ],
+  "access_logs_checked": [
+    "prepare_access.json",
+    "verify_preparation_access.json"
+  ],
+  "new_real_fits": 0,
+  "real_updates": 0,
+  "development_numerical_reads": 0,
+  "final_house_reads": 0
+}

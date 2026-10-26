@@ -1,0 +1,24 @@
+{
+  "status": "completed_not_accepted",
+  "actual_run": "D:\\system position\\document\\�������ĵ�\\AIC\\outputs\\accuracy\\microwave-loss-correction-20261025-v2",
+  "new_fit_starts": 6,
+  "new_successful_fits": 6,
+  "new_updates": 21168,
+  "new_failed_fits": 0,
+  "reused_control_fits": 3,
+  "parent_budget": {
+    "failed_starts": 1,
+    "successful_fits": 6,
+    "updates": 21462
+  },
+  "prepare_failures_zero_fits": 1,
+  "tests_passed": 30,
+  "independent_correctness_review_passed": true,
+  "selected_before_development": "TCN127",
+  "development_acceptance_passed": false,
+  "default_model_changed": false,
+  "final_houses_accessed": false,
+  "truth_csv_parses": 1,
+  "registration_sha256": "2f42dc822e28476dce632e4df45af7ebc86a3efb3f9fc0be9bf3acfd91dadfd0",
+  "freeze_sha256": "6bb27cac7b0c483cf225514369b1d361e3264df4eb3b847f816c69f7ddd3ecc1"
+}

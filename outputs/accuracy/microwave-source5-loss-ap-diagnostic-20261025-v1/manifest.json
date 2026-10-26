@@ -1,0 +1,8 @@
+{
+  "artifacts": {
+    "AP_DIAGNOSTIC.zh.md": "e8f8d7d8a66c5399823c862a5f5d8ed5297a7a1460e1b07e6e2813d77c11b271",
+    "diagnose_microwave_source5_loss_ap.py": "794b574d81521ee5007460620e7853a01ca73a6d5de6a8ec5540fcbb15ef405b",
+    "diagnostic.json": "4c3e7770337d1ecb601f51ba32928ff8c85bbdc189d0e69b2daad206327c535f"
+  },
+  "parent_manifest_sha256": "06be175936c2e80866211531dcdbf6aea7d03b80f6728745dc7d34c38af8a8dc"
+}

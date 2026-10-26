@@ -1,0 +1,84 @@
+{
+  "training": [
+    {
+      "arm": "importance_BCE50",
+      "seed": 42,
+      "positive_loss_sum": 26003.802109852433,
+      "negative_loss_sum": 35014.50858731195,
+      "positive_loss_fraction": 0.42616391395871384,
+      "mean_batch_nominal_positive_mass": 0.13958811174757155
+    },
+    {
+      "arm": "importance_BCE50",
+      "seed": 1019,
+      "positive_loss_sum": 23409.756996661425,
+      "negative_loss_sum": 31233.932380969636,
+      "positive_loss_fraction": 0.4284073287014263,
+      "mean_batch_nominal_positive_mass": 0.13961096298342354
+    },
+    {
+      "arm": "importance_BCE50",
+      "seed": 2026,
+      "positive_loss_sum": 22482.286019213498,
+      "negative_loss_sum": 30126.16414214112,
+      "positive_loss_fraction": 0.42735123255405555,
+      "mean_batch_nominal_positive_mass": 0.13959984654294594
+    },
+    {
+      "arm": "unit_BCE",
+      "seed": 42,
+      "positive_loss_sum": 14080.565801002085,
+      "negative_loss_sum": 15184.059591114521,
+      "positive_loss_fraction": 0.4811462853987241,
+      "mean_batch_nominal_positive_mass": 0.0625
+    },
+    {
+      "arm": "unit_BCE",
+      "seed": 1019,
+      "positive_loss_sum": 13006.232681054622,
+      "negative_loss_sum": 14035.460383534431,
+      "positive_loss_fraction": 0.4809696142171738,
+      "mean_batch_nominal_positive_mass": 0.0625
+    },
+    {
+      "arm": "unit_BCE",
+      "seed": 2026,
+      "positive_loss_sum": 11825.459607613273,
+      "negative_loss_sum": 12889.601640582085,
+      "positive_loss_fraction": 0.478471790494824,
+      "mean_batch_nominal_positive_mass": 0.0625
+    }
+  ],
+  "finite_cycle": [
+    {
+      "seed": 42,
+      "draws": 903168,
+      "positive_draws": 56448,
+      "negative_draws": 846720,
+      "finite_prefix_total_variation_from_longrun": 0.05663372768753027,
+      "importance_min": 0.00283288299731338,
+      "importance_max": 1.0631809888917114,
+      "empirical_weighted_positive_mass": 0.14084773942801726
+    },
+    {
+      "seed": 1019,
+      "draws": 903168,
+      "positive_draws": 56448,
+      "negative_draws": 846720,
+      "finite_prefix_total_variation_from_longrun": 0.0566360846730715,
+      "importance_min": 0.00283288299731338,
+      "importance_max": 1.0631809888917114,
+      "empirical_weighted_positive_mass": 0.14085749530354255
+    },
+    {
+      "seed": 2026,
+      "draws": 903168,
+      "positive_draws": 56448,
+      "negative_draws": 846720,
+      "finite_prefix_total_variation_from_longrun": 0.05663253477854075,
+      "importance_min": 0.00283288299731338,
+      "importance_max": 1.0631809888917114,
+      "empirical_weighted_positive_mass": 0.14084808785595834
+    }
+  ]
+}

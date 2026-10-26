@@ -1,0 +1,18 @@
+{
+  "experiment": "microwave_checkpoint_ensemble_task16_v1",
+  "authorized": false,
+  "seeds": [42, 1019, 2026],
+  "top_k": 3,
+  "epochs": 12,
+  "new_fits": 0,
+  "optimizer_updates": 0,
+  "ranking": "source85:worst_precision,mean_precision,mean_f1,early_epoch",
+  "aggregation": "same_seed_sigmoid_float64_sum_divide3_cast_float32",
+  "low_recall": 0.95,
+  "high_recall": 0.95,
+  "radius_samples": 15,
+  "families": ["control_guard95", "ensemble_guard95"],
+  "source_support": [34351, 201],
+  "development_support": 137523,
+  "allow_fallback": false
+}

@@ -1,0 +1,16 @@
+{
+  "authorized": true,
+  "approval_origin": "human",
+  "additional_new_fits": 3,
+  "maximum_updates": 10584,
+  "experiment": "microwave_source5_loss_v1",
+  "registration_sha256": "70c531a28c9401f8ec13d4ecf8381a8e519aa7241b2a95214baa7f085a9ed43e",
+  "human_authorization_quote": "允许追加最多3个模型",
+  "seeds": [
+    42,
+    1019,
+    2026
+  ],
+  "source_thread_id": "01a16d7b-478e-7780-a999-88abe71e8c94",
+  "authorization_question": "是否允许追加最多3个微波炉模型，在现有三户数据上仅将开机损失权重50改为1，并完成固定事件门控对照、封存、开发验收和复核？原三个模型额度已用满；本次不扩数据，最终8/9/20继续隔离。"
+}

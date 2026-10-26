@@ -1,0 +1,88 @@
+{
+  "checks": [
+    {
+      "family": "old_point",
+      "seed": 42,
+      "ordinary_exact": true,
+      "raw_A_exact": true,
+      "original_support_exact": true
+    },
+    {
+      "family": "old_gate",
+      "seed": 42,
+      "ordinary_exact": true,
+      "raw_A_exact": true,
+      "original_support_exact": true
+    },
+    {
+      "family": "new_point",
+      "seed": 42,
+      "ordinary_exact": true,
+      "raw_A_exact": true,
+      "original_support_exact": true
+    },
+    {
+      "family": "new_gate",
+      "seed": 42,
+      "ordinary_exact": true,
+      "raw_A_exact": true,
+      "original_support_exact": true
+    },
+    {
+      "family": "old_point",
+      "seed": 1019,
+      "ordinary_exact": true,
+      "raw_A_exact": true,
+      "original_support_exact": true
+    },
+    {
+      "family": "old_gate",
+      "seed": 1019,
+      "ordinary_exact": true,
+      "raw_A_exact": true,
+      "original_support_exact": true
+    },
+    {
+      "family": "new_point",
+      "seed": 1019,
+      "ordinary_exact": true,
+      "raw_A_exact": true,
+      "original_support_exact": true
+    },
+    {
+      "family": "new_gate",
+      "seed": 1019,
+      "ordinary_exact": true,
+      "raw_A_exact": true,
+      "original_support_exact": true
+    },
+    {
+      "family": "old_point",
+      "seed": 2026,
+      "ordinary_exact": true,
+      "raw_A_exact": true,
+      "original_support_exact": true
+    },
+    {
+      "family": "old_gate",
+      "seed": 2026,
+      "ordinary_exact": true,
+      "raw_A_exact": true,
+      "original_support_exact": true
+    },
+    {
+      "family": "new_point",
+      "seed": 2026,
+      "ordinary_exact": true,
+      "raw_A_exact": true,
+      "original_support_exact": true
+    },
+    {
+      "family": "new_gate",
+      "seed": 2026,
+      "ordinary_exact": true,
+      "raw_A_exact": true,
+      "original_support_exact": true
+    }
+  ]
+}

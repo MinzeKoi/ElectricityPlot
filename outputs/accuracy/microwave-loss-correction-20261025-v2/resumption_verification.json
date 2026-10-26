@@ -1,0 +1,11 @@
+{
+  "status": "prior_full_audit_reused_with_all_hashes_and_ordinary_models_verified",
+  "freeze_sha256": "6bb27cac7b0c483cf225514369b1d361e3264df4eb3b847f816c69f7ddd3ecc1",
+  "training_sha256": "b20e0bf66e5ee7e00847dc27bcb5a5fecc59faa04ceb1eec4f540ce8d6b528df",
+  "registration_sha256": "2f42dc822e28476dce632e4df45af7ebc86a3efb3f9fc0be9bf3acfd91dadfd0",
+  "freeze_execution_log_sha256": "b054f80c00b1ba060731b91d794f9767193239fa8e0617295884f52ea8ad6b59",
+  "completed_fits": 6,
+  "ordinary_models_loaded": 9,
+  "truth_reads_during_resumption_check": 0,
+  "basis": "Original successful immutable freeze called full verify_training before predicting; no dependent artifacts changed."
+}

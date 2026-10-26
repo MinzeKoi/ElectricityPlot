@@ -1,0 +1,573 @@
+{
+  "schema": "microwave_event_gate_delivery_v1",
+  "run": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-event-gate-20261025-v4",
+  "source_selected": "gate",
+  "gate_source_qualified": true,
+  "source_protection": {
+    "all_seeds_feasible": true,
+    "mean_f1_not_lower": true,
+    "each_seed_recall_drop_at_most_005": true,
+    "at_least_two_seed_precision_up": true
+  },
+  "summary": {
+    "selected_before_development": "gate",
+    "development_acceptance_passed": false,
+    "acceptance_gates": {
+      "mean_P_at_least_008": false,
+      "each_R_at_least_085": true,
+      "mean_F1_gain_at_least_002": false,
+      "at_least_two_seed_P_F1_up": true,
+      "each_F1_drop_at_most_002": true,
+      "FP_reduction_at_least_30_percent": false,
+      "nondegenerate": true
+    },
+    "means": {
+      "A": {
+        "precision": 0.04012808999869747,
+        "recall": 0.9242819843342036,
+        "f1": 0.07691297343567473,
+        "fp": 8482.0
+      },
+      "W50": {
+        "precision": 0.04012808999869747,
+        "recall": 0.9242819843342036,
+        "f1": 0.07691297343567473,
+        "fp": 8482.0
+      },
+      "gate": {
+        "precision": 0.04557415587138985,
+        "recall": 0.9425587467362924,
+        "f1": 0.08691990338673412,
+        "fp": 7578.0
+      },
+      "parent": {
+        "precision": 0.04383194005219535,
+        "recall": 0.9556135770234987,
+        "f1": 0.08381358671843069,
+        "fp": 7987.333333333333
+      }
+    },
+    "deltas": {
+      "A": {
+        "W50": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "fp": 0.0
+        },
+        "parent": {
+          "precision": -0.0037038500534978813,
+          "recall": -0.031331592689295085,
+          "f1": -0.006900613282755957,
+          "fp": 494.66666666666697
+        }
+      },
+      "W50": {
+        "W50": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "fp": 0.0
+        },
+        "parent": {
+          "precision": -0.0037038500534978813,
+          "recall": -0.031331592689295085,
+          "f1": -0.006900613282755957,
+          "fp": 494.66666666666697
+        }
+      },
+      "gate": {
+        "W50": {
+          "precision": 0.005446065872692377,
+          "recall": 0.018276762402088753,
+          "f1": 0.010006929951059396,
+          "fp": -904.0
+        },
+        "parent": {
+          "precision": 0.0017422158191944953,
+          "recall": -0.013054830287206332,
+          "f1": 0.0031063166683034382,
+          "fp": -409.33333333333303
+        }
+      },
+      "parent": {
+        "W50": {
+          "precision": 0.0037038500534978813,
+          "recall": 0.031331592689295085,
+          "f1": 0.006900613282755957,
+          "fp": -494.66666666666697
+        },
+        "parent": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "fp": 0.0
+        }
+      }
+    },
+    "new_fits": 0,
+    "optimizer_updates": 0,
+    "only_source_preselection_accepted": true,
+    "power_improvement_claim": false,
+    "default_changed": false,
+    "final_houses_accessed": false,
+    "independent_new_house_validation": false
+  },
+  "source_seed_rows": {
+    "parent": [
+      {
+        "seed": 42,
+        "precision": 0.20371462264150944,
+        "recall": 0.9087104072398191,
+        "f1": 0.3320305862361937
+      },
+      {
+        "seed": 1019,
+        "precision": 0.2130441845354126,
+        "recall": 0.920079185520362,
+        "f1": 0.3448210326259107
+      },
+      {
+        "seed": 2026,
+        "precision": 0.21214534564631207,
+        "recall": 0.920079185520362,
+        "f1": 0.3436397739739763
+      }
+    ],
+    "gate": [
+      {
+        "seed": 42,
+        "precision": 0.2088208092485549,
+        "recall": 0.9234162895927602,
+        "f1": 0.3396135265700483
+      },
+      {
+        "seed": 1019,
+        "precision": 0.23758920317988536,
+        "recall": 0.9307692307692308,
+        "f1": 0.3776353343002854
+      },
+      {
+        "seed": 2026,
+        "precision": 0.21494469970760766,
+        "recall": 0.9237556561085973,
+        "f1": 0.3472051072084463
+      }
+    ]
+  },
+  "development_rows": [
+    {
+      "seed": 42,
+      "arm": "A",
+      "tp": 348,
+      "fp": 8433,
+      "fn": 35,
+      "tn": 128707,
+      "n": 137523,
+      "precision": 0.039631021523744446,
+      "recall": 0.9086161879895561,
+      "f1": 0.0759493670886076,
+      "fpr": 0.061491906081376696,
+      "predicted_on": 8781,
+      "degenerate": false,
+      "predicted_on_segments": 1057
+    },
+    {
+      "seed": 42,
+      "arm": "W50",
+      "tp": 348,
+      "fp": 8433,
+      "fn": 35,
+      "tn": 128707,
+      "n": 137523,
+      "precision": 0.039631021523744446,
+      "recall": 0.9086161879895561,
+      "f1": 0.0759493670886076,
+      "fpr": 0.061491906081376696,
+      "predicted_on": 8781,
+      "degenerate": false,
+      "predicted_on_segments": 1057
+    },
+    {
+      "seed": 42,
+      "arm": "parent",
+      "tp": 375,
+      "fp": 8133,
+      "fn": 8,
+      "tn": 129007,
+      "n": 137523,
+      "precision": 0.044076163610719324,
+      "recall": 0.97911227154047,
+      "f1": 0.08435496569564728,
+      "fpr": 0.059304360507510576,
+      "predicted_on": 8508,
+      "degenerate": false,
+      "predicted_on_segments": 982
+    },
+    {
+      "seed": 42,
+      "arm": "gate",
+      "tp": 379,
+      "fp": 7912,
+      "fn": 4,
+      "tn": 129228,
+      "n": 137523,
+      "precision": 0.045712218067784346,
+      "recall": 0.9895561357702349,
+      "f1": 0.08738759511182845,
+      "fpr": 0.0576928686014292,
+      "predicted_on": 8291,
+      "degenerate": false,
+      "predicted_on_segments": 817
+    },
+    {
+      "seed": 1019,
+      "arm": "A",
+      "tp": 352,
+      "fp": 8893,
+      "fn": 31,
+      "tn": 128247,
+      "n": 137523,
+      "precision": 0.03807463493780422,
+      "recall": 0.9190600522193212,
+      "f1": 0.07312006647278771,
+      "fpr": 0.06484614262797142,
+      "predicted_on": 9245,
+      "degenerate": false,
+      "predicted_on_segments": 829
+    },
+    {
+      "seed": 1019,
+      "arm": "W50",
+      "tp": 352,
+      "fp": 8893,
+      "fn": 31,
+      "tn": 128247,
+      "n": 137523,
+      "precision": 0.03807463493780422,
+      "recall": 0.9190600522193212,
+      "f1": 0.07312006647278771,
+      "fpr": 0.06484614262797142,
+      "predicted_on": 9245,
+      "degenerate": false,
+      "predicted_on_segments": 829
+    },
+    {
+      "seed": 1019,
+      "arm": "parent",
+      "tp": 350,
+      "fp": 7543,
+      "fn": 33,
+      "tn": 129597,
+      "n": 137523,
+      "precision": 0.04434308881287217,
+      "recall": 0.9138381201044387,
+      "f1": 0.0845819236346061,
+      "fpr": 0.055002187545573865,
+      "predicted_on": 7893,
+      "degenerate": false,
+      "predicted_on_segments": 1007
+    },
+    {
+      "seed": 1019,
+      "arm": "gate",
+      "tp": 335,
+      "fp": 6742,
+      "fn": 48,
+      "tn": 130398,
+      "n": 137523,
+      "precision": 0.047336441995195704,
+      "recall": 0.8746736292428199,
+      "f1": 0.08981233243967829,
+      "fpr": 0.04916144086335132,
+      "predicted_on": 7077,
+      "degenerate": false,
+      "predicted_on_segments": 726
+    },
+    {
+      "seed": 2026,
+      "arm": "A",
+      "tp": 362,
+      "fp": 8120,
+      "fn": 21,
+      "tn": 129020,
+      "n": 137523,
+      "precision": 0.04267861353454374,
+      "recall": 0.9451697127937336,
+      "f1": 0.08166948674562888,
+      "fpr": 0.05920956686597637,
+      "predicted_on": 8482,
+      "degenerate": false,
+      "predicted_on_segments": 872
+    },
+    {
+      "seed": 2026,
+      "arm": "W50",
+      "tp": 362,
+      "fp": 8120,
+      "fn": 21,
+      "tn": 129020,
+      "n": 137523,
+      "precision": 0.04267861353454374,
+      "recall": 0.9451697127937336,
+      "f1": 0.08166948674562888,
+      "fpr": 0.05920956686597637,
+      "predicted_on": 8482,
+      "degenerate": false,
+      "predicted_on_segments": 872
+    },
+    {
+      "seed": 2026,
+      "arm": "parent",
+      "tp": 373,
+      "fp": 8286,
+      "fn": 10,
+      "tn": 128854,
+      "n": 137523,
+      "precision": 0.04307656773299457,
+      "recall": 0.9738903394255874,
+      "f1": 0.08250387082503871,
+      "fpr": 0.060420008750182295,
+      "predicted_on": 8659,
+      "degenerate": false,
+      "predicted_on_segments": 1004
+    },
+    {
+      "seed": 2026,
+      "arm": "gate",
+      "tp": 369,
+      "fp": 8080,
+      "fn": 14,
+      "tn": 129060,
+      "n": 137523,
+      "precision": 0.04367380755118949,
+      "recall": 0.9634464751958225,
+      "f1": 0.08355978260869565,
+      "fpr": 0.058917894122794225,
+      "predicted_on": 8449,
+      "degenerate": false,
+      "predicted_on_segments": 903
+    }
+  ],
+  "source_recipes": [
+    {
+      "schema": "event_gate_recipe_v1",
+      "seed": 42,
+      "eligible": true,
+      "L": 0.720104992389679,
+      "H": 0.9695672988891602,
+      "radius_samples": 15,
+      "interval_seconds": 8,
+      "parent": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-temporal-20261025-v2\\models\\source5\\seed_42",
+      "parent_hashes": {
+        "model.json": "9550bd7606a156e93aa302f346663748480e57b1c1ce9bdd0129705bbf963946",
+        "weights.pt": "ddf6102395d38a8f360dd9a8afac5cf64db18b8e1227ecac7ef30e0aae0f55dc"
+      },
+      "parent_epoch": 11,
+      "parent_point_threshold": 0.8221133351325989,
+      "score_semantics": "uncalibrated sigmoid state score",
+      "maximum_effective_context_samples": 157,
+      "offline_future_context": true,
+      "algorithm_sha256": "342c1e97707e4053c7d0b8fa438c10e48a445cc378d1fa9796e58a149ead82fd",
+      "registration_sha256": "efe3a1a39370bb96c9f4af264f7f19dc91fb23672adf7173ecaf237a59fe7c6c",
+      "source_data_sha256": {
+        "aggregate": "b1cc0a12a37b3182164fba3d1ddcc62ba85682bed641302f859095d0dda92525",
+        "microwave": "d907c7cb236c9340519722456376ba27339cc63c42db9eadf74e4db4745fcaf3"
+      },
+      "missing": "None; low failure remains off",
+      "segments": "finite original score, continuous 8 seconds, within household and partition",
+      "reason": null,
+      "seed_feasible": true,
+      "source_group_qualified": true
+    },
+    {
+      "schema": "event_gate_recipe_v1",
+      "seed": 1019,
+      "eligible": true,
+      "L": 0.8444480299949646,
+      "H": 0.9955602884292603,
+      "radius_samples": 15,
+      "interval_seconds": 8,
+      "parent": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-temporal-20261025-v2\\models\\source5\\seed_1019",
+      "parent_hashes": {
+        "model.json": "4c59fdde3fe3068e219236b2077e5c1d0a9f941c38895f4f12c89eb9f26a2eb5",
+        "weights.pt": "70b20e41682ac2ee7cad5d4dc98dbb9034b480a4bdfff59245639e214011e8b6"
+      },
+      "parent_epoch": 11,
+      "parent_point_threshold": 0.9118906855583191,
+      "score_semantics": "uncalibrated sigmoid state score",
+      "maximum_effective_context_samples": 157,
+      "offline_future_context": true,
+      "algorithm_sha256": "342c1e97707e4053c7d0b8fa438c10e48a445cc378d1fa9796e58a149ead82fd",
+      "registration_sha256": "efe3a1a39370bb96c9f4af264f7f19dc91fb23672adf7173ecaf237a59fe7c6c",
+      "source_data_sha256": {
+        "aggregate": "b1cc0a12a37b3182164fba3d1ddcc62ba85682bed641302f859095d0dda92525",
+        "microwave": "d907c7cb236c9340519722456376ba27339cc63c42db9eadf74e4db4745fcaf3"
+      },
+      "missing": "None; low failure remains off",
+      "segments": "finite original score, continuous 8 seconds, within household and partition",
+      "reason": null,
+      "seed_feasible": true,
+      "source_group_qualified": true
+    },
+    {
+      "schema": "event_gate_recipe_v1",
+      "seed": 2026,
+      "eligible": true,
+      "L": 0.754520833492279,
+      "H": 0.9739248156547546,
+      "radius_samples": 15,
+      "interval_seconds": 8,
+      "parent": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-temporal-20261025-v2\\models\\source5\\seed_2026",
+      "parent_hashes": {
+        "model.json": "03636a8223260559d41df2b9b7cdb5b4e9cbb7c0fbc38065a75ee61fe294d86b",
+        "weights.pt": "2a8149dc5bfb67ad5872df087f236afb99766335f86dbc04b564c942f9d9178b"
+      },
+      "parent_epoch": 10,
+      "parent_point_threshold": 0.8346552848815918,
+      "score_semantics": "uncalibrated sigmoid state score",
+      "maximum_effective_context_samples": 157,
+      "offline_future_context": true,
+      "algorithm_sha256": "342c1e97707e4053c7d0b8fa438c10e48a445cc378d1fa9796e58a149ead82fd",
+      "registration_sha256": "efe3a1a39370bb96c9f4af264f7f19dc91fb23672adf7173ecaf237a59fe7c6c",
+      "source_data_sha256": {
+        "aggregate": "b1cc0a12a37b3182164fba3d1ddcc62ba85682bed641302f859095d0dda92525",
+        "microwave": "d907c7cb236c9340519722456376ba27339cc63c42db9eadf74e4db4745fcaf3"
+      },
+      "missing": "None; low failure remains off",
+      "segments": "finite original score, continuous 8 seconds, within household and partition",
+      "reason": null,
+      "seed_feasible": true,
+      "source_group_qualified": true
+    }
+  ],
+  "false_positive_reduction": {
+    "vs_W50": 0.10657863711388826,
+    "vs_parent": 0.05124780903096571
+  },
+  "false_positive_change_counts": [
+    {
+      "seed": 42,
+      "reference": "W50",
+      "FP_added": 948,
+      "FP_removed": 1469,
+      "FP_delta": -521
+    },
+    {
+      "seed": 42,
+      "reference": "parent",
+      "FP_added": 295,
+      "FP_removed": 516,
+      "FP_delta": -221
+    },
+    {
+      "seed": 1019,
+      "reference": "W50",
+      "FP_added": 599,
+      "FP_removed": 2750,
+      "FP_delta": -2151
+    },
+    {
+      "seed": 1019,
+      "reference": "parent",
+      "FP_added": 204,
+      "FP_removed": 1005,
+      "FP_delta": -801
+    },
+    {
+      "seed": 2026,
+      "reference": "W50",
+      "FP_added": 1119,
+      "FP_removed": 1159,
+      "FP_delta": -40
+    },
+    {
+      "seed": 2026,
+      "reference": "parent",
+      "FP_added": 341,
+      "FP_removed": 547,
+      "FP_delta": -206
+    }
+  ],
+  "tests": {
+    "gate_tests.log": {
+      "count": 21,
+      "passed": true,
+      "sha256": "dc321938b9b7c670dfb5af553025762f863d90723ea043db2f2a91e7864b4ea8"
+    },
+    "protocol_tests.log": {
+      "count": 25,
+      "passed": true,
+      "sha256": "1f7ca355445b04884eb69c9e5739c50fcc212e0fd097e18353a987471d47b670"
+    }
+  },
+  "new_fits": 0,
+  "new_training_model_initializations": 0,
+  "optimizer_updates": 0,
+  "task10_new_models_retrained": 0,
+  "parent_weights_and_metadata_rechecked": true,
+  "original_development_support": [
+    {
+      "seed": 42,
+      "n": 137523,
+      "mask_sha256": "085168f484e2892e18f759239561d8d6a7c8bf5e9c0667903b4f36530951e920",
+      "timestamps_sha256": "48864e180c0d20aec268b78dcc78769d5380ba5d229979f81397a15be5b3146b"
+    },
+    {
+      "seed": 1019,
+      "n": 137523,
+      "mask_sha256": "085168f484e2892e18f759239561d8d6a7c8bf5e9c0667903b4f36530951e920",
+      "timestamps_sha256": "48864e180c0d20aec268b78dcc78769d5380ba5d229979f81397a15be5b3146b"
+    },
+    {
+      "seed": 2026,
+      "n": 137523,
+      "mask_sha256": "085168f484e2892e18f759239561d8d6a7c8bf5e9c0667903b4f36530951e920",
+      "timestamps_sha256": "48864e180c0d20aec268b78dcc78769d5380ba5d229979f81397a15be5b3146b"
+    }
+  ],
+  "ordinary_prediction_cli_rows": 150750,
+  "ordinary_prediction_cli_exact": true,
+  "source_extra_non_evaluation_centers_per_seed": 1222,
+  "source_truth_not_used_for_feature_segments": true,
+  "original_protocol_sha256": "1ffd4b55a36ced8e0a24629cf233fc21aecf4348145715f6a39a905ceba15ef6",
+  "freeze_sha256": "e5b0704f1233e92514e4872fba6bd7c7cc1fdc4e7a90d176ce3ae223495e1f30",
+  "source_selection_sha256": "4549cb0cb8dbf19fc052b4bdc8715b62e0590b4921b37ce830c686332b0a6bec",
+  "final_review_sha256": "b72f930ebda1cdd0543daadebf9376bdba04a284fc155f39dc0ec7b0a3e0aea1",
+  "failed_attempts": [
+    {
+      "run": "microwave-event-gate-20261025-v1",
+      "stage": "prepare code-file audit guard too broad",
+      "source_thresholds_computed": false
+    },
+    {
+      "run": "microwave-event-gate-20261025-v2",
+      "stage": "strict historical score equality caught CPU tail batch roundoff",
+      "source_thresholds_computed": false
+    },
+    {
+      "run": "microwave-event-gate-20261025-v3",
+      "stage": "numpy bool JSON serialization after deterministic source computation",
+      "source_thresholds_computed": true
+    }
+  ],
+  "failed_attempts_new_fits": 0,
+  "failed_attempts_development_truth_reads": 0,
+  "v3_v4_identical_source_curves": [
+    "block_metrics.csv",
+    "L_curve_42.csv",
+    "L_curve_1019.csv",
+    "L_curve_2026.csv",
+    "H_curve_42.csv",
+    "H_curve_1019.csv",
+    "H_curve_2026.csv"
+  ],
+  "roundoff_note": "Full aggregate batches include unlabeled centers; max historical score difference 3.183231456205249e-12; original point decisions exactly unchanged. Comparison rtol=1e-5, atol=1e-7; all current ordinary replay scores/states exact.",
+  "final_houses_accessed": false,
+  "default_changed": false,
+  "power_improvement_claim": false,
+  "independent_new_house_validation": false,
+  "report": "D:\\system position\\document\\真正的文档\\AIC\\docs\\MICROWAVE_EVENT_GATE_DELIVERY_20261025.md",
+  "delivery_manifest": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-event-gate-20261025-v4\\delivery_manifest.json",
+  "delivery_manifest_sha256": "e58d664237f10a20f72c349df7736e2ac06299251ce80410bab4a7bfe559e1c2"
+}

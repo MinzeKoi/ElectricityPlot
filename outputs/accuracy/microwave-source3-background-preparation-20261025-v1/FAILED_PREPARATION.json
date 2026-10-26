@@ -1,0 +1,12 @@
+{
+  "status": "failed_preparation_preserved",
+  "reason": "aggregate column name differs from label column; KeyError power_w before pool construction",
+  "actual_real_fits": 0,
+  "actual_updates": 0,
+  "development_reads": 0,
+  "retained_files": [
+    "identity.json"
+  ],
+  "access_log_limitation": "exception prevented v1 access-log finalization; fixed with finally in v2",
+  "next_run": "microwave-source3-background-preparation-20261025-v2"
+}

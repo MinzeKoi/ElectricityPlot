@@ -1,0 +1,35 @@
+{
+  "status": "final_source_rejection_delivery_verified",
+  "old_snapshots": [
+    {
+      "run": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source3-background-preparation-20261025-v2",
+      "artifacts": 19,
+      "exact": true
+    },
+    {
+      "run": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source3-background-preparation-20261025-v3",
+      "artifacts": 124,
+      "exact": true
+    }
+  ],
+  "immutable_v4_preparation_hashes_exact": true,
+  "access_logs": [
+    "delivery_access.json",
+    "independent_source_final_access.json",
+    "prepare_access.json",
+    "source_select_access.json",
+    "train_access.json",
+    "verify_execution_access.json",
+    "verify_preparation_access.json",
+    "verify_preparation_access_1.json"
+  ],
+  "development_numerical_reads": 0,
+  "development_predictions": 0,
+  "truth_cache_reads": 0,
+  "final_house_reads": 0,
+  "models": 3,
+  "updates": 10584,
+  "control_retrains": 0,
+  "extra_fit_budget_remaining": 0,
+  "ui_default_changed": false
+}

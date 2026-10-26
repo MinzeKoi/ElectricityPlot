@@ -1,0 +1,18 @@
+{
+  "selected_arm": "source5",
+  "source_only": true,
+  "arms": [
+    {
+      "arm": "control",
+      "eligible": true,
+      "mean_precision": 0.16257918187924134,
+      "mean_f1": 0.27532609295654037
+    },
+    {
+      "arm": "source5",
+      "eligible": true,
+      "mean_precision": 0.20963471760774469,
+      "mean_f1": 0.34016379761202686
+    }
+  ]
+}

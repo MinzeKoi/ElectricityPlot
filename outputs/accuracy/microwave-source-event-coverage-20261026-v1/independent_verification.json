@@ -1,0 +1,64 @@
+{
+  "status": "passed",
+  "method": "Independent raw interval intersection (<=8s cap), event start cumsum and convolution core eligibility; no audit functions imported",
+  "checks": [
+    {
+      "house": "2",
+      "role": "frozen_train_original14d",
+      "independent_counts": {
+        "aggregate_known": 136984,
+        "label_known": 136080,
+        "positive_label_bins": 478,
+        "observable_segments": 81,
+        "eligible_centers": 127747,
+        "eligible_positive_centers": 466,
+        "supported_segments": 74
+      },
+      "passed": true
+    },
+    {
+      "house": "2",
+      "role": "candidate_audit_only_not_training",
+      "independent_counts": {
+        "aggregate_known": 147208,
+        "label_known": 146408,
+        "positive_label_bins": 415,
+        "observable_segments": 115,
+        "eligible_centers": 144557,
+        "eligible_positive_centers": 404,
+        "supported_segments": 109
+      },
+      "passed": true
+    },
+    {
+      "house": "19",
+      "role": "frozen_train_original14d",
+      "independent_counts": {
+        "aggregate_known": 138240,
+        "label_known": 136080,
+        "positive_label_bins": 404,
+        "observable_segments": 83,
+        "eligible_centers": 132059,
+        "eligible_positive_centers": 383,
+        "supported_segments": 80
+      },
+      "passed": true
+    },
+    {
+      "house": "19",
+      "role": "candidate_audit_only_not_training",
+      "independent_counts": {
+        "aggregate_known": 138560,
+        "label_known": 136164,
+        "positive_label_bins": 333,
+        "observable_segments": 54,
+        "eligible_centers": 134661,
+        "eligible_positive_centers": 315,
+        "supported_segments": 51
+      },
+      "passed": true
+    }
+  ],
+  "input_hashes_rechecked": true,
+  "model_code_imported": false
+}

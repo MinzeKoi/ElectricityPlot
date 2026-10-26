@@ -1,0 +1,412 @@
+{
+  "schema": "microwave_source5_temporal_delivery_v1",
+  "run": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-temporal-20261025-v2",
+  "summary": {
+    "selected_before_development": "source5",
+    "development_acceptance_passed": false,
+    "means": {
+      "A": {
+        "precision": 0.04012808999869747,
+        "recall": 0.9242819843342036,
+        "f1": 0.07691297343567473,
+        "fp": 8482.0
+      },
+      "W50": {
+        "precision": 0.04012808999869747,
+        "recall": 0.9242819843342036,
+        "f1": 0.07691297343567473,
+        "fp": 8482.0
+      },
+      "control": {
+        "precision": 0.03745633315052142,
+        "recall": 0.9564838990426457,
+        "f1": 0.07208622170282329,
+        "fp": 9418.0
+      },
+      "source5": {
+        "precision": 0.04383194005219535,
+        "recall": 0.9556135770234987,
+        "f1": 0.08381358671843069,
+        "fp": 7987.333333333333
+      }
+    },
+    "common_support": {
+      "42": {
+        "n": 137523,
+        "mask_sha256": "d7608bed577515bc4bd98ff1efe4c78a82798a96c9d1d3e5dd03bb90d53598a1",
+        "timestamps_sha256": "342269261b9b59715ac588476545f50d6e875b7a01f6731745098c6c384a2ffe"
+      },
+      "1019": {
+        "n": 137523,
+        "mask_sha256": "d7608bed577515bc4bd98ff1efe4c78a82798a96c9d1d3e5dd03bb90d53598a1",
+        "timestamps_sha256": "342269261b9b59715ac588476545f50d6e875b7a01f6731745098c6c384a2ffe"
+      },
+      "2026": {
+        "n": 137523,
+        "mask_sha256": "d7608bed577515bc4bd98ff1efe4c78a82798a96c9d1d3e5dd03bb90d53598a1",
+        "timestamps_sha256": "342269261b9b59715ac588476545f50d6e875b7a01f6731745098c6c384a2ffe"
+      }
+    },
+    "source5_beats_symmetric_control_at_source": true,
+    "source5_development_deltas_vs_control": {
+      "precision": 0.006375606901673929,
+      "recall": -0.0008703220191470518,
+      "f1": 0.011727365015607394,
+      "fp": -1430.666666666667
+    },
+    "declared_house5_training_improvement": false,
+    "only_source_preselected_candidate_accepted": true,
+    "development_diagnostics_do_not_change_selection": true,
+    "power_improvement_claim": false,
+    "default_model_changed": false,
+    "final_houses_accessed": false,
+    "validation_is_fresh_independent": false,
+    "development_only_previously_inspected_house17": true,
+    "additional_training_permitted": false
+  },
+  "gates_vs_W50": {
+    "mean_precision_at_least_008": false,
+    "each_seed_recall_at_least_085": true,
+    "mean_f1_gain_at_least_002": false,
+    "at_least_two_seed_precision_f1_both_up": true,
+    "each_seed_f1_drop_at_most_002": true,
+    "false_positives_reduced_at_least_30_percent": false,
+    "nondegenerate": true,
+    "same_137523_point_time_mask": true
+  },
+  "mean_f1_gain_vs_W50": 0.006900613282755967,
+  "false_positive_reduction_vs_W50": 0.058319578715711695,
+  "seeds_precision_and_f1_both_up_vs_W50": 3,
+  "models": [
+    {
+      "arm": "control",
+      "seed": 42,
+      "model": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-temporal-20261025-v2\\models\\control\\seed_42",
+      "epoch": 1,
+      "threshold": 0.8003279566764832,
+      "model_json_sha256": "efacddf585d3fd7096b143d76de812157a1fc749942d3d511aa22dc69c09bb80",
+      "weights_sha256": "9646d45abee334c60e11013398dc909cf4c92b7088a62bbc836480e66960f115"
+    },
+    {
+      "arm": "control",
+      "seed": 1019,
+      "model": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-temporal-20261025-v2\\models\\control\\seed_1019",
+      "epoch": 2,
+      "threshold": 0.5595536828041077,
+      "model_json_sha256": "96b11915cf79c35e6baade4335b6aef017d37a960b9ce315175668ab56791871",
+      "weights_sha256": "1d77dbe5cd0366ce431d6eae524e07e8c66baa38d693529cc19b206478b47c55"
+    },
+    {
+      "arm": "control",
+      "seed": 2026,
+      "model": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-temporal-20261025-v2\\models\\control\\seed_2026",
+      "epoch": 1,
+      "threshold": 0.7373813390731812,
+      "model_json_sha256": "9d2368109d01f77661b604584e8ffc6b750309b57533e9926a3f554ac9df1e0e",
+      "weights_sha256": "45e64824f1b49f18a4c2f3b611b5f43c42006c060dd5d8ecf407fbeab74cf88b"
+    },
+    {
+      "arm": "source5",
+      "seed": 42,
+      "model": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-temporal-20261025-v2\\models\\source5\\seed_42",
+      "epoch": 11,
+      "threshold": 0.8221133351325989,
+      "model_json_sha256": "9550bd7606a156e93aa302f346663748480e57b1c1ce9bdd0129705bbf963946",
+      "weights_sha256": "ddf6102395d38a8f360dd9a8afac5cf64db18b8e1227ecac7ef30e0aae0f55dc"
+    },
+    {
+      "arm": "source5",
+      "seed": 1019,
+      "model": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-temporal-20261025-v2\\models\\source5\\seed_1019",
+      "epoch": 11,
+      "threshold": 0.9118906855583191,
+      "model_json_sha256": "4c59fdde3fe3068e219236b2077e5c1d0a9f941c38895f4f12c89eb9f26a2eb5",
+      "weights_sha256": "70b20e41682ac2ee7cad5d4dc98dbb9034b480a4bdfff59245639e214011e8b6"
+    },
+    {
+      "arm": "source5",
+      "seed": 2026,
+      "model": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-temporal-20261025-v2\\models\\source5\\seed_2026",
+      "epoch": 10,
+      "threshold": 0.8346552848815918,
+      "model_json_sha256": "03636a8223260559d41df2b9b7cdb5b4e9cbb7c0fbc38065a75ee61fe294d86b",
+      "weights_sha256": "2a8149dc5bfb67ad5872df087f236afb99766335f86dbc04b564c942f9d9178b"
+    }
+  ],
+  "source_rows": {
+    "control": [
+      {
+        "seed": 42,
+        "precision": 0.1643753236216267,
+        "recall": 0.8649321266968326,
+        "f1": 0.2762084931412183,
+        "source_gate_passed": true,
+        "degenerate": false
+      },
+      {
+        "seed": 1019,
+        "precision": 0.15621287716797339,
+        "recall": 0.9160633484162897,
+        "f1": 0.2668598550124674,
+        "source_gate_passed": true,
+        "degenerate": false
+      },
+      {
+        "seed": 2026,
+        "precision": 0.16714934484812388,
+        "recall": 0.9207579185520363,
+        "f1": 0.2829099307159353,
+        "source_gate_passed": true,
+        "degenerate": false
+      }
+    ],
+    "source5": [
+      {
+        "seed": 42,
+        "precision": 0.20371462264150944,
+        "recall": 0.9087104072398191,
+        "f1": 0.3320305862361937,
+        "source_gate_passed": true,
+        "degenerate": false
+      },
+      {
+        "seed": 1019,
+        "precision": 0.2130441845354126,
+        "recall": 0.920079185520362,
+        "f1": 0.3448210326259107,
+        "source_gate_passed": true,
+        "degenerate": false
+      },
+      {
+        "seed": 2026,
+        "precision": 0.21214534564631207,
+        "recall": 0.920079185520362,
+        "f1": 0.3436397739739763,
+        "source_gate_passed": true,
+        "degenerate": false
+      }
+    ]
+  },
+  "development_rows": [
+    {
+      "arm": "A",
+      "seed": 42,
+      "tp": 348,
+      "fp": 8433,
+      "fn": 35,
+      "tn": 128707,
+      "n": 137523,
+      "precision": 0.039631021523744446,
+      "recall": 0.9086161879895561,
+      "f1": 0.0759493670886076,
+      "degenerate": false,
+      "predicted_on": 8781
+    },
+    {
+      "arm": "W50",
+      "seed": 42,
+      "tp": 348,
+      "fp": 8433,
+      "fn": 35,
+      "tn": 128707,
+      "n": 137523,
+      "precision": 0.039631021523744446,
+      "recall": 0.9086161879895561,
+      "f1": 0.0759493670886076,
+      "degenerate": false,
+      "predicted_on": 8781
+    },
+    {
+      "arm": "control",
+      "seed": 42,
+      "tp": 357,
+      "fp": 8996,
+      "fn": 26,
+      "tn": 128144,
+      "n": 137523,
+      "precision": 0.03816957126055811,
+      "recall": 0.9321148825065274,
+      "f1": 0.07333607230895645,
+      "degenerate": false,
+      "predicted_on": 9353
+    },
+    {
+      "arm": "source5",
+      "seed": 42,
+      "tp": 375,
+      "fp": 8133,
+      "fn": 8,
+      "tn": 129007,
+      "n": 137523,
+      "precision": 0.044076163610719324,
+      "recall": 0.97911227154047,
+      "f1": 0.08435496569564728,
+      "degenerate": false,
+      "predicted_on": 8508
+    },
+    {
+      "arm": "A",
+      "seed": 1019,
+      "tp": 352,
+      "fp": 8893,
+      "fn": 31,
+      "tn": 128247,
+      "n": 137523,
+      "precision": 0.03807463493780422,
+      "recall": 0.9190600522193212,
+      "f1": 0.07312006647278771,
+      "degenerate": false,
+      "predicted_on": 9245
+    },
+    {
+      "arm": "W50",
+      "seed": 1019,
+      "tp": 352,
+      "fp": 8893,
+      "fn": 31,
+      "tn": 128247,
+      "n": 137523,
+      "precision": 0.03807463493780422,
+      "recall": 0.9190600522193212,
+      "f1": 0.07312006647278771,
+      "degenerate": false,
+      "predicted_on": 9245
+    },
+    {
+      "arm": "control",
+      "seed": 1019,
+      "tp": 379,
+      "fp": 9833,
+      "fn": 4,
+      "tn": 127307,
+      "n": 137523,
+      "precision": 0.03711320015667842,
+      "recall": 0.9895561357702349,
+      "f1": 0.07154318074563473,
+      "degenerate": false,
+      "predicted_on": 10212
+    },
+    {
+      "arm": "source5",
+      "seed": 1019,
+      "tp": 350,
+      "fp": 7543,
+      "fn": 33,
+      "tn": 129597,
+      "n": 137523,
+      "precision": 0.04434308881287217,
+      "recall": 0.9138381201044387,
+      "f1": 0.0845819236346061,
+      "degenerate": false,
+      "predicted_on": 7893
+    },
+    {
+      "arm": "A",
+      "seed": 2026,
+      "tp": 362,
+      "fp": 8120,
+      "fn": 21,
+      "tn": 129020,
+      "n": 137523,
+      "precision": 0.04267861353454374,
+      "recall": 0.9451697127937336,
+      "f1": 0.08166948674562888,
+      "degenerate": false,
+      "predicted_on": 8482
+    },
+    {
+      "arm": "W50",
+      "seed": 2026,
+      "tp": 362,
+      "fp": 8120,
+      "fn": 21,
+      "tn": 129020,
+      "n": 137523,
+      "precision": 0.04267861353454374,
+      "recall": 0.9451697127937336,
+      "f1": 0.08166948674562888,
+      "degenerate": false,
+      "predicted_on": 8482
+    },
+    {
+      "arm": "control",
+      "seed": 2026,
+      "tp": 363,
+      "fp": 9425,
+      "fn": 20,
+      "tn": 127715,
+      "n": 137523,
+      "precision": 0.03708622803432775,
+      "recall": 0.9477806788511749,
+      "f1": 0.07137941205387867,
+      "degenerate": false,
+      "predicted_on": 9788
+    },
+    {
+      "arm": "source5",
+      "seed": 2026,
+      "tp": 373,
+      "fp": 8286,
+      "fn": 10,
+      "tn": 128854,
+      "n": 137523,
+      "precision": 0.04307656773299457,
+      "recall": 0.9738903394255874,
+      "f1": 0.08250387082503871,
+      "degenerate": false,
+      "predicted_on": 8659
+    }
+  ],
+  "training": {
+    "source_recipe": "control_BCE50",
+    "new_starts": 3,
+    "completed_fits": 3,
+    "failed_fits": 0,
+    "total_updates": 10584,
+    "control_retrains": 0
+  },
+  "tests": {
+    "new_synthetic": 19,
+    "default_protocol_regression": 25,
+    "total": 44,
+    "all_passed": true
+  },
+  "preparation_failure": {
+    "run": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-temporal-20261025-v1",
+    "stage": "source_input_path_type_check",
+    "real_fits": 0,
+    "preserved": true
+  },
+  "reporting_failure": {
+    "directory": "details",
+    "stage": "duplicate_threshold_field_before_writing_tables",
+    "real_fits": 0,
+    "preserved": true,
+    "repaired_output": "details_v2"
+  },
+  "condition_identity": {
+    "task8_freeze_sha256": "6bb27cac7b0c483cf225514369b1d361e3264df4eb3b847f816c69f7ddd3ecc1",
+    "task8_source_selection_sha256": "90b3b3f8766dc69c8c382865b3ee4f4471ab40c7a66e9ccce8d794f33d6038a1",
+    "control_freeze_sha256": "47e5602103a444c42c63cb3f185fa42ec821bb497bb450ff6015c65ac5e94027",
+    "control_registration_sha256": "1cd50f61d2702d84b984fe08aff5aa2ff8eb4d5bba28f102626226e958dbf72b",
+    "source_recipe": "control_BCE50",
+    "source_only": true,
+    "development_scores_read": false
+  },
+  "human_authorization_quote": "允许这个独立时间对照试验",
+  "coordinator_terminal_confirmation": "Task8v2 completed six fits and failed acceptance; source-only selection remains TCN127/control_BCE50",
+  "approved_exceptions": [
+    "House5 validation-only",
+    "source train/validation household disjointness"
+  ],
+  "validation_is_fresh_independent": false,
+  "compatible_with_original_cross_household_protocol": false,
+  "freeze_sha256": "c474028b38d6a08f5d77f7510d839230d2a0ab75ffae19bdbdb03926dd095fe1",
+  "source_selection_sha256": "ed0f373ff0971fb67ed46bcc0a8c0f7fb59b485f5f2418b72ed0392b18618bd2",
+  "independent_final_verification_sha256": "d497c01574518f187beeab3432facee95d7c3568cd6f3361c550386c4deac3bb",
+  "ordinary_cli_predictions_equal_frozen": true,
+  "truth_original_csv_parses": 1,
+  "final_house_data_accessed": false,
+  "default_ui_and_model_unchanged": true,
+  "power_improvement_claim": false
+}

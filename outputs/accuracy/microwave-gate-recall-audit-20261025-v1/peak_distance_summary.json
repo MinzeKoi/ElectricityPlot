@@ -1,0 +1,259 @@
+[
+  {
+    "seed": 42,
+    "part": "source_4",
+    "high_fail_points": 2,
+    "unique_low_segments": 1,
+    "same_low_segment_has_high": 2,
+    "no_same_low_segment_high": 0,
+    "no_high_in_full_finite_segment": 0,
+    "nearest_full_high_distances_seconds": {
+      "n": 2,
+      "q05": 128.4,
+      "q25": 130.0,
+      "q50": 132.0,
+      "q75": 134.0,
+      "q95": 135.6
+    },
+    "same_low_high_distances_seconds": {
+      "n": 2,
+      "q05": 128.4,
+      "q25": 130.0,
+      "q50": 132.0,
+      "q75": 134.0,
+      "q95": 135.6
+    },
+    "low_segment_seconds": {
+      "n": 2,
+      "q05": 168.0,
+      "q25": 168.0,
+      "q50": 168.0,
+      "q75": 168.0,
+      "q95": 168.0
+    }
+  },
+  {
+    "seed": 42,
+    "part": "source_5",
+    "high_fail_points": 5,
+    "unique_low_segments": 4,
+    "same_low_segment_has_high": 1,
+    "no_same_low_segment_high": 4,
+    "no_high_in_full_finite_segment": 1,
+    "nearest_full_high_distances_seconds": {
+      "n": 4,
+      "q05": 130.4,
+      "q25": 140.0,
+      "q50": 156.0,
+      "q75": 170.0,
+      "q95": 174.8
+    },
+    "same_low_high_distances_seconds": {
+      "n": 1,
+      "q05": 128.0,
+      "q25": 128.0,
+      "q50": 128.0,
+      "q75": 128.0,
+      "q95": 128.0
+    },
+    "low_segment_seconds": {
+      "n": 5,
+      "q05": 9.6,
+      "q25": 16.0,
+      "q50": 16.0,
+      "q75": 136.0,
+      "q95": 148.8
+    }
+  },
+  {
+    "seed": 42,
+    "part": "development",
+    "high_fail_points": 26,
+    "unique_low_segments": 2,
+    "same_low_segment_has_high": 5,
+    "no_same_low_segment_high": 21,
+    "no_high_in_full_finite_segment": 0,
+    "nearest_full_high_distances_seconds": {
+      "n": 26,
+      "q05": 138.0,
+      "q25": 162.0,
+      "q50": 212.0,
+      "q75": 262.0,
+      "q95": 302.0
+    },
+    "same_low_high_distances_seconds": {
+      "n": 5,
+      "q05": 129.6,
+      "q25": 136.0,
+      "q50": 144.0,
+      "q75": 152.0,
+      "q95": 158.4
+    },
+    "low_segment_seconds": {
+      "n": 26,
+      "q05": 176.0,
+      "q25": 176.0,
+      "q50": 176.0,
+      "q75": 176.0,
+      "q95": 264.0
+    }
+  },
+  {
+    "seed": 1019,
+    "part": "source_4",
+    "high_fail_points": 0,
+    "unique_low_segments": 0,
+    "same_low_segment_has_high": 0,
+    "no_same_low_segment_high": 0,
+    "no_high_in_full_finite_segment": 0,
+    "nearest_full_high_distances_seconds": {
+      "n": 0
+    },
+    "same_low_high_distances_seconds": {
+      "n": 0
+    },
+    "low_segment_seconds": {
+      "n": 0
+    }
+  },
+  {
+    "seed": 1019,
+    "part": "source_5",
+    "high_fail_points": 5,
+    "unique_low_segments": 2,
+    "same_low_segment_has_high": 3,
+    "no_same_low_segment_high": 2,
+    "no_high_in_full_finite_segment": 0,
+    "nearest_full_high_distances_seconds": {
+      "n": 5,
+      "q05": 129.6,
+      "q25": 136.0,
+      "q50": 144.0,
+      "q75": 160.0,
+      "q95": 166.4
+    },
+    "same_low_high_distances_seconds": {
+      "n": 3,
+      "q05": 128.8,
+      "q25": 132.0,
+      "q50": 136.0,
+      "q75": 140.0,
+      "q95": 143.2
+    },
+    "low_segment_seconds": {
+      "n": 5,
+      "q05": 16.0,
+      "q25": 16.0,
+      "q50": 160.0,
+      "q75": 160.0,
+      "q95": 160.0
+    }
+  },
+  {
+    "seed": 1019,
+    "part": "development",
+    "high_fail_points": 61,
+    "unique_low_segments": 9,
+    "same_low_segment_has_high": 0,
+    "no_same_low_segment_high": 61,
+    "no_high_in_full_finite_segment": 0,
+    "nearest_full_high_distances_seconds": {
+      "n": 61,
+      "q05": 136.0,
+      "q25": 208.0,
+      "q50": 520.0,
+      "q75": 2208.0,
+      "q95": 15408.0
+    },
+    "same_low_high_distances_seconds": {
+      "n": 0
+    },
+    "low_segment_seconds": {
+      "n": 61,
+      "q05": 32.0,
+      "q25": 40.0,
+      "q50": 112.0,
+      "q75": 128.0,
+      "q95": 176.0
+    }
+  },
+  {
+    "seed": 2026,
+    "part": "source_4",
+    "high_fail_points": 0,
+    "unique_low_segments": 0,
+    "same_low_segment_has_high": 0,
+    "no_same_low_segment_high": 0,
+    "no_high_in_full_finite_segment": 0,
+    "nearest_full_high_distances_seconds": {
+      "n": 0
+    },
+    "same_low_high_distances_seconds": {
+      "n": 0
+    },
+    "low_segment_seconds": {
+      "n": 0
+    }
+  },
+  {
+    "seed": 2026,
+    "part": "source_5",
+    "high_fail_points": 6,
+    "unique_low_segments": 2,
+    "same_low_segment_has_high": 0,
+    "no_same_low_segment_high": 6,
+    "no_high_in_full_finite_segment": 0,
+    "nearest_full_high_distances_seconds": {
+      "n": 6,
+      "q05": 130.0,
+      "q25": 138.0,
+      "q50": 148.0,
+      "q75": 158.0,
+      "q95": 178.0
+    },
+    "same_low_high_distances_seconds": {
+      "n": 0
+    },
+    "low_segment_seconds": {
+      "n": 6,
+      "q05": 26.0,
+      "q25": 80.0,
+      "q50": 80.0,
+      "q75": 80.0,
+      "q95": 80.0
+    }
+  },
+  {
+    "seed": 2026,
+    "part": "development",
+    "high_fail_points": 11,
+    "unique_low_segments": 2,
+    "same_low_segment_has_high": 8,
+    "no_same_low_segment_high": 3,
+    "no_high_in_full_finite_segment": 0,
+    "nearest_full_high_distances_seconds": {
+      "n": 11,
+      "q05": 128.0,
+      "q25": 136.0,
+      "q50": 144.0,
+      "q75": 164.0,
+      "q95": 180.0
+    },
+    "same_low_high_distances_seconds": {
+      "n": 8,
+      "q05": 130.8,
+      "q25": 142.0,
+      "q50": 156.0,
+      "q75": 170.0,
+      "q95": 181.2
+    },
+    "low_segment_seconds": {
+      "n": 11,
+      "q05": 64.0,
+      "q25": 128.0,
+      "q50": 192.0,
+      "q75": 192.0,
+      "q95": 192.0
+    }
+  }
+]

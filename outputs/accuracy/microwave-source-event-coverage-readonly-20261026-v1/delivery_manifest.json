@@ -1,0 +1,11 @@
+{
+  "status": "completed_readonly_supplement",
+  "files": {
+    "delivery_manifest.json": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "README.zh.md": "bc75963065bb7e2bae2350daafd8142919394a7fef5b29c665ef427d01dcadd5",
+    "readonly.py": "3c8841432004ce6c09921cc9c3f0d2e510e9fe71cf4e7cd2edb981c0a4358482",
+    "readonly_validation.json": "d9f4503c0bc850f8ee0ca73045c8e3fde74a6971682bf2b49c1be3fec0a07144"
+  },
+  "original_sealed_directory_modified": false,
+  "raw_data_rescanned": false
+}

@@ -1,0 +1,55 @@
+test_actual_synthetic_source_calibration_and_source_only_rejection (__main__.Task18Tests.test_actual_synthetic_source_calibration_and_source_only_rejection) ... 
+  test_actual_synthetic_source_calibration_and_source_only_rejection (__main__.Task18Tests.test_actual_synthetic_source_calibration_and_source_only_rejection) (flat=False) ... ERROR
+  test_actual_synthetic_source_calibration_and_source_only_rejection (__main__.Task18Tests.test_actual_synthetic_source_calibration_and_source_only_rejection) (flat=True) ... ERROR
+test_core_missing_context_and_role_boundaries (__main__.Task18Tests.test_core_missing_context_and_role_boundaries) ... ok
+test_exact_isolation_and_source_code_exception (__main__.Task18Tests.test_exact_isolation_and_source_code_exception) ... ok
+test_expected_exposure_day_event_center_balance (__main__.Task18Tests.test_expected_exposure_day_event_center_balance) ... ok
+test_first_gate_and_old_receipts (__main__.Task18Tests.test_first_gate_and_old_receipts) ... ok
+freeze/readback A seed=42: exact
+freeze/readback W50 seed=42: exact
+freeze/readback control_guard95 seed=42: exact
+freeze/readback expanded_guard95 seed=42: exact
+freeze/readback A seed=1019: exact
+freeze/readback W50 seed=1019: exact
+freeze/readback control_guard95 seed=1019: exact
+freeze/readback expanded_guard95 seed=1019: exact
+freeze/readback A seed=2026: exact
+freeze/readback W50 seed=2026: exact
+freeze/readback control_guard95 seed=2026: exact
+freeze/readback expanded_guard95 seed=2026: exact
+test_full_137523_twelve_cell_public_cli_freeze_once_evaluate_readonly (__main__.Task18Tests.test_full_137523_twelve_cell_public_cli_freeze_once_evaluate_readonly) ... ok
+test_native_hold_gap_issues_and_nan (__main__.Task18Tests.test_native_hold_gap_issues_and_nan) ... ok
+test_receipt_all_fields_bound (__main__.Task18Tests.test_receipt_all_fields_bound) ... ok
+test_source_low_recall_degenerate_ties (__main__.Task18Tests.test_source_low_recall_degenerate_ties) ... ok
+test_train_complete_writes_hashes_under_real_isolation_no_optimizer (__main__.Task18Tests.test_train_complete_writes_hashes_under_real_isolation_no_optimizer) ... ok
+
+======================================================================
+ERROR: test_actual_synthetic_source_calibration_and_source_only_rejection (__main__.Task18Tests.test_actual_synthetic_source_calibration_and_source_only_rejection) (flat=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\system position\document\�������ĵ�\AIC\tests\test_microwave_expanded_guard95.py", line 133, in test_actual_synthetic_source_calibration_and_source_only_rejection
+    out=e.source(run,auth)
+  File "D:\system position\document\�������ĵ�\AIC\src\virtual_submeter\accuracy\microwave_expanded_guard95.py", line 301, in wrapped
+    result=fn(run,authorization=authorization,**kw)
+  File "D:\system position\document\�������ĵ�\AIC\src\virtual_submeter\accuracy\microwave_expanded_guard95.py", line 381, in source
+    require(frozen['guard95_eligible'] and frozen['selected']=='guard95','Frozen control no longer source qualified')
+            ~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: 'guard95_eligible'
+
+======================================================================
+ERROR: test_actual_synthetic_source_calibration_and_source_only_rejection (__main__.Task18Tests.test_actual_synthetic_source_calibration_and_source_only_rejection) (flat=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\system position\document\�������ĵ�\AIC\tests\test_microwave_expanded_guard95.py", line 133, in test_actual_synthetic_source_calibration_and_source_only_rejection
+    out=e.source(run,auth)
+  File "D:\system position\document\�������ĵ�\AIC\src\virtual_submeter\accuracy\microwave_expanded_guard95.py", line 301, in wrapped
+    result=fn(run,authorization=authorization,**kw)
+  File "D:\system position\document\�������ĵ�\AIC\src\virtual_submeter\accuracy\microwave_expanded_guard95.py", line 381, in source
+    require(frozen['guard95_eligible'] and frozen['selected']=='guard95','Frozen control no longer source qualified')
+            ~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: 'guard95_eligible'
+
+----------------------------------------------------------------------
+Ran 10 tests in 231.559s
+
+FAILED (errors=2)

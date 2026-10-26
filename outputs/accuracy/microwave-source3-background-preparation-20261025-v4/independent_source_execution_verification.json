@@ -1,0 +1,80 @@
+{
+  "status": "independent_source_rejection_and_exposure_verification_passed",
+  "source_verification": {
+    "source_qualified": false,
+    "selected": "control_guard95",
+    "rows": [
+      {
+        "seed": 42,
+        "precision": 0.21043751330636576,
+        "recall": 0.9702488687782806,
+        "f1": 0.3458453133985049,
+        "degenerate": false,
+        "source_gate_passed": true
+      },
+      {
+        "seed": 1019,
+        "precision": 0.2891246684350133,
+        "recall": 0.9548642533936652,
+        "f1": 0.44377289377289375,
+        "degenerate": false,
+        "source_gate_passed": true
+      },
+      {
+        "seed": 2026,
+        "precision": 0.18080412395437562,
+        "recall": 0.9702488687782806,
+        "f1": 0.3048019965049996,
+        "degenerate": false,
+        "source_gate_passed": true
+      }
+    ]
+  },
+  "exposure": [
+    {
+      "seed": 42,
+      "updates": 3528,
+      "synthetic_slots": 28224,
+      "unique_template_windows": 214,
+      "original_index_trace_exact": true,
+      "actual_template_background_counts_exact": true,
+      "model_sha256": "37579c92e99691ea883307225af9e17d1ce8a80c27564c772417fd7a159e816f"
+    },
+    {
+      "seed": 1019,
+      "updates": 3528,
+      "synthetic_slots": 28224,
+      "unique_template_windows": 214,
+      "original_index_trace_exact": true,
+      "actual_template_background_counts_exact": true,
+      "model_sha256": "c59f421244d91745c70036e1b83eec01e6adf63c849c295ceb538b269960fec6"
+    },
+    {
+      "seed": 2026,
+      "updates": 3528,
+      "synthetic_slots": 28224,
+      "unique_template_windows": 214,
+      "original_index_trace_exact": true,
+      "actual_template_background_counts_exact": true,
+      "model_sha256": "003e032001f2d2774b23460b7e7471043443e081c56e43e8b6d07b2507aa19c9"
+    }
+  ],
+  "access_logs_checked": [
+    "prepare_access.json",
+    "source_select_access.json",
+    "train_access.json",
+    "verify_execution_access.json",
+    "verify_preparation_access.json",
+    "verify_preparation_access_1.json"
+  ],
+  "new_fits": 3,
+  "updates": 10584,
+  "control_retrains": 0,
+  "development_numerical_reads": 0,
+  "development_predictions": 0,
+  "truth_cache_reads": 0,
+  "final_house_reads": 0,
+  "default_changed": false,
+  "registration_sha256": "e2dc9fdf165bff1e57dc9456bf6880b2e79d372213de863857fc3f10157f3535",
+  "source_selection_sha256": "84668d2541972cdc3a14bfd947e3eaf940fa16526c8b28e11a6047bed77aeca5"
+}

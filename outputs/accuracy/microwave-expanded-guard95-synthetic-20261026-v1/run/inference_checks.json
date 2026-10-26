@@ -1,0 +1,88 @@
+{
+  "checks": [
+    {
+      "arm": "A",
+      "seed": 42,
+      "ordinary_cli_exact": true,
+      "raw_A_and_other_states_exact": true,
+      "support_exact": true
+    },
+    {
+      "arm": "W50",
+      "seed": 42,
+      "ordinary_cli_exact": true,
+      "raw_A_and_other_states_exact": true,
+      "support_exact": true
+    },
+    {
+      "arm": "control_guard95",
+      "seed": 42,
+      "ordinary_cli_exact": true,
+      "raw_A_and_other_states_exact": true,
+      "support_exact": true
+    },
+    {
+      "arm": "expanded_guard95",
+      "seed": 42,
+      "ordinary_cli_exact": true,
+      "raw_A_and_other_states_exact": true,
+      "support_exact": true
+    },
+    {
+      "arm": "A",
+      "seed": 1019,
+      "ordinary_cli_exact": true,
+      "raw_A_and_other_states_exact": true,
+      "support_exact": true
+    },
+    {
+      "arm": "W50",
+      "seed": 1019,
+      "ordinary_cli_exact": true,
+      "raw_A_and_other_states_exact": true,
+      "support_exact": true
+    },
+    {
+      "arm": "control_guard95",
+      "seed": 1019,
+      "ordinary_cli_exact": true,
+      "raw_A_and_other_states_exact": true,
+      "support_exact": true
+    },
+    {
+      "arm": "expanded_guard95",
+      "seed": 1019,
+      "ordinary_cli_exact": true,
+      "raw_A_and_other_states_exact": true,
+      "support_exact": true
+    },
+    {
+      "arm": "A",
+      "seed": 2026,
+      "ordinary_cli_exact": true,
+      "raw_A_and_other_states_exact": true,
+      "support_exact": true
+    },
+    {
+      "arm": "W50",
+      "seed": 2026,
+      "ordinary_cli_exact": true,
+      "raw_A_and_other_states_exact": true,
+      "support_exact": true
+    },
+    {
+      "arm": "control_guard95",
+      "seed": 2026,
+      "ordinary_cli_exact": true,
+      "raw_A_and_other_states_exact": true,
+      "support_exact": true
+    },
+    {
+      "arm": "expanded_guard95",
+      "seed": 2026,
+      "ordinary_cli_exact": true,
+      "raw_A_and_other_states_exact": true,
+      "support_exact": true
+    }
+  ]
+}

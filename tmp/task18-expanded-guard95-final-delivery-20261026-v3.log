@@ -1,0 +1,16 @@
+{
+  "status": "preparation_delivered_waiting_for_new_human_budget",
+  "run": "D:\\system position\\document\\�������ĵ�\\AIC\\outputs\\accuracy\\microwave-expanded-guard95-preparation-20261026-v3",
+  "registration_sha256": "11dd4f8d9fdf68d2740c4b643a869ae462e21f4518eb309aacdb89eb92d11040",
+  "delivery_manifest_sha256": "49cd456838c0619067ede69caa3bc0236a4d9d592a630a1adfe7e94d7a3ece3b",
+  "artifact_count": 133,
+  "verification": {
+    "status": "preparation_verified",
+    "new_fits": 0,
+    "optimizer_updates": 0,
+    "development_reads": 0,
+    "registration_sha256": "11dd4f8d9fdf68d2740c4b643a869ae462e21f4518eb309aacdb89eb92d11040"
+  },
+  "new_fits": 0,
+  "optimizer_updates": 0
+}

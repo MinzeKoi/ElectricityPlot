@@ -1,0 +1,72 @@
+{
+  "task": "Task19_fixed_point_fit_generalization_diagnostic",
+  "registration_sha256": "11dd4f8d9fdf68d2740c4b643a869ae462e21f4518eb309aacdb89eb92d11040",
+  "families": [
+    "control",
+    "expanded"
+  ],
+  "seeds": [
+    42,
+    1019,
+    2026
+  ],
+  "datasets": [
+    "train",
+    "block_4",
+    "block_5"
+  ],
+  "views": [
+    "original_support",
+    "strict_core31"
+  ],
+  "allowed_paths": [
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-expanded-guard95-preparation-20261026-v3\\registration.json",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-expanded-guard95-preparation-20261026-v3\\execution_delivery_manifest.json",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-expanded-guard95-preparation-20261026-v3\\source_selection.json",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-expanded-guard95-preparation-20261026-v3\\protocol.md",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-expanded-guard95-preparation-20261026-v3\\normalization.json",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-expanded-guard95-preparation-20261026-v3\\train.npz",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-expanded-guard95-preparation-20261026-v3\\validation\\block_4.npz",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-expanded-guard95-preparation-20261026-v3\\validation\\block_5.npz",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-temporal-20261025-v2\\train.npz",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_BCE\\seed_42\\model.json",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_BCE\\seed_42\\weights.pt",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_BCE\\seed_1019\\model.json",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_BCE\\seed_1019\\weights.pt",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_BCE\\seed_2026\\model.json",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_BCE\\seed_2026\\weights.pt",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-expanded-guard95-preparation-20261026-v3\\models\\expanded\\seed_42\\model.json",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-expanded-guard95-preparation-20261026-v3\\models\\expanded\\seed_42\\weights.pt",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-expanded-guard95-preparation-20261026-v3\\models\\expanded\\seed_1019\\model.json",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-expanded-guard95-preparation-20261026-v3\\models\\expanded\\seed_1019\\weights.pt",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-expanded-guard95-preparation-20261026-v3\\models\\expanded\\seed_2026\\model.json",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-expanded-guard95-preparation-20261026-v3\\models\\expanded\\seed_2026\\weights.pt",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-expanded-guard95-preparation-20261026-v3\\source\\virtual_submeter\\__init__.py",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-expanded-guard95-preparation-20261026-v3\\source\\virtual_submeter\\models\\__init__.py",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-expanded-guard95-preparation-20261026-v3\\source\\virtual_submeter\\models\\center_mask_tcn.py",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-expanded-guard95-preparation-20261026-v3\\source\\virtual_submeter\\models\\arrays.py",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-expanded-guard95-preparation-20261026-v3\\source\\virtual_submeter\\data\\__init__.py",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-expanded-guard95-preparation-20261026-v3\\source\\virtual_submeter\\data\\common.py"
+  ],
+  "authorization": {
+    "source_chat": "01a16d7b-478e-7780-a999-88abe71e8c94",
+    "source_call": "call_cd2c248bdc154827ba1069b2e2faf96f",
+    "human_quote": "允许新开并执行拟合／泛化诊断"
+  },
+  "new_fits": 0,
+  "optimizer_updates": 0,
+  "threshold_searches": 0,
+  "checkpoint_searches": 0,
+  "development_reads": 0,
+  "final_reads": 0,
+  "default_changes": 0,
+  "label": "center original y >= 200W",
+  "threshold": "model.json decision_threshold_probability unchanged; >=",
+  "ap": "noninterpolated step AP; all equal scores grouped; no positive support => null",
+  "groups": "all dataset/partition/role/UTC date/UTC date-event groups; data-defined before inference",
+  "event_warning": "observable threshold fragments and supported IDs; not independent physical cycles",
+  "strict_view": "original mask[:,48:79].all; unchanged C127 input and mask",
+  "partial_inference": "frozen tensor_input + eval + inference_mode, same normalization; ordinary API rejects partial core",
+  "forbidden_data": "House17 development and final Houses8/9/20; no values/hash/shape",
+  "external_validity": "same-house engineering contrast; added dates already audited and used by expanded; no new blind test"
+}

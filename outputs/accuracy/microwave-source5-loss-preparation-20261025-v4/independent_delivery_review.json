@@ -1,0 +1,88 @@
+{
+  "status": "independent_delivery_review_passed",
+  "real_new_fits": 3,
+  "updates": 10584,
+  "control_retrains": 0,
+  "original_137523_support_exact": true,
+  "all_confusions_scalar_exact": true,
+  "raw_A_all_columns_exact": true,
+  "source_selection_sha256": "e4d0f855021ae85f6dfc9d31cdbd351f362a80fbf8d2d2bc791ab7a6e70ed9ec",
+  "freeze_sha256": "aa971ccf2cefeb3c69eb1cbb1f23dfe4cbcfe6cb2ed6d87a52f85e89a5dae976",
+  "source_unique_selected": "new_gate",
+  "acceptance_gates_independently_recomputed": {
+    "mean_P_at_least_008": true,
+    "each_R_at_least_085": false,
+    "mean_F1_gain_at_least_002": true,
+    "at_least_two_seed_P_F1_up": true,
+    "each_F1_drop_at_most_002": true,
+    "mean_FP_reduction_at_least_30_percent": true,
+    "no_new_all_on_or_off": true,
+    "support_137523_exact": true
+  },
+  "paired_development_deltas": {
+    "new_point_minus_old_point": [
+      {
+        "seed": 42,
+        "precision": 0.0019036741075004956,
+        "recall": -0.0026109660574412663,
+        "f1": 0.0034693856017579128,
+        "fp": -373,
+        "tp": -1,
+        "fn": 1,
+        "tn": 373
+      },
+      {
+        "seed": 1019,
+        "precision": 0.03755757976401417,
+        "recall": -0.018276762402088753,
+        "f1": 0.06549464604380126,
+        "fp": -3698,
+        "tp": -7,
+        "fn": 7,
+        "tn": 3698
+      },
+      {
+        "seed": 2026,
+        "precision": 0.0019119740593103382,
+        "recall": 0.0,
+        "f1": 0.0035002795092937827,
+        "fp": -368,
+        "tp": 0,
+        "fn": 0,
+        "tn": 368
+      }
+    ],
+    "new_gate_minus_old_gate": [
+      {
+        "seed": 42,
+        "precision": 0.002542961866784904,
+        "recall": -0.06527415143603132,
+        "f1": 0.004334130500297476,
+        "fp": -930,
+        "tp": -25,
+        "fn": 25,
+        "tn": 930
+      },
+      {
+        "seed": 1019,
+        "precision": 0.1080292814431385,
+        "recall": -0.11488250652741516,
+        "f1": 0.16816639096457703,
+        "fp": -5160,
+        "tp": -44,
+        "fn": 44,
+        "tn": 5160
+      },
+      {
+        "seed": 2026,
+        "precision": 0.009852733924486982,
+        "recall": -0.018276762402088864,
+        "f1": 0.017755638605969903,
+        "fp": -1679,
+        "tp": -7,
+        "fn": 7,
+        "tn": 1679
+      }
+    ]
+  }
+}

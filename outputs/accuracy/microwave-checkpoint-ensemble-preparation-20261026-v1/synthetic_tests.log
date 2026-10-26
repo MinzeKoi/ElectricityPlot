@@ -1,0 +1,16 @@
+test_access_denies_dev_final_even_allowlisted (test_microwave_checkpoint_ensemble.Task16.test_access_denies_dev_final_even_allowlisted) ... ok
+test_actual_synthetic_checkpoint_inference_no_fit (test_microwave_checkpoint_ensemble.Task16.test_actual_synthetic_checkpoint_inference_no_fit) ... ok
+test_authorization_first_every_stage (test_microwave_checkpoint_ensemble.Task16.test_authorization_first_every_stage) ... ok
+test_full_synthetic_freeze_evaluate_verify_and_resealed_tamper (test_microwave_checkpoint_ensemble.Task16.test_full_synthetic_freeze_evaluate_verify_and_resealed_tamper) ... ok
+test_incomplete_freeze_rejected_before_truth (test_microwave_checkpoint_ensemble.Task16.test_incomplete_freeze_rejected_before_truth) ... ok
+test_mean_dtype_nan_support (test_microwave_checkpoint_ensemble.Task16.test_mean_dtype_nan_support) ... ok
+test_qualification_low_recall_all_off_and_ties (test_microwave_checkpoint_ensemble.Task16.test_qualification_low_recall_all_off_and_ties) ... ok
+test_scalar_tamper_and_original_gates (test_microwave_checkpoint_ensemble.Task16.test_scalar_tamper_and_original_gates) ... ok
+test_seed_isolation_and_ordinary_exact (test_microwave_checkpoint_ensemble.Task16.test_seed_isolation_and_ordinary_exact) ... ok
+test_sort_ties_and_no_fallback (test_microwave_checkpoint_ensemble.Task16.test_sort_ties_and_no_fallback) ... ok
+test_synthetic_source_full_stage_scalar_replay_and_tamper (test_microwave_checkpoint_ensemble.Task16.test_synthetic_source_full_stage_scalar_replay_and_tamper) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 15.087s
+
+OK

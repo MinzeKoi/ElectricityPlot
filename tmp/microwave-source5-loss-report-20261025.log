@@ -1,0 +1,41 @@
+{
+  "selected_before_development": "new_gate",
+  "development_acceptance_passed": false,
+  "acceptance_gates": {
+    "mean_P_at_least_008": true,
+    "each_R_at_least_085": false,
+    "mean_F1_gain_at_least_002": true,
+    "at_least_two_seed_P_F1_up": true,
+    "each_F1_drop_at_most_002": true,
+    "mean_FP_reduction_at_least_30_percent": true,
+    "no_new_all_on_or_off": true,
+    "support_137523_exact": true
+  },
+  "formal_means": {
+    "A": {
+      "precision": 0.04012808999869747,
+      "recall": 0.9242819843342036,
+      "f1": 0.07691297343567473,
+      "fp": 8482.0
+    },
+    "W50": {
+      "precision": 0.04012808999869747,
+      "recall": 0.9242819843342036,
+      "f1": 0.07691297343567473,
+      "fp": 8482.0
+    },
+    "new_gate": {
+      "precision": 0.08571581494952664,
+      "recall": 0.8764142732811141,
+      "f1": 0.15033862341034895,
+      "fp": 4988.333333333333
+    }
+  },
+  "other_candidates_diagnostic_only": true,
+  "power_improvement_claim": false,
+  "default_changed": false,
+  "independent_new_house_validation": false,
+  "development_is_repeated_House17": true,
+  "new_fits": 3,
+  "updates": 10584
+}

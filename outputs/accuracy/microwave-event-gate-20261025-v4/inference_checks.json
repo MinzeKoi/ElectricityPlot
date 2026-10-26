@@ -1,0 +1,38 @@
+{
+  "checks": [
+    {
+      "seed": 42,
+      "parent_ordinary_exact": true,
+      "gate_ordinary_exact": true,
+      "gate_available": true,
+      "public_recipe_eligible": true,
+      "raw_A_exact": true,
+      "original_W50_support_exact": true,
+      "parent_weights_sha256": "ddf6102395d38a8f360dd9a8afac5cf64db18b8e1227ecac7ef30e0aae0f55dc",
+      "finite_score_count": 139437
+    },
+    {
+      "seed": 1019,
+      "parent_ordinary_exact": true,
+      "gate_ordinary_exact": true,
+      "gate_available": true,
+      "public_recipe_eligible": true,
+      "raw_A_exact": true,
+      "original_W50_support_exact": true,
+      "parent_weights_sha256": "70b20e41682ac2ee7cad5d4dc98dbb9034b480a4bdfff59245639e214011e8b6",
+      "finite_score_count": 139437
+    },
+    {
+      "seed": 2026,
+      "parent_ordinary_exact": true,
+      "gate_ordinary_exact": true,
+      "gate_available": true,
+      "public_recipe_eligible": true,
+      "raw_A_exact": true,
+      "original_W50_support_exact": true,
+      "parent_weights_sha256": "2a8149dc5bfb67ad5872df087f236afb99766335f86dbc04b564c942f9d9178b",
+      "finite_score_count": 139437
+    }
+  ],
+  "house17_truth_opened": false
+}

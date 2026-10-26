@@ -1,0 +1,18 @@
+test_ap_permutation_invariant (test_task19_fixed_diagnostic.FixedDiagnosticTests.test_ap_permutation_invariant) ... ok
+test_cache_threshold_mapping_and_nan_tamper (test_task19_fixed_diagnostic.FixedDiagnosticTests.test_cache_threshold_mapping_and_nan_tamper) ... ok
+test_delivery_hash_mtime_replay (test_task19_fixed_diagnostic.FixedDiagnosticTests.test_delivery_hash_mtime_replay) ... ok
+test_exact_interface_and_partial_forward (test_task19_fixed_diagnostic.FixedDiagnosticTests.test_exact_interface_and_partial_forward) ... ok
+test_exact_path_isolation (test_task19_fixed_diagnostic.FixedDiagnosticTests.test_exact_path_isolation) ... ok
+test_identity_duplicates_masks_and_block (test_task19_fixed_diagnostic.FixedDiagnosticTests.test_identity_duplicates_masks_and_block) ... ok
+test_incomplete_prediction_matrix (test_task19_fixed_diagnostic.FixedDiagnosticTests.test_incomplete_prediction_matrix) ... ok
+test_live_backward_optimizer_and_io_guard (test_task19_fixed_diagnostic.FixedDiagnosticTests.test_live_backward_optimizer_and_io_guard) ... ok
+test_readback_preserves_original_incomplete_batch (test_task19_fixed_diagnostic.FixedDiagnosticTests.test_readback_preserves_original_incomplete_batch) ... ok
+test_report_chooses_partition_when_dataset_row_also_exists (test_task19_fixed_diagnostic.FixedDiagnosticTests.test_report_chooses_partition_when_dataset_row_also_exists) ... ok
+test_support_and_predefined_groups_do_not_use_scores (test_task19_fixed_diagnostic.FixedDiagnosticTests.test_support_and_predefined_groups_do_not_use_scores) ... ok
+test_threshold_boundary_and_no_nan (test_task19_fixed_diagnostic.FixedDiagnosticTests.test_threshold_boundary_and_no_nan) ... ok
+test_tied_ap_and_single_classes (test_task19_fixed_diagnostic.FixedDiagnosticTests.test_tied_ap_and_single_classes) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 2.788s
+
+OK

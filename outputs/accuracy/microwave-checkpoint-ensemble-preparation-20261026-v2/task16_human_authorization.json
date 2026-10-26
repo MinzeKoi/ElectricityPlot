@@ -1,0 +1,17 @@
+{
+  "experiment": "microwave_checkpoint_ensemble_task16_v1",
+  "authorized": true,
+  "approval_origin": "human",
+  "approved_rule": "same_seed_source85_top3_equal_probability_L95_H95_radius15",
+  "new_fits": 0,
+  "optimizer_updates": 0,
+  "seeds": [
+    42,
+    1019,
+    2026
+  ],
+  "registration_sha256": "05549f89f64be40db82844d488d42327468f95cd7db3a7b56a80a67b7359c8d0",
+  "human_authorization_quote": "允许独立零训练融合对照",
+  "human_authorization_reference": "root chat 01a16d7b-478e-7780-a999-88abe71e8c94 request_user_input_async call_e7c0205fdd21421e944ac465ff17e3fb; delegated execution instruction in Task16 chat",
+  "scope": "Frozen v2 source prefilter, only if qualified full 12-cell freeze and ordinary CLI readback, one development evaluation and independent verification; final houses isolated; no fitting, optimizer updates, search, or development-driven reselection"
+}

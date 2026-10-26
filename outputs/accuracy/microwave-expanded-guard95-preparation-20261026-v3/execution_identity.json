@@ -1,0 +1,17 @@
+{
+  "experiment": "microwave_expanded_guard95_task18_v1",
+  "registration_sha256": "11dd4f8d9fdf68d2740c4b643a869ae462e21f4518eb309aacdb89eb92d11040",
+  "preparation_manifest_sha256": "49cd456838c0619067ede69caa3bc0236a4d9d592a630a1adfe7e94d7a3ece3b",
+  "authorization_sha256": "3e845bfe546916375b82e46e8c09163e76b1f4165f7264270781c893bb9fa732",
+  "frozen_implementation_sha256": "17838379de35aa40cab1fe175a4a5551b00c05f5e39e14d085bbd8beade76a68",
+  "authorized_new_fits": 3,
+  "authorized_updates": 19404,
+  "control_retraining": false,
+  "verification_before_training": {
+    "status": "preparation_verified",
+    "new_fits": 0,
+    "optimizer_updates": 0,
+    "development_reads": 0,
+    "registration_sha256": "11dd4f8d9fdf68d2740c4b643a869ae462e21f4518eb309aacdb89eb92d11040"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "family": "control",
+  "seed": 2026,
+  "dataset": "block_5",
+  "model_json_sha256": "4df2a277c655487c2287f97dec58b13ba8ca52e0df888d3e06e7859be87834c6",
+  "weights_sha256": "e89dc1a8f2ee73af3a93edfc594d5956ad7ba42575fb0d80f8fe4a68aeafa815",
+  "input_sha256": "7c3c78b99279a95ba76eb362c38298887d40d1236ea2fdaa02f39a2a46ab6f4f",
+  "identity_sha256": "2df49621d1c5ed30c695f0fd15f78ee28f3fa136a23d28fa4cd8e4c77aee053c",
+  "threshold": 0.0628107488155365,
+  "prediction_sha256": "2dddf28c8510816c90ad418ad7ec9ef68f869ad652656be78f0e21ca6269a581",
+  "probability_sha256": "c69faf81660de154fd7ac958925ac37f57d5bfcda99ff60d2808203753d4af59"
+}

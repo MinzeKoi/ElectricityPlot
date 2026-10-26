@@ -1,0 +1,9 @@
+{
+  "coordinator_execution_message": "Task 8 delegated instruction explicitly authorizes prepare, required tests, fixed six new fits, freeze, one development evaluation and complete delivery. Parent correctness review terminal/pass; 6 sealed tests and 21 parent regression tests pass.",
+  "train": true,
+  "maximum_fits": 6,
+  "registration_sha256": "2f42dc822e28476dce632e4df45af7ebc86a3efb3f9fc0be9bf3acfd91dadfd0",
+  "evaluate": true,
+  "freeze_sha256": "6bb27cac7b0c483cf225514369b1d361e3264df4eb3b847f816c69f7ddd3ecc1",
+  "resumption_verification_sha256": "661af556bfbeea1404c9cb20264e95dc90097457f25aabed0b6597180aad5918"
+}

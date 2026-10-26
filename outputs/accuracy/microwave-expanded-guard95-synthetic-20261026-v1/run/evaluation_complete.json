@@ -1,0 +1,15 @@
+{
+  "freeze_sha256": "e442eb6ec0d1ed1fda3425e41da201f12a4effd7a09f4d3a9e051e5c4c2a78bc",
+  "truth_cache_sha256": "c6aeb685c8049e875d627246f9b47f2b23bf7979db3199b92cd03ef85437e4d3",
+  "parent_truth_loads": 1,
+  "original_truth_csv_reads": 0,
+  "artifacts": {
+    "confusions.csv": "6a177744ab9bb85e78aab6eca57a9d42d6e4d546e59a57ae07247ffe27fd593b",
+    "metrics.json": "01563f03b6a568d44729a6341b37bba18201f26921c5f099b8723720704c78ce",
+    "paired.csv": "921a68a37257efce29f745448de625fd709536c9d724092eb94249f59fd10b9a",
+    "paired_fp_segments.csv": "d2d8ee3edfc82121ff03a0f1399de9f35d87266d99b008c00ee216c0585ae0fa",
+    "started.json": "698eea2c6bd8206196d816b3d72172cad3ed433c02eb5b8c76143cf3c07e12b4",
+    "summary.json": "27b91d1c6b5f13a777243a0546d776db9f2b44a29f5d7cc45238b1b4ed7b1ad5",
+    "truth_once.npz": "c6aeb685c8049e875d627246f9b47f2b23bf7979db3199b92cd03ef85437e4d3"
+  }
+}

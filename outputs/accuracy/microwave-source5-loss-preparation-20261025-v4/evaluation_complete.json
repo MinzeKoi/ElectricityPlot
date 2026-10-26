@@ -1,0 +1,12 @@
+{
+  "freeze_sha256": "aa971ccf2cefeb3c69eb1cbb1f23dfe4cbcfe6cb2ed6d87a52f85e89a5dae976",
+  "source_selection_sha256": "e4d0f855021ae85f6dfc9d31cdbd351f362a80fbf8d2d2bc791ab7a6e70ed9ec",
+  "truth_csv_parses": 1,
+  "artifacts": {
+    "confusions.csv": "51183c79e7d9a3c9f807859240e56d862b47b4a9b0133b3a2c7ef04e19c71211",
+    "metrics.json": "d584e22452820612e140785005ac89d0056d5c4290cf854fd01ab4a92884219e",
+    "started.json": "003bc6edd0a7e0236de3e58939b9a2b930d05937db52df26d6277ab11fc1d11c",
+    "summary.json": "679dc4fb33a67fe2c24b3008add5fbe8344fe908d76b85cef800e671a838c5f7",
+    "truth_once.npz": "ac48eb4afd718c1ea4348db1d54afab7a804c58676661bf7e1b1aa90a5c1e264"
+  }
+}

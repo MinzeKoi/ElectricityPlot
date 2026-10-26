@@ -1,0 +1,16 @@
+{
+  "schema": "source5_preparation_v1",
+  "artifacts": {
+    "configs/microwave_source5_temporal_20261025.json": "c506439ffd9add39f60634475ffbe12f3b12b07a1b0635f6f2f63766ff74f116",
+    "src/virtual_submeter/accuracy/microwave_source5_temporal.py": "f3a18da24163eed4bba964969590b75b7a95e8f78448f06e10c993b220853e77",
+    "scripts/run_microwave_source5_temporal.py": "1c0826aa7f3f890689e581bceec94e4b39569244407ba3d4892abe442944ec5e",
+    "tests/test_microwave_source5_temporal.py": "f4a084a8a02f915532d5423dcaafebbabd615c9d0bfcb40d2026c26a0b6fe5d6",
+    "docs/MICROWAVE_SOURCE5_TEMPORAL_PLAN_20261025.md": "a751fb264ef81e8d5dade3d9a9d83c493565d1899b3ab13b779f8cc6c8bcf3f1"
+  },
+  "actual_real_fits": 0,
+  "real_training_arrays_built": false,
+  "household_data_reads": 0,
+  "execution_condition_confirmed": false,
+  "source_recipe": null,
+  "maximum_new_fits": 3
+}

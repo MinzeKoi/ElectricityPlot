@@ -1,0 +1,36 @@
+{
+  "schema": "microwave_event_gate_v1",
+  "parent_run": "outputs/accuracy/microwave-source5-temporal-20261025-v2",
+  "parent_arm": "source5",
+  "seeds": [
+    42,
+    1019,
+    2026
+  ],
+  "radius_samples": 15,
+  "interval_seconds": 8,
+  "low_minimum_recall": 0.95,
+  "high_minimum_recall": 0.85,
+  "new_fits": 0,
+  "optimizer_updates": 0,
+  "source_support": [
+    34351,
+    201
+  ],
+  "development_support": 137523,
+  "blocks": [
+    [
+      4,
+      "2014-11-23T00:00:00Z",
+      "2014-11-25T00:00:00Z"
+    ],
+    [
+      5,
+      "2014-11-25T00:00:00Z",
+      "2014-11-27T00:00:00Z"
+    ]
+  ],
+  "score_semantics": "uncalibrated sigmoid state score",
+  "maximum_effective_context_samples": 157,
+  "offline_future_context": true
+}

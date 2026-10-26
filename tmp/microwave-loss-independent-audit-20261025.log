@@ -1,0 +1,97 @@
+{
+  "status": "independently_verified_completed_delivery",
+  "new_starts": 6,
+  "new_successful_fits": 6,
+  "new_failed_starts": 0,
+  "new_updates": 21168,
+  "reused_control_fits": 3,
+  "retrained_control_fits": 0,
+  "confusions_exact": [
+    {
+      "arm": "A",
+      "seed": 42,
+      "exact": true
+    },
+    {
+      "arm": "W50",
+      "seed": 42,
+      "exact": true
+    },
+    {
+      "arm": "TCN127",
+      "seed": 42,
+      "exact": true
+    },
+    {
+      "arm": "importance_BCE50",
+      "seed": 42,
+      "exact": true
+    },
+    {
+      "arm": "unit_BCE",
+      "seed": 42,
+      "exact": true
+    },
+    {
+      "arm": "A",
+      "seed": 1019,
+      "exact": true
+    },
+    {
+      "arm": "W50",
+      "seed": 1019,
+      "exact": true
+    },
+    {
+      "arm": "TCN127",
+      "seed": 1019,
+      "exact": true
+    },
+    {
+      "arm": "importance_BCE50",
+      "seed": 1019,
+      "exact": true
+    },
+    {
+      "arm": "unit_BCE",
+      "seed": 1019,
+      "exact": true
+    },
+    {
+      "arm": "A",
+      "seed": 2026,
+      "exact": true
+    },
+    {
+      "arm": "W50",
+      "seed": 2026,
+      "exact": true
+    },
+    {
+      "arm": "TCN127",
+      "seed": 2026,
+      "exact": true
+    },
+    {
+      "arm": "importance_BCE50",
+      "seed": 2026,
+      "exact": true
+    },
+    {
+      "arm": "unit_BCE",
+      "seed": 2026,
+      "exact": true
+    }
+  ],
+  "common_support": 137523,
+  "raw_power_all_devices_exact": true,
+  "freeze_sha256": "6bb27cac7b0c483cf225514369b1d361e3264df4eb3b847f816c69f7ddd3ecc1",
+  "evaluation_complete_sha256": "dfa8445dd54356a61f05dd1db3f324c494f6c30ac0e034d90280026c77c85414",
+  "parent_budget": {
+    "failed_starts": 1,
+    "successful_fits": 6,
+    "updates": 21462
+  },
+  "final_houses_accessed": false
+}
+null

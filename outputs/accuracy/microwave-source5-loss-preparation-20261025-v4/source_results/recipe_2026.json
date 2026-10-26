@@ -1,0 +1,15 @@
+{
+  "seed": 2026,
+  "seed_feasible": true,
+  "L": 0.0628107488155365,
+  "H": 0.7169492840766907,
+  "radius_samples": 15,
+  "interval_seconds": 8,
+  "parent": "outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_BCE\\seed_2026",
+  "parent_hashes": {
+    "model.json": "4df2a277c655487c2287f97dec58b13ba8ca52e0df888d3e06e7859be87834c6",
+    "weights.pt": "e89dc1a8f2ee73af3a93edfc594d5956ad7ba42575fb0d80f8fe4a68aeafa815"
+  },
+  "algorithm_sha256": "342c1e97707e4053c7d0b8fa438c10e48a445cc378d1fa9796e58a149ead82fd",
+  "reason": null
+}

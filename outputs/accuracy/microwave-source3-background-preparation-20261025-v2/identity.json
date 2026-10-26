@@ -1,0 +1,116 @@
+{
+  "train_sha256": "5d8809260b1d52a6f613422644d9b38454cbe321377039926f87587c0016de7a",
+  "fields": {
+    "house": "11b1f0860a3b052e6d9c7c3a1df5cd4b51e054a6acf9ecbdc0faaa8f569f6b84",
+    "t": "ca010e9504af54e6860f371123234d846727d52b44b20c133136073befe7ee63",
+    "x": "eb59f5d012c39b863de47c074c8bf451995a965d65fd016f0da68cbae3fb09ce",
+    "mask": "5056bf4f3d09c9fb8d24d41bd84d699bf1ba35693eb8d254e367d5102f53da5d",
+    "y": "6ee518f892386bfca0f6b94704e5110f006baa4ff93d6ce7c9687754dbdef06b",
+    "event": "c4fa2d437a731488bd273cc539a00195d8ff6de60cb0e424da3588f7cc10ef71",
+    "raw_index": "eb57e8cbc757b56256a7aadfd169efb45df4403d988a852794f59527ebe9f055"
+  },
+  "normalization_sha256": "6bded76808e2480ce220ab65784f86b605c1c119a86595c1bc9d60f65c83fb26",
+  "source_inputs": {
+    "refit_2": {
+      "aggregate": {
+        "path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-data-audit-20261025-v2\\inputs\\refit_2\\aggregate.csv",
+        "sha256": "3da552d8166d0a0e91b98f49960a15e4a0011dd318f653a6b0359eb02cb37df3"
+      },
+      "microwave": {
+        "path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-data-audit-20261025-v2\\inputs\\refit_2\\microwave.csv",
+        "sha256": "2253ca5be6123a472fe098e3f559958484d9fd01e58ce582cacbda534b051ff8"
+      }
+    },
+    "refit_19": {
+      "aggregate": {
+        "path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-data-audit-20261025-v2\\inputs\\refit_19\\aggregate.csv",
+        "sha256": "2b4a52e98a18d9b39247a9c587d9471da5b7b1c6d8e0d5944dc19194dee46a67"
+      },
+      "microwave": {
+        "path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-data-audit-20261025-v2\\inputs\\refit_19\\microwave.csv",
+        "sha256": "b4b26543fc680a47f2ca5c88d2b393b3d9fc1c2eb6d24c59b44028db99668b7a"
+      }
+    },
+    "refit_5": {
+      "aggregate": {
+        "path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\precision-20261024-v1\\protocol\\data\\source_validation_refit_5_0\\aggregate.csv",
+        "sha256": "b1cc0a12a37b3182164fba3d1ddcc62ba85682bed641302f859095d0dda92525"
+      },
+      "microwave": {
+        "path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\precision-20261024-v1\\protocol\\data\\source_validation_refit_5_0\\microwave.csv",
+        "sha256": "d907c7cb236c9340519722456376ba27339cc63c42db9eadf74e4db4745fcaf3"
+      }
+    }
+  },
+  "model_inputs": {
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_BCE\\seed_42\\model.json": "33ea2ca10445ce9a310b7f2bad92c91fc634f4aa382c183a896b821ec63dc61e",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_BCE\\seed_42\\weights.pt": "5d72837ca4615a1f635bd3162dd0886172757582b3d4c6d97f817c982d5f9dc2",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_BCE\\seed_42\\epoch_5_block_4.npz": "a032561e1b0ca7604cb83d4bf797234bf680235b60ce809e1c28fe526fc39146",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_BCE\\seed_42\\epoch_5_block_5.npz": "b0c398661d1e9a0b9c64dcf7e0d16c6eefe093b6ec4132f157a44cdb96c59378",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_BCE\\seed_1019\\model.json": "e89eff756404adf8e587438a1d757ab225d7f03ab9221fcc95e16aa1805e30a1",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_BCE\\seed_1019\\weights.pt": "75cbb7427dc8372144439bf034a652164e6eeb1a59d6097b426fea259f6300a7",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_BCE\\seed_1019\\epoch_12_block_4.npz": "7c65109f83bf5ee36b18dc762e536df667d159c781b6aa9aadac7c6f52929a2a",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_BCE\\seed_1019\\epoch_12_block_5.npz": "cf79c0c7220aab0b3abb2f117f0e057bc01548e00a95db289c78613ebd1eedbf",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_BCE\\seed_2026\\model.json": "4df2a277c655487c2287f97dec58b13ba8ca52e0df888d3e06e7859be87834c6",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_BCE\\seed_2026\\weights.pt": "e89dc1a8f2ee73af3a93edfc594d5956ad7ba42575fb0d80f8fe4a68aeafa815",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_BCE\\seed_2026\\epoch_11_block_4.npz": "7fb768e917ea910acb215ab54589f55d70dad1c1f0d0460abe83e04e8d87b0ef",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_BCE\\seed_2026\\epoch_11_block_5.npz": "5dc504ab648959da0abe15763b5a3e7037ed1dd703e56903d315352be81a4eac"
+  },
+  "sampling": {
+    "42": {
+      "sha256": "db37a049731345d73879bdccb8ec408534890f2e748dba6a17438c1e98dfc03b",
+      "indices_sha256": "e88795225492b6e980ce0d9f478d4c3ec10cb8f0818aa660d2c81ead64123463"
+    },
+    "1019": {
+      "sha256": "98342e450915b6970e406de50ec2077eb975b454b0a58133ac1703cb91a45f13",
+      "indices_sha256": "cf39bcc82bcf2d311dc44d1d9bf0719a30460717e0273243b7147a034be220c2"
+    },
+    "2026": {
+      "sha256": "cb33f6c9fffb8365d296222901db00e9a7c27249029475cf82b042ef20ccba86",
+      "indices_sha256": "4612891330570e865b873ecda1249293a353280444388219ac4a4f549ca4ddcf"
+    }
+  },
+  "initial": {
+    "42": "a6e8dcc837b3c13548fda478efa1e39e4458fccaf02da6ec81e4884d646c2772",
+    "1019": "3ecce023bbcad16db5d0fa3d63ab24936ae13a2ee00e9cc7d01eb28edcd3ebb3",
+    "2026": "e7d47a36b8ef33058fbc0088aaebe7bbf4eb2a4c42f3f898658a16197165b2c8"
+  },
+  "roles": {
+    "refit_2": [
+      [
+        0,
+        1411972128,
+        1413181728
+      ]
+    ],
+    "refit_19": [
+      [
+        0,
+        1412454160,
+        1413663760
+      ]
+    ],
+    "refit_5": [
+      [
+        0,
+        1416009600,
+        1416182400
+      ],
+      [
+        1,
+        1416182400,
+        1416355200
+      ],
+      [
+        2,
+        1416355200,
+        1416528000
+      ],
+      [
+        3,
+        1416528000,
+        1416699000
+      ]
+    ]
+  }
+}

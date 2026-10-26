@@ -1,0 +1,21 @@
+{
+  "authorization": {
+    "authorized": true,
+    "approval_origin": "human",
+    "experiment": "microwave_source3_background_v1",
+    "registration_sha256": "e2dc9fdf165bff1e57dc9456bf6880b2e79d372213de863857fc3f10157f3535",
+    "additional_new_fits": 3,
+    "maximum_updates": 10584,
+    "seeds": [
+      42,
+      1019,
+      2026
+    ],
+    "approved_augmentation": "fixed_source_template_background_8_of_16",
+    "human_authorization_quote": "允许新增最多3个模型",
+    "human_authorization_reference": "root chat 01a16d7b-478e-7780-a999-88abe71e8c94 request_user_input_async call_3b4b64a624ef4f7899150aa805003ff5; approval relayed explicitly in Task15 by root",
+    "approved_scope": "fixed eight-of-sixteen positive source-template/background augmentation; original three households/network; source95 guard; at most three models/10584 updates; complete freeze, ordinary CLI readback, one development evaluation, independent verification; no retry, no development-driven reselection, no UI default change"
+  },
+  "maximum_new_fits": 3,
+  "maximum_updates": 10584
+}

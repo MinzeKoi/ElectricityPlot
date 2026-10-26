@@ -1,0 +1,15 @@
+{
+  "arms": [
+    "control",
+    "source5"
+  ],
+  "seeds": [
+    42,
+    1019,
+    2026
+  ],
+  "new_fits": 3,
+  "control_fits": 0,
+  "recipe": "control_BCE50",
+  "updates": 3528
+}

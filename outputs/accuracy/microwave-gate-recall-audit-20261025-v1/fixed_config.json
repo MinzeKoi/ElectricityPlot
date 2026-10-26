@@ -1,0 +1,95 @@
+{
+  "parent_run": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4",
+  "selected": "new_gate",
+  "seeds": [
+    42,
+    1019,
+    2026
+  ],
+  "recipes": [
+    {
+      "seed": 42,
+      "seed_feasible": true,
+      "L": 0.09719955176115036,
+      "H": 0.5247966647148132,
+      "radius_samples": 15,
+      "interval_seconds": 8,
+      "parent": "outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_BCE\\seed_42",
+      "parent_hashes": {
+        "model.json": "33ea2ca10445ce9a310b7f2bad92c91fc634f4aa382c183a896b821ec63dc61e",
+        "weights.pt": "5d72837ca4615a1f635bd3162dd0886172757582b3d4c6d97f817c982d5f9dc2"
+      },
+      "algorithm_sha256": "342c1e97707e4053c7d0b8fa438c10e48a445cc378d1fa9796e58a149ead82fd",
+      "reason": null
+    },
+    {
+      "seed": 1019,
+      "seed_feasible": true,
+      "L": 0.11615903675556183,
+      "H": 0.8253527283668518,
+      "radius_samples": 15,
+      "interval_seconds": 8,
+      "parent": "outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_BCE\\seed_1019",
+      "parent_hashes": {
+        "model.json": "e89eff756404adf8e587438a1d757ab225d7f03ab9221fcc95e16aa1805e30a1",
+        "weights.pt": "75cbb7427dc8372144439bf034a652164e6eeb1a59d6097b426fea259f6300a7"
+      },
+      "algorithm_sha256": "342c1e97707e4053c7d0b8fa438c10e48a445cc378d1fa9796e58a149ead82fd",
+      "reason": null
+    },
+    {
+      "seed": 2026,
+      "seed_feasible": true,
+      "L": 0.0628107488155365,
+      "H": 0.7169492840766907,
+      "radius_samples": 15,
+      "interval_seconds": 8,
+      "parent": "outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_BCE\\seed_2026",
+      "parent_hashes": {
+        "model.json": "4df2a277c655487c2287f97dec58b13ba8ca52e0df888d3e06e7859be87834c6",
+        "weights.pt": "e89dc1a8f2ee73af3a93edfc594d5956ad7ba42575fb0d80f8fe4a68aeafa815"
+      },
+      "algorithm_sha256": "342c1e97707e4053c7d0b8fa438c10e48a445cc378d1fa9796e58a149ead82fd",
+      "reason": null
+    }
+  ],
+  "truth_threshold_w": 200,
+  "radius_samples": 15,
+  "interval_seconds": 8,
+  "source_blocks": [
+    4,
+    5
+  ],
+  "evaluation_support": 137523,
+  "positive_support": 383,
+  "new_fits": 0,
+  "optimizer_updates": 0,
+  "threshold_searches": 0,
+  "extra_development_candidates": 0,
+  "final_houses_read": false,
+  "original_development_label_csv_read": false,
+  "source_only_descriptive_groups": {
+    "origin": "source blocks 4/5 true-on evaluation points only",
+    "quartiles": {
+      "power_w": [
+        1153.5,
+        1416.5,
+        1614.375
+      ],
+      "background_w": [
+        478.875,
+        565.0,
+        693.375
+      ]
+    },
+    "bin_rule": "searchsorted(cuts,value,side=right); Q1..Q4",
+    "outer_rule": "full outer_fraction==1; partial outer_fraction<1",
+    "fragment_rule": "maximal observed y>=200 points with adjacent row and UTC delta 8, within evaluation support; not physical cycle"
+  },
+  "replay_command": ".venv-m2/Scripts/python.exe scripts/audit_microwave_gate_recall.py --assert-acceptance",
+  "expected_acceptance_exit_code": 2,
+  "read_only_default_replay": true,
+  "read_only_independent_verifier": true,
+  "full_reaudit_requires_explicit_new_directory": true,
+  "existing_output_rejected": true
+}

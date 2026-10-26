@@ -1,0 +1,23 @@
+{
+  "predictions": [
+    "control/42",
+    "control/1019",
+    "control/2026",
+    "source5/42",
+    "source5/1019",
+    "source5/2026"
+  ],
+  "source_selection_sha256": "ed0f373ff0971fb67ed46bcc0a8c0f7fb59b485f5f2418b72ed0392b18618bd2",
+  "training_complete_sha256": "e35f9c37506b840476a90481c99f9000c205c4ba5abfa5a716a423e4be2f50c9",
+  "registration_sha256": "99b3092f4f89f837830daefb0b00020e00e2f197aadb8099169e9d523068acb9",
+  "house17_labels_opened": false,
+  "artifacts": {
+    "predictions/control_1019.npz": "6242bf60480a5fab53329c1d732dfd43aeaebe4dfa3e7fc9393df48948d689ed",
+    "predictions/control_2026.npz": "2d74ca7880e1667dfaaa2fba30feec8a74e4fcaef51d275157c62f6dd82c9dce",
+    "predictions/control_42.npz": "392f07092cf1c80245ed1b027149680a9f0ef5b997d95c46457f618f18d52594",
+    "predictions/source5_1019.npz": "606cc708a7646c324e3fc58bf99c8d691704ba01157ebf7760f5299a53fcf7c0",
+    "predictions/source5_2026.npz": "04e21aabe50aeb116768dc12b0fe8ac1bbb985b9f1a8c9411d91268affe29c29",
+    "predictions/source5_42.npz": "0107fb4e8ed393a6a1cb80cdc5af8fdf8b36ca27bc180c50bc7c0cd6745432ff",
+    "inference_checks.json": "0e306b05165693c19bc98eaea16e513522df94f8ee80d83fb16be7ce36c133fd"
+  }
+}

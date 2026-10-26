@@ -1,0 +1,28 @@
+{
+  "rows": [
+    {
+      "seed": 42,
+      "precision": 0.2589796108369798,
+      "recall": 0.903393665158371,
+      "f1": 0.40254096747898926,
+      "source_gate_passed": true,
+      "degenerate": false
+    },
+    {
+      "seed": 1019,
+      "precision": 0.19830508474576272,
+      "recall": 0.903393665158371,
+      "f1": 0.3251129476584022,
+      "source_gate_passed": true,
+      "degenerate": false
+    },
+    {
+      "seed": 2026,
+      "precision": 0.20044647120618853,
+      "recall": 0.8726244343891403,
+      "f1": 0.32590698518676353,
+      "source_gate_passed": true,
+      "degenerate": false
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "sha256": "5d8809260b1d52a6f613422644d9b38454cbe321377039926f87587c0016de7a",
+  "fields_read": [
+    "house",
+    "t",
+    "y",
+    "event"
+  ],
+  "house5_aggregate_only": {
+    "windows": 76898,
+    "positive_centers": 1426
+  }
+}

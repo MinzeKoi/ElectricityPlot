@@ -1,0 +1,283 @@
+{
+  "source_only": true,
+  "selected": "expanded_guard95",
+  "expanded_eligible": true,
+  "source_rejection": null,
+  "rows": {
+    "control_guard95": [
+      {
+        "seed": 42,
+        "precision": 0.2,
+        "recall": 1.0,
+        "f1": 0.3333333333333333,
+        "degenerate": false,
+        "source_gate_passed": true
+      },
+      {
+        "seed": 1019,
+        "precision": 0.2,
+        "recall": 1.0,
+        "f1": 0.3333333333333333,
+        "degenerate": false,
+        "source_gate_passed": true
+      },
+      {
+        "seed": 2026,
+        "precision": 0.2,
+        "recall": 1.0,
+        "f1": 0.3333333333333333,
+        "degenerate": false,
+        "source_gate_passed": true
+      }
+    ],
+    "expanded_guard95": [
+      {
+        "seed": 42,
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.6666666666666666,
+        "degenerate": false,
+        "source_gate_passed": true
+      },
+      {
+        "seed": 1019,
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.6666666666666666,
+        "degenerate": false,
+        "source_gate_passed": true
+      },
+      {
+        "seed": 2026,
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.6666666666666666,
+        "degenerate": false,
+        "source_gate_passed": true
+      }
+    ]
+  },
+  "recipes": [
+    {
+      "seed": 42,
+      "L": 0.6,
+      "H": 0.6,
+      "feasible": true,
+      "blocks": [
+        {
+          "block": "4",
+          "tp": 10,
+          "fp": 10,
+          "fn": 0,
+          "tn": 80,
+          "n": 100,
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6666666666666666,
+          "fpr": 0.1111111111111111,
+          "predicted_on": 20,
+          "degenerate": false
+        },
+        {
+          "block": "5",
+          "tp": 10,
+          "fp": 10,
+          "fn": 0,
+          "tn": 80,
+          "n": 100,
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6666666666666666,
+          "fpr": 0.1111111111111111,
+          "predicted_on": 20,
+          "degenerate": false
+        }
+      ]
+    },
+    {
+      "seed": 1019,
+      "L": 0.6,
+      "H": 0.6,
+      "feasible": true,
+      "blocks": [
+        {
+          "block": "4",
+          "tp": 10,
+          "fp": 10,
+          "fn": 0,
+          "tn": 80,
+          "n": 100,
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6666666666666666,
+          "fpr": 0.1111111111111111,
+          "predicted_on": 20,
+          "degenerate": false
+        },
+        {
+          "block": "5",
+          "tp": 10,
+          "fp": 10,
+          "fn": 0,
+          "tn": 80,
+          "n": 100,
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6666666666666666,
+          "fpr": 0.1111111111111111,
+          "predicted_on": 20,
+          "degenerate": false
+        }
+      ]
+    },
+    {
+      "seed": 2026,
+      "L": 0.6,
+      "H": 0.6,
+      "feasible": true,
+      "blocks": [
+        {
+          "block": "4",
+          "tp": 10,
+          "fp": 10,
+          "fn": 0,
+          "tn": 80,
+          "n": 100,
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6666666666666666,
+          "fpr": 0.1111111111111111,
+          "predicted_on": 20,
+          "degenerate": false
+        },
+        {
+          "block": "5",
+          "tp": 10,
+          "fp": 10,
+          "fn": 0,
+          "tn": 80,
+          "n": 100,
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6666666666666666,
+          "fpr": 0.1111111111111111,
+          "predicted_on": 20,
+          "degenerate": false
+        }
+      ]
+    }
+  ],
+  "control_recipes": [
+    {
+      "seed": 42,
+      "L": 0.49,
+      "H": 0.49,
+      "feasible": true,
+      "blocks": [
+        {
+          "block": "4",
+          "tp": 10,
+          "fp": 40,
+          "fn": 0,
+          "tn": 50,
+          "n": 100,
+          "precision": 0.2,
+          "recall": 1.0,
+          "f1": 0.3333333333333333,
+          "fpr": 0.4444444444444444,
+          "predicted_on": 50,
+          "degenerate": false
+        },
+        {
+          "block": "5",
+          "tp": 10,
+          "fp": 40,
+          "fn": 0,
+          "tn": 50,
+          "n": 100,
+          "precision": 0.2,
+          "recall": 1.0,
+          "f1": 0.3333333333333333,
+          "fpr": 0.4444444444444444,
+          "predicted_on": 50,
+          "degenerate": false
+        }
+      ]
+    },
+    {
+      "seed": 1019,
+      "L": 0.49,
+      "H": 0.49,
+      "feasible": true,
+      "blocks": [
+        {
+          "block": "4",
+          "tp": 10,
+          "fp": 40,
+          "fn": 0,
+          "tn": 50,
+          "n": 100,
+          "precision": 0.2,
+          "recall": 1.0,
+          "f1": 0.3333333333333333,
+          "fpr": 0.4444444444444444,
+          "predicted_on": 50,
+          "degenerate": false
+        },
+        {
+          "block": "5",
+          "tp": 10,
+          "fp": 40,
+          "fn": 0,
+          "tn": 50,
+          "n": 100,
+          "precision": 0.2,
+          "recall": 1.0,
+          "f1": 0.3333333333333333,
+          "fpr": 0.4444444444444444,
+          "predicted_on": 50,
+          "degenerate": false
+        }
+      ]
+    },
+    {
+      "seed": 2026,
+      "L": 0.49,
+      "H": 0.49,
+      "feasible": true,
+      "blocks": [
+        {
+          "block": "4",
+          "tp": 10,
+          "fp": 40,
+          "fn": 0,
+          "tn": 50,
+          "n": 100,
+          "precision": 0.2,
+          "recall": 1.0,
+          "f1": 0.3333333333333333,
+          "fpr": 0.4444444444444444,
+          "predicted_on": 50,
+          "degenerate": false
+        },
+        {
+          "block": "5",
+          "tp": 10,
+          "fp": 40,
+          "fn": 0,
+          "tn": 50,
+          "n": 100,
+          "precision": 0.2,
+          "recall": 1.0,
+          "f1": 0.3333333333333333,
+          "fpr": 0.4444444444444444,
+          "predicted_on": 50,
+          "degenerate": false
+        }
+      ]
+    }
+  ],
+  "registration_sha256": "12533969bffe6fc7d16ded92e5d40bb258abbc26218ffe343f9b7483bd42384d",
+  "training_sha256": "a0e966dff9ff6f27acaf61a8c88edff9c14bf21e0e59d418fb3c46757cd2b5e6",
+  "algorithm_sha256": "17838379de35aa40cab1fe175a4a5551b00c05f5e39e14d085bbd8beade76a68"
+}
