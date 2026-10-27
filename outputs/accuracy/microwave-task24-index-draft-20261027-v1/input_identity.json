@@ -1,0 +1,13 @@
+{
+  "outputs\\accuracy\\microwave-source5-temporal-20261025-v2\\train.npz": "5d8809260b1d52a6f613422644d9b38454cbe321377039926f87587c0016de7a",
+  "outputs\\accuracy\\microwave-source5-temporal-20261025-v2\\plan.json": "334665bb7d7183e4966fac7029820af176ccf90047b8eb5bd38a85979ded940a",
+  "outputs\\accuracy\\microwave-source5-temporal-20261025-v2\\normalization.json": "6bded76808e2480ce220ab65784f86b605c1c119a86595c1bc9d60f65c83fb26",
+  "outputs\\accuracy\\microwave-source5-temporal-20261025-v2\\registration.json": "99b3092f4f89f837830daefb0b00020e00e2f197aadb8099169e9d523068acb9",
+  "outputs\\accuracy\\microwave-task23-guarded-audit-20261027-v4\\delivery_seal.json": "dae0f8c36c520cb9b810465f756d9676ed57e6147ec397d4109c73d84cec2170",
+  "outputs\\accuracy\\microwave-task23-guarded-audit-20261027-v4\\input_seal.json": "0c06f5a488f7c86673a7bab1d77159630ba9303f64773f57896c4fc72235d14d",
+  "outputs\\accuracy\\microwave-task23-guarded-audit-20261027-v4\\window_ids.csv": "dfe19f10e6ee5b0e9af6c2313a9e662ba09c745753df6c4a9c48b13b5f71dc1c",
+  "outputs\\accuracy\\microwave-task23-guarded-audit-20261027-v4\\fragments.csv": "7460ce5710db19b70134cdc470b1356c29ded8aee8c8378812009321cdb17110",
+  "docs\\MICROWAVE_TASK24_PROPOSAL_20261027.md": "318f8a998f042740a97a82cf38e0687a12d22822826e62b7210b54f6033bdcc5",
+  "scripts\\prepare_microwave_task24_index.py": "720e467453ad340f11b0f3d169e9441f27c0aa5112b8eecd78ebbd0273c2c8e8",
+  "src\\virtual_submeter\\accuracy\\microwave_sampling.py": "318e7674266c6293ddba554b643cdd5880554d652bb8836d2af9aab6f25ed309"
+}

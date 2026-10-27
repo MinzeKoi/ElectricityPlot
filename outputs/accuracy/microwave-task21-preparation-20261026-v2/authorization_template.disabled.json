@@ -1,0 +1,16 @@
+{
+  "authorized": false,
+  "approval_origin": "human",
+  "experiment": "microwave_task21_hard_negative_v1",
+  "registration_sha256": "e3fc4e93396b34205e47f32ecd8b6e9445ccb25386e0c70b1a6a35cbf429860c",
+  "additional_new_fits": 3,
+  "maximum_updates": 10584,
+  "seeds": [
+    42,
+    1019,
+    2026
+  ],
+  "human_authorization_quote": "",
+  "human_authorization_reference": "",
+  "warning": "Preparation authorization and all old receipts are insufficient. New explicit user budget required."
+}

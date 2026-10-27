@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "static_tie_cases": 24,
+  "independent_AP_exact": true,
+  "independent_threshold_exact": true,
+  "new_fits": 0,
+  "optimizers": 0,
+  "optimizer_updates": 0,
+  "backward_calls": 0,
+  "development_reads": 0,
+  "final_reads": 0
+}

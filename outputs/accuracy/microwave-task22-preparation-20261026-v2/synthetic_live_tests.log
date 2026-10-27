@@ -1,0 +1,9 @@
+test_complete_static_train_source_freeze_evaluate_verify_report (test_microwave_task22.Task22Tests.test_complete_static_train_source_freeze_evaluate_verify_report) ... ok
+test_missing_old_receipt_before_data_or_model (test_microwave_task22.Task22Tests.test_missing_old_receipt_before_data_or_model) ... ok
+test_model_width_metadata_support_and_no_autograd (test_microwave_task22.Task22Tests.test_model_width_metadata_support_and_no_autograd) ... ok
+test_scalar_ties_dates_gaps_and_acceptance (test_microwave_task22.Task22Tests.test_scalar_ties_dates_gaps_and_acceptance) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 20.714s
+
+OK

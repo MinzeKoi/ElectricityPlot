@@ -1,0 +1,20 @@
+{
+  "sealed_verify_report_succeeded": false,
+  "sealed_review_error": "KeyError: 'event'",
+  "immutable_source_modified": false,
+  "new_training_or_retry": false,
+  "final_auditor_checks": [
+    "initialization",
+    "10584 actual batches and exposure",
+    "budget",
+    "all36 checkpoints",
+    "original event/minimum positive support",
+    "original UTC/core boundaries",
+    "independent thresholds and ranks",
+    "L95/H95/r15",
+    "source confusion and qualification",
+    "source rejection 0devread"
+  ],
+  "superseded_intermediate_manifest": "execution_delivery_manifest.json",
+  "intermediate_readonly_attempt": "External audit script was extended with explicit UTC/core-boundary checks while the intermediate read-only seal was in progress. Its hash/mtime changed, correctly preventing that receipt. No model, sealed source, recipe, index or original input changed. The final audit and two read-only passes below use stable final external scripts."
+}

@@ -1,0 +1,9 @@
+{
+  "stage": "verify",
+  "child_pid": 14360,
+  "driver_pid": 2480,
+  "returncode": 0,
+  "log_sha256": "837b310b2c7471646a5661e3b012beb73ef7ce50a0a36834386281e3c8157da0",
+  "audit_new_fits": 0,
+  "audit_optimizer_updates": 0
+}

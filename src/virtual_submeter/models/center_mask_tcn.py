@@ -10,12 +10,15 @@ KIND = "microwave_center_mask_tcn_v1"
 
 
 class CenterMaskTCN(nn.Module):
-    def __init__(self):
+    def __init__(self, channels=16):
         super().__init__()
-        self.project = nn.Conv1d(2, 16, 1)
-        self.blocks = nn.ModuleList([nn.Conv1d(16, 16, 3, padding=d, dilation=d)
+        if type(channels) is not int or channels not in (16, 32):
+            raise DataError("Only registered TCN widths 16 and 32 are supported")
+        self.channels = channels
+        self.project = nn.Conv1d(2, channels, 1)
+        self.blocks = nn.ModuleList([nn.Conv1d(channels, channels, 3, padding=d, dilation=d)
                                      for d in [1, 2, 4, 8, 16, 32]])
-        self.head = nn.Sequential(nn.Linear(16, 32), nn.ReLU(), nn.Linear(32, 1))
+        self.head = nn.Sequential(nn.Linear(channels, 32), nn.ReLU(), nn.Linear(32, 1))
         nn.init.constant_(self.head[-1].bias, -3.)
 
     def forward(self, channels):
@@ -98,7 +101,12 @@ def load_state_model(path):
             or meta["input_log_std"] <= 0 or not 0 <= meta["decision_threshold_probability"] <= 1
             or sha256(path/"weights.pt") != meta["weights_sha256"]):
         raise DataError("Invalid center TCN artifact")
-    model = CenterMaskTCN()
+    channels = meta.get('tcn_channels', 16)
+    model = CenterMaskTCN(channels)
+    expected = sum(p.numel() for p in model.parameters())
+    if (meta.get('parameter_count', expected) != expected
+            or (channels == 32 and meta.get('parameter_count') != 19809)):
+        raise DataError("TCN width/parameter metadata mismatch")
     model.load_state_dict(torch.load(path/"weights.pt", map_location="cpu", weights_only=True))
     return meta, model.eval()
 

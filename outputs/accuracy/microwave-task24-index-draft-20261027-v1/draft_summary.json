@@ -1,0 +1,33 @@
+{
+  "status": "index_draft_only_incomplete",
+  "reason": "Window materialization, adapter, tests and independent reviews remain",
+  "actual_fits": 0,
+  "optimizer_updates": 0,
+  "backward_calls": 0,
+  "candidate_predictions": 0,
+  "support": {
+    "total": 1393867,
+    "on": 4389
+  },
+  "seeds": {
+    "42": {
+      "updates": 3528,
+      "positive_presentations": 56448,
+      "negative_presentations": 846720,
+      "unique_centers": 850939
+    },
+    "1019": {
+      "updates": 3528,
+      "positive_presentations": 56448,
+      "negative_presentations": 846720,
+      "unique_centers": 850936
+    },
+    "2026": {
+      "updates": 3528,
+      "positive_presentations": 56448,
+      "negative_presentations": 846720,
+      "unique_centers": 850935
+    }
+  },
+  "forbidden_reads": []
+}

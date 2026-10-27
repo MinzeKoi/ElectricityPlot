@@ -1,0 +1,73 @@
+{
+  "status": "source_window_draft_incomplete",
+  "outputs": [
+    {
+      "partition": "source_train_refit_10_0",
+      "windows": 110872,
+      "on": 274,
+      "sha256": "de44fbff8704fc558ff3a069353a016fbeaa00d9b228ff0dd3d6f6aeb7cb3dc3"
+    },
+    {
+      "partition": "source_train_refit_10_1",
+      "windows": 125990,
+      "on": 667,
+      "sha256": "6d3ae2f7a2180ce4ab7c5ce2e0aa5ca479c256ad613bedde38a929c946c0c771"
+    },
+    {
+      "partition": "source_train_refit_12_0",
+      "windows": 124126,
+      "on": 166,
+      "sha256": "8e7ce998da8622b0cc5b0d2d025568963c02bf97ba962d63ac5967699b4f2330"
+    },
+    {
+      "partition": "source_train_refit_12_1",
+      "windows": 136728,
+      "on": 153,
+      "sha256": "501faa0530ed2c4438f22752e08c8816ba008ed3c3b82ebf150d6f1f8d8150f8"
+    },
+    {
+      "partition": "source_train_refit_15_0",
+      "windows": 126792,
+      "on": 189,
+      "sha256": "a24766e2d364dabb79e2c7993e1090a4a98aa0dad32585bad3724bb624bff896"
+    },
+    {
+      "partition": "source_train_refit_15_1",
+      "windows": 148515,
+      "on": 345,
+      "sha256": "48f8ea82c864294e92285b01bf7f331ea04fc901e582d06ef7ebff51c455581f"
+    },
+    {
+      "partition": "source_train_refit_18_0",
+      "windows": 134961,
+      "on": 78,
+      "sha256": "ffa12878ffb59d4f38d5791c51a240a76fa7306bc3a0eb3282e9c732a4b8924a"
+    },
+    {
+      "partition": "source_train_refit_18_1",
+      "windows": 149179,
+      "on": 242,
+      "sha256": "e85db656982110c0fd6c7de058d885a2440b5a82dbe8b9e8ed20a668a4bf3953"
+    }
+  ],
+  "input_sha256": {
+    "outputs\\accuracy\\microwave-task23-guarded-audit-20261027-v4\\input_seal.json": "0c06f5a488f7c86673a7bab1d77159630ba9303f64773f57896c4fc72235d14d",
+    "outputs\\accuracy\\microwave-task23-guarded-audit-20261027-v4\\delivery_seal.json": "dae0f8c36c520cb9b810465f756d9676ed57e6147ec397d4109c73d84cec2170",
+    "outputs\\accuracy\\microwave-task23-guarded-audit-20261027-v4\\window_ids.csv": "dfe19f10e6ee5b0e9af6c2313a9e662ba09c745753df6c4a9c48b13b5f71dc1c",
+    "outputs\\accuracy\\microwave-task24-index-draft-20261027-v1\\source_index.npz": "f9f19ea2cc56296536f2ba7a112768e488a667783e3b304004418123caed31c6",
+    "outputs\\accuracy\\microwave-task24-index-draft-20261027-v1\\draft_summary.json": "80a627a4e3548875873e82c49807931816676df8691732564b1800ab2df3c310",
+    "scripts\\prepare_microwave_task24_windows.py": "71fc683d482fdcf383a5f851fb552185a761d3b145bd529df4dcd26271b97949",
+    "outputs\\accuracy\\microwave-task23-guarded-audit-20261027-v4\\audit.py": "d3a24c0793eb03088e5f91534bcdc4018f1295bb57d20dfbfe2eeca5357dff5f",
+    "src\\virtual_submeter\\models\\center_mask_tcn.py": "effb8fe56a0491bc9d1e9ee8fe4a97a87ca1bf6cb210b5b6de74c446b6f0ea2b",
+    "data\\raw\\refit_expansion_additional_20261024_v1_slices\\CLEAN_House10.csv": "ee67ece4efa4cc3722a169e833e3b6fd7879353ed54482114cee03eff2cd3d86",
+    "data\\raw\\refit_expansion_additional_20261024_v1_slices\\CLEAN_House12.csv": "6a98f6ff65b05dbe06314c8f5f86928a1d8f91a44962b50a5ee8286de97a5ea8",
+    "data\\raw\\refit_expansion_additional_20261024_v1_slices\\CLEAN_House15.csv": "55824f8a1084e0b73973fafa61f2a53d3066f1612430c388d4929c123a028437",
+    "data\\raw\\refit_expansion_additional_20261024_v1_slices\\CLEAN_House18.csv": "e38caa6fba0c613c567049f175ea1882808e182d7f9a7d3976f1fa3129edd3db"
+  },
+  "actual_fits": 0,
+  "optimizer_updates": 0,
+  "backward_calls": 0,
+  "candidate_predictions": 0,
+  "forbidden_reads": [],
+  "remaining": "Bind index to windows, old controls and code; build budget-gated execution adapter; tests and independent review."
+}

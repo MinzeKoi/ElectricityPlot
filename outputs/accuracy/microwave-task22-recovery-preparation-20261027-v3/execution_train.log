@@ -1,0 +1,25 @@
+{"stage": "train", "pid": 11992, "parent_pid": 5448, "cpu_threads": 4, "OMP_NUM_THREADS": "4", "MKL_NUM_THREADS": "4"}
+wide32 seed=2026 checkpoint=1/12 eligible=True seconds=18.1
+wide32 seed=2026 checkpoint=2/12 eligible=True seconds=36.0
+wide32 seed=2026 checkpoint=3/12 eligible=True seconds=53.7
+wide32 seed=2026 checkpoint=4/12 eligible=True seconds=71.2
+wide32 seed=2026 checkpoint=5/12 eligible=True seconds=89.4
+wide32 seed=2026 checkpoint=6/12 eligible=True seconds=107.3
+wide32 seed=2026 checkpoint=7/12 eligible=True seconds=126.0
+wide32 seed=2026 checkpoint=8/12 eligible=True seconds=143.7
+wide32 seed=2026 checkpoint=9/12 eligible=True seconds=161.1
+wide32 seed=2026 checkpoint=10/12 eligible=True seconds=178.7
+wide32 seed=2026 checkpoint=11/12 eligible=True seconds=196.3
+wide32 seed=2026 checkpoint=12/12 eligible=True seconds=214.8
+{
+  "new_fits": 1,
+  "new_fit_updates": 3528,
+  "reused_fits": 2,
+  "effective_models": 3,
+  "effective_matrix_updates": 10584,
+  "cumulative_attempted_updates_upper_bound": 11152,
+  "runtime": {
+    "cpu_threads": 4,
+    "bytecode_disabled": true
+  }
+}

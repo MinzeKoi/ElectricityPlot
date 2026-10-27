@@ -1,0 +1,20 @@
+test_complete_source_passes (test_microwave_task24_acceptance.Task24AcceptanceTest.test_complete_source_passes) ... ok
+test_incomplete_frozen_matrix_rejected_before_truth (test_microwave_task24_acceptance.Task24AcceptanceTest.test_incomplete_frozen_matrix_rejected_before_truth) ... ok
+test_missing_budget_fails_before_source_or_development (test_microwave_task24_acceptance.Task24AcceptanceTest.test_missing_budget_fails_before_source_or_development) ... ok
+test_rejections_precede_any_development_access (test_microwave_task24_acceptance.Task24AcceptanceTest.test_rejections_precede_any_development_access) ... ok
+test_synthetic_freeze_and_evaluation_end_to_end (test_microwave_task24_acceptance.Task24AcceptanceTest.test_synthetic_freeze_and_evaluation_end_to_end) ... ok
+test_missing_budget_is_rejected_before_opening_run (test_microwave_task24_budget_draft.BudgetGate.test_missing_budget_is_rejected_before_opening_run) ... ok
+test_preparation_isolation_rejects_unlisted_read_network_and_backward (test_microwave_task24_budget_draft.BudgetGate.test_preparation_isolation_rejects_unlisted_read_network_and_backward) ... ok
+test_registered_mutation_and_review_binding_are_rejected (test_microwave_task24_budget_draft.BudgetGate.test_registered_mutation_and_review_binding_are_rejected) ... ok
+test_source_guard_rejects_missing_degenerate_tie_and_recall_drop (test_microwave_task24_budget_draft.BudgetGate.test_source_guard_rejects_missing_degenerate_tie_and_recall_drop) ... ok
+test_unsealed_preparation_rejected (test_microwave_task24_budget_draft.BudgetGate.test_unsealed_preparation_rejected) ... ok
+test_wrong_budget_rejected (test_microwave_task24_budget_draft.BudgetGate.test_wrong_budget_rejected) ... ok
+test_eligible_source_selects_candidate (test_microwave_task24_source_draft.SourceSelection.test_eligible_source_selects_candidate) ... ok
+test_infeasible_source_retains_control (test_microwave_task24_source_draft.SourceSelection.test_infeasible_source_retains_control) ... ok
+test_real_context_loads_registered_identity_only_after_source_pass (test_microwave_task24_source_draft.SourceSelection.test_real_context_loads_registered_identity_only_after_source_pass) ... ok
+test_real_context_rejects_source_before_future_identity (test_microwave_task24_source_draft.SourceSelection.test_real_context_rejects_source_before_future_identity) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 1.318s
+
+OK

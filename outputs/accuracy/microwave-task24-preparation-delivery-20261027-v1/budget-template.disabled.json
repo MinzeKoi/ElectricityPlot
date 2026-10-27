@@ -1,0 +1,23 @@
+{
+  "authorized": false,
+  "approval_origin": null,
+  "experiment": "microwave_task24_multihouse_v1",
+  "registration_sha256": "5bc276ac7fce10d63be1033bee2072dee587c6253bdbaab71168b69579dbbe37",
+  "review_sha256": {
+    "independent_review_1.json": "e9cd3062009ad67bea65250b1718ad62488da47a70630f2dd6095343523c78c6",
+    "independent_review_2.json": "17e56d7591fb0b36a11dfed20055c435d5f56b567b74a01bbe5d01b6bef062d9"
+  },
+  "additional_new_fits": 3,
+  "maximum_updates": 10584,
+  "updates_per_seed": 3528,
+  "seeds": [
+    42,
+    1019,
+    2026
+  ],
+  "control_retrains": 0,
+  "automatic_retry": false,
+  "human_authorization_quote": "",
+  "human_authorization_reference": "",
+  "status": "not_authorized"
+}

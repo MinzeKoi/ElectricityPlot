@@ -1,0 +1,17 @@
+{
+  "artifacts": {
+    "control16_1019_source.npz": "4e36a831f037e9ae61b69764f8bb7a6c5ee819a56fa72b17908d1e45e4eb8459",
+    "control16_1019_train.npz": "7c66f8106aaee0488beaab0e6832f53b57967b27b0aef713aa6c681333525eac",
+    "control16_2026_source.npz": "bef4eee5de8e6bd72f3ce928d9e779c7060c68e925654f357477b67bf7ddd23e",
+    "control16_2026_train.npz": "119b42e6bc38f4ba73c326c0374a4e9ce2d8bc705f03e14154a99e7a1a7333df",
+    "control16_42_source.npz": "068ee46ecd93ebb3806d1c87ab373395469fa537c3a0064a38243267d1b80b88",
+    "control16_42_train.npz": "06ca636dc83896281512c00a23cc45aebcb999dd750a19d879e94e4a8aa1b440",
+    "metrics.json": "810b2154c9abe94ec2abd93059866d112758cd3f16463f3c21cd320423aa90aa",
+    "wide32_1019_source.npz": "7d414dcabd73a5c1ed5371ef25d072cfa3f3acc3e19aad40fa7f50d93437d8ca",
+    "wide32_1019_train.npz": "a2abe2bf93b21032d315e01387629d21885f1f05b72d66ec5ef4a86844bdb74b",
+    "wide32_2026_source.npz": "6fce2f45f45a355f2041979e050b642bfa842d11d7d7c9bcd15e35b2c138cff0",
+    "wide32_2026_train.npz": "9166fd9593d3f673dc4a993927bedbe316d69492f32d924adef6348e216f846f",
+    "wide32_42_source.npz": "d9df244499a2bab4055716a75e6e38b92d2e711094399c90d8c123c39e1d3f6b",
+    "wide32_42_train.npz": "e2e900732b802ea886a3283a7c51b12cfa0e187aa97bbcc97b1b3157cc4c1954"
+  }
+}

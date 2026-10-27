@@ -1,0 +1,15 @@
+{
+  "source_sha256": "2847d33c768a1c8713e5d16962002b38fa6f6cbd1ad4b6be2f0be57c7e4d98a7",
+  "registration_sha256": "30dad580c6711ff021f3607dcbf6dc0b0a73e8276aee01204869534ddaf3d0f9",
+  "artifacts": {
+    "recipe_1019.json": "40e7f16a96f648cb4a59cf047fd274f97fe1d72f4a58ff6aadaae63701234f9b",
+    "recipe_2026.json": "8d91f9e1907d7b9368a4914c82960ea90ccc2e60785bd27590edc6b38d09264d",
+    "recipe_42.json": "420a2b9a73baeb49514d598a100ff8490f2d556e2e1eafee2d210bcb4fdbf1a3",
+    "scores_1019_4.npz": "ebf72cd59a0606d1b3b0afb3fe3acc0bdd15bdcec6f445c824297ab4f994e14a",
+    "scores_1019_5.npz": "e0d077091e07d6a71e8bf745d64eb035ec1d68294f2b1d22a56cb10f1730cac5",
+    "scores_2026_4.npz": "37fecedf2b3be0c01da605c3d97e960fe0ebb18f9a086659d54e597b6350386f",
+    "scores_2026_5.npz": "0b5b4c8cd20573da0212aae282447d3e06fefdeb6d78d33ea93447d17a36b68d",
+    "scores_42_4.npz": "1055dfcd57dc920d1f9f8c9b63c2758d9a47c2aaad58ed9e4fb8b517227d7a54",
+    "scores_42_5.npz": "c63225195442c7c0bae85292f7ef159fd52c8cec83a23a564fd4f83470124678"
+  }
+}

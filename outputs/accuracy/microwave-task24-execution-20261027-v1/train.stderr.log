@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "D:\system position\document\真正的文档\AIC\outputs\accuracy\microwave-task24-preparation-20261027-v4\run_microwave_task24_draft.py", line 254, in <module>
+    result = development_stage(args.run, args.authorization, args.command) if args.command in ('freeze', 'evaluate') else globals()[args.command](args.run, args.authorization)
+                                                                                                                          ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\system position\document\真正的文档\AIC\outputs\accuracy\microwave-task24-preparation-20261027-v4\run_microwave_task24_draft.py", line 124, in train
+    initial, sha(run / 'registration.json'), pos_weight=1., recipe='unit_BCE',
+             ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\system position\document\真正的文档\AIC\outputs\accuracy\microwave-task24-preparation-20261027-v4\run_microwave_task24_draft.py", line 11, in sha
+    with path.open('rb') as f:
+         ~~~~~~~~~^^^^^^
+  File "C:\Users\27622\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py", line 537, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\system position\document\真正的文档\AIC\outputs\accuracy\microwave-task24-preparation-20261027-v4\source\virtual_submeter\accuracy\microwave_task21.py", line 85, in audit
+    raise DataError('Task21 read outside exact whitelist: '+str(p))
+virtual_submeter.data.common.DataError: Task21 read outside exact whitelist: D:\system position\document\真正的文档\AIC\outputs\accuracy\microwave-task24-preparation-20261027-v4\registration.json

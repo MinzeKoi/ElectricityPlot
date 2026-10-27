@@ -1,0 +1,449 @@
+{
+  "status": "passed_two_complete_readonly_passes",
+  "delivery_directory": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2",
+  "delivery_files": 42,
+  "artifacts_excluding_manifest": 41,
+  "inputs": 48,
+  "delivery_identity_first": {
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\analysis_complete.json": {
+      "sha256": "b9deb7f326e84b5cdd61816ba2df53c488f0b0ef7a00b4ac6c510af0b3372fe5",
+      "size": 198,
+      "mtime_ns": 1793014383700410400
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\config.json": {
+      "sha256": "4006256183cc84876e8c955b3ea06441d6489be9785979febb2500c1dfc9e793",
+      "size": 11590,
+      "mtime_ns": 1793014215032282100
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\curve_index.json": {
+      "sha256": "5b1e50822586d16b4950f3f187d75409679dbbd57f4fc1fa320af516ea1c192c",
+      "size": 29026,
+      "mtime_ns": 1793014383609387100
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\curves\\00_control_FP.svg": {
+      "sha256": "14f0bd47cb999ac4c2c3eab5e8efacc358bde8a3dbbb4d29cfd8a8f446103b17",
+      "size": 4499,
+      "mtime_ns": 1793014383597562000
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\curves\\01_control_FP.svg": {
+      "sha256": "8598168f62145228362c5a8b592cfe9b4d3899db9df397c44943b45b1de357e9",
+      "size": 4588,
+      "mtime_ns": 1793014383598562500
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\curves\\02_control_TP.svg": {
+      "sha256": "a44003b7aa14207a938607c23fb6a5e884edf1951dbc95e719b26df985a7572b",
+      "size": 4559,
+      "mtime_ns": 1793014383598562500
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\curves\\03_control_TP.svg": {
+      "sha256": "6da123cd9bc503140cba516c90a6fe78bc495567d4d192b1ac135a6c95ee82f4",
+      "size": 4648,
+      "mtime_ns": 1793014383599562600
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\curves\\04_control_FN.svg": {
+      "sha256": "1332fa66b9f2fd5127faa3926d6e58ccbb5cfd0a0d50b9331b6fa6c577789032",
+      "size": 4552,
+      "mtime_ns": 1793014383600562700
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\curves\\05_control_FN.svg": {
+      "sha256": "b44fb9015fccfb2e406e9f3e4a9ff9daeedfebb6bfb7748ef8fe8c526161ed59",
+      "size": 4701,
+      "mtime_ns": 1793014383600562700
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\curves\\06_control_TN.svg": {
+      "sha256": "3cdc30f2f5f25d2636e1228bdbb1bc6892fb636063f2e3ba957ea3e7e499aac5",
+      "size": 4437,
+      "mtime_ns": 1793014383602073600
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\curves\\07_control_TN.svg": {
+      "sha256": "c07236f98732819b3d92f81b81bb1d4504c65968d90e48d2f362b3e03f0aad6b",
+      "size": 4586,
+      "mtime_ns": 1793014383602073600
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\curves\\08_expanded_FP.svg": {
+      "sha256": "b8057e204b70d4b1b95ab4c537a6c53bff5cfe44ae61f173163e49523bc0cab7",
+      "size": 4500,
+      "mtime_ns": 1793014383603070200
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\curves\\09_expanded_FP.svg": {
+      "sha256": "f36b8fb265a2e4d85c83667d9b8efd11b7d242e1587c01e3775297382b996f0f",
+      "size": 4530,
+      "mtime_ns": 1793014383604070100
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\curves\\10_expanded_TP.svg": {
+      "sha256": "da23fdd2571b3fa573d7abdc2a9e51611770f5ed0183fe56206db3893946aeb5",
+      "size": 4560,
+      "mtime_ns": 1793014383605070500
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\curves\\11_expanded_TP.svg": {
+      "sha256": "62b5f800c0f96a41d76810a2154eab8cc381ab9fc23814b8bfa8be8826906e18",
+      "size": 4649,
+      "mtime_ns": 1793014383605070500
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\curves\\12_expanded_FN.svg": {
+      "sha256": "5e8d516e12ea455a1a41e32a90340d8e1a30fa936ff3c5f2a01726e91eb0025d",
+      "size": 4555,
+      "mtime_ns": 1793014383606070800
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\curves\\13_expanded_FN.svg": {
+      "sha256": "94156889598a159b138d2b4c24b923ab8b742973cf5a02595f27eaf4f63dff92",
+      "size": 4555,
+      "mtime_ns": 1793014383606070800
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\curves\\14_expanded_TN.svg": {
+      "sha256": "dc8927041c430d35fc21eaf346bc912f2057281a4f97dbe5441b753ea23304b5",
+      "size": 4392,
+      "mtime_ns": 1793014383607393900
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\curves\\15_expanded_TN.svg": {
+      "sha256": "de4f7a00f40143ce107d62afd08c05c8ac489777885f5da266b57a06dd0bcf3a",
+      "size": 4587,
+      "mtime_ns": 1793014383608387900
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\delivery_manifest.json": {
+      "sha256": "783f92a3e49c247e06cee6f625a7414ec9b7f475d0578ef27b3e80967f28bd79",
+      "size": 7832,
+      "mtime_ns": 1793014755182212700
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\DELIVERY_REPORT.zh.md": {
+      "sha256": "4474682f516ca68b13263aa20ef4718f7b6674ea07df8da5b57dbee28956b71d",
+      "size": 14975,
+      "mtime_ns": 1793014754994362200
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\diagnostic.py": {
+      "sha256": "6180199156e9820ad0a16feec1e5d7c43606688cbcbf8ab388efad1e82157347",
+      "size": 28137,
+      "mtime_ns": 1793014215033307600
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\duplicate_inventory.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0,
+      "mtime_ns": 1793014646471669000
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\duplicate_inventory_source_v2.py": {
+      "sha256": "eba9060087c718b4f1e2ca7fb564be15f4816dee49052b63e1786f5557c36bff",
+      "size": 2302,
+      "mtime_ns": 1793014677954501700
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\exact_conflict_members.json": {
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "size": 3,
+      "mtime_ns": 1793014268381889700
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\exact_duplicates.json": {
+      "sha256": "79ba8041ad434225b636142b6cc43a4ab175d2242d8007bca4d9c0f923bd6848",
+      "size": 285,
+      "mtime_ns": 1793014268382398800
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\exact_repeat_groups.json": {
+      "sha256": "20aa6cd87e31b51246589cb710276c9f9e3fe323f24c81c9784d3b9dd238bf0c",
+      "size": 139697,
+      "mtime_ns": 1793014646470654400
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\finalizer.py": {
+      "sha256": "4561e26cc153c5d0f730ec24d3150579a0793fc0bcd1dceb44cb3340fd636ab7",
+      "size": 17650,
+      "mtime_ns": 1793014754995363700
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\group_distributions.csv": {
+      "sha256": "62c7e014c2206e809652553d53e0a756ce87b7b49e4b4481c19bba39acefe713",
+      "size": 2660644,
+      "mtime_ns": 1793014383242694600
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\independent_inputs_after.json": {
+      "sha256": "90f1775379bcb6bb6666df55762fdedea77e86ec2e270f9e493295258a66d42f",
+      "size": 15071,
+      "mtime_ns": 1793014730142760700
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\independent_synthetic_tests.json": {
+      "sha256": "f18442f91255e629e12c1e456fa5dd47252a010e277066833a9da325bfca5d28",
+      "size": 705,
+      "mtime_ns": 1793014730141760800
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\independent_verification.json": {
+      "sha256": "cd680a8fc1d17eebc66c3545e48d4e5eab53a528822ca002332ccc9ea59d7632",
+      "size": 799,
+      "mtime_ns": 1793014730152975800
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\independent_verifier.py": {
+      "sha256": "38489bf208ebdad01d3192e4a0e7db91c4d801c69c026d00193f5aa3ff0b7a84",
+      "size": 23235,
+      "mtime_ns": 1793014730140759600
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\inputs_after_analysis.json": {
+      "sha256": "90f1775379bcb6bb6666df55762fdedea77e86ec2e270f9e493295258a66d42f",
+      "size": 15071,
+      "mtime_ns": 1793014383651575200
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\inputs_after_finalization.json": {
+      "sha256": "90f1775379bcb6bb6666df55762fdedea77e86ec2e270f9e493295258a66d42f",
+      "size": 15071,
+      "mtime_ns": 1793014755034737800
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\inputs_before.json": {
+      "sha256": "90f1775379bcb6bb6666df55762fdedea77e86ec2e270f9e493295258a66d42f",
+      "size": 15071,
+      "mtime_ns": 1793014215078795500
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\pairs.csv": {
+      "sha256": "f95b2265c1a3e9a7650f60bfe4dcca934995679594adf7d467acacca39ff2e37",
+      "size": 130070674,
+      "mtime_ns": 1793014380337622500
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\query_sample.json": {
+      "sha256": "05eecf3eb79de630de5146a4b63a79c7fd99f0d235091db62a1fcc18d6e115bc",
+      "size": 9944898,
+      "mtime_ns": 1793014263997474500
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\reference_sample.json": {
+      "sha256": "1a7d0b1a11e600374b1b242885e32821dbe8e479d85f72c823f707bb71d919d4",
+      "size": 12957147,
+      "mtime_ns": 1793014263730473200
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\registration.json": {
+      "sha256": "f6913bfb7fc63000d1b6c1c177da81ba0e028f947bf77a5949e33b7ec3c9ec7c",
+      "size": 321,
+      "mtime_ns": 1793014215112560200
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\samples_frozen.json": {
+      "sha256": "6b36a307479d6c0c79dd5d7dfdd84b7d03c3bbe18cff1399e1fb0f011ddd0388",
+      "size": 349,
+      "mtime_ns": 1793014264038917700
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\support_and_coverage.csv": {
+      "sha256": "b54cefc8a31b1af27f3b2959427f5593450f667d7fa1f694d83a3d8f85e43d59",
+      "size": 113819,
+      "mtime_ns": 1793014263433744600
+    }
+  },
+  "delivery_identity_second": {
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\analysis_complete.json": {
+      "sha256": "b9deb7f326e84b5cdd61816ba2df53c488f0b0ef7a00b4ac6c510af0b3372fe5",
+      "size": 198,
+      "mtime_ns": 1793014383700410400
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\config.json": {
+      "sha256": "4006256183cc84876e8c955b3ea06441d6489be9785979febb2500c1dfc9e793",
+      "size": 11590,
+      "mtime_ns": 1793014215032282100
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\curve_index.json": {
+      "sha256": "5b1e50822586d16b4950f3f187d75409679dbbd57f4fc1fa320af516ea1c192c",
+      "size": 29026,
+      "mtime_ns": 1793014383609387100
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\curves\\00_control_FP.svg": {
+      "sha256": "14f0bd47cb999ac4c2c3eab5e8efacc358bde8a3dbbb4d29cfd8a8f446103b17",
+      "size": 4499,
+      "mtime_ns": 1793014383597562000
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\curves\\01_control_FP.svg": {
+      "sha256": "8598168f62145228362c5a8b592cfe9b4d3899db9df397c44943b45b1de357e9",
+      "size": 4588,
+      "mtime_ns": 1793014383598562500
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\curves\\02_control_TP.svg": {
+      "sha256": "a44003b7aa14207a938607c23fb6a5e884edf1951dbc95e719b26df985a7572b",
+      "size": 4559,
+      "mtime_ns": 1793014383598562500
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\curves\\03_control_TP.svg": {
+      "sha256": "6da123cd9bc503140cba516c90a6fe78bc495567d4d192b1ac135a6c95ee82f4",
+      "size": 4648,
+      "mtime_ns": 1793014383599562600
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\curves\\04_control_FN.svg": {
+      "sha256": "1332fa66b9f2fd5127faa3926d6e58ccbb5cfd0a0d50b9331b6fa6c577789032",
+      "size": 4552,
+      "mtime_ns": 1793014383600562700
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\curves\\05_control_FN.svg": {
+      "sha256": "b44fb9015fccfb2e406e9f3e4a9ff9daeedfebb6bfb7748ef8fe8c526161ed59",
+      "size": 4701,
+      "mtime_ns": 1793014383600562700
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\curves\\06_control_TN.svg": {
+      "sha256": "3cdc30f2f5f25d2636e1228bdbb1bc6892fb636063f2e3ba957ea3e7e499aac5",
+      "size": 4437,
+      "mtime_ns": 1793014383602073600
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\curves\\07_control_TN.svg": {
+      "sha256": "c07236f98732819b3d92f81b81bb1d4504c65968d90e48d2f362b3e03f0aad6b",
+      "size": 4586,
+      "mtime_ns": 1793014383602073600
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\curves\\08_expanded_FP.svg": {
+      "sha256": "b8057e204b70d4b1b95ab4c537a6c53bff5cfe44ae61f173163e49523bc0cab7",
+      "size": 4500,
+      "mtime_ns": 1793014383603070200
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\curves\\09_expanded_FP.svg": {
+      "sha256": "f36b8fb265a2e4d85c83667d9b8efd11b7d242e1587c01e3775297382b996f0f",
+      "size": 4530,
+      "mtime_ns": 1793014383604070100
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\curves\\10_expanded_TP.svg": {
+      "sha256": "da23fdd2571b3fa573d7abdc2a9e51611770f5ed0183fe56206db3893946aeb5",
+      "size": 4560,
+      "mtime_ns": 1793014383605070500
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\curves\\11_expanded_TP.svg": {
+      "sha256": "62b5f800c0f96a41d76810a2154eab8cc381ab9fc23814b8bfa8be8826906e18",
+      "size": 4649,
+      "mtime_ns": 1793014383605070500
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\curves\\12_expanded_FN.svg": {
+      "sha256": "5e8d516e12ea455a1a41e32a90340d8e1a30fa936ff3c5f2a01726e91eb0025d",
+      "size": 4555,
+      "mtime_ns": 1793014383606070800
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\curves\\13_expanded_FN.svg": {
+      "sha256": "94156889598a159b138d2b4c24b923ab8b742973cf5a02595f27eaf4f63dff92",
+      "size": 4555,
+      "mtime_ns": 1793014383606070800
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\curves\\14_expanded_TN.svg": {
+      "sha256": "dc8927041c430d35fc21eaf346bc912f2057281a4f97dbe5441b753ea23304b5",
+      "size": 4392,
+      "mtime_ns": 1793014383607393900
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\curves\\15_expanded_TN.svg": {
+      "sha256": "de4f7a00f40143ce107d62afd08c05c8ac489777885f5da266b57a06dd0bcf3a",
+      "size": 4587,
+      "mtime_ns": 1793014383608387900
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\delivery_manifest.json": {
+      "sha256": "783f92a3e49c247e06cee6f625a7414ec9b7f475d0578ef27b3e80967f28bd79",
+      "size": 7832,
+      "mtime_ns": 1793014755182212700
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\DELIVERY_REPORT.zh.md": {
+      "sha256": "4474682f516ca68b13263aa20ef4718f7b6674ea07df8da5b57dbee28956b71d",
+      "size": 14975,
+      "mtime_ns": 1793014754994362200
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\diagnostic.py": {
+      "sha256": "6180199156e9820ad0a16feec1e5d7c43606688cbcbf8ab388efad1e82157347",
+      "size": 28137,
+      "mtime_ns": 1793014215033307600
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\duplicate_inventory.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0,
+      "mtime_ns": 1793014646471669000
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\duplicate_inventory_source_v2.py": {
+      "sha256": "eba9060087c718b4f1e2ca7fb564be15f4816dee49052b63e1786f5557c36bff",
+      "size": 2302,
+      "mtime_ns": 1793014677954501700
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\exact_conflict_members.json": {
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "size": 3,
+      "mtime_ns": 1793014268381889700
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\exact_duplicates.json": {
+      "sha256": "79ba8041ad434225b636142b6cc43a4ab175d2242d8007bca4d9c0f923bd6848",
+      "size": 285,
+      "mtime_ns": 1793014268382398800
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\exact_repeat_groups.json": {
+      "sha256": "20aa6cd87e31b51246589cb710276c9f9e3fe323f24c81c9784d3b9dd238bf0c",
+      "size": 139697,
+      "mtime_ns": 1793014646470654400
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\finalizer.py": {
+      "sha256": "4561e26cc153c5d0f730ec24d3150579a0793fc0bcd1dceb44cb3340fd636ab7",
+      "size": 17650,
+      "mtime_ns": 1793014754995363700
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\group_distributions.csv": {
+      "sha256": "62c7e014c2206e809652553d53e0a756ce87b7b49e4b4481c19bba39acefe713",
+      "size": 2660644,
+      "mtime_ns": 1793014383242694600
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\independent_inputs_after.json": {
+      "sha256": "90f1775379bcb6bb6666df55762fdedea77e86ec2e270f9e493295258a66d42f",
+      "size": 15071,
+      "mtime_ns": 1793014730142760700
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\independent_synthetic_tests.json": {
+      "sha256": "f18442f91255e629e12c1e456fa5dd47252a010e277066833a9da325bfca5d28",
+      "size": 705,
+      "mtime_ns": 1793014730141760800
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\independent_verification.json": {
+      "sha256": "cd680a8fc1d17eebc66c3545e48d4e5eab53a528822ca002332ccc9ea59d7632",
+      "size": 799,
+      "mtime_ns": 1793014730152975800
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\independent_verifier.py": {
+      "sha256": "38489bf208ebdad01d3192e4a0e7db91c4d801c69c026d00193f5aa3ff0b7a84",
+      "size": 23235,
+      "mtime_ns": 1793014730140759600
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\inputs_after_analysis.json": {
+      "sha256": "90f1775379bcb6bb6666df55762fdedea77e86ec2e270f9e493295258a66d42f",
+      "size": 15071,
+      "mtime_ns": 1793014383651575200
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\inputs_after_finalization.json": {
+      "sha256": "90f1775379bcb6bb6666df55762fdedea77e86ec2e270f9e493295258a66d42f",
+      "size": 15071,
+      "mtime_ns": 1793014755034737800
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\inputs_before.json": {
+      "sha256": "90f1775379bcb6bb6666df55762fdedea77e86ec2e270f9e493295258a66d42f",
+      "size": 15071,
+      "mtime_ns": 1793014215078795500
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\pairs.csv": {
+      "sha256": "f95b2265c1a3e9a7650f60bfe4dcca934995679594adf7d467acacca39ff2e37",
+      "size": 130070674,
+      "mtime_ns": 1793014380337622500
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\query_sample.json": {
+      "sha256": "05eecf3eb79de630de5146a4b63a79c7fd99f0d235091db62a1fcc18d6e115bc",
+      "size": 9944898,
+      "mtime_ns": 1793014263997474500
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\reference_sample.json": {
+      "sha256": "1a7d0b1a11e600374b1b242885e32821dbe8e479d85f72c823f707bb71d919d4",
+      "size": 12957147,
+      "mtime_ns": 1793014263730473200
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\registration.json": {
+      "sha256": "f6913bfb7fc63000d1b6c1c177da81ba0e028f947bf77a5949e33b7ec3c9ec7c",
+      "size": 321,
+      "mtime_ns": 1793014215112560200
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\samples_frozen.json": {
+      "sha256": "6b36a307479d6c0c79dd5d7dfdd84b7d03c3bbe18cff1399e1fb0f011ddd0388",
+      "size": 349,
+      "mtime_ns": 1793014264038917700
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-input-similarity-task20-20261026-v2\\support_and_coverage.csv": {
+      "sha256": "b54cefc8a31b1af27f3b2959427f5593450f667d7fa1f694d83a3d8f85e43d59",
+      "size": 113819,
+      "mtime_ns": 1793014263433744600
+    }
+  },
+  "inputs_sha_size_mtime_unchanged": true,
+  "sealed_hash_size_mtime_unchanged": true,
+  "main_verify_runs": [
+    {
+      "status": "passed_read_only",
+      "artifacts": 41,
+      "new_fits": 0,
+      "all_hash_mtime_unchanged": true
+    },
+    {
+      "status": "passed_read_only",
+      "artifacts": 41,
+      "new_fits": 0,
+      "all_hash_mtime_unchanged": true
+    }
+  ],
+  "new_fits": 0,
+  "optimizer_updates": 0
+}

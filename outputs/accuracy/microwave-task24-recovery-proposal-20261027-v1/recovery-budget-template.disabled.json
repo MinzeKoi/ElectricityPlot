@@ -1,0 +1,21 @@
+{
+  "authorized": false,
+  "approval_origin": null,
+  "experiment": "microwave_task24_multihouse_v1",
+  "registration_sha256": "6d6754ee5e97ad69a619c107a2441b759048299cb2785214af01ada44b4961f7",
+  "review_sha256": {},
+  "additional_new_fits": 3,
+  "maximum_updates": 10584,
+  "updates_per_seed": 3528,
+  "seeds": [
+    42,
+    1019,
+    2026
+  ],
+  "control_retrains": 0,
+  "automatic_retry": false,
+  "human_authorization_quote": "",
+  "human_authorization_reference": "",
+  "status": "disabled_pending_independent_review_and_explicit_recovery_authorization",
+  "budget_note": "Original approved budget remains unspent: one prior entry attempt ended before the first fit, with zero models and zero updates. This template is not authorization and does not add a second budget."
+}

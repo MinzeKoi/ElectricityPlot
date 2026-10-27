@@ -1,0 +1,7 @@
+{
+  "stage": "diagnostics",
+  "child_pid": 2660,
+  "driver_pid": 18356,
+  "snapshot_script": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-recovery-preparation-20261027-v3\\run_task22_recovery.py",
+  "authorization_sha256": "62ec2363daf3ec810ecda155ad340da9e55a9c66fd74d6b5959e06b598cdccd2"
+}

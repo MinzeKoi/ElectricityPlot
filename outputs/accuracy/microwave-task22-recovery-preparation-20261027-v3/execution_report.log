@@ -1,0 +1,137 @@
+{"stage": "report", "pid": 2800, "parent_pid": 16892, "cpu_threads": 4, "OMP_NUM_THREADS": "4", "MKL_NUM_THREADS": "4"}
+{
+  "passed": true,
+  "status": "effective_models_complete",
+  "preparation_new_fits": 0,
+  "preparation_optimizer_updates": 0,
+  "audit_new_fits": 0,
+  "audit_optimizer_updates": 0,
+  "preparation_development_reads": 0,
+  "preparation_final_reads": 0,
+  "original_registration_sha256": "2ffd72773185d8be1372b0744729b7eb3daf8656f1dfd2097da47cb113037c53",
+  "registration_sha256": "30dad580c6711ff021f3607dcbf6dc0b0a73e8276aee01204869534ddaf3d0f9",
+  "actual_new_fits": 1,
+  "actual_new_fit_updates": 3528,
+  "reused_fits": 2,
+  "historic_interrupted_fits": 1,
+  "effective_models": 3,
+  "effective_matrix_updates": 10584,
+  "cumulative_attempted_updates_upper_bound": 11152,
+  "development_evaluation_attempted": false,
+  "development_evaluated": false,
+  "final_house_reads": 0,
+  "execution": {
+    "training_matrix": true,
+    "actual_batch_logs_exact": true,
+    "checkpoint_rule_replayed": true,
+    "new_fits": 1,
+    "reused_fits": 2,
+    "historic_interrupted_fits": 1,
+    "effective_models": 3,
+    "effective_matrix_updates": 10584,
+    "cumulative_attempted_updates_upper_bound": 11152,
+    "diagnostics": {
+      "passed": true,
+      "cells": 24,
+      "caches": 12,
+      "all_fixed_model_predictions_exact": true,
+      "independent_AP_and_confusions_exact": true,
+      "cpu_threads": 4,
+      "bindings": [
+        {
+          "arm": "control16",
+          "seed": 42,
+          "dataset": "train",
+          "cache_sha256": "06ca636dc83896281512c00a23cc45aebcb999dd750a19d879e94e4a8aa1b440",
+          "probability_replay_exact": true
+        },
+        {
+          "arm": "control16",
+          "seed": 42,
+          "dataset": "source",
+          "cache_sha256": "068ee46ecd93ebb3806d1c87ab373395469fa537c3a0064a38243267d1b80b88",
+          "probability_replay_exact": true
+        },
+        {
+          "arm": "control16",
+          "seed": 1019,
+          "dataset": "train",
+          "cache_sha256": "7c66f8106aaee0488beaab0e6832f53b57967b27b0aef713aa6c681333525eac",
+          "probability_replay_exact": true
+        },
+        {
+          "arm": "control16",
+          "seed": 1019,
+          "dataset": "source",
+          "cache_sha256": "4e36a831f037e9ae61b69764f8bb7a6c5ee819a56fa72b17908d1e45e4eb8459",
+          "probability_replay_exact": true
+        },
+        {
+          "arm": "control16",
+          "seed": 2026,
+          "dataset": "train",
+          "cache_sha256": "119b42e6bc38f4ba73c326c0374a4e9ce2d8bc705f03e14154a99e7a1a7333df",
+          "probability_replay_exact": true
+        },
+        {
+          "arm": "control16",
+          "seed": 2026,
+          "dataset": "source",
+          "cache_sha256": "bef4eee5de8e6bd72f3ce928d9e779c7060c68e925654f357477b67bf7ddd23e",
+          "probability_replay_exact": true
+        },
+        {
+          "arm": "wide32",
+          "seed": 42,
+          "dataset": "train",
+          "cache_sha256": "e2e900732b802ea886a3283a7c51b12cfa0e187aa97bbcc97b1b3157cc4c1954",
+          "probability_replay_exact": true
+        },
+        {
+          "arm": "wide32",
+          "seed": 42,
+          "dataset": "source",
+          "cache_sha256": "d9df244499a2bab4055716a75e6e38b92d2e711094399c90d8c123c39e1d3f6b",
+          "probability_replay_exact": true
+        },
+        {
+          "arm": "wide32",
+          "seed": 1019,
+          "dataset": "train",
+          "cache_sha256": "a2abe2bf93b21032d315e01387629d21885f1f05b72d66ec5ef4a86844bdb74b",
+          "probability_replay_exact": true
+        },
+        {
+          "arm": "wide32",
+          "seed": 1019,
+          "dataset": "source",
+          "cache_sha256": "7d414dcabd73a5c1ed5371ef25d072cfa3f3acc3e19aad40fa7f50d93437d8ca",
+          "probability_replay_exact": true
+        },
+        {
+          "arm": "wide32",
+          "seed": 2026,
+          "dataset": "train",
+          "cache_sha256": "9166fd9593d3f673dc4a993927bedbe316d69492f32d924adef6348e216f846f",
+          "probability_replay_exact": true
+        },
+        {
+          "arm": "wide32",
+          "seed": 2026,
+          "dataset": "source",
+          "cache_sha256": "6fce2f45f45a355f2041979e050b642bfa842d11d7d7c9bcd15e35b2c138cff0",
+          "probability_replay_exact": true
+        }
+      ],
+      "development_reads": 0,
+      "audit_new_fits": 0,
+      "audit_optimizer_updates": 0
+    },
+    "source_qualified": false
+  },
+  "report": "# Task22 seed2026 中断恢复准备报告\n\n状态：恢复工程与静态路径完成并封存，默认关闭；等待绑定本注册的独立1fit/3528新预算。此次准备0真实或合成训练、0优化器、0更新、0反传、0开发/最终读取。\n\n恢复注册SHA256：`30dad580c6711ff021f3607dcbf6dc0b0a73e8276aee01204869534ddaf3d0f9`\n\n原v4注册SHA256：`2ffd72773185d8be1372b0744729b7eb3daf8656f1dfd2097da47cb113037c53`\n\n原v4两份完整模型 seed42/1019 各3528完成，批日志、初始化、逐中心曝光、12检查点和原85预选均经中断审计及本次独立复核。seed2026已完成567、已尝试568；第568次是否实际更新未知，已保存检查点无Adam状态。原中断目录、日志、源码、索引、权重、注册和预算全部保留，不调用旧train入口或声称精确续训。\n\n累计账本：原3次fit尝试中，2完整、1中断；完成更新下界7623，尝试上界7624。若获得新预算并完整重跑，实际fit尝试共4次，累计完成更新下界11151、尝试上界11152；有效候选为2个复用+1个恢复模型，3seed各3528，有效矩阵10584更新。本次新fit始终计1，旧完整模型复用计2，历史失败计1，不能把总消耗说成10584。开发验收summary只复用原门槛计算；fit及更新统计来自验证过的恢复账本，显式记录actual_new_fits=1等字段，不保留旧框架含糊的new_fits=3/updates=10584。独立复核拒绝错误或遗漏历史消耗的summary。\n\n拟恢复seed2026严格从原initial32和原全部3528×256批索引重新训练，16正/240均匀负、unitBCE/Adam .001、C127、TCN32/19809参数、12×294步、CPU4；无新增数据/采样/特征/损失或新阈值。恢复失败不重试。入口显式设置并报告实际CPU线程4，UTF-8和禁用字节码；旧两个模型逐文件复制并检查hash，保持原model.json绑定原v4注册；恢复模型绑定本注册。源码、引擎和入口从本目录不可变快照加载，原v4源/工件不被改写。\n\n独立人类回执须同时绑定本恢复SHA、原v4 SHA、中断审计manifest SHA、复用模型身份文件SHA、失败目录清单SHA、seed2026，明确仅1fit和3528更新并从原初始化重跑。缺回执或旧预算在读取训练数据、训练模型、创建优化器及fit前拒绝；disabled模板不是授权。\n\n共用来源/冻结/验收算法以显式恢复上下文核验实际账本，不伪称新fit=3：完整有效矩阵和双注册身份先通过后，沿原85检查点与固定Task14 control_guard95/L95/H95/r15资格；任一来源门槛失败即0开发读取。通过才冻结唯一候选及A/W50/候选九格，公开推理exact后一次原137523点八门槛验收；禁止开发后改选、改宽度、延训。最终8/9/20隔离、默认不切换。固定诊断保留24格、12缓存、同窗AP与固定点统计，不改选。\n\n完整静态夹具经fakefit走恢复1fit/两个复用→source→diagnostics→freeze→evaluate→实际verify/report；真实执行时复核会用固定模型重放12份诊断缓存并独立复算24格AP/混淆，包含跨日期的完整event支持、缺预算/旧回执拒绝、旧工件篡改和缺矩阵拒绝、低Recall/全关时source拒绝且0开发读取、重复训练/诊断/评价拒绝。fixture仅构造网络并使用静态输出，不做任何优化训练或反传。独立复核另以deque重放原3seed全部批索引、曝光和32初始化，重查两份旧模型各12检查点及日期/事件；未新增subagent。\n\n新目录排他创建，失败尝试保留；完成后prepare/verify/report/independent_verify默认只读。两遍工作区与快照检查全部输入及交付hash/mtime，外部只读回执提供证据。\n",
+  "runtime": {
+    "cpu_threads": 4,
+    "bytecode_disabled": true
+  }
+}

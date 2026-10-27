@@ -1,0 +1,23 @@
+Traceback (most recent call last):
+  File "D:\system position\document\真正的文档\AIC\outputs\accuracy\microwave-task21-preparation-20261026-v2\run_microwave_task21.py", line 21, in <module>
+    result = getattr(task, args.command)(args.run)
+  File "D:\system position\document\真正的文档\AIC\outputs\accuracy\microwave-task21-preparation-20261026-v2\source\virtual_submeter\accuracy\microwave_task21.py", line 443, in report
+    result=verify(run)
+  File "D:\system position\document\真正的文档\AIC\outputs\accuracy\microwave-task21-preparation-20261026-v2\source\virtual_submeter\accuracy\microwave_task21.py", line 438, in verify
+    result['execution']=review_execution(run)
+                        ~~~~~~~~~~~~~~~~^^^^^
+  File "D:\system position\document\真正的文档\AIC\outputs\accuracy\microwave-task21-preparation-20261026-v2\source\virtual_submeter\accuracy\microwave_task21_review.py", line 219, in review_execution
+    selected=task.loss.temporal.choose(all_scores,blocks,read_json(run/'parent_training_plan.json'))
+  File "D:\system position\document\真正的文档\AIC\outputs\accuracy\microwave-task21-preparation-20261026-v2\source\virtual_submeter\accuracy\microwave_source5_temporal_execution.py", line 242, in choose
+    selected=f.reselect_checkpoints(checkpoints,blocks,p,expected_epochs=p['checkpoints'])
+  File "D:\system position\document\真正的文档\AIC\outputs\accuracy\microwave-task21-preparation-20261026-v2\source\virtual_submeter\accuracy\microwave_source5_temporal.py", line 176, in reselect_checkpoints
+    point = select_checkpoint(scores, blocks, p)
+  File "D:\system position\document\真正的文档\AIC\outputs\accuracy\microwave-task21-preparation-20261026-v2\source\virtual_submeter\accuracy\microwave_fullsource.py", line 217, in select_checkpoint
+    point = selection(scores, blocks, p)
+  File "D:\system position\document\真正的文档\AIC\outputs\accuracy\microwave-task21-preparation-20261026-v2\source\virtual_submeter\accuracy\microwave_sampling.py", line 258, in selection
+    names = [k for k, d in blocks.items() if supported_block(d, p)]
+                                             ~~~~~~~~~~~~~~~^^^^^^
+  File "D:\system position\document\真正的文档\AIC\outputs\accuracy\microwave-task21-preparation-20261026-v2\source\virtual_submeter\accuracy\microwave_sampling.py", line 211, in supported_block
+    and len(np.unique(d["event"][d["y"] >= 200])) >= p["minimum_block_events"]
+                      ~^^^^^^^^^
+KeyError: 'event'

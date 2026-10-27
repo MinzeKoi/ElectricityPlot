@@ -1,0 +1,26 @@
+{"stage": "train", "cpu_threads": 4, "OMP_NUM_THREADS": "4", "MKL_NUM_THREADS": "4"}
+wide32 seed=42 checkpoint=1/12 eligible=True seconds=19.1
+wide32 seed=42 checkpoint=2/12 eligible=True seconds=39.3
+wide32 seed=42 checkpoint=3/12 eligible=True seconds=59.7
+wide32 seed=42 checkpoint=4/12 eligible=True seconds=79.1
+wide32 seed=42 checkpoint=5/12 eligible=True seconds=99.0
+wide32 seed=42 checkpoint=6/12 eligible=True seconds=118.6
+wide32 seed=42 checkpoint=7/12 eligible=True seconds=138.6
+wide32 seed=42 checkpoint=8/12 eligible=True seconds=158.7
+wide32 seed=42 checkpoint=9/12 eligible=True seconds=180.6
+wide32 seed=42 checkpoint=10/12 eligible=True seconds=200.5
+wide32 seed=42 checkpoint=11/12 eligible=True seconds=219.8
+wide32 seed=42 checkpoint=12/12 eligible=True seconds=239.8
+wide32 seed=1019 checkpoint=1/12 eligible=True seconds=19.9
+wide32 seed=1019 checkpoint=2/12 eligible=True seconds=38.6
+wide32 seed=1019 checkpoint=3/12 eligible=True seconds=57.5
+wide32 seed=1019 checkpoint=4/12 eligible=True seconds=76.3
+wide32 seed=1019 checkpoint=5/12 eligible=True seconds=95.6
+wide32 seed=1019 checkpoint=6/12 eligible=True seconds=116.0
+wide32 seed=1019 checkpoint=7/12 eligible=True seconds=136.0
+wide32 seed=1019 checkpoint=8/12 eligible=True seconds=156.3
+wide32 seed=1019 checkpoint=9/12 eligible=True seconds=176.1
+wide32 seed=1019 checkpoint=10/12 eligible=True seconds=196.3
+wide32 seed=1019 checkpoint=11/12 eligible=True seconds=216.6
+wide32 seed=1019 checkpoint=12/12 eligible=True seconds=237.7
+wide32 seed=2026 checkpoint=1/12 eligible=True seconds=20.8

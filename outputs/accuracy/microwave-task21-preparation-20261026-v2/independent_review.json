@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "new_fits": 0,
+  "optimizer_updates": 0,
+  "development_reads": 0,
+  "final_reads": 0,
+  "seeds": {
+    "42": {
+      "hard_windows": 9661,
+      "subsegments": 2201,
+      "all_3528_batches_exact": true,
+      "positive_and_ordinary_slots_exact": true,
+      "independent_exposure_exact": true,
+      "independent_queue_exact": true
+    },
+    "1019": {
+      "hard_windows": 5654,
+      "subsegments": 1558,
+      "all_3528_batches_exact": true,
+      "positive_and_ordinary_slots_exact": true,
+      "independent_exposure_exact": true,
+      "independent_queue_exact": true
+    },
+    "2026": {
+      "hard_windows": 8304,
+      "subsegments": 1997,
+      "all_3528_batches_exact": true,
+      "positive_and_ordinary_slots_exact": true,
+      "independent_exposure_exact": true,
+      "independent_queue_exact": true
+    }
+  },
+  "registration_sha256": "e3fc4e93396b34205e47f32ecd8b6e9445ccb25386e0c70b1a6a35cbf429860c"
+}

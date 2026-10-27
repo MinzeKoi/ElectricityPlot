@@ -245,13 +245,14 @@ def choose(checkpoints,blocks,p):
                 block_metrics={k:metrics(checkpoints[-1][k],d['y'],.5) for k,d in blocks.items()})
 
 
-def write_selected(dest,seed,arm,chosen,meta,epoch_path,registration,updates,recipe='control_BCE50'):
+def write_selected(dest,seed,arm,chosen,meta,epoch_path,registration,updates,recipe='control_BCE50',*,channels=16):
     shutil.copyfile(epoch_path,dest/'weights.pt')
     info=dict(**{**meta,'window_samples':127},kind=KIND,inference_support='strict_complete_31',truth_threshold_w=200,
               decision_threshold_probability=chosen['threshold'],selected=chosen,
-              arm=arm,seed=seed,updates=updates,parameter_count=5329,recipe=recipe,
+              arm=arm,seed=seed,updates=updates,parameter_count=18*channels*channels+41*channels+65,recipe=recipe,
               weights_sha256=sha256(dest/'weights.pt'),registration_sha256=registration,
               same_household_temporal_engineering_experiment=True,power_improvement_claim=False)
+    if channels != 16: info['tcn_channels'] = channels
     write_json(dest/'model.json',info)
     return parent.source_row(seed,chosen)
 
@@ -264,7 +265,7 @@ def training_input(meta,d,idx,prepared,*,batch_transform=None,update=0):
     return tensor_input(meta,batch['x'],batch['mask'])
 
 
-def fit_one(dest,seed,p,d,blocks,meta,indices,initial,registration,*,pos_weight=50.,recipe='control_BCE50',arm='source5',batch_transform=None):
+def fit_one(dest,seed,p,d,blocks,meta,indices,initial,registration,*,pos_weight=50.,recipe='control_BCE50',arm='source5',batch_transform=None,channels=16):
     """Used identically by real execution and the small synthetic integration test."""
     meta={**meta,'window_samples':127}
     dest.mkdir(parents=True,exist_ok=False)
@@ -272,7 +273,7 @@ def fit_one(dest,seed,p,d,blocks,meta,indices,initial,registration,*,pos_weight=
         raise DataError('Unsupported fixed loss recipe')
     write_json(dest/'started.json',dict(seed=seed,arm=arm,maximum_updates=p['checkpoints']*p['steps_per_checkpoint']))
     write_json(dest/'progress.json',dict(completed_updates=0,attempted_updates=0))
-    model,opt=parent.configure(seed,p)
+    model,opt=parent.configure(seed,p,channels=channels)
     for k,v in model.state_dict().items():
         if not torch.equal(v,initial[k]): raise DataError('Initialization changed')
     torch.save(initial,dest/'initial.pt')
@@ -312,7 +313,7 @@ def fit_one(dest,seed,p,d,blocks,meta,indices,initial,registration,*,pos_weight=
         save_csv(dest/'batches.csv',batches)
         print(f'{arm} seed={seed} checkpoint={epoch}/{p["checkpoints"]} eligible={point is not None} seconds={time.perf_counter()-started:.1f}',flush=True)
     chosen=choose(all_scores,blocks,p)
-    row=write_selected(dest,seed,arm,chosen,meta,dest/f'epoch_{chosen["epoch"]}.pt',registration,len(indices),recipe)
+    row=write_selected(dest,seed,arm,chosen,meta,dest/f'epoch_{chosen["epoch"]}.pt',registration,len(indices),recipe,channels=channels)
     np.savez_compressed(dest/'exposure.npz',count=exposure,t=d['t'],house=d['house'],event=d['event'])
     write_json(dest/'complete.json',dict(updates=len(indices),seconds=time.perf_counter()-started,artifacts=inventory(dest)))
     return row

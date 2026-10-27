@@ -1,0 +1,10 @@
+{
+  "pair_rows": 191250,
+  "group_rows": 8760,
+  "null_pairs": 27916,
+  "strict_windows": 533565,
+  "full127_windows": 456448,
+  "total_windows": 650273,
+  "new_fits": 0,
+  "optimizer_updates": 0
+}

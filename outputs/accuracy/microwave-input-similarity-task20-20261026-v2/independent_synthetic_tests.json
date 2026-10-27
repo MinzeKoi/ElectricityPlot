@@ -1,0 +1,30 @@
+[
+  {
+    "test": "chunked_distance_matches_independent_scalar_across_reference_chunk_boundary",
+    "status": "passed"
+  },
+  {
+    "test": "global_tie_across_chunks_and_all_ineligible_null",
+    "status": "passed"
+  },
+  {
+    "test": "same_day_overlap_house_missing_and_stable_tie_guards",
+    "status": "passed"
+  },
+  {
+    "test": "full127_mask_duplicate_missing_and_invalid_input_guards",
+    "status": "passed"
+  },
+  {
+    "test": "exact_original_frozen_tensor_input_conversion",
+    "status": "passed"
+  },
+  {
+    "test": "incomplete_model_matrix_refused_before_cache_reads",
+    "status": "passed"
+  },
+  {
+    "test": "exclusive_file_and_directory_no_overwrite",
+    "status": "passed"
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "authorized": false,
+  "approval_origin": "human",
+  "experiment": "microwave_task22_capacity_v1",
+  "registration_sha256": "85bb7de48e8167fb043805e7f37c6ae65bee5191d026dc541b6fea02b74263ef",
+  "additional_new_fits": 3,
+  "maximum_updates": 10584,
+  "seeds": [
+    42,
+    1019,
+    2026
+  ],
+  "human_authorization_quote": "",
+  "human_authorization_reference": "",
+  "warning": "Only a NEW explicit human budget bound to this SHA can authorize execution. Preparation and Task21 receipts do not authorize training."
+}

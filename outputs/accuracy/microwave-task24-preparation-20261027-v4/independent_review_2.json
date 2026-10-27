@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "reviewed_registration_sha256": "5bc276ac7fce10d63be1033bee2072dee587c6253bdbaab71168b69579dbbe37",
+  "scope": "Independent protocol and adapter review, synthetic tests, two read-only verify/report runs and unchanged snapshot inventory",
+  "evidence": "outputs/accuracy/microwave-task24-independent-review-20261027-v1/v4_verify_1.json, v4_verify_2.json, v4_report_1.json, v4_report_2.json, v4_before.json, v4_after.json",
+  "limitations": "Synthetic tests use substituted inference; protected development identity and baseline files were not opened."
+}

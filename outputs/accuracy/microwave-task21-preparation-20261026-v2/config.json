@@ -1,0 +1,43 @@
+{
+  "schema": "microwave_task21_hard_negative_v1",
+  "authorized": false,
+  "preparation_only": true,
+  "seeds": [
+    42,
+    1019,
+    2026
+  ],
+  "maximum_new_fits": 3,
+  "maximum_updates": 10584,
+  "updates_per_seed": 3528,
+  "batch_size": 256,
+  "positive_per_batch": 16,
+  "ordinary_negative_per_batch": 120,
+  "hard_negative_per_batch": 120,
+  "subsegment_centers": 31,
+  "interval_seconds": 8,
+  "rng_namespace": "task21-hard-negative-v1|",
+  "numpy_version": "2.3.4",
+  "bit_generator": "PCG64",
+  "expected_hard_by_house": {
+    "42": [
+      4036,
+      2584,
+      3041
+    ],
+    "1019": [
+      1835,
+      1329,
+      2490
+    ],
+    "2026": [
+      3667,
+      2338,
+      2299
+    ]
+  },
+  "control": "Task12 unit_BCE + Task14 control_guard95",
+  "source_rule": "original85checkpoint_L95_H95_radius15",
+  "extra_candidates_permitted": false,
+  "failure_retry_permitted": false
+}

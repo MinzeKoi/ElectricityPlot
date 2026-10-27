@@ -1,0 +1,15 @@
+{
+  "input_log_mean": 5.0,
+  "input_log_std": 0.8,
+  "cpu_threads": 4,
+  "batch_size": 7,
+  "window_samples": 127,
+  "inference_support": "strict_complete_31",
+  "truth_threshold_w": 200,
+  "decision_threshold_probability": 0.5,
+  "tcn_channels": 16,
+  "parameter_count": 5329,
+  "seed": 2026,
+  "synthetic_fake_model": true,
+  "trained": false
+}

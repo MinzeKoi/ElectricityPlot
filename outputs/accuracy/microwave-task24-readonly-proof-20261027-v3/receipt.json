@@ -1,0 +1,35 @@
+{
+  "registration_sha256": "8bee04b04c768cfcce44f62815dd0d9ae16be8c70352ceb992331a5524787059",
+  "readonly_file_count": 118,
+  "readonly_scope": "Windows file ReadOnly attribute; not an operating-system security boundary",
+  "verify_passes": 2,
+  "report_passes": 2,
+  "no_budget_entry_rejections": 4,
+  "files": [
+    {
+      "name": "verify-1.json",
+      "sha256": "6705c93b93360ba3df5091aa9ebd1191550b6bdc57017e05db4d4c00282720df",
+      "bytes": 306
+    },
+    {
+      "name": "verify-2.json",
+      "sha256": "6705c93b93360ba3df5091aa9ebd1191550b6bdc57017e05db4d4c00282720df",
+      "bytes": 306
+    },
+    {
+      "name": "report-1.json",
+      "sha256": "ad4da2d9553d22c6cb934d9fee5bbece203af379e15b01684f55c74476a2db12",
+      "bytes": 3333
+    },
+    {
+      "name": "report-2.json",
+      "sha256": "ad4da2d9553d22c6cb934d9fee5bbece203af379e15b01684f55c74476a2db12",
+      "bytes": 3333
+    },
+    {
+      "name": "no-budget.log",
+      "sha256": "dea8153da3b66266035af01021d3a65ea933691e7483dc7e83e647248bf679ab",
+      "bytes": 144
+    }
+  ]
+}

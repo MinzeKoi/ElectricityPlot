@@ -1,0 +1,47 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "label": "current_live",
+      "returncode": 0,
+      "tests": 2,
+      "ok": true,
+      "stdout_bytes": 0,
+      "stderr_bytes": 353,
+      "combined_bytes": 353,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "3e4a3f541f720c09996d433fedc90df6259e19adbf8b4a3649b0066978122e4e"
+    },
+    {
+      "label": "v3_snapshot",
+      "returncode": 0,
+      "tests": 2,
+      "ok": true,
+      "stdout_bytes": 0,
+      "stderr_bytes": 353,
+      "combined_bytes": 353,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "115442d51f7c16a42674704c331cb1f01278855d91f63201a4526a2bf13005d4"
+    },
+    {
+      "label": "v1_snapshot",
+      "returncode": 0,
+      "tests": 2,
+      "ok": true,
+      "stdout_bytes": 0,
+      "stderr_bytes": 353,
+      "combined_bytes": 353,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "133f5d1a3ee2d5f4aecabb6a9b5f123f7e584999fe4270c2ac3ca0491afc8f5e"
+    }
+  ],
+  "v1_historical_empty_test_logs_retained": true,
+  "stdout_and_stderr_saved_separately": true,
+  "successful_unittest_output_was_stderr": true,
+  "new_fits": 0,
+  "optimizers": 0,
+  "optimizer_updates": 0,
+  "backward_calls": 0,
+  "development_reads": 0,
+  "final_reads": 0
+}

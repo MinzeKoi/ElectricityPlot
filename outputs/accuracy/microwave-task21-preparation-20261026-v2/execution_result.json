@@ -1,0 +1,18 @@
+{
+  "conclusion": "来源资格未通过，保留冻结control_guard95；候选不进入开发评价。",
+  "source_eligible": false,
+  "source_gates": {
+    "three_seed_feasible": true,
+    "each_block_R95": true,
+    "nondegenerate": true,
+    "mean_F1_not_lower": false,
+    "each_seed_mean_R_drop_le_005": true,
+    "at_least_two_seed_P_up": false
+  },
+  "new_fits": 3,
+  "optimizer_updates": 10584,
+  "development_evaluated": false,
+  "final_reads": 0,
+  "registration_sha256": "e3fc4e93396b34205e47f32ecd8b6e9445ccb25386e0c70b1a6a35cbf429860c",
+  "authorization_sha256": "7828a2f8fb779077f9c3b6e97111e05558d8ed413c84b03f61240e73b1d02e6c"
+}

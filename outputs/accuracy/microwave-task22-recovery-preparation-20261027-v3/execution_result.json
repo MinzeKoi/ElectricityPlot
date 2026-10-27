@@ -1,0 +1,89 @@
+{
+  "conclusion": "来源资格未通过；保留原control_guard95，不进入开发验收。",
+  "source_eligible": false,
+  "source_gates": {
+    "checkpoints_original85": true,
+    "three_seed_feasible": true,
+    "each_block_R95": true,
+    "nondegenerate": true,
+    "mean_F1_not_lower": false,
+    "each_seed_mean_R_drop_le_005": true,
+    "at_least_two_seed_P_up": false
+  },
+  "actual_new_fits": 1,
+  "new_fit_updates": 3528,
+  "reused_fits": 2,
+  "historic_interrupted_fits": 1,
+  "total_fit_attempts": 4,
+  "effective_models": 3,
+  "effective_matrix_updates": 10584,
+  "historical_completed_updates_lower_bound": 7623,
+  "historical_attempted_updates_upper_bound": 7624,
+  "cumulative_completed_updates_lower_bound": 11151,
+  "cumulative_attempted_updates_upper_bound": 11152,
+  "development_evaluated": false,
+  "final_reads": 0,
+  "default_changed": false,
+  "epoch1_exact": true,
+  "pid_checks": {
+    "train": {
+      "actual_python_pid": 11992,
+      "launcher_pid": 5448,
+      "driver_pid": 4908,
+      "returncode": 0,
+      "cpu_threads": 4,
+      "log_sha256": "ef431c720e581f4bf0fd1396f607dc36dd6b3a4fa99bd3051adfc82911b025ad"
+    },
+    "source_select": {
+      "actual_python_pid": 7432,
+      "launcher_pid": 8532,
+      "driver_pid": 18424,
+      "returncode": 0,
+      "cpu_threads": 4,
+      "log_sha256": "c141c1fb74a0871f1c5f99a8b2f4adc235dacc0d4b8b45e9b49147b2c52bc4af"
+    },
+    "diagnostics": {
+      "actual_python_pid": 5588,
+      "launcher_pid": 2660,
+      "driver_pid": 18356,
+      "returncode": 0,
+      "cpu_threads": 4,
+      "log_sha256": "66473b56a7c5f66ba29f3115da872158a5e982a404dd11be3c4ee90c2f2ced94"
+    },
+    "verify": {
+      "actual_python_pid": 14064,
+      "launcher_pid": 14360,
+      "driver_pid": 2480,
+      "returncode": 0,
+      "cpu_threads": 4,
+      "log_sha256": "837b310b2c7471646a5661e3b012beb73ef7ce50a0a36834386281e3c8157da0"
+    },
+    "report": {
+      "actual_python_pid": 2800,
+      "launcher_pid": 16892,
+      "driver_pid": 11608,
+      "returncode": 0,
+      "cpu_threads": 4,
+      "log_sha256": "2b1573a486f2dda204094ef6ff2c62ec042ae7a856a165ba3c10511c8bd0c7c1"
+    },
+    "independent_verify": {
+      "actual_python_pid": 19496,
+      "launcher_pid": 21808,
+      "driver_pid": 7088,
+      "returncode": 0,
+      "cpu_threads": 4,
+      "log_sha256": "45261448da95ca16b8c91a261cb62dbf459a734807ae477d4d4e25cb3b64fd46"
+    },
+    "numeric_audit": {
+      "actual_python_pid": 11612,
+      "launcher_pid": 2812,
+      "driver_pid": 1500,
+      "returncode": 0,
+      "cpu_threads": 4,
+      "log_sha256": "04e3c9b05818668068d1c9fceb169463da4e48fa35941d815e3fc3f9c2c66be6"
+    }
+  },
+  "registration_sha256": "30dad580c6711ff021f3607dcbf6dc0b0a73e8276aee01204869534ddaf3d0f9",
+  "original_registration_sha256": "2ffd72773185d8be1372b0744729b7eb3daf8656f1dfd2097da47cb113037c53",
+  "authorization_sha256": "62ec2363daf3ec810ecda155ad340da9e55a9c66fd74d6b5959e06b598cdccd2"
+}

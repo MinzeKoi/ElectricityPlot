@@ -1,0 +1,40 @@
+hard_negative seed=42 checkpoint=1/12 eligible=True seconds=9.2
+hard_negative seed=42 checkpoint=2/12 eligible=True seconds=18.1
+hard_negative seed=42 checkpoint=3/12 eligible=True seconds=27.1
+hard_negative seed=42 checkpoint=4/12 eligible=True seconds=35.9
+hard_negative seed=42 checkpoint=5/12 eligible=True seconds=44.8
+hard_negative seed=42 checkpoint=6/12 eligible=True seconds=54.0
+hard_negative seed=42 checkpoint=7/12 eligible=True seconds=63.1
+hard_negative seed=42 checkpoint=8/12 eligible=True seconds=72.4
+hard_negative seed=42 checkpoint=9/12 eligible=True seconds=81.5
+hard_negative seed=42 checkpoint=10/12 eligible=True seconds=90.6
+hard_negative seed=42 checkpoint=11/12 eligible=True seconds=99.8
+hard_negative seed=42 checkpoint=12/12 eligible=True seconds=108.9
+hard_negative seed=1019 checkpoint=1/12 eligible=True seconds=9.0
+hard_negative seed=1019 checkpoint=2/12 eligible=True seconds=18.0
+hard_negative seed=1019 checkpoint=3/12 eligible=True seconds=26.9
+hard_negative seed=1019 checkpoint=4/12 eligible=True seconds=36.0
+hard_negative seed=1019 checkpoint=5/12 eligible=True seconds=45.1
+hard_negative seed=1019 checkpoint=6/12 eligible=True seconds=54.1
+hard_negative seed=1019 checkpoint=7/12 eligible=True seconds=63.2
+hard_negative seed=1019 checkpoint=8/12 eligible=True seconds=72.5
+hard_negative seed=1019 checkpoint=9/12 eligible=True seconds=81.6
+hard_negative seed=1019 checkpoint=10/12 eligible=True seconds=91.1
+hard_negative seed=1019 checkpoint=11/12 eligible=True seconds=100.2
+hard_negative seed=1019 checkpoint=12/12 eligible=True seconds=109.4
+hard_negative seed=2026 checkpoint=1/12 eligible=True seconds=9.2
+hard_negative seed=2026 checkpoint=2/12 eligible=True seconds=18.2
+hard_negative seed=2026 checkpoint=3/12 eligible=True seconds=27.1
+hard_negative seed=2026 checkpoint=4/12 eligible=True seconds=36.2
+hard_negative seed=2026 checkpoint=5/12 eligible=True seconds=45.0
+hard_negative seed=2026 checkpoint=6/12 eligible=True seconds=53.9
+hard_negative seed=2026 checkpoint=7/12 eligible=True seconds=63.0
+hard_negative seed=2026 checkpoint=8/12 eligible=True seconds=72.2
+hard_negative seed=2026 checkpoint=9/12 eligible=True seconds=81.1
+hard_negative seed=2026 checkpoint=10/12 eligible=True seconds=90.5
+hard_negative seed=2026 checkpoint=11/12 eligible=True seconds=99.6
+hard_negative seed=2026 checkpoint=12/12 eligible=True seconds=108.4
+{
+  "new_fits": 3,
+  "updates": 10584
+}

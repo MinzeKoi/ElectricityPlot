@@ -1,0 +1,16 @@
+{
+  "schema": "microwave_task22_capacity_v1",
+  "authorized": false,
+  "synthetic_fixture_only": true,
+  "artifacts": {
+    "config.json": "d9ec3a9230af1170f4d6c708e6cccb7d5d0e51062274d835724952f101141e5a",
+    "inputs_before.json": "69043498e117302be3366156ba57013bc716efcabc008b31678aafe4075401d0",
+    "models/wide32/seed_1019/model.json": "56dd338f2d619e45e4e5c36db00cd2419b96b513bff3747b81e1f917e5f7779f",
+    "models/wide32/seed_1019/weights.pt": "52a913b0086c109b08897a9d5b3ad05737692d9d43e3b70d5a961eb69ecb5b72",
+    "models/wide32/seed_2026/model.json": "f2d81ed961232ee3059a1328a8e21cb4ebe1c578df3480b18bb1aea40a12f57c",
+    "models/wide32/seed_2026/weights.pt": "52a913b0086c109b08897a9d5b3ad05737692d9d43e3b70d5a961eb69ecb5b72",
+    "models/wide32/seed_42/model.json": "daf890e1c307675f6a9e10b31a25efa7730f34652ac64f3584cd5dfb3ac8a408",
+    "models/wide32/seed_42/weights.pt": "52a913b0086c109b08897a9d5b3ad05737692d9d43e3b70d5a961eb69ecb5b72",
+    "training_complete.json": "1df226b591dab02ff993a574ea1e4c2335231abb247213fc77463b8b00074eca"
+  }
+}

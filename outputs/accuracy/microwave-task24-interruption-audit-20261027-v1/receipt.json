@@ -1,0 +1,52 @@
+{
+  "status": "interrupted_before_first_model_no_retry",
+  "pid": 16108,
+  "process_running": false,
+  "training_started_marker": true,
+  "models_directory": false,
+  "training_complete_marker": false,
+  "actual_fits": 0,
+  "optimizer_updates": 0,
+  "backward_calls": 0,
+  "candidate_predictions": 0,
+  "evidence_basis": "Exception occurred while evaluating registration SHA argument before entering fit_one; no model directory was created.",
+  "failure": "Training isolation whitelist omitted registration.json",
+  "new_retry_authorization_required": true,
+  "files": [
+    {
+      "path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task24-preparation-20261027-v4\\registration.json",
+      "bytes": 32069,
+      "sha256": "5bc276ac7fce10d63be1033bee2072dee587c6253bdbaab71168b69579dbbe37"
+    },
+    {
+      "path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task24-preparation-20261027-v4\\run_microwave_task24_draft.py",
+      "bytes": 16774,
+      "sha256": "1d631116938620c7b48512b12bba25d0ce0e6755100922834941dbb3612577d1"
+    },
+    {
+      "path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task24-preparation-20261027-v4\\training_started.json",
+      "bytes": 1157,
+      "sha256": "88c2f36d07cd86e87c1b129f85778338de24e1bc31a3749831f9cee2d4da113c"
+    },
+    {
+      "path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task24-execution-20261027-v1\\train_process.json",
+      "bytes": 570,
+      "sha256": "39175f5702aa9f072f6aad91743921553b8831463421e7eb972f2f157d92bc6f"
+    },
+    {
+      "path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task24-execution-20261027-v1\\train.stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task24-execution-20261027-v1\\train.stderr.log",
+      "bytes": 1751,
+      "sha256": "53852264f15dbe692596a1898a0042536e7154d6f16156a32788438e152a19ec"
+    },
+    {
+      "path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task24-preparation-delivery-20261027-v1\\human-budget-20261027.json",
+      "bytes": 966,
+      "sha256": "29e05d88c67d150354abf62067fd472ee5b9b9ad600ed5e66567d830c249f109"
+    }
+  ]
+}

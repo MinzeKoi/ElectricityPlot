@@ -1,0 +1,11 @@
+{
+  "status": "cold_diagnostics_import_rejected",
+  "sealed_v2_unchanged": true,
+  "new_fits": 0,
+  "optimizers": 0,
+  "updates": 0,
+  "backward": 0,
+  "development_reads": 0,
+  "final_reads": 0,
+  "reason": "Sealed diagnostics imports microwave_task22_review inside isolation. Cold Python import attempts a __pycache__/microwave_task22_review.cpython-313.pyc open, outside exact whitelist. No model forward or diagnostic cache produced. This is a real cold-entry defect; v2 retained unchanged. New v3 eagerly imports diagnostic helpers before isolation."
+}

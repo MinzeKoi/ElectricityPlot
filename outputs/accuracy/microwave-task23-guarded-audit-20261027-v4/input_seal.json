@@ -1,0 +1,535 @@
+{
+  "scope": "four houses, source_train only; no fit, prediction, download, normalization or dataset merge",
+  "houses": {
+    "10": {
+      "channel": "Appliance8",
+      "selection": {
+        "start": "2013-12-08T11:48:56Z",
+        "end": "2014-01-05T11:48:56Z",
+        "source_sha256": "ee67ece4efa4cc3722a169e833e3b6fd7879353ed54482114cee03eff2cd3d86"
+      },
+      "partitions": [
+        {
+          "id": "source_train_refit_10_0",
+          "start": "2013-12-08T11:48:56Z",
+          "end": "2013-12-22T11:48:56Z",
+          "old_microwave_admission": {
+            "valid_samples": 136080,
+            "observed_days": 12.6,
+            "missing_fraction": 0.09999999999999998,
+            "active_samples": 386,
+            "complete_threshold_events": 17,
+            "censored_threshold_events": 63,
+            "coverage": 0.9,
+            "aggregate_coverage": 0.90625,
+            "included": true,
+            "reasons": []
+          }
+        },
+        {
+          "id": "source_train_refit_10_1",
+          "start": "2013-12-22T12:48:56Z",
+          "end": "2014-01-05T11:48:56Z",
+          "old_microwave_admission": {
+            "valid_samples": 142036,
+            "observed_days": 13.15148148148148,
+            "missing_fraction": 0.05780431177446099,
+            "active_samples": 717,
+            "complete_threshold_events": 26,
+            "censored_threshold_events": 57,
+            "coverage": 0.942195688225539,
+            "aggregate_coverage": 0.953592039800995,
+            "included": true,
+            "reasons": []
+          }
+        }
+      ],
+      "paths": {
+        "raw": "data/raw/refit_complete_20261022/households/CLEAN_House10.csv",
+        "receipt": "data/raw/refit_complete_20261022/households/CLEAN_House10.receipt.json",
+        "slice": "data/raw/refit_expansion_additional_20261024_v1_slices/CLEAN_House10.csv",
+        "slice_receipt": "data/raw/refit_expansion_additional_20261024_v1_slices/CLEAN_House10.slice.json",
+        "aggregate": "data/processed/refit_expansion_additional_20261024_v1/aggregate/house_10.csv",
+        "microwave": "data/processed/refit_expansion_additional_20261024_v1/labels/house_10/microwave.csv"
+      },
+      "provenance": {
+        "schema_version": 1,
+        "household_id": "10",
+        "source_url": "https://pure.strath.ac.uk/ws/portalfiles/portal/62090184/CLEAN_REFIT_081116.7z",
+        "license": "CC-BY-4.0",
+        "retrieved_at": "2026-10-22T03:15:43.478374+00:00",
+        "kind": "real_complete",
+        "stored_bytes": 398756360,
+        "sha256": "fe51a6a561063a6a0782a41586aeaf03152c90d316610cc896a858331464065b",
+        "archive_sha256": "4dc4dde763da1c843e9d565fc68f1a63752d858980615635994d7f701fdfcc4b",
+        "archive_member": "CLEAN_House10.csv",
+        "archive_member_crc32": "fa962191",
+        "archive_member_crc32_verified": true,
+        "publisher_checksum_verified": false,
+        "integrity_note": "Archive member CRC and local SHA-256 verified; no independently published archive checksum obtained.",
+        "trailing_incomplete_row_removed": false
+      }
+    },
+    "12": {
+      "channel": "Appliance5",
+      "selection": {
+        "start": "2014-10-08T08:33:12Z",
+        "end": "2014-11-05T08:33:12Z",
+        "source_sha256": "6a98f6ff65b05dbe06314c8f5f86928a1d8f91a44962b50a5ee8286de97a5ea8"
+      },
+      "partitions": [
+        {
+          "id": "source_train_refit_12_0",
+          "start": "2014-10-08T08:33:12Z",
+          "end": "2014-10-22T08:33:12Z",
+          "old_microwave_admission": {
+            "valid_samples": 136080,
+            "observed_days": 12.6,
+            "missing_fraction": 0.09999999999999998,
+            "active_samples": 175,
+            "complete_threshold_events": 3,
+            "censored_threshold_events": 28,
+            "coverage": 0.9,
+            "aggregate_coverage": 0.9021560846560847,
+            "included": true,
+            "reasons": []
+          }
+        },
+        {
+          "id": "source_train_refit_12_1",
+          "start": "2014-10-22T09:33:12Z",
+          "end": "2014-11-05T08:33:12Z",
+          "old_microwave_admission": {
+            "valid_samples": 138848,
+            "observed_days": 12.856296296296296,
+            "missing_fraction": 0.07895190713101163,
+            "active_samples": 153,
+            "complete_threshold_events": 4,
+            "censored_threshold_events": 5,
+            "coverage": 0.9210480928689884,
+            "aggregate_coverage": 0.9231774461028193,
+            "included": true,
+            "reasons": []
+          }
+        }
+      ],
+      "paths": {
+        "raw": "data/raw/refit_complete_20261022/households/CLEAN_House12.csv",
+        "receipt": "data/raw/refit_complete_20261022/households/CLEAN_House12.receipt.json",
+        "slice": "data/raw/refit_expansion_additional_20261024_v1_slices/CLEAN_House12.csv",
+        "slice_receipt": "data/raw/refit_expansion_additional_20261024_v1_slices/CLEAN_House12.slice.json",
+        "aggregate": "data/processed/refit_expansion_additional_20261024_v1/aggregate/house_12.csv",
+        "microwave": "data/processed/refit_expansion_additional_20261024_v1/labels/house_12/microwave.csv"
+      },
+      "provenance": {
+        "schema_version": 1,
+        "household_id": "12",
+        "source_url": "https://pure.strath.ac.uk/ws/portalfiles/portal/62090184/CLEAN_REFIT_081116.7z",
+        "license": "CC-BY-4.0",
+        "retrieved_at": "2026-10-22T03:15:43.478374+00:00",
+        "kind": "real_complete",
+        "stored_bytes": 335009288,
+        "sha256": "0051cb297e04cc0f958791a2216168bfff2b75e3f3425954ce2a5cdf2f13710d",
+        "archive_sha256": "4dc4dde763da1c843e9d565fc68f1a63752d858980615635994d7f701fdfcc4b",
+        "archive_member": "CLEAN_House12.csv",
+        "archive_member_crc32": "753cc564",
+        "archive_member_crc32_verified": true,
+        "publisher_checksum_verified": false,
+        "integrity_note": "Archive member CRC and local SHA-256 verified; no independently published archive checksum obtained.",
+        "trailing_incomplete_row_removed": false
+      }
+    },
+    "15": {
+      "channel": "Appliance7",
+      "selection": {
+        "start": "2014-09-29T05:50:32Z",
+        "end": "2014-10-27T05:50:32Z",
+        "source_sha256": "55824f8a1084e0b73973fafa61f2a53d3066f1612430c388d4929c123a028437"
+      },
+      "partitions": [
+        {
+          "id": "source_train_refit_15_0",
+          "start": "2014-09-29T05:50:32Z",
+          "end": "2014-10-13T05:50:32Z",
+          "old_microwave_admission": {
+            "valid_samples": 136080,
+            "observed_days": 12.6,
+            "missing_fraction": 0.09999999999999998,
+            "active_samples": 209,
+            "complete_threshold_events": 2,
+            "censored_threshold_events": 24,
+            "coverage": 0.9,
+            "aggregate_coverage": 0.9039153439153439,
+            "included": true,
+            "reasons": []
+          }
+        },
+        {
+          "id": "source_train_refit_15_1",
+          "start": "2014-10-13T06:50:32Z",
+          "end": "2014-10-27T05:50:32Z",
+          "old_microwave_admission": {
+            "valid_samples": 149666,
+            "observed_days": 13.857962962962963,
+            "missing_fraction": 0.007190713101160817,
+            "active_samples": 345,
+            "complete_threshold_events": 4,
+            "censored_threshold_events": 7,
+            "coverage": 0.9928092868988392,
+            "aggregate_coverage": 0.996530679933665,
+            "included": true,
+            "reasons": []
+          }
+        }
+      ],
+      "paths": {
+        "raw": "data/raw/refit_complete_20261022/households/CLEAN_House15.csv",
+        "receipt": "data/raw/refit_complete_20261022/households/CLEAN_House15.receipt.json",
+        "slice": "data/raw/refit_expansion_additional_20261024_v1_slices/CLEAN_House15.csv",
+        "slice_receipt": "data/raw/refit_expansion_additional_20261024_v1_slices/CLEAN_House15.slice.json",
+        "aggregate": "data/processed/refit_expansion_additional_20261024_v1/aggregate/house_15.csv",
+        "microwave": "data/processed/refit_expansion_additional_20261024_v1/labels/house_15/microwave.csv"
+      },
+      "provenance": {
+        "schema_version": 1,
+        "household_id": "15",
+        "source_url": "https://pure.strath.ac.uk/ws/portalfiles/portal/62090184/CLEAN_REFIT_081116.7z",
+        "license": "CC-BY-4.0",
+        "retrieved_at": "2026-10-22T03:15:43.478374+00:00",
+        "kind": "real_complete",
+        "stored_bytes": 353152325,
+        "sha256": "a39b2202585c77ab07c23ca36cd3e5f0ac4957e37bd57f63ae8d5e0716a9b3d9",
+        "archive_sha256": "4dc4dde763da1c843e9d565fc68f1a63752d858980615635994d7f701fdfcc4b",
+        "archive_member": "CLEAN_House15.csv",
+        "archive_member_crc32": "93cd8a7b",
+        "archive_member_crc32_verified": true,
+        "publisher_checksum_verified": false,
+        "integrity_note": "Archive member CRC and local SHA-256 verified; no independently published archive checksum obtained.",
+        "trailing_incomplete_row_removed": false
+      }
+    },
+    "18": {
+      "channel": "Appliance9",
+      "selection": {
+        "start": "2014-11-05T01:55:28Z",
+        "end": "2014-12-03T01:55:28Z",
+        "source_sha256": "e38caa6fba0c613c567049f175ea1882808e182d7f9a7d3976f1fa3129edd3db"
+      },
+      "partitions": [
+        {
+          "id": "source_train_refit_18_0",
+          "start": "2014-11-05T01:55:28Z",
+          "end": "2014-11-19T01:55:28Z",
+          "old_microwave_admission": {
+            "valid_samples": 136080,
+            "observed_days": 12.6,
+            "missing_fraction": 0.09999999999999998,
+            "active_samples": 88,
+            "complete_threshold_events": 9,
+            "censored_threshold_events": 4,
+            "coverage": 0.9,
+            "aggregate_coverage": 0.9051917989417989,
+            "included": true,
+            "reasons": []
+          }
+        },
+        {
+          "id": "source_train_refit_18_1",
+          "start": "2014-11-19T02:55:28Z",
+          "end": "2014-12-03T01:55:28Z",
+          "old_microwave_admission": {
+            "valid_samples": 149660,
+            "observed_days": 13.857407407407408,
+            "missing_fraction": 0.007230514096185692,
+            "active_samples": 242,
+            "complete_threshold_events": 15,
+            "censored_threshold_events": 34,
+            "coverage": 0.9927694859038143,
+            "aggregate_coverage": 0.9990116086235489,
+            "included": true,
+            "reasons": []
+          }
+        }
+      ],
+      "paths": {
+        "raw": "data/raw/refit_complete_20261022/households/CLEAN_House18.csv",
+        "receipt": "data/raw/refit_complete_20261022/households/CLEAN_House18.receipt.json",
+        "slice": "data/raw/refit_expansion_additional_20261024_v1_slices/CLEAN_House18.csv",
+        "slice_receipt": "data/raw/refit_expansion_additional_20261024_v1_slices/CLEAN_House18.slice.json",
+        "aggregate": "data/processed/refit_expansion_additional_20261024_v1/aggregate/house_18.csv",
+        "microwave": "data/processed/refit_expansion_additional_20261024_v1/labels/house_18/microwave.csv"
+      },
+      "provenance": {
+        "schema_version": 1,
+        "household_id": "18",
+        "source_url": "https://pure.strath.ac.uk/ws/portalfiles/portal/62090184/CLEAN_REFIT_081116.7z",
+        "license": "CC-BY-4.0",
+        "retrieved_at": "2026-10-22T03:15:43.478374+00:00",
+        "kind": "real_complete",
+        "stored_bytes": 301534016,
+        "sha256": "0fab94dfee9be07b936ed17f22be7b697310008bbb66e8f8ce624872d36b9ccd",
+        "archive_sha256": "4dc4dde763da1c843e9d565fc68f1a63752d858980615635994d7f701fdfcc4b",
+        "archive_member": "CLEAN_House18.csv",
+        "archive_member_crc32": "f26cc10b",
+        "archive_member_crc32_verified": true,
+        "publisher_checksum_verified": false,
+        "integrity_note": "Archive member CRC and local SHA-256 verified; no independently published archive checksum obtained.",
+        "trailing_incomplete_row_removed": false
+      }
+    }
+  },
+  "inputs": [
+    {
+      "path": "data/processed/refit_expansion_additional_20261024_v1/manifest.json",
+      "bytes": 26639,
+      "mtime_ns": 1792832666623918900,
+      "sha256": "69bd5226300d3adef9fc0f0cf853ac7eb2235ac78db2ce9f9a211f627fd7e729"
+    },
+    {
+      "path": "data/raw/refit_expansion_additional_20261024_v1_slices/selection.json",
+      "bytes": 1142,
+      "mtime_ns": 1792832530749246000,
+      "sha256": "fd792cb6ee77a8496c813ffca670fb16221cf9bf9957c6f0bd57e64eec85f22c"
+    },
+    {
+      "path": "configs/refit_channels_complete_20261022.json",
+      "bytes": 4009,
+      "mtime_ns": 1792638787284798700,
+      "sha256": "18b44c7ce7ea065799017cc5cdff43d4623971f2e14a6e2e3c5ad506ebf33dab"
+    },
+    {
+      "path": "configs/r0_roles_20261022_v2.json",
+      "bytes": 2832,
+      "mtime_ns": 1792641797750240700,
+      "sha256": "5c7ce442c1d5d7eb0a892f9513c47b11341e51865444a01bfe6af09096222187"
+    },
+    {
+      "path": "outputs/accuracy/data-expansion-20261024-v1/admission.json",
+      "bytes": 36613,
+      "mtime_ns": 1792833976939552600,
+      "sha256": "344b3eaf3e154ab0fc4cd46934e0842e56c309f18d1d40c171fee968ef0d642c"
+    },
+    {
+      "path": "outputs/accuracy/data-expansion-20261024-v1/protocols/C/protocol.json",
+      "bytes": 36696,
+      "mtime_ns": 1792834058701855500,
+      "sha256": "dae70de806908899512daa6db78a807e8c11b42e8172d1de414851c2dc91d815"
+    },
+    {
+      "path": "outputs/accuracy/data-expansion-20261024-v1/registration.json",
+      "bytes": 615,
+      "mtime_ns": 1792833720957502600,
+      "sha256": "1bbc391dab0e5655dc1e735b86b4b9cb00568cac91d8aab3f15711efc9e3eba1"
+    },
+    {
+      "path": "outputs/accuracy/data-expansion-20261024-v1/plan.json",
+      "bytes": 965,
+      "mtime_ns": 1792833720895532700,
+      "sha256": "43508cce36a1396a45b09751e42885c6da6089173239ef6dac3454e297628c46"
+    },
+    {
+      "path": "src/virtual_submeter/accuracy/data_expansion.py",
+      "bytes": 32069,
+      "mtime_ns": 1792858700994428500,
+      "sha256": "100f48ca1e4686033230ec38ecf105752cb70cf798413acb7cc4abab662be192"
+    },
+    {
+      "path": "src/virtual_submeter/data/prepare.py",
+      "bytes": 16188,
+      "mtime_ns": 1792641693296809300,
+      "sha256": "9d0befa61e1d40c5cd1f444f0ee1b90a5a6919ebd2c3fd8f4a66ae8b8cbd9ae0"
+    },
+    {
+      "path": "src/virtual_submeter/accuracy/microwave_mask.py",
+      "bytes": 20408,
+      "mtime_ns": 1792901204752601200,
+      "sha256": "c4a52362f3b2f8a52ccd2d42344567acaa7734c0f5048bc1f8deef8a22d57629"
+    },
+    {
+      "path": "src/virtual_submeter/models/center_mask_tcn.py",
+      "bytes": 5909,
+      "mtime_ns": 1793017823780430600,
+      "sha256": "effb8fe56a0491bc9d1e9ee8fe4a97a87ca1bf6cb210b5b6de74c446b6f0ea2b"
+    },
+    {
+      "path": "outputs/accuracy/microwave-task23-guarded-audit-20261027-v4/audit.py",
+      "bytes": 11542,
+      "mtime_ns": 1793075952166161300,
+      "sha256": "d3a24c0793eb03088e5f91534bcdc4018f1295bb57d20dfbfe2eeca5357dff5f"
+    },
+    {
+      "path": "outputs/accuracy/microwave-task23-guarded-audit-20261027-v4/guard.py",
+      "bytes": 4254,
+      "mtime_ns": 1793075952167157300,
+      "sha256": "85b5509b38c26b3fb364159fa6f02b0c05e0699266de756356ff2527de6d1a8f"
+    },
+    {
+      "path": "outputs/accuracy/microwave-task23-guarded-audit-20261027-v4/independent_check.py",
+      "bytes": 7884,
+      "mtime_ns": 1793075952167157300,
+      "sha256": "5728043ed2979e8200dbfc30bd46ec93f43862929e2c6f723fa8ca690df2a120"
+    },
+    {
+      "path": "outputs/accuracy/microwave-task23-guarded-audit-20261027-v4/guard_tests.py",
+      "bytes": 2987,
+      "mtime_ns": 1793075952168157200,
+      "sha256": "428f17dbcbc3ed1788e41a6b255df462db659a80426897451507f327393671d8"
+    },
+    {
+      "path": "outputs/accuracy/microwave-task23-guarded-audit-20261027-v4/report_builder.py",
+      "bytes": 4181,
+      "mtime_ns": 1793075952168157200,
+      "sha256": "160774709b55981b819b87a8e6f8f902bcd01f0b1763cb34ebd4fc2f8c8778bf"
+    },
+    {
+      "path": "outputs/accuracy/microwave-task23-guarded-audit-20261027-v4/verify.py",
+      "bytes": 1380,
+      "mtime_ns": 1793075952168157200,
+      "sha256": "8ca0babf9f2e6e52955e9c2e354a04a3f994ab17208525d40c3266e08b895375"
+    },
+    {
+      "path": "data/raw/refit_complete_20261022/households/CLEAN_House10.csv",
+      "bytes": 398756360,
+      "mtime_ns": 1477577778706983500,
+      "sha256": "fe51a6a561063a6a0782a41586aeaf03152c90d316610cc896a858331464065b"
+    },
+    {
+      "path": "data/raw/refit_complete_20261022/households/CLEAN_House10.receipt.json",
+      "bytes": 797,
+      "mtime_ns": 1792638944617278500,
+      "sha256": "3afae0f5f70251f85c59fff2a7a4e10f35b40d5f4a4c3d8a18fdf94c6363f9f1"
+    },
+    {
+      "path": "data/raw/refit_expansion_additional_20261024_v1_slices/CLEAN_House10.csv",
+      "bytes": 8772717,
+      "mtime_ns": 1792832509777254000,
+      "sha256": "ee67ece4efa4cc3722a169e833e3b6fd7879353ed54482114cee03eff2cd3d86"
+    },
+    {
+      "path": "data/raw/refit_expansion_additional_20261024_v1_slices/CLEAN_House10.slice.json",
+      "bytes": 252,
+      "mtime_ns": 1792832509802573900,
+      "sha256": "b6e92d90d4ae25d6fd008e66393b4d4897fc4956a6091763d3ed64f1b1b93269"
+    },
+    {
+      "path": "data/processed/refit_expansion_additional_20261024_v1/aggregate/house_10.csv",
+      "bytes": 25125736,
+      "mtime_ns": 1792832561348169400,
+      "sha256": "2c54055280af6ef27a7c68882dea13310478ca2bd3def580774d68ef4941ced9"
+    },
+    {
+      "path": "data/processed/refit_expansion_additional_20261024_v1/labels/house_10/microwave.csv",
+      "bytes": 33515137,
+      "mtime_ns": 1792832561348389500,
+      "sha256": "2169f5839e2c27d52c2c0b06bfc46b3adabb3c527ca62f8156c6b85140dbd614"
+    },
+    {
+      "path": "data/raw/refit_complete_20261022/households/CLEAN_House12.csv",
+      "bytes": 335009288,
+      "mtime_ns": 1477577948003602900,
+      "sha256": "0051cb297e04cc0f958791a2216168bfff2b75e3f3425954ce2a5cdf2f13710d"
+    },
+    {
+      "path": "data/raw/refit_complete_20261022/households/CLEAN_House12.receipt.json",
+      "bytes": 797,
+      "mtime_ns": 1792638945344593300,
+      "sha256": "a26c73b0ac58f76ef623658e42b4d90d34daeaaa054adabcd3ddbbcd9983bcd0"
+    },
+    {
+      "path": "data/raw/refit_expansion_additional_20261024_v1_slices/CLEAN_House12.csv",
+      "bytes": 7171177,
+      "mtime_ns": 1792832515197223600,
+      "sha256": "6a98f6ff65b05dbe06314c8f5f86928a1d8f91a44962b50a5ee8286de97a5ea8"
+    },
+    {
+      "path": "data/raw/refit_expansion_additional_20261024_v1_slices/CLEAN_House12.slice.json",
+      "bytes": 252,
+      "mtime_ns": 1792832515218904600,
+      "sha256": "86b619cb21df95293c1a0fb74187f110b3682ce50f37fe0e797977c51e002185"
+    },
+    {
+      "path": "data/processed/refit_expansion_additional_20261024_v1/aggregate/house_12.csv",
+      "bytes": 25322809,
+      "mtime_ns": 1792832589592625600,
+      "sha256": "2d1396e4384e303db973729823317d525fb2904eb37b5b14a61d07b36b4f29c3"
+    },
+    {
+      "path": "data/processed/refit_expansion_additional_20261024_v1/labels/house_12/microwave.csv",
+      "bytes": 33613879,
+      "mtime_ns": 1792832589593136600,
+      "sha256": "2d28b1dc5dd0c2534f9d5857c0c5d55adaea642169ce92b8a8de0d6f33921131"
+    },
+    {
+      "path": "data/raw/refit_complete_20261022/households/CLEAN_House15.csv",
+      "bytes": 353152325,
+      "mtime_ns": 1477578123994268400,
+      "sha256": "a39b2202585c77ab07c23ca36cd3e5f0ac4957e37bd57f63ae8d5e0716a9b3d9"
+    },
+    {
+      "path": "data/raw/refit_complete_20261022/households/CLEAN_House15.receipt.json",
+      "bytes": 797,
+      "mtime_ns": 1792638946090699800,
+      "sha256": "d82270d43e4d802cbe5bb10beddd286f841567f528036e39b74fd77b1dc796d0"
+    },
+    {
+      "path": "data/raw/refit_expansion_additional_20261024_v1_slices/CLEAN_House15.csv",
+      "bytes": 7420797,
+      "mtime_ns": 1792832520791248500,
+      "sha256": "55824f8a1084e0b73973fafa61f2a53d3066f1612430c388d4929c123a028437"
+    },
+    {
+      "path": "data/raw/refit_expansion_additional_20261024_v1_slices/CLEAN_House15.slice.json",
+      "bytes": 252,
+      "mtime_ns": 1792832520810619100,
+      "sha256": "73a40ea707980f995317aab2b1b9cb9641d56281df9525707ec646a5e7632e63"
+    },
+    {
+      "path": "data/processed/refit_expansion_additional_20261024_v1/aggregate/house_15.csv",
+      "bytes": 24822604,
+      "mtime_ns": 1792832616895446700,
+      "sha256": "52a4f278189884089fda74eba403fc692d69f0751238413c6466d0881d095d93"
+    },
+    {
+      "path": "data/processed/refit_expansion_additional_20261024_v1/labels/house_15/microwave.csv",
+      "bytes": 33312354,
+      "mtime_ns": 1792832616895975000,
+      "sha256": "108e5066081e28d3168b3f5fbe255b7e0e3ffe0ad44983eb92eb0a499de12526"
+    },
+    {
+      "path": "data/raw/refit_complete_20261022/households/CLEAN_House18.csv",
+      "bytes": 301534016,
+      "mtime_ns": 1477578388308414400,
+      "sha256": "0fab94dfee9be07b936ed17f22be7b697310008bbb66e8f8ce624872d36b9ccd"
+    },
+    {
+      "path": "data/raw/refit_complete_20261022/households/CLEAN_House18.receipt.json",
+      "bytes": 797,
+      "mtime_ns": 1792638947244159100,
+      "sha256": "0bfa741f7fef5ae0a8fec8bebdb195a5c25fbe222780961765e2ea142674d879"
+    },
+    {
+      "path": "data/raw/refit_expansion_additional_20261024_v1_slices/CLEAN_House18.csv",
+      "bytes": 7482521,
+      "mtime_ns": 1792832530719588200,
+      "sha256": "e38caa6fba0c613c567049f175ea1882808e182d7f9a7d3976f1fa3129edd3db"
+    },
+    {
+      "path": "data/raw/refit_expansion_additional_20261024_v1_slices/CLEAN_House18.slice.json",
+      "bytes": 252,
+      "mtime_ns": 1792832530742716500,
+      "sha256": "2639167515500e0d104e11e14f357177a1d36f0d846221ca757cc4adb639fc8d"
+    },
+    {
+      "path": "data/processed/refit_expansion_additional_20261024_v1/aggregate/house_18.csv",
+      "bytes": 24814563,
+      "mtime_ns": 1792832666486135100,
+      "sha256": "0832b8669f3e5ccf57a1f15575abb15bbdd24482635fd00606255077925c3c27"
+    },
+    {
+      "path": "data/processed/refit_expansion_additional_20261024_v1/labels/house_18/microwave.csv",
+      "bytes": 33119724,
+      "mtime_ns": 1792832666486637300,
+      "sha256": "7fd5773aabe150e77b5d2f22dea97c5eae575443d616bfdb5bae066344c4c967"
+    }
+  ]
+}

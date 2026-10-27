@@ -1,0 +1,9 @@
+{
+  "status": "retained_unsealed_import_order_defect",
+  "diagnostics_static_cells_passed": 24,
+  "new_fits": 0,
+  "optimizers": 0,
+  "updates": 0,
+  "backward_calls": 0,
+  "reason": "Eager import from the review module resolved cold diagnostics but introduced a circular import when the independent review module is imported first. Confirmed in a fresh Python process. v4 moves only independent AP into a dependency-free metrics module and imports the existing scalar helper directly."
+}

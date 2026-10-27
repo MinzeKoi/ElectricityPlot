@@ -1,0 +1,17 @@
+{
+  "artifacts": {
+    "control16_1019_source.npz": "099f92e74146a136fa35a448124830b5839f12b71f4a21afa849b98f65fa311a",
+    "control16_1019_train.npz": "924782ae2c7d006a2f2d5045c1b6637ef71e19a2c35d05f59f962e5c31c8709e",
+    "control16_2026_source.npz": "e7b34359050ea47960847c5a5ebba19adebb1b4af4c35c6412b9b89d029c1118",
+    "control16_2026_train.npz": "2d87859790aeb85d36c548d9914f94ae58a3a4d452857d97a80a45860a41a865",
+    "control16_42_source.npz": "5de6c618a36bc70d584bf737eefb47ccdc533ecfcbd26e5f983a3373c6842cad",
+    "control16_42_train.npz": "12c90d64c70d4b82949b1a62996f7ff1fdacdfb931fb6ad91b38c4caf51cd634",
+    "metrics.json": "debbc7dfeae6708859b83b8eff50def7a7c424a53b3383cd1e9b88dd061d59c6",
+    "wide32_1019_source.npz": "a8bccb863c3b97760a2c9a908d4db5c53a8f7672e9d6d773f9db0d074d5e5d76",
+    "wide32_1019_train.npz": "6cabf7e80a68a8afbc60469e467412f06167f02c51fd14c69d2422dd19bcee64",
+    "wide32_2026_source.npz": "38cceda0bf4ed1fb5f481b746733c46c4e48406df0c6b4802991de10d561b0e4",
+    "wide32_2026_train.npz": "42f5b5f5f67b0ccfca2796a59c03d91c821f5e5be48ef5cf373cefc9ba0e39cd",
+    "wide32_42_source.npz": "5cfc40473223bda687da5ebaa578eb18f8999f8cf88b19f26f15ef07ba681139",
+    "wide32_42_train.npz": "9ede3c37309fe7c074af59ce8fd3d01ba3cc7d499a981ae3ba3649a98c3d338a"
+  }
+}

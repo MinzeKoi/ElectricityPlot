@@ -1,0 +1,9 @@
+{
+  "stage": "report",
+  "child_pid": 16892,
+  "driver_pid": 11608,
+  "returncode": 0,
+  "log_sha256": "2b1573a486f2dda204094ef6ff2c62ec042ae7a856a165ba3c10511c8bd0c7c1",
+  "audit_new_fits": 0,
+  "audit_optimizer_updates": 0
+}

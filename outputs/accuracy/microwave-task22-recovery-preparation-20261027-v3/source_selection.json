@@ -1,0 +1,175 @@
+{
+  "source_only": true,
+  "selected": "control_guard95",
+  "eligible": false,
+  "recipes": [
+    {
+      "seed": 42,
+      "L": 0.016707805916666985,
+      "H": 0.0241915974766016,
+      "feasible": true,
+      "blocks": [
+        {
+          "block": "4",
+          "tp": 135,
+          "fp": 615,
+          "fn": 1,
+          "tn": 18376,
+          "n": 19127,
+          "precision": 0.18,
+          "recall": 0.9926470588235294,
+          "f1": 0.3047404063205418,
+          "fpr": 0.03238376072876626,
+          "predicted_on": 750,
+          "degenerate": false
+        },
+        {
+          "block": "5",
+          "tp": 62,
+          "fp": 216,
+          "fn": 3,
+          "tn": 14943,
+          "n": 15224,
+          "precision": 0.22302158273381295,
+          "recall": 0.9538461538461539,
+          "f1": 0.36151603498542273,
+          "fpr": 0.01424896101325945,
+          "predicted_on": 278,
+          "degenerate": false
+        }
+      ],
+      "schema": "event_gate_recipe_v1",
+      "eligible": true,
+      "radius_samples": 15,
+      "interval_seconds": 8,
+      "parent": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-recovery-preparation-20261027-v3\\models\\wide32\\seed_42",
+      "parent_hashes": {
+        "model.json": "2e1a7f89cb16bef61fda78a76b05f73d60bd09b6cc04f6a257bd0c161791716e",
+        "weights.pt": "64019b649a300f10c80ce6987107a68e8ed2b4448a82637285cb84909566b55c"
+      },
+      "algorithm_sha256": "342c1e97707e4053c7d0b8fa438c10e48a445cc378d1fa9796e58a149ead82fd",
+      "score_semantics": "uncalibrated sigmoid state score"
+    },
+    {
+      "seed": 1019,
+      "L": 0.13439473509788513,
+      "H": 0.4319165349006653,
+      "feasible": true,
+      "blocks": [
+        {
+          "block": "4",
+          "tp": 130,
+          "fp": 415,
+          "fn": 6,
+          "tn": 18576,
+          "n": 19127,
+          "precision": 0.23853211009174313,
+          "recall": 0.9558823529411765,
+          "f1": 0.38179148311306904,
+          "fpr": 0.02185245642672845,
+          "predicted_on": 545,
+          "degenerate": false
+        },
+        {
+          "block": "5",
+          "tp": 62,
+          "fp": 137,
+          "fn": 3,
+          "tn": 15022,
+          "n": 15224,
+          "precision": 0.31155778894472363,
+          "recall": 0.9538461538461539,
+          "f1": 0.4696969696969697,
+          "fpr": 0.009037535457484003,
+          "predicted_on": 199,
+          "degenerate": false
+        }
+      ],
+      "schema": "event_gate_recipe_v1",
+      "eligible": true,
+      "radius_samples": 15,
+      "interval_seconds": 8,
+      "parent": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-recovery-preparation-20261027-v3\\models\\wide32\\seed_1019",
+      "parent_hashes": {
+        "model.json": "8d18a6e32a5302dc9ef0941d90a9ee044f67dd3520a8c66a2b40788fda535730",
+        "weights.pt": "84226347ef1ecce4c3f354d14b0c8c9d30da52f885070418340cb9f6b4ee55bd"
+      },
+      "algorithm_sha256": "342c1e97707e4053c7d0b8fa438c10e48a445cc378d1fa9796e58a149ead82fd",
+      "score_semantics": "uncalibrated sigmoid state score"
+    },
+    {
+      "seed": 2026,
+      "L": 0.06046980246901512,
+      "H": 0.1972772628068924,
+      "feasible": true,
+      "blocks": [
+        {
+          "block": "4",
+          "tp": 135,
+          "fp": 466,
+          "fn": 1,
+          "tn": 18525,
+          "n": 19127,
+          "precision": 0.22462562396006655,
+          "recall": 0.9926470588235294,
+          "f1": 0.36635006784260515,
+          "fpr": 0.024537939023748092,
+          "predicted_on": 601,
+          "degenerate": false
+        },
+        {
+          "block": "5",
+          "tp": 62,
+          "fp": 165,
+          "fn": 3,
+          "tn": 14994,
+          "n": 15224,
+          "precision": 0.27312775330396477,
+          "recall": 0.9538461538461539,
+          "f1": 0.4246575342465753,
+          "fpr": 0.010884622996239858,
+          "predicted_on": 227,
+          "degenerate": false
+        }
+      ],
+      "schema": "event_gate_recipe_v1",
+      "eligible": true,
+      "radius_samples": 15,
+      "interval_seconds": 8,
+      "parent": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-recovery-preparation-20261027-v3\\models\\wide32\\seed_2026",
+      "parent_hashes": {
+        "model.json": "81417eef22780fccc5efb702caac0be02c29f0c9d4433027808f45fa128d699e",
+        "weights.pt": "36ce2615b8cee50ba2523b19e99d74aca24bc87003622b0757fa3315c2192f05"
+      },
+      "algorithm_sha256": "342c1e97707e4053c7d0b8fa438c10e48a445cc378d1fa9796e58a149ead82fd",
+      "score_semantics": "uncalibrated sigmoid state score"
+    }
+  ],
+  "rows": [
+    {
+      "seed": 42,
+      "precision": 0.20151079136690647,
+      "recall": 0.9732466063348417,
+      "f1": 0.33312822065298225,
+      "degenerate": false,
+      "source_gate_passed": true
+    },
+    {
+      "seed": 1019,
+      "precision": 0.2750449495182334,
+      "recall": 0.9548642533936652,
+      "f1": 0.4257442264050194,
+      "degenerate": false,
+      "source_gate_passed": true
+    },
+    {
+      "seed": 2026,
+      "precision": 0.24887668863201567,
+      "recall": 0.9732466063348417,
+      "f1": 0.39550380104459026,
+      "degenerate": false,
+      "source_gate_passed": true
+    }
+  ],
+  "training_sha256": "fc5882067e849b4f727531a76c56f17ed6d72cf97bed4632e7e89b4f341d5ef6"
+}

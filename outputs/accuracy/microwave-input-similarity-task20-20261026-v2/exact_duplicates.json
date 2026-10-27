@@ -1,0 +1,11 @@
+{
+  "strict_windows": 533565,
+  "unique_effective_inputs": 533330,
+  "repeated_groups": 1,
+  "elementwise_confirmations": 235,
+  "conflict_groups": 0,
+  "conflict_windows": 0,
+  "same_house_conflict_groups": 0,
+  "cross_date_conflict_groups": 0,
+  "missing_pattern_distribution": {}
+}

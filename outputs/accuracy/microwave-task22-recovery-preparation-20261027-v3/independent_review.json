@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "registration_sha256": "30dad580c6711ff021f3607dcbf6dc0b0a73e8276aee01204869534ddaf3d0f9",
+  "original_registration_sha256": "2ffd72773185d8be1372b0744729b7eb3daf8656f1dfd2097da47cb113037c53",
+  "independently_replayed_original_batches": true,
+  "seeds": {
+    "42": {
+      "all_3528_batches_exact": true,
+      "original_indices_replayed": true,
+      "exposure_exact": true,
+      "initial32_exact": true
+    },
+    "1019": {
+      "all_3528_batches_exact": true,
+      "original_indices_replayed": true,
+      "exposure_exact": true,
+      "initial32_exact": true
+    },
+    "2026": {
+      "all_3528_batches_exact": true,
+      "original_indices_replayed": true,
+      "exposure_exact": true,
+      "initial32_exact": true
+    }
+  },
+  "reused_checkpoints_independent": true,
+  "event_dates_complete": true,
+  "failed_attempt_binding_exact": true,
+  "new_fits": 0,
+  "optimizers": 0,
+  "optimizer_updates": 0,
+  "backward_calls": 0,
+  "development_reads": 0,
+  "final_reads": 0
+}

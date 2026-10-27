@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "reviewed_registration_sha256": "5bc276ac7fce10d63be1033bee2072dee587c6253bdbaab71168b69579dbbe37",
+  "scope": "Independent source-index, C127 windows, full batch replay and exposure audit; checked registration identity",
+  "evidence": "outputs/accuracy/microwave-task24-independent-review-20261027-v1/receipt.json",
+  "limitations": "Task23 independent grid recomputation shares raw input; processed files unavailable; float32 window comparison rtol 1e-6 atol 1e-5."
+}

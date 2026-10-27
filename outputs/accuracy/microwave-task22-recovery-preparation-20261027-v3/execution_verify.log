@@ -1,0 +1,136 @@
+{"stage": "verify", "pid": 14064, "parent_pid": 14360, "cpu_threads": 4, "OMP_NUM_THREADS": "4", "MKL_NUM_THREADS": "4"}
+{
+  "passed": true,
+  "status": "effective_models_complete",
+  "preparation_new_fits": 0,
+  "preparation_optimizer_updates": 0,
+  "audit_new_fits": 0,
+  "audit_optimizer_updates": 0,
+  "preparation_development_reads": 0,
+  "preparation_final_reads": 0,
+  "original_registration_sha256": "2ffd72773185d8be1372b0744729b7eb3daf8656f1dfd2097da47cb113037c53",
+  "registration_sha256": "30dad580c6711ff021f3607dcbf6dc0b0a73e8276aee01204869534ddaf3d0f9",
+  "actual_new_fits": 1,
+  "actual_new_fit_updates": 3528,
+  "reused_fits": 2,
+  "historic_interrupted_fits": 1,
+  "effective_models": 3,
+  "effective_matrix_updates": 10584,
+  "cumulative_attempted_updates_upper_bound": 11152,
+  "development_evaluation_attempted": false,
+  "development_evaluated": false,
+  "final_house_reads": 0,
+  "execution": {
+    "training_matrix": true,
+    "actual_batch_logs_exact": true,
+    "checkpoint_rule_replayed": true,
+    "new_fits": 1,
+    "reused_fits": 2,
+    "historic_interrupted_fits": 1,
+    "effective_models": 3,
+    "effective_matrix_updates": 10584,
+    "cumulative_attempted_updates_upper_bound": 11152,
+    "diagnostics": {
+      "passed": true,
+      "cells": 24,
+      "caches": 12,
+      "all_fixed_model_predictions_exact": true,
+      "independent_AP_and_confusions_exact": true,
+      "cpu_threads": 4,
+      "bindings": [
+        {
+          "arm": "control16",
+          "seed": 42,
+          "dataset": "train",
+          "cache_sha256": "06ca636dc83896281512c00a23cc45aebcb999dd750a19d879e94e4a8aa1b440",
+          "probability_replay_exact": true
+        },
+        {
+          "arm": "control16",
+          "seed": 42,
+          "dataset": "source",
+          "cache_sha256": "068ee46ecd93ebb3806d1c87ab373395469fa537c3a0064a38243267d1b80b88",
+          "probability_replay_exact": true
+        },
+        {
+          "arm": "control16",
+          "seed": 1019,
+          "dataset": "train",
+          "cache_sha256": "7c66f8106aaee0488beaab0e6832f53b57967b27b0aef713aa6c681333525eac",
+          "probability_replay_exact": true
+        },
+        {
+          "arm": "control16",
+          "seed": 1019,
+          "dataset": "source",
+          "cache_sha256": "4e36a831f037e9ae61b69764f8bb7a6c5ee819a56fa72b17908d1e45e4eb8459",
+          "probability_replay_exact": true
+        },
+        {
+          "arm": "control16",
+          "seed": 2026,
+          "dataset": "train",
+          "cache_sha256": "119b42e6bc38f4ba73c326c0374a4e9ce2d8bc705f03e14154a99e7a1a7333df",
+          "probability_replay_exact": true
+        },
+        {
+          "arm": "control16",
+          "seed": 2026,
+          "dataset": "source",
+          "cache_sha256": "bef4eee5de8e6bd72f3ce928d9e779c7060c68e925654f357477b67bf7ddd23e",
+          "probability_replay_exact": true
+        },
+        {
+          "arm": "wide32",
+          "seed": 42,
+          "dataset": "train",
+          "cache_sha256": "e2e900732b802ea886a3283a7c51b12cfa0e187aa97bbcc97b1b3157cc4c1954",
+          "probability_replay_exact": true
+        },
+        {
+          "arm": "wide32",
+          "seed": 42,
+          "dataset": "source",
+          "cache_sha256": "d9df244499a2bab4055716a75e6e38b92d2e711094399c90d8c123c39e1d3f6b",
+          "probability_replay_exact": true
+        },
+        {
+          "arm": "wide32",
+          "seed": 1019,
+          "dataset": "train",
+          "cache_sha256": "a2abe2bf93b21032d315e01387629d21885f1f05b72d66ec5ef4a86844bdb74b",
+          "probability_replay_exact": true
+        },
+        {
+          "arm": "wide32",
+          "seed": 1019,
+          "dataset": "source",
+          "cache_sha256": "7d414dcabd73a5c1ed5371ef25d072cfa3f3acc3e19aad40fa7f50d93437d8ca",
+          "probability_replay_exact": true
+        },
+        {
+          "arm": "wide32",
+          "seed": 2026,
+          "dataset": "train",
+          "cache_sha256": "9166fd9593d3f673dc4a993927bedbe316d69492f32d924adef6348e216f846f",
+          "probability_replay_exact": true
+        },
+        {
+          "arm": "wide32",
+          "seed": 2026,
+          "dataset": "source",
+          "cache_sha256": "6fce2f45f45a355f2041979e050b642bfa842d11d7d7c9bcd15e35b2c138cff0",
+          "probability_replay_exact": true
+        }
+      ],
+      "development_reads": 0,
+      "audit_new_fits": 0,
+      "audit_optimizer_updates": 0
+    },
+    "source_qualified": false
+  },
+  "runtime": {
+    "cpu_threads": 4,
+    "bytecode_disabled": true
+  }
+}

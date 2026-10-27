@@ -1,0 +1,9 @@
+{
+  "pid": 16108,
+  "stage": "train",
+  "start_utc": "2026-10-27T11:33:55.4268229Z",
+  "registration_sha256": "5bc276ac7fce10d63be1033bee2072dee587c6253bdbaab71168b69579dbbe37",
+  "authorization_sha256": "29e05d88c67d150354abf62067fd472ee5b9b9ad600ed5e66567d830c249f109",
+  "stdout": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task24-execution-20261027-v1\\train.stdout.log",
+  "stderr": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task24-execution-20261027-v1\\train.stderr.log"
+}

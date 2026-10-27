@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "registration_sha256": "2ffd72773185d8be1372b0744729b7eb3daf8656f1dfd2097da47cb113037c53",
+  "authorization_sha256": "f6a77c58d2e12f7444afed85e8af27ab011b1bdce935b65e1887bcef4f918d8d",
+  "authorization": {
+    "authorized": true,
+    "approval_origin": "human",
+    "experiment": "microwave_task22_capacity_v1",
+    "registration_sha256": "2ffd72773185d8be1372b0744729b7eb3daf8656f1dfd2097da47cb113037c53",
+    "additional_new_fits": 3,
+    "maximum_updates": 10584,
+    "seeds": [
+      42,
+      1019,
+      2026
+    ],
+    "human_authorization_quote": "允许新增3模型／10,584次更新",
+    "human_authorization_reference": "root chat 01a16d7b-478e-7780-a999-88abe71e8c94; request_user_input_async call_17278c55ce3a4546b0cffdf50a7cdb1c; direct human answer 2026-10-26 Asia/Shanghai",
+    "warning": "Only a NEW explicit human budget bound to this SHA can authorize execution. Preparation and Task21 receipts do not authorize training."
+  },
+  "source_file": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v4\\source\\virtual_submeter\\accuracy\\microwave_task22.py",
+  "snapshot_source_exact": true,
+  "previous_training_started": false,
+  "previous_models": false,
+  "process_check": "PowerShell Get-Process python* returned no processes immediately before launch; no Task22 markers",
+  "cpu_threads": 4,
+  "preparation_manifest_sha256": "5717c397421c4af4c917f89f8ac8d565bda00f6f467281974f823d412da1d38a",
+  "supplement_receipt_sha256": "1e0e0e43f8bba6d7d961e4b6544b893a8a1133b16eb7da75a48e66f8ac9ab6d0",
+  "new_fits": 0,
+  "optimizers": 0,
+  "optimizer_updates": 0,
+  "backward_calls": 0
+}

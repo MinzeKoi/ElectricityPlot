@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "reviewed_registration_sha256": "6d6754ee5e97ad69a619c107a2441b759048299cb2785214af01ada44b4961f7",
+  "scope": "Independent source and registration review, 18 nontraining synthetic tests and two read-only verify/report runs",
+  "evidence": "outputs/accuracy/microwave-task24-independent-review-20261027-v1/recovery_verify_1.json, recovery_verify_2.json, recovery_report_1.json, recovery_report_2.json, recovery_before.json, recovery_after.json",
+  "limitations": "The first fit is substituted in the isolation test; no actual fit or protected development file was opened."
+}

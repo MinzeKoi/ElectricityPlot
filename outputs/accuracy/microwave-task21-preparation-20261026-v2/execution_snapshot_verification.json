@@ -1,0 +1,18 @@
+{
+  "sealed_failures": {
+    "verify": {
+      "error": "KeyError: 'event'",
+      "training_or_source_failure": false,
+      "sealed_source_modified": false,
+      "independent_replacement": "scripts/verify_microwave_task21_execution.py"
+    },
+    "report": {
+      "error": "KeyError: 'event'",
+      "training_or_source_failure": false,
+      "sealed_source_modified": false,
+      "independent_replacement": "scripts/verify_microwave_task21_execution.py"
+    }
+  },
+  "successful_results": {},
+  "independent_replacement_passed": true
+}

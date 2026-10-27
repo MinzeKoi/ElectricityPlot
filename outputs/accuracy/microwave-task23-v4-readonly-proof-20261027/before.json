@@ -1,0 +1,338 @@
+[
+  {
+    "path": "D:\\system position\\document\\真正的文档\\AIC\\configs\\r0_roles_20261022_v2.json",
+    "sha256": "5c7ce442c1d5d7eb0a892f9513c47b11341e51865444a01bfe6af09096222187",
+    "mtime_ns": 1792641797750240700,
+    "bytes": 2832
+  },
+  {
+    "path": "D:\\system position\\document\\真正的文档\\AIC\\configs\\refit_channels_complete_20261022.json",
+    "sha256": "18b44c7ce7ea065799017cc5cdff43d4623971f2e14a6e2e3c5ad506ebf33dab",
+    "mtime_ns": 1792638787284798700,
+    "bytes": 4009
+  },
+  {
+    "path": "D:\\system position\\document\\真正的文档\\AIC\\data\\processed\\refit_expansion_additional_20261024_v1\\aggregate\\house_10.csv",
+    "sha256": "2c54055280af6ef27a7c68882dea13310478ca2bd3def580774d68ef4941ced9",
+    "mtime_ns": 1792832561348169400,
+    "bytes": 25125736
+  },
+  {
+    "path": "D:\\system position\\document\\真正的文档\\AIC\\data\\processed\\refit_expansion_additional_20261024_v1\\aggregate\\house_12.csv",
+    "sha256": "2d1396e4384e303db973729823317d525fb2904eb37b5b14a61d07b36b4f29c3",
+    "mtime_ns": 1792832589592625600,
+    "bytes": 25322809
+  },
+  {
+    "path": "D:\\system position\\document\\真正的文档\\AIC\\data\\processed\\refit_expansion_additional_20261024_v1\\aggregate\\house_15.csv",
+    "sha256": "52a4f278189884089fda74eba403fc692d69f0751238413c6466d0881d095d93",
+    "mtime_ns": 1792832616895446700,
+    "bytes": 24822604
+  },
+  {
+    "path": "D:\\system position\\document\\真正的文档\\AIC\\data\\processed\\refit_expansion_additional_20261024_v1\\aggregate\\house_18.csv",
+    "sha256": "0832b8669f3e5ccf57a1f15575abb15bbdd24482635fd00606255077925c3c27",
+    "mtime_ns": 1792832666486135100,
+    "bytes": 24814563
+  },
+  {
+    "path": "D:\\system position\\document\\真正的文档\\AIC\\data\\processed\\refit_expansion_additional_20261024_v1\\labels\\house_10\\microwave.csv",
+    "sha256": "2169f5839e2c27d52c2c0b06bfc46b3adabb3c527ca62f8156c6b85140dbd614",
+    "mtime_ns": 1792832561348389500,
+    "bytes": 33515137
+  },
+  {
+    "path": "D:\\system position\\document\\真正的文档\\AIC\\data\\processed\\refit_expansion_additional_20261024_v1\\labels\\house_12\\microwave.csv",
+    "sha256": "2d28b1dc5dd0c2534f9d5857c0c5d55adaea642169ce92b8a8de0d6f33921131",
+    "mtime_ns": 1792832589593136600,
+    "bytes": 33613879
+  },
+  {
+    "path": "D:\\system position\\document\\真正的文档\\AIC\\data\\processed\\refit_expansion_additional_20261024_v1\\labels\\house_15\\microwave.csv",
+    "sha256": "108e5066081e28d3168b3f5fbe255b7e0e3ffe0ad44983eb92eb0a499de12526",
+    "mtime_ns": 1792832616895975000,
+    "bytes": 33312354
+  },
+  {
+    "path": "D:\\system position\\document\\真正的文档\\AIC\\data\\processed\\refit_expansion_additional_20261024_v1\\labels\\house_18\\microwave.csv",
+    "sha256": "7fd5773aabe150e77b5d2f22dea97c5eae575443d616bfdb5bae066344c4c967",
+    "mtime_ns": 1792832666486637300,
+    "bytes": 33119724
+  },
+  {
+    "path": "D:\\system position\\document\\真正的文档\\AIC\\data\\processed\\refit_expansion_additional_20261024_v1\\manifest.json",
+    "sha256": "69bd5226300d3adef9fc0f0cf853ac7eb2235ac78db2ce9f9a211f627fd7e729",
+    "mtime_ns": 1792832666623918900,
+    "bytes": 26639
+  },
+  {
+    "path": "D:\\system position\\document\\真正的文档\\AIC\\data\\raw\\refit_complete_20261022\\households\\CLEAN_House10.csv",
+    "sha256": "fe51a6a561063a6a0782a41586aeaf03152c90d316610cc896a858331464065b",
+    "mtime_ns": 1477577778706983500,
+    "bytes": 398756360
+  },
+  {
+    "path": "D:\\system position\\document\\真正的文档\\AIC\\data\\raw\\refit_complete_20261022\\households\\CLEAN_House10.receipt.json",
+    "sha256": "3afae0f5f70251f85c59fff2a7a4e10f35b40d5f4a4c3d8a18fdf94c6363f9f1",
+    "mtime_ns": 1792638944617278500,
+    "bytes": 797
+  },
+  {
+    "path": "D:\\system position\\document\\真正的文档\\AIC\\data\\raw\\refit_complete_20261022\\households\\CLEAN_House12.csv",
+    "sha256": "0051cb297e04cc0f958791a2216168bfff2b75e3f3425954ce2a5cdf2f13710d",
+    "mtime_ns": 1477577948003602900,
+    "bytes": 335009288
+  },
+  {
+    "path": "D:\\system position\\document\\真正的文档\\AIC\\data\\raw\\refit_complete_20261022\\households\\CLEAN_House12.receipt.json",
+    "sha256": "a26c73b0ac58f76ef623658e42b4d90d34daeaaa054adabcd3ddbbcd9983bcd0",
+    "mtime_ns": 1792638945344593300,
+    "bytes": 797
+  },
+  {
+    "path": "D:\\system position\\document\\真正的文档\\AIC\\data\\raw\\refit_complete_20261022\\households\\CLEAN_House15.csv",
+    "sha256": "a39b2202585c77ab07c23ca36cd3e5f0ac4957e37bd57f63ae8d5e0716a9b3d9",
+    "mtime_ns": 1477578123994268400,
+    "bytes": 353152325
+  },
+  {
+    "path": "D:\\system position\\document\\真正的文档\\AIC\\data\\raw\\refit_complete_20261022\\households\\CLEAN_House15.receipt.json",
+    "sha256": "d82270d43e4d802cbe5bb10beddd286f841567f528036e39b74fd77b1dc796d0",
+    "mtime_ns": 1792638946090699800,
+    "bytes": 797
+  },
+  {
+    "path": "D:\\system position\\document\\真正的文档\\AIC\\data\\raw\\refit_complete_20261022\\households\\CLEAN_House18.csv",
+    "sha256": "0fab94dfee9be07b936ed17f22be7b697310008bbb66e8f8ce624872d36b9ccd",
+    "mtime_ns": 1477578388308414400,
+    "bytes": 301534016
+  },
+  {
+    "path": "D:\\system position\\document\\真正的文档\\AIC\\data\\raw\\refit_complete_20261022\\households\\CLEAN_House18.receipt.json",
+    "sha256": "0bfa741f7fef5ae0a8fec8bebdb195a5c25fbe222780961765e2ea142674d879",
+    "mtime_ns": 1792638947244159100,
+    "bytes": 797
+  },
+  {
+    "path": "D:\\system position\\document\\真正的文档\\AIC\\data\\raw\\refit_expansion_additional_20261024_v1_slices\\CLEAN_House10.csv",
+    "sha256": "ee67ece4efa4cc3722a169e833e3b6fd7879353ed54482114cee03eff2cd3d86",
+    "mtime_ns": 1792832509777254000,
+    "bytes": 8772717
+  },
+  {
+    "path": "D:\\system position\\document\\真正的文档\\AIC\\data\\raw\\refit_expansion_additional_20261024_v1_slices\\CLEAN_House10.slice.json",
+    "sha256": "b6e92d90d4ae25d6fd008e66393b4d4897fc4956a6091763d3ed64f1b1b93269",
+    "mtime_ns": 1792832509802573900,
+    "bytes": 252
+  },
+  {
+    "path": "D:\\system position\\document\\真正的文档\\AIC\\data\\raw\\refit_expansion_additional_20261024_v1_slices\\CLEAN_House12.csv",
+    "sha256": "6a98f6ff65b05dbe06314c8f5f86928a1d8f91a44962b50a5ee8286de97a5ea8",
+    "mtime_ns": 1792832515197223600,
+    "bytes": 7171177
+  },
+  {
+    "path": "D:\\system position\\document\\真正的文档\\AIC\\data\\raw\\refit_expansion_additional_20261024_v1_slices\\CLEAN_House12.slice.json",
+    "sha256": "86b619cb21df95293c1a0fb74187f110b3682ce50f37fe0e797977c51e002185",
+    "mtime_ns": 1792832515218904600,
+    "bytes": 252
+  },
+  {
+    "path": "D:\\system position\\document\\真正的文档\\AIC\\data\\raw\\refit_expansion_additional_20261024_v1_slices\\CLEAN_House15.csv",
+    "sha256": "55824f8a1084e0b73973fafa61f2a53d3066f1612430c388d4929c123a028437",
+    "mtime_ns": 1792832520791248500,
+    "bytes": 7420797
+  },
+  {
+    "path": "D:\\system position\\document\\真正的文档\\AIC\\data\\raw\\refit_expansion_additional_20261024_v1_slices\\CLEAN_House15.slice.json",
+    "sha256": "73a40ea707980f995317aab2b1b9cb9641d56281df9525707ec646a5e7632e63",
+    "mtime_ns": 1792832520810619100,
+    "bytes": 252
+  },
+  {
+    "path": "D:\\system position\\document\\真正的文档\\AIC\\data\\raw\\refit_expansion_additional_20261024_v1_slices\\CLEAN_House18.csv",
+    "sha256": "e38caa6fba0c613c567049f175ea1882808e182d7f9a7d3976f1fa3129edd3db",
+    "mtime_ns": 1792832530719588200,
+    "bytes": 7482521
+  },
+  {
+    "path": "D:\\system position\\document\\真正的文档\\AIC\\data\\raw\\refit_expansion_additional_20261024_v1_slices\\CLEAN_House18.slice.json",
+    "sha256": "2639167515500e0d104e11e14f357177a1d36f0d846221ca757cc4adb639fc8d",
+    "mtime_ns": 1792832530742716500,
+    "bytes": 252
+  },
+  {
+    "path": "D:\\system position\\document\\真正的文档\\AIC\\data\\raw\\refit_expansion_additional_20261024_v1_slices\\selection.json",
+    "sha256": "fd792cb6ee77a8496c813ffca670fb16221cf9bf9957c6f0bd57e64eec85f22c",
+    "mtime_ns": 1792832530749246000,
+    "bytes": 1142
+  },
+  {
+    "path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\data-expansion-20261024-v1\\admission.json",
+    "sha256": "344b3eaf3e154ab0fc4cd46934e0842e56c309f18d1d40c171fee968ef0d642c",
+    "mtime_ns": 1792833976939552600,
+    "bytes": 36613
+  },
+  {
+    "path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\data-expansion-20261024-v1\\plan.json",
+    "sha256": "43508cce36a1396a45b09751e42885c6da6089173239ef6dac3454e297628c46",
+    "mtime_ns": 1792833720895532700,
+    "bytes": 965
+  },
+  {
+    "path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\data-expansion-20261024-v1\\protocols\\C\\protocol.json",
+    "sha256": "dae70de806908899512daa6db78a807e8c11b42e8172d1de414851c2dc91d815",
+    "mtime_ns": 1792834058701855500,
+    "bytes": 36696
+  },
+  {
+    "path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\data-expansion-20261024-v1\\registration.json",
+    "sha256": "1bbc391dab0e5655dc1e735b86b4b9cb00568cac91d8aab3f15711efc9e3eba1",
+    "mtime_ns": 1792833720957502600,
+    "bytes": 615
+  },
+  {
+    "path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task23-guarded-audit-20261027-v4\\audit.py",
+    "sha256": "d3a24c0793eb03088e5f91534bcdc4018f1295bb57d20dfbfe2eeca5357dff5f",
+    "mtime_ns": 1793075952166161300,
+    "bytes": 11542
+  },
+  {
+    "path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task23-guarded-audit-20261027-v4\\compute.log",
+    "sha256": "bc6d1132d402cca8b3e44bff6d33ad59fc7bdfc7fdc1dde47298eda36c74f8d5",
+    "mtime_ns": 1793075976636728500,
+    "bytes": 52
+  },
+  {
+    "path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task23-guarded-audit-20261027-v4\\daily.csv",
+    "sha256": "b970e5d3e8992fe17c305512101ef772d8dc0fc2ac3f987275a6cdbbc3f47e6d",
+    "mtime_ns": 1793075976638259200,
+    "bytes": 12027
+  },
+  {
+    "path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task23-guarded-audit-20261027-v4\\fixture_gap.csv",
+    "sha256": "a1878f35c66ae4375b9c869facdf93c6843f2438be4b2216249e6726918c5b13",
+    "mtime_ns": 1793075954883730200,
+    "bytes": 59
+  },
+  {
+    "path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task23-guarded-audit-20261027-v4\\fixture_weighted.csv",
+    "sha256": "abc073703f378644caff5ee133e1c8f802c178206b710a6243b6999102dfd7f8",
+    "mtime_ns": 1793075954882729400,
+    "bytes": 81
+  },
+  {
+    "path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task23-guarded-audit-20261027-v4\\fragments.csv",
+    "sha256": "7460ce5710db19b70134cdc470b1356c29ded8aee8c8378812009321cdb17110",
+    "mtime_ns": 1793075976639811400,
+    "bytes": 32639
+  },
+  {
+    "path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task23-guarded-audit-20261027-v4\\guard-tests.log",
+    "sha256": "3af9571f30e3a1e5c95b1717927fb83d305caa23912f9ea07bb645e82bfb6582",
+    "mtime_ns": 1793075954912283000,
+    "bytes": 766
+  },
+  {
+    "path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task23-guarded-audit-20261027-v4\\guard.py",
+    "sha256": "85b5509b38c26b3fb364159fa6f02b0c05e0699266de756356ff2527de6d1a8f",
+    "mtime_ns": 1793075952167157300,
+    "bytes": 4254
+  },
+  {
+    "path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task23-guarded-audit-20261027-v4\\guard_tests.py",
+    "sha256": "428f17dbcbc3ed1788e41a6b255df462db659a80426897451507f327393671d8",
+    "mtime_ns": 1793075952168157200,
+    "bytes": 2987
+  },
+  {
+    "path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task23-guarded-audit-20261027-v4\\independent.log",
+    "sha256": "1fe7efd6f399a6d31b64857039b3d838b5aaa7ea24b995a66d105849b882d516",
+    "mtime_ns": 1793075998316097800,
+    "bytes": 148
+  },
+  {
+    "path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task23-guarded-audit-20261027-v4\\independent_check.py",
+    "sha256": "5728043ed2979e8200dbfc30bd46ec93f43862929e2c6f723fa8ca690df2a120",
+    "mtime_ns": 1793075952167157300,
+    "bytes": 7884
+  },
+  {
+    "path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task23-guarded-audit-20261027-v4\\input_seal.json",
+    "sha256": "0c06f5a488f7c86673a7bab1d77159630ba9303f64773f57896c4fc72235d14d",
+    "mtime_ns": 1793075954634537600,
+    "bytes": 22823
+  },
+  {
+    "path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task23-guarded-audit-20261027-v4\\numerical_checks.json",
+    "sha256": "0c392921daf25777764e1529e79cb1cd2f6ed4557d635477c2c5f8a1527f75f7",
+    "mtime_ns": 1793075976639811400,
+    "bytes": 610
+  },
+  {
+    "path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task23-guarded-audit-20261027-v4\\partitions.csv",
+    "sha256": "e5e92b7cd75fb3476a101b9418daa0011083915fab3b0bdc35f8ac4dc048aee7",
+    "mtime_ns": 1793075976637237600,
+    "bytes": 1490
+  },
+  {
+    "path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task23-guarded-audit-20261027-v4\\report_builder.py",
+    "sha256": "160774709b55981b819b87a8e6f8f902bcd01f0b1763cb34ebd4fc2f8c8778bf",
+    "mtime_ns": 1793075952168157200,
+    "bytes": 4181
+  },
+  {
+    "path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task23-guarded-audit-20261027-v4\\seal.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "mtime_ns": 1793075952178439200,
+    "bytes": 0
+  },
+  {
+    "path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task23-guarded-audit-20261027-v4\\verify.py",
+    "sha256": "8ca0babf9f2e6e52955e9c2e354a04a3f994ab17208525d40c3266e08b895375",
+    "mtime_ns": 1793075952168157200,
+    "bytes": 1380
+  },
+  {
+    "path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task23-guarded-audit-20261027-v4\\window_ids.csv",
+    "sha256": "dfe19f10e6ee5b0e9af6c2313a9e662ba09c745753df6c4a9c48b13b5f71dc1c",
+    "mtime_ns": 1793075976636214700,
+    "bytes": 83744274
+  },
+  {
+    "path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task23-guarded-audit-20261027-v4\\报告.md",
+    "sha256": "45e1faff32c5b341f7149681e7ded8bad4b12395c79b956cc19dc673c8f5ffaf",
+    "mtime_ns": 1793076006350132300,
+    "bytes": 3584
+  },
+  {
+    "path": "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\accuracy\\data_expansion.py",
+    "sha256": "100f48ca1e4686033230ec38ecf105752cb70cf798413acb7cc4abab662be192",
+    "mtime_ns": 1792858700994428500,
+    "bytes": 32069
+  },
+  {
+    "path": "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\accuracy\\microwave_mask.py",
+    "sha256": "c4a52362f3b2f8a52ccd2d42344567acaa7734c0f5048bc1f8deef8a22d57629",
+    "mtime_ns": 1792901204752601200,
+    "bytes": 20408
+  },
+  {
+    "path": "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\data\\prepare.py",
+    "sha256": "9d0befa61e1d40c5cd1f444f0ee1b90a5a6919ebd2c3fd8f4a66ae8b8cbd9ae0",
+    "mtime_ns": 1792641693296809300,
+    "bytes": 16188
+  },
+  {
+    "path": "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\models\\center_mask_tcn.py",
+    "sha256": "effb8fe56a0491bc9d1e9ee8fe4a97a87ca1bf6cb210b5b6de74c446b6f0ea2b",
+    "mtime_ns": 1793017823780430600,
+    "bytes": 5909
+  },
+  {
+    "path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task23-guarded-audit-20261027-v4\\delivery_seal.json",
+    "sha256": "dae0f8c36c520cb9b810465f756d9676ed57e6147ec397d4109c73d84cec2170",
+    "mtime_ns": 1793076007821202300,
+    "bytes": 13823
+  }
+]

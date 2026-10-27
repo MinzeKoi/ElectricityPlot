@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "registration_sha256": "e3fc4e93396b34205e47f32ecd8b6e9445ccb25386e0c70b1a6a35cbf429860c",
+  "preparation_manifest_sha256": "94d19e3125482ae4d634d5b855b3ce6b8fdc4906bd07abb19eaaee420cc3962d",
+  "authorization_sha256": "7828a2f8fb779077f9c3b6e97111e05558d8ed413c84b03f61240e73b1d02e6c",
+  "authorization": {
+    "authorized": true,
+    "approval_origin": "human",
+    "experiment": "microwave_task21_hard_negative_v1",
+    "registration_sha256": "e3fc4e93396b34205e47f32ecd8b6e9445ccb25386e0c70b1a6a35cbf429860c",
+    "additional_new_fits": 3,
+    "maximum_updates": 10584,
+    "seeds": [
+      42,
+      1019,
+      2026
+    ],
+    "human_authorization_quote": "允许新增3模型／10,584次更新",
+    "human_authorization_reference": "root chat 01a16d7b-478e-7780-a999-88abe71e8c94; request_user_input_async call_9df25b844d674dad87cf4d3c3b1f8a3c; direct user answer 2026-10-26 Asia/Shanghai",
+    "warning": "Preparation authorization and all old receipts are insufficient. New explicit user budget required."
+  },
+  "previous_training_started": false,
+  "previous_models": false,
+  "new_fits": 0,
+  "optimizer_updates": 0
+}

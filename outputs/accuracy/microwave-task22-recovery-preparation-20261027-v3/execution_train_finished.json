@@ -1,0 +1,8 @@
+{
+  "stage": "train",
+  "child_pid": 5448,
+  "driver_pid": 4908,
+  "returncode": 0,
+  "log_sha256": "ef431c720e581f4bf0fd1396f607dc36dd6b3a4fa99bd3051adfc82911b025ad",
+  "retry_permitted": false
+}

@@ -1,0 +1,166 @@
+{
+  "source_only": true,
+  "selected": "guard95",
+  "guard95_eligible": true,
+  "source_rejection": null,
+  "rows": {
+    "W50": [
+      {
+        "seed": 42,
+        "precision": 0.16394966452384874,
+        "recall": 0.8595588235294118,
+        "f1": 0.27324531708417965
+      },
+      {
+        "seed": 1019,
+        "precision": 0.08605687606112054,
+        "recall": 0.9478506787330316,
+        "f1": 0.1567773057529678
+      },
+      {
+        "seed": 2026,
+        "precision": 0.18698430505027208,
+        "recall": 0.8669117647058824,
+        "f1": 0.30621864179209946
+      }
+    ],
+    "guard95": [
+      {
+        "seed": 42,
+        "precision": 0.21395396563083935,
+        "recall": 0.9695701357466064,
+        "f1": 0.34927066156884773,
+        "degenerate": false,
+        "source_gate_passed": true
+      },
+      {
+        "seed": 1019,
+        "precision": 0.26339476715484617,
+        "recall": 0.976923076923077,
+        "f1": 0.4148894366448755,
+        "degenerate": false,
+        "source_gate_passed": true
+      },
+      {
+        "seed": 2026,
+        "precision": 0.2508939393939394,
+        "recall": 0.9695701357466064,
+        "f1": 0.3986326257410595,
+        "degenerate": false,
+        "source_gate_passed": true
+      }
+    ]
+  },
+  "recipes": [
+    {
+      "seed": 42,
+      "L": 0.09719955176115036,
+      "H": 0.2631731927394867,
+      "feasible": true,
+      "blocks": [
+        {
+          "block": "4",
+          "tp": 134,
+          "fp": 595,
+          "fn": 2,
+          "tn": 18396,
+          "n": 19127,
+          "precision": 0.18381344307270234,
+          "recall": 0.9852941176470589,
+          "f1": 0.30982658959537573,
+          "fpr": 0.03133063029856248,
+          "predicted_on": 729,
+          "degenerate": false
+        },
+        {
+          "block": "5",
+          "tp": 62,
+          "fp": 192,
+          "fn": 3,
+          "tn": 14967,
+          "n": 15224,
+          "precision": 0.2440944881889764,
+          "recall": 0.9538461538461539,
+          "f1": 0.3887147335423197,
+          "fpr": 0.012665743122897288,
+          "predicted_on": 254,
+          "degenerate": false
+        }
+      ]
+    },
+    {
+      "seed": 1019,
+      "L": 0.11615903675556183,
+      "H": 0.34624072909355164,
+      "feasible": true,
+      "blocks": [
+        {
+          "block": "4",
+          "tp": 136,
+          "fp": 379,
+          "fn": 0,
+          "tn": 18612,
+          "n": 19127,
+          "precision": 0.26407766990291265,
+          "recall": 1.0,
+          "f1": 0.41781874039938555,
+          "fpr": 0.019956821652361643,
+          "predicted_on": 515,
+          "degenerate": false
+        },
+        {
+          "block": "5",
+          "tp": 62,
+          "fp": 174,
+          "fn": 3,
+          "tn": 14985,
+          "n": 15224,
+          "precision": 0.2627118644067797,
+          "recall": 0.9538461538461539,
+          "f1": 0.4119601328903654,
+          "fpr": 0.011478329705125669,
+          "predicted_on": 236,
+          "degenerate": false
+        }
+      ]
+    },
+    {
+      "seed": 2026,
+      "L": 0.0628107488155365,
+      "H": 0.27999335527420044,
+      "feasible": true,
+      "blocks": [
+        {
+          "block": "4",
+          "tp": 134,
+          "fp": 394,
+          "fn": 2,
+          "tn": 18597,
+          "n": 19127,
+          "precision": 0.2537878787878788,
+          "recall": 0.9852941176470589,
+          "f1": 0.4036144578313253,
+          "fpr": 0.02074666947501448,
+          "predicted_on": 528,
+          "degenerate": false
+        },
+        {
+          "block": "5",
+          "tp": 62,
+          "fp": 188,
+          "fn": 3,
+          "tn": 14971,
+          "n": 15224,
+          "precision": 0.248,
+          "recall": 0.9538461538461539,
+          "f1": 0.39365079365079364,
+          "fpr": 0.012401873474503595,
+          "predicted_on": 250,
+          "degenerate": false
+        }
+      ]
+    }
+  ],
+  "registration_sha256": "72a70fa1c97ce8c648955e2134bacf2fcce930ed388a37802ad0cd443d24618a",
+  "algorithm_sha256": "ea164598b3fb995b3d37abb396083a6105a84bab55e1e2503e16fefaa53c982f"
+}

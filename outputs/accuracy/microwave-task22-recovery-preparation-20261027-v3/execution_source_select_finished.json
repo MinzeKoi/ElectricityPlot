@@ -1,0 +1,8 @@
+{
+  "stage": "source_select",
+  "child_pid": 8532,
+  "driver_pid": 18424,
+  "returncode": 0,
+  "log_sha256": "c141c1fb74a0871f1c5f99a8b2f4adc235dacc0d4b8b45e9b49147b2c52bc4af",
+  "retry_permitted": false
+}

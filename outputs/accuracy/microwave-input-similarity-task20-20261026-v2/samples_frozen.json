@@ -1,0 +1,8 @@
+{
+  "status": "frozen_before_distances",
+  "support_sha256": "b54cefc8a31b1af27f3b2959427f5593450f667d7fa1f694d83a3d8f85e43d59",
+  "reference_sha256": "1a7d0b1a11e600374b1b242885e32821dbe8e479d85f72c823f707bb71d919d4",
+  "query_sha256": "05eecf3eb79de630de5146a4b63a79c7fd99f0d235091db62a1fcc18d6e115bc",
+  "queries": 31875,
+  "references": 60680
+}

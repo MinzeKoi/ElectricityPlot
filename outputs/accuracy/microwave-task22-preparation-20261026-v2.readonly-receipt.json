@@ -1,0 +1,1431 @@
+{
+  "passed": true,
+  "passes": 2,
+  "calls": [
+    {
+      "iteration": 1,
+      "script": "D:\\system position\\document\\真正的文档\\AIC\\scripts\\run_microwave_task22.py",
+      "command": "prepare",
+      "stdout_sha256": "ca5965745e67ca2dfedd66fac9500ce7d499ab8514e2521d215784b23980b885"
+    },
+    {
+      "iteration": 1,
+      "script": "D:\\system position\\document\\真正的文档\\AIC\\scripts\\run_microwave_task22.py",
+      "command": "verify",
+      "stdout_sha256": "ca5965745e67ca2dfedd66fac9500ce7d499ab8514e2521d215784b23980b885"
+    },
+    {
+      "iteration": 1,
+      "script": "D:\\system position\\document\\真正的文档\\AIC\\scripts\\run_microwave_task22.py",
+      "command": "report",
+      "stdout_sha256": "8b1ea600c1546b66d49c23938cecf1d987e5cb0151e0c61208dfecba518a63d7"
+    },
+    {
+      "iteration": 1,
+      "script": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\run_microwave_task22.py",
+      "command": "prepare",
+      "stdout_sha256": "ca5965745e67ca2dfedd66fac9500ce7d499ab8514e2521d215784b23980b885"
+    },
+    {
+      "iteration": 1,
+      "script": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\run_microwave_task22.py",
+      "command": "verify",
+      "stdout_sha256": "ca5965745e67ca2dfedd66fac9500ce7d499ab8514e2521d215784b23980b885"
+    },
+    {
+      "iteration": 1,
+      "script": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\run_microwave_task22.py",
+      "command": "report",
+      "stdout_sha256": "8b1ea600c1546b66d49c23938cecf1d987e5cb0151e0c61208dfecba518a63d7"
+    },
+    {
+      "iteration": 2,
+      "script": "D:\\system position\\document\\真正的文档\\AIC\\scripts\\run_microwave_task22.py",
+      "command": "prepare",
+      "stdout_sha256": "ca5965745e67ca2dfedd66fac9500ce7d499ab8514e2521d215784b23980b885"
+    },
+    {
+      "iteration": 2,
+      "script": "D:\\system position\\document\\真正的文档\\AIC\\scripts\\run_microwave_task22.py",
+      "command": "verify",
+      "stdout_sha256": "ca5965745e67ca2dfedd66fac9500ce7d499ab8514e2521d215784b23980b885"
+    },
+    {
+      "iteration": 2,
+      "script": "D:\\system position\\document\\真正的文档\\AIC\\scripts\\run_microwave_task22.py",
+      "command": "report",
+      "stdout_sha256": "8b1ea600c1546b66d49c23938cecf1d987e5cb0151e0c61208dfecba518a63d7"
+    },
+    {
+      "iteration": 2,
+      "script": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\run_microwave_task22.py",
+      "command": "prepare",
+      "stdout_sha256": "ca5965745e67ca2dfedd66fac9500ce7d499ab8514e2521d215784b23980b885"
+    },
+    {
+      "iteration": 2,
+      "script": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\run_microwave_task22.py",
+      "command": "verify",
+      "stdout_sha256": "ca5965745e67ca2dfedd66fac9500ce7d499ab8514e2521d215784b23980b885"
+    },
+    {
+      "iteration": 2,
+      "script": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\run_microwave_task22.py",
+      "command": "report",
+      "stdout_sha256": "8b1ea600c1546b66d49c23938cecf1d987e5cb0151e0c61208dfecba518a63d7"
+    }
+  ],
+  "all_input_delivery_hash_mtime_unchanged": true,
+  "preparation_manifest_sha256": "f166b8838a86564581d0e3078b4a1719583d64f0b6f13bbdf8e9137d19a83b9d",
+  "snapshots": {
+    "D:\\system position\\document\\真正的文档\\AIC\\configs\\microwave_task22_20261026.disabled.json": {
+      "sha256": "5abe1c1147e0b6111157817696111b1bdc7df20bf825f0e0ac17c9fec3e564ef",
+      "size": 407,
+      "mtime_ns": 1793017941450288700
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\docs\\MICROWAVE_TASK22_PROPOSAL_20261026.md": {
+      "sha256": "bb83e40d055d08ed5c80c1babd1b771ee6d6796f42a47221966f63f7629e1724",
+      "size": 6628,
+      "mtime_ns": 1793017612681265600
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-recall-guard95-preparation-20261025-v2\\final_delivery_manifest.json": {
+      "sha256": "2993246c6de6e748d49ab0dda531da53b2d207c0a3b57f27d7794670304d8803",
+      "size": 17599,
+      "mtime_ns": 1792929361762765300
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-recall-guard95-preparation-20261025-v2\\identity.json": {
+      "sha256": "1d8dfe7430bcecb2da153dcc0524c90dc5f7a7babbb6d98be5ce0bfbc8b16182",
+      "size": 10398,
+      "mtime_ns": 1792927579946424300
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-recall-guard95-preparation-20261025-v2\\source_selection.json": {
+      "sha256": "5869f4410a8a7cd0ec3ea32d30118d5e750b5af9544ae6e37ceac7016b7fb2c8",
+      "size": 4263,
+      "mtime_ns": 1792929081693738700
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\final_delivery_manifest.json": {
+      "sha256": "06be175936c2e80866211531dcdbf6aea7d03b80f6728745dc7d34c38af8a8dc",
+      "size": 33190,
+      "mtime_ns": 1792913170466938900
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_BCE\\seed_1019\\epoch_12_block_4.npz": {
+      "sha256": "7c65109f83bf5ee36b18dc762e536df667d159c781b6aa9aadac7c6f52929a2a",
+      "size": 93606,
+      "mtime_ns": 1792912706138391500
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_BCE\\seed_1019\\epoch_12_block_5.npz": {
+      "sha256": "cf79c0c7220aab0b3abb2f117f0e057bc01548e00a95db289c78613ebd1eedbf",
+      "size": 74717,
+      "mtime_ns": 1792912706147401800
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_BCE\\seed_1019\\initial.pt": {
+      "sha256": "3ecce023bbcad16db5d0fa3d63ab24936ae13a2ee00e9cc7d01eb28edcd3ebb3",
+      "size": 27117,
+      "mtime_ns": 1792912591254721200
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_BCE\\seed_1019\\model.json": {
+      "sha256": "e89eff756404adf8e587438a1d757ab225d7f03ab9221fcc95e16aa1805e30a1",
+      "size": 1973,
+      "mtime_ns": 1792912709486604000
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_BCE\\seed_1019\\weights.pt": {
+      "sha256": "75cbb7427dc8372144439bf034a652164e6eeb1a59d6097b426fea259f6300a7",
+      "size": 27717,
+      "mtime_ns": 1792912709478687100
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_BCE\\seed_2026\\epoch_11_block_4.npz": {
+      "sha256": "7fb768e917ea910acb215ab54589f55d70dad1c1f0d0460abe83e04e8d87b0ef",
+      "size": 93777,
+      "mtime_ns": 1792912813256064700
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_BCE\\seed_2026\\epoch_11_block_5.npz": {
+      "sha256": "5dc504ab648959da0abe15763b5a3e7037ed1dd703e56903d315352be81a4eac",
+      "size": 75078,
+      "mtime_ns": 1792912813264070400
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_BCE\\seed_2026\\initial.pt": {
+      "sha256": "e7d47a36b8ef33058fbc0088aaebe7bbf4eb2a4c42f3f898658a16197165b2c8",
+      "size": 27117,
+      "mtime_ns": 1792912710014550500
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_BCE\\seed_2026\\model.json": {
+      "sha256": "4df2a277c655487c2287f97dec58b13ba8ca52e0df888d3e06e7859be87834c6",
+      "size": 1984,
+      "mtime_ns": 1792912825483189400
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_BCE\\seed_2026\\weights.pt": {
+      "sha256": "e89dc1a8f2ee73af3a93edfc594d5956ad7ba42575fb0d80f8fe4a68aeafa815",
+      "size": 27717,
+      "mtime_ns": 1792912825475055900
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_BCE\\seed_42\\epoch_5_block_4.npz": {
+      "sha256": "a032561e1b0ca7604cb83d4bf797234bf680235b60ce809e1c28fe526fc39146",
+      "size": 93549,
+      "mtime_ns": 1792912517367691600
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_BCE\\seed_42\\epoch_5_block_5.npz": {
+      "sha256": "b0c398661d1e9a0b9c64dcf7e0d16c6eefe093b6ec4132f157a44cdb96c59378",
+      "size": 74206,
+      "mtime_ns": 1792912517376623300
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_BCE\\seed_42\\initial.pt": {
+      "sha256": "a6e8dcc837b3c13548fda478efa1e39e4458fccaf02da6ec81e4884d646c2772",
+      "size": 27117,
+      "mtime_ns": 1792912466288766000
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_BCE\\seed_42\\model.json": {
+      "sha256": "33ea2ca10445ce9a310b7f2bad92c91fc634f4aa382c183a896b821ec63dc61e",
+      "size": 1985,
+      "mtime_ns": 1792912590699432700
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_BCE\\seed_42\\weights.pt": {
+      "sha256": "5d72837ca4615a1f635bd3162dd0886172757582b3d4c6d97f817c982d5f9dc2",
+      "size": 27117,
+      "mtime_ns": 1792912590693933500
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-temporal-20261025-v2\\dry_exposure_1019.npz": {
+      "sha256": "4f59ab85530b18cea3f07c792987220d2ac76eb39d3a04bc617df5823198d2a9",
+      "size": 88386,
+      "mtime_ns": 1792909692478740700
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-temporal-20261025-v2\\dry_exposure_2026.npz": {
+      "sha256": "f7f7ae1921197177f35363d6609a5823e56813e4a081baa81bdc102338cba80c",
+      "size": 88212,
+      "mtime_ns": 1792909693368056700
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-temporal-20261025-v2\\dry_exposure_42.npz": {
+      "sha256": "da127180d68863b4ac68e86895eb94d4c1da5167d6b06dfcc1b2dbba4d9c04f1",
+      "size": 88194,
+      "mtime_ns": 1792909690296525900
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-temporal-20261025-v2\\initial_1019.pt": {
+      "sha256": "3ecce023bbcad16db5d0fa3d63ab24936ae13a2ee00e9cc7d01eb28edcd3ebb3",
+      "size": 27117,
+      "mtime_ns": 1792909692485248200
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-temporal-20261025-v2\\initial_2026.pt": {
+      "sha256": "e7d47a36b8ef33058fbc0088aaebe7bbf4eb2a4c42f3f898658a16197165b2c8",
+      "size": 27117,
+      "mtime_ns": 1792909693373558300
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-temporal-20261025-v2\\initial_42.pt": {
+      "sha256": "a6e8dcc837b3c13548fda478efa1e39e4458fccaf02da6ec81e4884d646c2772",
+      "size": 27117,
+      "mtime_ns": 1792909691582822800
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-temporal-20261025-v2\\normalization.json": {
+      "sha256": "6bded76808e2480ce220ab65784f86b605c1c119a86595c1bc9d60f65c83fb26",
+      "size": 128,
+      "mtime_ns": 1792909681969844300
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-temporal-20261025-v2\\plan.json": {
+      "sha256": "334665bb7d7183e4966fac7029820af176ccf90047b8eb5bd38a85979ded940a",
+      "size": 3368,
+      "mtime_ns": 1792909681973845300
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-temporal-20261025-v2\\registration.json": {
+      "sha256": "99b3092f4f89f837830daefb0b00020e00e2f197aadb8099169e9d523068acb9",
+      "size": 14293,
+      "mtime_ns": 1792909693934540200
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-temporal-20261025-v2\\sampling_1019.npz": {
+      "sha256": "98342e450915b6970e406de50ec2077eb975b454b0a58133ac1703cb91a45f13",
+      "size": 2839137,
+      "mtime_ns": 1792909692411487200
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-temporal-20261025-v2\\sampling_2026.npz": {
+      "sha256": "cb33f6c9fffb8365d296222901db00e9a7c27249029475cf82b042ef20ccba86",
+      "size": 2839086,
+      "mtime_ns": 1792909693304163100
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-temporal-20261025-v2\\sampling_42.npz": {
+      "sha256": "db37a049731345d73879bdccb8ec408534890f2e748dba6a17438c1e98dfc03b",
+      "size": 2838642,
+      "mtime_ns": 1792909690231730000
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-temporal-20261025-v2\\source5_inputs.json": {
+      "sha256": "25d1450c9c6c20c4d6d723e8873ac5e3802f34b2db1711e48214cb0532953b58",
+      "size": 557,
+      "mtime_ns": 1792909681977845900
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-temporal-20261025-v2\\train.npz": {
+      "sha256": "5d8809260b1d52a6f613422644d9b38454cbe321377039926f87587c0016de7a",
+      "size": 3588836,
+      "mtime_ns": 1792909688700842200
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-temporal-20261025-v2\\validation\\block_4.npz": {
+      "sha256": "3b680a6c96b6ace61f747fba4025e97aa5738cd821214edcb7e0cb351f875f1a",
+      "size": 183942,
+      "mtime_ns": 1792909689109955200
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-temporal-20261025-v2\\validation\\block_5.npz": {
+      "sha256": "7c3c78b99279a95ba76eb362c38298887d40d1236ea2fdaa02f39a2a46ab6f4f",
+      "size": 173999,
+      "mtime_ns": 1792909689369294400
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\precision-20261024-v1\\protocol\\data\\source_validation_refit_5_0\\aggregate.csv": {
+      "sha256": "b1cc0a12a37b3182164fba3d1ddcc62ba85682bed641302f859095d0dda92525",
+      "size": 12994605,
+      "mtime_ns": 1792833745950871600
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\precision-20261024-v1\\protocol\\data\\source_validation_refit_5_0\\microwave.csv": {
+      "sha256": "d907c7cb236c9340519722456376ba27339cc63c42db9eadf74e4db4745fcaf3",
+      "size": 17764707,
+      "mtime_ns": 1792833751908288300
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\scripts\\finalize_microwave_task22.py": {
+      "sha256": "644a40fdc7f1df599999e3355ae4f94d6e4d50c173fbb84ffc9106a4481a8e22",
+      "size": 8112,
+      "mtime_ns": 1793018303281297000
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\scripts\\run_microwave_task22.py": {
+      "sha256": "b75d17ac53e1e6101fcc59b086ba57977cd97951b94a747c4411ed6a5d903055",
+      "size": 1079,
+      "mtime_ns": 1793018162402567000
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\__init__.py": {
+      "sha256": "419bcd145f8d8226a8ea5accc99eac723c1c7009ac2e3d12f1df990cbeed91bf",
+      "size": 96,
+      "mtime_ns": 1792509597086174300
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\__main__.py": {
+      "sha256": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+      "size": 48,
+      "mtime_ns": 1792424510237357100
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\accuracy\\__init__.py": {
+      "sha256": "9050f0d31d40e8ecb8c2251872be5dd2c4d1a856366f213a11baff8c4da648b2",
+      "size": 80,
+      "mtime_ns": 1792552275330297100
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\accuracy\\baseline.py": {
+      "sha256": "2c6769d273cda4acd8bd08a732ce23dc775c8165731ea5a90be7ccc87755f6e1",
+      "size": 17952,
+      "mtime_ns": 1792553790313391100
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\accuracy\\baseline_data.py": {
+      "sha256": "9ec596cef0142564178e458dd5e97271f40f55862c96ca5c18bcba0ad8920ac3",
+      "size": 10597,
+      "mtime_ns": 1792819608514604100
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\accuracy\\data_expansion.py": {
+      "sha256": "100f48ca1e4686033230ec38ecf105752cb70cf798413acb7cc4abab662be192",
+      "size": 32069,
+      "mtime_ns": 1792858700994428500
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\accuracy\\diagnosis.py": {
+      "sha256": "e35f34a0cd3ec5dade79fc298ba36c9fea23dff5044e56749839ebab7dce8762",
+      "size": 4216,
+      "mtime_ns": 1792552275874991500
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\accuracy\\dynamic_queries.py": {
+      "sha256": "2070c04581b5989ec836e84af77e76c34809ce35e7f16d36317515992a3c30e2",
+      "size": 28499,
+      "mtime_ns": 1792817014824498800
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\accuracy\\dynamic_session.py": {
+      "sha256": "be463ae78d72be44fa9a3cd352a5f17795e5494bcdca10a9f1b997ae9f0d212c",
+      "size": 14465,
+      "mtime_ns": 1792819606664944200
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\accuracy\\final_demo.py": {
+      "sha256": "90ae4cc87a362b95431c72527296162102cb9e6de84a10f58d256889ba1f2b04",
+      "size": 4522,
+      "mtime_ns": 1792819609325369000
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\accuracy\\final_evaluation.py": {
+      "sha256": "45a59af56c6b8b470b90c4c21bb75988664260eb7f80deccea9cb1eebc336fc9",
+      "size": 34821,
+      "mtime_ns": 1792576753804377000
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\accuracy\\fixed_queries.py": {
+      "sha256": "975aa5c715d087013218d68f2af4e1896c048a854a0fc2e561cc6650c7fea204",
+      "size": 31853,
+      "mtime_ns": 1792819609997163800
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\accuracy\\learners.py": {
+      "sha256": "8aa1b6998f3d5c082a6189d65fb8de63262acbf82e7b54f19eb62bd5501e72e3",
+      "size": 14608,
+      "mtime_ns": 1792817014834501300
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\accuracy\\live.py": {
+      "sha256": "043dc953f2e9ae2be8f5717b3cd8d6c46067111bfc8c9820f88cc22db664a0c8",
+      "size": 10878,
+      "mtime_ns": 1792858700301230900
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\accuracy\\microwave_background.py": {
+      "sha256": "5e90f9b0254ec7b22f504b5580b44b26a840bc3e9ecd6a31d2d1326c6d07f2fd",
+      "size": 48120,
+      "mtime_ns": 1792897599101132800
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\accuracy\\microwave_capacity_pipeline.py": {
+      "sha256": "11fd47c00680e63574baf8b3c7618667527ccf2f4bfbd0f44587929b8546e380",
+      "size": 11931,
+      "mtime_ns": 1793017941449264500
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\accuracy\\microwave_checkpoint_ensemble.py": {
+      "sha256": "70c2b70d911aa1810c556db7eefa5b1e5700363934a531c67a029beababc4b64",
+      "size": 37681,
+      "mtime_ns": 1792983772049069800
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\accuracy\\microwave_diagnosis.py": {
+      "sha256": "68a8a0139c53f619fa645cb50c7dd0089f7cb0dc8258db1a1b5188361468c60d",
+      "size": 30633,
+      "mtime_ns": 1792895032267729200
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\accuracy\\microwave_event_gate.py": {
+      "sha256": "342c1e97707e4053c7d0b8fa438c10e48a445cc378d1fa9796e58a149ead82fd",
+      "size": 40755,
+      "mtime_ns": 1792911432763718400
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\accuracy\\microwave_expanded_guard95.py": {
+      "sha256": "17838379de35aa40cab1fe175a4a5551b00c05f5e39e14d085bbd8beade76a68",
+      "size": 56365,
+      "mtime_ns": 1792987900510855600
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\accuracy\\microwave_fullsource.py": {
+      "sha256": "2cbb9561033f2e15385ea17dbfb18004103f515781e333468cfc6157bb1f9fd5",
+      "size": 19983,
+      "mtime_ns": 1792898329628459800
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\accuracy\\microwave_fullsource_execution.py": {
+      "sha256": "cb90105a97c055f9ed04dcf683ab3d454be7beca9298f396d399a38dc9f1fcf2",
+      "size": 27800,
+      "mtime_ns": 1792898330402005500
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\accuracy\\microwave_fullsource_reporting.py": {
+      "sha256": "dec84617b55371a5d7984e3927de3854175dff50d90bf9ba10ee0a55c195eb9b",
+      "size": 475,
+      "mtime_ns": 1792898474398729400
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\accuracy\\microwave_loss_correction.py": {
+      "sha256": "01fd9e19d54ff4c4a5c5f8c4c1d7125d0287e80dcb369f5ca75045171b73436e",
+      "size": 32720,
+      "mtime_ns": 1792904134033008900
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\accuracy\\microwave_mask.py": {
+      "sha256": "c4a52362f3b2f8a52ccd2d42344567acaa7734c0f5048bc1f8deef8a22d57629",
+      "size": 20408,
+      "mtime_ns": 1792901204752601200
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\accuracy\\microwave_mask_execution.py": {
+      "sha256": "f6a3a0780b5fdbc935ff604c548ed2d59e63d765725124e500bce02a381dee9c",
+      "size": 27942,
+      "mtime_ns": 1792901204135228400
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\accuracy\\microwave_recall_guard95.py": {
+      "sha256": "ea164598b3fb995b3d37abb396083a6105a84bab55e1e2503e16fefaa53c982f",
+      "size": 30334,
+      "mtime_ns": 1792927544086623600
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\accuracy\\microwave_regression_calibration.py": {
+      "sha256": "9885a47caf6975a2d936590016da641a0cbdfe33008b0f8939ffcd9a7959c730",
+      "size": 31005,
+      "mtime_ns": 1792901829775551900
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\accuracy\\microwave_sampling.py": {
+      "sha256": "318e7674266c6293ddba554b643cdd5880554d652bb8836d2af9aab6f25ed309",
+      "size": 35026,
+      "mtime_ns": 1792897038226367000
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\accuracy\\microwave_source3_background.py": {
+      "sha256": "d03e7be2f5c002d5455235c84a1a0391302343a9902ee34ec6f9f12a473824b5",
+      "size": 21283,
+      "mtime_ns": 1792931463415351000
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\accuracy\\microwave_source3_background_execution.py": {
+      "sha256": "434e995eaaf9987092988d9518427312366775ec8ed4cfb0dd813085173001c5",
+      "size": 48562,
+      "mtime_ns": 1792981916997468700
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\accuracy\\microwave_source5_loss.py": {
+      "sha256": "844cd36e7e1b65f1bf63278b1ffc17ad4db7fb649dfbbf7d389e501e39d56581",
+      "size": 35792,
+      "mtime_ns": 1792912328083476900
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\accuracy\\microwave_source5_temporal.py": {
+      "sha256": "f3a18da24163eed4bba964969590b75b7a95e8f78448f06e10c993b220853e77",
+      "size": 15397,
+      "mtime_ns": 1792905035160056500
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\accuracy\\microwave_source5_temporal_execution.py": {
+      "sha256": "08b1c395870c07d4407c677bb69c9502346644bbb2ba89aa103b71b4074e90ca",
+      "size": 39443,
+      "mtime_ns": 1793017824919353700
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\accuracy\\microwave_task21.py": {
+      "sha256": "6933eca318f31de806522c7820993e03da9ddef6e64f2f61f62353f543effacf",
+      "size": 38634,
+      "mtime_ns": 1793015837147569900
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\accuracy\\microwave_task21_review.py": {
+      "sha256": "273fb8c028413fbafce96af7994bde4ab7264e08337f316b94eab2c7313c3ab6",
+      "size": 19032,
+      "mtime_ns": 1793017851446486200
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\accuracy\\microwave_task22.py": {
+      "sha256": "912a44a6532ef8a3219980095f704e1e596a9688261661fc502233a377ba2616",
+      "size": 16750,
+      "mtime_ns": 1793018162336764800
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\accuracy\\microwave_task22_review.py": {
+      "sha256": "b552dd8c1700968c2cbe89701eb45f027b8c4bbf6bb6a875f8a74b04c66c1407",
+      "size": 18271,
+      "mtime_ns": 1793018251149572100
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\accuracy\\microwave_tcn.py": {
+      "sha256": "9fb2f4fd02eac1ddb1c7a6fd021c1a3ed11c29ffbcb49c1e2cc70eb7a884be09",
+      "size": 22492,
+      "mtime_ns": 1792902622271629200
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\accuracy\\microwave_tcn_execution.py": {
+      "sha256": "1bb3f5de00234ff9d4f4286d668b2b139951593ec6e6a8b3d3c8fee684f71d36",
+      "size": 29329,
+      "mtime_ns": 1793017824341513900
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\accuracy\\power.py": {
+      "sha256": "6e102dd5f07de992e2911310e007e2558210dbd7544b86f15b1e43c122caa823",
+      "size": 7289,
+      "mtime_ns": 1792560517294390300
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\accuracy\\power_experiment.py": {
+      "sha256": "e7bb396d34f1b39ba212c00a4312a46520655591f8202b7bd4b6b62e72cd6204",
+      "size": 27659,
+      "mtime_ns": 1792819611603849700
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\accuracy\\precision.py": {
+      "sha256": "d76316ed76dedeef8249d148808381fc43ea5a8b2e05eef81c2c33257041ecef",
+      "size": 34166,
+      "mtime_ns": 1792840843086082800
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\accuracy\\r1.py": {
+      "sha256": "8fd2b4244f21aba695164a5771be28e070e6741f6d646bd23970184ed23d7a8c",
+      "size": 13857,
+      "mtime_ns": 1792820925639439000
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\accuracy\\r2.py": {
+      "sha256": "1b9031e74c81aeed48064abefe731b72ccbfdb880f8d77d9e924590ff6d19b6c",
+      "size": 12315,
+      "mtime_ns": 1792817014844503500
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\accuracy\\release.py": {
+      "sha256": "7fe2a3c2ee637c5f8853e060ecdbbb1281338162c50f24f964047134d55d0b32",
+      "size": 9008,
+      "mtime_ns": 1792817014849505400
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\accuracy\\report.py": {
+      "sha256": "0ae5539eab876fe0587f88ff67c17af0356ab1cc195e6e5e3fc9cc600c09f9c1",
+      "size": 6329,
+      "mtime_ns": 1792552362340449800
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\accuracy\\runner.py": {
+      "sha256": "c6fd98568f902a2450298d9b09e5fe1d1e6626679ad36cef77dc9a45686bcf34",
+      "size": 15804,
+      "mtime_ns": 1792858770071534900
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\accuracy\\state_experiment.py": {
+      "sha256": "72d2f3b8347f44b1c9637c6a2cb078c035d63c1dda76a3ecd26f6a8dca3c58f0",
+      "size": 34593,
+      "mtime_ns": 1792858701654645100
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\adaptation\\__init__.py": {
+      "sha256": "4f19fa5e72bbfc06279a2f5e41aff4229ff75f3569e5e8c404911dcdbe1f99f2",
+      "size": 74,
+      "mtime_ns": 1792509597091408900
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\adaptation\\runner.py": {
+      "sha256": "a9e75fae0ddfb699231db29dc2907abc81737f56b1ad19bae0ee8472a9747861",
+      "size": 5132,
+      "mtime_ns": 1792509597096532500
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\adaptation\\selection.py": {
+      "sha256": "78a99e6952dbd405ac9e8ebe76483a510923eaeee667bb06d98366c43f0e5b32",
+      "size": 4752,
+      "mtime_ns": 1792509597101130400
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\adaptation\\session.py": {
+      "sha256": "7acbf1677125297e3c71c04f1c68fc732c48da50f4ec5832aeb7402c0926625f",
+      "size": 8722,
+      "mtime_ns": 1792643307944462600
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\adaptation\\state.py": {
+      "sha256": "7253108de2c3db82269a56194c4820faa1f5688a9ef820c0e789325b1aceb19e",
+      "size": 4289,
+      "mtime_ns": 1792509597111657000
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\adaptation\\training.py": {
+      "sha256": "78fc6cdaedde076cc40f538e20c713610b1dfef0517902fd669402cd03beb037",
+      "size": 4670,
+      "mtime_ns": 1792509597116658100
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\adaptation\\verification.py": {
+      "sha256": "86b0afb7866ac33f36b857c0160d28b2bd782f187668d8f74c0ce6db1985a1b5",
+      "size": 3461,
+      "mtime_ns": 1792509597121659700
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\app\\__init__.py": {
+      "sha256": "4f973589f02b468ccbf5143a684f6c50bf9149c6803b3102fef85bc31fa755bd",
+      "size": 76,
+      "mtime_ns": 1792454275013170500
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\app\\charts.py": {
+      "sha256": "8f9c8876bbd8526bb73e4f6b84e23e2f30e58c1a636697eeab327609f835518d",
+      "size": 818,
+      "mtime_ns": 1792509597127048700
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\app\\confirmations.py": {
+      "sha256": "5f83b279b50d3ddbd55092cd32e41af7f1b2b5bd3df56143139d2e5515120463",
+      "size": 126,
+      "mtime_ns": 1792817014854505800
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\app\\dashboard.py": {
+      "sha256": "771ac953730546664f1dc072a68c1f04691e889552403e678bf401c6acc1250c",
+      "size": 14695,
+      "mtime_ns": 1792819607875542300
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\app\\live_confirmations.py": {
+      "sha256": "296922508d330c94424a121a1976555ec11e01bd36cbd32cb0a0410e42f77b89",
+      "size": 8111,
+      "mtime_ns": 1792817014863508100
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\app\\results.py": {
+      "sha256": "937f198bafa2bee053e7fa98da97259fdc497fbe3505110c0cbfa640b8c5933c",
+      "size": 2001,
+      "mtime_ns": 1792509597142051200
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\cli.py": {
+      "sha256": "6b579eba02e4f418bddce5ac56163e24abf85f1b3757ea5c10768445fd4faabd",
+      "size": 11368,
+      "mtime_ns": 1792641641366497900
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\config.py": {
+      "sha256": "bddaaa9c785215f39d223b1b301cb56afb9bea103dfea82c9356c5a2958c5c12",
+      "size": 4564,
+      "mtime_ns": 1792424510788380400
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\data\\__init__.py": {
+      "sha256": "2ff031feefab071288bd0d514b8c9d01539b28a18c6500af2662388590c85636",
+      "size": 77,
+      "mtime_ns": 1792452902109157900
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\data\\acquire.py": {
+      "sha256": "498e0a1812e6833c206dc02d24e12b173aa4bc95e670422fecafa4803598081a",
+      "size": 4701,
+      "mtime_ns": 1792452951081490700
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\data\\common.py": {
+      "sha256": "06b7af77b897a8d093004d82d2651af8d56d7c437536624a817d195ad2848299",
+      "size": 3234,
+      "mtime_ns": 1792858769490519500
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\data\\final_protocol.py": {
+      "sha256": "23ff7752a7ebc917ce47be255e22b33083081be097a9b99a309c6d55847a50b7",
+      "size": 7429,
+      "mtime_ns": 1792819612939774700
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\data\\oracle.py": {
+      "sha256": "88ce62ff22123737b4aab58448ea24d91983466244ef37190b746baeb61ba44d",
+      "size": 2958,
+      "mtime_ns": 1792556583396600800
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\data\\prepare.py": {
+      "sha256": "9d0befa61e1d40c5cd1f444f0ee1b90a5a6919ebd2c3fd8f4a66ae8b8cbd9ae0",
+      "size": 16188,
+      "mtime_ns": 1792641693296809300
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\data\\protocol.py": {
+      "sha256": "1ffd4b55a36ced8e0a24629cf233fc21aecf4348145715f6a39a905ceba15ef6",
+      "size": 12265,
+      "mtime_ns": 1792552172863927700
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\data\\quality.py": {
+      "sha256": "617ebd5a465a479306232a664b259c19b30cffc53655055d8882a7f94663681c",
+      "size": 2319,
+      "mtime_ns": 1792641640812689600
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\data\\ukdale.py": {
+      "sha256": "782076455a7d6425ecfe838abe80ca3fe5d823ad47bd447f01b52a77f618228e",
+      "size": 14327,
+      "mtime_ns": 1792833707303038000
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\environment.py": {
+      "sha256": "a362790e3a48034dc1d8d1015e0f9ee40aa976e42457914dba87bc33d3956354",
+      "size": 1796,
+      "mtime_ns": 1792453135950609400
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\evaluation\\__init__.py": {
+      "sha256": "3de8fba93debdfb5e92347445546a267ff033943e2f6835fddb2c3ee4a60a5ef",
+      "size": 74,
+      "mtime_ns": 1792454181442985300
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\evaluation\\metrics.py": {
+      "sha256": "c5438a42d414145ca81fbff74770c3ac684083030e47e60c68a117bfd384a455",
+      "size": 8300,
+      "mtime_ns": 1792509597173059100
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\evaluation\\runner.py": {
+      "sha256": "f20c297cc92478735ab0efa5bfe6628beaaa643f9c88f74b02935317dc3ce943",
+      "size": 4814,
+      "mtime_ns": 1792509597177059500
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\evaluation\\stress.py": {
+      "sha256": "f6d9dfa04419486f4c530184325da74358776581b302f12c6fe9374655cccaab",
+      "size": 10575,
+      "mtime_ns": 1792819607261450100
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\experiments\\__init__.py": {
+      "sha256": "fbd5c4e11e4c0d9e663f2bb38e1233e4652a239047f599283915da368509a6b9",
+      "size": 66,
+      "mtime_ns": 1792509597187061500
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\experiments\\runner.py": {
+      "sha256": "c11a582cb3d4de528c9fe7fb1193f996bdc368d11516c0b1ce95c130c1ce0400",
+      "size": 15997,
+      "mtime_ns": 1792509597192062200
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\experiments\\summary.py": {
+      "sha256": "bae3d5650bc5685b49bce78e56bdbfd599845b72c2e246edcae91df8a1093d15",
+      "size": 11667,
+      "mtime_ns": 1792509597197063600
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\models\\__init__.py": {
+      "sha256": "413be034f6ee42d6891a9c78121e10f4f132b05af10e32c64f7961cca7098d65",
+      "size": 81,
+      "mtime_ns": 1792454031381431100
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\models\\arrays.py": {
+      "sha256": "878836398d48e9a0c8eb11559df70998a57b6dfaf20501dc7bc5253277f0d7bd",
+      "size": 2655,
+      "mtime_ns": 1792454031382431500
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\models\\artifacts.py": {
+      "sha256": "8a045a54c031bc270c60b639ac89fb271566ae7001935cedba54b83c77ca0860",
+      "size": 2659,
+      "mtime_ns": 1792560517868943300
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\models\\center_mask_tcn.py": {
+      "sha256": "effb8fe56a0491bc9d1e9ee8fe4a97a87ca1bf6cb210b5b6de74c446b6f0ea2b",
+      "size": 5909,
+      "mtime_ns": 1793017823780430600
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\models\\mask_state_classifier.py": {
+      "sha256": "4fec9b36195c29bb86d90835a76f56c96e9d0b8dacb7f125629aa7498a98eeff",
+      "size": 3123,
+      "mtime_ns": 1792899031129483500
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\models\\network.py": {
+      "sha256": "1c7c9ae802075889f137ffd8c554f6634378bd4345bc990bb7f08fd183ccf774",
+      "size": 749,
+      "mtime_ns": 1792454031382431500
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\models\\prediction.py": {
+      "sha256": "29ab2270b6c578d37fc2befa2e0f2830b87e2724b2da1d49358ea9f730f7bcc9",
+      "size": 10158,
+      "mtime_ns": 1792817014868508800
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\models\\settings.py": {
+      "sha256": "171a8dc05b6e76b443440bb177cd207b669c6088819374bc7957cad3110e4aa4",
+      "size": 1703,
+      "mtime_ns": 1792454031381431100
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\models\\state_classifier.py": {
+      "sha256": "24f6ed3fc07e1c00e50aa7ee29124bf86c8da0f76e028f4137e172d83427d9ea",
+      "size": 2904,
+      "mtime_ns": 1792843529946162100
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\models\\state_selection.py": {
+      "sha256": "1dfef7706ba36985d5ea00ebad7fe508b86fbb835232d48d119b71d08fbd8d33",
+      "size": 1648,
+      "mtime_ns": 1792844458384138200
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\models\\training.py": {
+      "sha256": "d55aa1ad78a7e424e97733610d18ed54e947ae78b32e1d80c616aec7f17c15cc",
+      "size": 18182,
+      "mtime_ns": 1792843185373934700
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\reporting\\__init__.py": {
+      "sha256": "4fd061d027fd076a1136e89d503c6c46d25a5d69a2bcef263dcfb2c6a1e87460",
+      "size": 82,
+      "mtime_ns": 1792454275011114300
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\reporting\\html.py": {
+      "sha256": "23a9877203734097a2c4e2838377f867626b0ec3b105544af6c7840446890c96",
+      "size": 12097,
+      "mtime_ns": 1792817014874510500
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\reporting\\trust.py": {
+      "sha256": "7ce4cae2a7944655b73d9e3fcda69e9056dea97d914c7ad84ae83509aaae44a2",
+      "size": 8718,
+      "mtime_ns": 1792509597222069300
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\trust\\__init__.py": {
+      "sha256": "1b86e26e73f444e5a559abcb9d7f07e8429b568a433f58d3b93676d3c8d5c1b6",
+      "size": 82,
+      "mtime_ns": 1792509597226070500
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\trust\\calibration.py": {
+      "sha256": "513e25d14493622b2552acc4ecdfac10ada723c9feb824123c6226ed24fe6be9",
+      "size": 11502,
+      "mtime_ns": 1792560519001228600
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\trust\\output.py": {
+      "sha256": "354b48b7ce0c11d0129067ce3339aee2c711eb2b02b86eecd59ed33e1ac4181b",
+      "size": 5614,
+      "mtime_ns": 1792509597236626900
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\src\\virtual_submeter\\trust\\verification.py": {
+      "sha256": "e80f9dfc902c7bf0617c85d85b35167d60a036c162266aa62b2f24d70bd6d7e2",
+      "size": 2718,
+      "mtime_ns": 1792509597240628000
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\tests\\test_microwave_task22.py": {
+      "sha256": "b3ba80038d23dc37ae6f71f2ae75ab4f415e2145b318bba92898d1b193f7f62e",
+      "size": 14284,
+      "mtime_ns": 1793018404494281800
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\authorization_template.disabled.json": {
+      "sha256": "bedf87d928b083ab56d3a28f34bfcb17fe62334d7ac25e1c25aa34b2f2ce3b51",
+      "size": 523,
+      "mtime_ns": 1793018495277205000
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\batches_1019.npz": {
+      "sha256": "98342e450915b6970e406de50ec2077eb975b454b0a58133ac1703cb91a45f13",
+      "size": 2839137,
+      "mtime_ns": 1793018410667734500
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\batches_2026.npz": {
+      "sha256": "cb33f6c9fffb8365d296222901db00e9a7c27249029475cf82b042ef20ccba86",
+      "size": 2839086,
+      "mtime_ns": 1793018412742580000
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\batches_42.npz": {
+      "sha256": "db37a049731345d73879bdccb8ec408534890f2e748dba6a17438c1e98dfc03b",
+      "size": 2838642,
+      "mtime_ns": 1793018408236222900
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\config.json": {
+      "sha256": "d9ec3a9230af1170f4d6c708e6cccb7d5d0e51062274d835724952f101141e5a",
+      "size": 493,
+      "mtime_ns": 1793018407245038600
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\data_identity.json": {
+      "sha256": "47519087f39d91775d61caaf19c584fd865108b09450d9a99d469cc5a9fae10b",
+      "size": 3714,
+      "mtime_ns": 1793018414160001100
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\exposure_1019.npz": {
+      "sha256": "c52dbe58659fd41f23682dea3ea5d180f0085317ee6da957de8c6d6e952809a2",
+      "size": 88386,
+      "mtime_ns": 1793018410729212200
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\exposure_2026.npz": {
+      "sha256": "63693ae2294ed911923a81656417ce70629a4d2852972d699e7831469d1675fa",
+      "size": 88212,
+      "mtime_ns": 1793018412803786400
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\exposure_42.npz": {
+      "sha256": "0728a92c314e22b98cf8ff789d956beb74b46bb183200cb36e08d2c32db3c0a0",
+      "size": 88194,
+      "mtime_ns": 1793018408304127700
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\finalize_microwave_task22.py": {
+      "sha256": "644a40fdc7f1df599999e3355ae4f94d6e4d50c173fbb84ffc9106a4481a8e22",
+      "size": 8112,
+      "mtime_ns": 1793018407242038000
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\future_identity.json": {
+      "sha256": "f302fdb5f29861aa5d104616198b558fdd2cfadddc97fbcec972ae09fe352ae4",
+      "size": 10329,
+      "mtime_ns": 1793018407248542200
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\independent_review.json": {
+      "sha256": "ca5965745e67ca2dfedd66fac9500ce7d499ab8514e2521d215784b23980b885",
+      "size": 444,
+      "mtime_ns": 1793018495276207400
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\initial32_1019.pt": {
+      "sha256": "279644f20bc8a3e141cb45186da1d8162df7b2539bfb35624aba3792a3a379f1",
+      "size": 84717,
+      "mtime_ns": 1793018410740866400
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\initial32_2026.pt": {
+      "sha256": "d49f30e38cc4e0b557ad4cf8345f8af64ecf28f8958628239fbfe9ec1cc154c2",
+      "size": 84717,
+      "mtime_ns": 1793018412814292300
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\initial32_42.pt": {
+      "sha256": "b7da79396d3716c9cc793cc4591b28d0b3c031d2d8a0e5dd96f460da84856845",
+      "size": 84717,
+      "mtime_ns": 1793018408324165400
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\inputs_before.json": {
+      "sha256": "29293fedf5364c411f952f09e8a4b042e7f0438d015f3aba9fa1b87917d6cc1b",
+      "size": 36881,
+      "mtime_ns": 1793018407246541900
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\parent_training_plan.json": {
+      "sha256": "16ab0bd62e33de2c0365c05cfa1b06227d7ae2404b14b4a81720895cb096ed12",
+      "size": 3252,
+      "mtime_ns": 1793018407245546400
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\preparation_manifest.json": {
+      "sha256": "f166b8838a86564581d0e3078b4a1719583d64f0b6f13bbdf8e9137d19a83b9d",
+      "size": 53489,
+      "mtime_ns": 1793018495419740100
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\PREPARATION_REPORT.zh.md": {
+      "sha256": "2f476af4b8755ac6777279d753f05b3e969ca870fb82873b6a9dbe67f2aa9d79",
+      "size": 4355,
+      "mtime_ns": 1793018495277205000
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\prepare_access.json": {
+      "sha256": "f4a0dbfce2b415189b3621acb77090be3c684f20dffe4179ba2a8d0987d27f71",
+      "size": 17136,
+      "mtime_ns": 1793018414264953800
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\protocol.md": {
+      "sha256": "bb83e40d055d08ed5c80c1babd1b771ee6d6796f42a47221966f63f7629e1724",
+      "size": 6628,
+      "mtime_ns": 1793018407244038600
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\registration.json": {
+      "sha256": "85bb7de48e8167fb043805e7f37c6ae65bee5191d026dc541b6fea02b74263ef",
+      "size": 14455,
+      "mtime_ns": 1793018415014702700
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\run_microwave_task22.py": {
+      "sha256": "b75d17ac53e1e6101fcc59b086ba57977cd97951b94a747c4411ed6a5d903055",
+      "size": 1079,
+      "mtime_ns": 1793018407241038100
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\sampling_proof.json": {
+      "sha256": "ce594bb48ccb75506649db5ff05271066345d2e8647582ef7d5b9f1557dd22f7",
+      "size": 6118,
+      "mtime_ns": 1793018413848494100
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\__init__.py": {
+      "sha256": "419bcd145f8d8226a8ea5accc99eac723c1c7009ac2e3d12f1df990cbeed91bf",
+      "size": 96,
+      "mtime_ns": 1793018407138368300
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\__main__.py": {
+      "sha256": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+      "size": 48,
+      "mtime_ns": 1793018407139362400
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\accuracy\\__init__.py": {
+      "sha256": "9050f0d31d40e8ecb8c2251872be5dd2c4d1a856366f213a11baff8c4da648b2",
+      "size": 80,
+      "mtime_ns": 1793018407140362900
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\accuracy\\baseline.py": {
+      "sha256": "2c6769d273cda4acd8bd08a732ce23dc775c8165731ea5a90be7ccc87755f6e1",
+      "size": 17952,
+      "mtime_ns": 1793018407142363300
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\accuracy\\baseline_data.py": {
+      "sha256": "9ec596cef0142564178e458dd5e97271f40f55862c96ca5c18bcba0ad8920ac3",
+      "size": 10597,
+      "mtime_ns": 1793018407143363400
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\accuracy\\data_expansion.py": {
+      "sha256": "100f48ca1e4686033230ec38ecf105752cb70cf798413acb7cc4abab662be192",
+      "size": 32069,
+      "mtime_ns": 1793018407144363600
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\accuracy\\diagnosis.py": {
+      "sha256": "e35f34a0cd3ec5dade79fc298ba36c9fea23dff5044e56749839ebab7dce8762",
+      "size": 4216,
+      "mtime_ns": 1793018407145363900
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\accuracy\\dynamic_queries.py": {
+      "sha256": "2070c04581b5989ec836e84af77e76c34809ce35e7f16d36317515992a3c30e2",
+      "size": 28499,
+      "mtime_ns": 1793018407146363200
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\accuracy\\dynamic_session.py": {
+      "sha256": "be463ae78d72be44fa9a3cd352a5f17795e5494bcdca10a9f1b997ae9f0d212c",
+      "size": 14465,
+      "mtime_ns": 1793018407148364300
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\accuracy\\final_demo.py": {
+      "sha256": "90ae4cc87a362b95431c72527296162102cb9e6de84a10f58d256889ba1f2b04",
+      "size": 4522,
+      "mtime_ns": 1793018407148364300
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\accuracy\\final_evaluation.py": {
+      "sha256": "45a59af56c6b8b470b90c4c21bb75988664260eb7f80deccea9cb1eebc336fc9",
+      "size": 34821,
+      "mtime_ns": 1793018407149871200
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\accuracy\\fixed_queries.py": {
+      "sha256": "975aa5c715d087013218d68f2af4e1896c048a854a0fc2e561cc6650c7fea204",
+      "size": 31853,
+      "mtime_ns": 1793018407150867100
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\accuracy\\learners.py": {
+      "sha256": "8aa1b6998f3d5c082a6189d65fb8de63262acbf82e7b54f19eb62bd5501e72e3",
+      "size": 14608,
+      "mtime_ns": 1793018407151867300
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\accuracy\\live.py": {
+      "sha256": "043dc953f2e9ae2be8f5717b3cd8d6c46067111bfc8c9820f88cc22db664a0c8",
+      "size": 10878,
+      "mtime_ns": 1793018407152867500
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\accuracy\\microwave_background.py": {
+      "sha256": "5e90f9b0254ec7b22f504b5580b44b26a840bc3e9ecd6a31d2d1326c6d07f2fd",
+      "size": 48120,
+      "mtime_ns": 1793018407153867900
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\accuracy\\microwave_capacity_pipeline.py": {
+      "sha256": "11fd47c00680e63574baf8b3c7618667527ccf2f4bfbd0f44587929b8546e380",
+      "size": 11931,
+      "mtime_ns": 1793018407154928800
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\accuracy\\microwave_checkpoint_ensemble.py": {
+      "sha256": "70c2b70d911aa1810c556db7eefa5b1e5700363934a531c67a029beababc4b64",
+      "size": 37681,
+      "mtime_ns": 1793018407155922000
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\accuracy\\microwave_diagnosis.py": {
+      "sha256": "68a8a0139c53f619fa645cb50c7dd0089f7cb0dc8258db1a1b5188361468c60d",
+      "size": 30633,
+      "mtime_ns": 1793018407156922200
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\accuracy\\microwave_event_gate.py": {
+      "sha256": "342c1e97707e4053c7d0b8fa438c10e48a445cc378d1fa9796e58a149ead82fd",
+      "size": 40755,
+      "mtime_ns": 1793018407158432200
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\accuracy\\microwave_expanded_guard95.py": {
+      "sha256": "17838379de35aa40cab1fe175a4a5551b00c05f5e39e14d085bbd8beade76a68",
+      "size": 56365,
+      "mtime_ns": 1793018407159427900
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\accuracy\\microwave_fullsource.py": {
+      "sha256": "2cbb9561033f2e15385ea17dbfb18004103f515781e333468cfc6157bb1f9fd5",
+      "size": 19983,
+      "mtime_ns": 1793018407160428100
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\accuracy\\microwave_fullsource_execution.py": {
+      "sha256": "cb90105a97c055f9ed04dcf683ab3d454be7beca9298f396d399a38dc9f1fcf2",
+      "size": 27800,
+      "mtime_ns": 1793018407161428400
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\accuracy\\microwave_fullsource_reporting.py": {
+      "sha256": "dec84617b55371a5d7984e3927de3854175dff50d90bf9ba10ee0a55c195eb9b",
+      "size": 475,
+      "mtime_ns": 1793018407162428500
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\accuracy\\microwave_loss_correction.py": {
+      "sha256": "01fd9e19d54ff4c4a5c5f8c4c1d7125d0287e80dcb369f5ca75045171b73436e",
+      "size": 32720,
+      "mtime_ns": 1793018407163428800
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\accuracy\\microwave_mask.py": {
+      "sha256": "c4a52362f3b2f8a52ccd2d42344567acaa7734c0f5048bc1f8deef8a22d57629",
+      "size": 20408,
+      "mtime_ns": 1793018407164429100
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\accuracy\\microwave_mask_execution.py": {
+      "sha256": "f6a3a0780b5fdbc935ff604c548ed2d59e63d765725124e500bce02a381dee9c",
+      "size": 27942,
+      "mtime_ns": 1793018407165429900
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\accuracy\\microwave_recall_guard95.py": {
+      "sha256": "ea164598b3fb995b3d37abb396083a6105a84bab55e1e2503e16fefaa53c982f",
+      "size": 30334,
+      "mtime_ns": 1793018407165940600
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\accuracy\\microwave_regression_calibration.py": {
+      "sha256": "9885a47caf6975a2d936590016da641a0cbdfe33008b0f8939ffcd9a7959c730",
+      "size": 31005,
+      "mtime_ns": 1793018407166935100
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\accuracy\\microwave_sampling.py": {
+      "sha256": "318e7674266c6293ddba554b643cdd5880554d652bb8836d2af9aab6f25ed309",
+      "size": 35026,
+      "mtime_ns": 1793018407168544800
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\accuracy\\microwave_source3_background.py": {
+      "sha256": "d03e7be2f5c002d5455235c84a1a0391302343a9902ee34ec6f9f12a473824b5",
+      "size": 21283,
+      "mtime_ns": 1793018407169055800
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\accuracy\\microwave_source3_background_execution.py": {
+      "sha256": "434e995eaaf9987092988d9518427312366775ec8ed4cfb0dd813085173001c5",
+      "size": 48562,
+      "mtime_ns": 1793018407170050600
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\accuracy\\microwave_source5_loss.py": {
+      "sha256": "844cd36e7e1b65f1bf63278b1ffc17ad4db7fb649dfbbf7d389e501e39d56581",
+      "size": 35792,
+      "mtime_ns": 1793018407171050300
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\accuracy\\microwave_source5_temporal.py": {
+      "sha256": "f3a18da24163eed4bba964969590b75b7a95e8f78448f06e10c993b220853e77",
+      "size": 15397,
+      "mtime_ns": 1793018407172051300
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\accuracy\\microwave_source5_temporal_execution.py": {
+      "sha256": "08b1c395870c07d4407c677bb69c9502346644bbb2ba89aa103b71b4074e90ca",
+      "size": 39443,
+      "mtime_ns": 1793018407174050400
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\accuracy\\microwave_task21.py": {
+      "sha256": "6933eca318f31de806522c7820993e03da9ddef6e64f2f61f62353f543effacf",
+      "size": 38634,
+      "mtime_ns": 1793018407175051500
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\accuracy\\microwave_task21_review.py": {
+      "sha256": "273fb8c028413fbafce96af7994bde4ab7264e08337f316b94eab2c7313c3ab6",
+      "size": 19032,
+      "mtime_ns": 1793018407176051200
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\accuracy\\microwave_task22.py": {
+      "sha256": "912a44a6532ef8a3219980095f704e1e596a9688261661fc502233a377ba2616",
+      "size": 16750,
+      "mtime_ns": 1793018407177051000
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\accuracy\\microwave_task22_review.py": {
+      "sha256": "b552dd8c1700968c2cbe89701eb45f027b8c4bbf6bb6a875f8a74b04c66c1407",
+      "size": 18271,
+      "mtime_ns": 1793018407178051300
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\accuracy\\microwave_tcn.py": {
+      "sha256": "9fb2f4fd02eac1ddb1c7a6fd021c1a3ed11c29ffbcb49c1e2cc70eb7a884be09",
+      "size": 22492,
+      "mtime_ns": 1793018407179051800
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\accuracy\\microwave_tcn_execution.py": {
+      "sha256": "1bb3f5de00234ff9d4f4286d668b2b139951593ec6e6a8b3d3c8fee684f71d36",
+      "size": 29329,
+      "mtime_ns": 1793018407180051700
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\accuracy\\power.py": {
+      "sha256": "6e102dd5f07de992e2911310e007e2558210dbd7544b86f15b1e43c122caa823",
+      "size": 7289,
+      "mtime_ns": 1793018407181555200
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\accuracy\\power_experiment.py": {
+      "sha256": "e7bb396d34f1b39ba212c00a4312a46520655591f8202b7bd4b6b62e72cd6204",
+      "size": 27659,
+      "mtime_ns": 1793018407182556000
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\accuracy\\precision.py": {
+      "sha256": "d76316ed76dedeef8249d148808381fc43ea5a8b2e05eef81c2c33257041ecef",
+      "size": 34166,
+      "mtime_ns": 1793018407182556000
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\accuracy\\r1.py": {
+      "sha256": "8fd2b4244f21aba695164a5771be28e070e6741f6d646bd23970184ed23d7a8c",
+      "size": 13857,
+      "mtime_ns": 1793018407184557100
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\accuracy\\r2.py": {
+      "sha256": "1b9031e74c81aeed48064abefe731b72ccbfdb880f8d77d9e924590ff6d19b6c",
+      "size": 12315,
+      "mtime_ns": 1793018407185557700
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\accuracy\\release.py": {
+      "sha256": "7fe2a3c2ee637c5f8853e060ecdbbb1281338162c50f24f964047134d55d0b32",
+      "size": 9008,
+      "mtime_ns": 1793018407186066700
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\accuracy\\report.py": {
+      "sha256": "0ae5539eab876fe0587f88ff67c17af0356ab1cc195e6e5e3fc9cc600c09f9c1",
+      "size": 6329,
+      "mtime_ns": 1793018407187062500
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\accuracy\\runner.py": {
+      "sha256": "c6fd98568f902a2450298d9b09e5fe1d1e6626679ad36cef77dc9a45686bcf34",
+      "size": 15804,
+      "mtime_ns": 1793018407188062700
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\accuracy\\state_experiment.py": {
+      "sha256": "72d2f3b8347f44b1c9637c6a2cb078c035d63c1dda76a3ecd26f6a8dca3c58f0",
+      "size": 34593,
+      "mtime_ns": 1793018407189571500
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\adaptation\\__init__.py": {
+      "sha256": "4f19fa5e72bbfc06279a2f5e41aff4229ff75f3569e5e8c404911dcdbe1f99f2",
+      "size": 74,
+      "mtime_ns": 1793018407190566900
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\adaptation\\runner.py": {
+      "sha256": "a9e75fae0ddfb699231db29dc2907abc81737f56b1ad19bae0ee8472a9747861",
+      "size": 5132,
+      "mtime_ns": 1793018407191567100
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\adaptation\\selection.py": {
+      "sha256": "78a99e6952dbd405ac9e8ebe76483a510923eaeee667bb06d98366c43f0e5b32",
+      "size": 4752,
+      "mtime_ns": 1793018407192567400
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\adaptation\\session.py": {
+      "sha256": "7acbf1677125297e3c71c04f1c68fc732c48da50f4ec5832aeb7402c0926625f",
+      "size": 8722,
+      "mtime_ns": 1793018407193078200
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\adaptation\\state.py": {
+      "sha256": "7253108de2c3db82269a56194c4820faa1f5688a9ef820c0e789325b1aceb19e",
+      "size": 4289,
+      "mtime_ns": 1793018407194071900
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\adaptation\\training.py": {
+      "sha256": "78fc6cdaedde076cc40f538e20c713610b1dfef0517902fd669402cd03beb037",
+      "size": 4670,
+      "mtime_ns": 1793018407195073500
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\adaptation\\verification.py": {
+      "sha256": "86b0afb7866ac33f36b857c0160d28b2bd782f187668d8f74c0ce6db1985a1b5",
+      "size": 3461,
+      "mtime_ns": 1793018407196341500
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\app\\__init__.py": {
+      "sha256": "4f973589f02b468ccbf5143a684f6c50bf9149c6803b3102fef85bc31fa755bd",
+      "size": 76,
+      "mtime_ns": 1793018407198339100
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\app\\charts.py": {
+      "sha256": "8f9c8876bbd8526bb73e4f6b84e23e2f30e58c1a636697eeab327609f835518d",
+      "size": 818,
+      "mtime_ns": 1793018407198339100
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\app\\confirmations.py": {
+      "sha256": "5f83b279b50d3ddbd55092cd32e41af7f1b2b5bd3df56143139d2e5515120463",
+      "size": 126,
+      "mtime_ns": 1793018407199339100
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\app\\dashboard.py": {
+      "sha256": "771ac953730546664f1dc072a68c1f04691e889552403e678bf401c6acc1250c",
+      "size": 14695,
+      "mtime_ns": 1793018407200339000
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\app\\live_confirmations.py": {
+      "sha256": "296922508d330c94424a121a1976555ec11e01bd36cbd32cb0a0410e42f77b89",
+      "size": 8111,
+      "mtime_ns": 1793018407202339700
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\app\\results.py": {
+      "sha256": "937f198bafa2bee053e7fa98da97259fdc497fbe3505110c0cbfa640b8c5933c",
+      "size": 2001,
+      "mtime_ns": 1793018407202339700
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\cli.py": {
+      "sha256": "6b579eba02e4f418bddce5ac56163e24abf85f1b3757ea5c10768445fd4faabd",
+      "size": 11368,
+      "mtime_ns": 1793018407203825500
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\config.py": {
+      "sha256": "bddaaa9c785215f39d223b1b301cb56afb9bea103dfea82c9356c5a2958c5c12",
+      "size": 4564,
+      "mtime_ns": 1793018407204820900
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\data\\__init__.py": {
+      "sha256": "2ff031feefab071288bd0d514b8c9d01539b28a18c6500af2662388590c85636",
+      "size": 77,
+      "mtime_ns": 1793018407205820200
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\data\\acquire.py": {
+      "sha256": "498e0a1812e6833c206dc02d24e12b173aa4bc95e670422fecafa4803598081a",
+      "size": 4701,
+      "mtime_ns": 1793018407207327500
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\data\\common.py": {
+      "sha256": "06b7af77b897a8d093004d82d2651af8d56d7c437536624a817d195ad2848299",
+      "size": 3234,
+      "mtime_ns": 1793018407208324100
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\data\\final_protocol.py": {
+      "sha256": "23ff7752a7ebc917ce47be255e22b33083081be097a9b99a309c6d55847a50b7",
+      "size": 7429,
+      "mtime_ns": 1793018407209324100
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\data\\oracle.py": {
+      "sha256": "88ce62ff22123737b4aab58448ea24d91983466244ef37190b746baeb61ba44d",
+      "size": 2958,
+      "mtime_ns": 1793018407210324600
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\data\\prepare.py": {
+      "sha256": "9d0befa61e1d40c5cd1f444f0ee1b90a5a6919ebd2c3fd8f4a66ae8b8cbd9ae0",
+      "size": 16188,
+      "mtime_ns": 1793018407211325000
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\data\\protocol.py": {
+      "sha256": "1ffd4b55a36ced8e0a24629cf233fc21aecf4348145715f6a39a905ceba15ef6",
+      "size": 12265,
+      "mtime_ns": 1793018407212324800
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\data\\quality.py": {
+      "sha256": "617ebd5a465a479306232a664b259c19b30cffc53655055d8882a7f94663681c",
+      "size": 2319,
+      "mtime_ns": 1793018407213325000
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\data\\ukdale.py": {
+      "sha256": "782076455a7d6425ecfe838abe80ca3fe5d823ad47bd447f01b52a77f618228e",
+      "size": 14327,
+      "mtime_ns": 1793018407214325600
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\environment.py": {
+      "sha256": "a362790e3a48034dc1d8d1015e0f9ee40aa976e42457914dba87bc33d3956354",
+      "size": 1796,
+      "mtime_ns": 1793018407215325400
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\evaluation\\__init__.py": {
+      "sha256": "3de8fba93debdfb5e92347445546a267ff033943e2f6835fddb2c3ee4a60a5ef",
+      "size": 74,
+      "mtime_ns": 1793018407216330100
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\evaluation\\metrics.py": {
+      "sha256": "c5438a42d414145ca81fbff74770c3ac684083030e47e60c68a117bfd384a455",
+      "size": 8300,
+      "mtime_ns": 1793018407217325900
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\evaluation\\runner.py": {
+      "sha256": "f20c297cc92478735ab0efa5bfe6628beaaa643f9c88f74b02935317dc3ce943",
+      "size": 4814,
+      "mtime_ns": 1793018407218327300
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\evaluation\\stress.py": {
+      "sha256": "f6d9dfa04419486f4c530184325da74358776581b302f12c6fe9374655cccaab",
+      "size": 10575,
+      "mtime_ns": 1793018407219327000
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\experiments\\__init__.py": {
+      "sha256": "fbd5c4e11e4c0d9e663f2bb38e1233e4652a239047f599283915da368509a6b9",
+      "size": 66,
+      "mtime_ns": 1793018407220328100
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\experiments\\runner.py": {
+      "sha256": "c11a582cb3d4de528c9fe7fb1193f996bdc368d11516c0b1ce95c130c1ce0400",
+      "size": 15997,
+      "mtime_ns": 1793018407221635000
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\experiments\\summary.py": {
+      "sha256": "bae3d5650bc5685b49bce78e56bdbfd599845b72c2e246edcae91df8a1093d15",
+      "size": 11667,
+      "mtime_ns": 1793018407222627700
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\models\\__init__.py": {
+      "sha256": "413be034f6ee42d6891a9c78121e10f4f132b05af10e32c64f7961cca7098d65",
+      "size": 81,
+      "mtime_ns": 1793018407223627700
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\models\\arrays.py": {
+      "sha256": "878836398d48e9a0c8eb11559df70998a57b6dfaf20501dc7bc5253277f0d7bd",
+      "size": 2655,
+      "mtime_ns": 1793018407223627700
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\models\\artifacts.py": {
+      "sha256": "8a045a54c031bc270c60b639ac89fb271566ae7001935cedba54b83c77ca0860",
+      "size": 2659,
+      "mtime_ns": 1793018407224628200
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\models\\center_mask_tcn.py": {
+      "sha256": "effb8fe56a0491bc9d1e9ee8fe4a97a87ca1bf6cb210b5b6de74c446b6f0ea2b",
+      "size": 5909,
+      "mtime_ns": 1793018407226628100
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\models\\mask_state_classifier.py": {
+      "sha256": "4fec9b36195c29bb86d90835a76f56c96e9d0b8dacb7f125629aa7498a98eeff",
+      "size": 3123,
+      "mtime_ns": 1793018407227628400
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\models\\network.py": {
+      "sha256": "1c7c9ae802075889f137ffd8c554f6634378bd4345bc990bb7f08fd183ccf774",
+      "size": 749,
+      "mtime_ns": 1793018407228628500
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\models\\prediction.py": {
+      "sha256": "29ab2270b6c578d37fc2befa2e0f2830b87e2724b2da1d49358ea9f730f7bcc9",
+      "size": 10158,
+      "mtime_ns": 1793018407229366900
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\models\\settings.py": {
+      "sha256": "171a8dc05b6e76b443440bb177cd207b669c6088819374bc7957cad3110e4aa4",
+      "size": 1703,
+      "mtime_ns": 1793018407230386300
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\models\\state_classifier.py": {
+      "sha256": "24f6ed3fc07e1c00e50aa7ee29124bf86c8da0f76e028f4137e172d83427d9ea",
+      "size": 2904,
+      "mtime_ns": 1793018407231405900
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\models\\state_selection.py": {
+      "sha256": "1dfef7706ba36985d5ea00ebad7fe508b86fbb835232d48d119b71d08fbd8d33",
+      "size": 1648,
+      "mtime_ns": 1793018407231912500
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\models\\training.py": {
+      "sha256": "d55aa1ad78a7e424e97733610d18ed54e947ae78b32e1d80c616aec7f17c15cc",
+      "size": 18182,
+      "mtime_ns": 1793018407232936200
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\reporting\\__init__.py": {
+      "sha256": "4fd061d027fd076a1136e89d503c6c46d25a5d69a2bcef263dcfb2c6a1e87460",
+      "size": 82,
+      "mtime_ns": 1793018407234471500
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\reporting\\html.py": {
+      "sha256": "23a9877203734097a2c4e2838377f867626b0ec3b105544af6c7840446890c96",
+      "size": 12097,
+      "mtime_ns": 1793018407235523500
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\reporting\\trust.py": {
+      "sha256": "7ce4cae2a7944655b73d9e3fcda69e9056dea97d914c7ad84ae83509aaae44a2",
+      "size": 8718,
+      "mtime_ns": 1793018407236538000
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\trust\\__init__.py": {
+      "sha256": "1b86e26e73f444e5a559abcb9d7f07e8429b568a433f58d3b93676d3c8d5c1b6",
+      "size": 82,
+      "mtime_ns": 1793018407237534500
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\trust\\calibration.py": {
+      "sha256": "513e25d14493622b2552acc4ecdfac10ada723c9feb824123c6226ed24fe6be9",
+      "size": 11502,
+      "mtime_ns": 1793018407238534400
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\trust\\output.py": {
+      "sha256": "354b48b7ce0c11d0129067ce3339aee2c711eb2b02b86eecd59ed33e1ac4181b",
+      "size": 5614,
+      "mtime_ns": 1793018407239534600
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source\\virtual_submeter\\trust\\verification.py": {
+      "sha256": "e80f9dfc902c7bf0617c85d85b35167d60a036c162266aa62b2f24d70bd6d7e2",
+      "size": 2718,
+      "mtime_ns": 1793018407240041400
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\source_control.json": {
+      "sha256": "9fb5ff203de7bfae5ffd8ec411e2be5a64471f5bdd215011ea5df0ca0d700f86",
+      "size": 4097,
+      "mtime_ns": 1793018407247542000
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\synthetic_live_tests.log": {
+      "sha256": "6def610a61dd74dd70ac9afa9d6ed245ca59a259937e89de3f8766a80e0ef031",
+      "size": 686,
+      "mtime_ns": 1793018467302227000
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\synthetic_snapshot_tests.log": {
+      "sha256": "0555ee5338d5fe81346c1edb2cb4f74e71336daecc3b007d831d93eeac660197",
+      "size": 686,
+      "mtime_ns": 1793018491780180300
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\test_microwave_task22.py": {
+      "sha256": "b3ba80038d23dc37ae6f71f2ae75ab4f415e2145b318bba92898d1b193f7f62e",
+      "size": 14284,
+      "mtime_ns": 1793018407243038200
+    },
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-preparation-20261026-v2\\workspace_identity.json": {
+      "sha256": "a9c01736b1bc2ed44d29bd6eaddd110407d435fbbb810663ad5ed652c8e7f273",
+      "size": 68,
+      "mtime_ns": 1793018407244038600
+    }
+  },
+  "new_fits": 0,
+  "optimizers": 0,
+  "optimizer_updates": 0,
+  "backward_calls": 0
+}

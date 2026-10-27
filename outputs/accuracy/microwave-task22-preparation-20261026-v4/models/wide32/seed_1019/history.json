@@ -1,0 +1,556 @@
+{
+  "rows": [
+    {
+      "epoch": 1,
+      "selection": {
+        "threshold": 0.22906774282455444,
+        "worst_precision": 0.15819209039548024,
+        "mean_precision": 0.16728737554153683,
+        "mean_f1": 0.2802354022443262,
+        "supported_blocks": [
+          "block_4",
+          "block_5"
+        ],
+        "limited_evidence": false,
+        "mean_recall": 0.8645927601809955,
+        "block_metrics": {
+          "block_4": {
+            "tp": 118,
+            "fp": 551,
+            "fn": 18,
+            "tn": 18440,
+            "precision": 0.17638266068759342,
+            "recall": 0.8676470588235294,
+            "f1": 0.29316770186335406,
+            "off_false_positive_rate": 0.02901374335211416,
+            "ap": 0.17114791264014032,
+            "prevalence": 0.007110367543263449,
+            "n": 19127,
+            "threshold": 0.22906774282455444
+          },
+          "block_5": {
+            "tp": 56,
+            "fp": 298,
+            "fn": 9,
+            "tn": 14861,
+            "precision": 0.15819209039548024,
+            "recall": 0.8615384615384616,
+            "f1": 0.26730310262529833,
+            "off_false_positive_rate": 0.019658288805330167,
+            "ap": 0.2916085620407889,
+            "prevalence": 0.004269574356279559,
+            "n": 15224,
+            "threshold": 0.22906774282455444
+          }
+        },
+        "epoch": 1
+      }
+    },
+    {
+      "epoch": 2,
+      "selection": {
+        "threshold": 0.1180213987827301,
+        "worst_precision": 0.225177304964539,
+        "mean_precision": 0.22877122509637737,
+        "mean_f1": 0.3644351073762838,
+        "supported_blocks": [
+          "block_4",
+          "block_5"
+        ],
+        "limited_evidence": false,
+        "mean_recall": 0.8976809954751132,
+        "block_metrics": {
+          "block_4": {
+            "tp": 127,
+            "fp": 437,
+            "fn": 9,
+            "tn": 18554,
+            "precision": 0.225177304964539,
+            "recall": 0.9338235294117647,
+            "f1": 0.3628571428571429,
+            "off_false_positive_rate": 0.02301089989995261,
+            "ap": 0.20827803434481634,
+            "prevalence": 0.007110367543263449,
+            "n": 19127,
+            "threshold": 0.1180213987827301
+          },
+          "block_5": {
+            "tp": 56,
+            "fp": 185,
+            "fn": 9,
+            "tn": 14974,
+            "precision": 0.23236514522821577,
+            "recall": 0.8615384615384616,
+            "f1": 0.3660130718954248,
+            "off_false_positive_rate": 0.012203971238208326,
+            "ap": 0.42570318353536013,
+            "prevalence": 0.004269574356279559,
+            "n": 15224,
+            "threshold": 0.1180213987827301
+          }
+        },
+        "epoch": 1
+      }
+    },
+    {
+      "epoch": 3,
+      "selection": {
+        "threshold": 0.18257012963294983,
+        "worst_precision": 0.22110552763819097,
+        "mean_precision": 0.22345598962554708,
+        "mean_f1": 0.3589955934079824,
+        "supported_blocks": [
+          "block_4",
+          "block_5"
+        ],
+        "limited_evidence": false,
+        "mean_recall": 0.9160633484162897,
+        "block_metrics": {
+          "block_4": {
+            "tp": 132,
+            "fp": 465,
+            "fn": 4,
+            "tn": 18526,
+            "precision": 0.22110552763819097,
+            "recall": 0.9705882352941176,
+            "f1": 0.3601637107776262,
+            "off_false_positive_rate": 0.0244852825022379,
+            "ap": 0.2918181922081116,
+            "prevalence": 0.007110367543263449,
+            "n": 19127,
+            "threshold": 0.18257012963294983
+          },
+          "block_5": {
+            "tp": 56,
+            "fp": 192,
+            "fn": 9,
+            "tn": 14967,
+            "precision": 0.22580645161290322,
+            "recall": 0.8615384615384616,
+            "f1": 0.35782747603833864,
+            "off_false_positive_rate": 0.012665743122897288,
+            "ap": 0.3737041396482611,
+            "prevalence": 0.004269574356279559,
+            "n": 15224,
+            "threshold": 0.18257012963294983
+          }
+        },
+        "epoch": 1
+      }
+    },
+    {
+      "epoch": 4,
+      "selection": {
+        "threshold": 0.16925765573978424,
+        "worst_precision": 0.17285531370038412,
+        "mean_precision": 0.1785329200080868,
+        "mean_f1": 0.2989807106358959,
+        "supported_blocks": [
+          "block_4",
+          "block_5"
+        ],
+        "limited_evidence": false,
+        "mean_recall": 0.9270927601809955,
+        "block_metrics": {
+          "block_4": {
+            "tp": 135,
+            "fp": 646,
+            "fn": 1,
+            "tn": 18345,
+            "precision": 0.17285531370038412,
+            "recall": 0.9926470588235294,
+            "f1": 0.29443838604143946,
+            "off_false_positive_rate": 0.03401611289558212,
+            "ap": 0.28436246662052095,
+            "prevalence": 0.007110367543263449,
+            "n": 19127,
+            "threshold": 0.16925765573978424
+          },
+          "block_5": {
+            "tp": 56,
+            "fp": 248,
+            "fn": 9,
+            "tn": 14911,
+            "precision": 0.18421052631578946,
+            "recall": 0.8615384615384616,
+            "f1": 0.3035230352303523,
+            "off_false_positive_rate": 0.016359918200409,
+            "ap": 0.30294675977832064,
+            "prevalence": 0.004269574356279559,
+            "n": 15224,
+            "threshold": 0.16925765573978424
+          }
+        },
+        "epoch": 1
+      }
+    },
+    {
+      "epoch": 5,
+      "selection": {
+        "threshold": 0.04298216104507446,
+        "worst_precision": 0.20029673590504452,
+        "mean_precision": 0.208675499735468,
+        "mean_f1": 0.3400412796697626,
+        "supported_blocks": [
+          "block_4",
+          "block_5"
+        ],
+        "limited_evidence": false,
+        "mean_recall": 0.9270927601809955,
+        "block_metrics": {
+          "block_4": {
+            "tp": 135,
+            "fp": 539,
+            "fn": 1,
+            "tn": 18452,
+            "precision": 0.20029673590504452,
+            "recall": 0.9926470588235294,
+            "f1": 0.3333333333333333,
+            "off_false_positive_rate": 0.02838186509399189,
+            "ap": 0.3656375157491858,
+            "prevalence": 0.007110367543263449,
+            "n": 19127,
+            "threshold": 0.04298216104507446
+          },
+          "block_5": {
+            "tp": 56,
+            "fp": 202,
+            "fn": 9,
+            "tn": 14957,
+            "precision": 0.21705426356589147,
+            "recall": 0.8615384615384616,
+            "f1": 0.34674922600619196,
+            "off_false_positive_rate": 0.013325417243881522,
+            "ap": 0.4074309211234939,
+            "prevalence": 0.004269574356279559,
+            "n": 15224,
+            "threshold": 0.04298216104507446
+          }
+        },
+        "epoch": 1
+      }
+    },
+    {
+      "epoch": 6,
+      "selection": {
+        "threshold": 0.011147198267281055,
+        "worst_precision": 0.15901060070671377,
+        "mean_precision": 0.18314166398972054,
+        "mean_f1": 0.30470289638698117,
+        "supported_blocks": [
+          "block_4",
+          "block_5"
+        ],
+        "limited_evidence": false,
+        "mean_recall": 0.9347850678733032,
+        "block_metrics": {
+          "block_4": {
+            "tp": 135,
+            "fp": 714,
+            "fn": 1,
+            "tn": 18277,
+            "precision": 0.15901060070671377,
+            "recall": 0.9926470588235294,
+            "f1": 0.27411167512690354,
+            "off_false_positive_rate": 0.037596756358274974,
+            "ap": 0.2656858506844818,
+            "prevalence": 0.007110367543263449,
+            "n": 19127,
+            "threshold": 0.011147198267281055
+          },
+          "block_5": {
+            "tp": 57,
+            "fp": 218,
+            "fn": 8,
+            "tn": 14941,
+            "precision": 0.20727272727272728,
+            "recall": 0.8769230769230769,
+            "f1": 0.3352941176470588,
+            "off_false_positive_rate": 0.014380895837456296,
+            "ap": 0.23423845111479702,
+            "prevalence": 0.004269574356279559,
+            "n": 15224,
+            "threshold": 0.011147198267281055
+          }
+        },
+        "epoch": 1
+      }
+    },
+    {
+      "epoch": 7,
+      "selection": {
+        "threshold": 0.005159907042980194,
+        "worst_precision": 0.15570934256055363,
+        "mean_precision": 0.16348158259526152,
+        "mean_f1": 0.2774533542230452,
+        "supported_blocks": [
+          "block_4",
+          "block_5"
+        ],
+        "limited_evidence": false,
+        "mean_recall": 0.9270927601809955,
+        "block_metrics": {
+          "block_4": {
+            "tp": 135,
+            "fp": 732,
+            "fn": 1,
+            "tn": 18259,
+            "precision": 0.15570934256055363,
+            "recall": 0.9926470588235294,
+            "f1": 0.2691924227318046,
+            "off_false_positive_rate": 0.038544573745458374,
+            "ap": 0.29178055901218247,
+            "prevalence": 0.007110367543263449,
+            "n": 19127,
+            "threshold": 0.005159907042980194
+          },
+          "block_5": {
+            "tp": 56,
+            "fp": 271,
+            "fn": 9,
+            "tn": 14888,
+            "precision": 0.1712538226299694,
+            "recall": 0.8615384615384616,
+            "f1": 0.2857142857142857,
+            "off_false_positive_rate": 0.017877168678672735,
+            "ap": 0.2371790471570087,
+            "prevalence": 0.004269574356279559,
+            "n": 15224,
+            "threshold": 0.005159907042980194
+          }
+        },
+        "epoch": 1
+      }
+    },
+    {
+      "epoch": 8,
+      "selection": {
+        "threshold": 0.007667514029890299,
+        "worst_precision": 0.1619047619047619,
+        "mean_precision": 0.16684195150452819,
+        "mean_f1": 0.2825667686889438,
+        "supported_blocks": [
+          "block_4",
+          "block_5"
+        ],
+        "limited_evidence": false,
+        "mean_recall": 0.9307692307692308,
+        "block_metrics": {
+          "block_4": {
+            "tp": 136,
+            "fp": 704,
+            "fn": 0,
+            "tn": 18287,
+            "precision": 0.1619047619047619,
+            "recall": 1.0,
+            "f1": 0.2786885245901639,
+            "off_false_positive_rate": 0.03707019114317308,
+            "ap": 0.3487441286285394,
+            "prevalence": 0.007110367543263449,
+            "n": 19127,
+            "threshold": 0.007667514029890299
+          },
+          "block_5": {
+            "tp": 56,
+            "fp": 270,
+            "fn": 9,
+            "tn": 14889,
+            "precision": 0.17177914110429449,
+            "recall": 0.8615384615384616,
+            "f1": 0.2864450127877238,
+            "off_false_positive_rate": 0.017811201266574313,
+            "ap": 0.250437623604359,
+            "prevalence": 0.004269574356279559,
+            "n": 15224,
+            "threshold": 0.007667514029890299
+          }
+        },
+        "epoch": 1
+      }
+    },
+    {
+      "epoch": 9,
+      "selection": {
+        "threshold": 0.006428726948797703,
+        "worst_precision": 0.11764705882352941,
+        "mean_precision": 0.11814556331006978,
+        "mean_f1": 0.20954621189846123,
+        "supported_blocks": [
+          "block_4",
+          "block_5"
+        ],
+        "limited_evidence": false,
+        "mean_recall": 0.9307692307692308,
+        "block_metrics": {
+          "block_4": {
+            "tp": 136,
+            "fp": 1020,
+            "fn": 0,
+            "tn": 17971,
+            "precision": 0.11764705882352941,
+            "recall": 1.0,
+            "f1": 0.21052631578947367,
+            "off_false_positive_rate": 0.053709651940392816,
+            "ap": 0.36664662300806183,
+            "prevalence": 0.007110367543263449,
+            "n": 19127,
+            "threshold": 0.006428726948797703
+          },
+          "block_5": {
+            "tp": 56,
+            "fp": 416,
+            "fn": 9,
+            "tn": 14743,
+            "precision": 0.11864406779661017,
+            "recall": 0.8615384615384616,
+            "f1": 0.2085661080074488,
+            "off_false_positive_rate": 0.027442443432944125,
+            "ap": 0.23657230379274413,
+            "prevalence": 0.004269574356279559,
+            "n": 15224,
+            "threshold": 0.006428726948797703
+          }
+        },
+        "epoch": 1
+      }
+    },
+    {
+      "epoch": 10,
+      "selection": {
+        "threshold": 0.026107147336006165,
+        "worst_precision": 0.19852941176470587,
+        "mean_precision": 0.21449104333091262,
+        "mean_f1": 0.3472593582887701,
+        "supported_blocks": [
+          "block_4",
+          "block_5"
+        ],
+        "limited_evidence": false,
+        "mean_recall": 0.9270927601809955,
+        "block_metrics": {
+          "block_4": {
+            "tp": 135,
+            "fp": 545,
+            "fn": 1,
+            "tn": 18446,
+            "precision": 0.19852941176470587,
+            "recall": 0.9926470588235294,
+            "f1": 0.33088235294117646,
+            "off_false_positive_rate": 0.028697804223053024,
+            "ap": 0.3754211022537108,
+            "prevalence": 0.007110367543263449,
+            "n": 19127,
+            "threshold": 0.026107147336006165
+          },
+          "block_5": {
+            "tp": 56,
+            "fp": 187,
+            "fn": 9,
+            "tn": 14972,
+            "precision": 0.23045267489711935,
+            "recall": 0.8615384615384616,
+            "f1": 0.36363636363636365,
+            "off_false_positive_rate": 0.012335906062405172,
+            "ap": 0.24397726774093725,
+            "prevalence": 0.004269574356279559,
+            "n": 15224,
+            "threshold": 0.026107147336006165
+          }
+        },
+        "epoch": 1
+      }
+    },
+    {
+      "epoch": 11,
+      "selection": {
+        "threshold": 0.023262236267328262,
+        "worst_precision": 0.16863905325443787,
+        "mean_precision": 0.16889664105507962,
+        "mean_f1": 0.28612005701916476,
+        "supported_blocks": [
+          "block_4",
+          "block_5"
+        ],
+        "limited_evidence": false,
+        "mean_recall": 0.9384615384615385,
+        "block_metrics": {
+          "block_4": {
+            "tp": 136,
+            "fp": 668,
+            "fn": 0,
+            "tn": 18323,
+            "precision": 0.1691542288557214,
+            "recall": 1.0,
+            "f1": 0.28936170212765955,
+            "off_false_positive_rate": 0.03517455636880628,
+            "ap": 0.3765849644293079,
+            "prevalence": 0.007110367543263449,
+            "n": 19127,
+            "threshold": 0.023262236267328262
+          },
+          "block_5": {
+            "tp": 57,
+            "fp": 281,
+            "fn": 8,
+            "tn": 14878,
+            "precision": 0.16863905325443787,
+            "recall": 0.8769230769230769,
+            "f1": 0.28287841191067,
+            "off_false_positive_rate": 0.01853684279965697,
+            "ap": 0.23665355438279315,
+            "prevalence": 0.004269574356279559,
+            "n": 15224,
+            "threshold": 0.023262236267328262
+          }
+        },
+        "epoch": 1
+      }
+    },
+    {
+      "epoch": 12,
+      "selection": {
+        "threshold": 0.24476249516010284,
+        "worst_precision": 0.24202626641651032,
+        "mean_precision": 0.276750838126288,
+        "mean_f1": 0.4226638217850427,
+        "supported_blocks": [
+          "block_4",
+          "block_5"
+        ],
+        "limited_evidence": false,
+        "mean_recall": 0.9127262443438914,
+        "block_metrics": {
+          "block_4": {
+            "tp": 129,
+            "fp": 404,
+            "fn": 7,
+            "tn": 18587,
+            "precision": 0.24202626641651032,
+            "recall": 0.9485294117647058,
+            "f1": 0.38565022421524664,
+            "off_false_positive_rate": 0.021273234690116372,
+            "ap": 0.354763711738094,
+            "prevalence": 0.007110367543263449,
+            "n": 19127,
+            "threshold": 0.24476249516010284
+          },
+          "block_5": {
+            "tp": 57,
+            "fp": 126,
+            "fn": 8,
+            "tn": 15033,
+            "precision": 0.3114754098360656,
+            "recall": 0.8769230769230769,
+            "f1": 0.4596774193548387,
+            "off_false_positive_rate": 0.008311893924401346,
+            "ap": 0.2570536629344996,
+            "prevalence": 0.004269574356279559,
+            "n": 15224,
+            "threshold": 0.24476249516010284
+          }
+        },
+        "epoch": 1
+      }
+    }
+  ]
+}

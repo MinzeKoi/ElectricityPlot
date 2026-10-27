@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "implementation": "Separate implementation; independent sampling support, all nearest reference candidates re-evaluated, scalar math.fsum on every delivered non-null pair; no reuse of main analysis helpers",
+  "pair_result": {
+    "delivered_rows": 191250,
+    "nonnull_pair_rows": 163334,
+    "independently_recomputed_unique_query_family": 13565,
+    "max_scalar_distance_abs_error": 4.440892098500626e-16
+  },
+  "duplicate_result": {
+    "full_double_channel_windows": 533565,
+    "conflict_groups": 0,
+    "elementwise_confirmations": 235
+  },
+  "synthetic_tests": 7,
+  "all_input_hash_size_mtime_unchanged": true,
+  "input_files": 48,
+  "verifier_sha256": "38489bf208ebdad01d3192e4a0e7db91c4d801c69c026d00193f5aa3ff0b7a84",
+  "new_fits": 0,
+  "optimizer_updates": 0
+}

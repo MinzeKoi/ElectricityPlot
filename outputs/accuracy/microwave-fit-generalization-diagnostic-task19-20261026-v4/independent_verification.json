@@ -1,0 +1,13 @@
+{
+  "status": "verified",
+  "model_count": 6,
+  "prediction_caches": 18,
+  "independent_group_checks": 7596,
+  "scalar_confusion_exact": true,
+  "grouped_ap_independent_max_tolerance": 2e-12,
+  "ordinary_readback": "all strict validation + first 256 and original final <=256 strict train batch; exact",
+  "partial_readback": "fixed first 256 partial train; exact",
+  "input_hash_mtime_unchanged": true,
+  "new_fits": 0,
+  "optimizer_updates": 0
+}

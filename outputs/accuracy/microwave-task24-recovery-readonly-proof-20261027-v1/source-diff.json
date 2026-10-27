@@ -1,0 +1,8 @@
+{
+  "old_registration_sha256": "5bc276ac7fce10d63be1033bee2072dee587c6253bdbaab71168b69579dbbe37",
+  "new_registration_sha256": "6d6754ee5e97ad69a619c107a2441b759048299cb2785214af01ada44b4961f7",
+  "adapter_exactly_two_whitelist_additions": true,
+  "package_python_files_equal": 106,
+  "old_adapter_sha256": "1d631116938620c7b48512b12bba25d0ce0e6755100922834941dbb3612577d1",
+  "new_adapter_sha256": "b905440e853e04377604c7af1f6d2f8c042ed4cae6a824b93bab6c49edc3f48d"
+}

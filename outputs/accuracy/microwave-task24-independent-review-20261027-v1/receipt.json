@@ -1,0 +1,204 @@
+{
+  "scope": "index and windows drafts only; overall preparation incomplete",
+  "index_exit": 0,
+  "windows_exit": 0,
+  "input_files": [
+    {
+      "path": "outputs\\accuracy\\microwave-task24-independent-review-20261027-v1\\task24_independent_review.py",
+      "bytes": 4769,
+      "sha256": "21b1a2c2a6938eaaf592456da1940a9838b7a4108332c4087bae84eaa7d4a1c0"
+    },
+    {
+      "path": "outputs\\accuracy\\microwave-task24-independent-review-20261027-v1\\task24_independent_windows.py",
+      "bytes": 3292,
+      "sha256": "2c34b40ed1e6a8b1a283b7e3bfee1460a4856c5f0b2b6f98260964d20100e744"
+    },
+    {
+      "path": "outputs\\accuracy\\microwave-task24-independent-review-20261027-v1\\seal_review.py",
+      "bytes": 2486,
+      "sha256": "750fd72c837b4f70c0bc4214a00c985b93d720e75e09c1dea8d9ffc3badc2c0e"
+    },
+    {
+      "path": "outputs\\accuracy\\microwave-task24-independent-review-20261027-v1\\index.stdout.log",
+      "bytes": 238,
+      "sha256": "5ddb78e5f799d7230a746cf6b581a88d132bf3eeab8a10610970d2ed8e565ed0"
+    },
+    {
+      "path": "outputs\\accuracy\\microwave-task24-independent-review-20261027-v1\\index.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs\\accuracy\\microwave-task24-independent-review-20261027-v1\\windows.stdout.log",
+      "bytes": 315,
+      "sha256": "6057a64da3105c8dec6ec100b3aabb4083c30a276c2ac3f1fc50ed9710b68d83"
+    },
+    {
+      "path": "outputs\\accuracy\\microwave-task24-independent-review-20261027-v1\\windows.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs\\accuracy\\microwave-task24-index-draft-20261027-v1\\source_index.npz",
+      "bytes": 3820383,
+      "sha256": "f9f19ea2cc56296536f2ba7a112768e488a667783e3b304004418123caed31c6"
+    },
+    {
+      "path": "outputs\\accuracy\\microwave-task24-index-draft-20261027-v1\\fragment_mapping.csv",
+      "bytes": 7590,
+      "sha256": "d98edf974ed203372b361070b31c342fef51515fed56a299c7adbf7dd2d9791c"
+    },
+    {
+      "path": "outputs\\accuracy\\microwave-task24-index-draft-20261027-v1\\batches_42.npz",
+      "bytes": 3109029,
+      "sha256": "9c3e25c647fab0e6ba1e5aee7215937a84ee7ccfdc021d8e64f92ac174110eb2"
+    },
+    {
+      "path": "outputs\\accuracy\\microwave-task24-index-draft-20261027-v1\\exposure_42.npz",
+      "bytes": 417751,
+      "sha256": "244c16fab37c7d45af02b233369460b94eddee085dc7fe3757ed7d3d8044ab50"
+    },
+    {
+      "path": "outputs\\accuracy\\microwave-task24-index-draft-20261027-v1\\house_exposure_42.csv",
+      "bytes": 400,
+      "sha256": "f6e522a31e27a93137cb71dc260b22d291724dea233b3fd540033dfc19e65013"
+    },
+    {
+      "path": "outputs\\accuracy\\microwave-task24-index-draft-20261027-v1\\day_exposure_42.csv",
+      "bytes": 6967,
+      "sha256": "c1bcd9cffe404b867b6220b736325de9c1e9fb78cfba0cac03f0de8ae7ea7075"
+    },
+    {
+      "path": "outputs\\accuracy\\microwave-task24-index-draft-20261027-v1\\fragment_exposure_42.csv",
+      "bytes": 10826,
+      "sha256": "289d960494b9464b9026ca90a248ad64dbc232c65117ee8c0e6aa3c165916be4"
+    },
+    {
+      "path": "outputs\\accuracy\\microwave-task24-index-draft-20261027-v1\\batches_1019.npz",
+      "bytes": 3109328,
+      "sha256": "4575cce675ebaba38b2c6629caec9182eecf37279b7cf848e3f5fb100c4f8559"
+    },
+    {
+      "path": "outputs\\accuracy\\microwave-task24-index-draft-20261027-v1\\exposure_1019.npz",
+      "bytes": 417987,
+      "sha256": "d6a3d7db235e6f8dc015f5f9e485c0a1477db6e97192e4125896d8777018e04c"
+    },
+    {
+      "path": "outputs\\accuracy\\microwave-task24-index-draft-20261027-v1\\house_exposure_1019.csv",
+      "bytes": 400,
+      "sha256": "d43791b13e65c3ba07243c8344d9ef92a2715be1b724cf7246684cbc9f6ad7a8"
+    },
+    {
+      "path": "outputs\\accuracy\\microwave-task24-index-draft-20261027-v1\\day_exposure_1019.csv",
+      "bytes": 6967,
+      "sha256": "b1f6981eaf660438110756fc8fa1508a9f0599673f4de90e9bb1d3531de932d7"
+    },
+    {
+      "path": "outputs\\accuracy\\microwave-task24-index-draft-20261027-v1\\fragment_exposure_1019.csv",
+      "bytes": 10826,
+      "sha256": "466b0d45825f88cc3a5f2c44d2d414483b9528b079cbd070eed660c3e150679b"
+    },
+    {
+      "path": "outputs\\accuracy\\microwave-task24-index-draft-20261027-v1\\batches_2026.npz",
+      "bytes": 3109124,
+      "sha256": "47c442c000ed5eedb5f0b4127a746469e6ab61000913fc5bad656bb1c3c65055"
+    },
+    {
+      "path": "outputs\\accuracy\\microwave-task24-index-draft-20261027-v1\\exposure_2026.npz",
+      "bytes": 417393,
+      "sha256": "3a1ddc6a99db269f1f8a83a19f083f31b230b9a342bfe8a3bd13a04bc1490609"
+    },
+    {
+      "path": "outputs\\accuracy\\microwave-task24-index-draft-20261027-v1\\house_exposure_2026.csv",
+      "bytes": 400,
+      "sha256": "ab62cfda1e36eaba3968ae28cd750a35a28a1189509fdf6a41916ba5d44502c2"
+    },
+    {
+      "path": "outputs\\accuracy\\microwave-task24-index-draft-20261027-v1\\day_exposure_2026.csv",
+      "bytes": 6965,
+      "sha256": "813e9e1c00061898130968ff65fb7d4775f0b05b99bc6a140e2795e5e88d0301"
+    },
+    {
+      "path": "outputs\\accuracy\\microwave-task24-index-draft-20261027-v1\\fragment_exposure_2026.csv",
+      "bytes": 10826,
+      "sha256": "06779bc54d9768d9994bdf40a6fcda3b9ad7cb5d1a4ad8b0b6b08742db793154"
+    },
+    {
+      "path": "outputs\\accuracy\\microwave-task24-windows-draft-20261027-v1\\source_train_refit_10_0.npz",
+      "bytes": 1354539,
+      "sha256": "de44fbff8704fc558ff3a069353a016fbeaa00d9b228ff0dd3d6f6aeb7cb3dc3"
+    },
+    {
+      "path": "outputs\\accuracy\\microwave-task24-windows-draft-20261027-v1\\source_train_refit_10_1.npz",
+      "bytes": 1507835,
+      "sha256": "6d3ae2f7a2180ce4ab7c5ce2e0aa5ca479c256ad613bedde38a929c946c0c771"
+    },
+    {
+      "path": "outputs\\accuracy\\microwave-task24-windows-draft-20261027-v1\\source_train_refit_12_0.npz",
+      "bytes": 1269609,
+      "sha256": "8e7ce998da8622b0cc5b0d2d025568963c02bf97ba962d63ac5967699b4f2330"
+    },
+    {
+      "path": "outputs\\accuracy\\microwave-task24-windows-draft-20261027-v1\\source_train_refit_12_1.npz",
+      "bytes": 1218837,
+      "sha256": "501faa0530ed2c4438f22752e08c8816ba008ed3c3b82ebf150d6f1f8d8150f8"
+    },
+    {
+      "path": "outputs\\accuracy\\microwave-task24-windows-draft-20261027-v1\\source_train_refit_15_0.npz",
+      "bytes": 1338781,
+      "sha256": "a24766e2d364dabb79e2c7993e1090a4a98aa0dad32585bad3724bb624bff896"
+    },
+    {
+      "path": "outputs\\accuracy\\microwave-task24-windows-draft-20261027-v1\\source_train_refit_15_1.npz",
+      "bytes": 1290892,
+      "sha256": "48f8ea82c864294e92285b01bf7f331ea04fc901e582d06ef7ebff51c455581f"
+    },
+    {
+      "path": "outputs\\accuracy\\microwave-task24-windows-draft-20261027-v1\\source_train_refit_18_0.npz",
+      "bytes": 1172549,
+      "sha256": "ffa12878ffb59d4f38d5791c51a240a76fa7306bc3a0eb3282e9c732a4b8924a"
+    },
+    {
+      "path": "outputs\\accuracy\\microwave-task24-windows-draft-20261027-v1\\source_train_refit_18_1.npz",
+      "bytes": 1286248,
+      "sha256": "e85db656982110c0fd6c7de058d885a2440b5a82dbe8b9e8ed20a668a4bf3953"
+    },
+    {
+      "path": "outputs\\accuracy\\microwave-task23-guarded-audit-20261027-v4\\input_seal.json",
+      "bytes": 22823,
+      "sha256": "0c06f5a488f7c86673a7bab1d77159630ba9303f64773f57896c4fc72235d14d"
+    },
+    {
+      "path": "outputs\\accuracy\\microwave-task23-guarded-audit-20261027-v4\\window_ids.csv",
+      "bytes": 83744274,
+      "sha256": "dfe19f10e6ee5b0e9af6c2313a9e662ba09c745753df6c4a9c48b13b5f71dc1c"
+    },
+    {
+      "path": "outputs\\accuracy\\microwave-task23-guarded-audit-20261027-v4\\independent_check.py",
+      "bytes": 7884,
+      "sha256": "5728043ed2979e8200dbfc30bd46ec93f43862929e2c6f723fa8ca690df2a120"
+    },
+    {
+      "path": "outputs\\accuracy\\microwave-source5-temporal-20261025-v2\\train.npz",
+      "bytes": 3588836,
+      "sha256": "5d8809260b1d52a6f613422644d9b38454cbe321377039926f87587c0016de7a"
+    }
+  ],
+  "limits": [
+    "House10 processed inaccessible in this session",
+    "Raw-grid recomputation uses Task23 independent_check; same underlying data",
+    "Float32 windows checked rtol=1e-6 atol=1e-5",
+    "No training, candidate inference, development or final data reads",
+    "Initial copied script run failed because root path changed; corrected and rerun with exit 0"
+  ],
+  "results": {
+    "total_centers": 1393867,
+    "on_centers": 4389,
+    "new_windows": 1057163,
+    "seeds": [
+      42,
+      1019,
+      2026
+    ]
+  }
+}

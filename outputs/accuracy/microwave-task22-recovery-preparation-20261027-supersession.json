@@ -1,0 +1,16 @@
+{
+  "status": "v1_v2_retained_superseded_do_not_authorize",
+  "reasons": [
+    "Prior development summary inherited legacy new_fits=3 and updates=10584 rather than the explicit recovery ledger.",
+    "Prior finalizer discarded unittest stderr on successful tests, leaving empty logs."
+  ],
+  "old_registrations": {
+    "microwave-task22-recovery-preparation-20261027-v1": "1d4f6299ea865819747bbe9ee73b675c7cf31019b06d589e83e7c9d459f5c779",
+    "microwave-task22-recovery-preparation-20261027-v2": "26816a16b12e3432e0acf3002178b5c56fe4984ab4be4b7678e90d563e772b58"
+  },
+  "current_registration_sha256": "30dad580c6711ff021f3607dcbf6dc0b0a73e8276aee01204869534ddaf3d0f9",
+  "current_version": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task22-recovery-preparation-20261027-v3",
+  "old_directories_modified": false,
+  "new_fits": 0,
+  "optimizer_updates": 0
+}

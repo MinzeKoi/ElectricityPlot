@@ -1,0 +1,21 @@
+{
+  "status": "recovery_prepared_reviewed_not_authorized",
+  "registration_sha256": "6d6754ee5e97ad69a619c107a2441b759048299cb2785214af01ada44b4961f7",
+  "prior_budget_sha256": "29e05d88c67d150354abf62067fd472ee5b9b9ad600ed5e66567d830c249f109",
+  "interruption_sha256": "7b34b8e91ace4996c2b3cf361abd3899fe5c336964b94244a4f2376f9eae41bb",
+  "reviews": {
+    "independent_review_1.json": "94639229e1417af27d0bbab045b1f4db8ad2798f6a0df49caadad3afd2b90675",
+    "independent_review_2.json": "cb0622caba12dba8eac53e9894cdb00cb86a4613a2a690d7807ed26038f48b3b"
+  },
+  "independent_report_sha256": "ae80b5ae0033c0da9431d04d37f0771e0500cb5eea51f970ded4453ce80aad43",
+  "readonly_proof_sha256": "4a17b5f554b26f8d5210d03898e8a6db74314a3c4e5d13815544823d9bc884a3",
+  "source_diff_sha256": "ad15bd6e15a0e7bf60a1cc942271ae125a32baeb84cdc0372ff5eb0a4e8e82a5",
+  "files": {
+    "恢复准备报告.md": "dee559f1a47103c80037d4483d466c477fab7979cdbb39ad492a46ec9d96ff28",
+    "recovery-budget-template.disabled.json": "3703fd41111daafcacc9a58a6252d63c07990afc450580431d3445a9ad59d098"
+  },
+  "prior_entry_attempts": 1,
+  "actual_fits": 0,
+  "updates": 0,
+  "recovery_authorized": false
+}

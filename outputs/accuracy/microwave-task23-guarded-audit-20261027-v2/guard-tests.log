@@ -1,0 +1,14 @@
+test_core_missing_rules (guard_tests.Tests.test_core_missing_rules) ... ok
+test_extension_second_missing (guard_tests.Tests.test_extension_second_missing) ... ok
+test_forbidden_files_and_stat (guard_tests.Tests.test_forbidden_files_and_stat) ... ok
+test_network (guard_tests.Tests.test_network) ... ok
+test_partition_and_gap (guard_tests.Tests.test_partition_and_gap) ... ok
+test_training_optimizer_backprop_model (guard_tests.Tests.test_training_optimizer_backprop_model) ... ok
+test_weighted_issue_and_gap (guard_tests.Tests.test_weighted_issue_and_gap) ... ok
+test_write_protection (guard_tests.Tests.test_write_protection) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.016s
+
+OK
+Nonzero tests: 8 OK

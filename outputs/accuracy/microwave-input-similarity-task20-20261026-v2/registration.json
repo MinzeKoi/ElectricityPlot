@@ -1,0 +1,6 @@
+{
+  "config_sha256": "4006256183cc84876e8c955b3ea06441d6489be9785979febb2500c1dfc9e793",
+  "source_sha256": "6180199156e9820ad0a16feec1e5d7c43606688cbcbf8ab388efad1e82157347",
+  "input_snapshot_sha256": "90f1775379bcb6bb6666df55762fdedea77e86ec2e270f9e493295258a66d42f",
+  "status": "rules_frozen_before_data_analysis"
+}

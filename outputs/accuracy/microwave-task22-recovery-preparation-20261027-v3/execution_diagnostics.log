@@ -1,0 +1,12 @@
+{"stage": "diagnostics", "pid": 5588, "parent_pid": 2660, "cpu_threads": 4, "OMP_NUM_THREADS": "4", "MKL_NUM_THREADS": "4"}
+{
+  "diagnostic_cells": 24,
+  "prediction_caches": 12,
+  "development_reads": 0,
+  "new_selections": 0,
+  "cpu_threads": 4,
+  "runtime": {
+    "cpu_threads": 4,
+    "bytecode_disabled": true
+  }
+}

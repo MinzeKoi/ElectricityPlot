@@ -1,0 +1,8 @@
+{
+  "stage": "diagnostics",
+  "child_pid": 2660,
+  "driver_pid": 18356,
+  "returncode": 0,
+  "log_sha256": "66473b56a7c5f66ba29f3115da872158a5e982a404dd11be3c4ee90c2f2ced94",
+  "retry_permitted": false
+}

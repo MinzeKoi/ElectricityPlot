@@ -1,0 +1,69 @@
+{
+  "parent": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4",
+  "temporal": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-temporal-20261025-v2",
+  "baseline": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\precision-20261024-v1",
+  "source": {
+    "aggregate": {
+      "path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\precision-20261024-v1\\protocol\\data\\source_validation_refit_5_0\\aggregate.csv",
+      "sha256": "b1cc0a12a37b3182164fba3d1ddcc62ba85682bed641302f859095d0dda92525"
+    },
+    "microwave": {
+      "path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\precision-20261024-v1\\protocol\\data\\source_validation_refit_5_0\\microwave.csv",
+      "sha256": "d907c7cb236c9340519722456376ba27339cc63c42db9eadf74e4db4745fcaf3"
+    }
+  },
+  "source_inputs": {
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\source_selection.json": "e4d0f855021ae85f6dfc9d31cdbd351f362a80fbf8d2d2bc791ab7a6e70ed9ec",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\registration.json": "70c531a28c9401f8ec13d4ecf8381a8e519aa7241b2a95214baa7f085a9ed43e",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\training_complete.json": "3a94ec091f0f9d47bb7a365cadeef3b8b230d2c26001b8dda4482a17a5db634f",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\identity.json": "b9c5cddc0c81489bc9ea60c3d4fe87bc6a2922bbcd7f7beeda4c5954e90faed2",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-temporal-20261025-v2\\normalization.json": "6bded76808e2480ce220ab65784f86b605c1c119a86595c1bc9d60f65c83fb26",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-temporal-20261025-v2\\source5_inputs.json": "25d1450c9c6c20c4d6d723e8873ac5e3802f34b2db1711e48214cb0532953b58",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-temporal-20261025-v2\\baseline_identity.json": "b148bb299f5ec1307f90f1e88d3d0d9c9c8d57ae4a3b8aa3cd919efbe9dc6a46",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-temporal-20261025-v2\\validation\\block_4.npz": "3b680a6c96b6ace61f747fba4025e97aa5738cd821214edcb7e0cb351f875f1a",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-temporal-20261025-v2\\validation\\block_5.npz": "7c3c78b99279a95ba76eb362c38298887d40d1236ea2fdaa02f39a2a46ab6f4f",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\precision-20261024-v1\\protocol\\data\\source_validation_refit_5_0\\aggregate.csv": "b1cc0a12a37b3182164fba3d1ddcc62ba85682bed641302f859095d0dda92525",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\precision-20261024-v1\\protocol\\data\\source_validation_refit_5_0\\microwave.csv": "d907c7cb236c9340519722456376ba27339cc63c42db9eadf74e4db4745fcaf3",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_BCE\\seed_42\\model.json": "33ea2ca10445ce9a310b7f2bad92c91fc634f4aa382c183a896b821ec63dc61e",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_BCE\\seed_42\\weights.pt": "5d72837ca4615a1f635bd3162dd0886172757582b3d4c6d97f817c982d5f9dc2",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_BCE\\seed_42\\epoch_5_block_4.npz": "a032561e1b0ca7604cb83d4bf797234bf680235b60ce809e1c28fe526fc39146",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_BCE\\seed_42\\epoch_5_block_5.npz": "b0c398661d1e9a0b9c64dcf7e0d16c6eefe093b6ec4132f157a44cdb96c59378",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\precision-20261024-v1\\models\\W50\\seed_42\\model.json": "4c4bdcd18347f41410dda15bb53a086e59b2995bce6b54ea16850ad173143583",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\precision-20261024-v1\\models\\W50\\seed_42\\weights.pt": "3ba70b4c261695d71d47972fd7acd052a1e9f213f7d58dac0681e8ad85e9321d",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\precision-20261024-v1\\predictions\\W50\\seed_42\\source_validation_refit_5_0.npz": "ce48f3da0052aacd2ad4abfc2d0c2717025ebeed6a9431fc16a46c7b91e0d6d3",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_BCE\\seed_1019\\model.json": "e89eff756404adf8e587438a1d757ab225d7f03ab9221fcc95e16aa1805e30a1",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_BCE\\seed_1019\\weights.pt": "75cbb7427dc8372144439bf034a652164e6eeb1a59d6097b426fea259f6300a7",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_BCE\\seed_1019\\epoch_12_block_4.npz": "7c65109f83bf5ee36b18dc762e536df667d159c781b6aa9aadac7c6f52929a2a",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_BCE\\seed_1019\\epoch_12_block_5.npz": "cf79c0c7220aab0b3abb2f117f0e057bc01548e00a95db289c78613ebd1eedbf",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\precision-20261024-v1\\models\\W50\\seed_1019\\model.json": "3c174dcf0db00c4ce4135447e46c7e3ba2f89c84431e7abc476f3198d2445b5f",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\precision-20261024-v1\\models\\W50\\seed_1019\\weights.pt": "4ff40d0b845ab5bd84dbcfbcf0802f26015a4bd7c0506575610199f894bb6aae",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\precision-20261024-v1\\predictions\\W50\\seed_1019\\source_validation_refit_5_0.npz": "a867890e21b1a05fe83926eca50f0e5b4be6e98bd12d769708ff5ff54302b4cc",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_BCE\\seed_2026\\model.json": "4df2a277c655487c2287f97dec58b13ba8ca52e0df888d3e06e7859be87834c6",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_BCE\\seed_2026\\weights.pt": "e89dc1a8f2ee73af3a93edfc594d5956ad7ba42575fb0d80f8fe4a68aeafa815",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_BCE\\seed_2026\\epoch_11_block_4.npz": "7fb768e917ea910acb215ab54589f55d70dad1c1f0d0460abe83e04e8d87b0ef",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\models\\unit_BCE\\seed_2026\\epoch_11_block_5.npz": "5dc504ab648959da0abe15763b5a3e7037ed1dd703e56903d315352be81a4eac",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\precision-20261024-v1\\models\\W50\\seed_2026\\model.json": "93b7740cbc2a9e7ccfed59e4172ddb680f3d42a43d8b51669ed438e6d9ed77ff",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\precision-20261024-v1\\models\\W50\\seed_2026\\weights.pt": "d75ae30c303c18a2973c4f6a559c1ba86ff1caa573d16b9790635da25362b697",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\precision-20261024-v1\\predictions\\W50\\seed_2026\\source_validation_refit_5_0.npz": "8123e19e9e8b063de5694af9afa754500ffd715a3534640416ed41a56abbc817"
+  },
+  "development_unlabeled": {
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\precision-20261024-v1\\protocol\\data\\frozen_test_refit_17_0\\aggregate.csv": "668938caa5894e713946c346fde1da8f02ad2c3cf228d827a4d84fc5beeda41b",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\precision-20261024-v1\\reference\\predictions\\seed_42\\frozen_test_refit_17_0.npz": "38b1e92e5554b5967c9a75340351fc0cf9141eb2ad6c7c20a45cb55ddcad6352",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\precision-20261024-v1\\predictions\\W50\\seed_42\\frozen_test_refit_17_0.npz": "9391262ead66858070e17c1329f2a79d6b47a0097aefa54a6b90c283eabd0b4d",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\precision-20261024-v1\\reference\\predictions\\seed_1019\\frozen_test_refit_17_0.npz": "b9a6c0015a25496ab85a8494e83fab11331be5478ffea13687152fca3f02808c",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\precision-20261024-v1\\predictions\\W50\\seed_1019\\frozen_test_refit_17_0.npz": "4c609f9744aac53cc023fd414a3fe07d4248b39970cd4d5d97313c9f5905cc48",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\precision-20261024-v1\\reference\\predictions\\seed_2026\\frozen_test_refit_17_0.npz": "817e530efc57459e73c3e1be8a89453859a28408bc205ba5306c4454aa6315ff",
+    "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\precision-20261024-v1\\predictions\\W50\\seed_2026\\frozen_test_refit_17_0.npz": "bb29ea279104f8730ec6d7ac86ca99cca0502128a9c8d99d125620befd210594"
+  },
+  "truth_cache": {
+    "path": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-loss-preparation-20261025-v4\\evaluation\\truth_once.npz",
+    "sha256": "ac48eb4afd718c1ea4348db1d54afab7a804c58676661bf7e1b1aa90a5c1e264"
+  },
+  "gate_algorithm_sha256": "342c1e97707e4053c7d0b8fa438c10e48a445cc378d1fa9796e58a149ead82fd",
+  "parent_manifest_sha256": "06be175936c2e80866211531dcdbf6aea7d03b80f6728745dc7d34c38af8a8dc",
+  "original_L": {
+    "42": 0.09719955176115036,
+    "1019": 0.11615903675556183,
+    "2026": 0.0628107488155365
+  }
+}

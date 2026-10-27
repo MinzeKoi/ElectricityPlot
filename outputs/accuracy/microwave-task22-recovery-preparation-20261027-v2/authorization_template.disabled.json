@@ -1,0 +1,17 @@
+{
+  "authorized": false,
+  "approval_origin": "human",
+  "experiment": "microwave_task22_recovery_seed2026_v1",
+  "registration_sha256": "26816a16b12e3432e0acf3002178b5c56fe4984ab4be4b7678e90d563e772b58",
+  "original_registration_sha256": "2ffd72773185d8be1372b0744729b7eb3daf8656f1dfd2097da47cb113037c53",
+  "interruption_audit_sha256": "ef575ca1ea871756cd7056ebfce9d9c2832cddb0e99fc200a55d782d2a0889a1",
+  "reused_model_identity_sha256": "960be179ee1c6e7fa030430b0537465feff25015bcea89660f37ffd3febb7741",
+  "failed_model_inventory_sha256": "1f9e589f97a2551f35ba5900f6bd782742a6a06de08e852f2d52d2509da05a63",
+  "seed": 2026,
+  "additional_new_fits": 1,
+  "maximum_updates": 3528,
+  "fresh_from_original_initial": true,
+  "human_authorization_quote": "",
+  "human_authorization_reference": "",
+  "warning": "A separate explicit human recovery authorization is required. Original Task22 budget does not authorize retry."
+}

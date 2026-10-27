@@ -1,0 +1,6 @@
+{
+  "status": "retained_failed_finalization",
+  "new_fits": 0,
+  "optimizer_updates": 0,
+  "reason": "Snapshot synthetic fixture omitted its own loaded code paths from exact whitelist. Live synthetic tests passed. No sealed preparation_manifest created. Fix uses v2; v1 retained."
+}

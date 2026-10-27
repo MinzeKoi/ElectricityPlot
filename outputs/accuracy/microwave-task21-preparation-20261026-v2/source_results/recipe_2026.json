@@ -1,0 +1,47 @@
+{
+  "seed": 2026,
+  "L": 0.00491682905703783,
+  "H": 0.03282340615987778,
+  "feasible": true,
+  "blocks": [
+    {
+      "block": "4",
+      "tp": 131,
+      "fp": 495,
+      "fn": 5,
+      "tn": 18496,
+      "n": 19127,
+      "precision": 0.20926517571884984,
+      "recall": 0.9632352941176471,
+      "f1": 0.3438320209973753,
+      "fpr": 0.026064978147543574,
+      "predicted_on": 626,
+      "degenerate": false
+    },
+    {
+      "block": "5",
+      "tp": 62,
+      "fp": 269,
+      "fn": 3,
+      "tn": 14890,
+      "n": 15224,
+      "precision": 0.18731117824773413,
+      "recall": 0.9538461538461539,
+      "f1": 0.31313131313131315,
+      "fpr": 0.01774523385447589,
+      "predicted_on": 331,
+      "degenerate": false
+    }
+  ],
+  "schema": "event_gate_recipe_v1",
+  "eligible": true,
+  "radius_samples": 15,
+  "interval_seconds": 8,
+  "parent": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task21-preparation-20261026-v2\\models\\hard_negative\\seed_2026",
+  "parent_hashes": {
+    "model.json": "ac26db50a2f6eace9d33d6bb0d9eb535636d3c2c8ab742befe3ba113908a8fbd",
+    "weights.pt": "94f2ef9b4410eb0ac30df00e05730b3c6bf967cff258139343254456ec42a3df"
+  },
+  "algorithm_sha256": "342c1e97707e4053c7d0b8fa438c10e48a445cc378d1fa9796e58a149ead82fd",
+  "score_semantics": "uncalibrated sigmoid state score"
+}

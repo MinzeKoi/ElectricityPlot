@@ -1,0 +1,24 @@
+test_authorization_valid_new_receipt_routes (test_microwave_task21.Task21Tests.test_authorization_valid_new_receipt_routes) ... ok
+test_boundaries_gap_date_house_role_and_31 (test_microwave_task21.Task21Tests.test_boundaries_gap_date_house_role_and_31) ... ok
+test_completed_directory_not_overwritten (test_microwave_task21.Task21Tests.test_completed_directory_not_overwritten) ... ok
+test_execution_auth_precedes_everything (test_microwave_task21.Task21Tests.test_execution_auth_precedes_everything) ... ok
+test_incomplete_freeze_matrix_before_truth (test_microwave_task21.Task21Tests.test_incomplete_freeze_matrix_before_truth) ... ok
+test_independent_rng_queues_and_global_rng_unchanged (test_microwave_task21.Task21Tests.test_independent_rng_queues_and_global_rng_unchanged) ... ok
+test_independent_scalar_counts_and_eight_gates (test_microwave_task21.Task21Tests.test_independent_scalar_counts_and_eight_gates) ... ok
+test_old_receipt_is_rejected (test_microwave_task21.Task21Tests.test_old_receipt_is_rejected) ... ok
+test_preparation_blocks_optimizer_backward_and_readonly_writes (test_microwave_task21.Task21Tests.test_preparation_blocks_optimizer_backward_and_readonly_writes) ... ok
+test_public_ordinary_recipe_gate_and_missing_support (test_microwave_task21.Task21Tests.test_public_ordinary_recipe_gate_and_missing_support) ... ok
+test_singleton_and_empty (test_microwave_task21.Task21Tests.test_singleton_and_empty) ... ok
+test_slots_exact_no_shuffle_and_exposure (test_microwave_task21.Task21Tests.test_slots_exact_no_shuffle_and_exposure) ... ok
+test_source_rejects_before_development_identity (test_microwave_task21.Task21Tests.test_source_rejects_before_development_identity) ... ok
+test_successful_evaluate_adapter_static_137523_points (test_microwave_task21.Task21Tests.test_successful_evaluate_adapter_static_137523_points) ... ok
+test_successful_freeze_adapter_public_api_static_matrix (test_microwave_task21.Task21Tests.test_successful_freeze_adapter_public_api_static_matrix) ... ok
+test_successful_source_adapter_no_fit (test_microwave_task21.Task21Tests.test_successful_source_adapter_no_fit) ... ok
+test_threshold_ties_missing_and_on (test_microwave_task21.Task21Tests.test_threshold_ties_missing_and_on) ... ok
+test_training_routes_sealed_indices_without_real_fit (test_microwave_task21.Task21Tests.test_training_routes_sealed_indices_without_real_fit) ... ok
+test_wrong_indices_quota_missing (test_microwave_task21.Task21Tests.test_wrong_indices_quota_missing) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 0.259s
+
+OK

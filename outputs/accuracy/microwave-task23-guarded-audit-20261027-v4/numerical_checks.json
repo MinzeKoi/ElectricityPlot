@@ -1,0 +1,12 @@
+{
+  "raw_slice_vs_normalized": "all four houses, all selected 8-second bins and both channels exactly match within 1e-7 W",
+  "timestamp_alignment": "same house, exact UTC grid",
+  "duplicate_window_ids": 0,
+  "old_admission_counts": "valid, active and complete fragment counts matched in all eight partitions",
+  "grid_index_definition": "zero-based row in selected 28-day normalized grid; not an original CSV row. A time-weighted bin may have several raw observations; no one-to-one raw row is claimed.",
+  "fit": 0,
+  "optimizer": 0,
+  "backpropagation": 0,
+  "inference": 0,
+  "downloads": 0
+}

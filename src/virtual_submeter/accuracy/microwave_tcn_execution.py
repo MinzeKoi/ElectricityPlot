@@ -51,11 +51,11 @@ def authorize(run, path, phase):
     return a
 
 
-def configure(seed, plan):
+def configure(seed, plan, *, channels=16):
     torch.set_num_threads(plan["cpu_threads"])
     torch.manual_seed(seed)
     torch.use_deterministic_algorithms(True)
-    model = CenterMaskTCN()
+    model = CenterMaskTCN(channels)
     return model, torch.optim.Adam(model.parameters(), lr=plan["learning_rate"])
 
 

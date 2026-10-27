@@ -1,0 +1,9 @@
+{"stage": "source_select", "pid": 7432, "parent_pid": 8532, "cpu_threads": 4, "OMP_NUM_THREADS": "4", "MKL_NUM_THREADS": "4"}
+{
+  "source_eligible": false,
+  "development_reads": 0,
+  "runtime": {
+    "cpu_threads": 4,
+    "bytecode_disabled": true
+  }
+}

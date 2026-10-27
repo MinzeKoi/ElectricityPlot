@@ -1,0 +1,7 @@
+{
+  "status": "incomplete_preparation_preserved_no_registration",
+  "reason": "Initial source_role assertion incorrectly expected original14d for House5. The read-only Task19 prefix has exact house5_prefix_block_0/1/2/3 roles. Preparation stopped before sampling output or any fit. Corrected role reconstruction and completed delivery use fresh v2; this directory is preserved and is not executable.",
+  "new_fits": 0,
+  "optimizer_updates": 0,
+  "replacement_delivery": "outputs/accuracy/microwave-task21-preparation-20261026-v2"
+}
