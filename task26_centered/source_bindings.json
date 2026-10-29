@@ -1,0 +1,19 @@
+{
+  "parent": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-source5-temporal-20261025-v2",
+  "sha256": {
+    "train.npz": "5d8809260b1d52a6f613422644d9b38454cbe321377039926f87587c0016de7a",
+    "normalization.json": "6bded76808e2480ce220ab65784f86b605c1c119a86595c1bc9d60f65c83fb26",
+    "plan.json": "334665bb7d7183e4966fac7029820af176ccf90047b8eb5bd38a85979ded940a",
+    "validation/block_4.npz": "3b680a6c96b6ace61f747fba4025e97aa5738cd821214edcb7e0cb351f875f1a",
+    "validation/block_5.npz": "7c3c78b99279a95ba76eb362c38298887d40d1236ea2fdaa02f39a2a46ab6f4f",
+    "sampling_42.npz": "db37a049731345d73879bdccb8ec408534890f2e748dba6a17438c1e98dfc03b",
+    "initial_42.pt": "a6e8dcc837b3c13548fda478efa1e39e4458fccaf02da6ec81e4884d646c2772",
+    "sampling_1019.npz": "98342e450915b6970e406de50ec2077eb975b454b0a58133ac1703cb91a45f13",
+    "initial_1019.pt": "3ecce023bbcad16db5d0fa3d63ab24936ae13a2ee00e9cc7d01eb28edcd3ebb3",
+    "sampling_2026.npz": "cb33f6c9fffb8365d296222901db00e9a7c27249029475cf82b042ef20ccba86",
+    "initial_2026.pt": "e7d47a36b8ef33058fbc0088aaebe7bbf4eb2a4c42f3f898658a16197165b2c8"
+  },
+  "replay": "all 3528 x 256 indices per seed exact against Task22 replay",
+  "new_fits": 0,
+  "updates": 0
+}

@@ -1,0 +1,74 @@
+{
+  "ap_rows": 18,
+  "control_gate_overlap": "unavailable: h/full timeline not in saved control source scores",
+  "overlap_rows": [
+    {
+      "block": 4,
+      "n": 19127,
+      "positives": 136,
+      "seed": 42,
+      "shared_fp": 416,
+      "task24_fp": 451,
+      "task24_only": 35,
+      "task25_fp": 474,
+      "task25_only": 58
+    },
+    {
+      "block": 5,
+      "n": 15224,
+      "positives": 65,
+      "seed": 42,
+      "shared_fp": 176,
+      "task24_fp": 184,
+      "task24_only": 8,
+      "task25_fp": 192,
+      "task25_only": 16
+    },
+    {
+      "block": 4,
+      "n": 19127,
+      "positives": 136,
+      "seed": 1019,
+      "shared_fp": 405,
+      "task24_fp": 553,
+      "task24_only": 148,
+      "task25_fp": 444,
+      "task25_only": 39
+    },
+    {
+      "block": 5,
+      "n": 15224,
+      "positives": 65,
+      "seed": 1019,
+      "shared_fp": 200,
+      "task24_fp": 241,
+      "task24_only": 41,
+      "task25_fp": 206,
+      "task25_only": 6
+    },
+    {
+      "block": 4,
+      "n": 19127,
+      "positives": 136,
+      "seed": 2026,
+      "shared_fp": 458,
+      "task24_fp": 471,
+      "task24_only": 13,
+      "task25_fp": 555,
+      "task25_only": 97
+    },
+    {
+      "block": 5,
+      "n": 15224,
+      "positives": 65,
+      "seed": 2026,
+      "shared_fp": 179,
+      "task24_fp": 201,
+      "task24_only": 22,
+      "task25_fp": 195,
+      "task25_only": 16
+    }
+  ],
+  "passed": true,
+  "tie_method": "group exact equal scores then sum precision times positive recall increment"
+}

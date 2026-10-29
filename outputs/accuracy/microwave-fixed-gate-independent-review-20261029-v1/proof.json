@@ -1,0 +1,19 @@
+{
+  "definition_sha256": "650a25fdd9acae17bb0b57ae4b6922e093bc4800880c98bf351867c89bb0ae54",
+  "diagnostic_csv_sha256": {
+    "fp_transitions.csv": "95e264a7dfe984912e86364e952c80e358c359767b7a23e90f13e6f56bb67539",
+    "gate_summary.csv": "ee44973f843bb8128c4d4e4ed5351132b1a56a02b820c7bea4578e5895cf0a78",
+    "quadrants.csv": "11b0ea2c01b400e050eb4cb53509a26baa2fcdfe6284fe9ebc7f9a3abac2af25"
+  },
+  "passed": true,
+  "prior_source_report_sha256": "d25c51c0cd8d1735c1ac22ab0906ce4eaaa5573524f688f879bc39727cf5a8cf",
+  "quadrant_rows": 96,
+  "summary_rows": 12,
+  "totals_over_six_blocks_both_models": {
+    "added_fp": 232,
+    "filtered_fp": 526,
+    "filtered_tp": 0,
+    "removed_fp": 267
+  },
+  "transition_rows": 96
+}

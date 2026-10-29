@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "reviewed_registration_sha256": "a59008deaf622bb139321e41a81cfb47f2848f4c82db7f71a4ac117240f6dadc",
+  "scope": "Independent fixed-protocol and adapter review, 19 nontraining tests and two read-only verify/report rounds",
+  "evidence": "outputs/accuracy/microwave-task25-independent-review-20261028-v1/verify_1.json, verify_2.json, report_1.json, report_2.json, v2_before.json, v2_after.json",
+  "limitations": "Tests use substituted fitting and inference; no real candidate fit or protected development data access occurred."
+}

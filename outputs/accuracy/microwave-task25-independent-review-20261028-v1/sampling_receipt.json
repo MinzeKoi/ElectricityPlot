@@ -1,0 +1,29 @@
+{
+  "scope": "sampling draft, not full implementation review",
+  "exit_code": 0,
+  "files": {
+    "outputs\\accuracy\\microwave-task25-independent-review-20261028-v1\\independent_sampling.py": "437a639e11a1e6da1820dc1047b6c5bef0a68d836578b118235f56dda2b7f7bb",
+    "outputs\\accuracy\\microwave-task25-independent-review-20261028-v1\\seal_sampling.py": "6a29fa86bd7165cf66fc1decdd22e8e31217d427fdb119173ef0662c7ee412da",
+    "outputs\\accuracy\\microwave-task25-independent-review-20261028-v1\\sampling.stdout": "3ebfd4890dcb5af79ee571d2a903e2070fdd47327bc61a5caa23ca30c728101d",
+    "outputs\\accuracy\\microwave-task25-independent-review-20261028-v1\\sampling.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "outputs\\accuracy\\microwave-task24-index-draft-20261027-v1\\source_index.npz": "f9f19ea2cc56296536f2ba7a112768e488a667783e3b304004418123caed31c6",
+    "outputs\\accuracy\\microwave-task24-index-draft-20261027-v1\\batches_42.npz": "9c3e25c647fab0e6ba1e5aee7215937a84ee7ccfdc021d8e64f92ac174110eb2",
+    "outputs\\accuracy\\microwave-task24-index-draft-20261027-v1\\batches_1019.npz": "4575cce675ebaba38b2c6629caec9182eecf37279b7cf848e3f5fb100c4f8559",
+    "outputs\\accuracy\\microwave-task24-index-draft-20261027-v1\\batches_2026.npz": "47c442c000ed5eedb5f0b4127a746469e6ab61000913fc5bad656bb1c3c65055",
+    "outputs\\accuracy\\microwave-task25-preparation-20261028-v1\\batches_42.npz": "0c7f32e2aa1e6ab82a44fabe56705243c61a14ce94873fb531daa7e3df835c5f",
+    "outputs\\accuracy\\microwave-task25-preparation-20261028-v1\\exposure_42.npz": "4bc59d344b3f0069ba833c6c47990dbeef2a9efeca6a988358a9794e322e0a0e",
+    "outputs\\accuracy\\microwave-task25-preparation-20261028-v1\\house_exposure_42.csv": "1604ee4f6e47c442ea3cb93d9a78f038a74d99497f01d13eb107a33fb913489c",
+    "outputs\\accuracy\\microwave-task25-preparation-20261028-v1\\day_exposure_42.csv": "028c108ce5884ffa388e883f4ce5788ea5c44a66561e1fae26d79726df267b68",
+    "outputs\\accuracy\\microwave-task25-preparation-20261028-v1\\fragment_exposure_42.csv": "d4ee7a788e38fbb172e5af8904e6ab18d20652b2588c285673ed4c11c52b6410",
+    "outputs\\accuracy\\microwave-task25-preparation-20261028-v1\\batches_1019.npz": "9045f491a0e03ca26111de820b4df9224d050d32b43b34187f4cc377d5c4e25f",
+    "outputs\\accuracy\\microwave-task25-preparation-20261028-v1\\exposure_1019.npz": "c396225f0913c6bbfa6be7e7e16136496cef0bb04eeccbfae37d913683c94f87",
+    "outputs\\accuracy\\microwave-task25-preparation-20261028-v1\\house_exposure_1019.csv": "f6cf60c958419717e557079779ec3fb91655e1915fb2bc1af6cbf7905ebba075",
+    "outputs\\accuracy\\microwave-task25-preparation-20261028-v1\\day_exposure_1019.csv": "00a572571801330b08e595a6a33227d4991dc8fb5fe340d5e56c76bf0fc23206",
+    "outputs\\accuracy\\microwave-task25-preparation-20261028-v1\\fragment_exposure_1019.csv": "623df737afb57f07f5c736f545fe646fd2fae63cf03255e3c9f697f6920a4d68",
+    "outputs\\accuracy\\microwave-task25-preparation-20261028-v1\\batches_2026.npz": "9a6556978fb75c8845bcf68f53b47de1985363d0f77271e1e7b64e7565aece3e",
+    "outputs\\accuracy\\microwave-task25-preparation-20261028-v1\\exposure_2026.npz": "7be5b5cbd9b7cc383172cde220ebff6e5de6174ed7a2ddada5c693e20a67f02a",
+    "outputs\\accuracy\\microwave-task25-preparation-20261028-v1\\house_exposure_2026.csv": "2c15f067d9efe26a0a970a04be554c5351d40cb32c72548dc3a63d299a19fb97",
+    "outputs\\accuracy\\microwave-task25-preparation-20261028-v1\\day_exposure_2026.csv": "6f9ef6b6dad56350c0ce901f3549c90dd4cc1ed0f7af2eb2993ab2ece6d57b70",
+    "outputs\\accuracy\\microwave-task25-preparation-20261028-v1\\fragment_exposure_2026.csv": "3111253a1de9d3757d488790d2423abf2dc894ca693a6a888a19902b34078818"
+  }
+}

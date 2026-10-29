@@ -1,0 +1,18 @@
+{
+  "status": "prepared_reviewed_budget_not_authorized",
+  "registration_sha256": "a59008deaf622bb139321e41a81cfb47f2848f4c82db7f71a4ac117240f6dadc",
+  "reviews": {
+    "independent_review_1.json": "d4b2878e8a05bf1d3bbe40dd30164e5c0231b4810cd5099e55d4695f113658da",
+    "independent_review_2.json": "9731f91a45af2330fb116c4361869df5517559b2d9bbbfdc50d6432d0410ebb3"
+  },
+  "sampling_review_sha256": "4b8b8c7ea638df1158d01decb974e1d95733d22fb4cbc486d28f913a7e493439",
+  "readonly_proof_sha256": "9006377acd6efaeeda9435abb74668f515acd6bf410cce8ba289aa5b84fb4c93",
+  "files": {
+    "准备报告.md": "d3f9fc810f5857eb01c01cd69d61366a1c10676a6d2bcc37b9950f33db45832d",
+    "budget-template.disabled.json": "b6f3893288946cb3d751068582bebdc64ae072f64962915143e6361414123e6c"
+  },
+  "actual_fits": 0,
+  "updates": 0,
+  "candidate_predictions": 0,
+  "budget_authorized": false
+}

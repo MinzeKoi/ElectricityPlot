@@ -1,0 +1,36 @@
+{
+  "registration_sha256": "a59008deaf622bb139321e41a81cfb47f2848f4c82db7f71a4ac117240f6dadc",
+  "readonly_file_count": 133,
+  "readonly_scope": "Windows ReadOnly attribute; not a security boundary",
+  "verify_passes": 2,
+  "report_passes": 2,
+  "no_budget_entry_rejections": 4,
+  "verifier_sha256": "ca6514f6a8338e92d52327d1b82b18f4397058324cd22e863e670444c45d0220",
+  "files": [
+    {
+      "name": "verify-1.json",
+      "sha256": "f4737341c34a7a6853bc63654235cf17a2b2266f9ecc30c5fbc50e51b221c0aa",
+      "bytes": 849
+    },
+    {
+      "name": "verify-2.json",
+      "sha256": "f4737341c34a7a6853bc63654235cf17a2b2266f9ecc30c5fbc50e51b221c0aa",
+      "bytes": 849
+    },
+    {
+      "name": "report-1.json",
+      "sha256": "f581f216b7f7b3c4da77a72641ecd969f1d9b33abf4800c615e209d185d3a1e5",
+      "bytes": 934
+    },
+    {
+      "name": "report-2.json",
+      "sha256": "f581f216b7f7b3c4da77a72641ecd969f1d9b33abf4800c615e209d185d3a1e5",
+      "bytes": 934
+    },
+    {
+      "name": "no-budget.log",
+      "sha256": "cf83de18d6075cec67d126ba3744ba52d14df98e78b4be3494083dc63aa1d536",
+      "bytes": 160
+    }
+  ]
+}

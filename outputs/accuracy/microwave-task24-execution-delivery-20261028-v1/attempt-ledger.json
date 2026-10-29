@@ -1,0 +1,38 @@
+{
+  "prior_entry_attempts": 1,
+  "prior_actual_fits": 0,
+  "prior_updates": 0,
+  "recovery_authorized_once": true,
+  "recovery_fits": 3,
+  "recovery_updates": 10584,
+  "control_retrains": 0,
+  "automatic_retries": 0,
+  "seeds": [
+    {
+      "seed": 42,
+      "attempted_updates": 3528,
+      "completed_updates": 3528,
+      "checkpoints": 12,
+      "positive_presentations": 56448,
+      "negative_presentations": 846720
+    },
+    {
+      "seed": 1019,
+      "attempted_updates": 3528,
+      "completed_updates": 3528,
+      "checkpoints": 12,
+      "positive_presentations": 56448,
+      "negative_presentations": 846720
+    },
+    {
+      "seed": 2026,
+      "attempted_updates": 3528,
+      "completed_updates": 3528,
+      "checkpoints": 12,
+      "positive_presentations": 56448,
+      "negative_presentations": 846720
+    }
+  ],
+  "source_selected": "control_guard95",
+  "development_stage_called": false
+}

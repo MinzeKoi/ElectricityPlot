@@ -1,0 +1,15 @@
+{
+  "phase": "source",
+  "passed": true,
+  "exit_code": 0,
+  "no_candidate_inference_in_review": true,
+  "inputs": {
+    "outputs\\accuracy\\microwave-task24-independent-review-20261027-v1\\check_source_20261028.py": "f949a0689827654057f005908715e629af6b33ec1c23b3ad1ecc0aa8993b8a72",
+    "outputs\\accuracy\\microwave-task24-independent-review-20261027-v1\\source_review_20261028.stdout": "ee42050fd5998720c150928bb663d0c42a867456fc9af2e163026968087c2537",
+    "outputs\\accuracy\\microwave-task24-independent-review-20261027-v1\\source_review_20261028.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "outputs\\accuracy\\microwave-task24-recovery-preparation-20261027-v1\\registration.json": "6d6754ee5e97ad69a619c107a2441b759048299cb2785214af01ada44b4961f7",
+    "outputs\\accuracy\\microwave-task24-recovery-preparation-20261027-v1\\training_complete.json": "753948447b9b2c7b89d1ebc17b075ebad2dc40c85793fa63da387c8ac2ac66a6",
+    "outputs\\accuracy\\microwave-task24-recovery-preparation-20261027-v1\\source_selection.json": "3d34eeb0d52d289202e76d404832c53e8ae3115dc91644bc3a3624e70d5b11b5",
+    "outputs\\accuracy\\microwave-task24-recovery-preparation-20261027-v1\\source_complete.json": "ae93b6cbdafc1ee659d101da3e1850746b0ae9d13653d2bceda15249fb4be1e7"
+  }
+}

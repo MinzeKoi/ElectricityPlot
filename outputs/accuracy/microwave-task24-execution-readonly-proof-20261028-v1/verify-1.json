@@ -1,0 +1,46 @@
+{
+  "status": "source_rejected_control_retained",
+  "prior_v4_entry_attempts": 1,
+  "prior_v4_fits": 0,
+  "recovery_fits": 3,
+  "recovery_updates": 10584,
+  "control_retrains": 0,
+  "ledger": [
+    {
+      "seed": 42,
+      "attempted_updates": 3528,
+      "completed_updates": 3528,
+      "checkpoints": 12,
+      "positive_presentations": 56448,
+      "negative_presentations": 846720
+    },
+    {
+      "seed": 1019,
+      "attempted_updates": 3528,
+      "completed_updates": 3528,
+      "checkpoints": 12,
+      "positive_presentations": 56448,
+      "negative_presentations": 846720
+    },
+    {
+      "seed": 2026,
+      "attempted_updates": 3528,
+      "completed_updates": 3528,
+      "checkpoints": 12,
+      "positive_presentations": 56448,
+      "negative_presentations": 846720
+    }
+  ],
+  "source_relative_comparison": {
+    "candidate_mean_precision": 0.2237401082289804,
+    "control_mean_precision": 0.2427475573932083,
+    "candidate_mean_f1": 0.36335779921421657,
+    "control_mean_f1": 0.3875975746515943,
+    "precision_improved_seeds": 1
+  },
+  "source_selection_sha256": "3d34eeb0d52d289202e76d404832c53e8ae3115dc91644bc3a3624e70d5b11b5",
+  "training_complete_sha256": "753948447b9b2c7b89d1ebc17b075ebad2dc40c85793fa63da387c8ac2ac66a6",
+  "development_stage_called": false,
+  "development_artifacts_present": false,
+  "scope_note": "Execution path, logs and absent artifacts only; not OS-level proof of zero reads."
+}

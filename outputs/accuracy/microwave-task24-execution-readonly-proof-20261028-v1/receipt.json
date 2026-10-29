@@ -1,0 +1,30 @@
+{
+  "verify_passes": 2,
+  "report_passes": 2,
+  "verifier_sha256": "61f67e5e208a8f9a7adccdcc9fd22bedf3af0cb95615781501c2401271c00435",
+  "source_selection_sha256": "3d34eeb0d52d289202e76d404832c53e8ae3115dc91644bc3a3624e70d5b11b5",
+  "training_complete_sha256": "753948447b9b2c7b89d1ebc17b075ebad2dc40c85793fa63da387c8ac2ac66a6",
+  "scope": "completed training ledger and source decision only; no development data",
+  "files": [
+    {
+      "name": "verify-1.json",
+      "sha256": "a3b62cd66d4f6f1c867923b784fa2582e7c3873147a5124661bb9c88bbec4083",
+      "bytes": 1488
+    },
+    {
+      "name": "verify-2.json",
+      "sha256": "a3b62cd66d4f6f1c867923b784fa2582e7c3873147a5124661bb9c88bbec4083",
+      "bytes": 1488
+    },
+    {
+      "name": "report-1.json",
+      "sha256": "85bb4134a3cc056d830431902f4eb7649a73a3b61c68b6cec8f3f071e3c53888",
+      "bytes": 1578
+    },
+    {
+      "name": "report-2.json",
+      "sha256": "85bb4134a3cc056d830431902f4eb7649a73a3b61c68b6cec8f3f071e3c53888",
+      "bytes": 1578
+    }
+  ]
+}

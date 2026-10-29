@@ -1,0 +1,33 @@
+{
+  "status": "prepared_pending_independent_review_and_budget",
+  "registration_sha256": "a59008deaf622bb139321e41a81cfb47f2848f4c82db7f71a4ac117240f6dadc",
+  "inputs_verified": 249,
+  "artifacts_verified": 132,
+  "seeds": {
+    "42": {
+      "old_positive": 37632,
+      "new_positive": 18816,
+      "negative": 846720,
+      "unique_centers": 851029,
+      "negative_slots_exact": true
+    },
+    "1019": {
+      "old_positive": 37632,
+      "new_positive": 18816,
+      "negative": 846720,
+      "unique_centers": 851029,
+      "negative_slots_exact": true
+    },
+    "2026": {
+      "old_positive": 37632,
+      "new_positive": 18816,
+      "negative": 846720,
+      "unique_centers": 851028,
+      "negative_slots_exact": true
+    }
+  },
+  "new_fits": 0,
+  "optimizer_updates": 0,
+  "candidate_predictions": 0,
+  "report_note": "Fixed Task25 grouped-positive comparison; no budget authorized."
+}

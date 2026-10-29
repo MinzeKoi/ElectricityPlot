@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "reviewed_registration_sha256": "a59008deaf622bb139321e41a81cfb47f2848f4c82db7f71a4ac117240f6dadc",
+  "scope": "Independent complete three-seed sampler replay, per-slot negative identity and all exposure summaries",
+  "evidence": "outputs/accuracy/microwave-task25-independent-review-20261028-v1/sampling_receipt.json",
+  "limitations": "The sampling evidence checks the v1 draft; all 15 relevant files were separately verified identical to this v2 registration."
+}

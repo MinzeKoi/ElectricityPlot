@@ -1,0 +1,29 @@
+{
+  "definition_sha256": "650a25fdd9acae17bb0b57ae4b6922e093bc4800880c98bf351867c89bb0ae54",
+  "inputs": {
+    "outputs\\accuracy\\microwave-task24-recovery-preparation-20261027-v1": {
+      "source_complete_sha256": "ae93b6cbdafc1ee659d101da3e1850746b0ae9d13653d2bceda15249fb4be1e7",
+      "source_selection_sha256": "3d34eeb0d52d289202e76d404832c53e8ae3115dc91644bc3a3624e70d5b11b5",
+      "scores": {
+        "scores_42_4.npz": "f706bcea80f1f491b0105cfc8dad75c0f30cc494784eb97c8fe0e73cdf15faee",
+        "scores_42_5.npz": "bb606f5b9843085a119c6c47c22ce4d94c60dcd8f6e6a227f0d869ae348168ea",
+        "scores_1019_4.npz": "dc58bbbf70077d9471b4649a43a9521d36733bc541dc43fe28a0568b73279755",
+        "scores_1019_5.npz": "595146bdec0d232485eb9cfbbf662d73c596576bef1cb14ebceec8d105c4931e",
+        "scores_2026_4.npz": "f60da9622442ee58856f89a20173c976cd7be4229d2ae5b8624aa9768721c7e2",
+        "scores_2026_5.npz": "0549d2d1e4cd4bf66e5b0d99c178a7b7789206d24dd61ed03aeb7dc3dd6c8c4c"
+      }
+    },
+    "outputs\\accuracy\\microwave-task25-preparation-20261028-v2": {
+      "source_complete_sha256": "19c7afac44a4fd990ffecac26b8252342aac9b72c2419f1461335db55ada3488",
+      "source_selection_sha256": "e96cb1c7988a77b2c314d0bcbe4674d13933f9dc36c8ada19e72db33495f1c61",
+      "scores": {
+        "scores_42_4.npz": "48ccbea728651607a1aef146c7e89992536e67c93c3853aa0c05ee33338855fd",
+        "scores_42_5.npz": "c9011619200e821fb61b1d1ec63c7ff8c2a0531469d0a14ba7e49f05181e25e9",
+        "scores_1019_4.npz": "275658f87a791d401a280812c1bb32bb43ba2823f204b1840cfc611d98e3fa44",
+        "scores_1019_5.npz": "2913801714204da47640219c8f7ebeed4321b53883a62a8e746e5df80ad793cf",
+        "scores_2026_4.npz": "28cced01da5cdb17c6d9ee8f73098ac55de52856981d401726a08cc461f45a90",
+        "scores_2026_5.npz": "f2f87f0a47e8f56db1508172ffe2d3b59d363fe5e610e1262162bd364710f0e0"
+      }
+    }
+  }
+}

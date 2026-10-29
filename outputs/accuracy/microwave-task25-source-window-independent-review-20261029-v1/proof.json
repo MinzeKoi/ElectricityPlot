@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "group_rows": 30,
+  "quantile_rows": 180,
+  "definition_sha256": "1d3858bf7513191a9bf187fb8dadabe96bfe8808a80f5a9d022531ca6b623d1b",
+  "groups_sha256": "0c766aca6e5149396cb69b9318d7ac8232ba661b5ddec886a4d8fda07045961c",
+  "quantiles_sha256": "ce3f45a33cde2720a3348ee523e33c43e29755868290d9c5da052d31e2f62739",
+  "interpretation": "source validation points and overlapping windows, not independent events"
+}

@@ -1,0 +1,27 @@
+{
+  "status": "source_failed_control_retained",
+  "training_date": "2026-10-28",
+  "source_date": "2026-10-29",
+  "source_process_exit_code": 0,
+  "source_start_receipt_recorded": false,
+  "new_fits": 3,
+  "updates": 10584,
+  "source_selected": "control_guard95",
+  "development_reads": 0,
+  "read_only_verification_passes": 2,
+  "files": {
+    "train_process.json": "52c827c3fa792d3eddd43ce8a2b1b3c37049f80e8620db4fb91545201944b7f2",
+    "train.stdout.log": "aed729d907e289c5bdd3be9bdcb61c0ca98166ce1445fe9a8376594553922961",
+    "train.stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source.stdout.log": "91487e188573609243873fd8a1e43f1b5f77c0143a8e7b9bfa61c61d63e394bf",
+    "source.stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "training_audit.json": "b2c39a9a05f6955eba11ac9d67fc0cb0477ecc4fb3aede8de3766acfda791ab6",
+    "training_audit.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "verify_execution.py": "ad266669f2095108fbdf28104399636b2a974788632bcf5322878cc0d74f8acc",
+    "verify_1.json": "71f75147e47f16aca5716980163c111d6c6497c6ed296986a88016ad0ee9ee9c",
+    "verify_1.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "verify_2.json": "71f75147e47f16aca5716980163c111d6c6497c6ed296986a88016ad0ee9ee9c",
+    "verify_2.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "执行报告.md": "a55f7af1fde8a8dcbcec4a256534a9cf23d98548364fc2d03412f2b82a91626f"
+  }
+}

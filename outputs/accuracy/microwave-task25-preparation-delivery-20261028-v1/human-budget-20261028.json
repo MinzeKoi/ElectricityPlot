@@ -1,0 +1,24 @@
+{
+  "authorized": true,
+  "approval_origin": "human",
+  "experiment": "microwave_task25_positive_share_v1",
+  "registration_sha256": "a59008deaf622bb139321e41a81cfb47f2848f4c82db7f71a4ac117240f6dadc",
+  "review_sha256": {
+    "independent_review_1.json": "d4b2878e8a05bf1d3bbe40dd30164e5c0231b4810cd5099e55d4695f113658da",
+    "independent_review_2.json": "9731f91a45af2330fb116c4361869df5517559b2d9bbbfdc50d6432d0410ebb3"
+  },
+  "additional_new_fits": 3,
+  "maximum_updates": 10584,
+  "updates_per_seed": 3528,
+  "seeds": [
+    42,
+    1019,
+    2026
+  ],
+  "control_retrains": 0,
+  "task24_retrains": 0,
+  "automatic_retry": false,
+  "human_authorization_quote": "批准 Task25 训练预算",
+  "human_authorization_reference": "本 Codex 聊天中，用户于2026-10-28就 Task25 最多3模型合计10584次更新、旧三户正例2/3、旧模型不重训、不自动重试、来源通过后按既定流程开发验收的问题明确回复“批准 Task25 训练预算”。",
+  "status": "authorized"
+}

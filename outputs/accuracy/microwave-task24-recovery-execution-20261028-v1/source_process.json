@@ -1,0 +1,8 @@
+{
+  "pid": 36900,
+  "stage": "source_select",
+  "start_utc": "2026-10-28T08:00:50.3088852Z",
+  "training_sha256": "753948447b9b2c7b89d1ebc17b075ebad2dc40c85793fa63da387c8ac2ac66a6",
+  "stdout": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task24-recovery-execution-20261028-v1\\source.stdout.log",
+  "stderr": "D:\\system position\\document\\真正的文档\\AIC\\outputs\\accuracy\\microwave-task24-recovery-execution-20261028-v1\\source.stderr.log"
+}

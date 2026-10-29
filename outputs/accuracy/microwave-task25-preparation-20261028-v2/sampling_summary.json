@@ -1,0 +1,23 @@
+{
+  "42": {
+    "old_positive": 37632,
+    "new_positive": 18816,
+    "negative": 846720,
+    "unique_centers": 851029,
+    "negative_slots_exact": true
+  },
+  "1019": {
+    "old_positive": 37632,
+    "new_positive": 18816,
+    "negative": 846720,
+    "unique_centers": 851029,
+    "negative_slots_exact": true
+  },
+  "2026": {
+    "old_positive": 37632,
+    "new_positive": 18816,
+    "negative": 846720,
+    "unique_centers": 851028,
+    "negative_slots_exact": true
+  }
+}

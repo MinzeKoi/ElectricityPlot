@@ -1,0 +1,25 @@
+{
+  "authorized": true,
+  "approval_origin": "human",
+  "experiment": "microwave_task24_multihouse_v1",
+  "registration_sha256": "6d6754ee5e97ad69a619c107a2441b759048299cb2785214af01ada44b4961f7",
+  "review_sha256": {
+    "independent_review_1.json": "94639229e1417af27d0bbab045b1f4db8ad2798f6a0df49caadad3afd2b90675",
+    "independent_review_2.json": "cb0622caba12dba8eac53e9894cdb00cb86a4613a2a690d7807ed26038f48b3b"
+  },
+  "additional_new_fits": 3,
+  "maximum_updates": 10584,
+  "updates_per_seed": 3528,
+  "seeds": [
+    42,
+    1019,
+    2026
+  ],
+  "control_retrains": 0,
+  "automatic_retry": false,
+  "human_authorization_quote": "批准",
+  "human_authorization_reference": "本 Codex 聊天中，用户于2026-10-28对一次恢复、沿用原最多3模型合计10584次更新预算且不自动重试的明确请求回复“批准”。",
+  "status": "authorized_one_recovery",
+  "budget_note": "The original approved maximum remains unspent; this is a one-time recovery request, not an additional budget.",
+  "prior_budget_sha256": "29e05d88c67d150354abf62067fd472ee5b9b9ad600ed5e66567d830c249f109"
+}
